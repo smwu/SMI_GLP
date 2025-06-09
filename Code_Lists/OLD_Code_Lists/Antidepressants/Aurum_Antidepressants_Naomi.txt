@@ -1,0 +1,428 @@
+"medcodeid"	"depression"	"Term"	"OriginalReadCode"	"CleansedReadCode"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"Release"	"EmisCodeCategoryId"
+"1008821000006112"	1	"phq9 score - feeling down or depressed or hopeless"	"EMISNQPH8"	""	1008821000006108	1008821000006112	NA	3
+"1222477019"	1	"[d]postoperative depression"	"R007z-3"	"R007z13"	82218004	136373018	NA	32
+"1231868010"	1	"puerperal depression"	"62T1"	"62T1.00"	58703003	1231868010	NA	32
+"138421012"	1	"agitated depression"	"E135"	"E135.00"	83458005	138421012	NA	32
+"142521000006110"	1	"major depression single episode, in partial remission"	"E1125"	"E112500"	70747007	117520015	NA	32
+"142541000006115"	1	"severe major depression, single episode"	"E1123"	"E112300"	251000119105	2916281014	NA	32
+"1488626018"	1	"symptoms of depression"	"1B1U"	"1B1U.00"	394924000	1488626018	NA	27
+"1488771018"	1	"postnatal depression counselling"	"6G00"	"6G00.00"	395072006	1488771018	NA	1
+"1494612017"	1	"depressive symptoms"	"1B1U-1"	"1B1U.11"	394924000	1494612017	NA	27
+"1650771000000113"	1	"suspected depression"	"1JJ"	"1JJ..00"	473126001	2956111010	NA	27
+"1680571000006118"	1	"on full dose long term treatment depression - enh serv admin"	"9kQ"	"9kQ..00"	361761000000106	681801000000113	NA	37
+"1715181000006114"	1	"moderate major depression"	"Eu326"	"Eu32600"	832007	2451016	NA	32
+"1715191000006112"	1	"severe major depression with psychotic features"	"Eu328"	"Eu32800"	73867007	122670017	NA	32
+"1715771000006112"	1	"mild major depression"	"Eu325"	"Eu32500"	87512008	145089017	NA	32
+"1715781000006110"	1	"severe major depression without psychotic features"	"Eu327"	"Eu32700"	75084000	124707013	NA	32
+"1755901000006112"	1	"[x]single major depressive episode, severe, with psychosis, psychosis in remission"	"Eu329"	"Eu32900"	755321000000106	1667601000000117	NA	32
+"1755911000006110"	1	"[x]recurrent major depressive episodes, severe, with psychosis, psychosis in remission"	"Eu32A"	"Eu32A00"	755331000000108	1667611000000115	NA	32
+"1771531000006110"	1	"antenatal depression"	"EMISNQAN25"	""	1771531000006106	1771531000006110	NA	32
+"1773563015"	1	"depression management programme"	"8BK0"	"8BK0.00"	401174001	1773563015	NA	32
+"1785881000006119"	1	"antenatal depression"	"Eu32B"	"Eu32B00"	790961000000101	1768521000000118	NA	32
+"1806431000006113"	1	"adjustment disorder with depressed mood"	"EMISNQAD51"	""	57194009	95129017	NA	32
+"1820771000006113"	1	"pcl-c - loss of interest in activities you used to enjoy: a little bit"	"JHCPC42"	""	1820771000006109	1820771000006113	NA	3
+"1820781000006111"	1	"pcl-c - loss of interest in activities you used to enjoy: moderately"	"JHCPC43"	""	1820781000006107	1820781000006111	NA	3
+"1820791000006114"	1	"pcl-c - loss of interest in activities you used to enjoy: quite a bit"	"JHCPC44"	""	1820791000006105	1820791000006114	NA	3
+"1820801000006110"	1	"pcl-c - loss of interest in activities you used to enjoy: extremely"	"JHCPC45"	""	1820801000006106	1820801000006110	NA	3
+"1821311000006112"	1	"hopelessness"	"EMISNQHO52"	""	307077003	1821311000006112	NA	27
+"1823881000006110"	1	"depression confirmed"	"EMISNQDE36"	""	1823881000006106	1823881000006110	NA	27
+"182721000006111"	1	"recurrent major depressive episodes"	"E113"	"E113.00"	268621008	401767019	NA	32
+"182771000006112"	1	"recurrent major depressive episodes, severe"	"E1133"	"E113300"	764611000000100	1696221000000111	NA	32
+"182801000006114"	1	"recurrent major depressive episodes,partial/unspec remission"	"E1135"	"E113500"	764691000000109	1696381000000115	NA	32
+"1839551000006116"	1	"phq9 total score 5-9 (mild depression)"	"EMISNQPH33"	""	1839551000006100	1839551000006116	NA	3
+"1839561000006119"	1	"phq9 total score 10-14 (moderate depression)"	"EMISNQPH34"	""	1839561000006103	1839561000006119	NA	3
+"1839571000006114"	1	"phq9 total score 15-19 (moderately severe depression)"	"EMISNQPH35"	""	1839571000006105	1839571000006114	NA	3
+"1839581000006112"	1	"phq9 total score 20-27 (severe depression)"	"EMISNQPH36"	""	1839581000006108	1839581000006112	NA	3
+"1956431000006111"	1	"keele enhance trial - anxiety/depression"	"EMISNQKE196"	""	1956431000006107	1956431000006111	NA	37
+"1956441000006118"	1	"keele enhance trial - anxiety/depression advice"	"EMISNQKE197"	""	1956441000006102	1956441000006118	NA	37
+"1956481000006112"	1	"keele enhance trial - anxiety/depression verbal advice - alcohol"	"EMISNQKE200"	""	1956481000006108	1956481000006112	NA	37
+"1956491000006110"	1	"keele enhance trial-anxiety/depresn verbal advice-managing mood"	"EMISNQKE201"	""	1956491000006106	1956491000006110	NA	37
+"1956501000006119"	1	"keele enhance trial-anxiety/depression verbal advice-sleep habit"	"EMISNQKE202"	""	1956501000006103	1956501000006119	NA	37
+"1956531000006110"	1	"keele enhance trial- anxiety/depression written advice - alcohol"	"EMISNQKE205"	""	1956531000006106	1956531000006110	NA	37
+"1956541000006117"	1	"keele enhance trial-anxiety/depresn written advice-managing mood"	"EMISNQKE206"	""	1956541000006101	1956541000006117	NA	37
+"1956561000006118"	1	"keele enhance trial - anxiety/depression - no f/up appt needed"	"EMISNQKE208"	""	1956561000006102	1956561000006118	NA	37
+"1956571000006113"	1	"keele enhance trial- anxiety/depression- f/up nurse appt advised"	"EMISNQKE209"	""	1956571000006109	1956571000006113	NA	37
+"1956581000006111"	1	"keele enhance trial- anxiety/depression - f/up nurse appt booked"	"EMISNQKE210"	""	1956581000006107	1956581000006111	NA	37
+"1956591000006114"	1	"keele enhance trial - anxiety/depression - f/up gp appt advised"	"EMISNQKE211"	""	1956591000006105	1956591000006114	NA	37
+"1956601000006118"	1	"keele enhance trial - anxiety/depression - f/up gp appt booked"	"EMISNQKE212"	""	1956601000006102	1956601000006118	NA	37
+"1956621000006111"	1	"keele enhance trial-anxiety/depression- immediate advice from gp"	"EMISNQKE213"	""	1956621000006107	1956621000006111	NA	37
+"1962471000006118"	1	"reason for referral: maternal mood problems"	"EMISNQRE547"	""	1962471000006102	1962471000006118	NA	40
+"1972071000006118"	1	"unspecified dementia, other symptoms, predominantly depressive"	"EMISICD10|F03X3"	""	1972071000006102	1972071000006118	NA	32
+"1972131000006115"	1	"dementia in alzheimer's disease with early onset, other symptoms, predominantly depressive"	"EMISICD10|F0003"	""	1972131000006104	1972131000006115	NA	32
+"1972201000006118"	1	"dementia in alzheimer's disease with late onset, other symptoms, predominantly depressive"	"EMISICD10|F0013"	""	1972201000006102	1972201000006118	NA	32
+"1972311000006112"	1	"dementia in alzheimer's dis, atypical or mixed type, other symptoms, predominantly depressive"	"EMISICD10|F0023"	""	1972311000006108	1972311000006112	NA	32
+"1972451000006118"	1	"dementia in alzheimer's disease, unspecified, other symptoms, predominantly depressive"	"EMISICD10|F0093"	""	1972451000006102	1972451000006118	NA	32
+"1972541000006119"	1	"vascular dementia of acute onset, other symptoms, predominantly depressive"	"EMISICD10|F0103"	""	1972541000006103	1972541000006119	NA	32
+"1972661000006119"	1	"multi-infarct dementia, other symptoms, predominantly depressive"	"EMISICD10|F0113"	""	1972661000006103	1972661000006119	NA	32
+"1972771000006116"	1	"subcortical vascular dementia, other symptoms, predominantly depressive"	"EMISICD10|F0123"	""	1972771000006100	1972771000006116	NA	32
+"1972911000006111"	1	"mixed cortical and subcortical vascular dementia, other symptoms, predominantly depressive"	"EMISICD10|F0133"	""	1972911000006107	1972911000006111	NA	32
+"1973381000006112"	1	"other vascular dementia, other symptoms, predominantly depressive"	"EMISICD10|F0183"	""	1973381000006108	1973381000006112	NA	32
+"1973551000006112"	1	"vascular dementia, unspecified, other symptoms, predominantly depressive"	"EMISICD10|F0193"	""	1973551000006108	1973551000006112	NA	32
+"1975191000006114"	1	"post-schizophrenic depression, continuous"	"EMISICD10|F2040"	""	1975191000006105	1975191000006114	NA	32
+"1975211000006110"	1	"post-schizophrenic depression, episodic with progressive deficit"	"EMISICD10|F2041"	""	1975211000006106	1975211000006110	NA	32
+"1975231000006116"	1	"post-schizophrenic depression, episodic with stable deficit"	"EMISICD10|F2042"	""	1975231000006100	1975231000006116	NA	32
+"1975261000006113"	1	"post-schizophrenic depression, episodic remittent"	"EMISICD10|F2043"	""	1975261000006109	1975261000006113	NA	32
+"1975281000006115"	1	"post-schizophrenic depression, incomplete remission"	"EMISICD10|F2044"	""	1975281000006104	1975281000006115	NA	32
+"1975301000006116"	1	"post-schizophrenic depression, complete remission"	"EMISICD10|F2045"	""	1975301000006100	1975301000006116	NA	32
+"1975321000006114"	1	"post-schizophrenic depression, course uncertain, period of observation too short"	"EMISICD10|F2049"	""	1975321000006105	1975321000006114	NA	32
+"1975981000006114"	1	"mild depressive episode, without somatic syndrome"	"EMISICD10|F3200"	""	1975981000006105	1975981000006114	NA	32
+"1975991000006112"	1	"mild depressive episode, with somatic syndrome"	"EMISICD10|F3201"	""	1975991000006108	1975991000006112	NA	32
+"1976021000006115"	1	"moderate depressive episode, without somatic syndrome"	"EMISICD10|F3210"	""	1976021000006104	1976021000006115	NA	32
+"1976051000006112"	1	"moderate depressive episode, with somatic syndrome"	"EMISICD10|F3211"	""	1976051000006108	1976051000006112	NA	32
+"1976211000006116"	1	"recurrent depressive disorder, current episode mild, without somatic syndrome"	"EMISICD10|F3300"	""	1976211000006100	1976211000006116	NA	32
+"1976231000006110"	1	"recurrent depressive disorder, current episode mild, with somatic syndrome"	"EMISICD10|F3301"	""	1976231000006106	1976231000006110	NA	32
+"1976251000006115"	1	"recurrent depressive disorder, current episode moderate, without somatic syndrome"	"EMISICD10|F3310"	""	1976251000006104	1976251000006115	NA	32
+"1976271000006113"	1	"recurrent depressive disorder, current episode moderate, with somatic syndrome"	"EMISICD10|F3311"	""	1976271000006109	1976271000006113	NA	32
+"1976411000006115"	1	"other recurrent mood affective disorders, recurrent brief depressive disorder"	"EMISICD10|F3810"	""	1976411000006104	1976411000006115	NA	32
+"1976491000006113"	1	"mixed anxiety and depressive reaction"	"EMISICD10|F4322"	""	1976491000006109	1976491000006113	NA	32
+"1976921000006116"	1	"post-schizophrenic depression, other"	"EMISICD10|F2048"	""	1976921000006100	1976921000006116	NA	32
+"1995011000006112"	1	"honos (health of the nation outcome scales) for working age adults rating scale 7 - problems with depressed mood"	"EMISNQHO152"	""	979581000000105	2491201000000111	NA	32
+"2017961000006113"	1	"keele include study - anxiety/depression"	"EMISNQKE301"	""	2017961000006109	2017961000006113	NA	37
+"2019001000006116"	1	"keele start msk score - anxious or low mood because of pain"	"EMISNQKE306"	""	2019001000006100	2019001000006116	NA	37
+"202561000006114"	1	"prolonged depressive adjustment reaction"	"E291"	"E291.00"	192049004	295495012	NA	32
+"213641000000111"	1	"[x]mild depression"	"Eu324"	"Eu32400"	310495003	213641000000111	NA	32
+"2164005017"	1	"depressed mood"	"1BT"	"1BT..00"	366979004	490537016	NA	27
+"2164009011"	1	"low mood"	"1BT-1"	"1BT..11"	366979004	490537016	NA	27
+"223651000000118"	1	"postpartum depression"	"E204-1"	"E204.11"	58703003	97552012	NA	32
+"223741000000112"	1	"severe depression"	"Eu322-2"	"Eu32212"	310497006	454084010	NA	32
+"226411000000110"	1	"depression enhanced services administration"	"9k4"	"9k4..00"	166291000000108	1154541000000116	NA	37
+"226581000000119"	1	"depression enhanced service completed"	"9k40"	"9k40.00"	166481000000107	1154701000000110	NA	37
+"2370061000000111"	1	"referral for depression self-help video"	"8HHq0"	"8HHq000"	923921000000104	2370061000000111	NA	40
+"2391541000000115"	1	"referral for guided self-help for depression declined"	"8IH52"	"8IH5200"	933441000000101	2391541000000115	NA	32
+"2474715017"	1	"on depression register"	"9HA0"	"9HA0.00"	413169006	2474715017	NA	37
+"251629019"	1	"h/o: depression"	"1465"	"1465.00"	161469008	251629019	NA	32
+"2533375017"	1	"patient given advice about management of depression"	"8CAa"	"8CAa.00"	415044007	2533375017	NA	32
+"2534091015"	1	"depression interim review"	"9H92"	"9H92.00"	413973005	2534091015	NA	37
+"2534092010"	1	"depression medication review"	"9H91"	"9H91.00"	413974004	2534092010	NA	37
+"2534096013"	1	"depression annual review"	"9H90"	"9H90.00"	413972000	2534096013	NA	37
+"2548573012"	1	"loss of interest in previously enjoyable activity"	"1BP0"	"1BP0.00"	417523004	2548573012	NA	27
+"2659601000000116"	1	"signposting to depression self-help group"	"ESCTSI25"	""	1057351000000106	2659601000000116	NA	32
+"294081000000110"	1	"exception reporting - depression quality indicators"	"9hC"	"9hC..00"	716111000000102	1568671000000117	NA	37
+"294621000000118"	1	"depression resolved"	"212S"	"212S.00"	196381000000100	294621000000118	NA	27
+"294642013"	1	"presenile dementia with depression"	"E0013"	"E001300"	191455000	294642013	NA	32
+"294644014"	1	"senile dementia with depressive or paranoid features"	"E002"	"E002.00"	191457008	294644014	NA	32
+"294646011"	1	"senile dementia with depression"	"E0021"	"E002100"	191459006	294646011	NA	32
+"294647019"	1	"senile dementia with depressive or paranoid features nos"	"E002z"	"E002z00"	191457008	294644014	NA	32
+"294655014"	1	"arteriosclerotic dementia with depression"	"E0043"	"E004300"	191466007	294655014	NA	32
+"294824018"	1	"single major depressive episode, unspecified"	"E1120"	"E112000"	36923009	61590015	NA	32
+"294825017"	1	"mild major depression, single episode"	"E1121"	"E112100"	79298009	131561018	NA	32
+"294826016"	1	"moderate major depression, single episode"	"E1122"	"E112200"	15639000	26507014	NA	32
+"294828015"	1	"single major depressive episode, severe, with psychosis"	"E1124"	"E112400"	191604000	294828015	NA	32
+"294831019"	1	"single episode of major depression in full remission"	"E1126"	"E112600"	19527009	3304522019	NA	32
+"294832014"	1	"single major depressive episode nos"	"E112z"	"E112z00"	36923009	61590015	NA	32
+"294836012"	1	"recurrent major depressive episodes, unspecified"	"E1130"	"E113000"	268621008	401767019	NA	32
+"294837015"	1	"recurrent major depressive episodes, mild"	"E1131"	"E113100"	191610000	294837015	NA	32
+"294838013"	1	"recurrent major depressive episodes, moderate"	"E1132"	"E113200"	191611001	294838013	NA	32
+"294840015"	1	"recurrent major depressive episodes, severe, with psychosis"	"E1134"	"E113400"	191613003	294840015	NA	32
+"294843018"	1	"recurrent major depression in full remission"	"E1136"	"E113600"	46244001	3304524018	NA	32
+"294844012"	1	"recurrent depression"	"E1137"	"E113700"	191616006	294844012	NA	32
+"294845013"	1	"recurrent major depressive episode nos"	"E113z"	"E113z00"	268621008	401767019	NA	32
+"294894013"	1	"atypical depressive disorder"	"E11y2"	"E11y200"	191659001	294894013	NA	32
+"294917018"	1	"reactive depressive psychosis"	"E130"	"E130.00"	191676002	294917018	NA	32
+"294918011"	1	"psychotic reactive depression"	"E130-1"	"E130.11"	191676002	294918011	NA	32
+"295494011"	1	"brief depressive reaction nos"	"E290z"	"E290z00"	192046006	295490019	NA	32
+"295535012"	1	"depressive disorder"	"E2B"	"E2B..00"	35489007	59212011	NA	32
+"295536013"	1	"postviral depression"	"E2B0"	"E2B0.00"	192079006	295536013	NA	32
+"295537016"	1	"chronic depression"	"E2B1"	"E2B1.00"	192080009	295537016	NA	32
+"296137015"	1	"mild depression"	"Eu320"	"Eu32000"	310495003	454082014	NA	32
+"296138013"	1	"[x]moderate depressive episode"	"Eu321"	"Eu32100"	310496002	454083016	NA	32
+"296180012"	1	"[x]recurrent depressive disorder, current episode mild"	"Eu330"	"Eu33000"	310495003	454082014	NA	32
+"296181011"	1	"[x]recurrent depressive disorder, current episode moderate"	"Eu331"	"Eu33100"	310496002	454083016	NA	32
+"296198011"	1	"[x]recurrent depressive disorder, currently in remission"	"Eu334"	"Eu33400"	698957003	2981573016	NA	32
+"296199015"	1	"[x]other recurrent depressive disorders"	"Eu33y"	"Eu33y00"	191616006	294844012	NA	32
+"300711000000119"	1	"referral for guided self-help for depression"	"8HHq"	"8HHq.00"	199111000000100	300711000000119	NA	40
+"346972018"	1	"endogenous depression first episode"	"E112-3"	"E112.13"	231499006	346972018	NA	32
+"346973011"	1	"masked depression"	"E11z2"	"E11z200"	231500002	346973011	NA	32
+"359121000006116"	1	"reactive depression"	"Eu32z-4"	"Eu32z14"	87414006	2951871015	NA	32
+"366561000006119"	1	"[x]atypical depression"	"Eu32y-1"	"Eu32y11"	191659001	294894013	NA	32
+"369915018"	1	"loss of interest"	"1BP"	"1BP..00"	247753000	369915018	NA	27
+"369972011"	1	"loss of capacity for enjoyment"	"1BQ"	"1BQ..00"	247796005	369972011	NA	27
+"369974012"	1	"feeling hopeless"	"1BU"	"1BU..00"	307077003	450255017	NA	27
+"369982012"	1	"seasonal affective disorder"	"E118"	"E118.00"	247803002	369982012	NA	32
+"376691000006116"	1	"depression"	"Eu32z-1"	"Eu32z11"	35489007	486184015	NA	32
+"376701000006116"	1	"[x]depressive conduct disorder"	"Eu920"	"Eu92000"	231542000	347030014	NA	32
+"376711000006118"	1	"[x]depressive disorder nos"	"Eu32z-2"	"Eu32z12"	35489007	486185019	NA	32
+"376721000006114"	1	"depressive episode"	"Eu32"	"Eu32.00"	35489007	486185019	NA	32
+"376741000006119"	1	"[x]depressive neurosis"	"Eu341-1"	"Eu34111"	78667006	130534012	NA	32
+"376751000006117"	1	"depressive personality disorder"	"Eu341-2"	"Eu34112"	1084061000000106	2716551000000112	NA	32
+"379771000006116"	1	"[x]endogenous depression with psychotic symptoms"	"Eu333-1"	"Eu33311"	73867007	122670017	NA	32
+"379781000006118"	1	"[x]endogenous depression without psychotic symptoms"	"Eu332-1"	"Eu33211"	300706003	441826016	NA	32
+"396081000006116"	1	"[x]major depression, recurrent without psychotic symptoms"	"Eu332-2"	"Eu33212"	268621008	401767019	NA	32
+"398351000006110"	1	"[x]mild anxiety depression"	"Eu412-1"	"Eu41211"	231504006	346979010	NA	32
+"398561000006117"	1	"[x]mixed anxiety and depressive disorder"	"Eu412"	"Eu41200"	231504006	346979010	NA	32
+"398841000006119"	1	"[x]monopolar depression nos"	"Eu33z-1"	"Eu33z11"	35489007	59212011	NA	32
+"399961000006118"	1	"depressive neurosis"	"Eu341-3"	"Eu34113"	78667006	130534012	NA	32
+"401766011"	1	"major depression, single episode"	"E112"	"E112.00"	36923009	61590015	NA	32
+"401866015"	1	"[x]severe depressive episode without psychotic symptoms"	"Eu322"	"Eu32200"	310497006	454084010	NA	32
+"401869010"	1	"[x]severe depressive episode with psychotic symptoms"	"Eu323"	"Eu32300"	191604000	294828015	NA	32
+"401871010"	1	"[x]other depressive episodes"	"Eu32y"	"Eu32y00"	35489007	59212011	NA	32
+"401872015"	1	"[x]depressive episode, unspecified"	"Eu32z"	"Eu32z00"	35489007	486185019	NA	32
+"401873013"	1	"[x]recurrent depressive disorder"	"Eu33"	"Eu33.00"	191616006	294844012	NA	32
+"401876017"	1	"[x]recurrent depressive disorder, unspecified"	"Eu33z"	"Eu33z00"	191616006	294844012	NA	32
+"406881000000111"	1	"depression monitoring administration"	"9Ov"	"9Ov..00"	713831000000108	1565071000000118	NA	37
+"407066012"	1	"c/o - feeling unhappy"	"1B17-2"	"1B17.12"	272024005	407066012	NA	27
+"408521000000112"	1	"depression monitoring first letter"	"9Ov0"	"9Ov0.00"	717211000000107	1569751000000114	NA	37
+"408541000000117"	1	"depression monitoring second letter"	"9Ov1"	"9Ov1.00"	716681000000100	1569231000000114	NA	37
+"408561000000116"	1	"depression monitoring third letter"	"9Ov2"	"9Ov2.00"	716961000000102	1569511000000115	NA	37
+"408581000000113"	1	"depression monitoring verbal invitation"	"9Ov3"	"9Ov3.00"	717261000000109	1569801000000119	NA	37
+"408601000000116"	1	"depression monitoring telephone invitation"	"9Ov4"	"9Ov4.00"	716421000000103	1568971000000112	NA	37
+"410861011"	1	"endogenous depression - recurrent"	"E113-1"	"E113.11"	274948002	410861011	NA	32
+"419841000006116"	1	"[x]persistant anxiety depression"	"Eu341-4"	"Eu34114"	231504006	346979010	NA	32
+"423041000006119"	1	"[x]post-schizophrenic depression"	"Eu204"	"Eu20400"	231485007	346956014	NA	32
+"423131000006113"	1	"[x]postnatal depression nos"	"Eu530-1"	"Eu53011"	58703003	97552012	NA	32
+"423141000006115"	1	"[x]postpartum depression nos"	"Eu530-2"	"Eu53012"	58703003	97552012	NA	32
+"423611000006111"	1	"[x]prolonged single episode of reactive depression"	"Eu32z-3"	"Eu32z13"	87414006	2951871015	NA	32
+"424541000006111"	1	"[x]recurr severe episodes/major depression+psychotic symptom"	"Eu333-3"	"Eu33313"	28475009	47670016	NA	32
+"424551000006113"	1	"[x]recurr severe episodes/psychogenic depressive psychosis"	"Eu333-4"	"Eu33314"	191613003	294840015	NA	32
+"424561000006110"	1	"[x]recurrent brief depressive episodes"	"Eu3y1-1"	"Eu3y111"	40568001	67653019	NA	32
+"424631000006119"	1	"[x]recurrent episodes of depressive reaction"	"Eu33-1"	"Eu33.11"	191616006	294844012	NA	32
+"424641000006112"	1	"[x]recurrent episodes of psychogenic depression"	"Eu33-2"	"Eu33.12"	191616006	294844012	NA	32
+"424651000006114"	1	"[x]recurrent episodes of reactive depression"	"Eu33-3"	"Eu33.13"	191616006	294844012	NA	32
+"424671000006116"	1	"[x]recurrent severe episodes of psychotic depression"	"Eu333-5"	"Eu33315"	191613003	294840015	NA	32
+"424681000006118"	1	"recurrent reactive depressive episodes, severe, with psychosis"	"Eu333-6"	"Eu33316"	1086471000000103	2721771000000114	NA	32
+"425411000006110"	1	"sad - seasonal affective disorder"	"Eu33-5"	"Eu33.15"	247803002	369983019	NA	32
+"425751000006115"	1	"[x]seasonal depressive disorder"	"Eu33-4"	"Eu33.14"	247803002	369982012	NA	32
+"426911000006111"	1	"[x]single episode of depressive reaction"	"Eu32-1"	"Eu32.11"	87414006	2951871015	NA	32
+"426921000006115"	1	"[x]single episode of major depression and psychotic symptoms"	"Eu323-1"	"Eu32311"	191604000	294828015	NA	32
+"426931000006117"	1	"[x]single episode of masked depression nos"	"Eu32y-2"	"Eu32y12"	231500002	346973011	NA	32
+"426941000006110"	1	"[x]single episode of psychogenic depression"	"Eu32-2"	"Eu32.12"	87414006	2951871015	NA	32
+"426951000006112"	1	"[x]single episode of psychogenic depressive psychosis"	"Eu323-2"	"Eu32312"	191676002	294917018	NA	32
+"426961000006114"	1	"[x]single episode of psychotic depression"	"Eu323-3"	"Eu32313"	191604000	294828015	NA	32
+"426971000006119"	1	"[x]single episode of reactive depression"	"Eu32-3"	"Eu32.13"	87414006	2951871015	NA	32
+"426981000006116"	1	"[x]single episode of reactive depressive psychosis"	"Eu323-4"	"Eu32314"	191676002	294917018	NA	32
+"426991000006118"	1	"[x]single episode vital depression w'out psychotic symptoms"	"Eu322-3"	"Eu32213"	310497006	454084010	NA	32
+"432511000006119"	1	"[x]vital depression, recurrent without psychotic symptoms"	"Eu332-4"	"Eu33214"	310497006	454084010	NA	32
+"441826016"	1	"endogenous depression"	"E112-4"	"E112.14"	300706003	441826016	NA	32
+"474171000006112"	1	"agitated depression"	"E112-1"	"E112.11"	83458005	138421012	NA	32
+"488211000006112"	1	"mixed anxiety and depressive disorder"	"E2003"	"E200300"	231504006	346979010	NA	32
+"51590017"	1	"dysphoric mood"	"1S40"	"1S40.00"	30819006	51590017	NA	27
+"525921000006119"	1	"brief depressive adjustment reaction"	"E290"	"E290.00"	192046006	295490019	NA	32
+"613781000006118"	1	"depressive personality disorder"	"E2112"	"E211200"	78667006	130532011	NA	32
+"613791000006115"	1	"depressive psychoses"	"E11-2"	"E11..12"	35489007	59212011	NA	32
+"642461000006116"	1	"endogenous depression first episode"	"E112-2"	"E112.12"	231499006	346972018	NA	32
+"675861000006113"	1	"reactive depression (situational)"	"E204"	"E204.00"	87414006	144929012	NA	32
+"681801000000113"	1	"on full dose long term treatment for depression"	"9kQ-1"	"9kQ..11"	361761000000106	681801000000113	NA	37
+"734561000006117"	1	"loss of interest"	"EMISLO1"	""	734561000006101	734561000006117	NA	27
+"853871000006111"	1	"post natal depression"	"EGTON306"	""	853871000006107	853871000006111	NA	32
+"882401000006115"	1	"reactive (neurotic) depression"	"E204-99"	"E204.99"	87414006	882401000006115	NA	32
+"882421000006113"	1	"depressive personality"	"E2112-99"	"E211299"	78667006	882421000006113	NA	32
+"882671000006112"	1	"depression"	"E2B-98"	"E2B..98"	609311000000100	882671000006112	NA	32
+"882681000006110"	1	"depression nos"	"E2B-99"	"E2B..99"	609311000000100	882681000006110	NA	32
+"882811000006119"	1	"mild depression"	"Eu320-99"	"Eu32099"	430421000000104	882811000006119	NA	32
+"882821000006110"	1	"moderate depression"	"Eu321-99"	"Eu32199"	465441000000108	882821000006110	NA	32
+"882831000006113"	1	"severe depression"	"Eu322-99"	"Eu32299"	397701000000102	882831000006113	NA	32
+"908731000006114"	1	"[rfc] postnatal depression"	"HNG0531"	""	908731000006105	908731000006114	NA	12
+"909681000006110"	1	"[rfc] depression"	"HNGNQRF13"	""	909681000006106	909681000006110	NA	12
+"915521000006112"	1	"geriatric depression scale - 6 points"	"EMISNQGE8"	""	915521000006108	915521000006112	NA	3
+"915531000006110"	1	"geriatric depression scale - 7 points"	"EMISNQGE9"	""	915531000006106	915531000006110	NA	3
+"915541000006117"	1	"geriatric depression scale - 8 points"	"EMISNQGE10"	""	915541000006101	915541000006117	NA	3
+"915551000006115"	1	"geriatric depression scale - 9 points"	"EMISNQGE11"	""	915551000006104	915551000006115	NA	3
+"915561000006118"	1	"geriatric depression scale - 10 points"	"EMISNQGE12"	""	915561000006102	915561000006118	NA	3
+"915571000006113"	1	"geriatric depression scale - 11 points"	"EMISNQGE13"	""	915571000006109	915571000006113	NA	3
+"915581000006111"	1	"geriatric depression scale - 12 points"	"EMISNQGE14"	""	915581000006107	915581000006111	NA	3
+"915591000006114"	1	"geriatric depression scale - 13 points"	"EMISNQGE15"	""	915591000006105	915591000006114	NA	3
+"915601000006118"	1	"geriatric depression scale - 14 points"	"EMISNQGE16"	""	915601000006102	915601000006118	NA	3
+"915611000006115"	1	"geriatric depression scale - 15 points"	"EMISNQGE17"	""	915611000006104	915611000006115	NA	3
+"959741000006117"	1	"sadness/hopelessness/decreased self-esteem"	"EMISCSA2"	""	959741000006101	959741000006117	NA	27
+"959761000006118"	1	"loss of interest/involvement in activities/self-care"	"EMISCLO3"	""	959761000006102	959761000006118	NA	27
+"983861000006115"	1	"sad mood"	"1BT-2"	"1BT..12"	366979004	490537016	NA	27
+"999901000006113"	1	"excepted from depression quality indicators - patient unsuitable"	"9hC0"	"9hC0.00"	716831000000103	1569381000000116	NA	37
+"999911000006111"	1	"excepted from depression quality indicators - informed dissent"	"9hC1"	"9hC1.00"	715831000000109	1568391000000112	NA	37
+"169463011"	1	"social withdrawal"	"13HL-4"	"13HL.14"	105411000	169463011	NA	17
+"253619019"	1	"o/e - depressed"	"2257"	"2257.00"	162722001	253619019	NA	27
+"285783010"	1	"stress monitoring 1st letter"	"9ON4"	"9ON4.00"	185780005	285783010	NA	37
+"294690018"	1	"drug-induced depressive state"	"E02y3"	"E02y300"	191495003	294690018	NA	32
+"294862015"	1	"bipolar affective disorder, currently depressed, mild"	"E1151"	"E115100"	191629006	294862015	NA	32
+"294863013"	1	"bipolar affective disorder, currently depressed, moderate"	"E1152"	"E115200"	191630001	294863013	NA	32
+"294899015"	1	"rebound mood swings"	"E11z1"	"E11z100"	191664002	294899015	NA	32
+"295476017"	1	"acute stupor state due to acute stress reaction"	"E282"	"E282.00"	192039002	295476017	NA	32
+"298986013"	1	"mood observations"	"1S4"	"1S4..00"	106131003	298986013	NA	27
+"407062014"	1	"c/o - feeling depressed"	"1B17-1"	"1B17.11"	272022009	407062014	NA	27
+"453331012"	1	"emotional upset"	"1B1J-1"	"1B1J.11"	309838005	453331012	NA	27
+"1488723018"	1	"patient unhappy with medication regime"	"8BIB"	"8BIB.00"	395023004	1488723018	NA	32
+"1780516011"	1	"high risk of self neglect"	"14ON"	"14ON.00"	401330008	1780516011	NA	32
+"2549296017"	1	"depression anxiety stress scales stress score"	"388a"	"388a.00"	416767005	2549296017	NA	3
+"2549495015"	1	"depression anxiety stress scales depression score"	"388Z"	"388Z.00"	416954004	2549495015	NA	3
+"2549835014"	1	"o/e - fearful mood"	"225K"	"225K.00"	417620007	2549835014	NA	27
+"476791000000114"	1	"previous history of anti-depressant misuse"	"1TC3"	"1TC3.00"	277911000000102	476791000000114	NA	27
+"512191000000113"	1	"h/o anti-depressant misuse"	"1TC"	"1TC..00"	276991000000109	512191000000113	NA	27
+"852491000006115"	1	"moderate risk of self neglect"	"EMISQMO3"	""	852491000006104	852491000006115	NA	1
+"1166201000000117"	1	"antidepressant drug treatment stopped"	"665A0"	"665A000"	698459008	2974536011	NA	1
+"1655891000000114"	1	"postnatal depression not discussed"	"8ID"	"8ID..00"	698569004	2974815017	NA	32
+"1749681000006112"	1	"visual analogue mood scale"	"EMISNQVI11"	""	1749681000006108	1749681000006112	NA	3
+"1771781000000111"	1	"assessment using whooley depression screen"	"68910"	"6891000"	792491000000100	1771781000000111	NA	1
+"2143511000000118"	1	"antidepressant drug treatment changed"	"66580"	"6658000"	823501000000106	2143511000000118	NA	1
+"2347721000000119"	1	"tricyclic antidepressant contraindicated"	"8I2v"	"8I2v.00"	913591000000104	2347721000000119	NA	32
+"2391741000000112"	1	"depression screening declined"	"8IH31"	"8IH3100"	720834000	3322230012	NA	32
+"216236010"	1	"edinburgh postnatal depression scale at 8 months declined"	"8I3F"	"8I3F.00"	449413009	2902068015	NA	32
+"295321011"	1	"nondependent antidepressant type drug abuse nos"	"E258z"	"E258z00"	191928000	295315012	NA	32
+"295504018"	1	"adjustment reaction with disturbance of other emotion nos"	"E292z"	"E292z00"	17226007	29122012	NA	32
+"295573011"	1	"mixed disturbance of conduct and emotion nos"	"E2C4z"	"E2C4z00"	192099000	295570014	NA	32
+"296207019"	1	"[x]other persistent mood affective disorders"	"Eu34y"	"Eu34y00"	386782008	1480909013	NA	32
+"296218019"	1	"[x]other specified mood affective disorders"	"Eu3yy"	"Eu3yy00"	46206005	77054013	NA	32
+"296271019"	1	"[x]other reactions to severe stress"	"Eu43y"	"Eu43y00"	271952001	406972015	NA	32
+"2164006016"	1	"depressed"	"1B17"	"1B17.00"	366979004	490537016	NA	27
+"102731000006113"	1	"tired all the time"	"1683"	"1683.00"	267032009	397879018	NA	27
+"302031000006118"	1	"[d]self neglect"	"Ry18"	"Ry18.00"	248054003	370326011	NA	32
+"351391000006116"	1	"[x] adverse reaction to antidepressants nos"	"U6092-3"	"U609213"	292275009	432408012	NA	5
+"363271000006115"	1	"[x]anhedonia sexual"	"Eu521-1"	"Eu52111"	55728007	92665016	NA	32
+"425561000006114"	1	"[x]schizoaffective psychosis, depressive type"	"Eu251-1"	"Eu25111"	84760002	140519016	NA	32
+"461821000006111"	1	"adjustment reaction, predominant disturbance other emotions"	"E292"	"E292.00"	17226007	29122012	NA	32
+"586671000006114"	1	"nondependent antidepressant type drug abuse"	"E258"	"E258.00"	191928000	295315012	NA	32
+"701591000006118"	1	"mixed disturbance of conduct and emotion"	"E2C4"	"E2C4.00"	192099000	295570014	NA	32
+"408988011"	1	"hospital anxiety and depression scale"	"388J"	"388J.00"	401320004	1780507012	NA	3
+"12451461000006112"	1	"single major depressive episode, moderate"	"^ESCT1245146"	""	15639000	142511000006119	NA	32
+"5551611000006116"	1	"hads - hospital anxiety and depression scale"	"^ESCTHA555161"	""	273524006	408989015	NA	32
+"11927071000006116"	1	"geriatric depression scale"	"^ESCT1192707"	""	273481004	408926012	NA	32
+"11929371000006112"	1	"hrsd - hamilton rating scale for depression"	"^ESCT1192937"	""	273503001	408956015	NA	32
+"5551011000006114"	1	"gds - geriatric depression scale"	"^ESCTGD555101"	""	273481004	408927015	NA	32
+"11903781000006118"	1	"single major depressive episode, mild"	"^ESCT1190378"	""	191601008	294825017	NA	31
+"5551551000006116"	1	"hopelessness scale"	"^ESCTHO555155"	""	273520002	408983019	NA	31
+"11903771000006116"	1	"single major depressive episode, in full remission"	"^ESCT1190377"	""	191606003	294831019	NA	31
+"5551621000006112"	1	"had - hospital anxiety and depression scale"	"^ESCTHA555162"	""	273524006	408990012	NA	32
+"5549591000006114"	1	"dsrs - depression self rating scale"	"^ESCTDS554959"	""	273403004	408793016	NA	31
+"5550301000006119"	1	"epds - edinburgh postnatal depression scale"	"^ESCTEP555030"	""	273441006	408860016	NA	32
+"5554911000006112"	1	"poms - profile of mood states"	"^ESCTPO555491"	""	273717007	409302014	NA	31
+"2953611000006110"	1	"crying"	"^ESCTCR295361"	""	28263002	47305015	NA	31
+"11929381000006110"	1	"hamd - hamilton rating scale for depression"	"^ESCT1192938"	""	273503001	408955016	NA	32
+"5558631000006119"	1	"sds - zung self-rating depression scale"	"^ESCTSD555863"	""	273940003	409645010	NA	31
+"5548451000006110"	1	"bdrs - brief depression rating scale"	"^ESCTBD554845"	""	273333007	408673015	NA	31
+"5551021000006118"	1	"geriatric depression score"	"^ESCTGE555102"	""	273481004	408928013	NA	32
+"11779381000006115"	1	"[x]single episode agitated depressn w'out psychotic symptoms"	"^ESCT1177938"	""	455731000000100	1030111000000112	NA	31
+"12460591000006117"	1	"[v]screening for depression"	"^ESCT1246059"	""	463421000000102	878411000000118	NA	31
+"12452121000006118"	1	"recurrent major depressive episodes, in full remission"	"^ESCT1245212"	""	191615005	294843018	NA	31
+"397879018"	1	"tired all the time"	"E205-2"	"E205.12"	267032009	397879018	NA	27
+"1787480011"	1	"risk of self neglect"	"14OK"	"14OK.00"	401233007	1787480011	NA	17
+"461291016"	1	"[v]screening for depression"	"ZV790"	"ZV79000"	171207006	265300015	NA	1
+"5549571000006113"	1	"depression anxiety scale"	"^ESCTDE554957"	""	273402009	408791019	NA	31
+"11903791000006115"	1	"single major depressive episode, moderate"	"^ESCT1190379"	""	191602001	294826016	NA	31
+"5554901000006114"	1	"profile of mood states"	"^ESCTPR555490"	""	273717007	409301019	NA	31
+"12451451000006110"	1	"single major depressive episode, in full remission"	"^ESCT1245145"	""	19527009	142491000006113	NA	32
+"11921141000006115"	1	"[x]recurrent severe episodes/reactive depressive psychosis"	"^ESCT1192114"	""	191613003	424681000006118	NA	32
+"359151000006113"	1	"[x] senile dementia, depressed or paranoid type"	"Eu02z-6"	"Eu02z16"	191457008	294644014	NA	32
+"408956015"	1	"hrsd - hamilton rating scale for depression"	"38Dp-1"	"38Dp.11"	761880008	3634135014	NA	3
+"424571000006115"	1	"[x]recurrent depress disorder cur epi severe with psyc symp"	"Eu333"	"Eu33300"	28475009	47670016	NA	32
+"318033015"	1	"[x]state of emotional shock and stress, unspecified"	"Ryu58"	"Ryu5800"	442347009	2821158018	NA	32
+"294868016"	1	"bipolar affective disorder, currently depressed, nos"	"E115z"	"E115z00"	191627008	294859018	NA	32
+"295477014"	1	"other acute stress reactions"	"E283"	"E283.00"	67195008	500648010	NA	32
+"851551000006116"	1	"risk of self neglect"	"EMISQRI18"	""	851551000006100	851551000006116	NA	1
+"853441000006118"	1	"emotional upset"	"EGTON168"	""	853441000006102	853441000006118	NA	27
+"25271000000116"	1	"stress clinic administration"	"9ON-1"	"9ON..11"	713581000000105	1564821000000110	NA	37
+"406968019"	1	"tearful"	"1685"	"1685.00"	271951008	406968019	NA	27
+"446851016"	1	"crying"	"1B1P"	"1B1P.00"	304534000	446851016	NA	27
+"295319018"	1	"nondependent antidepressant type drug abuse, episodic"	"E2582"	"E258200"	191931004	295319018	NA	32
+"1488793011"	1	"emotional and psychosocial support and advice"	"8O82"	"8O82.00"	395094003	1488793011	NA	32
+"5547981000006111"	1	"behaviour and mood disturbance scale"	"^ESCTBE554798"	""	273310006	408625013	NA	31
+"1730231000000110"	1	"antidepressant drug treatment started"	"66590"	"6659000"	764639002	3654329014	NA	1
+"361881000006115"	1	"[x]accidental poisoning with antidepressant"	"U1A4-1"	"U1A4.11"	216545008	328640016	NA	32
+"425691000006119"	1	"[x]schizophreniform psychosis, depressive type"	"Eu251-2"	"Eu25112"	84760002	1234980016	NA	32
+"487501000006110"	1	"antidepressant poisoning"	"SL90"	"SL90.00"	82276009	1234698019	NA	32
+"121781000006113"	1	"stress monitoring 3rd letter"	"9ON6"	"9ON6.00"	185782002	285786019	NA	37
+"296208012"	1	"[x]persistent mood affective disorder, unspecified"	"Eu34z"	"Eu34z00"	386782008	1480909013	NA	32
+"328644013"	1	"accidental poisoning by antidepressants nos"	"T840z"	"T840z00"	216545008	328640016	NA	32
+"331126017"	1	"adverse reaction to antidepressants nos"	"TJ90z"	"TJ90z00"	292275009	432408012	NA	5
+"216235014"	1	"edinburgh postnatal depression scale declined"	"8I3G"	"8I3G.00"	720834000	3322230012	NA	32
+"305421000000112"	1	"depression screening using questions"	"6896"	"6896.00"	200971000000100	305421000000112	NA	1
+"512391000000111"	1	"h/o daily anti-depressant misuse"	"1TC0"	"1TC0.00"	277821000000103	512391000000111	NA	27
+"2549138014"	1	"depression anxiety stress scales anxiety score"	"388b"	"388b.00"	416619008	2549138014	NA	3
+"285790017"	1	"stress monitoring check done"	"9ONA"	"9ONA.00"	185786004	285790017	NA	37
+"5557821000006117"	1	"wakefield self-assessment depression inventory"	"^ESCTWA555782"	""	273913003	409605018	NA	31
+"11903751000006114"	1	"single major depressive episode"	"^ESCT1190375"	""	268620009	401766011	NA	31
+"11927061000006111"	1	"hospital anxiety and depression scale"	"^ESCT1192706"	""	273524006	408988011	NA	32
+"8132831000006115"	1	"[x]overdose - antidepressant"	"^ESCTXO813283"	""	394411000000101	957191000000111	NA	31
+"408926012"	1	"geriatric depression score"	"388K"	"388K.00"	425402008	2674623016	NA	3
+"12727931000006110"	1	"depressive disorder nec"	"^ESCT1272793"	""	609311000000100	1347681000000113	NA	31
+"367091000006118"	1	"[x]bipolar affect disorder cur epi mild or moderate depressn"	"Eu313"	"Eu31300"	191630001	294863013	NA	32
+"511661000000116"	1	"[x]emotional behavioural problems"	"Eu92-1"	"Eu92.11"	5793009	498014018	NA	32
+"513731000006112"	1	"bipolar affect disord, now depressed, severe, no psychosis"	"E1153"	"E115300"	61403008	102016011	NA	32
+"294861010"	1	"bipolar affective disorder, currently depressed, unspecified"	"E1150"	"E115000"	191627008	294859018	NA	32
+"296209016"	1	"[x]other mood affective disorders"	"Eu3y"	"Eu3y.00"	46206005	77054013	NA	32
+"1780429013"	1	"moderate risk of self neglect"	"14OM"	"14OM.00"	401235000	1780429013	NA	32
+"1780507012"	1	"had scale: depression score"	"388P"	"388P.00"	401320004	1780507012	NA	3
+"369925011"	1	"reduced concentration span"	"1BR0"	"1BR0.00"	247762003	369925011	NA	27
+"31960011"	1	"mood swings"	"1BO"	"1BO..00"	18963009	31960011	NA	27
+"285779010"	1	"attends stress monitoring"	"9ON1"	"9ON1.00"	185777009	285779010	NA	37
+"294860011"	1	"manic-depressive - now depressed"	"E115-1"	"E115.11"	191627008	294860011	NA	32
+"5558621000006117"	1	"zung self-rating depression scale"	"^ESCTZU555862"	""	273940003	409646011	NA	31
+"11924511000006113"	1	"edinburgh postnatal depression scale"	"^ESCT1192451"	""	273441006	408859014	NA	32
+"11929391000006113"	1	"madrs - montgomery-asberg depression rating scale"	"^ESCT1192939"	""	446087008	1725571000000115	NA	32
+"5933661000006112"	1	"positive and negative affect schedule"	"^ESCTPO593366"	""	304755000	447142018	NA	31
+"12491051000006113"	1	"antidepressant drug treatment started"	"^ESCT1249105"	""	774531000000101	1730231000000110	NA	31
+"5549581000006111"	1	"depression self rating scale"	"^ESCTDE554958"	""	273403004	408792014	NA	31
+"11776661000006110"	1	"[x]single episode major depression w'out psychotic symptoms"	"^ESCT1177666"	""	401211000000106	1030121000000118	NA	31
+"5551301000006113"	1	"hamilton rating scale for depression"	"^ESCTHA555130"	""	273503001	408954017	NA	32
+"11914901000006114"	1	"[x]depressive personality disorder"	"^ESCT1191490"	""	78667006	376751000006117	NA	32
+"5547921000006112"	1	"bdi - beck depression inventory"	"^ESCTBD554792"	""	273306008	408618018	NA	31
+"5547911000006116"	1	"beck depression inventory"	"^ESCTBE554791"	""	273306008	408617011	NA	3
+"513721000006114"	1	"bipolar affect disord, now depressed, severe with psychosis"	"E1154"	"E115400"	765176007	3657334019	NA	32
+"396781000006119"	1	"[x]manic-depress psychosis,depressed type+psychotic symptoms"	"Eu333-2"	"Eu33312"	765176007	3657334019	NA	32
+"745571000006112"	1	"irritable - symptom"	"1B15-1"	"1B15.11"	55929007	497462015	NA	27
+"401877014"	1	"[x]other single mood affective disorders"	"Eu3y0"	"Eu3y000"	46206005	77054013	NA	32
+"401878016"	1	"[x]other recurrent mood affective disorders"	"Eu3y1"	"Eu3y100"	386782008	1480909013	NA	32
+"401879012"	1	"[x]unspecified mood affective disorder"	"Eu3z"	"Eu3z.00"	46206005	77054013	NA	32
+"295483012"	1	"other acute stress reaction nos"	"E283z"	"E283z00"	67195008	500648010	NA	32
+"295517015"	1	"other adjustment reaction with withdrawal"	"E29y5"	"E29y500"	17226007	29122012	NA	32
+"1691271000000117"	1	"visual analogue mood scale"	"38801"	"3880100"	762971000000107	1691271000000117	NA	32
+"981181000006117"	1	"mood swings"	"EMISCMO2"	""	981181000006101	981181000006117	NA	27
+"982241000006110"	1	"depression anxiety stress scales anxiety score"	"EMISNQDE3"	""	982241000006106	982241000006110	NA	3
+"982261000006114"	1	"depression anxiety stress scales depression score"	"EMISNQDE5"	""	982261000006105	982261000006114	NA	3
+"11928191000006118"	1	"basdec - brief assessment schedule depression cards score"	"^ESCT1192819"	""	248641000000109	407321000000119	NA	32
+"1230451012"	1	"adjustment reaction with anxious mood"	"E2924"	"E292400"	47372000	1230451012	NA	32
+"407107015"	1	"c/o - 'tired all the time'"	"1683-1"	"1683.11"	272062008	407107015	NA	27
+"454063017"	1	"c/o tearfulness"	"1B1I1"	"1B1I100"	310480000	454063017	NA	27
+"328640016"	1	"accidental poisoning by antidepressants"	"T840"	"T840.00"	216545008	328640016	NA	32
+"292101000006115"	1	"self-neglect"	"R2y3-1"	"R2y3.11"	248054003	370326011	NA	32
+"5932981000006118"	1	"beck hopelessness scale"	"^ESCTBE593298"	""	304710007	447081015	NA	31
+"11927001000006110"	1	"loss of hope for the future"	"^ESCT1192700"	""	247798006	369974012	NA	31
+"5647821000006114"	1	"health of the nation outcome scale item 7 - depressed mood"	"^ESCTHE564782"	""	281121006	419061018	NA	31
+"5933701000006116"	1	"profile of mood states, bipolar"	"^ESCTPR593370"	""	304757008	447145016	NA	31
+"5548441000006113"	1	"brief depression rating scale"	"^ESCTBR554844"	""	273333007	408674014	NA	31
+"5558141000006117"	1	"who depression scale"	"^ESCTWH555814"	""	273929006	409632011	NA	31
+"11918531000006118"	1	"[x]mild depressive episode"	"^ESCT1191853"	""	430421000000104	904321000000110	NA	31
+"3071801000006112"	1	"depressed"	"^ESCTDE307180"	""	35489007	486187010	NA	32
+"7043841000006115"	1	"geriatric depression score"	"^ESCTGE704384"	""	425402008	7043841000006115	NA	3
+"424531000006118"	1	"[x]recurr depress disorder cur epi severe without psyc sympt"	"Eu332"	"Eu33200"	310497006	454084010	NA	32
+"351381000006119"	1	"[x] adverse reaction to antidepressant"	"U6092-1"	"U609211"	292275009	432408012	NA	5
+"417071000006110"	1	"[x]other unspec antidepres caus advers effect in therap use"	"U6092"	"U609200"	292275009	432408012	NA	5
+"295316013"	1	"nondependent antidepressant type drug abuse, unspecified"	"E2580"	"E258000"	191928000	295315012	NA	32
+"2518361000000115"	1	"hospital anxiety and depression scale declined"	"8IE51"	"8IE5100"	988671000000106	2518361000000115	NA	32
+"2139351000000110"	1	"euroqol five dimension five level anxiety depression score"	"38GJ0"	"38GJ000"	821611000000108	2139351000000110	NA	32
+"982251000006112"	1	"depression anxiety stress scales stress score"	"EMISNQDE4"	""	982251000006108	982251000006112	NA	3
+"852471000006116"	1	"high risk of self neglect"	"EMISQHI1"	""	852471000006100	852471000006116	NA	1
+"504361000006116"	1	"beck depression inventory"	"EMISHGT019"	""	504361000006100	504361000006116	NA	3
+"497343017"	1	"adjustment reaction with mixed disturbance of emotion"	"E292y"	"E292y00"	55668003	497343017	NA	32
+"5252351000006113"	1	"neglect of personal hygiene"	"^ESCTNE525235"	""	248056001	370328012	NA	31
+"8237791000006110"	1	"nondependent antidepressant type drug abuse"	"^ESCTNO823779"	""	764651000000101	1696301000000113	NA	31
+"294897018"	1	"affective psychosis"	"E11z"	"E11z.00"	441704009	2817266014	NA	32
+"317091018"	1	"feeling unhappy"	"R00z6"	"R00z600"	420038007	2576561011	NA	32
+"334669011"	1	"overdose of antidepressant drug"	"U204-1"	"U204.11"	295830007	436211014	NA	32
+"121871000006118"	1	"stress reaction causing mixed disturbance of emotion and conduct"	"E284"	"E284.00"	192044009	295484018	NA	32
+"367051000006112"	1	"severe depressed bipolar i disorder without psychotic features"	"Eu314"	"Eu31400"	61403008	102016011	NA	32
+"398541000006116"	1	"bipolar affective disorder , current episode mixed"	"Eu3y0-1"	"Eu3y011"	192362008	296129011	NA	32
+"398851000006117"	1	"affective disorder"	"Eu3"	"Eu3..00"	46206005	1494743015	NA	32
+"429581000006118"	1	"antidepressant drug adverse reaction"	"U6090"	"U609000"	292275009	432408012	NA	5
+"408859014"	1	"edinburgh postnatal depression scale score"	"3885"	"3885.00"	450320001	2915926015	NA	3
+"296204014"	1	"disturbance in affect"	"Eu34"	"Eu34.00"	386782008	1480909013	NA	32
+"317980011"	1	"undue concern and preoccupation with stressful events"	"Ry15"	"Ry15.00"	274653009	410489019	NA	32
+"464831000006111"	1	"adverse reaction to antidepressant"	"TJ90"	"TJ90.00"	292275009	2164356019	NA	5
+"513711000006118"	1	"depressed bipolar i disorder in partial remission"	"E1155"	"E115500"	49512000	82468013	NA	32
+"408955016"	1	"ham-d (hamilton rating scale for depression) score"	"38Dp"	"38Dp.00"	761880008	3634135014	NA	3
+"121841000006114"	1	"stress monitoring telephone invite"	"9ON8"	"9ON8.00"	185784001	285788018	NA	37
+"303531000000114"	1	"patient health questionnaire nine item score"	"388f"	"388f.00"	720433000	3320743016	NA	3
+"307111000000119"	1	"beck depression inventory ii score"	"388g"	"388g.00"	718366000	3312015013	NA	3
+"486881000006117"	1	"poisoning by antidepressant"	"SL90z"	"SL90z00"	82276009	136477016	NA	32
+"613751000006114"	1	"depression screening"	"6891"	"6891.00"	171207006	265300015	NA	1
+"1817101000006110"	1	"inadequate oral food intake for physiological needs"	"R037"	"R037.00"	699653008	2985821017	NA	32
+"396771000006117"	1	"[x] manic-depressive psychosis, depressed type without psychotic symptoms"	"Eu332-3"	"Eu33213"	36474008	60885016	NA	32
+"426891000006114"	1	"[x] single episode agitated depression without psychotic symptoms"	"Eu322-1"	"Eu32211"	310497006	454084010	NA	32
+"1661451000000110"	1	"madrs (montgomery-asberg depression rating scale) score"	"38Dq"	"38Dq.00"	763265004	3638323010	NA	3
+"407321000000119"	1	"basdec (brief assessment schedule depression cards) score"	"388l"	"388l.00"	718316006	3311871011	NA	3
+"1590841000006119"	1	"phq (patient health questionnaire) 9 declined"	"8IA1"	"8IA1.00"	279911000000106	1676271000000119	NA	32
+"379431000006113"	1	"dysthymia"	"Eu341"	"Eu34100"	78667006	130532011	NA	32
+"425501000006113"	1	"schizoaffective disorder, depressive type"	"Eu251"	"Eu25100"	84760002	140519016	NA	32
+"404011000006112"	1	"organic mood disorder"	"Eu053"	"Eu05300"	23645006	39698011	NA	32
+"513751000006117"	1	"bipolar affective disorder, current episode depression"	"E115"	"E115.00"	191627008	294859018	NA	32
+"461761000006110"	1	"adjustment reaction with mixed disturbance of emotion and conduct"	"E294"	"E294.00"	66381006	500397012	NA	32
+"513861000006113"	1	"bipolar affective disorder, currently depressed, in full remission"	"E1156"	"E115600"	191634005	294867014	NA	32
+"742321000006111"	1	"feeling irritable"	"1B15"	"1B15.00"	55929007	497462015	NA	27
+"1146851000000112"	1	"howru rating score - feeling low or worried"	"16ZB1"	"16ZB100"	1038231000000105	2620321000000113	NA	27
