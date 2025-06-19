@@ -156,6 +156,10 @@ gold_depr <- cprd_gold_medical %>%
 gold_new_depr <- gold_depr %>%
   filter(!(medcode %in% depr_codelist_gold_old$medcode))
 
+# Which terms were in the old list but are not included in the new list
+gold_depr_miss_from_new <- depr_codelist_gold_old %>%
+  filter(!(medcode %in% gold_depr))
+
 
 # # Save lists of potential codes to add for Aurum and GOLD
 # write.csv(aurum_new_depr, file = paste0(wd, path_output, "Aurum_Depression_other_codes.csv"))
