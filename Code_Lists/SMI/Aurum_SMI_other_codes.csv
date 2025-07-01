@@ -1,126 +1,126 @@
-"","medcodeid","term"
-"1","294919015","acute hysterical psychosis"
-"2","460273017","[v]personal history of schizophrenia"
-"3","3527206014","secondary psychotic syndrome with hallucinations and delusions"
-"4","362221000006114","[x]acute / subacute infective psychosis"
-"5","362781000006116","[x]affective psychosis nos"
-"6","389451000006110","[x]hysterical psychosis"
-"7","428441000006116","[x]symbiotic psychosis"
-"8","1807561000006117","psychotic symptom"
-"9","1821481000006114","possible early psychosis"
-"10","1821491000006112","possible psychosis prodrome"
-"11","1974351000006118","paranoid schizophrenia, continuous"
-"12","1974391000006112","paranoid schizophrenia, episodic with progressive deficit"
-"13","1974431000006118","paranoid schizophrenia, episodic with stable deficit"
-"14","1974451000006113","paranoid schizophrenia, episodic remittent"
-"15","1974481000006117","paranoid schizophrenia, incomplete remission"
-"16","1974511000006113","paranoid schizophrenia, complete remission"
-"17","1974541000006112","paranoid schizophrenia, course uncertain, period of observation too short"
-"18","1974601000006111","hebephrenic schizophrenia, continuous"
-"19","1974611000006114","hebephrenic schizophrenia, episodic with progressive deficit"
-"20","1974621000006118","hebephrenic schizophrenia, episodic with stable deficit"
-"21","1974641000006113","hebephrenic schizophrenia, episodic remittent"
-"22","1974671000006117","hebephrenic schizophrenia, incomplete remission"
-"23","1974691000006116","hebephrenic schizophrenia, complete remission"
-"24","1974721000006114","hebephrenic schizophrenia, course uncertain, period of observation too short"
-"25","1974751000006117","catatonic schizophrenia, continuous"
-"26","1974781000006113","catatonic schizophrenia, episodic with progressive deficit"
-"27","1974801000006112","catatonic schizophrenia, episodic with stable deficit"
-"28","1974831000006116","catatonic schizophrenia, episodic remittent"
-"29","1974861000006113","catatonic schizophrenia, incomplete remission"
-"30","1974891000006117","catatonic schizophrenia, complete remission"
-"31","1974921000006111","catatonic schizophrenia, course uncertain, period of observation too short"
-"32","1974951000006119","undifferentiated schizophrenia, continuous"
-"33","1975051000006119","undifferentiated schizophrenia, incomplete remission"
-"34","1975351000006117","residual schizophrenia, continuous"
-"35","1975381000006113","residual schizophrenia, episodic with progressive deficit"
-"36","1975401000006113","residual schizophrenia, episodic with stable deficit"
-"37","1975431000006117","residual schizophrenia, episodic remittent"
-"38","1975471000006119","residual schizophrenia, complete remission"
-"39","1975481000006116","residual schizophrenia, course uncertain, period of observation too short"
-"40","1975491000006118","simple schizophrenia, continuous"
-"41","1975501000006114","simple schizophrenia, episodic with progressive deficit"
-"42","1975521000006116","simple schizophrenia, episodic with stable deficit"
-"43","1975551000006113","simple schizophrenia, episodic remittent"
-"44","1975571000006115","simple schizophrenia, incomplete remission"
-"45","1975621000006117","acute polymorphic psychot disord without symp of schizoph, without associated acute stress"
-"46","1975641000006112","simple schizophrenia, course uncertain, period of observation too short"
-"47","1975671000006116","acute polymorphic psychot disord without symp of schizoph, with associated acute stress"
-"48","1975681000006118","acute polymorphic psychot disord with symp of schizophren, without associated acute stress"
-"49","1975691000006115","acute polymorphic psychot disord with symp of schizophren, with associated acute stress"
-"50","1975711000006117","acute schizophrenia-like psychotic disorder, without associated acute stress"
-"51","1975731000006111","acute schizophrenia-like psychotic disorder, with associated acute stress"
-"52","1975751000006116","other schizophrenia, continuous"
-"53","1975761000006119","other acute predominantly delusional psychotic disorders, without associated acute stress"
-"54","1975771000006114","other schizophrenia, episodic with progressive deficit"
-"55","1975781000006112","other acute predominantly delusional psychotic disorders, with associated acute stress"
-"56","1975801000006111","other schizophrenia, episodic with stable deficit"
-"57","1975821000006118","other acute and transient psychotic disorders, without associated acute stress"
-"58","1975831000006115","other schizophrenia, episodic remittent"
-"59","1975841000006113","other schizophrenia, incomplete remission"
-"60","1975871000006117","acute and transient psychotic disorder, unspecified, without associated acute stress"
-"61","1975881000006119","other schizophrenia, complete remission"
-"62","1975901000006117","acute and transient psychotic disorder, unspecified, with associated acute stress"
-"63","1975911000006119","other schizophrenia, course uncertain, period of observation too short"
-"64","1975931000006113","bipolar affect disorder cur epi mild or moderate depressn, without somatic syndrome"
-"65","1975941000006115","bipolar affect disorder cur epi mild or moderate depressn, with somatic syndrome"
-"66","1976001000006113","schizophrenia, unspecified, continuous"
-"67","1976061000006114","schizophrenia, unspecified, episodic with progressive deficit"
-"68","1976101000006112","schizophrenia, unspecified, episodic with stable deficit"
-"69","1976121000006119","schizophrenia, unspecified, episodic remittent"
-"70","1976141000006114","schizophrenia, unspecified, incomplete remission"
-"71","1976151000006111","schizophrenia, unspecified, complete remission"
-"72","1976171000006118","schizophrenia, unspecified, course uncertain, period of observation too short"
-"73","1976881000006112","paranoid schizophrenia, other"
-"74","1976901000006114","catatonic schizophrenia, other"
-"75","1976911000006112","undifferentiated schizophrenia, other"
-"76","1976931000006118","residual schizophrenia, other"
-"77","1976941000006111","simple schizophrenia, other"
-"78","1976951000006113","other schizophrenia, other"
-"79","2782051000006112","bipolar i disorder, most recent episode manic with catatonic features"
-"80","2924901000006115","severe bipolar disorder with psychotic features, mood-incongruent"
-"81","2960501000006110","severe bipolar i disorder, most recent episode manic, with psychotic features"
-"82","2976051000006113","chronic undifferentiated schizophrenia"
-"83","3169541000006113","mild bipolar i disorder, single manic episode"
-"84","3174001000006110","severe bipolar i disorder, single manic episode with psychotic features"
-"85","3224381000006117","delusional misidentification syndrome"
-"86","3267191000006117","grandiose delusion disorder"
-"87","3328681000006114","residual schizophrenia in remission"
-"88","3361131000006115","delusion of guilt"
-"89","3369281000006111","depressed bipolar i disorder in remission"
-"90","3595611000006115","delusional conclusion"
-"91","3615761000006116","manic bipolar i disorder"
-"92","3656651000006111","chronic residual schizophrenia"
-"93","3846961000006111","bizarre delusion"
-"94","3895621000006112","subchronic undifferentiated schizophrenia"
-"95","3956691000006118","persecutory delusion disorder"
-"96","4082931000006110","schizophrenic reaction"
-"97","5023541000006116","psychosis associated with intensive care"
-"98","5128661000006118","delusion of foul odour"
-"99","5247171000006117","delusion of grandiose ability"
-"100","5247181000006119","delusion of grandiose identity"
-"101","5247211000006115","delusional mood"
-"102","5247231000006114","delusion associated with smell"
-"103","5247261000006117","delusion of depersonalisation"
-"104","5247401000006117","hypochondriacal delusion"
-"105","5387561000006118","bipolar diathermy"
-"106","5435901000006117","bipolar"
-"107","5582581000006111","delusional memories"
-"108","5614121000006115","involutional paranoid state"
-"109","5624451000006114","psychotic symptom finding"
-"110","5688921000006114","manic behaviour"
-"111","5688931000006112","manic behavior"
-"112","5699381000006117","delusion of unworthiness"
-"113","5718641000006117","level of psychoticism"
-"114","5933701000006116","profile of mood states, bipolar"
-"115","5934531000006116","delusional transference"
-"116","7018741000006112","delusion of pregnancy"
-"117","7860771000006118","positive symptoms with primary psychotic disorder"
-"118","7860791000006117","negative symptoms with primary psychotic disorder"
-"119","8110251000006118","interpretation of delusions"
-"120","8342791000006117","hallucinogen-induced psychosis"
-"121","9326201000006116","psychosis in pregnancy"
-"122","12059241000006115","bipolar i disorder, most recent episode manic"
-"123","14472391000006111","acute psychosis"
-"124","14745451000006113","early onset schizophrenia"
-"125","14767591000006117","delusion of emitting foul body odour"
+medcodeid,term
+294919015,acute hysterical psychosis
+460273017,[v]personal history of schizophrenia
+3527206014,secondary psychotic syndrome with hallucinations and delusions
+362221000006114,[x]acute / subacute infective psychosis
+362781000006116,[x]affective psychosis nos
+389451000006110,[x]hysterical psychosis
+428441000006116,[x]symbiotic psychosis
+1807561000006117,psychotic symptom
+1821481000006114,possible early psychosis
+1821491000006112,possible psychosis prodrome
+1974351000006118,"paranoid schizophrenia, continuous"
+1974391000006112,"paranoid schizophrenia, episodic with progressive deficit"
+1974431000006118,"paranoid schizophrenia, episodic with stable deficit"
+1974451000006113,"paranoid schizophrenia, episodic remittent"
+1974481000006117,"paranoid schizophrenia, incomplete remission"
+1974511000006113,"paranoid schizophrenia, complete remission"
+1974541000006112,"paranoid schizophrenia, course uncertain, period of observation too short"
+1974601000006111,"hebephrenic schizophrenia, continuous"
+1974611000006114,"hebephrenic schizophrenia, episodic with progressive deficit"
+1974621000006118,"hebephrenic schizophrenia, episodic with stable deficit"
+1974641000006113,"hebephrenic schizophrenia, episodic remittent"
+1974671000006117,"hebephrenic schizophrenia, incomplete remission"
+1974691000006116,"hebephrenic schizophrenia, complete remission"
+1974721000006114,"hebephrenic schizophrenia, course uncertain, period of observation too short"
+1974751000006117,"catatonic schizophrenia, continuous"
+1974781000006113,"catatonic schizophrenia, episodic with progressive deficit"
+1974801000006112,"catatonic schizophrenia, episodic with stable deficit"
+1974831000006116,"catatonic schizophrenia, episodic remittent"
+1974861000006113,"catatonic schizophrenia, incomplete remission"
+1974891000006117,"catatonic schizophrenia, complete remission"
+1974921000006111,"catatonic schizophrenia, course uncertain, period of observation too short"
+1974951000006119,"undifferentiated schizophrenia, continuous"
+1975051000006119,"undifferentiated schizophrenia, incomplete remission"
+1975351000006117,"residual schizophrenia, continuous"
+1975381000006113,"residual schizophrenia, episodic with progressive deficit"
+1975401000006113,"residual schizophrenia, episodic with stable deficit"
+1975431000006117,"residual schizophrenia, episodic remittent"
+1975471000006119,"residual schizophrenia, complete remission"
+1975481000006116,"residual schizophrenia, course uncertain, period of observation too short"
+1975491000006118,"simple schizophrenia, continuous"
+1975501000006114,"simple schizophrenia, episodic with progressive deficit"
+1975521000006116,"simple schizophrenia, episodic with stable deficit"
+1975551000006113,"simple schizophrenia, episodic remittent"
+1975571000006115,"simple schizophrenia, incomplete remission"
+1975621000006117,"acute polymorphic psychot disord without symp of schizoph, without associated acute stress"
+1975641000006112,"simple schizophrenia, course uncertain, period of observation too short"
+1975671000006116,"acute polymorphic psychot disord without symp of schizoph, with associated acute stress"
+1975681000006118,"acute polymorphic psychot disord with symp of schizophren, without associated acute stress"
+1975691000006115,"acute polymorphic psychot disord with symp of schizophren, with associated acute stress"
+1975711000006117,"acute schizophrenia-like psychotic disorder, without associated acute stress"
+1975731000006111,"acute schizophrenia-like psychotic disorder, with associated acute stress"
+1975751000006116,"other schizophrenia, continuous"
+1975761000006119,"other acute predominantly delusional psychotic disorders, without associated acute stress"
+1975771000006114,"other schizophrenia, episodic with progressive deficit"
+1975781000006112,"other acute predominantly delusional psychotic disorders, with associated acute stress"
+1975801000006111,"other schizophrenia, episodic with stable deficit"
+1975821000006118,"other acute and transient psychotic disorders, without associated acute stress"
+1975831000006115,"other schizophrenia, episodic remittent"
+1975841000006113,"other schizophrenia, incomplete remission"
+1975871000006117,"acute and transient psychotic disorder, unspecified, without associated acute stress"
+1975881000006119,"other schizophrenia, complete remission"
+1975901000006117,"acute and transient psychotic disorder, unspecified, with associated acute stress"
+1975911000006119,"other schizophrenia, course uncertain, period of observation too short"
+1975931000006113,"bipolar affect disorder cur epi mild or moderate depressn, without somatic syndrome"
+1975941000006115,"bipolar affect disorder cur epi mild or moderate depressn, with somatic syndrome"
+1976001000006113,"schizophrenia, unspecified, continuous"
+1976061000006114,"schizophrenia, unspecified, episodic with progressive deficit"
+1976101000006112,"schizophrenia, unspecified, episodic with stable deficit"
+1976121000006119,"schizophrenia, unspecified, episodic remittent"
+1976141000006114,"schizophrenia, unspecified, incomplete remission"
+1976151000006111,"schizophrenia, unspecified, complete remission"
+1976171000006118,"schizophrenia, unspecified, course uncertain, period of observation too short"
+1976881000006112,"paranoid schizophrenia, other"
+1976901000006114,"catatonic schizophrenia, other"
+1976911000006112,"undifferentiated schizophrenia, other"
+1976931000006118,"residual schizophrenia, other"
+1976941000006111,"simple schizophrenia, other"
+1976951000006113,"other schizophrenia, other"
+2782051000006112,"bipolar i disorder, most recent episode manic with catatonic features"
+2924901000006115,"severe bipolar disorder with psychotic features, mood-incongruent"
+2960501000006110,"severe bipolar i disorder, most recent episode manic, with psychotic features"
+2976051000006113,chronic undifferentiated schizophrenia
+3169541000006113,"mild bipolar i disorder, single manic episode"
+3174001000006110,"severe bipolar i disorder, single manic episode with psychotic features"
+3224381000006117,delusional misidentification syndrome
+3267191000006117,grandiose delusion disorder
+3328681000006114,residual schizophrenia in remission
+3361131000006115,delusion of guilt
+3369281000006111,depressed bipolar i disorder in remission
+3595611000006115,delusional conclusion
+3615761000006116,manic bipolar i disorder
+3656651000006111,chronic residual schizophrenia
+3846961000006111,bizarre delusion
+3895621000006112,subchronic undifferentiated schizophrenia
+3956691000006118,persecutory delusion disorder
+4082931000006110,schizophrenic reaction
+5023541000006116,psychosis associated with intensive care
+5128661000006118,delusion of foul odour
+5247171000006117,delusion of grandiose ability
+5247181000006119,delusion of grandiose identity
+5247211000006115,delusional mood
+5247231000006114,delusion associated with smell
+5247261000006117,delusion of depersonalisation
+5247401000006117,hypochondriacal delusion
+5387561000006118,bipolar diathermy
+5435901000006117,bipolar
+5582581000006111,delusional memories
+5614121000006115,involutional paranoid state
+5624451000006114,psychotic symptom finding
+5688921000006114,manic behaviour
+5688931000006112,manic behavior
+5699381000006117,delusion of unworthiness
+5718641000006117,level of psychoticism
+5933701000006116,"profile of mood states, bipolar"
+5934531000006116,delusional transference
+7018741000006112,delusion of pregnancy
+7860771000006118,positive symptoms with primary psychotic disorder
+7860791000006117,negative symptoms with primary psychotic disorder
+8110251000006118,interpretation of delusions
+8342791000006117,hallucinogen-induced psychosis
+9326201000006116,psychosis in pregnancy
+12059241000006115,"bipolar i disorder, most recent episode manic"
+14472391000006111,acute psychosis
+14745451000006113,early onset schizophrenia
+14767591000006117,delusion of emitting foul body odour
