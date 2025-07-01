@@ -1,8 +1,8 @@
 # ==============================================================================
-# Generate code lists for GLP-1RA medications
+# Generate code lists for SGLT-2i anti-diabetic medications
 # Author: SM Wu
-# Date Created: 2025/06/09
-# Date Updated: 2025/06/20
+# Date Created: 2025/06/26
+# Date Updated: 2025/06/26
 # 
 # Details:
 # 1) Set up and load data
@@ -16,8 +16,8 @@
 # 4) Code/0_Code_List_Generation/helper_fns_code_lists.R: Helper functions
 # 
 # Final Outputs:
-# 1) Code_Lists/GLP1RAs/Aurum_GLP1RAs_codelist_20250614.txt: Updated Aurum GLP-1RA code list
-# 2) Code_Lists/GLP1RAs/Gold_GLP1RAs_codelist_20250614.txt: Updated GOLD GLP-1RA code list
+# 1) Code_Lists/SGLT2is/Aurum_SGLT2is_codelist_20250614.txt: Updated Aurum SGLT2is code list
+# 2) Code_Lists/SGLT2is/Gold_SGLT2is_codelist_20250614.txt: Updated GOLD SGLT2is code list
 # ==============================================================================
 
 
@@ -40,7 +40,7 @@ setwd(wd)
 
 # Set input and output paths
 path_input <- "Code_Lists/"
-path_output <- "Code_Lists/GLP1RAs/"
+path_output <- "Code_Lists/SGLT2is/"
 
 # Load in helper functions
 source(paste0(wd, "Code/0_Code_List_Generation/helper_fns_code_lists.R"))
@@ -80,11 +80,11 @@ cprd_gold_product <- cprd_gold_product %>%
 # Read in medication names
 medication_reference <- 
   read_excel(paste0(wd, path_input, "medication_reference.xlsx"), 
-             sheet = "glp1ras", skip = 1)
+             sheet = "sglt2is", skip = 1)
 # Rename and select columns
 medication_reference <- medication_reference %>%
   rename(keyword = Clean, 
-         brandnames = `Brand names, including branded generics`) %>%
+         brandnames = `Brand names`) %>%
   mutate(keyword = str_to_lower(keyword)) %>%
   filter(!is.na(keyword) & is.na(Exclude))  %>%
   select(keyword, brandnames)
@@ -93,7 +93,9 @@ medication_reference <- medication_reference %>%
 meds <- medication_reference %>% 
   select(keyword, brandnames) %>%
   separate_rows(brandnames, sep = ",\\s*") %>%
+  # filter(!is.na(brandnames)) %>%
   mutate(brandnames = str_to_lower(brandnames))
+
 
 # ================= 2) Find all medcodes that match relevant conditions ========
 
@@ -115,7 +117,7 @@ gold_matches_df <- match_meds(df_codes = cprd_gold_product, df_drugs = meds)
 
 # Add medication name column
 aurum_codelist <- match_meds_2(df = aurum_matches_df, 
-                               medication_field = "GLP-1RA", 
+                               medication_field = "SGLT2i", 
                                medication_keyword = medication_reference$keyword)
 # Filter to more precise matches
 aurum_codelist_excluded <- aurum_codelist %>%
@@ -126,15 +128,15 @@ aurum_codelist <- aurum_codelist %>%
 
 # # Save as text file
 # write.table(aurum_codelist, 
-#             file = paste0(wd, path_output, "Aurum_GLP1RAs_codelist_20250614.txt"),
+#             file = paste0(wd, path_output, "Aurum_SGLT2is_codelist_20250626.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold
 
 # Add medication name column
 gold_codelist <- match_meds_2(df = gold_matches_df, 
-                                medication_field = "GLP-1RA", 
-                                medication_keyword = medication_reference$keyword)
+                              medication_field = "SGLT2i", 
+                              medication_keyword = medication_reference$keyword)
 # Filter to more precise matches
 gold_codelist_excluded <- gold_codelist %>%
   filter(match == 0)
@@ -144,7 +146,7 @@ gold_codelist <- gold_codelist %>%
 
 # # Save as text file
 # write.table(gold_codelist, 
-#             file = paste0(wd, path_output, "Gold_GLP1RAs_codelist_20250614.txt"),
+#             file = paste0(wd, path_output, "Gold_SGLT2is_codelist_20250626.txt"),
 #             sep = "\t", row.names = FALSE)
 
 

@@ -19,6 +19,7 @@ library(tidyverse)
 #   df_matches: Dataframe of subset of code dictionary whose term, product name, 
 #   or ingredient matches a drug or brand name of interest
 match_meds <- function(df_codes, df_drugs) {
+  
   # Create an empty column required for loop in df_codes
   df_codes$keyword <- NA_character_
   df_codes$brandnames <- NA_character_
@@ -28,6 +29,9 @@ match_meds <- function(df_codes, df_drugs) {
     # For each drug and brandname
     drug <- df_drugs$keyword[i]
     brandname <- df_drugs$brandnames[i]
+    if (is.na(brandname)) {
+      brandname <- "no brand name"
+    } 
     
     # Search for brandname matches in the "productname", "term", and "ingredient" 
     # columns of df_codes
