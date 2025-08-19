@@ -2,7 +2,7 @@
 # Generate code lists for SMI diagnoses
 # Author: SM Wu
 # Date Created: 2025/06/11
-# Date Updated: 2025/07/25
+# Date Updated: 2025/08/19
 # 
 # Details:
 # 1) Set up and load data
@@ -10,11 +10,11 @@
 # 3) Create updated code lists
 #
 # Inputs:
-# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Product_10Feb2025.txt: Aurum product master code list
-# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Product_23Feb2025.txt: GOLD product master code list
+# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Medical_10Feb2025.txt: Aurum medical master code list
+# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Medical_23Feb2025.txt: GOLD medical master code list
 # 3) Code_Lists/MASTER_Lists/Business_Rules_Combined_Change_Log_QOF%2B2024-25_v49.1.xlsm: QOF v49.1 clusters
-# 4) OLD_Code_Lists/SMI/Aurum_SMI_codelist_21032024_Alvin.txt: Old Aurum SMI code list
-# 5) OLD_Code_Lists/SMI/Gold_SMI_codelist_21032024_Alvin.txt: Old GOLD SMI code list
+# 4) Code_Lists/SMI/Old/Aurum_SMI_codelist_20240321_Alvin.txt: Old Aurum SMI code list
+# 5) Code_Lists/SMI/Old/Gold_SMI_codelist_20240321_Alvin.txt: Old GOLD SMI code list
 # 
 # Intermediate outputs:
 # 1) Code_Lists/SMI/Aurum_other_codes.csv: Potential codes to add for Aurum SMI
@@ -97,7 +97,7 @@ qof_smi <- qof %>%
 # Read in old SMI code list from 2024/03/21, setting all col types to character
 # Aurum
 smi_codelist_aurum_old <- read_delim(
-  paste0(wd, path_input, "OLD_Code_Lists/SMI/Aurum_SMI_codelist_21032024_Alvin.txt"),
+  paste0(wd, path_input, "SMI/Old/Aurum_SMI_codelist_20240321_Alvin.txt"),
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcodeid = col_character(), SNOMED = col_character()),
   trim_ws = TRUE) %>%
@@ -111,11 +111,11 @@ smi_codelist_aurum_old <- read_delim(
 
 # Gold
 smi_codelist_gold_old <- read_delim(
-  paste0(wd, path_input, "OLD_Code_Lists/SMI/Gold_SMI_codelist_21032024_Alvin.txt"),
+  paste0(wd, path_input, "SMI/Old/Gold_SMI_codelist_20240321_Alvin.txt"),
   delim = "\t", escape_double = FALSE, col_types = "c", trim_ws = TRUE)
 
 
-## Sanity check
+## Sanity check -- OLD CODE -- do not run
 # # Naomi's code lists
 # smi_codelist_aurum_naomi <- read_delim(
 #   paste0(wd, path_input, "OLD_Code_Lists/SMI/Aurum_SMI_Naomi.txt"),
@@ -384,7 +384,7 @@ smi_codelist_aurum_new <- smi_codelist_aurum_new %>%
                             "362781000006116") ~ "other psychosis",
            .default = Group)) %>%
   select(-smi_type)
-  
+
 
 # Gold
 smi_codelist_gold_new <- gold_smi %>%

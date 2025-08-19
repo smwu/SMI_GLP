@@ -2,7 +2,7 @@
 # Generate code lists for Depression diagnoses
 # Author: SM Wu
 # Date Created: 2025/06/13
-# Date Updated: 2025/07/25
+# Date Updated: 2025/08/19
 # 
 # Details:
 # 1) Set up and load data
@@ -11,10 +11,10 @@
 # 4) Combine depression into SMI code lists
 #
 # Inputs:
-# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Product_10Feb2025.txt: Aurum product master code list
-# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Product_23Feb2025.txt: GOLD product master code list
-# 3) OLD_Code_Lists/Depression/Aurum_Depression_Naomi.txt: Old Aurum depression code list
-# 4) OLD_Code_Lists/Depression/Gold_Depression_Naomi.txt: Old GOLD depression code list
+# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Medical_10Feb2025.txt: Aurum medical master code list
+# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Medical_23Feb2025.txt: GOLD medical master code list
+# 3) Code_Lists/Depression/Old/Aurum_Depression_codelist_20250609_Naomi.txt: Old Aurum depression code list
+# 4) Code_Lists/Depression/Old/Gold_Depression_codelist_20250609_Naomi.txt: Old GOLD depression code list
 # 
 # Intermediate outputs:
 # 1) Code_Lists/Depression/Aurum_other_codes.csv: Potential codes to add for Aurum depression
@@ -26,6 +26,7 @@
 # 3) Code_Lists/Depression/Aurum_Gold_Depression_new_codes_20250725.txt: Newly added depression codes for Aurum and GOLD
 # 4) Code_Lists/Depression/Aurum_SMI_Depression_codelist_20250725.txt: Aurum SMI (including depression) code list
 # 5) Code_Lists/Depression/Gold_SMI_Depression_codelist_20250725.txt: GOLD SMI (including depression) code list
+# 6) Code_Lists/Depression/Aurum_Gold_SMI_Depression_codelist_20250725.txt: GOLD SMI (including depression) code list
 
 # ==============================================================================
 
@@ -84,13 +85,13 @@ cprd_gold_medical <- cprd_gold_medical_raw %>%
 # Read in old Depression code list from 2024/03/28, setting all col types to character
 # Aurum
 depr_codelist_aurum_old <- read_delim(
-  paste0(wd, path_input, "OLD_Code_Lists/Depression/Aurum_Depression_Naomi.txt"),
+  paste0(wd, path_input, "Depression/Old/Aurum_Depression_codelist_20250609_Naomi.txt"),
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcodeid = col_character(), 
                    SnomedCTConceptId = col_character()), trim_ws = TRUE)
 # Gold
 depr_codelist_gold_old <- read_delim(
-  paste0(wd, path_input, "OLD_Code_Lists/Depression/Gold_Depression_Naomi.txt"),
+  paste0(wd, path_input, "Depression/Old/Gold_Depression_codelist_20250609_Naomi.txt"),
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcode = col_character(), 
                    readcode = col_character()), trim_ws = TRUE)
@@ -340,3 +341,16 @@ smi_depr_codelist_gold <- rbind(smi_codelist_gold_new, depr_codelist_gold_new)
 #                           "Gold_SMI_Depression_codelist_20250725.txt"),
 #             sep = "\t", row.names = FALSE)
 
+# Combine Aurum and GOLD into one file with a column specifying database
+smi_depr_codelist_aurum$database <- "Aurum"
+smi_depr_codelist_gold$database <- "Gold"
+smi_depr_codelist_aurum_gold <- rbind(
+  smi_depr_codelist_aurum %>% 
+    rename(medcode = medcodeid) %>%
+    select(medcode, term, group, database), 
+  smi_depr_codelist_gold %>%
+    select(medcode, term, group, database))
+# # Save combined code list
+# write.table(smi_depr_codelist_aurum_gold,
+#             file = paste0(wd, path_output, "Aurum_Gold_SMI_Depression_codelist_20250725.txt"),
+#             sep = "\t", row.names = FALSE)
