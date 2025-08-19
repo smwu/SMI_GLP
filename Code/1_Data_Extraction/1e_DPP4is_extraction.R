@@ -2,7 +2,7 @@
 # Extract patients with DPP-4i medications using code lists
 # Author: SM Wu
 # Date Created: 2025/06/21
-# Date Updated: 2025/06/21
+# Date Updated: 2025/07/04
 # 
 # Details:
 # 1) Set up and read in code lists
@@ -12,8 +12,8 @@
 # 5) Combine GOLD and Aurum and create data files
 #
 # Inputs:
-# 1) Stephanie/SMI_GLP/Code_Lists/DPP4is/Aurum_DPP4is_codelist_20250621.txt: Updated Aurum DPP4is code list
-# 2) Stephanie/SMI_GLP/Code_Lists/DPP4is/Gold_DPP4is_codelist_20250621.txt: Updated GOLD DPP4is code list
+# 1) Stephanie/SMI_GLP/Code_Lists/DPP4is/Aurum_DPP4is_codelist_20250704.txt: Updated Aurum DPP4is code list
+# 2) Stephanie/SMI_GLP/Code_Lists/DPP4is/Gold_DPP4is_codelist_20250704.txt: Updated GOLD DPP4is code list
 # 3) Stephanie/SMI_GLP/Code/1_Data_Extraction/helper_fns_data_extraction.R: Helper functions
 # 4) 2023 CPRD/GOLD/ Therapy files
 # 5) 2023 CPRD/Aurum/ DrugIssue files
@@ -64,13 +64,13 @@ source(paste0(wd, "Stephanie/SMI_GLP/Code/1_Data_Extraction/",
 
 # GOLD code list
 dpp4i_gold <- read_delim(
-  file = paste0(wd, path_input, "Gold_DPP4is_codelist_20250621.txt"), 
+  file = paste0(wd, path_input, "Gold_DPP4is_codelist_20250704.txt"), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(prodcode = col_character()),  trim_ws = TRUE) 
 
 # AURUM code list
 dpp4i_aurum <- read_delim(
-  file = paste0(wd, path_input, "Aurum_DPP4is_codelist_20250621.txt"), 
+  file = paste0(wd, path_input, "Aurum_DPP4is_codelist_20250704.txt"), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(prodcodeid = col_character(),
                    BNFChapter = col_character()), 
@@ -99,7 +99,7 @@ pat_dpp4i_gold <- pat_dpp4i_gold_therapy %>%
   mutate(database = "Gold")
 
 # Number of unique patients with condition
-n_distinct(pat_dpp4i_gold$patid) # 1,474
+n_distinct(pat_dpp4i_gold$patid) # 3,000
 
 # # Save extracted patient files matching code list conditions 
 # save(pat_dpp4i_gold,
@@ -127,7 +127,7 @@ pat_dpp4i_aurum <- pat_dpp4i_aurum_drug %>%
   mutate(database = "Aurum")
 
 # Number of unique patients with condition
-n_distinct(pat_dpp4i_aurum$patid) # 5,334
+n_distinct(pat_dpp4i_aurum$patid) # 10,661
 
 # # Save extracted patient files matching code list conditions 
 # save(pat_dpp4i_aurum,
@@ -198,7 +198,7 @@ pat_dpp4i_comb <- pat_dpp4i_aurum_lookup %>%
   bind_rows(pat_dpp4i_gold_lookup)
 
 # Transform dates and exclude entries with invalid DPP4is dates
-# 0 excluded. 29,604 remaining
+# 0 excluded. 728,228 remaining
 pat_dpp4i_comb <- transform_dates_meds(patient_data = pat_dpp4i_comb,
                                     earliest_date = '1900-01-01',
                                     latest_date = '2023-06-01')
@@ -212,11 +212,11 @@ pat_dpp4i_comb <- pat_dpp4i_comb %>%
       database == "Gold" ~ paste0(patid, "-G"),
       database == "Aurum" ~ paste0(patid, "-A"),
       .default = patid)) %>%
-  distinct()  # Removed 75 duplicates. 302,182 remaining
+  distinct()  # Removed 163 duplicates. 728,065 remaining
 
 
 # Number of unique patients with condition
-n_distinct(pat_dpp4i_comb$patid) # 6,808
+n_distinct(pat_dpp4i_comb$patid) # 13,661
 
 # # Save patient data for GOLD and Aurum
 # save(pat_dpp4i_comb,

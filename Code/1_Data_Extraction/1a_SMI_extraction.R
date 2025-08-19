@@ -2,7 +2,7 @@
 # Extract patients with SMI diagnoses using code lists
 # Author: SM Wu
 # Date Created: 2025/06/16
-# Date Updated: 2025/06/17
+# Date Updated: 2025/08/01
 # 
 # Details:
 # 1) Set up and read in code lists
@@ -11,8 +11,8 @@
 # 4) Combine GOLD and Aurum and create data files
 #
 # Inputs:
-# 1) Stephanie/SMI_GLP/Code_Lists/SMI/Aurum_SMI_codelist_20250613.txt: Updated Aurum SMI code list
-# 2) Stephanie/SMI_GLP/Code_Lists/SMI/Gold_SMI_codelist_20250613.txt: Updated GOLD SMI code list
+# 1) Stephanie/SMI_GLP/Code_Lists/SMI/Aurum_SMI_codelist_20250725.txt: Updated Aurum SMI code list
+# 2) Stephanie/SMI_GLP/Code_Lists/SMI/Gold_SMI_codelist_20250725.txt: Updated GOLD SMI code list
 # 3) Stephanie/SMI_GLP/Code/1_Data_Extraction/helper_fns_data_extraction.R: Helper functions
 # 4) 2023 CPRD/GOLD/ Clinical, Test, and Referral files
 # 5) 2023 CPRD/Aurum/ Observation files
@@ -58,26 +58,23 @@ source(paste0(wd, "Stephanie/SMI_GLP/Code/1_Data_Extraction/",
 
 # GOLD code list
 smi_gold <- read_delim(
-  file = paste0(wd, path_input, "Gold_SMI_codelist_20250613.txt"), 
+  file = paste0(wd, path_input, "Gold_SMI_codelist_20250725.txt"), 
   delim = "\t", escape_double = FALSE, 
-  col_types = cols(medcode = col_character(), 
-                   Read.code = col_skip()),  trim_ws = TRUE) %>%
+  col_types = cols(medcode = col_character()),trim_ws = TRUE) %>%
   rename(readterm = Term, group = Group) %>%
-  select(medcode, everything()) %>%
+  select(medcode, readterm, group) %>%
   filter(medcode != 0)
+
 
 # AURUM code list
 smi_aurum <- read_delim(
-  file = paste0(wd, path_input, "Aurum_SMI_codelist_20250613.txt"), 
+  file = paste0(wd, path_input, "Aurum_SMI_codelist_20250725.txt"), 
   delim = "\t", escape_double = FALSE, 
-  col_types = cols(medcodeid = col_character(), 
-                   EMIS = col_skip(),  
-                   READ = col_skip(), 
-                   SNOMED = col_skip()), trim_ws = TRUE) %>%
-  mutate(readterm = coalesce(TermSNOMED, TermRead, TermEMIS)) %>%
+  col_types = cols(medcodeid = col_character(), SNOMED = col_character()),
+  trim_ws = TRUE) %>%
+  mutate(readterm = coalesce(TermRead, TermSNOMED, TermEMIS)) %>%
   select(medcodeid, readterm, group = Group) %>%
   filter(medcodeid != "Not in current release")
-
 
 
 # ================= 2) Read in CPRD GOLD data ==================================
@@ -137,7 +134,7 @@ pat_smi_gold <- pat_smi_gold %>%
 n_distinct(pat_smi_gold$patid) # 213,239
 
 # # Save extracted patient files matching code list conditions 
-# save(pat_smi_gold, 
+# save(pat_smi_gold,
 #      file = paste0(wd, path_output, "Extraction_Files/pat_smi_gold.RData"))
 
 # Remove separate files to save memory
@@ -169,7 +166,7 @@ pat_smi_aurum <- pat_smi_aurum_obs %>%
 n_distinct(pat_smi_aurum$patid) # 429,273
 
 # # Save extracted patient files matching code list conditions 
-# save(pat_smi_aurum, 
+# save(pat_smi_aurum,
 #      file = paste0(wd, path_output, "Extraction_Files/pat_smi_aurum.RData"))
 
 
@@ -216,3 +213,23 @@ n_distinct(pat_smi_comb$patid) # 642,512
 
 
 
+#================ Old Code =====================================================
+# smi_gold_raw <- read_delim(
+#   file = paste0(wd, path_input, "Gold_SMI_codelist_20250707.txt"), 
+#   delim = "\t", escape_double = FALSE, 
+#   col_types = cols(medcode = col_character(), 
+#                    Read.code = col_skip()),  trim_ws = TRUE) %>%
+#   rename(readterm = Term, group = Group) %>%
+#   select(medcode, everything()) %>%
+#   filter(medcode != 0)
+
+# smi_aurum <- read_delim(
+#   file = paste0(wd, path_input, "Aurum_SMI_codelist_20250707.txt"), 
+#   delim = "\t", escape_double = FALSE, 
+#   col_types = cols(medcodeid = col_character(), 
+#                    EMIS = col_skip(),  
+#                    READ = col_skip(), 
+#                    SNOMED = col_skip()), trim_ws = TRUE) %>%
+#   mutate(readterm = coalesce(TermSNOMED, TermRead, TermEMIS)) %>%
+#   select(medcodeid, readterm, group = Group) %>%
+#   filter(medcodeid != "Not in current release")

@@ -165,7 +165,7 @@ n <- get_sample_size_onestep(alpha = alpha, beta = 0.1, q_treat = q_treat,
 # from the cumulative incidence function accounting for death as a potential 
 # competing risk.
 # We will use an average 14.4% for the control arm incidence.
-inc_0 <- 0.0144
+inc_0 <- 0.144
 phi <- 0.8
 # The hazard can be approximated by the incidence rate, assuming a constant 
 # hazard (i.e., Exponential distribution) and a rare event rate
