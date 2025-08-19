@@ -1,0 +1,156 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"19931010"	2001	"66AJ1"	"66AJ100"	"brittle diabetes"	"11530004"	"19931010"	27
+"73466011"	153909	"C1001-2"	"C100112"	"non-insulin dependent diabetes mellitus"	"44054006"	"493773010"	32
+"121589010"	6427569	"C10"	"C10..00"	"diabetes mellitus"	"73211009"	"121589010"	32
+"197761014"	30078427	"C10F"	"C10F.00"	"type 2 diabetes mellitus"	"44054006"	"197761014"	32
+"264681018"	6288011	"66A4"	"66A4.00"	"diabetic on oral treatment"	"170746002"	"264681018"	1
+"264682013"	1735607	"66A5"	"66A5.00"	"diabetic on insulin"	"170747006"	"264682013"	1
+"264707013"	612711	"66AI"	"66AI.00"	"diabetic - good control"	"170763003"	"264707013"	1
+"264716012"	19178	"66AJz"	"66AJz00"	"diabetic - poor control nos"	"268519009"	"401531012"	27
+"264717015"	13398	"66AK"	"66AK.00"	"diabetic - cooperative patient"	"170769004"	"264717015"	1
+"264718013"	2224	"66AL"	"66AL.00"	"diabetic-uncooperative patient"	"170770003"	"264718013"	1
+"264719017"	40793	"66AM"	"66AM.00"	"diabetic - follow-up default"	"170771004"	"264719017"	1
+"292466013"	18255	"C100"	"C100.00"	"diabetes mellitus without complication"	"111552007"	"178796018"	32
+"292475010"	5284	"C100z"	"C100z00"	"diabetes mellitus nos with no mention of complication"	"111552007"	"178796018"	32
+"292479016"	1780	"C101z"	"C101z00"	"diabetes mellitus nos with ketoacidosis"	"420422005"	"2616611010"	32
+"292480018"	787	"C102"	"C102.00"	"diabetes mellitus with hyperosmolar coma"	"422126006"	"2618221017"	32
+"292483016"	94	"C1021"	"C102100"	"diabetes mellitus, adult onset, with hyperosmolar coma"	"190331003"	"292483016"	32
+"292489017"	113	"C103z"	"C103z00"	"diabetes mellitus nos with ketoacidotic coma"	"420422005"	"2616611010"	32
+"292496015"	1765	"C104z"	"C104z00"	"diabetes mellitus with nephropathy nos"	"127013003"	"301016"	32
+"292503016"	254	"C105z"	"C105z00"	"diabetes mellitus nos with ophthalmic manifestation"	"25093002"	"42062018"	32
+"292512019"	1984	"C106z"	"C106z00"	"diabetes mellitus nos with neurological manifestation"	"422088007"	"2618195014"	32
+"292523015"	916	"C107z"	"C107z00"	"diabetes mellitus nos with peripheral circulatory disorder"	"421895002"	"2618203015"	32
+"292565014"	265	"C108z"	"C108z00"	"diabetes mellitus with multiple complications"	"385041000000108"	"760111000000115"	32
+"292576013"	34	"C10F3-1"	"C10F311"	"type ii diabetes mellitus with multiple complications"	"190388001"	"292576013"	32
+"292577016"	2963	"C10F3"	"C10F300"	"type 2 diabetes mellitus with multiple complications"	"190388001"	"292577016"	32
+"292579018"	1252	"C10F4"	"C10F400"	"type 2 diabetes mellitus with ulcer"	"190389009"	"292579018"	32
+"292581016"	32	"C10F4-1"	"C10F411"	"type ii diabetes mellitus with ulcer"	"190389009"	"292581016"	32
+"292582011"	8	"C10F5-1"	"C10F511"	"type ii diabetes mellitus with gangrene"	"421631007"	"2618206011"	32
+"292583018"	289	"C10F5"	"C10F500"	"type 2 diabetes mellitus with gangrene"	"421631007"	"2618206011"	32
+"292589019"	322	"C10F7-1"	"C10F711"	"type ii diabetes mellitus - poor control"	"443694000"	"2921019012"	32
+"292590011"	17364	"C10F7"	"C10F700"	"type ii diabetes mellitus poorly controlled"	"443694000"	"2921019012"	32
+"292617015"	1674	"C10y"	"C10y.00"	"diabetes mellitus with other specified manifestation"	"74627003"	"123939015"	32
+"292621010"	53	"C10yz"	"C10yz00"	"diabetes mellitus nos with other specified manifestation"	"73211009"	"121589010"	32
+"292622015"	1881	"C10z"	"C10z.00"	"diabetes mellitus with unspecified complication"	"74627003"	"123939015"	32
+"345487013"	25427	"C106-2"	"C106.12"	"diabetes mellitus with neuropathy"	"230572002"	"345487013"	32
+"401531012"	455944	"66AJ"	"66AJ.00"	"diabetic - poor control"	"268519009"	"401531012"	27
+"411891014"	3856	"66AJ-1"	"66AJ.11"	"unstable diabetes"	"11530004"	"19931010"	27
+"457329019"	12402	"C10F9"	"C10F900"	"type 2 diabetes mellitus without complication"	"313436004"	"457329019"	32
+"457330012"	1148	"C10F9-1"	"C10F911"	"type ii diabetes mellitus without complication"	"313436004"	"457330012"	32
+"458512016"	359524	"66AV"	"66AV.00"	"diabetic on insulin and oral treatment"	"314194001"	"458512016"	1
+"459167016"	235	"C10FD"	"C10FD00"	"type 2 diabetes mellitus with hypoglycaemic coma"	"719216001"	"3316336015"	32
+"459306016"	68	"C10FF-1"	"C10FF11"	"type ii diabetes mellitus with peripheral angiopathy"	"314902007"	"459306016"	32
+"459308015"	353	"C10FF"	"C10FF00"	"type 2 diabetes mellitus with peripheral angiopathy"	"314902007"	"459308015"	32
+"459309011"	8	"C109G"	"C109G00"	"non-insulin dependent diabetes mellitus with arthropathy"	"314903002"	"459309011"	32
+"459310018"	226	"C10FG"	"C10FG00"	"type 2 diabetes mellitus with arthropathy"	"314903002"	"459310018"	32
+"459311019"	49	"C10FG-1"	"C10FG11"	"type ii diabetes mellitus with arthropathy"	"314903002"	"459311019"	32
+"459312014"	40	"C10FH-1"	"C10FH11"	"type ii diabetes mellitus with neuropathic arthropathy"	"314904008"	"459312014"	32
+"459313016"	933	"C10FH"	"C10FH00"	"type 2 diabetes mellitus with neuropathic arthropathy"	"314904008"	"459313016"	32
+"493773010"	46312	"C109-1"	"C109.11"	"niddm - non-insulin dependent diabetes mellitus"	"44054006"	"493773010"	32
+"493774016"	720849	"C10F-1"	"C10F.11"	"type ii diabetes mellitus"	"44054006"	"493774016"	32
+"1223147012"	1708	"C10FJ-1"	"C10FJ11"	"insulin treated type ii diabetes mellitus"	"237599002"	"1223147012"	32
+"1223148019"	1248	"C109J-1"	"C109J11"	"insulin treated non-insulin dependent diabetes mellitus"	"237599002"	"1223148019"	32
+"2622193012"	65130	"C101"	"C101.00"	"diabetes mellitus with ketoacidosis"	"420422005"	"2622193012"	32
+"84471000006119"	284384	"C109-2"	"C109.12"	"type 2 diabetes mellitus"	"44054006"	"197761014"	32
+"84481000006116"	1455	"C1097-2"	"C109712"	"type 2 diabetes mellitus - poor control"	"443694000"	"2921019012"	32
+"84491000006118"	14	"C109G-2"	"C109G12"	"type 2 diabetes mellitus with arthropathy"	"314903002"	"459310018"	32
+"84511000006112"	18	"C1095-2"	"C109512"	"type 2 diabetes mellitus with gangrene"	"421631007"	"2618206011"	32
+"84521000006116"	25	"C109D-2"	"C109D12"	"type 2 diabetes mellitus with hypoglycaemic coma"	"719216001"	"3316336015"	32
+"84531000006118"	18	"C109A-2"	"C109A12"	"type 2 diabetes mellitus with mononeuropathy"	"420436000"	"2618201018"	32
+"84541000006111"	202	"C1093-2"	"C109312"	"type 2 diabetes mellitus with multiple complications"	"190388001"	"292577016"	32
+"84551000006113"	820	"C109C-2"	"C109C12"	"type 2 diabetes mellitus with nephropathy"	"420279001"	"3035432019"	32
+"84561000006110"	119	"C1092-2"	"C109212"	"type 2 diabetes mellitus with neurological complications"	"421326000"	"3695406015"	32
+"84571000006115"	21	"C109H-2"	"C109H12"	"type 2 diabetes mellitus with neuropathic arthropathy"	"314904008"	"459313016"	32
+"84581000006117"	193	"C1091-2"	"C109112"	"type 2 diabetes mellitus with ophthalmic complications"	"422099009"	"3698440016"	32
+"84591000006119"	8	"C109F-2"	"C109F12"	"type 2 diabetes mellitus with peripheral angiopathy"	"314902007"	"459308015"	32
+"84631000006119"	91	"C1094-2"	"C109412"	"type 2 diabetes mellitus with ulcer"	"190389009"	"292579018"	32
+"84641000006112"	92	"C1099-2"	"C109912"	"type 2 diabetes mellitus without complication"	"313436004"	"457329019"	32
+"84841000006113"	57108	"C109-3"	"C109.13"	"type ii diabetes mellitus"	"44054006"	"493774016"	32
+"84851000006110"	860	"C1097-1"	"C109711"	"type ii diabetes mellitus - poor control"	"443694000"	"2921019012"	32
+"84861000006112"	3	"C109G-1"	"C109G11"	"type ii diabetes mellitus with arthropathy"	"314903002"	"459311019"	32
+"84881000006119"	8	"C1095-1"	"C109511"	"type ii diabetes mellitus with gangrene"	"421631007"	"2618206011"	32
+"84891000006116"	5	"C109D-1"	"C109D11"	"type ii diabetes mellitus with hypoglycaemic coma"	"719216001"	"3316336015"	32
+"84911000006119"	8	"C1093-1"	"C109311"	"type ii diabetes mellitus with multiple complications"	"190388001"	"292576013"	32
+"84931000006113"	49	"C1092-1"	"C109211"	"neurological disorder with diabetes type 2"	"421326000"	"3695406015"	32
+"84941000006115"	14	"C109H-1"	"C109H11"	"type ii diabetes mellitus with neuropathic arthropathy"	"314904008"	"459312014"	32
+"84961000006116"	18	"C109F-1"	"C109F11"	"type ii diabetes mellitus with peripheral angiopathy"	"314902007"	"459306016"	32
+"85001000006117"	76	"C1094-1"	"C109411"	"type ii diabetes mellitus with ulcer"	"190389009"	"292581016"	32
+"85011000006119"	86	"C1099-1"	"C109911"	"type ii diabetes mellitus without complication"	"313436004"	"457330012"	32
+"280511000006113"	57	"C109D"	"C109D00"	"non-insulin dependent diabetes mellitus with hypoglyca coma"	"719216001"	"3316336015"	32
+"280521000006117"	33	"C109A"	"C109A00"	"non-insulin dependent diabetes mellitus with mononeuropathy"	"420436000"	"3697667019"	32
+"280531000006119"	195	"C109C"	"C109C00"	"non-insulin dependent diabetes mellitus with nephropathy"	"420279001"	"3035432019"	32
+"280571000006116"	813235	"C109"	"C109.00"	"non-insulin dependent diabetes mellitus"	"44054006"	"493773010"	32
+"281171000006119"	27721	"C1097"	"C109700"	"type ii diabetes mellitus uncontrolled"	"443694000"	"2842387018"	32
+"281181000006116"	18	"C109H"	"C109H00"	"non-insulin dependent diabetes mellitus with neuropathic arthropathy"	"314904008"	"459314010"	32
+"377001000006117"	570	"Cyu2"	"Cyu2.00"	"[x]diabetes mellitus"	"73211009"	"121589010"	32
+"616351000006115"	429	"C107-1"	"C107.11"	"diabetes mellitus with gangrene"	"422275004"	"2616612015"	32
+"616381000006111"	813	"C103"	"C103.00"	"diabetes mellitus with ketoacidotic coma"	"26298008"	"44045012"	32
+"616481000006119"	1735	"C1061"	"C106100"	"diabetes mellitus, adult onset, + neurological manifestation"	"421326000"	"2618196010"	32
+"616491000006116"	986	"C1051"	"C105100"	"diabetes mellitus, adult onset, + ophthalmic manifestation"	"422099009"	"2618233010"	32
+"616511000006110"	89330	"C1001"	"C100100"	"diabetes mellitus, adult onset, no mention of complication"	"313436004"	"457329019"	32
+"616531000006116"	913	"C1011"	"C101100"	"diabetes mellitus, adult onset, with ketoacidosis"	"421750000"	"2618220016"	32
+"616541000006114"	23	"C1031"	"C103100"	"diabetes mellitus, adult onset, with ketoacidotic coma"	"421847006"	"2618218019"	32
+"616561000006113"	270	"C1072"	"C107200"	"diabetes mellitus, adult with gangrene"	"421631007"	"2618206011"	32
+"616571000006118"	1243	"C10y1"	"C10y100"	"diabetes mellitus, adult, + other specified manifestation"	"73211009"	"121589010"	32
+"616581000006115"	596	"C1071"	"C107100"	"diabetes mellitus, adult, + peripheral circulatory disorder"	"422166005"	"2618204014"	32
+"616831000006118"	546	"C107-2"	"C107.12"	"diabetes with gangrene"	"422275004"	"2616612015"	32
+"616891000006119"	213494	"EMISHGT48"	NA	"diabetic - moderate control"	"616891000006103"	"616891000006119"	1
+"772131000006111"	27	"C108J"	"C108J00"	"insulin dependent diab mell with neuropathic arthropathy"	"201724008"	"309740011"	32
+"772141000006118"	6	"C108G"	"C108G00"	"insulin dependent diab mell with peripheral angiopathy"	"421895002"	"2618203015"	32
+"840951000006119"	68852	"C109J"	"C109J00"	"insulin treated type 2 diabetes mellitus"	"237599002"	"2967820013"	32
+"840971000006112"	845	"C10D"	"C10D.00"	"diabetes mellitus autosomal dominant type ii"	"237604008"	"356082013"	32
+"841351000006110"	1614	"C109J-2"	"C109J12"	"insulin treated type ii diabetes mellitus"	"237599002"	"1223147012"	32
+"851051000006110"	26	"EMISR4QIN2"	NA	"ins-treat non-ins-dep diab mel"	"851051000006106"	"851051000006110"	32
+"856771000006110"	2245	"EMISTO1"	NA	"patient has been told has diabetes"	"856771000006106"	"856771000006110"	27
+"881451000006113"	27409	"C1001-99"	"C100199"	"diabetes mellitus -adult onset"	"532411000000102"	"881451000006113"	32
+"881461000006110"	584	"C101-99"	"C101.99"	"diabetes+ketoacidosis -no coma"	"420422005"	"881461000006110"	32
+"881471000006115"	63	"C103-99"	"C103.99"	"diabetes with coma"	"26298008"	"881471000006115"	32
+"881481000006117"	1234	"C104-99"	"C104.99"	"diabetes + nephropathy"	"127013003"	"881481000006117"	32
+"881491000006119"	1353	"C105-99"	"C105.99"	"diabetes + eye manifestation"	"25093002"	"881491000006119"	32
+"881501000006110"	5443	"C106-99"	"C106.99"	"diabetes + neuropathy"	"230572002"	"881501000006110"	32
+"881511000006113"	685	"C107-99"	"C107.99"	"diabetes + periph.circulat.dis"	"422275004"	"881511000006113"	32
+"881521000006117"	269	"C10y-99"	"C10y.99"	"diabetes + other complications"	"658011000000104"	"881521000006117"	32
+"905621000006113"	7166	"HNG0036"	NA	"[rfc] diabetes"	"905621000006109"	"905621000006113"	12
+"908831000006118"	224224	"HNG0605"	NA	"[rfc] diabetes mellitus"	"908831000006102"	"908831000006118"	12
+"913921000006119"	6	"C10EG-2"	"C10EG12"	"insulin dependent diab mell with peripheral angiopathy"	"421895002"	"2618203015"	32
+"913981000006115"	42	"C10EJ-2"	"C10EJ12"	"insulin dependent diab mell with neuropathic arthropathy"	"201724008"	"309740011"	32
+"914061000006110"	15	"C10F1-1"	"C10F111"	"type ii diabetes mellitus with ophthalmic complications"	"422099009"	"3698440016"	32
+"914081000006117"	14	"C10F2-1"	"C10F211"	"type ii diabetes mellitus with neurological complications"	"421326000"	"3695406015"	32
+"914221000006113"	321	"C10FA"	"C10FA00"	"type 2 diabetes mellitus with mononeuropathy"	"420436000"	"2618201018"	32
+"914231000006111"	41	"C10FA-1"	"C10FA11"	"type ii diabetes mellitus with mononeuropathy"	"420436000"	"3697667019"	32
+"914261000006119"	7266	"C10FC"	"C10FC00"	"diabetes type 2 with nephropathy"	"420279001"	"3035432019"	32
+"914271000006114"	91	"C10FC-1"	"C10FC11"	"type ii diabetes mellitus with nephropathy"	"420279001"	"3013392012"	32
+"914391000006116"	744514	"C10FJ"	"C10FJ00"	"insulin treated type 2 diabetes mellitus"	"237599002"	"2967820013"	32
+"928551000006115"	647	"C10FL-1"	"C10FL11"	"type ii diabetes mellitus with persistent proteinuria"	"421986006"	"2967751013"	32
+"928571000006113"	2268	"C10FM-1"	"C10FM11"	"type ii diabetes mellitus with persistent microalbuminuria"	"420715001"	"2967769016"	32
+"928591000006114"	94	"C10FN-1"	"C10FN11"	"type ii diabetes mellitus with ketoacidosis"	"421750000"	"2967754017"	32
+"932641000006116"	27	"C103y-99"	"C103y99"	"diabetes with coma"	"630521000000101"	"932641000006116"	32
+"1177721000000112"	8824	"66As"	"66As.00"	"diabetic on subcutaneous treatment"	"527691000000107"	"1177721000000112"	1
+"1667921000000117"	446	"C10FR-1"	"C10FR11"	"type ii diabetes mellitus with gastroparesis"	"713703005"	"3698412014"	32
+"1694761000006113"	22879	"EMISNQNE23"	NA	"newly diagnosed diabetes"	"405749004"	"2157525015"	1
+"1780981000006115"	463	"EMISNQDI70"	NA	"diabetic on non-insulin injectable"	"1780981000006104"	"1780981000006115"	1
+"1823921000006119"	810	"EMISNQDI96"	NA	"diabetes mellitus confirmed"	"1823921000006103"	"1823921000006119"	27
+"1954041000006119"	1	"EMISNQDI204"	NA	"diabetic - uses carbohydrate counting"	"1954041000006103"	"1954041000006119"	1
+"1966311000006116"	35228	"66o5"	"66o5.00"	"diabetic on oral treatment and glucagon-like peptide 1 receptor agonist"	"976341000000101"	"2483721000000113"	1
+"1966321000006112"	11464	"66o6"	"66o6.00"	"diabetic on insulin and glucagon-like peptide 1 receptor agonist"	"976361000000100"	"2483761000000117"	1
+"2460251000000115"	25662	"66o2"	"66o2.00"	"diabetic on non-insulin injectable medication"	"719566006"	"3316952014"	1
+"2683561000006119"	114	"^ESCTBR268356"	NA	"brittle diabetes mellitus"	"11530004"	"2658852011"	27
+"2683581000006112"	62	"^ESCTLA268358"	NA	"labile diabetes"	"11530004"	"1220208016"	27
+"2683591000006110"	10	"^ESCTUN268359"	NA	"unstable diabetes mellitus"	"11530004"	"2871747019"	27
+"3209441000006114"	748	"^ESCTDI320944"	NA	"diabetes mellitus type 2"	"44054006"	"197763012"	32
+"3690681000006114"	6	"^ESCTDM369068"	NA	"dm - diabetes mellitus"	"73211009"	"502372015"	32
+"3825721000006111"	1	"^ESCTTY382572"	NA	"type 2 diabetes mellitus in obese"	"81531005"	"2967826019"	31
+"4758011000006112"	7	"^ESCTTY475801"	NA	"type 2 diabetes mellitus with hyperosmolar coma"	"190331003"	"2967818010"	32
+"5109461000006115"	5	"^ESCTDI510946"	NA	"diabetes type 2 on insulin"	"237599002"	"3037103012"	32
+"5505651000006113"	66	"^ESCTDI550565"	NA	"diabetes mellitus uncontrolled"	"268519009"	"2920470017"	27
+"6969931000006116"	6	"^ESCTDI696993"	NA	"diabetes type 2 with neurological disorder"	"421326000"	"3035455016"	32
+"6977431000006113"	1	"^ESCTDI697743"	NA	"diabetes type 2 with ketoacidosis"	"421750000"	"3035594017"	32
+"7281511000006118"	26	"^ESCTTY728151"	NA	"type 2 diabetes mellitus uncontrolled"	"443694000"	"3321322011"	32
+"7288191000006110"	3	"^ESCTTY728819"	NA	"type 2 diabetes mellitus well controlled"	"444110003"	"2967750014"	31
+"7306751000006110"	9	"^ESCTBR730675"	NA	"brittle type 2 diabetes mellitus"	"445353002"	"2967761018"	27
+"7306781000006119"	1	"^ESCTUN730678"	NA	"unstable type ii diabetes mellitus"	"445353002"	"2870782011"	27
+"8012061000006117"	479	"^ESCTTY801206"	NA	"type 2 diabetic on insulin"	"24471000000103"	"2201341000000118"	31
+"8012071000006112"	1	"^ESCTTY801207"	NA	"type ii diabetes on insulin"	"24471000000103"	"1667901000000114"	31
+"8064411000006119"	6298	"^ESCTDI806441"	NA	"diabetic with adequate control"	"204061000000100"	"1749211000000110"	31
+"14757381000006119"	11	"^ESCT1475738"	NA	"ketosis-resistant diabetes mellitus"	"1217044000"	"5034533016"	32
+"15498541000006112"	3272	"^ESCT1549854"	NA	"uncontrolled type 2 diabetes mellitus"	"443694000"	"5298761018"	32
