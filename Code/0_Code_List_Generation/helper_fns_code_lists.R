@@ -15,14 +15,24 @@ library(tidyverse)
 # Inputs:
 #   df_codes: Dataframe of code dictionary for GOLD or Aurum
 #   df_drugs: Dataframe of unique drug and brand name combinations
+#   group_info: Boolean indicating whether the drugs in df_drugs have grouping 
+#     information that needs to be preserved. E.g., class of antidiabetic drug.
+#     Default is `FALSE`, indicating no grouping information.
 # Outputs:
 #   df_matches: Dataframe of subset of code dictionary whose term, product name, 
 #   or ingredient matches a drug or brand name of interest
-match_meds <- function(df_codes, df_drugs) {
+# To be called as:
+#   aurum_matches_df <- match_meds(df_codes = cprd_aurum_product, 
+#     df_drugs = meds, group_info = FALSE)
+match_meds <- function(df_codes, df_drugs, group_info = FALSE) {
   
   # Create an empty column required for loop in df_codes
   df_codes$keyword <- NA_character_
   df_codes$brandnames <- NA_character_
+  # Create group column if there is grouping info
+  if (group_info) {
+    df_codes$group <- NA_character_
+  }
   
   # Loop over all the unique drugs and brandnames
   for (i in 1:nrow(df_drugs)) {
@@ -32,6 +42,10 @@ match_meds <- function(df_codes, df_drugs) {
     if (is.na(brandname)) {
       brandname <- "no brand name"
     } 
+    # Preserve grouping info if necessary
+    if (group_info) {
+      group <- df_drugs$group[i]
+    }
     
     # Search for brandname matches in the "productname", "term", and "ingredient" 
     # columns of df_codes
@@ -55,9 +69,18 @@ match_meds <- function(df_codes, df_drugs) {
     
     # Assign matching brand name and drug to the "brandnames" and "keyword" 
     # columns in df_codes
+    match_brand_inds <- which(match_brand)
     df_codes$brandnames[match_brand] <- brandname
     df_codes$keyword[match_brand] <- drug
     df_codes$keyword[match_drug] <- drug
+    # If grouping info is to be included, assign matched group to the the 
+    # "group" column 
+    if (group_info) {
+      df_codes$group[match_brand] <- paste(df_codes$group[match_brand], 
+                                           group, sep = " ")
+      df_codes$group[match_drug] <- paste(df_codes$group[match_drug], 
+                                          group, sep = " ")
+    }
   }
   
   # Fill in missing ingredients with the keyword and capitalize the first letter 
@@ -70,6 +93,13 @@ match_meds <- function(df_codes, df_drugs) {
   df_matches <- df_codes %>%
     filter(!(is.na(keyword) & is.na(brandnames)))  %>%
     select(-keyword, -brandnames)
+  
+  # If grouping info is to be included, remove NA, select unique groups, and 
+  # concatenate them if there are multiple, separating by ", "
+  if (group_info) {
+    df_matches$group <- unlist(lapply(df_matches$group, function(x) 
+      paste0(unique(strsplit(x, " ")[[1]])[-1], collapse = ", ")))
+  }
   
   # Return dataframe of matching med codes for the drugs of interest
   return(df_matches)

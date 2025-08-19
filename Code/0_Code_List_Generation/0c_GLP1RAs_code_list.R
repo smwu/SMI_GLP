@@ -2,7 +2,7 @@
 # Generate code lists for GLP-1RA medications
 # Author: SM Wu
 # Date Created: 2025/06/09
-# Date Updated: 2025/06/20
+# Date Updated: 2025/07/30
 # 
 # Details:
 # 1) Set up and load data
@@ -16,8 +16,8 @@
 # 4) Code/0_Code_List_Generation/helper_fns_code_lists.R: Helper functions
 # 
 # Final Outputs:
-# 1) Code_Lists/GLP1RAs/Aurum_GLP1RAs_codelist_20250614.txt: Updated Aurum GLP-1RA code list
-# 2) Code_Lists/GLP1RAs/Gold_GLP1RAs_codelist_20250614.txt: Updated GOLD GLP-1RA code list
+# 1) Code_Lists/GLP1RAs/Aurum_GLP1RAs_codelist_20250730.txt: Updated Aurum GLP-1RA code list
+# 2) Code_Lists/GLP1RAs/Gold_GLP1RAs_codelist_20250730.txt: Updated GOLD GLP-1RA code list
 # ==============================================================================
 
 
@@ -126,7 +126,7 @@ aurum_codelist <- aurum_codelist %>%
 
 # # Save as text file
 # write.table(aurum_codelist, 
-#             file = paste0(wd, path_output, "Aurum_GLP1RAs_codelist_20250614.txt"),
+#             file = paste0(wd, path_output, "Aurum_GLP1RAs_codelist_20250730.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold
@@ -144,7 +144,7 @@ gold_codelist <- gold_codelist %>%
 
 # # Save as text file
 # write.table(gold_codelist, 
-#             file = paste0(wd, path_output, "Gold_GLP1RAs_codelist_20250614.txt"),
+#             file = paste0(wd, path_output, "Gold_GLP1RAs_codelist_20250730.txt"),
 #             sep = "\t", row.names = FALSE)
 
 

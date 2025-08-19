@@ -1,8 +1,8 @@
 # ==============================================================================
-# Generate code lists for DPP-4i anti-diabetic medications
+# Generate code lists for all antidiabetic medications
 # Author: SM Wu
-# Date Created: 2025/06/21
-# Date Updated: 2025/08/01
+# Date Created: 2025/07/26
+# Date Updated: 2025/08/19
 # 
 # Details:
 # 1) Set up and load data
@@ -16,8 +16,10 @@
 # 4) Code/0_Code_List_Generation/helper_fns_code_lists.R: Helper functions
 # 
 # Final Outputs:
-# 1) Code_Lists/DPP4is/Aurum_DPP4is_codelist_20250801.txt: Updated Aurum DPP4is code list
-# 2) Code_Lists/DPP4is/Gold_DPP4is_codelist_20250801.txt: Updated GOLD DPP4is code list
+# 1) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_20250726.txt: Updated Aurum Antidiabetic code list
+# 2) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_20250726.txt: Updated GOLD Antidiabetic code list
+# 3) Code_Lists/Antidiabetics/Aurum_Gold_Antidiabetics_codelist_20250726.txt: Updated Aurum and GOLD Antidiabetic code list
+
 # ==============================================================================
 
 
@@ -40,7 +42,7 @@ setwd(wd)
 
 # Set input and output paths
 path_input <- "Code_Lists/"
-path_output <- "Code_Lists/DPP4is/"
+path_output <- "Code_Lists/Antidiabetics/"
 
 # Load in helper functions
 source(paste0(wd, "Code/0_Code_List_Generation/helper_fns_code_lists.R"))
@@ -80,35 +82,37 @@ cprd_gold_product <- cprd_gold_product %>%
 # Read in medication names
 medication_reference <- 
   read_excel(paste0(wd, path_input, "medication_reference.xlsx"), 
-             sheet = "dpp4is", skip = 1)
+             sheet = "antidiabetics", skip = 1)
 # Rename and select columns
 medication_reference <- medication_reference %>%
   rename(keyword = Clean, 
-         brandnames = `Brand names`) %>%
+         brandnames = `Brand names`,
+         group = Group) %>%
   mutate(keyword = str_to_lower(keyword)) %>%
   filter(!is.na(keyword) & is.na(Exclude))  %>%
-  select(keyword, brandnames)
+  select(keyword, brandnames, group)
 
 # Handle brand names and spelling variants and split into separate rows
 meds <- medication_reference %>% 
-  select(keyword, brandnames) %>%
+  select(keyword, brandnames, group) %>%
   separate_rows(brandnames, sep = ",\\s*") %>%
-  # filter(!is.na(brandnames)) %>%
   mutate(brandnames = str_to_lower(brandnames))
-
 
 # ================= 2) Find all medcodes that match relevant conditions ========
 
 ## Aurum
 
 # Find codes that match the drugs and brand names of interest
-aurum_matches_df <- match_meds(df_codes = cprd_aurum_product, df_drugs = meds)
-
+# Preserving antidiabetic class grouping information
+aurum_matches_df <- match_meds(df_codes = cprd_aurum_product, df_drugs = meds,
+                               group_info = TRUE)
 
 ## GOLD 
 
 # Find codes that match the drugs and brand names of interest
-gold_matches_df <- match_meds(df_codes = cprd_gold_product, df_drugs = meds)
+# Preserving antidiabetic class grouping information
+gold_matches_df <- match_meds(df_codes = cprd_gold_product, df_drugs = meds, 
+                              group_info = TRUE)
 
 
 # ================= 3) Create and save code lists ==============================
@@ -117,36 +121,56 @@ gold_matches_df <- match_meds(df_codes = cprd_gold_product, df_drugs = meds)
 
 # Add medication name column
 aurum_codelist <- match_meds_2(df = aurum_matches_df, 
-                               medication_field = "DPP4i", 
+                               medication_field = "Antidiabetic", 
                                medication_keyword = medication_reference$keyword)
 # Filter to more precise matches
 aurum_codelist_excluded <- aurum_codelist %>%
   filter(match == 0)
 aurum_codelist <- aurum_codelist %>%
   filter(match == 1) %>%
-  select(-match, -concat, -term)
+  select(-match, -concat, -term) %>%
+  select(prodcodeid, productname, formulation, route, ingredient, strength, 
+         BNFChapter, Antidiabetic, group)
 
 # # Save as text file
-# write.table(aurum_codelist, 
-#             file = paste0(wd, path_output, "Aurum_DPP4is_codelist_20250801.txt"),
+# write.table(aurum_codelist,
+#             file = paste0(wd, path_output, "Aurum_Antidiabetics_codelist_20250726.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold
 
 # Add medication name column
 gold_codelist <- match_meds_2(df = gold_matches_df, 
-                              medication_field = "DPP4i", 
+                              medication_field = "Antidiabetic", 
                               medication_keyword = medication_reference$keyword)
 # Filter to more precise matches
 gold_codelist_excluded <- gold_codelist %>%
   filter(match == 0)
 gold_codelist <- gold_codelist %>%
   filter(match == 1) %>%
-  select(-match, -concat, - term)
+  select(-match, -concat, - term) %>%
+  select(prodcode, productname, formulation, route, ingredient, strength, 
+         bnftext, Antidiabetic, group)
 
 # # Save as text file
-# write.table(gold_codelist, 
-#             file = paste0(wd, path_output, "Gold_DPP4is_codelist_20250801.txt"),
+# write.table(gold_codelist,
+#             file = paste0(wd, path_output, "Gold_Antidiabetics_codelist_20250726.txt"),
 #             sep = "\t", row.names = FALSE)
 
+
+# Combine Aurum and GOLD into one file with a column specifying database
+aurum_codelist$database <- "Aurum"
+gold_codelist$database <- "Gold"
+aurum_gold_codelist <- rbind(
+  aurum_codelist %>% 
+    rename(prodcode = prodcodeid) %>%
+    select(prodcode, productname, formulation, route, ingredient, strength, 
+           Antidiabetic, group, database), 
+  gold_codelist %>%
+    select(prodcode, productname, formulation, route, ingredient, strength, 
+           Antidiabetic, group, database))
+# # Save combined code list
+# write.table(aurum_gold_codelist,
+#             file = paste0(wd, path_output, "Aurum_Gold_Antidiabetics_codelist_20250726.txt"),
+#             sep = "\t", row.names = FALSE)
 

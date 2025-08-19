@@ -2,7 +2,7 @@
 # Generate code lists for SGLT-2i anti-diabetic medications
 # Author: SM Wu
 # Date Created: 2025/06/26
-# Date Updated: 2025/06/26
+# Date Updated: 2025/08/01
 # 
 # Details:
 # 1) Set up and load data
@@ -16,8 +16,8 @@
 # 4) Code/0_Code_List_Generation/helper_fns_code_lists.R: Helper functions
 # 
 # Final Outputs:
-# 1) Code_Lists/SGLT2is/Aurum_SGLT2is_codelist_20250614.txt: Updated Aurum SGLT2is code list
-# 2) Code_Lists/SGLT2is/Gold_SGLT2is_codelist_20250614.txt: Updated GOLD SGLT2is code list
+# 1) Code_Lists/SGLT2is/Aurum_SGLT2is_codelist_20250801.txt: Updated Aurum SGLT2is code list
+# 2) Code_Lists/SGLT2is/Gold_SGLT2is_codelist_20250801.txt: Updated GOLD SGLT2is code list
 # ==============================================================================
 
 
@@ -127,8 +127,8 @@ aurum_codelist <- aurum_codelist %>%
   select(-match, -concat, -term)
 
 # # Save as text file
-# write.table(aurum_codelist, 
-#             file = paste0(wd, path_output, "Aurum_SGLT2is_codelist_20250626.txt"),
+# write.table(aurum_codelist,
+#             file = paste0(wd, path_output, "Aurum_SGLT2is_codelist_20250801.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold
@@ -145,8 +145,8 @@ gold_codelist <- gold_codelist %>%
   select(-match, -concat, - term)
 
 # # Save as text file
-# write.table(gold_codelist, 
-#             file = paste0(wd, path_output, "Gold_SGLT2is_codelist_20250626.txt"),
+# write.table(gold_codelist,
+#             file = paste0(wd, path_output, "Gold_SGLT2is_codelist_20250801.txt"),
 #             sep = "\t", row.names = FALSE)
 
 
