@@ -2,7 +2,7 @@
 # Generate code lists for antidepressant medications
 # Author: SM Wu
 # Date Created: 2025/08/01
-# Date Updated: 2025/08/01
+# Date Updated: 2025/10/13
 # 
 # Details:
 # 1) Set up and load data
@@ -16,8 +16,8 @@
 # 4) Code/0_Code_List_Generation/helper_fns_code_lists.R: Helper functions
 # 
 # Final Outputs:
-# 1) Code_Lists/Antidepressants/Aurum_Antipsychotics_codelist_20250801.txt: Updated Aurum Antidepressant code list
-# 2) Code_Lists/Antidepressants/Gold_Antipsychotics_codelist_20250801.txt: Updated GOLD Antidepressant code list
+# 1) Code_Lists/Antidepressants/Aurum_Antidepressants_codelist_20250801.txt: Updated Aurum Antidepressant code list
+# 2) Code_Lists/Antidepressants/Gold_Antidepressants_codelist_20250801.txt: Updated GOLD Antidepressant code list
 # ==============================================================================
 
 
@@ -80,7 +80,7 @@ cprd_gold_product <- cprd_gold_product %>%
 # Read in medication names
 medication_reference <- 
   read_excel(paste0(wd, path_input, "medication_reference.xlsx"), 
-             sheet = "antipsychotics", skip = 1)
+             sheet = "antidepressants", skip = 1)
 # Rename and select columns
 medication_reference <- medication_reference %>%
   rename(keyword = Clean, 
@@ -126,7 +126,7 @@ aurum_codelist <- aurum_codelist %>%
 
 # # Save as text file
 # write.table(aurum_codelist,
-#             file = paste0(wd, path_output, "Aurum_Antipsychotic_codelist_20250801.txt"),
+#             file = paste0(wd, path_output, "Aurum_Antidepressants_codelist_20250801.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold
@@ -144,7 +144,7 @@ gold_codelist <- gold_codelist %>%
 
 # # Save as text file
 # write.table(gold_codelist,
-#             file = paste0(wd, path_output, "Gold_Antipsychotics_codelist_20250801.txt"),
+#             file = paste0(wd, path_output, "Gold_Antidepressants_codelist_20250801.txt"),
 #             sep = "\t", row.names = FALSE)
 
 
