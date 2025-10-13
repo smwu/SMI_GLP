@@ -126,9 +126,10 @@ aurum_t2dm <- cprd_aurum_medical %>%
     "high risk of diabetes|pre-diab|prediab|risk|history|latent|suspect|h/o|",
     "pre-existing|",
     # Other types of diabetes
-    "iddm-insulin dependent diabetes|^insulin dependent diabetes|type 1|",
+    "iddm-insulin dependent diabetes|^insulin dependent diabetes|type 1|type i diab|",
+    "^insulin dependent diab mell|^insulin-dependent|control of insulin-dependent|",
     "unstable insulin dependent diabetes|diabetes mellitus type i|due to insulin|",
-    "type i diab|insulin-dependent|juvenile|youth|young|anemia|anaemia|", 
+    "juvenile|youth|young|anemia|anaemia|brittle diabetes|labile diabetes|", 
     "cystic fibrosis|bronzed diabetes|lipodystrophy|other specified diabetes mellitus|", 
     "insipidus|monogenic|secondary|type 3c|transplant|hyperplasia|ketosis-prone|",
     "caused by chemical|pancreatic diabetes|lipoatrophic|diabetes type$|",
@@ -220,9 +221,10 @@ gold_t2dm <- cprd_gold_medical %>%
     "high risk of diabetes|pre-diab|prediab|risk|history|latent|suspect|h/o|",
     "pre-existing|",
     # Other types of diabetes
-    "iddm-insulin dependent diabetes|^insulin dependent diabetes|type 1|",
+    "iddm-insulin dependent diabetes|^insulin dependent diabetes|type 1|type i diab|",
+    "^insulin dependent diab mell|^insulin-dependent|control of insulin-dependent|",
     "unstable insulin dependent diabetes|diabetes mellitus type i|due to insulin|",
-    "type i diab|insulin-dependent|juvenile|youth|young|anemia|anaemia|", 
+    "juvenile|youth|young|anemia|anaemia|brittle diabetes|labile diabetes|", 
     "cystic fibrosis|bronzed diabetes|lipodystrophy|other specified diabetes mellitus|", 
     "insipidus|monogenic|secondary|type 3c|transplant|hyperplasia|ketosis-prone|",
     "caused by chemical|pancreatic diabetes|lipoatrophic|diabetes type$|",
@@ -258,7 +260,6 @@ gold_t2dm <- cprd_gold_medical %>%
     "no right|no h/o|nondiab|no diab|remission"),
     term, perl = TRUE))
 
-
 # Which terms were in the old list but are not included in the new list,
 # filtering to those terms in the code dictionary
 gold_t2dm_miss_from_new <- t2dm_codelist_gold_old %>%
@@ -280,7 +281,7 @@ aurum_gold_t2dm_new_codes <- list(
   Gold = gold_new_t2dm)
 # # Save lists of newly added codes into one .xlsx file on separate tabs
 # write.xlsx(aurum_gold_t2dm_new_codes,
-#            file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_new_codes_19Aug2025.xlsx"),
+#            file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_new_codes_29Sept2025.xlsx"),
 #            overwrite = TRUE)
 
 
@@ -316,11 +317,11 @@ t2dm_codelist_gold_new <- gold_t2dm
 
 # # Save updated code lists
 # write.table(t2dm_codelist_aurum_new,
-#             file = paste0(wd, path_output, "Aurum_T2Diabetes_codelist_20250819.txt"),
+#             file = paste0(wd, path_output, "Aurum_T2Diabetes_codelist_20250929.txt"),
 #             sep = "\t", row.names = FALSE)
 # 
 # write.table(t2dm_codelist_gold_new,
-#             file = paste0(wd, path_output, "Gold_T2Diabetes_codelist_20250819.txt"),
+#             file = paste0(wd, path_output, "Gold_T2Diabetes_codelist_20250929.txt"),
 #             sep = "\t", row.names = FALSE)
 
 
@@ -334,7 +335,7 @@ temp_both <- rbind(temp_aurum, temp_gold)
 aurum_gold_t2dm_new <- temp_both %>% distinct()
 # # Save lists of new combined codelist into one .xlsx file
 # write.xlsx(aurum_gold_t2dm_new,
-#            file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250812.xlsx"),
+#            file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250929.xlsx"),
 #            overwrite = TRUE)
 
 
@@ -350,5 +351,5 @@ t2dm_codelist_aurum_gold_new <- rbind(
     select(medcode, term, database))
 # # Save combined code list
 # write.table(t2dm_codelist_aurum_gold_new,
-#             file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250819.txt"),
+#             file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250929.txt"),
 #             sep = "\t", row.names = FALSE)
