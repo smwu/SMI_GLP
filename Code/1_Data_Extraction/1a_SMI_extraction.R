@@ -2,7 +2,7 @@
 # Extract patients with SMI diagnoses using code lists
 # Author: SM Wu
 # Date Created: 2025/06/16
-# Date Updated: 2025/08/01
+# Date Updated: 2025/08/29
 # 
 # Details:
 # 1) Set up and read in code lists
@@ -57,8 +57,12 @@ source(paste0(wd, "Stephanie/SMI_GLP/Code/1_Data_Extraction/",
 ## Read in final code lists used to define the CPRD data extraction
 
 # GOLD code list
+gold_file_name <- list.files(path = paste0(wd, path_input),
+                             pattern = "^Gold_SMI_codelist")
+# Check date
+gold_file_name
 smi_gold <- read_delim(
-  file = paste0(wd, path_input, "Gold_SMI_codelist_20250725.txt"), 
+  file = paste0(wd, path_input, gold_file_name), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcode = col_character()),trim_ws = TRUE) %>%
   rename(readterm = Term, group = Group) %>%
@@ -67,8 +71,12 @@ smi_gold <- read_delim(
 
 
 # AURUM code list
+aurum_file_name <- list.files(path = paste0(wd, path_input),
+                             pattern = "^Aurum_SMI_codelist")
+# Check date
+aurum_file_name
 smi_aurum <- read_delim(
-  file = paste0(wd, path_input, "Aurum_SMI_codelist_20250725.txt"), 
+  file = paste0(wd, path_input, aurum_file_name), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcodeid = col_character(), SNOMED = col_character()),
   trim_ws = TRUE) %>%
@@ -131,7 +139,7 @@ pat_smi_gold <- pat_smi_gold %>%
   mutate(database = "Gold")
 
 # Number of unique patients with condition
-n_distinct(pat_smi_gold$patid) # 213,239
+n_distinct(pat_smi_gold$patid) # 207,930
 
 # # Save extracted patient files matching code list conditions 
 # save(pat_smi_gold,
@@ -163,7 +171,7 @@ pat_smi_aurum <- pat_smi_aurum_obs %>%
   mutate(database = "Aurum")
 
 # Number of unique patients with condition
-n_distinct(pat_smi_aurum$patid) # 429,273
+n_distinct(pat_smi_aurum$patid) # 402,373
 
 # # Save extracted patient files matching code list conditions 
 # save(pat_smi_aurum,
@@ -188,7 +196,7 @@ pat_smi_comb <- pat_smi_aurum %>%
   bind_rows(pat_smi_gold)
 
 # Transform dates and exclude entries with invalid SMI dates
-# 1,660 excluded. 6,071,771 remaining
+# 1,562 excluded. 4,213,639 remaining
 pat_smi_comb <- transform_dates(patient_data = pat_smi_comb,
                                 earliest_date = '1900-01-01',
                                 latest_date = '2023-06-01')
@@ -204,7 +212,7 @@ pat_smi_comb <- pat_smi_comb %>%
 
 
 # Number of unique patients with condition
-n_distinct(pat_smi_comb$patid) # 642,512
+n_distinct(pat_smi_comb$patid) # 610,272
 
 # # Save patient data for GOLD and Aurum
 # save(pat_smi_comb, 

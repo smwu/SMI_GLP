@@ -2,7 +2,7 @@
 # Extract patients with Depression diagnoses using code lists
 # Author: SM Wu
 # Date Created: 2025/06/17
-# Date Updated: 2025/06/17
+# Date Updated: 2025/08/29
 # 
 # Details:
 # 1) Set up and read in code lists
@@ -11,8 +11,8 @@
 # 4) Combine GOLD and Aurum and create data files
 #
 # Inputs:
-# 1) Stephanie/SMI_GLP/Code_Lists/Depression/Aurum_Depression_codelist_20250613.txt: Updated Aurum Depression code list
-# 2) Stephanie/SMI_GLP/Code_Lists/Depression/Gold_Depression_codelist_20250613.txt: Updated GOLD Depression code list
+# 1) Stephanie/SMI_GLP/Code_Lists/Depression/Aurum_Depression_codelist_20250725.txt: Updated Aurum Depression code list
+# 2) Stephanie/SMI_GLP/Code_Lists/Depression/Gold_Depression_codelist_20250725.txt: Updated GOLD Depression code list
 # 3) Stephanie/SMI_GLP/Code/1_Data_Extraction/helper_fns_data_extraction.R: Helper functions
 # 4) 2023 CPRD/GOLD/ Clinical, Test, and Referral files
 # 5) 2023 CPRD/Aurum/ Observation files
@@ -57,16 +57,24 @@ source(paste0(wd, "Stephanie/SMI_GLP/Code/1_Data_Extraction/",
 ## Read in final code lists used to define the CPRD data extraction
 
 # GOLD code list
+gold_file_name <- list.files(path = paste0(wd, path_input),
+                             pattern = "^Gold_Depression_codelist")
+# Check date
+gold_file_name
 depr_gold <- read_delim(
-  file = paste0(wd, path_input, "Gold_Depression_codelist_20250614.txt"), 
+  file = paste0(wd, path_input, gold_file_name), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcode = col_character()),  trim_ws = TRUE) %>%
   select(medcode, term) %>%
   filter(medcode != 0)
 
 # AURUM code list
+aurum_file_name <- list.files(path = paste0(wd, path_input),
+                              pattern = "^Aurum_Depression_codelist")
+# Check date
+aurum_file_name
 depr_aurum <- read_delim(
-  file = paste0(wd, path_input, "Aurum_Depression_codelist_20250614.txt"), 
+  file = paste0(wd, path_input, aurum_file_name), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcodeid = col_character()), trim_ws = TRUE)
 
@@ -126,7 +134,7 @@ pat_depr_gold <- pat_depr_gold %>%
   mutate(database = "Gold")
 
 # Number of unique patients with condition
-n_distinct(pat_depr_gold$patid) # 107,210
+n_distinct(pat_depr_gold$patid) # 115,648
 
 # # Save extracted patient files matching code list conditions 
 # save(pat_depr_gold, 
@@ -158,7 +166,7 @@ pat_depr_aurum <- pat_depr_aurum_obs %>%
   mutate(database = "Aurum")
 
 # Number of unique patients with condition
-n_distinct(pat_depr_aurum$patid) # 207,373
+n_distinct(pat_depr_aurum$patid) # 232,052
 
 # # Save extracted patient files matching code list conditions 
 # save(pat_depr_aurum, 
@@ -183,7 +191,7 @@ pat_depr_comb <- pat_depr_aurum %>%
   bind_rows(pat_depr_gold %>% select(-constype, -consid))
 
 # Transform dates and exclude entries with invalid Depression dates
-# 956 excluded. 2,011,454 remaining
+# 1,031 excluded. 2,674,108 remaining
 pat_depr_comb <- transform_dates(patient_data = pat_depr_comb,
                                 earliest_date = '1900-01-01',
                                 latest_date = '2023-06-01')
@@ -195,11 +203,11 @@ pat_depr_comb <- pat_depr_comb %>%
       database == "Gold" ~ paste0(patid, "-G"),
       database == "Aurum" ~ paste0(patid, "-A"),
       .default = patid)) %>%
-  distinct()  # Removed 110,146 duplicates. 1,901,308 remaining
+  distinct()  # Removed 137,818 duplicates. 2,536,290 remaining
 
 
 # Number of unique patients with condition
-n_distinct(pat_depr_comb$patid) # 314,441
+n_distinct(pat_depr_comb$patid) # 347,568
 
 # # Save patient data for GOLD and Aurum
 # save(pat_depr_comb, 
