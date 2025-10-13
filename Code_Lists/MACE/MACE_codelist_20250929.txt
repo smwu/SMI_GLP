@@ -1,0 +1,44 @@
+"chapter"	"code"	"title"	"primary_only"
+"09"	"I21.-"	"Acute myocardial infarction"	TRUE
+"09"	"I21.0"	"Acute transmural myocardial infarction of anterior wall"	TRUE
+"09"	"I21.1"	"Acute transmural myocardial infarction of inferior wall"	TRUE
+"09"	"I21.2"	"Acute transmural myocardial infarction of other sites"	TRUE
+"09"	"I21.3"	"Acute transmural myocardial infarction of unspecified site"	TRUE
+"09"	"I21.4"	"Acute subendocardial myocardial infarction"	TRUE
+"09"	"I21.9"	"Acute myocardial infarction, unspecified"	TRUE
+"09"	"I60.-"	"Subarachnoid haemorrhage"	TRUE
+"09"	"I60.0"	"Subarachnoid haemorrhage from carotid siphon and bifurcation"	TRUE
+"09"	"I60.1"	"Subarachnoid haemorrhage from middle cerebral artery"	TRUE
+"09"	"I60.2"	"Subarachnoid haemorrhage from anterior communicating artery"	TRUE
+"09"	"I60.3"	"Subarachnoid haemorrhage from posterior communicating artery"	TRUE
+"09"	"I60.4"	"Subarachnoid haemorrhage from basilar artery"	TRUE
+"09"	"I60.5"	"Subarachnoid haemorrhage from vertebral artery"	TRUE
+"09"	"I60.6"	"Subarachnoid haemorrhage from other intracranial arteries"	TRUE
+"09"	"I60.7"	"Subarachnoid haemorrhage from intracranial artery, unspecified"	TRUE
+"09"	"I60.8"	"Other subarachnoid haemorrhage"	TRUE
+"09"	"I60.9"	"Subarachnoid haemorrhage, unspecified"	TRUE
+"09"	"I61.-"	"Intracerebral haemorrhage"	TRUE
+"09"	"I61.0"	"Intracerebral haemorrhage in hemisphere, subcortical"	TRUE
+"09"	"I61.1"	"Intracerebral haemorrhage in hemisphere, cortical"	TRUE
+"09"	"I61.2"	"Intracerebral haemorrhage in hemisphere, unspecified"	TRUE
+"09"	"I61.3"	"Intracerebral haemorrhage in brain stem"	TRUE
+"09"	"I61.4"	"Intracerebral haemorrhage in cerebellum"	TRUE
+"09"	"I61.5"	"Intracerebral haemorrhage, intraventricular"	TRUE
+"09"	"I61.6"	"Intracerebral haemorrhage, multiple localized"	TRUE
+"09"	"I61.8"	"Other intracerebral haemorrhage"	TRUE
+"09"	"I61.9"	"Intracerebral haemorrhage, unspecified"	TRUE
+"09"	"I62.-"	"Other nontraumatic intracranial haemorrhage"	TRUE
+"09"	"I62.0"	"Nontraumatic subdural haemorrhage"	TRUE
+"09"	"I62.1"	"Nontraumatic extradural haemorrhage"	TRUE
+"09"	"I62.9"	"Intracranial haemorrhage (nontraumatic), unspecified"	TRUE
+"09"	"I63.-"	"Cerebral infarction"	TRUE
+"09"	"I63.0"	"Cerebral infarction due to thrombosis of precerebral arteries"	TRUE
+"09"	"I63.1"	"Cerebral infarction due to embolism of precerebral arteries"	TRUE
+"09"	"I63.2"	"Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries"	TRUE
+"09"	"I63.3"	"Cerebral infarction due to thrombosis of cerebral arteries"	TRUE
+"09"	"I63.4"	"Cerebral infarction due to embolism of cerebral arteries"	TRUE
+"09"	"I63.5"	"Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries"	TRUE
+"09"	"I63.6"	"Cerebral infarction due to cerebral venous thrombosis, nonpyogenic"	TRUE
+"09"	"I63.8"	"Other cerebral infarction"	TRUE
+"09"	"I63.9"	"Cerebral infarction, unspecified"	TRUE
+"09"	"I64"	"Stroke, not specified as haemorrhage or infarction"	TRUE
