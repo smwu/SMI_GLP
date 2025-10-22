@@ -6,8 +6,9 @@
 # 
 # Details:
 # 1) Set up and load data
-# 2) Find all medcodes that match relevant conditions
+# 2) Find all prodcodes that match relevant conditions
 # 3) Create and save code lists
+# 4) Adjust formatting for extraction
 #
 # Inputs:
 # 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Product_10Feb2025.txt: Aurum product master code list
@@ -19,6 +20,10 @@
 # 1) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_20250726.txt: Updated Aurum Antidiabetic code list
 # 2) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_20250726.txt: Updated GOLD Antidiabetic code list
 # 3) Code_Lists/Antidiabetics/Aurum_Gold_Antidiabetics_codelist_20250726.txt: Updated Aurum and GOLD Antidiabetic code list
+# 4) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_prodcode_20250726.txt: Aurum T2DM comma-separated prodcodes only
+# 5) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_processed_20250726.txt: Aurum T2DM reformatted for CPRD extraction
+# 6) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_prodcode_20250726.txt: GOLD T2DM comma-separated prodcodes only
+# 7) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_processed_20250726.txt: GOLD T2DM reformatted for CPRD extraction
 
 # ==============================================================================
 
@@ -98,7 +103,7 @@ meds <- medication_reference %>%
   separate_rows(brandnames, sep = ",\\s*") %>%
   mutate(brandnames = str_to_lower(brandnames))
 
-# ================= 2) Find all medcodes that match relevant conditions ========
+# ================= 2) Find all prodcodes that match relevant conditions ========
 
 ## Aurum
 
@@ -173,4 +178,59 @@ aurum_gold_codelist <- rbind(
 # write.table(aurum_gold_codelist,
 #             file = paste0(wd, path_output, "Aurum_Gold_Antidiabetics_codelist_20250726.txt"),
 #             sep = "\t", row.names = FALSE)
+
+
+# ================= 4) Adjust formatting for extraction ========================
+
+## Adjust format of code lists to assist in CPRD data extraction
+# The 'prodcode' will be a simple file with the prodcode ids separated by commas.
+# The 'processed' file will contain two columns: one for the prodcode ID and 
+# one for the term definition
+
+# Aurum
+aurum_codelist_prodcode <- aurum_codelist$prodcodeid |>
+  as.character() |>
+  trimws() |>
+  unique() |>
+  na.omit()
+
+# # Write to .txt file with prodcodes separated by commas
+# write.table(t(aurum_codelist_prodcode),
+#             paste0(wd, path_output,
+#                    "Aurum_Antidiabetics_codelist_prodcode_20250726.txt"),
+#             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
+
+aurum_codelist_processed <- aurum_codelist %>%
+  select(prodcodeid, productname)
+
+# # Write to .txt file with columns separated by tab
+# write.table(aurum_codelist_processed,
+#             paste0(wd, path_output,
+#                    "Aurum_Antidiabetics_codelist_processed_20250726.txt"),
+#             sep = "\t", row.names = FALSE,
+#             quote=FALSE)
+
+
+# GOLD
+gold_codelist_prodcode <- gold_codelist$prodcode |>
+  as.character() |>
+  trimws() |>
+  unique() |>
+  na.omit()
+
+# # Write to .txt file with prodcodes separated by commas
+# write.table(t(gold_codelist_prodcode), 
+#             paste0(wd, path_output, 
+#                    "Gold_Antidiabetics_codelist_prodcode_20250726.txt"), 
+#             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
+
+gold_codelist_processed <- gold_codelist %>%
+  select(prodcode, productname)
+
+# # Write to .txt file with columns separated by tab
+# write.table(gold_codelist_processed,
+#             paste0(wd, path_output,
+#                    "Gold_Antidiabetics_codelist_processed_20250726.txt"),
+#             sep = "\t", row.names = FALSE,
+#             quote=FALSE)
 

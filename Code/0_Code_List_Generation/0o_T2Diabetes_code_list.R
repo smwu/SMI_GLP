@@ -2,12 +2,13 @@
 # Generate code lists for Type 2 Diabetes Mellitus (T2DM) diagnoses
 # Author: SM Wu
 # Date Created: 2025/08/11
-# Date Updated: 2025/08/19
+# Date Updated: 2025/10/22
 # 
 # Details:
 # 1) Set up and load data
 # 2) Search for new relevant med codes
 # 3) Create updated code lists
+# 4) Adjust formatting for extraction
 #
 # Inputs:
 # 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Medical_10Feb2025.txt: Aurum medical master code list
@@ -24,6 +25,10 @@
 # 2) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_20250819.txt: Updated Aurum T2DM code list
 # 3) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_20250819.txt: Updated GOLD T2DM code list
 # 4) Code_Lists/T2Diabetes/Aurum_Gold_T2Diabetes_codelist_20250819.txt: Updated Aurum and GOLD T2DM code list
+# 5) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_medcode_20250929.txt: Aurum T2DM comma-separated medcodes only
+# 6) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_processed_20250929.txt: Aurum T2DM reformatted for CPRD extraction
+# 7) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_medcode_20250929.txt: GOLD T2DM comma-separated medcodes only
+# 8) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_processed_20250929.txt: GOLD T2DM reformatted for CPRD extraction
 
 # ==============================================================================
 
@@ -180,10 +185,10 @@ aurum_t2dm_miss_from_new <- t2dm_codelist_aurum_old %>%
   filter(medcodeid %in% cprd_aurum_medical$medcodeid)
 
 
-    # # Removing specific terms due to SNOMED mapping issues
-    # exclusions <- c()
-    # aurum_t2dm <- aurum_t2dm %>%
-    #   filter(!(medcodeid %in% exclusions))
+# # Removing specific terms due to SNOMED mapping issues
+# exclusions <- c()
+# aurum_t2dm <- aurum_t2dm %>%
+#   filter(!(medcodeid %in% exclusions))
 
 # Subset to terms not already included in old T2Diabetes code list
 aurum_new_t2dm <- aurum_t2dm %>%
@@ -266,9 +271,9 @@ gold_t2dm_miss_from_new <- t2dm_codelist_gold_old %>%
   filter(!(medcode %in% gold_t2dm$medcode)) %>% 
   filter(medcode %in% cprd_gold_medical$medcode)
 
-      # # Removing specific terms due to SNOMED mapping issues
-      # gold_t2dm <- gold_t2dm %>%
-      #   filter(!(medcode %in% exclusions))
+# # Removing specific terms due to SNOMED mapping issues
+# gold_t2dm <- gold_t2dm %>%
+#   filter(!(medcode %in% exclusions))
 
 # Subset to terms not already included in old T2Diabetes code list
 gold_new_t2dm <- gold_t2dm %>%
@@ -353,3 +358,58 @@ t2dm_codelist_aurum_gold_new <- rbind(
 # write.table(t2dm_codelist_aurum_gold_new,
 #             file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250929.txt"),
 #             sep = "\t", row.names = FALSE)
+
+# ================= 4) Adjust formatting for extraction ========================
+
+## Adjust format of code lists to assist in CPRD data extraction
+# The 'medcode' will be a simple file with the medcode ids separated by commas.
+# The 'processed' file will contain two columns: one for the medcode ID and 
+# one for the term definition
+
+# Aurum
+t2dm_codelist_aurum_medcode <- t2dm_codelist_aurum_new$medcodeid |>
+  as.character() |>
+  trimws() |>
+  unique() |>
+  na.omit()
+
+# # Write to .txt file with medcodes separated by commas
+# write.table(t(t2dm_codelist_aurum_medcode), 
+#             paste0(wd, path_output, 
+#                    "Aurum_T2Diabetes_codelist_medcode_20250929.txt"), 
+#             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
+
+t2dm_codelist_aurum_processed <- t2dm_codelist_aurum_new %>%
+  select(medcodeid, term)
+
+# # Write to .txt file with columns separated by tab
+# write.table(t2dm_codelist_aurum_processed,
+#             paste0(wd, path_output,
+#                    "Aurum_T2Diabetes_codelist_processed_20250929.txt"),
+#             sep = "\t", row.names = FALSE,
+#             quote=FALSE)
+
+
+# GOLD
+t2dm_codelist_gold_medcode <- t2dm_codelist_gold_new$medcode |>
+  as.character() |>
+  trimws() |>
+  unique() |>
+  na.omit()
+
+# # Write to .txt file with medcodes separated by commas
+# write.table(t(t2dm_codelist_gold_medcode), 
+#             paste0(wd, path_output, 
+#                    "Gold_T2Diabetes_codelist_medcode_20250929.txt"), 
+#             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
+
+t2dm_codelist_gold_processed <- t2dm_codelist_gold_new %>%
+  select(medcode, term)
+
+# # Write to .txt file with columns separated by tab
+# write.table(t2dm_codelist_gold_processed,
+#             paste0(wd, path_output,
+#                    "Gold_T2Diabetes_codelist_processed_20250929.txt"),
+#             sep = "\t", row.names = FALSE,
+#             quote=FALSE)
+
