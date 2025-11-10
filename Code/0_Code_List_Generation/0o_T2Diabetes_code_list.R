@@ -2,7 +2,7 @@
 # Generate code lists for Type 2 Diabetes Mellitus (T2DM) diagnoses
 # Author: SM Wu
 # Date Created: 2025/08/11
-# Date Updated: 2025/10/22
+# Date Updated: 2025/10/27
 # 
 # Details:
 # 1) Set up and load data
@@ -11,8 +11,8 @@
 # 4) Adjust formatting for extraction
 #
 # Inputs:
-# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Medical_10Feb2025.txt: Aurum medical master code list
-# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Medical_23Feb2025.txt: GOLD medical master code list
+# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Medical_14Oct2025.txt: Aurum medical master code list
+# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Medical_14Oct2025.txt: GOLD medical master code list
 # 3) Code_Lists/T2Diabetes/Old/Aurum_T2Diabetes_codelist_20240227_Alvin.txt: Old Aurum T2DM code list
 # 4) Code_Lists/T2Diabetes/Old/Gold_T2Diabetes_codelist_20240227_Alvin.txt: Old GOLD T2DM code list
 # 
@@ -22,13 +22,13 @@
 # 
 # Final Outputs:
 # 1) Code_Lists/T2Diabetes/Aurum_Gold_T2Diabetes_new_codes_20250819.txt: Newly added T2DM codes for Aurum and GOLD
-# 2) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_20250819.txt: Updated Aurum T2DM code list
-# 3) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_20250819.txt: Updated GOLD T2DM code list
-# 4) Code_Lists/T2Diabetes/Aurum_Gold_T2Diabetes_codelist_20250819.txt: Updated Aurum and GOLD T2DM code list
-# 5) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_medcode_20250929.txt: Aurum T2DM comma-separated medcodes only
-# 6) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_processed_20250929.txt: Aurum T2DM reformatted for CPRD extraction
-# 7) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_medcode_20250929.txt: GOLD T2DM comma-separated medcodes only
-# 8) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_processed_20250929.txt: GOLD T2DM reformatted for CPRD extraction
+# 2) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_20251027.txt: Updated Aurum T2DM code list
+# 3) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_20251027.txt: Updated GOLD T2DM code list
+# 4) Code_Lists/T2Diabetes/Aurum_Gold_T2Diabetes_codelist_20251027.txt: Updated Aurum and GOLD T2DM code list
+# 5) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_medcode_20251027.txt: Aurum T2DM comma-separated medcodes only
+# 6) Code_Lists/T2Diabetes/Aurum_T2Diabetes_codelist_processed_20251027.txt: Aurum T2DM reformatted for CPRD extraction
+# 7) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_medcode_20251027.txt: GOLD T2DM comma-separated medcodes only
+# 8) Code_Lists/T2Diabetes/Gold_T2Diabetes_codelist_processed_20251027.txt: GOLD T2DM reformatted for CPRD extraction
 
 # ==============================================================================
 
@@ -43,6 +43,7 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(tidyr)
+library(openxlsx)
 
 # Set working directory
 wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" # VPN connection
@@ -59,7 +60,7 @@ path_output <- "Code_Lists/T2Diabetes/"
 # Read in Aurum medical dictionary
 cprd_aurum_medical_raw <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Medical_10Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Medical_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(MedCodeId = col_character(), 
                      OriginalReadCode = col_character(), 
@@ -75,7 +76,7 @@ cprd_aurum_medical <- cprd_aurum_medical_raw %>%
 # Read in Gold medical dictionary
 cprd_gold_medical_raw <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Medical_23Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Medical_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(medcode = col_character(), 
                      readcode = col_character()), 
@@ -116,12 +117,12 @@ aurum_t2dm <- cprd_aurum_medical %>%
     "diabetes mellitus in the puerperium|pueperium|pregnancy|preg.|",
     # Counselling and care
     "absent|administration|programme|education|review|advice|prevention|protocol|",
-    "learning|diet|management|diabetic care|care plan|referral|program|\\bcare\\b|",
+    "learning|diet|management|diabetic care|diabetes care|care plan|referral|program|",
     "interpretation|medicine|exam|advised|record|service|date|d.v.|clinic|nurse|",
     "diabetologist|pilot|triage|identity card|signposting|leaflet|admission|",
     "contact|therapy|check|health promotion|participant|study|treatment type|",
     "information|visit|side effects|nursing|register|diabetic treatment changed|",
-    "diabetic stabilisation|diabetology|admit diabetic emergency|",
+    "diabetic stabilisation|diabetology|admit diabetic emergency|diabetes distress|",
     # Other disorders
     "nephrogenic|dwarfism|malnutrition|malnutrit|due to pancreatic injury|disease|",
     # Other non-related
@@ -138,7 +139,8 @@ aurum_t2dm <- cprd_aurum_medical %>%
     "cystic fibrosis|bronzed diabetes|lipodystrophy|other specified diabetes mellitus|", 
     "insipidus|monogenic|secondary|type 3c|transplant|hyperplasia|ketosis-prone|",
     "caused by chemical|pancreatic diabetes|lipoatrophic|diabetes type$|",
-    "atypical diabetes|protein-deficient|maturity onset diabetes|hormonal aetiology|",
+    "atypical diabetes|protein-deficient|maturity onset diabetes|",
+    "hormonal aetiology|caused by insulin receptor antibodies|",
     # Diabetes complications
     "due to diabetes mellitus|due to type 2 diabetes mellitus|due to diabet|",
     "cataract|retinopathy|renal|kidney|diabetic derm|urine|associated with diabetes|", 
@@ -211,12 +213,12 @@ gold_t2dm <- cprd_gold_medical %>%
     "diabetes mellitus in the puerperium|pueperium|pregnancy|preg.|",
     # Counselling and care
     "absent|administration|programme|education|review|advice|prevention|protocol|",
-    "learning|diet|management|diabetic care|care plan|referral|program|\\bcare\\b|",
+    "learning|diet|management|diabetic care|diabetes care|care plan|referral|program|",
     "interpretation|medicine|exam|advised|record|service|date|d.v.|clinic|nurse|",
     "diabetologist|pilot|triage|identity card|signposting|leaflet|admission|",
     "contact|therapy|check|health promotion|participant|study|treatment type|",
     "information|visit|side effects|nursing|register|diabetic treatment changed|",
-    "diabetic stabilisation|diabetology|admit diabetic emergency|",
+    "diabetic stabilisation|diabetology|admit diabetic emergency|diabetes distress|",
     # Other disorders
     "nephrogenic|dwarfism|malnutrition|malnutrit|due to pancreatic injury|disease|",
     # Other non-related
@@ -233,7 +235,8 @@ gold_t2dm <- cprd_gold_medical %>%
     "cystic fibrosis|bronzed diabetes|lipodystrophy|other specified diabetes mellitus|", 
     "insipidus|monogenic|secondary|type 3c|transplant|hyperplasia|ketosis-prone|",
     "caused by chemical|pancreatic diabetes|lipoatrophic|diabetes type$|",
-    "atypical diabetes|protein-deficient|maturity onset diabetes|hormonal aetiology|",
+    "atypical diabetes|protein-deficient|maturity onset diabetes|",
+    "hormonal aetiology|caused by insulin receptor antibodies|",
     # Diabetes complications
     "due to diabetes mellitus|due to type 2 diabetes mellitus|due to diabet|",
     "cataract|retinopathy|renal|kidney|diabetic derm|urine|associated with diabetes|", 
@@ -290,6 +293,29 @@ aurum_gold_t2dm_new_codes <- list(
 #            overwrite = TRUE)
 
 
+# ## Comparing with older codelists
+# aurum_t2dm_old <- read_delim(
+#   "Code_Lists/T2Diabetes/Old/Aurum_T2Diabetes_codelist_20250929.txt",
+#   delim = "\t", col_types = cols(medcodeid = col_character()))
+# 
+# gold_t2dm_old <- read_delim(
+#   "Code_Lists/T2Diabetes/Old/Gold_T2Diabetes_codelist_20250929.txt",
+#   delim = "\t", col_types = cols(medcode = col_character()))
+# 
+# # New codes not in old list
+# new_aurum <- aurum_t2dm %>%
+#   filter(!medcodeid %in% aurum_t2dm_old$medcodeid)
+# new_gold <- gold_t2dm %>%
+#   filter(!medcode %in% gold_t2dm_old$medcode)
+# 
+# # Old codes not in new old list
+# miss_new_aurum <- aurum_t2dm_old %>%
+#   filter(!medcodeid %in% aurum_t2dm$medcodeid)
+# miss_new_gold <- gold_t2dm_old %>%
+#   filter(!medcode %in% gold_t2dm$medcode)
+
+
+
 
 ### OLDER CODE [DO NOT RUN]
 
@@ -322,11 +348,11 @@ t2dm_codelist_gold_new <- gold_t2dm
 
 # # Save updated code lists
 # write.table(t2dm_codelist_aurum_new,
-#             file = paste0(wd, path_output, "Aurum_T2Diabetes_codelist_20250929.txt"),
+#             file = paste0(wd, path_output, "Aurum_T2Diabetes_codelist_20251027.txt"),
 #             sep = "\t", row.names = FALSE)
 # 
 # write.table(t2dm_codelist_gold_new,
-#             file = paste0(wd, path_output, "Gold_T2Diabetes_codelist_20250929.txt"),
+#             file = paste0(wd, path_output, "Gold_T2Diabetes_codelist_20251027.txt"),
 #             sep = "\t", row.names = FALSE)
 
 
@@ -340,7 +366,7 @@ temp_both <- rbind(temp_aurum, temp_gold)
 aurum_gold_t2dm_new <- temp_both %>% distinct()
 # # Save lists of new combined codelist into one .xlsx file
 # write.xlsx(aurum_gold_t2dm_new,
-#            file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250929.xlsx"),
+#            file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20251027.xlsx"),
 #            overwrite = TRUE)
 
 
@@ -356,7 +382,7 @@ t2dm_codelist_aurum_gold_new <- rbind(
     select(medcode, term, database))
 # # Save combined code list
 # write.table(t2dm_codelist_aurum_gold_new,
-#             file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20250929.txt"),
+#             file = paste0(wd, path_output, "Aurum_Gold_T2Diabetes_codelist_20251027.txt"),
 #             sep = "\t", row.names = FALSE)
 
 # ================= 4) Adjust formatting for extraction ========================
@@ -376,7 +402,7 @@ t2dm_codelist_aurum_medcode <- t2dm_codelist_aurum_new$medcodeid |>
 # # Write to .txt file with medcodes separated by commas
 # write.table(t(t2dm_codelist_aurum_medcode), 
 #             paste0(wd, path_output, 
-#                    "Aurum_T2Diabetes_codelist_medcode_20250929.txt"), 
+#                    "Aurum_T2Diabetes_codelist_medcode_20251027.txt"), 
 #             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
 
 t2dm_codelist_aurum_processed <- t2dm_codelist_aurum_new %>%
@@ -385,7 +411,7 @@ t2dm_codelist_aurum_processed <- t2dm_codelist_aurum_new %>%
 # # Write to .txt file with columns separated by tab
 # write.table(t2dm_codelist_aurum_processed,
 #             paste0(wd, path_output,
-#                    "Aurum_T2Diabetes_codelist_processed_20250929.txt"),
+#                    "Aurum_T2Diabetes_codelist_processed_20251027.txt"),
 #             sep = "\t", row.names = FALSE,
 #             quote=FALSE)
 
@@ -400,7 +426,7 @@ t2dm_codelist_gold_medcode <- t2dm_codelist_gold_new$medcode |>
 # # Write to .txt file with medcodes separated by commas
 # write.table(t(t2dm_codelist_gold_medcode), 
 #             paste0(wd, path_output, 
-#                    "Gold_T2Diabetes_codelist_medcode_20250929.txt"), 
+#                    "Gold_T2Diabetes_codelist_medcode_20251027.txt"), 
 #             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
 
 t2dm_codelist_gold_processed <- t2dm_codelist_gold_new %>%
@@ -409,7 +435,7 @@ t2dm_codelist_gold_processed <- t2dm_codelist_gold_new %>%
 # # Write to .txt file with columns separated by tab
 # write.table(t2dm_codelist_gold_processed,
 #             paste0(wd, path_output,
-#                    "Gold_T2Diabetes_codelist_processed_20250929.txt"),
+#                    "Gold_T2Diabetes_codelist_processed_20251027.txt"),
 #             sep = "\t", row.names = FALSE,
 #             quote=FALSE)
 

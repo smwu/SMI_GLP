@@ -1,0 +1,138 @@
+medcode	term
+64668	insulin treated type ii diabetes mellitus
+106061	type ii diabetes mellitus with ketoacidotic coma
+43951	diabetic - cooperative patient
+28769	diabetic on insulin and oral treatment
+62674	type 2 diabetes mellitus with mononeuropathy
+711	diabetes mellitus
+61071	type 2 diabetes mellitus with hypoglycaemic coma
+26054	type 2 diabetes mellitus with persistent proteinuria
+39317	diabetes mellitus, adult onset, + neurological manifestation
+37806	type 2 diabetes mellitus with peripheral angiopathy
+108005	type 2 diabetes mellitus with multiple complications
+45491	diabetes mellitus with unspecified complication
+98616	type ii diabetes mellitus with neurological complications
+40401	non-insulin dependent diabetes mellitus with gangrene
+49074	type 2 diabetes mellitus with ulcer
+65062	diabetes mellitus nos with ketoacidotic coma
+42505	diabetes mellitus nos with ketoacidosis
+1407	insulin treated type 2 diabetes mellitus
+63357	diabetes mellitus, adult, + peripheral circulatory disorder
+35399	diabetes mellitus with peripheral circulatory disorder
+18278	insulin treated type 2 diabetes mellitus
+758	type 2 diabetes mellitus
+36695	diabetes mellitus autosomal dominant type 2
+24693	non-insulin dependent diabetes mellitus with arthropathy
+7795	diabetes mellitus with neuropathy
+51756	type 2 diabetes mellitus with ketoacidotic coma
+18390	type 2 diabetes mellitus with persistent microalbuminuria
+64357	diabetes mellitus nos with unspecified complication
+95351	type ii diabetes mellitus with mononeuropathy
+56268	type ii diabetes mellitus with hypoglycaemic coma
+59725	type ii diabetes mellitus with ophthalmic complications
+34268	type 2 diabetes mellitus with neurological complications
+34912	non-insulin dependent diabetes mellitus with ulcer
+47954	type 2 diabetes mellitus without complication
+65025	diabetes mellitus nos with peripheral circulatory disorder
+34283	diabetes mellitus nos with ophthalmic manifestation
+98723	type ii diabetes mellitus with hypoglycaemic coma
+52212	[x]diabetes mellitus
+32556	diabetes with gangrene
+32403	diabetes mellitus with gangrene
+59253	type 2 diabetes mellitus with arthropathy
+37648	insulin treated non-insulin dependent diabetes mellitus
+18264	insulin treated type ii diabetes mellitus
+50429	non-insulin-dependent diabetes mellitus with ophthalm comps
+54212	non-insulin-dependent d m with peripheral angiopath
+16230	diabetes mellitus with neurological manifestation
+70316	type 2 diabetes mellitus with ophthalmic complications
+64571	type ii diabetes mellitus with nephropathy
+24836	type 2 diabetes mellitus with nephropathy
+63762	diabetes mellitus, adult onset, + unspecified complication
+85991	type ii diabetes mellitus with persistent microalbuminuria
+40962	non-insulin dependent d m with neuropathic arthropathy
+55842	non-insulin-dependent diabetes mellitus with neuro comps
+65267	type 2 diabetes mellitus with multiple complications
+33254	diabetes mellitus with ophthalmic manifestation
+15690	diabetes mellitus with ketoacidotic coma
+41389	diabetes mellitus, adult onset, + ophthalmic manifestation
+65704	type 2 diabetes mellitus with ulcer
+55075	type ii diabetes mellitus with ulcer
+53392	type ii diabetes mellitus without complication
+46917	type 2 diabetes mellitus with hypoglycaemic coma
+47816	type ii diabetes mellitus with neuropathic arthropathy
+62146	non-insulin-dependent diabetes mellitus with multiple comps
+43139	diabetes mellitus, adult onset, with hyperosmolar coma
+12640	type 2 diabetes mellitus with nephropathy
+1684	diabetic on oral treatment
+103902	type ii diabetes mellitus with arthropathy
+54899	type ii diabetes mellitus with peripheral angiopathy
+60699	type 2 diabetes mellitus with peripheral angiopathy
+105784	type 2 diabetes mellitus without complication
+109103	type ii diabetes mellitus without complication
+101728	diabetic on subcutaneous treatment
+59365	non-insulin dependent diabetes mellitus with nephropathy
+12736	type 2 diabetes mellitus with gangrene
+66965	type 2 diabetes mellitus with neuropathic arthropathy
+67905	type ii diabetes mellitus with neurological complications
+45919	type 2 diabetes mellitus with neurological complications
+43227	type ii diabetes mellitus with multiple complications
+33807	diabetes mellitus, adult with gangrene
+17886	diabetic - follow-up default
+111483	diabetic on insulin and glucagon-like peptide 1
+110344	diabetic on non-insulin injectable medication
+106528	type ii diabetes mellitus with ketoacidosis
+22023	diabetic - poor control nos
+4513	non-insulin dependent diabetes mellitus
+47321	type 2 diabetes mellitus with ophthalmic complications
+1682	diabetes mellitus with ketoacidosis
+9013	unstable diabetes
+22573	diabetes mellitus nos with neurological manifestation
+50972	diabetes mellitus nos with no mention of complication
+47315	type ii diabetes mellitus - poor control
+104323	type ii diabetes mellitus with gangrene
+24458	type ii diabetes mellitus - poor control
+45913	type 2 diabetes mellitus - poor control
+50813	type ii diabetes mellitus with mononeuropathy
+102201	type ii diabetes mellitus with nephropathy
+113609	type ii diabetes mellitus with gastroparesis
+29979	non-insulin-dependent diabetes mellitus without complication
+13071	diabetic - good control
+68843	diabetes mellitus, adult onset, with ketoacidotic coma
+18219	type ii diabetes mellitus
+8842	diabetic on insulin
+63371	diabetes mellitus, adult, + other specified manifestation
+2378	diabetic - poor control
+17869	diabetic-uncooperative patient
+46150	type 2 diabetes mellitus with gangrene
+14803	diabetes mellitus, adult onset, no mention of complication
+21482	diabetes mellitus with hyperosmolar coma
+32627	type 2 diabetes mellitus with ketoacidosis
+38986	diabetes mellitus with no mention of complication
+35107	diabetes mellitus with nephropathy nos
+72345	diabetes mellitus nos with hyperosmolar coma
+5884	niddm - non-insulin dependent diabetes mellitus
+17859	type 2 diabetes mellitus
+100964	type ii diabetes mellitus with ophthalmic complications
+110379	diabetic on oral treatment and glucagon-like peptide 1
+33343	diabetes mellitus with other specified manifestation
+43785	non-insulin dependent diabetes mellitus with hypoglyca coma
+60796	type ii diabetes mellitus with persistent proteinuria
+8403	non-insulin dependent diabetes mellitus - poor control
+72320	non-insulin dependent diabetes mellitus with mononeuropathy
+109197	type ii diabetes mellitus with neuropathic arthropathy
+54856	diabetes mellitus, adult onset, with ketoacidosis
+63690	type 2 diabetes mellitus with gastroparesis
+70821	diabetes mellitus nos with other specified manifestation
+62107	type ii diabetes mellitus with gangrene
+91646	type ii diabetes mellitus with ulcer
+64449	unspecified diabetes mellitus with multiple complications
+43453	diabetes mellitus autosomal dominant
+25627	type 2 diabetes mellitus - poor control
+18143	type ii diabetes mellitus with arthropathy
+506	non-insulin dependent diabetes mellitus
+35385	type 2 diabetes mellitus with neuropathic arthropathy
+104639	type ii diabetes mellitus with peripheral angiopathy
+22884	type ii diabetes mellitus
+49869	type 2 diabetes mellitus with arthropathy
+113495	type ii diabetes mellitus with multiple complications

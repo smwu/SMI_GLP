@@ -1,0 +1,1305 @@
+prodcode	productname
+56857	Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml cartridges
+10547	Humulin Lente 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+77498	Gliclazide 160mg tablets
+9363	U100 Insulin syringe 0.5ml
+68745	Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Neon Diagnostics Ltd)
+56656	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 8mm safety needle 0.3mm/30gauge (Covidien (UK) Commercial Ltd)
+88756	Trurapi 100units/ml solution for injection 3ml cartridges (Sanofi)
+2219	Glibenclamide 2.5mg tablets
+90067	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge (Spirit Healthcare Ltd)
+54629	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Spirit Healthcare Ltd)
+36031	Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 3ml cartridges
+56879	HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Graphite (Eli Lilly and Company Ltd)
+59500	Insulin isophane human 100units/ml suspension for injection 5ml vials
+62034	Laaglyda MR 60mg tablets (Krka UK Ltd)
+11695	Diamicron 30mg MR tablets (Servier Laboratories Ltd)
+7912	Semi-Daonil 2.5mg tablets (Sanofi)
+15040	INSULIN MONOPHANE (ISOPHANE) 100 I/U INJ
+43684	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme (UK) Ltd)
+7400	Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices
+41120	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices
+73718	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (Nipro Diagnostics (UK) Ltd)
+68939	PROFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Prosum Medical Ltd)
+22945	Insuman rapid 100iu/ml Injection (Aventis Pharma)
+69540	Saxagliptin 5mg / Dapagliflozin 10mg tablets
+89568	Semaglutide 1.7mg/0.75ml solution for injection 3ml pre-filled disposable devices
+30316	Metformin with pioglitazone 850mg + 15mg Tablet
+63726	NovoPen 5 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Novo Nordisk Ltd)
+34957	Tolbutamide 500mg tablets (A A H Pharmaceuticals Ltd)
+85931	Trurapi 100units/ml solution for injection 3ml pre-filled Solostar pens (Sanofi)
+10225	Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sanofi)
+90172	Tirzepatide 5mg/0.6ml solution for injection 2.4ml pre-filled disposable devices
+10910	Humaject m2 100iu/ml M2 pen (Eli Lilly and Company Ltd)
+2221	Mixtard 30 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+12840	B-d u-100 0.5ml Insulin syringe (Becton, Dickinson UK Ltd)
+71351	Lantus 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)
+16142	Insulin aspart 100units/ml solution for injection 3ml cartridges
+56691	Insulin degludec 200units/ml solution for injection 3ml pre-filled disposable devices
+70432	Bilxona 30mg modified-release tablets (Accord-UK Ltd)
+31267	INSULIN PUR-IN MIX 50/50 100 I/U INJ
+24845	INSULIN PUR-IN ISOPHANE 100 I/U INJ
+14504	INSULIN HYPURIN PROTAMINE ZINC 100 I/U INJ
+82124	Lyumjev 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+84885	Gliclazide 80mg tablets (Phoenix Healthcare Distribution Ltd)
+73808	Metformin 500mg/5ml oral solution sugar free (Accord-UK Ltd)
+44473	Edicil MR 30mg tablets (Teva UK Ltd)
+1847	Chlorpropamide 250mg tablets
+80087	Empagliflozin 25mg / Linagliptin 5mg tablets
+11271	B-d u-100 1ml Insulin syringe (Becton, Dickinson UK Ltd)
+62265	Metformin 500mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+60074	Metformin 1g modified-release tablets (Waymade Healthcare Plc)
+49172	NovoPen Echo hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Red (Novo Nordisk Ltd)
+67324	Humulin M3 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+74996	Neon Verifine Safety hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Neon Diagnostics Ltd)
+72539	Sitagliptin 50mg/5ml oral solution
+46469	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (AstraZeneca UK Ltd)
+32	Gliclazide 80mg tablets
+14619	Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 1.5ml cartridges
+53251	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals)
+70900	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32.5gauge
+80784	Invokana 100mg tablets (Pharmaram Ltd)
+65421	TriCare hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Owen Mumford Ltd)
+56983	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Spirit Healthcare Ltd)
+69548	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+18592	Insulin soluble bovine 100units/ml solution for injection 10ml vials
+26218	Calabren 5mg Tablet (Berk Pharmaceuticals Ltd)
+50570	Glucophage SR 500mg tablets (Lexon (UK) Ltd)
+7318	Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+6958	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+57529	Humalog 100units/ml solution for injection 10ml vials (Dowelhurst Ltd)
+24795	Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml cartridges
+16700	Insulin zinc mixed bovine vial 100unit/ml Sterile suspension injection
+63785	Dulaglutide 0.75mg/0.5ml solution for injection pre-filled disposable devices
+84314	Lyumjev KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+69442	Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Neon Diagnostics Ltd)
+5345	Monoject hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.36mm/28gauge (Covidien (UK) Commercial Ltd)
+35468	Insuman Basal 100units/ml suspension for injection 5ml vials (Sanofi)
+13516	Hypurin bovine isophane 100unit/ml Injection (C P Pharmaceuticals Ltd)
+63707	GlucoRx FinePoint Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (GlucoRx Ltd)
+41558	Glibenclamide 5mg tablets (Teva UK Ltd)
+69440	Neon Verifine Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Neon Diagnostics Ltd)
+10067	Insulin biphasic aspart human pyr 30:70; 100 units/ml Injection
+54886	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge
+65638	Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge (A. Menarini Diagnostics Ltd)
+63031	Dapagliflozin 5mg / Metformin 850mg tablets
+69583	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+21424	Glibenclamide 5mg/5ml oral suspension
+45215	Gliclazide 80mg Tablet (Neo Laboratories Ltd)
+24554	Unifine single use Insulin syringe with 30gauge needle 8mm 0.3ml (Owen Mumford Ltd)
+60073	Canagliflozin 100mg tablets
+10915	Humaject m1 100iu/ml M1 pen (Eli Lilly and Company Ltd)
+64987	Abasaglar 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+24722	INSULIN ISOPHANE 50%/NEUTRAL 50% 100 I/U INJ
+82533	Humulin S 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+72324	GlucoRx CarePoint Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (GlucoRx Ltd)
+59793	Microdot Droplet hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Cambridge Sensors Ltd)
+90626	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pens (Pharmaram Ltd)
+1592	Actrapid penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+80319	Empagliflozin 10mg / Linagliptin 5mg tablets
+48149	Metformin 500mg tablets (Almus Pharmaceuticals Ltd)
+11284	Amaryl 4mg tablets (Zentiva Pharma UK Ltd)
+24002	Insuman Comb 25 100units/ml suspension for injection 5ml vials (Sanofi)
+74860	NovoNorm 1mg tablets (Waymade Healthcare Plc)
+48342	HumaPen Luxura hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Burgundy (Eli Lilly and Company Ltd)
+58865	Komboglyze 2.5mg/850mg tablets (AstraZeneca UK Ltd)
+61562	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/29gauge
+21554	Insuman comb 50 100iu/ml Injection (Aventis Pharma)
+62661	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+51650	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (B.Braun Medical Ltd)
+11107	Humulin m4 100unit/ml M4 injection (Eli Lilly and Company Ltd)
+82475	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+11609	Metformin with rosiglitazone 500mg + 1mg Tablet
+35149	Exenatide 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices
+60938	Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+12300	SYRINGE INSULIN (BS1619/1) 2ML
+34507	Glibenclamide 2.5mg tablets (Wockhardt UK Ltd)
+49738	Metformin 1g modified-release tablets (A A H Pharmaceuticals Ltd)
+83493	Tolbutamide 500mg tablets (Almus Pharmaceuticals Ltd)
+37427	HumaPen Luxura HD hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units (Eli Lilly and Company Ltd)
+71804	AllStar Pro hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Silver (Sanofi)
+16682	Tempulin 100unit/ml Injection (Knoll Ltd)
+5634	Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with not less than 12mm needle 0.36mm/28gauge
+20889	Actos 30mg tablets (Neon Healthcare Ltd)
+87716	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+19707	INSULIN HUMULIN S (NEUTRAL SOLUBLE)
+5214	Insulin lispro 100units/ml solution for injection 1.5ml cartridges
+55459	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+75740	Ozempic 0.25mg/0.19ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+548	Pioglitazone 15mg tablets
+56376	Rosiglitazone 4mg with glimepiride 4mg tablet
+76660	Insulin lispro Sanofi 100units/ml solution for injection 3ml cartridges (Sanofi)
+3551	Mixtard 20 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+60386	Canagliflozin 300mg tablets
+1649	Human actraphane 100iu/ml Injection (Novo Nordisk Ltd)
+22155	Humaject m5 100iu/ml M5 pen (Eli Lilly and Company Ltd)
+37874	Vildagliptin 50mg / Metformin 850mg tablets
+18446	Unifine hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.33mm/29gauge (Owen Mumford Ltd)
+46927	Tolbutamide 500mg tablets (Teva UK Ltd)
+10145	Humapen luxura insulin pen 3ml/1-60 units Insulin pen 3ml/1-60 units (Eli Lilly and Company Ltd)
+18149	Monoject u100 insulin syringe 12mm(29g)0.5ml 12mm29G 0.5ml Insulin syringe (Covidien (UK) Commercial Ltd)
+75397	Semaglutide 0.25mg/0.19ml solution for injection 1.5ml pre-filled disposable devices
+62760	Jardiance 10mg tablets (Boehringer Ingelheim Ltd)
+52221	Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)
+35144	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (AstraZeneca UK Ltd)
+22823	INSULIN ISOPHANE (PURIFIED) 100 I/U INJ
+61311	Glimepiride 4mg tablets (Sigma Pharmaceuticals Plc)
+60028	Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 4mm/32gauge
+18593	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+7757	INSULIN NEULENTE (ZINC SUSP)(PURIFIED) 100 I/U INJ
+7166	Glucophage 500mg tablets (Merck Serono Ltd)
+5892	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+5267	BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm needle 0.3mm/30gauge (Becton, Dickinson UK Ltd)
+7349	Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+91475	Sitagliptin 100mg tablets (Morningside Healthcare Ltd)
+14506	INSULIN BOVINE PROTAMINE ZINC 100 I/U INJ
+10242	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge
+80987	Exenatide 2mg/0.85ml prolonged-release suspension for injection pre-filled disposable devices
+68214	Metformin 500mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+9865	Repaglinide 500microgram tablets
+40007	Glucophage 1000mg oral powder sachets (Merck Serono Ltd)
+66098	JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units Silver (Sanofi)
+44810	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge
+9707	Repaglinide 1mg tablets
+15232	Avandia 8mg tablets (GlaxoSmithKline UK Ltd)
+17343	Gliclazide 80mg tablets (A A H Pharmaceuticals Ltd)
+66150	Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (A. Menarini Diagnostics Ltd)
+74680	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)
+22058	Pur-in mix 15/85 Injection (C P Pharmaceuticals Ltd)
+85047	Metformin 1g modified-release tablets (Medihealth (Northern) Ltd)
+11601	Rosiglitazone 2mg / Metformin 500mg tablets
+91178	Metformin 850mg modified-release tablets
+55910	Tresiba Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+57457	Metformin 500mg tablets (Milpharm Ltd)
+71395	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+90199	Tirzepatide 7.5mg/0.6ml solution for injection 2.4ml pre-filled disposable devices
+14938	Insulin soluble bovine cartridge 100unit/ml Solution for injection
+2459	Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+68934	Diabiom 30mg tablets (Tillomed Laboratories Ltd)
+39149	Galvus 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+56437	Gliclazide 60mg modified-release tablets
+41431	Onglyza 5mg tablets (AstraZeneca UK Ltd)
+1964	Diamicron 80mg tablets (Servier Laboratories Ltd)
+82709	Semaglutide 7mg tablets
+36853	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+87541	Klinion Soft Fine Plus Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (H & R Healthcare Ltd)
+74862	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Mawdsley-Brooks & Company Ltd)
+6060	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/30gauge (Owen Mumford Ltd)
+43670	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge
+76975	Humalog 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc)
+55234	Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+7744	Daonil 5mg tablets (Sanofi)
+6991	BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12.7mm needle 0.33mm/29gauge (Becton, Dickinson UK Ltd)
+5649	Autopen hypodermic insulin injection pen reusable for 1.5ml cartridge 1 unit dial up / range 1-16 units (Owen Mumford Ltd)
+27461	Insuman Basal 100units/ml suspension for injection 3ml cartridges (Sanofi)
+89358	Wegovy FlexTouch 1mg/0.75ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+33101	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12.7mm/29gauge
+33966	Insulatard 100unit/ml Injection (Novo Nordisk Ltd)
+9699	Pioglitazone 30mg tablets
+90048	Mounjaro KwikPen 2.5mg/0.6ml solution for injection 2.4ml pre-filled pens (Eli Lilly and Company Ltd)
+58607	Metformin 500mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+5227	Rosiglitazone 8mg tablets
+1751	Hypodermic U100 insulin syringe glass reusable 1ml
+8839	INSULIN SEMITARD 100 I/U INJ
+6965	Levemir Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+40233	Metformin 1g oral powder sachets sugar free
+52634	Glucophage SR 500mg tablets (DE Pharmaceuticals)
+82846	Amglidia 0.6mg/ml oral suspension with 5ml oral syringe (Amring Pharmaceuticals Ltd)
+82816	Lyumjev 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd)
+6061	Novomix 30 30/70 100units/ml Injection (Novo Nordisk Ltd)
+78125	Gliclazide 30mg modified-release tablets (Sigma Pharmaceuticals Plc)
+49307	Mylife Clickfine hypodermic insulin needles for pre-filled / reusable pen injectors snap on 4.5mm/31gauge (Ypsomed Ltd)
+62326	Vipidia 6.25mg tablets (Takeda UK Ltd)
+53118	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+77978	Januvia 50mg tablets (Pharmaram Ltd)
+21832	Diabetamide 5mg tablets (Ashbourne Pharmaceuticals Ltd)
+14301	Insulin detemir 100units/ml solution for injection 3ml cartridges
+58801	GlucoRx FinePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge (GlucoRx Ltd)
+56965	Komboglyze 2.5mg/1000mg tablets (AstraZeneca UK Ltd)
+6091	NovoPen 3 Fun hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 2-70 units Red (Novo Nordisk Ltd)
+83130	Dulaglutide 3mg/0.5ml solution for injection pre-filled disposable devices
+28666	Omnican 50 hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm needle 0.3mm/30gauge (B.Braun Medical Ltd)
+42161	Orabet 500mg Tablet (Sandoz Ltd)
+15955	Starlix 120mg tablets (Novartis Pharmaceuticals UK Ltd)
+7861	INSULIN HUMULIN S (NEUTRAL) CARTRIDGE 100 I/U
+60430	Invokana 100mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+48533	Sitagliptin 25mg tablets
+35057	OptiClik hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Blue (Sanofi)
+5059	NovoPen 3 Classic hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 2-70 units (Novo Nordisk Ltd)
+76021	Ozempic 1mg/0.74ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+27280	Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 10ml vials
+73525	Metformin 500mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+34399	Gliclazide 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+82322	Gliclazide 30mg modified-release tablets (Actavis UK Ltd)
+8322	Insulin zinc suspension mixed human pyr 100unit/ml Injection
+86879	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Spirit Healthcare Ltd)
+6337	Glimepiride 3mg tablets
+53774	Metabet SR 500mg tablets (Actavis UK Ltd)
+34598	Metformin 500mg tablets (Viatris UK Healthcare Ltd)
+63045	Metformin 850mg tablets (Relonchem Ltd)
+84717	Metformin 500mg Tablet (Ratiopharm UK Ltd)
+51881	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (B.Braun Medical Ltd)
+35251	Exenatide 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices
+77805	Insulin lispro 200units/ml solution for injection 3ml pre-filled disposable devices
+26403	Pur-in mix 25/75 Injection (C P Pharmaceuticals Ltd)
+22636	TOLBUTAMIDE 1 GM TAB
+10484	Penmix 20/80 Penfill (Novo Nordisk Ltd)
+71477	Glimepiride 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+10258	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge
+71247	PROFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Prosum Medical Ltd)
+6470	Autopen 24 hypodermic insulin injection pen reusable for 3ml cartridge 2 unit dial up / range 2-42 units (Owen Mumford Ltd)
+83847	Trulicity 4.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+14505	Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials
+84627	Metformin 1g modified-release tablets (Accord-UK Ltd)
+71890	Metformin 500mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+57601	Daonil 5mg tablets (Dowelhurst Ltd)
+13474	U100 Insulin syringe Sp.36 [2A] 1ml
+71476	Glimepiride 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+69852	Microdot Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/30gauge (Cambridge Sensors Ltd)
+63679	Hypurin soluble 100iu/ml Injection (C P Pharmaceuticals Ltd)
+5678	Nateglinide 120mg tablets
+3550	Mixtard 40 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+78946	Ertugliflozin 15mg tablets
+83608	Metformin 500mg modified-release tablets (Consilient Health Ltd)
+89608	Semaglutide 2.4mg/0.75ml solution for injection 3ml pre-filled disposable devices
+14646	Hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with not less than 12mm needle 0.33mm/29gauge
+74021	Metformin 250mg/5ml oral solution
+90536	Mounjaro KwikPen 12.5mg/0.6ml solution for injection 2.4ml pre-filled pens (Eli Lilly and Company Ltd)
+84232	Forxiga 10mg tablets (Pharmaram Ltd)
+74824	Actrapid 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+26098	Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (Wockhardt UK Ltd)
+83875	Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices
+27969	Glymese 250mg Tablet (DDSA Pharmaceuticals Ltd)
+72163	Pioglitazone 45mg tablets (Alliance Healthcare (Distribution) Ltd)
+5022	NovoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/28gauge (Novo Nordisk Ltd)
+15484	Insulin isophane bovine 100units/ml suspension for injection 1.5ml cartridges
+87325	Glucophage SR 1000mg tablets (Pilsco Ltd)
+64258	JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units Blue (Sanofi)
+57387	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 12mm safety needle 0.33mm/29gauge (Covidien (UK) Commercial Ltd)
+65587	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/30gauge
+18590	Insulin isophane bovine 100units/ml suspension for injection 10ml vials
+38400	Glucophage SR 750mg tablets (Merck Serono Ltd)
+12818	Human Mixtard 50 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+58817	GlucoRx FinePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (GlucoRx Ltd)
+17698	Minodiab 5mg tablets (Pfizer Ltd)
+48120	Avandia 2mg Tablet (GlaxoSmithKline UK Ltd)
+1588	Actrapid 100iu/ml Injection (Novo Nordisk Ltd)
+74734	Metformin 850mg capsules
+73303	Metformin 500mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+65083	Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+35701	Insulin lispro biphasic 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices
+10001	Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+49451	Mylife Clickfine AutoProtect hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/29gauge (Ypsomed Ltd)
+7284	Amaryl 2mg tablets (Zentiva Pharma UK Ltd)
+21422	Insulin isophane biphasic human 40/60 100units/ml suspension for injection 3ml cartridges
+69221	Metformin 1g oral powder sachets sugar free (J M McGill Ltd)
+90065	Metformin 850mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+35253	Insuman Comb 50 100units/ml suspension for injection 3ml cartridges (Sanofi)
+7350	Insulin isophane porcine 100units/ml suspension for injection 10ml vials
+57451	Microdot Droplet hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Cambridge Sensors Ltd)
+79955	IME-FINE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Arctic Medical Ltd)
+38422	Isophane 100iu/ml Injection (Celltech Pharma Europe Ltd)
+91306	Sitagliptin 100mg tablets (Amarox Ltd)
+34706	Glibenclamide 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+31465	Exubera 1mg inhalation powder blisters (Pfizer Ltd)
+45821	Onglyza 2.5mg tablets (AstraZeneca UK Ltd)
+73068	GreenFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Neon Diagnostics Ltd)
+66399	Glimepiride 2mg tablets (A A H Pharmaceuticals Ltd)
+73676	GreenFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Neon Diagnostics Ltd)
+7610	Glucophage 850mg tablets (Merck Serono Ltd)
+7062	Myjector hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.4mm/27gauge (Terumo UK Ltd)
+5850	Mylife Clickfine hypodermic insulin needles for pre-filled / reusable pen injectors snap on 6mm/31gauge (Ypsomed Ltd)
+55521	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Spirit Healthcare Ltd)
+16209	INSULIN HYPURIN SOLUBLE 100 I/U INJ
+26498	Insulin zinc suspension mixed bovine and porcine 100unit/ml Injection
+25479	Insulin soluble porcine 100units/ml solution for injection 3ml cartridges
+59533	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+67267	Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+68896	Nanopass hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32.5gauge (Terumo UK Ltd)
+11245	B-d u-100 0.3ml Insulin syringe (Becton, Dickinson UK Ltd)
+41559	Glibenclamide 5mg tablets (A A H Pharmaceuticals Ltd)
+68031	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+62605	Metformin 850mg tablets (Kent Pharma (UK) Ltd)
+52442	Metformin 500mg tablets (Pfizer Ltd)
+86727	Klinion Soft Fine Plus Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge (H & R Healthcare Ltd)
+10259	Insulin glargine 100units/ml solution for injection 10ml vials
+21110	Insulin biphasic isophane human prb 50:50; 100 units/ml Injection
+39086	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+57243	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/30gauge (B.Braun Medical Ltd)
+78392	Metformin 850mg tablets (Zentiva Pharma UK Ltd)
+22161	INSULIN HUMULIN M1 VIAL
+74479	Insulin lispro 100units/ml solution for injection 3ml pre-filled pen (Sanofi)
+86016	HaemoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge (HTL-STREFA S.A.)
+62899	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+63421	Pioglitazone 30mg tablets (Teva UK Ltd)
+8376	INSULIN ISOPHANE 100 I/U
+82890	Metformin 850mg tablets (Milpharm Ltd)
+69715	Fiasp 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+71487	BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Becton, Dickinson UK Ltd)
+77291	Gliclazide 80mg tablets (Kent Pharma (UK) Ltd)
+13819	Hypurin Porcine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+18931	Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials
+63107	Pioglitazone 45mg tablets (Waymade Healthcare Plc)
+17076	Omnican 100 hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 8mm needle 0.3mm/30gauge (B.Braun Medical Ltd)
+86083	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Spirit Healthcare Ltd)
+11321	NovoNorm 1mg tablets (Novo Nordisk Ltd)
+71430	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+60750	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge
+68289	Glimepiride 4mg tablets (Waymade Healthcare Plc)
+76533	Insulin lispro Sanofi 100units/ml solution for injection 10ml vials (Sanofi)
+71020	Acarbose 50mg tablets (Actavis UK Ltd)
+35081	OptiClik hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Grey (Sanofi)
+63307	Metformin 1g/5ml oral solution
+22060	Insulin 0.5 0.5ml Syringe
+71781	Gliclazide 40mg tablets (Teva UK Ltd)
+54885	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/32gauge
+73285	Metformin 500mg tablets (Waymade Healthcare Plc)
+34135	Metformin 500mg Tablet (M & A Pharmachem Ltd)
+50970	Metformin 500mg tablets (Bristol Laboratories Ltd)
+51107	Hypodermic insulin injection pen reusable for 3ml cartridge 2 unit dial up / range 2-42 units
+43953	Insulin lispro biphasic 25/75 100units/ml suspension for injection 10ml vials
+18461	Insulin zinc mixed human 100units/ml suspension for injection 10ml vials
+14362	Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices
+1842	Pork velosulin 100unit/ml Injection (Novo Nordisk Ltd)
+5421	NovoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Novo Nordisk Ltd)
+13277	Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+25636	Libanil 2.5mg Tablet (Approved Prescription Services Ltd)
+65059	Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd)
+59133	BD SafetyGlide hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm safety needle 0.3mm/30gauge (Becton, Dickinson UK Ltd)
+7393	Insulin glargine 100units/ml solution for injection 3ml cartridges
+54265	Dapagliflozin 5mg tablets
+5873	BD Micro-Fine Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Becton, Dickinson UK Ltd)
+67428	Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (A. Menarini Diagnostics Ltd)
+75823	Gliclazide 40mg tablets (Waymade Healthcare Plc)
+27501	Orabet 500mg Tablet (Lagap)
+31474	Libanil 5mg Tablet (Approved Prescription Services Ltd)
+51743	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+14925	Insulin isophane human vial 100unit/ml Sterile suspension injection
+87852	Glyxambi 25mg/5mg tablets (Boehringer Ingelheim Ltd)
+23099	Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml pre-filled disposable devices
+82201	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Spirit Healthcare Ltd)
+5164	NovoPen 3 Demi hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-35 units (Novo Nordisk Ltd)
+7537	Humulin Zn 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+44738	Niddaryl 1mg tablets (Dee Pharmaceuticals Ltd)
+5989	Nateglinide 180mg tablets
+40425	Nazdol MR 30mg tablets (Teva UK Ltd)
+50124	Januvia 25mg tablets (Merck Sharp & Dohme (UK) Ltd)
+74392	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Lexon (UK) Ltd)
+11408	Autopen Classic hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-21 units (Owen Mumford Ltd)
+58798	GlucoRx FinePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (GlucoRx Ltd)
+82985	Sitagliptin 50mg/5ml oral suspension
+72852	Gliclazide 40mg tablets (Accord-UK Ltd)
+14270	Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+25735	Insulin isophane biphasic human 20/80 100units/ml suspension for injection 3ml cartridges
+19658	Glurenorm 30mg tablets (Sanofi)
+26784	INSULIN ZINC SEMILENTE SUSP BP 100 I/U INJ
+72695	Metformin 500mg Tablet (Celltech Pharma Europe Ltd)
+54442	Metformin (roi) 1000mg Tablet
+82172	Lyumjev KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+60643	Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd)
+12654	Insulin soluble human prb 100unit/ml Injection
+47856	Neuphane 100unit/ml Injection (Wellcome Medical Division)
+55729	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+5557	NovoPen 3 Fun hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 2-70 units Blue (Novo Nordisk Ltd)
+9503	Hypurin Bovine Protamine Zinc 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+30686	Insulin isophane porcine 100units/ml suspension for injection 3ml cartridges
+73254	Yaltormin SR 1000mg tablets (Wockhardt UK Ltd)
+30918	ABCare hypodermic U100 insulin syringe glass reusable 0.5ml (Rand Rocket Ltd)
+87341	Metformin 1g/5ml oral solution sugar free (Colonis Pharma Ltd)
+88993	Sitagliptin 25mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+60328	Alogliptin 12.5mg tablets
+35143	NovoFine Autocover hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Novo Nordisk Ltd)
+24866	INSULIN INSULATARD (LEO RETARD) 40 I/U INJ
+21590	Insulin glulisine 100units/ml solution for injection 3ml pre-filled disposable devices
+79372	Glibenclamide 5mg Tablet (Celltech Pharma Europe Ltd)
+15624	INSULIN ISOPHANE (HIGHLY PURIFIED) 100 I/U INJ
+10243	Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+10175	Insulin isophane human 100units/ml suspension for injection 1.5ml cartridges
+24800	Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+61845	NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges (Novo Nordisk Ltd)
+11345	Bd Ultra Pen 3ml Insulin pen (Becton, Dickinson UK Ltd)
+66136	Glucophage SR 1000mg tablets (Waymade Healthcare Plc)
+81111	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm safety needle 0.33mm/29gauge (Covidien (UK) Commercial Ltd)
+66316	Lantus 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+5501	Insuman basal 100iu/ml Injection (Aventis Pharma)
+54028	Unifine Pentips Plus hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (Owen Mumford Ltd)
+11366	NovoNorm 2mg tablets (Novo Nordisk Ltd)
+34504	Metformin 500mg tablets (Wockhardt UK Ltd)
+56639	HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Eli Lilly and Company Ltd)
+67414	Mylife Clickfine AutoProtect hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Ypsomed Ltd)
+60497	Alogliptin 12.5mg / Metformin 1g tablets
+48771	Unifine Pentips Plus hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Owen Mumford Ltd)
+79694	Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+88758	Metformin 500mg tablets (Ipca Laboratories UK Ltd)
+58878	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge
+89656	Metformin 500mg modified-release tablets (Brown & Burk UK Ltd)
+63336	Trulicity 1.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+46666	NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+76942	Needle free Insulin delivery system
+19878	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 3ml pre-filled disposable devices
+7332	Amaryl 1mg tablets (Zentiva Pharma UK Ltd)
+79127	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge (Nipro Diagnostics (UK) Ltd)
+9105	Glucobay 100mg tablets (Bayer Plc)
+58449	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Owen Mumford Ltd)
+3439	Penmix 10/90 Pen (Novo Nordisk Ltd)
+62951	Unifine Pentips Plus hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Owen Mumford Ltd)
+38808	NovoPen 4 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Silver (Novo Nordisk Ltd)
+16044	Glucophage SR 500mg tablets (Merck Serono Ltd)
+67313	NovoRapid 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc)
+63474	NeedleBay Fine Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Diabetes Care Technology Ltd)
+79700	Insuman Comb 15 100units/ml suspension for injection 5ml vials (Aventis Pharma)
+47588	Insulin 1ml click count
+63152	TriCare hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Owen Mumford Ltd)
+4784	Lentard mc 100unit/ml Injection (Novo Nordisk Ltd)
+75938	Ozempic 0.5mg/0.37ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+41834	Insulin zinc suspension lente 100iu/ml Injection (Celltech Pharma Europe Ltd)
+1843	Pork Insulatard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+4129	Insulin soluble porcine 100units/ml solution for injection 1.5ml cartridges
+1840	Humulin s 100unit/ml Injection (Eli Lilly and Company Ltd)
+15294	Innovo hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-70 units Green (Novo Nordisk Ltd)
+81428	Sukkarto SR 750mg tablets (Morningside Healthcare Ltd)
+29939	Gliclazide 80mg tablets (Viatris UK Healthcare Ltd)
+10244	Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+1839	INSULIN HUMULIN I (ISOPHANE) 100 I/U INJ
+13108	Autopen Special Edition hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-21 units (Owen Mumford Ltd)
+7763	INSULIN NEUPHANE (ISOPHANE)(PURIFIED) 100 I/U INJ
+8895	Initard 50/50 100unit/ml Injection (Novo Nordisk Ltd)
+78537	Metformin 850mg/5ml oral suspension
+46458	Exenatide 2mg powder and solvent for prolonged-release suspension for injection vials
+13969	U100 Insulin syringe 0.3ml
+18220	Pioglitazone 15mg / Metformin 850mg tablets
+1643	INSULIN NOVO MONOTARD MC 100 I/U INJ
+35022	Sitagliptin 100mg tablets
+51955	Gliclazide 80mg tablets (Accord-UK Ltd)
+13837	Insulin biphasic isophane human prb 10:90; 100 units/ml Injection
+57388	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 8mm safety needle 0.3mm/30gauge (Covidien (UK) Commercial Ltd)
+74389	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+30460	Malix 5mg Tablet (Lagap)
+91131	GlucoRx Dual-Safe Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (GlucoRx Ltd)
+31466	Exubera insulin release unit (Pfizer Ltd)
+33232	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 5ml vials
+63464	Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+67266	Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+89476	Wegovy FlexTouch 2.4mg/0.75ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+65057	Empagliflozin 5mg / Metformin 1g tablets
+28185	Insulin lispro biphasic 25/75 100units/ml suspension for injection 3ml cartridges
+55723	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices and Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+14340	Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+15199	Insuman comb 25 100iu/ml Injection (Aventis Pharma)
+86484	Humalog Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+20422	Insuman comb 15 100iu/ml Injection (Aventis Pharma)
+7203	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Owen Mumford Ltd)
+60379	Invokana 300mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+37875	Vildagliptin 50mg tablets
+69562	Neon Verifine Safety hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Neon Diagnostics Ltd)
+21374	Insulin biphasic isophane human prb 40:60; 100 units/ml Injection
+74845	Humulin I 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+67781	Gliclazide 80mg tablets (Milpharm Ltd)
+88597	Lamzarin 60mg modified-release tablets (Key Pharmaceuticals Ltd)
+89056	Gliclazide 80mg tablets (Zentiva Pharma UK Ltd)
+1805	Mixtard 30/70 100unit/ml Injection (Novo Nordisk Ltd)
+90720	Steglatro 15mg tablets (Merck Sharp & Dohme (UK) Ltd)
+22974	Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 8mm/31gauge
+83088	Glucorex SR 500mg tablets (GlucoRx Ltd)
+65432	Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (A. Menarini Diagnostics Ltd)
+7402	Lantus 100units/ml solution for injection 10ml vials (Sanofi)
+88019	Sitagliptin 100mg/5ml oral solution sugar free
+36146	Insulin lispro biphasic 50/50 100units/ml suspension for injection 3ml cartridges
+3076	NovoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/30gauge (Novo Nordisk Ltd)
+64217	Jardiance 25mg tablets (Boehringer Ingelheim Ltd)
+19877	Insulin aspart 100units/ml solution for injection 3ml pre-filled disposable devices
+45158	Insuman Comb 15 100units/ml suspension for injection 3ml cartridges (Sanofi)
+64743	Canagliflozin 50mg / Metformin 850mg tablets
+74388	Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+91455	Rybelsus 7mg tablets (Pharmaram Ltd)
+73460	Metformin 500mg/5ml oral solution sugar free (Accord-UK Ltd)
+53437	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/30gauge
+7300	Mixtard 30 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+60621	Hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units
+33674	Metformin 850mg tablets (A A H Pharmaceuticals Ltd)
+31077	Competact 15mg/850mg tablets (Neon Healthcare Ltd)
+20287	Actos 15mg tablets (Neon Healthcare Ltd)
+12299	Semitard mc 100unit/ml Injection (Novo Nordisk Ltd)
+13331	Euglucon 5mg tablets (Sanofi)
+57153	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm safety needle 0.3mm/30gauge (Covidien (UK) Commercial Ltd)
+18645	INSULIN NEUTRAL (PURIFIED) 100 I/U INJ
+22806	INSULIN PORK ACTRAPID
+35078	Optipen pro 1 blue insulin pen 3ml/1-60 units 3ml/1-60 units Insulin pen (Aventis Pharma)
+89369	Wegovy FlexTouch 0.5mg/0.37ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+5316	Glimepiride 4mg tablets
+89231	Tirzepatide 2.5mg/0.5ml solution for injection pre-filled disposable devices
+64939	Glucient SR 1000mg tablets (Consilient Health Ltd)
+68744	Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Neon Diagnostics Ltd)
+75700	Metformin 500mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+5742	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Owen Mumford Ltd)
+55270	Duformin 500mg Tablet (Dumex Ltd)
+7793	HumaJect M3 Pen 100units/ml suspension for injection (Eli Lilly and Company Ltd)
+32053	INSULIN HUMALOG MIX 25
+22094	INSULIN HUMULIN M2 VIAL
+4247	Insulin isophane porcine 100units/ml suspension for injection 1.5ml cartridges
+56624	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm safety needle 0.3mm/30gauge (Covidien (UK) Commercial Ltd)
+56785	HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Red (Eli Lilly and Company Ltd)
+8841	Humulin M5 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+74842	Humulin M3 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+90254	Mounjaro KwikPen 7.5mg/0.6ml solution for injection 2.4ml pre-filled pens (Eli Lilly and Company Ltd)
+1886	Insulatard 100iu/ml GE injection (Novo Nordisk Ltd)
+26621	Insulin soluble human crb 100iu/ml Injection
+4093	Humulin M2 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+64021	GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (GlucoRx Ltd)
+60286	Metformin 500mg/5ml oral suspension
+11990	Metformin 500mg/5ml oral solution sugar free
+7772	Human protaphane 100unit/ml Injection (Novo Nordisk Ltd)
+82855	Metformin 500mg modified-release tablets (Medihealth (Northern) Ltd)
+34836	Metformin 850mg tablets (Actavis UK Ltd)
+1595	Insulatard NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+56115	Human Actrapid Penfill 100units/ml solution for injection 1.5ml cartridges (Novo Nordisk Ltd)
+57493	HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Silver (Eli Lilly and Company Ltd)
+11610	Metformin with rosiglitazone 500mg + 2mg Tablet
+62276	Humulin R 500units/ml solution for injection 20ml vials (Imported (United States))
+43270	Metformin 500mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+15951	Autopen Junior hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-21 units (Owen Mumford Ltd)
+81864	Metformin 500mg modified-release tablets (Morningside Healthcare Ltd)
+76163	Lantus 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+84547	Unifine SafeControl Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Owen Mumford Ltd)
+55462	Tresiba FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+37055	Comfort Point hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.33mm/29gauge (GlucoRx Ltd)
+46989	Metabet SR 1000mg tablets (Morningside Healthcare Ltd)
+85945	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (CST Pharma Ltd)
+10184	Insulin detemir 100 iu/ml Solution for injection
+71118	Insulatard 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+12892	Clinipak u100 single use ins syr+12mm need28g 0.5ml [rand] 0.5ml Insulin syringe with 28gauge needle 12mm (Rand Rocket Ltd)
+12638	Insulin soluble human pyr 100unit/ml Injection
+46001	Insuman Basal 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi)
+73282	Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+36920	Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+77284	Insulin isophane human 100iu/ml Injection
+72559	Human Insulatard Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+79140	GlucoRx Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/30gauge (GlucoRx Ltd)
+33562	Duclazide 80mg Tablet (Dumex Ltd)
+17712	Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+72001	Metformin 1g modified-release tablets (DE Pharmaceuticals)
+14357	Humulin I 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+68867	Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/30gauge (Neon Diagnostics Ltd)
+11717	Rosiglitazone 2mg / Metformin 1g tablets
+79854	Pioglitazone 15mg tablets (Accord-UK Ltd)
+2456	Mixtard 10 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+17643	Autopen Special Edition hypodermic insulin injection pen reusable for 3ml cartridge 2 unit dial up / range 2-42 units (Owen Mumford Ltd)
+48829	NovoPen Echo hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Blue (Novo Nordisk Ltd)
+75778	Metformin 500mg tablets (Crescent Pharma Ltd)
+71340	Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+4706	Velosulin 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+44378	Insulin isophane biphasic human 25/75 100units/ml suspension for injection 3ml pre-filled disposable devices
+71550	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge (B.Braun Medical Ltd)
+14933	Hypurin Porcine Isophane 100units/ml suspension for injection 3ml cartridges (Wockhardt UK Ltd)
+66855	Empagliflozin 12.5mg / Metformin 850mg tablets
+9662	Avandia 4mg tablets (GlaxoSmithKline UK Ltd)
+36959	GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (GlucoRx Ltd)
+10264	Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+53148	Hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units
+12035	Insulin zinc mixed bovine 100units/ml suspension for injection 10ml vials
+14944	Humulin S 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)
+89021	Sitagliptin 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+15961	Insulin isophane human crb 100iu/ml Injection
+67056	Amaryl 1mg tablets (Lexon (UK) Ltd)
+65611	JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units Red (Sanofi)
+43619	Metformin 1g / Sitagliptin 50mg tablets
+8168	Diabinese 250mg Tablet (Pfizer Ltd)
+52445	Linagliptin 2.5mg / Metformin 1g tablets
+7959	INSULIN MIXTARD 30/70 40 I/U INJ
+9521	Pork Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+57622	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+49831	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Necessity Supplies Ltd)
+68203	Metformin 500mg modified-release tablets (Almus Pharmaceuticals Ltd)
+56939	HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Pink (Eli Lilly and Company Ltd)
+27614	Penmix 30/70 100iu/ml Injection (Novo Nordisk Ltd)
+13274	Clinipak u100 single use ins syr+12mm need28g 1ml [rand] 1ml Insulin syringe with 28gauge needle 12mm (Rand Rocket Ltd)
+63562	Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices
+69823	Fiasp FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+12455	Rastinon 500mg Tablet (Hoechst Marion Roussel)
+27402	Insulin soluble human 100units/ml solution for injection 10ml vials
+33673	Tolbutamide 500mg tablets (Actavis UK Ltd)
+48435	BD AutoShield hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/29gauge (Becton, Dickinson UK Ltd)
+85064	Metformin 500mg modified-release tablets (A A H Pharmaceuticals Ltd)
+21347	Penmix 40/60 100iu/ml Injection (Novo Nordisk Ltd)
+35561	Prandin 2mg tablets (Novo Nordisk Ltd)
+89876	Mounjaro 2.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+56502	Actrapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+19491	Apidra 100units/ml solution for injection 10ml vials (Sanofi)
+47074	Gliclazide 80mg/5ml oral suspension
+43489	BD Micro-Fine Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Becton, Dickinson UK Ltd)
+69885	Pioglitazone 30mg tablets (Krka UK Ltd)
+45775	Saxagliptin 2.5mg tablets
+74051	Onglyza 5mg tablets (Sigma Pharmaceuticals Plc)
+9079	INSULIN SOLUBLE 100 I/U INJ
+80215	Unifine Pentips Plus hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge (Owen Mumford Ltd)
+58579	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32.5gauge
+83236	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Nipro Diagnostics (UK) Ltd)
+9565	HumaJect S Pen 100units/ml solution for injection (Eli Lilly and Company Ltd)
+10245	Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+64495	TriCare hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Owen Mumford Ltd)
+82258	Rybelsus 3mg tablets (Novo Nordisk Ltd)
+64622	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (Lexon (UK) Ltd)
+14299	Insulin glulisine 100units/ml solution for injection 3ml cartridges
+90129	Mounjaro KwikPen 5mg/0.6ml solution for injection 2.4ml pre-filled pens (Eli Lilly and Company Ltd)
+3396	Penmix 10/90 Penfill (Novo Nordisk Ltd)
+20196	INSULIN SOLUBLE 40 I/U INJ
+31467	Exubera 3mg inhalation powder blisters (Pfizer Ltd)
+69459	Alogliptin 25mg tablets (Ennogen Healthcare Ltd)
+19513	Humulin M3 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+47360	Neutral insulin 100unit/ml Injection (Celltech Pharma Europe Ltd)
+62014	Glimepiride 2mg tablets (Accord-UK Ltd)
+9108	TOLBUTAMIDE 250 MG TAB
+73892	Metformin 500mg tablets (Relonchem Ltd)
+26795	SYRINGE INSULIN DISPOSABLE
+21235	Humulin S 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd)
+11946	Tolbutamide 50mg/ml Injection
+47894	Nazdol MR 30mg tablets (Krka UK Ltd)
+37617	Rosiglitazone 2mg tablet
+45831	Dacadis MR 30mg tablets (Viatris UK Healthcare Ltd)
+39006	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+84216	PROFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (Prosum Medical Ltd)
+2455	Mixtard 20 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+1253	Chlorpropamide 100mg tablets
+39988	Metformin 500mg oral powder sachets sugar free
+84743	Metformin Oral solution
+51612	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/29gauge
+19271	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge
+46665	Linagliptin 5mg tablets
+25786	GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (GlucoRx Ltd)
+43950	Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+71012	Metformin 500mg tablets (Phoenix Healthcare Distribution Ltd)
+16959	Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with not less than 12mm needle 0.3mm/30gauge
+2808	INSULIN LENTARD INJ
+8390	Gliquidone 30mg tablets
+81073	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd)
+18224	Humalog 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd)
+30861	INSULIN ZINC HUMAN SUSPENSION
+24485	INSULIN ZINC ANIMAL SUSPENSION
+83212	GlucoRx Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (GlucoRx Ltd)
+5276	Glimepiride 1mg tablets
+45045	NovoTwist hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge (Novo Nordisk Ltd)
+83483	Glipizide 5mg tablets (Almus Pharmaceuticals Ltd)
+41898	GLIBENCLAMIDE
+89322	Wegovy FlexTouch 0.25mg/0.37ml solution for injection 1.5ml pre-filled pens (Novo Nordisk Ltd)
+44250	Metformin 500mg/5ml Oral solution (Hillcross Pharmaceuticals Ltd)
+28588	Hypurin Bovine Isophane 100units/ml suspension for injection 3ml cartridges (Wockhardt UK Ltd)
+68415	Gliclazide 30mg modified-release tablets (Phoenix Healthcare Distribution Ltd)
+6554	Autopen 24 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-21 units (Owen Mumford Ltd)
+71428	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+43568	ClikSTAR hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Silver (Sanofi)
+31212	Gliclazide 80mg tablets (Actavis UK Ltd)
+89141	Gliclazide 40mg tablets (Medreich Plc)
+63823	Dulaglutide 1.5mg/0.5ml solution for injection pre-filled disposable devices
+84213	Zicron PR 30mg tablets (Bristol Laboratories Ltd)
+89061	NovoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Novo Nordisk Ltd)
+11737	Metformin with rosiglitazone 1000mg + 4mg Tablet
+77437	Amaryl 1mg tablets (Sigma Pharmaceuticals Plc)
+17706	Minodiab 2.5mg tablets (Pfizer Ltd)
+35454	GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (GlucoRx Ltd)
+48633	GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (GlucoRx Ltd)
+13622	Hypurin porcine neutral 100unit/ml Injection (C P Pharmaceuticals Ltd)
+5953	Insulin glargine 100iu/ml Injection
+7267	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+10277	Humulin M3 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)
+7815	METFORMIN 800 MG TAB
+80810	Bydureon BCise 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+90667	Tirzepatide 12.5mg/0.6ml solution for injection 2.4ml pre-filled disposable devices
+91411	Diavic 6mg/ml solution for injection 3ml pre-filled pens (Sun Pharma UK Ltd)
+55687	Insulin degludec 100units/ml solution for injection 3ml pre-filled disposable devices
+43833	ClikSTAR hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Blue (Sanofi)
+8483	MONOJECT INSULIN NEEDLES
+39598	Metformin 1g modified-release tablets
+54480	Forxiga 5mg tablets (AstraZeneca UK Ltd)
+10207	Insulin isophane human 100units/ml suspension for injection 3ml cartridges
+39560	Bolamyn SR 500mg tablets (Teva UK Ltd)
+14928	Insulatard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+29953	Apidra 100units/ml solution for injection 3ml OptiClik cartridges (Sanofi)
+14887	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge
+53288	Gliclazide 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+86376	NovoPen Echo Plus hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Red (Novo Nordisk Ltd)
+57830	Gliclazide 30mg modified-release tablets (Alliance Healthcare (Distribution) Ltd)
+52232	Hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units
+30236	Isophane insulin 100iu/ml Injection
+50087	Januvia 50mg tablets (Merck Sharp & Dohme (UK) Ltd)
+49479	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge
+76988	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+14330	Insulin detemir 100units/ml solution for injection 3ml pre-filled disposable devices
+74888	GreenFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Neon Diagnostics Ltd)
+11604	Rosiglitazone 1mg / Metformin 500mg tablets
+16602	Calabren 2.5mg Tablet (Berk Pharmaceuticals Ltd)
+3252	METFORMIN HCl 500 MG TAB
+75651	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Nipro Diagnostics (UK) Ltd)
+72187	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge (B.Braun Medical Ltd)
+59385	Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd)
+11521	Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with not less than 12mm needle 0.4mm/27gauge
+5967	Hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with not less than 12mm needle 0.33mm/29gauge
+86117	Amglidia 0.6mg/ml oral suspension with 1ml oral syringe (Bioprojet UK Ltd)
+74970	Pur-n Isophane 100unit/ml Injection (C P Pharmaceuticals Ltd)
+34713	Insulin 1 ml syringe
+14642	Bd m 0.3ml Insulin syringe with 29gauge needle 12mm (Becton, Dickinson UK Ltd)
+40555	HumaPen Memoir hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units (Eli Lilly and Company Ltd)
+36066	Insulin isophane bovine 100units/ml suspension for injection 3ml cartridges
+21892	Diaglyk 80mg tablets (Ashbourne Pharmaceuticals Ltd)
+8203	Penmix 50/50 100iu/ml Penfill (Novo Nordisk Ltd)
+51135	Metformin 500mg modified-release tablets (A A H Pharmaceuticals Ltd)
+58745	GlucoRx FinePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (GlucoRx Ltd)
+1965	Tolbutamide 500mg tablets
+21583	Apidra 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi)
+57564	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+70910	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (B.Braun Medical Ltd)
+31205	Insuman Comb 50 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+70422	AllStar hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Purple (Sanofi)
+83476	Acarbose 100mg tablets (A A H Pharmaceuticals Ltd)
+22697	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 1.5ml cartridges
+83089	Glyxambi 10mg/5mg tablets (Boehringer Ingelheim Ltd)
+1844	Ultratard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+15374	Gliclazide 40mg/5ml oral suspension
+34917	Metformin 500mg tablets (Teva UK Ltd)
+66854	Vokanamet 50mg/1000mg tablets (A. Menarini Farmaceutica Internazionale SRL)
+10566	INSULIN HUMULIN M CARTRIDGE 100 I/U
+44251	Insulin zinc suspension mixed porcine 100unit/ml Injection
+60681	Vipidia 12.5mg tablets (Takeda UK Ltd)
+13550	INSULIN BP 100 I/U
+90264	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/32gauge (Spirit Healthcare Ltd)
+89850	Metformin 1g modified-release tablets (Amarox Ltd)
+89414	Metformin 500mg modified-release tablets (Somex Pharma)
+5121	BD Micro-Fine + hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12.7mm/29gauge (Becton, Dickinson UK Ltd)
+20810	METFORMIN
+23993	Insuman Rapid 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi)
+54203	Forxiga 10mg tablets (AstraZeneca UK Ltd)
+77777	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge (Nipro Diagnostics (UK) Ltd)
+43065	Gliclazide 40mg tablets
+6233	Mylife Clickfine hypodermic insulin needles for pre-filled / reusable pen injectors snap on 10mm/29gauge (Ypsomed Ltd)
+76728	Semglee 100units/ml solution for injection 3ml pre-filled pens (Biosimilar Collaborations Ireland Ltd)
+69658	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (B.Braun Medical Ltd)
+84602	Diamicron 30mg MR tablets (Dowelhurst Ltd)
+28101	Insulin glulisine 100units/ml solution for injection 10ml vials
+27396	Insulin soluble porcine 100units/ml solution for injection 10ml vials
+4199	Humulin m1 100unit/ml M1 injection (Eli Lilly and Company Ltd)
+16213	METFORMIN 250 MG TAB
+8646	INSULIN ZINC CRYSTALLINE susp 100 I/U INJ
+9376	Insulin zinc suspension crystalline human pyr 100unit/ml long acting Injection
+1591	U100 Insulin syringe 1ml
+13036	Unifine hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.33mm/29gauge (Owen Mumford Ltd)
+80678	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd)
+90200	Tirzepatide 10mg/0.6ml solution for injection 2.4ml pre-filled disposable devices
+84014	Metformin 1g tablets
+63046	Pioglitazone 45mg tablets (A A H Pharmaceuticals Ltd)
+66454	BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Becton, Dickinson UK Ltd)
+4426	CHLORPROPAMIDE 500 MG TAB
+53710	Insulin human 500units/ml solution for injection 20ml vials
+21459	SYRINGE INSULIN U100 S/U+8MM NEEDLE
+27151	SYRINGE INSULIN U100 S/U+8MM NEEDLE
+57147	Bolamyn SR 1000mg tablets (Teva UK Ltd)
+50798	Hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-35 units
+16866	Unifine hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 12mm needle 0.33mm/29gauge (Owen Mumford Ltd)
+26060	Insulin lispro 100units/ml solution for injection 10ml vials
+2321	Insulin 0.5ml disposable syringe
+83632	Dulaglutide 4.5mg/0.5ml solution for injection pre-filled disposable devices
+9834	Mylife Clickfine hypodermic insulin needles for pre-filled / reusable pen injectors snap on 12mm/29gauge (Ypsomed Ltd)
+18208	Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 10mm/29gauge
+8354	INSULIN ISOPHANE 70%/NEUTRAL 30% 100 I/U INJ
+34004	Metformin 500mg tablets (IVAX Pharmaceuticals UK Ltd)
+76922	Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml pre-filled disposable devices
+76223	HaemoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge (HTL-STREFA S.A.)
+87687	InSu/Light hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 13mm needle 0.33mm/29gauge (Medicure Scientific Ltd)
+39150	Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm safety needle 0.33mm/29gauge
+55739	Metformin 500mg tablets (Tillomed Laboratories Ltd)
+72107	Meijumet 500mg modified-release tablets (Medreich Plc)
+735	Metformin 100mg/ml Oral solution
+72862	GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge (GlucoRx Ltd)
+5250	Insulin biphasic lispro human prb 25:75; 100 units/ml Injection
+82473	Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+60682	Vipidia 25mg tablets (Takeda UK Ltd)
+56489	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+16160	Humulin M3 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+11056	Insulin biphasic isophane human pyr 30:70; 100 units/ml Injection
+5933	Mixtard 50 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+60933	Humulin M3 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc)
+10133	U100 Insulin syringe 1ml
+68819	Gliclazide 80mg tablets (Bristol Laboratories Ltd)
+19977	Omnican 50 hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.3mm/30gauge (B.Braun Medical Ltd)
+68389	Metformin 500mg/5ml oral solution sugar free (Pinewood Healthcare)
+76880	Microdot Max Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/30gauge (Cambridge Sensors Ltd)
+40693	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices
+79512	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Nipro Diagnostics (UK) Ltd)
+76512	Insulin biphasic isophane human emp 30:70; 100 units/ml Injection
+50691	Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+20995	Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 3ml cartridges (Wockhardt UK Ltd)
+90367	Mounjaro KwikPen 15mg/0.6ml solution for injection 2.4ml pre-filled pens (Eli Lilly and Company Ltd)
+547	Glipizide 2.5mg tablets
+11346	B-d u-100 0.3ml Insulin syringe (Becton, Dickinson UK Ltd)
+8034	Diabinese 100mg Tablet (Pfizer Ltd)
+63704	NovoPen 5 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Silver (Novo Nordisk Ltd)
+77012	Humalog 100units/ml solution for injection 10ml vials (DE Pharmaceuticals)
+22614	DAONIL 10 MG TAB
+13009	Hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with not less than 12mm needle 0.36mm/28gauge
+63516	Forxiga 10mg tablets (Waymade Healthcare Plc)
+90126	Tirzepatide 2.5mg/0.6ml solution for injection 2.4ml pre-filled disposable devices
+81491	Microdot Max hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Cambridge Sensors Ltd)
+67279	Pork Insulatard 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+56352	HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Green (Eli Lilly and Company Ltd)
+34697	Metformin 850mg tablets (Wockhardt UK Ltd)
+61756	Empagliflozin 10mg tablets
+78293	Alogliptin 12.5mg / Metformin 1g tablets (Colorama Pharmaceuticals Ltd)
+14345	Apidra 100units/ml solution for injection 3ml cartridges (Sanofi)
+88761	Mounjaro 5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+69370	Synjardy 5mg/850mg tablets (Boehringer Ingelheim Ltd)
+52449	Linagliptin 2.5mg / Metformin 850mg tablets
+65495	Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (A. Menarini Diagnostics Ltd)
+25678	Glucamet 500mg Tablet (Opus Pharmaceuticals Ltd)
+55767	Lyxumia 10micrograms/20micrograms treatment initiation pack (Sanofi)
+1589	U100 Insulin syringe 0.5ml
+14649	Insulin biphasic isophane human pyr 10:90; 100 units/ml Injection
+38774	NovoPen 4 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Novo Nordisk Ltd)
+21945	INSULIN PORK INSULATARD
+56808	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (B.Braun Medical Ltd)
+69669	Gliclazide 160mg/5ml oral suspension
+9619	Bd Ultra Pen 1.5ml Insulin pen (Becton, Dickinson UK Ltd)
+55618	Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+8118	Humaject i 100iu/ml Pen (Eli Lilly and Company Ltd)
+62824	Metformin 1g modified-release tablets (Actavis UK Ltd)
+84037	Lyumjev Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+23636	Insulin 1ml disposable syringe
+89776	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Spirit Healthcare Ltd)
+71369	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+4248	INSULIN NOVO ULTRATARD MC 100 I/U INJ
+43465	Zicron 40mg tablets (Bristol Laboratories Ltd)
+41593	Glibenclamide 2.5mg tablets (Teva UK Ltd)
+68258	Alogliptin 25mg tablets (Colorama Pharmaceuticals Ltd)
+7409	Amaryl 3mg tablets (Zentiva Pharma UK Ltd)
+89618	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge (Spirit Healthcare Ltd)
+82909	Semaglutide 14mg tablets
+17731	Penmix 50/50 100iu/ml Injection (Novo Nordisk Ltd)
+35260	Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+28978	INSULIN PUR-IN MIX 15/85 100 I/U INJ
+479	Acarbose 50mg tablets
+11337	NovoRapid Novolet 100units/ml solution for injection (Novo Nordisk Ltd)
+66335	Insulin biphasic isophane porcine 50:50; 100 units/ml Injection
+7237	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi)
+38355	Metformin 750mg modified-release tablets
+2812	Mixtard 40 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)
+83186	Neulente 100unit/ml Injection (Wellcome Medical Division)
+90569	Admelog 100units/ml solution for injection 10ml vials (Sanofi)
+35218	Optipen pro 1 yellow insulin pen 3ml/1-60 units 3ml/1-60 units Insulin pen (Aventis Pharma)
+60609	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge (Spirit Healthcare Ltd)
+20195	INSULIN BOVINE PROTAMINE ZINC 40 I/U INJ
+14313	Insulin lispro 100units/ml solution for injection 3ml cartridges
+35150	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (AstraZeneca UK Ltd)
+76624	Semaglutide 1mg/0.74ml solution for injection 3ml pre-filled disposable devices
+29837	Insulin biphasic isophane human prb 25:75; 100 units/ml Injection
+2454	Mixtard 30 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+6831	HumaPen Ergo hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Teal (Eli Lilly and Company Ltd)
+64354	Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Sanofi)
+27125	Starlix 180mg tablets (Novartis Pharmaceuticals UK Ltd)
+1806	Penmix 30/70 100iu/ml Penfill (Novo Nordisk Ltd)
+5627	Gliclazide 30mg modified-release tablets
+14918	Humulin I 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+25736	Insulin isophane biphasic human 10/90 100units/ml suspension for injection 3ml cartridges
+69947	Albiglutide 30mg powder and solvent for solution for injection pre-filled disposable devices
+55627	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Spirit Healthcare Ltd)
+58882	Gliclazide 120mg/5ml oral suspension
+14339	Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (Wockhardt UK Ltd)
+83706	Rybelsus 14mg tablets (Novo Nordisk Ltd)
+40642	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+23	Metformin 500mg tablets
+87891	Metformin 500mg modified-release tablets (Amarox Ltd)
+70744	Metformin 500mg/5ml oral solution sugar free (Advanz Pharma)
+21564	Gliclazide 80mg tablets (Wockhardt UK Ltd)
+28723	INSULIN ZINC BOVINE SUSPENSION
+7325	Avandamet 4mg/1000mg tablets (GlaxoSmithKline UK Ltd)
+23231	Hypurin Bovine Neutral 100units/ml solution for injection 3ml cartridges (Wockhardt UK Ltd)
+52522	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals)
+80828	Gliclazide 30mg/5ml oral suspension
+1254	Glibenclamide 5mg tablets
+55603	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals)
+90068	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (Spirit Healthcare Ltd)
+322	Humalog 100units/ml solution for injection 1.5ml cartridges (Eli Lilly and Company Ltd)
+60012	Dapagliflozin 5mg / Metformin 1g tablets
+469	Rosiglitazone 4mg tablets
+7266	Lantus 100units/ml solution for injection 3ml cartridges (Sanofi)
+55907	Insulin degludec 100units/ml solution for injection 3ml cartridges
+71665	Glimepiride 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+60967	Nanopass hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/32.5gauge (Terumo UK Ltd)
+48576	BD AutoShield Duo hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/30gauge (Becton, Dickinson UK Ltd)
+29567	Insulin aspart 100units/ml solution for injection 10ml vials
+23003	INSULIN ISOPHANE (NPH) 40 I/U
+75550	Insulin isophane biphasic human 15/85 100units/ml suspension for injection 5ml vials
+54973	Saxagliptin 2.5mg / Metformin 850mg tablets
+48501	HumaPen Luxura hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Champagne (Eli Lilly and Company Ltd)
+12060	INSULIN QUICKSOL (SOLUBLE NEUTRAL) 100 I/U INJ
+62904	Exenatide 2mg powder and solvent for prolonged-release suspension for injection pre-filled disposable devices
+53478	Metformin 500mg modified-release tablets (Kent Pharma (UK) Ltd)
+69654	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd)
+34031	Monotard mc 100unit/ml Injection (Novo Nordisk Ltd)
+16152	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 3ml cartridges
+28442	Insulin glulisine 100unit/ml Solution for injection
+52722	Human Mixtard 30 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+89378	Wegovy FlexTouch 1.7mg/0.75ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+62180	Insulin aspart 100units/ml solution for injection 1.6ml cartridges
+40110	Glucophage 500mg oral powder sachets (Merck Serono Ltd)
+54462	Insulin biphasic isophane human emp 25:75; 100 units/ml Injection
+22987	Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 12mm/29gauge
+6209	NovoRapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)
+65563	Pioglitazone 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+5769	Hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with not less than 12mm needle 0.4mm/27gauge
+75329	Insulin lispro Sanofi 100units/ml solution for injection 3ml pre-filled pens (Sanofi)
+34323	Metformin 500mg tablets (A A H Pharmaceuticals Ltd)
+27911	INSULIN HUMAN ACTRAPID PENFILL
+25006	INSULIN HUMAN ACTRAPID (NEUTRAL)
+6753	Novopen Junior hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-35 units Green (Novo Nordisk Ltd)
+6447	Insulin aspart human pyr 100 iu/ml Injection
+80676	Bilxona 60mg modified-release tablets (Accord-UK Ltd)
+35017	Optipen pro 1 white insulin pen 3ml/1-60 units 3ml/1-60 units Insulin pen (Aventis Pharma)
+34932	Gliclazide 80mg tablets (Genus Pharmaceuticals Ltd)
+22946	Omnican 100 hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.3mm/30gauge (B.Braun Medical Ltd)
+14930	Hypurin Porcine Neutral 100units/ml solution for injection 3ml cartridges (Wockhardt UK Ltd)
+34676	Glibenclamide 2.5mg tablets (A A H Pharmaceuticals Ltd)
+86448	NovoPen 6 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Novo Nordisk Ltd)
+63118	NeedleBay Fine Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Diabetes Care Technology Ltd)
+80506	4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Nipro Diagnostics (UK) Ltd)
+59846	Mylife Clickfine hypodermic insulin needles for pre-filled / reusable pen injectors snap on 4mm/32gauge (Ypsomed Ltd)
+36356	Insulin human 3mg inhalation powder blisters
+48811	Unifine Pentips Plus hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Owen Mumford Ltd)
+22496	INSULIN ZINC LENTE PURIFIED SUSPENSION
+4198	Humulin m3 100unit/ml M3 injection (Eli Lilly and Company Ltd)
+1594	Actrapid NovoLet 100units/ml solution for injection (Novo Nordisk Ltd)
+11760	Metformin with rosiglitazone 1000mg + 2mg Tablet
+55413	Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+80647	Metuxtan SR 500mg tablets (Accord-UK Ltd)
+9748	Repaglinide 2mg tablets
+60495	Gliclazide 80mg tablets (Teva UK Ltd)
+4862	Diabetamide 2.5mg tablets (Ashbourne Pharmaceuticals Ltd)
+77753	Meijumet 1000mg modified-release tablets (Medreich Plc)
+78258	Pioglitazone 15mg/5ml oral suspension
+38551	Eucreas 50mg/1000mg tablets (Novartis Pharmaceuticals UK Ltd)
+8838	INSULIN SEMITARD 40 I/U INJ
+1587	Monotard 100units/ml suspension for injection 10ml vials (Novo Nordisk Ltd)
+90668	Tirzepatide 15mg/0.6ml solution for injection 2.4ml pre-filled disposable devices
+5789	Hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm needle 0.3mm/30gauge
+2220	Penmix 20/80 Pen (Novo Nordisk Ltd)
+33356	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge
+61957	Gliclazide 40mg tablets (A A H Pharmaceuticals Ltd)
+41959	Penject 100unit/ml Injection device (Hypoguard Ltd)
+5636	Glipizide 5mg tablets
+14644	Insulin biphasic isophane human prb 20:80; 100 units/ml Injection
+67230	Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc)
+80878	NovoPen Echo hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Blue (Novo Nordisk Ltd)
+60951	Insulin human 100units/ml solution for injection 10ml vials
+89481	Semaglutide 1mg/0.75ml solution for injection 3ml pre-filled disposable devices
+23992	Insuman Basal 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+84649	Unifine SafeControl Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Owen Mumford Ltd)
+77762	Ertugliflozin 5mg tablets
+321	INSULIN HUMAN ACTRAPID (NEUTRAL) 40 I/U INJ
+71137	Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)
+66447	BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Becton, Dickinson UK Ltd)
+70463	Synjardy 12.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+55728	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+59005	Mylife Penfine Classic hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Ypsomed Ltd)
+89962	Tirzepatide 5mg/0.5ml solution for injection pre-filled disposable devices
+61925	NovoNorm 500microgram tablets (Waymade Healthcare Plc)
+58961	Mylife Penfine Classic hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Ypsomed Ltd)
+64460	Insulin glargine 300units/ml solution for injection 1.5ml pre-filled disposable devices
+57659	Pioglitazone 30mg tablets (Actavis UK Ltd)
+58578	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm safety needle 0.33mm/29gauge (Covidien (UK) Commercial Ltd)
+59004	Mylife Penfine Classic hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge (Ypsomed Ltd)
+70807	AllStar hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Teal (Sanofi)
+11878	Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 8mm needle 0.3mm/30gauge
+71958	AllStar Pro hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Blue (Sanofi)
+81916	Unifine SafeControl Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/30gauge (Owen Mumford Ltd)
+10208	Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+54764	Gliclazide 80mg tablets (Arrow Generics Ltd)
+34563	Glibenclamide 5mg tablets (Wockhardt UK Ltd)
+43991	Humulin M3 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+34802	Glipizide 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+49052	Unifine Pentips Plus hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Owen Mumford Ltd)
+48765	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Owen Mumford Ltd)
+18195	Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 6mm/31gauge
+54891	Saxagliptin 2.5mg / Metformin 1g tablets
+20672	INSULIN HUM/ACTRAPID
+83262	Trulicity 3mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+9737	Insulatard innolet 100iu/ml Injection (Novo Nordisk Ltd)
+70490	Bilxona 60mg modified-release tablets (Actavis UK Ltd)
+36194	Insulin isophane biphasic human 25/75 100units/ml suspension for injection 3ml cartridges
+88647	Klinion Soft Fine Plus Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (H & R Healthcare Ltd)
+65066	Empagliflozin 12.5mg / Metformin 1g tablets
+21232	Insulin isophane biphasic human 30/70 100units/ml suspension for injection 10ml vials
+24846	Pur-in neutral 100unit/ml Injection (C P Pharmaceuticals Ltd)
+85733	Glibenclamide 6mg/ml oral suspension sugar free
+47751	TS-A Safety hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm safety needle 0.33mm/29gauge (Minsmed)
+86392	NovoPen 6 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Grey (Novo Nordisk Ltd)
+93	Metformin 850mg tablets
+52748	Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+21223	U100 Insulin syringe 0.3ml
+8976	Euglucon 2.5mg tablets (Aventis Pharma)
+90517	Hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm safety needle 0.3mm/30gauge
+35462	Januvia 100mg tablets (Merck Sharp & Dohme (UK) Ltd)
+37902	Vildagliptin 50mg / Metformin 1g tablets
+17809	Humaject m4 100iu/ml M4 pen (Eli Lilly and Company Ltd)
+82595	Lantus 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+49108	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd)
+79017	Metformin 850mg tablets (Viatris UK Healthcare Ltd)
+9578	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (Owen Mumford Ltd)
+11483	Nateglinide 60mg tablets
+74179	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+28183	Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (Wockhardt UK Ltd)
+6724	U100 Insulin syringe 0.3ml
+79254	Insulin human 500units/ml solution for injection 3ml pre-filled disposable devices
+7319	Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+34097	Human initard 50/50 100unit/ml Injection (Novo Nordisk Ltd)
+41204	Saxagliptin 5mg tablets
+85749	Glibenclamide 600micrograms/ml oral suspension sugar free
+36774	Prandin 1mg tablets (Novo Nordisk Ltd)
+7764	INSULIN NEUSULIN (NEUTRAL)(PURIFIED) 100 I/U INJ
+66771	BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Becton, Dickinson UK Ltd)
+72479	Humulin R KwikPen 500units/ml solution for injection 3ml pre-filled pens (Imported (United States))
+11086	B-d u-100 0.5ml Insulin syringe (Becton, Dickinson UK Ltd)
+25422	Hypoguard u100 click/count 1ml Insulin syringe (Hypoguard Ltd)
+14191	Autopen Junior hypodermic insulin injection pen reusable for 3ml cartridge 2 unit dial up / range 2-42 units (Owen Mumford Ltd)
+9341	Insulin biphasic isophane human prb 30:70; 100 units/ml Injection
+85635	Microdot Max hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Cambridge Sensors Ltd)
+14164	Avandamet 2mg/1000mg tablets (GlaxoSmithKline UK Ltd)
+64900	Glidipion 30mg tablets (Actavis UK Ltd)
+76164	Humalog 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+6138	HumaPen Ergo hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Burgundy (Eli Lilly and Company Ltd)
+24993	Insuman Comb 25 100units/ml suspension for injection 3ml cartridges (Sanofi)
+59475	Nanopass hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32.5gauge (Terumo UK Ltd)
+65344	Empagliflozin 5mg / Metformin 850mg tablets
+34742	Metformin 850mg tablets (Teva UK Ltd)
+31258	Insulin lispro biphasic 25/75 100units/ml suspension for injection 3ml pre-filled disposable devices
+76776	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+91432	Alogliptin 25mg tablets (Takeda UK Ltd)
+28096	Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml cartridges
+1645	INSULIN NOVO ACTRAPID MC 100 I/U INJ
+36513	Velosulin cartridge 100unit/ml Injection (Novo Nordisk Ltd)
+16129	Insulin soluble human 100units/ml solution for injection 3ml cartridges
+5353	Glimepiride 2mg tablets
+58754	BD SafetyGlide hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm safety needle 0.33mm/29gauge (Becton, Dickinson UK Ltd)
+48139	Pioglitazone 30mg tablets (A A H Pharmaceuticals Ltd)
+44480	Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi)
+68675	Glimepiride 4mg tablets (Somex Pharma)
+63048	Gliclazide 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+5845	Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+70477	Glucient SR 750mg tablets (Consilient Health Ltd)
+89317	Semaglutide 0.25mg/0.37ml solution for injection 1.5ml pre-filled disposable devices
+34020	Metformin 850mg tablets (IVAX Pharmaceuticals UK Ltd)
+55517	Insulin isophane human 100units/ml suspension for injection 10ml vials
+6855	Avandamet 2mg/500mg tablets (GlaxoSmithKline UK Ltd)
+50633	Lantus 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd)
+7771	Human protaphane penfill 100 100unit/ml Penfill (Novo Nordisk Ltd)
+77101	Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (Neon Diagnostics Ltd)
+66008	Synjardy 12.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+64723	Abasaglar KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+33167	Insulin biphasic isophane human crb 25:75; 100 units/ml Injection
+84958	Pioglitazone 15mg / Metformin 850mg tablets (A A H Pharmaceuticals Ltd)
+17336	Novopen 100unit/ml Injection device (Novo Nordisk Ltd)
+6781	Autopen Classic hypodermic insulin injection pen reusable for 3ml cartridge 2 unit dial up / range 2-42 units (Owen Mumford Ltd)
+54182	Dapagliflozin 10mg tablets
+61559	Sukkarto SR 500mg tablets (Morningside Healthcare Ltd)
+7231	Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+7164	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Owen Mumford Ltd)
+4163	Rapitard MC 100unit/ml Injection (Novo Nordisk Ltd)
+42395	Humalog Mix25 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)
+56642	Microdot Droplet hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Cambridge Sensors Ltd)
+82697	Rybelsus 7mg tablets (Novo Nordisk Ltd)
+74391	Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)
+22328	Unifine single use Insulin syringe with 30gauge needle 8mm 0.5ml (Owen Mumford Ltd)
+5142	BD Micro-Fine + hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Becton, Dickinson UK Ltd)
+38986	Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+6057	Lantus 100iu/ml Injection (Aventis Pharma)
+70055	Fiasp Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+82174	Semaglutide 3mg tablets
+23945	Starlix 60mg tablets (Novartis Pharmaceuticals UK Ltd)
+86529	NovoPen Echo Plus hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Blue (Novo Nordisk Ltd)
+73252	Yaltormin SR 500mg tablets (Wockhardt UK Ltd)
+48056	Gliclazide 80mg tablets (Sovereign Medical Ltd)
+18301	INSULIN SOLUBLE INJ I/U^2
+19029	SYRINGE PRE-SET INSULIN FOR BLIND 2ML
+65562	Pioglitazone 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+74071	Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)
+36856	Gliclazide 80mg tablets (Sandoz Ltd)
+54898	Metformin 850mg tablets (Almus Pharmaceuticals Ltd)
+31146	Metsol 500mg/5ml oral solution (Kappin Ltd)
+5255	Mixtard 10 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+1593	Insulatard penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+60968	Metformin 500mg modified-release tablets (Actavis UK Ltd)
+17580	Avandamet 1mg/500mg tablets (GlaxoSmithKline UK Ltd)
+19829	INSULIN NOVO MONOTARD MC
+79705	Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Ltd)
+30819	Insuman Comb 15 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+62426	Pioglitazone 30mg tablets (Accord-UK Ltd)
+47939	Glucient SR 500mg tablets (Consilient Health Ltd)
+55746	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/32gauge (Spirit Healthcare Ltd)
+86710	Metformin 750mg modified-release tablets (DE Pharmaceuticals)
+7765	INSULIN NEUTRAL (HUMAN) 100 I/U INJ
+7783	INSULIN ISOPHANE (HUMAN) 100 I/U INJ
+11080	Insulin isophane human prb 100iu/ml Injection
+15710	Insulin soluble human emp 100unit/ml Injection
+10051	Pioglitazone 45mg tablets
+21395	Insulin biphasic isophane human pyr 40:60; 100 units/ml Injection
+45581	Metabet SR 500mg tablets (Morningside Healthcare Ltd)
+11316	NovoNorm 500microgram tablets (Novo Nordisk Ltd)
+56495	Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Waymade Healthcare Plc)
+9702	BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12.7mm needle 0.33mm/29gauge (Becton, Dickinson UK Ltd)
+42790	Gliclazide 80mg Tablet (Merck Generics (UK) Ltd)
+16389	Myjector hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.33mm/29gauge (Terumo UK Ltd)
+89527	Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Spirit Healthcare Ltd)
+7375	Rosiglitazone 4mg / Metformin 1g tablets
+82085	Metformin 500mg tablets (RX Farma)
+83456	Acarbose 50mg tablets (A A H Pharmaceuticals Ltd)
+86876	GlucoRx Dual-Safe Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (GlucoRx Ltd)
+87614	Gliclazide 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+10691	INSULIN ISOPHANE (NPH) 100 I/U INJ
+31699	ABCare hypodermic U100 insulin syringe glass reusable 1ml (Rand Rocket Ltd)
+20671	INSULIN HUM/ACTRAPHANE
+11055	Insulin biphasic isophane human pyr 20:80; 100 units/ml Injection
+71667	Glimepiride 1mg tablets (Teva UK Ltd)
+59243	BD SafetyGlide hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 8mm safety needle 0.25mm/31gauge (Becton, Dickinson UK Ltd)
+71198	Metformin 500mg tablets (Zanza Specials International Ltd)
+22983	Insuman Rapid 100units/ml solution for injection 3ml cartridges (Sanofi)
+4715	Humalog mix 25 25/75 100units/ml Injection (Eli Lilly and Company Ltd)
+30305	Hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with not less than 12mm needle 0.3mm/30gauge
+29326	Glipizide 5mg tablets (Viatris UK Healthcare Ltd)
+5021	NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd)
+49502	Glucophage SR 500mg tablets (Mawdsley-Brooks & Company Ltd)
+79358	Insulin biphasic isophane porcine 100 units/ml Injection
+65694	Metformin 500mg modified-release tablets (Waymade Healthcare Plc)
+58884	GlucoRx FinePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (GlucoRx Ltd)
+50821	Metformin 850mg tablets (Pfizer Ltd)
+58995	BD SafetyGlide hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm safety needle 0.33mm/29gauge (Becton, Dickinson UK Ltd)
+52319	Hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units
+40085	Insulin 2ml syringe
+5174	Acarbose 100mg tablets
+76777	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+54027	Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 4.5mm/31gauge
+68342	Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (Neon Diagnostics Ltd)
+63401	Trulicity 0.75mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+86706	Admelog 100units/ml solution for injection 3ml cartridges (Sanofi)
+33087	Metformin 500mg tablets (Accord-UK Ltd)
+2929	Mixtard 30 100iu/ml GE injection (Novo Nordisk Ltd)
+74507	GreenFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Neon Diagnostics Ltd)
+53867	Metformin 500mg tablets (Zentiva Pharma UK Ltd)
+2928	METFORMIN HCl 850 MG TAB
+36355	Insulin human 1mg inhalation powder blisters
+89410	Lyumjev Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+71361	Humulin I 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)
+39203	Eucreas 50mg/850mg tablets (Novartis Pharmaceuticals UK Ltd)
+72046	Metformin 500mg tablets (DE Pharmaceuticals)
+62098	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/32.5gauge
+16211	TOLBUTAMIDE 100 MG TAB
+5015	NovoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Novo Nordisk Ltd)
+83841	Metformin 500mg tablets (Sigma Pharmaceuticals Plc)
+56208	Pioglitazone 15mg tablets (A A H Pharmaceuticals Ltd)
+24593	Neutral insulin bovine 100unit/ml Injection
+73745	HaemoFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (HTL-STREFA S.A.)
+6730	Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with not less than 12mm needle 0.33mm/29gauge
+59311	Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm safety needle 0.33mm/29gauge (Covidien (UK) Commercial Ltd)
+7228	NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+38093	Insulin 1ml pre-set syringe
+73511	Yaltormin SR 750mg tablets (Wockhardt UK Ltd)
+88860	Trurapi 100units/ml solution for injection 10ml vials (Sanofi)
+74020	NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd)
+27177	Insulin biphasic lispro human prb 50:50; 100 units/ml Injection
+68589	Metformin 1g/5ml oral solution sugar free
+87808	Metformin 1g modified-release tablets (A A H Pharmaceuticals Ltd)
+25133	Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi)
+7127	BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 8mm needle 0.3mm/30gauge (Becton, Dickinson UK Ltd)
+30209	Actrapid mc 100unit/ml Injection (Arun Products Ltd)
+45639	IME-FINE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Arctic Medical Ltd)
+12297	Hypurin bovine neutral 100unit/ml Injection (C P Pharmaceuticals Ltd)
+57744	Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (B.Braun Medical Ltd)
+65923	Metformin 1g modified-release tablets (Mawdsley-Brooks & Company Ltd)
+55711	Metformin 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+56008	Gliclazide 80mg tablets (Almus Pharmaceuticals Ltd)
+75987	Semaglutide 0.5mg/0.37ml solution for injection 1.5ml pre-filled disposable devices
+73684	Unifine Pentips hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge (Owen Mumford Ltd)
+80621	Microdot Dual Safety Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (Cambridge Sensors Ltd)
+7412	U100 Insulin syringe 0.5ml
+5891	Insulatard FlexPen 100units/ml suspension for injection (Novo Nordisk Ltd)
+73305	Mylife Penfine Classic hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Ypsomed Ltd)
+90375	Sitagliptin 125mg/5ml oral solution sugar free
+5621	Glucobay 50mg tablets (Bayer Plc)
+83010	Insulin soluble bovine 100units/ml solution for injection 3ml cartridges
+15895	Innovo hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-70 units Orange (Novo Nordisk Ltd)
+13416	Insulin biphasic 100 units/ml Injection
+60211	Canagliflozin 100mg tablets
+67231	NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Dowelhurst Ltd)
+46716	Trajenta 5mg tablets (Boehringer Ingelheim Ltd)
+51527	Metformin 500mg tablets (Boston Healthcare Ltd)
+13729	Insulin isophane human emp 100unit/ml Injection
+61043	Sukkarto SR 1000mg tablets (Morningside Healthcare Ltd)
+82372	Competact 15mg/850mg tablets (DE Pharmaceuticals)
+10545	INSULIN HUMULIN M4 CARTRIDGE 100 I/U
+62144	Metformin 500mg modified-release tablets (DE Pharmaceuticals)
+54150	Jentadueto 2.5mg/850mg tablets (Boehringer Ingelheim Ltd)
+42954	Insulin isophane biphasic human 25/75 100units/ml suspension for injection 5ml vials
+62562	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge (Spirit Healthcare Ltd)
+10546	INSULIN HUMULIN M4 100 I/U INJ
+63035	NeedleBay Fine Pen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Diabetes Care Technology Ltd)
+83988	Metformin 1g modified-release tablets (Morningside Healthcare Ltd)
+59177	Alogliptin 25mg tablets
+55862	Gliclazide Oral solution
+58051	Metformin 500mg/5ml oral solution
+4760	Humulin i 100unit/ml Injection (Eli Lilly and Company Ltd)
+6228	BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 8mm needle 0.3mm/30gauge (Becton, Dickinson UK Ltd)
+10572	Insulin soluble bovine 100unit/ml Injection
+12244	INSULIN ZINC BOVINE susp 100 I/U INJ
+10887	Penmix 40/60 100iu/ml Penfill (Novo Nordisk Ltd)
+52203	Enyglid 0.5mg tablets (Krka UK Ltd)
+63131	Ziclaseg 30mg modified-release tablets (Lupin Healthcare (UK) Ltd)
+87570	Forxiga 10mg tablets (CST Pharma Ltd)
+36430	Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices
+14290	Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Ltd)
+64209	TriCare hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Owen Mumford Ltd)
+90226	Jesacrin 1000mg modified-release tablets (Key Pharmaceuticals Ltd)
+62172	Empagliflozin 25mg tablets
+28708	Malix 2.5mg Tablet (Lagap)
+75008	Glibenclamide 2.5mg Tablet (Berk Pharmaceuticals Ltd)
+5966	Mylife Clickfine hypodermic insulin needles for pre-filled / reusable pen injectors snap on 8mm/31gauge (Ypsomed Ltd)
+2373	INSULIN HUMAN VELOSULIN 100 I/U INJ
+39729	Glucophage SR 1000mg tablets (Merck Serono Ltd)
+81368	Insulin glargine 300units/ml solution for injection 3ml pre-filled disposable devices
+25812	Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices
+67429	Insulin human 100units/ml solution for injection 3.15ml cartridges
+59620	Glucophage SR 500mg tablets (Waymade Healthcare Plc)
+5620	U100 Insulin syringe 0.3ml
+4896	Monoject hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.36mm/28gauge (Covidien (UK) Commercial Ltd)
+82349	Metformin 850mg tablets (Phoenix Healthcare Distribution Ltd)
+19472	Actos 45mg tablets (Neon Healthcare Ltd)
+68636	Metformin 850mg/5ml oral solution sugar free
+36948	Prandin 0.5mg tablets (Novo Nordisk Ltd)
+6981	Novopen Junior hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-35 units Yellow (Novo Nordisk Ltd)
+9618	Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd)
+76991	Humalog 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+54573	Hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-21 units
+38236	Comfort Point hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.33mm/29gauge (GlucoRx Ltd)
+73150	Sitagliptin 100mg tablets (Waymade Healthcare Plc)
+86725	Admelog 100units/ml solution for injection 3ml pre-filled pens (Sanofi)
+58581	GlucoRx FinePoint hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (GlucoRx Ltd)
+26258	Glucamet 850mg Tablet (Opus Pharmaceuticals Ltd)
+90187	Mounjaro KwikPen 10mg/0.6ml solution for injection 2.4ml pre-filled pens (Eli Lilly and Company Ltd)
+7048	Metformin 500mg modified-release tablets
+6009	Myjector hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.4mm/27gauge (Terumo UK Ltd)
+77059	Pork Actrapid 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)
+82894	PROFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Prosum Medical Ltd)
+40365	Glimepiride 1mg tablets (Actavis UK Ltd)
+50682	Jentadueto 2.5mg/1000mg tablets (Boehringer Ingelheim Ltd)
+61780	Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (Spirit Healthcare Ltd)
+73673	Metformin 500mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+77794	Toujeo 300units/ml solution for injection 3ml pre-filled DoubleStar pens (Sanofi)
+48401	Sitagliptin 50mg tablets
+12513	Glibenese 5mg tablets (Pfizer Ltd)
+10229	Humulin I Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)
+63929	Canagliflozin 50mg / Metformin 1g tablets
+59809	Alogliptin 6.25mg tablets
+44304	Glyconon 500mg Tablet (DDSA Pharmaceuticals Ltd)
+76162	Humulin I 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc)
+23437	Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/28gauge
+4790	Mixtard 50 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)
+57620	Humulin M3 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd)
+6378	Hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 8mm needle 0.3mm/30gauge
+72052	Metformin 500mg Tablet (Lagap)
+51080	Metabet SR 1000mg tablets (Actavis UK Ltd)
+66714	Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 12mm/29gauge (A. Menarini Diagnostics Ltd)
+13096	Autopen hypodermic insulin injection pen reusable for 1.5ml cartridge 2 unit dial up / range 2-32 units (Owen Mumford Ltd)
+7075	Optipen Pro 1 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units (Sanofi)

@@ -2,7 +2,7 @@
 # Generate code lists for all antidiabetic medications
 # Author: SM Wu
 # Date Created: 2025/07/26
-# Date Updated: 2025/08/19
+# Date Updated: 2025/10/27
 # 
 # Details:
 # 1) Set up and load data
@@ -11,19 +11,19 @@
 # 4) Adjust formatting for extraction
 #
 # Inputs:
-# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Product_10Feb2025.txt: Aurum product master code list
-# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Product_23Feb2025.txt: GOLD product master code list
+# 1) Code_Lists/MASTER_Lists/CPRD_Aurum_Product_14Oct2025.txt: Aurum product master code list
+# 2) Code_Lists/MASTER_Lists/CPRD_GOLD_Product_14Oct2025.txt: GOLD product master code list
 # 3) Code_Lists/medication_reference.xlsx: List of relevant medications
 # 4) Code/0_Code_List_Generation/helper_fns_code_lists.R: Helper functions
 # 
 # Final Outputs:
-# 1) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_20250726.txt: Updated Aurum Antidiabetic code list
-# 2) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_20250726.txt: Updated GOLD Antidiabetic code list
-# 3) Code_Lists/Antidiabetics/Aurum_Gold_Antidiabetics_codelist_20250726.txt: Updated Aurum and GOLD Antidiabetic code list
-# 4) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_prodcode_20250726.txt: Aurum T2DM comma-separated prodcodes only
-# 5) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_processed_20250726.txt: Aurum T2DM reformatted for CPRD extraction
-# 6) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_prodcode_20250726.txt: GOLD T2DM comma-separated prodcodes only
-# 7) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_processed_20250726.txt: GOLD T2DM reformatted for CPRD extraction
+# 1) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_20251027.txt: Updated Aurum Antidiabetic code list
+# 2) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_20251027.txt: Updated GOLD Antidiabetic code list
+# 3) Code_Lists/Antidiabetics/Aurum_Gold_Antidiabetics_codelist_20251027.txt: Updated Aurum and GOLD Antidiabetic code list
+# 4) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_prodcode_20251027.txt: Aurum T2DM comma-separated prodcodes only
+# 5) Code_Lists/Antidiabetics/Aurum_Antidiabetics_codelist_processed_20251027.txt: Aurum T2DM reformatted for CPRD extraction
+# 6) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_prodcode_20251027.txt: GOLD T2DM comma-separated prodcodes only
+# 7) Code_Lists/Antidiabetics/Gold_Antidiabetics_codelist_processed_20251027.txt: GOLD T2DM reformatted for CPRD extraction
 
 # ==============================================================================
 
@@ -57,7 +57,7 @@ source(paste0(wd, "Code/0_Code_List_Generation/helper_fns_code_lists.R"))
 # Read in Aurum product dictionary
 cprd_aurum_product <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Product_10Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Product_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(ProdCodeId = col_character(), DrugIssues = col_character(), 
                      BNFChapter = col_character()), 
@@ -74,7 +74,7 @@ cprd_aurum_product <- cprd_aurum_product %>%
 # Read in Gold product dictionary
 cprd_gold_product <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Product_23Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Product_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(prodcode = col_character()), trim_ws = TRUE)
 # Rename and select columns
@@ -120,6 +120,27 @@ gold_matches_df <- match_meds(df_codes = cprd_gold_product, df_drugs = meds,
                               group_info = TRUE)
 
 
+# ## Comparing with older codelists
+# aurum_antidiab_old <- read_delim(
+#   "Code_Lists/Antidiabetics/Old/Aurum_Antidiabetics_codelist_20250726.txt", 
+#   delim = "\t", col_types = cols(prodcodeid = col_character()))
+# 
+# gold_antidiab_old <- read_delim(
+#   "Code_Lists/Antidiabetics/Old/Gold_Antidiabetics_codelist_20250726.txt", 
+#   delim = "\t", col_types = cols(prodcode = col_character()))
+# 
+# # New codes not in old list
+# new_aurum <- aurum_matches_df %>% 
+#   filter(!prodcodeid %in% aurum_antidiab_old$prodcodeid)
+# new_gold <- gold_matches_df %>% 
+#   filter(!prodcode %in% gold_antidiab_old$prodcode)
+# 
+# # Old codes not in new olist
+# miss_new_aurum <- aurum_antidiab_old %>% 
+#   filter(!prodcodeid %in% aurum_matches_df$prodcodeid)
+# miss_new_gold <- gold_antidiab_old %>% 
+#   filter(!prodcode %in% gold_matches_df$prodcode)
+
 # ================= 3) Create and save code lists ==============================
 
 ## Aurum
@@ -139,7 +160,7 @@ aurum_codelist <- aurum_codelist %>%
 
 # # Save as text file
 # write.table(aurum_codelist,
-#             file = paste0(wd, path_output, "Aurum_Antidiabetics_codelist_20250726.txt"),
+#             file = paste0(wd, path_output, "Aurum_Antidiabetics_codelist_20251027.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold
@@ -159,7 +180,7 @@ gold_codelist <- gold_codelist %>%
 
 # # Save as text file
 # write.table(gold_codelist,
-#             file = paste0(wd, path_output, "Gold_Antidiabetics_codelist_20250726.txt"),
+#             file = paste0(wd, path_output, "Gold_Antidiabetics_codelist_20251027.txt"),
 #             sep = "\t", row.names = FALSE)
 
 
@@ -176,7 +197,7 @@ aurum_gold_codelist <- rbind(
            Antidiabetic, group, database))
 # # Save combined code list
 # write.table(aurum_gold_codelist,
-#             file = paste0(wd, path_output, "Aurum_Gold_Antidiabetics_codelist_20250726.txt"),
+#             file = paste0(wd, path_output, "Aurum_Gold_Antidiabetics_codelist_20251027.txt"),
 #             sep = "\t", row.names = FALSE)
 
 
@@ -197,7 +218,7 @@ aurum_codelist_prodcode <- aurum_codelist$prodcodeid |>
 # # Write to .txt file with prodcodes separated by commas
 # write.table(t(aurum_codelist_prodcode),
 #             paste0(wd, path_output,
-#                    "Aurum_Antidiabetics_codelist_prodcode_20250726.txt"),
+#                    "Aurum_Antidiabetics_codelist_prodcode_20251027.txt"),
 #             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
 
 aurum_codelist_processed <- aurum_codelist %>%
@@ -206,7 +227,7 @@ aurum_codelist_processed <- aurum_codelist %>%
 # # Write to .txt file with columns separated by tab
 # write.table(aurum_codelist_processed,
 #             paste0(wd, path_output,
-#                    "Aurum_Antidiabetics_codelist_processed_20250726.txt"),
+#                    "Aurum_Antidiabetics_codelist_processed_20251027.txt"),
 #             sep = "\t", row.names = FALSE,
 #             quote=FALSE)
 
@@ -221,7 +242,7 @@ gold_codelist_prodcode <- gold_codelist$prodcode |>
 # # Write to .txt file with prodcodes separated by commas
 # write.table(t(gold_codelist_prodcode), 
 #             paste0(wd, path_output, 
-#                    "Gold_Antidiabetics_codelist_prodcode_20250726.txt"), 
+#                    "Gold_Antidiabetics_codelist_prodcode_20251027.txt"), 
 #             sep=", ", row.names=FALSE, col.names=FALSE, quote=FALSE)
 
 gold_codelist_processed <- gold_codelist %>%
@@ -230,7 +251,7 @@ gold_codelist_processed <- gold_codelist %>%
 # # Write to .txt file with columns separated by tab
 # write.table(gold_codelist_processed,
 #             paste0(wd, path_output,
-#                    "Gold_Antidiabetics_codelist_processed_20250726.txt"),
+#                    "Gold_Antidiabetics_codelist_processed_20251027.txt"),
 #             sep = "\t", row.names = FALSE,
 #             quote=FALSE)
 
