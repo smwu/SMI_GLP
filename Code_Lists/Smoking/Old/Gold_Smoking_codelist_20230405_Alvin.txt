@@ -1,0 +1,211 @@
+"medcode"	"readterm"	"smoking_status"
+"100099"	"Smoking cessation advice declined"	2
+"100495"	"Ex roll-up cigarette smoker"	1
+"100963"	"Ex-smoker annual review"	1
+"101069"	"Exposed to tobacco smoke at home"	1
+"101210"	"Consent given for smoking cessation data sharing"	2
+"101325"	"Declin cons follow-up evaluation after smoking cess interven"	2
+"101338"	"Failed attempt to stop smoking"	2
+"101385"	"Consent given for follow-up by smoking cessation team"	2
+"101634"	"Consent given follow-up after smoking cessation intervention"	2
+"101764"	"Practice based smoking cessation programme start date"	2
+"10184"	"Pregnancy smoking advice"	2
+"101851"	"Declined consent for follow-up by smoking cessation team"	2
+"101854"	"Declined consent for smoking cessation data sharing"	2
+"101878"	"Non-smoker annual review"	0
+"10211"	"Smoking cessation milestones"	1
+"102361"	"Referral for smoking cessation service offered"	2
+"102951"	"Lost to smoking cessation follow-up"	2
+"103208"	"Smoking status at 12 weeks"	2
+"103507"	"Stop smoking service opportunity signposted"	2
+"104086"	"Stop smoking invitation first SMS text message"	2
+"104185"	"Smoking cessation drug therapy declined"	2
+"104230"	"Smoking cessation programme declined"	2
+"104310"	"Current smoker annual review"	2
+"105501"	"Waterpipe tobacco consumption"	2
+"105572"	"Stop smoking invitation short message service text message"	2
+"10558"	"Current smoker"	2
+"10560"	"Smoke inhalation"	NA
+"105710"	"Smoking cessation 12 week follow-up"	2
+"105711"	"Total time smoked"	NA
+"106359"	"Referral to smoking cessation service"	2
+"106384"	"Stop smoking invitation second SMS text message"	2
+"106385"	"Stop smoking invitation third SMS text message"	2
+"106391"	"Referral to smoking cessation service declined"	2
+"106891"	"Ex-tobacco chewer"	1
+"10742"	"Referral to stop-smoking clinic"	2
+"107792"	"[X]Mental and behav dis due to use tobacco: dependence syndr"	2
+"10898"	"Smoking free weeks"	1
+"11356"	"Seen by smoking cessation advisor"	2
+"11527"	"DNA - Did not attend smoking cessation clinic"	2
+"11713"	"Pack years"	2
+"11788"	"Non-smoker"	0
+"12240"	"Trying to give up smoking"	2
+"12619"	"Excepted from smoking quality indicators: Informed dissent"	1
+"12878"	"Date ceased smoking"	1
+"12941"	"Occasional smoker"	2
+"12942"	"Smoker - amount smoked"	2
+"12943"	"Cigar smoker"	2
+"12944"	"Light smoker - 1-9 cigs/day"	2
+"12945"	"Rolls own cigarettes"	2
+"12946"	"Ex-smoker - amount unknown"	1
+"12947"	"Pipe smoker"	2
+"12951"	"Smoking restarted"	2
+"12952"	"Smoking started"	2
+"12953"	"Attends stop smoking monitor."	2
+"12954"	"[V]Tobacco use"	2
+"12955"	"Ex-moderate smoker (10-19/day)"	1
+"12956"	"Ex-heavy smoker (20-39/day)"	1
+"12957"	"Ex-light smoker (1-9/day)"	1
+"12958"	"Trivial smoker - < 1 cig/day"	2
+"12959"	"Ex-very heavy smoker (40+/day)"	1
+"12960"	"Tobacco consumption NOS"	2
+"12961"	"Ex-trivial smoker (<1/day)"	1
+"12962"	"Tobacco consumption unknown"	2
+"12963"	"Cigar consumption"	2
+"12964"	"Keeps trying to stop smoking"	2
+"12965"	"Cigarette consumption"	2
+"12966"	"Smoking reduced"	2
+"12967"	"Pipe tobacco consumption"	2
+"13351"	"Passive smoker"	0
+"16717"	"Smokers' cough"	2
+"17437"	"Smoke inhalation"	NA
+"1822"	"Very heavy smoker - 40+cigs/d"	2
+"1823"	"Smoker"	2
+"18573"	"Referral to smoking cessation advisor"	2
+"1878"	"Moderate smoker - 10-19 cigs/d"	2
+"18926"	"Lifestyle advice regarding smoking"	2
+"19485"	"Stop smoking monitor.chck done"	2
+"19488"	"Ex cigar smoker"	1
+"2111"	"Health ed. - smoking"	2
+"21637"	"Stop smoking monitor admin.NOS"	2
+"24529"	"Nicotine replacement therapy refused"	2
+"25106"	"Nicotine replacement therapy provided free"	2
+"26096"	"Smokes drugs"	NA
+"26470"	"Ex pipe smoker"	1
+"2758"	"Smoke inhalation"	NA
+"28834"	"Anti-smoking monitoring admin."	NA
+"30423"	"Thinking about stopping smoking"	2
+"30644"	"Excepted from smoking quality indicators: Patient unsuitable"	1
+"30762"	"Not interested in stopping smoking"	2
+"31114"	"Ready to stop smoking"	2
+"32083"	"Stop smoking clinic admin."	2
+"32356"	"Smoking review not indicated"	NA
+"32572"	"Over the counter nicotine replacement therapy"	2
+"32687"	"Tobacco dependence"	2
+"32973"	"Chews tobacco"	2
+"33"	"Never smoked tobacco"	0
+"34126"	"Negotiated date for cessation of smoking"	2
+"34127"	"Smoking status at 4 weeks"	2
+"34374"	"Smoking status between 4 and 52 weeks"	2
+"35055"	"[V]Tobacco abuse counselling"	2
+"3568"	"Heavy smoker - 20-39 cigs/day"	2
+"38112"	"Smoking cessation programme start date"	2
+"40417"	"Stop smoking monitor default"	2
+"40418"	"Refuses stop smoking monitor"	2
+"41042"	"Smoking cessation advice provided by community pharmacist"	2
+"41405"	"Smoking status at 52 weeks"	2
+"41979"	"Smoking restarted"	2
+"42288"	"Pack years"	2
+"42722"	"Stop smoking monitor 1st lettr"	2
+"43433"	"Toxic effect of tobacco and nicotine"	2
+"46300"	"Cigarette pack-years"	2
+"46321"	"Reason for restarting smoking"	2
+"46654"	"Admitted tobacco cons untrue ?"	2
+"47273"	"Motives for smoking scale"	2
+"49418"	"RFS - Reasons for smoking scale"	2
+"52503"	"No smokers in the household"	0
+"53101"	"Stop smoking monitor verb.inv."	2
+"54"	"Tobacco consumption"	2
+"56144"	"[X]Mental and behav dis due to use of tobacco: harmful use"	2
+"57639"	"Bupropion refused"	2
+"58490"	"SMOKER (30 PER DAY)"	2
+"58513"	"SMOKING ADVISED TO STOP"	2
+"58597"	"Stop smoking monitor phone inv"	2
+"58678"	"Exception reporting: smoking quality indicators"	1
+"59866"	"Reasons for smoking scale"	2
+"60"	"Current non-smoker"	0
+"60720"	"Stop smoking monitor 2nd lettr"	2
+"61905"	"[X]Mental and behavioural disorder due to use of tobacco"	2
+"62686"	"Minutes from waking to first tobacco consumption"	2
+"63016"	"[X]Bupropion causing adverse effects in therapeutic use"	2
+"63299"	"FTND - Fagerstrom test for nicotine dependence"	2
+"6359"	"Nicotine withdrawal"	2
+"63666"	"Fagerstrom test for nicotine dependence"	2
+"63717"	"Bupropion contraindicated"	2
+"63901"	"Stop smoking monitoring delete"	2
+"66387"	"Stop smoking monitor 3rd lettr"	2
+"66409"	"Nicotine replacement therapy contraindicated"	2
+"67178"	"Nicotine replacement therapy provided by community pharmacis"	2
+"68658"	"Tobacco dependence NOS"	2
+"70746"	"Tobacco dependence, continuous"	2
+"7130"	"Stop smoking monitoring admin."	2
+"72700"	"[V]Personal history of tobacco abuse"	1
+"72706"	"Tobacco dependence in remission"	1
+"74907"	"Smoking cessation therapy"	2
+"75170"	"SMOKER"	2
+"75293"	"SMOKE INHALATION"	NA
+"76139"	"SMOKING WANTS TO STOP"	2
+"7622"	"Smoking cessation advice"	2
+"776"	"Stopped smoking"	1
+"77896"	"STOP SMOKING GROUP"	2
+"78118"	"STOPPED SMOKING"	1
+"78283"	"SMOKING WISHES TO STOP"	2
+"78714"	"SMOKER HEAVY (20-PLUS PER DAY)"	2
+"80378"	"SMOKING EXCESSIVE"	2
+"80500"	"FORMER SMOKER"	1
+"80687"	"SMOKERS' THROAT"	NA
+"81440"	"Nicotine replacement therapy using nicotine patches"	2
+"81573"	"SMOKER MODERATE (LESS THAN 20 PER DAY)"	2
+"81574"	"SMOKER NON"	1
+"81862"	"HEAVY SMOKER  (20-PLUS PER DAY)"	2
+"82531"	"SMOKING CLINIC"	2
+"82539"	"SMOKER (10 PER DAY)"	2
+"82556"	"SMOKER (20 PER DAY)"	2
+"82557"	"SMOKER (15 PER DAY)"	2
+"82596"	"SMOKER CIGARETTES"	2
+"82692"	"SMOKER (LESS THAN 10 PER DAY)"	2
+"83470"	"SMOKING STARTED"	NA
+"84043"	"CLINIC ANTI-SMOKING"	2
+"84047"	"SMOKER MILD (5 OR LESS PER DAY)"	2
+"84301"	"SMOKER OWN ROLLED"	2
+"84470"	"EXCESSIVE SMOKING"	2
+"84613"	"SMOKER CIGARS"	2
+"84896"	"SMOKING RESTARTED"	2
+"84927"	"SMOKER PIPE"	2
+"85247"	"Nicotine replacement therapy using nicotine inhalator"	2
+"85556"	"SMOKING CLINIC ATTENDANCE"	2
+"85733"	"SMOKER(OCCASIONAL)"	2
+"85975"	"Nicotine replacement therapy using nicotine gum"	2
+"86554"	"SMOKED NEVER"	0
+"88054"	"SMOKERS' MOUTH PATCHES"	NA
+"88431"	"EX HEAVY SMOKER"	1
+"89464"	"Nicotine replacement therapy using nicotine lozenges"	2
+"90"	"Ex smoker"	1
+"9045"	"Advice on smoking"	2
+"90522"	"Smoking cessation therapy NOS"	2
+"91513"	"Occasions for smoking scale"	2
+"91623"	"CLINIC ANTI-SMOKING ATTENDANCE"	2
+"91708"	"Other specified smoking cessation therapy"	2
+"93"	"Cigarette smoker"	2
+"94958"	"Smoking cessation drug therapy"	2
+"95610"	"Tobacco dependence, unspecified"	2
+"96992"	"Smoking cessation - enhanced services administration"	2
+"97029"	"Refusal to give smoking status"	NA
+"97210"	"Ex-cigarette smoker"	1
+"97643"	"Fagerstrom test for nicotine dependence"	2
+"97973"	"Maternal tobacco abuse"	2
+"98137"	"Brief intervention for smoking cessation"	2
+"98154"	"Referral to NHS stop smoking service"	2
+"98177"	"Non-smoker annual review - enhanced services administration"	0
+"98245"	"Stop smoking face to face follow-up"	2
+"9833"	"Nicotine replacement therapy"	2
+"98347"	"Current smoker annual review - enhanced services admin"	2
+"98447"	"Ex-smoker annual review - enhanced services administration"	1
+"98493"	"Smoking cessatn monitor template complet - enhanc serv admin"	2
+"99838"	"Recently stopped smoking"	1
+"103400"	"Referred for COPD structured smoking assessment"	2
+"103760"	"COPD structured smoking assessment declined"	2
+"110692"	"Varenicline smoking cessation therapy offered"	2
+"98283"	"COPD structured smoking assessment declined - enh serv admin"	2
+"98284"	"Refer COPD structured smoking assessment - enhanc serv admin"	2

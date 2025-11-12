@@ -1,0 +1,436 @@
+"medcodeid"	"medcode"	"readterm"	"smoking_status"
+"14866014"	"11788"	"Non-smoker"	0
+"72373013"	"13351"	"Passive smoker"	0
+"250374013"	"60"	"Current non-smoker"	0
+"397732011"	"33"	"Never smoked tobacco"	0
+"854951000006113"	NA	"Grade A non-smoker"	0
+"904111000006113"	NA	"Carbon monoxide validation confirms non-smoker"	0
+"1009271000006118"	NA	"Non Smoker - Nos"	0
+"1123751000000113"	"98177"	"Non-smoker annual review - enhanced services administration"	0
+"1154431000000112"	"101878"	"Non-smoker annual review"	0
+"250371017"	"12946"	"Ex-smoker - amount unknown"	1
+"250373019"	"776"	"Stopped smoking"	1
+"250385010"	"12878"	"Date ceased smoking"	1
+"295259018"	"72706"	"Tobacco dependence in remission"	1
+"342602019"	"106891"	"Ex-tobacco chewer"	1
+"342613016"	"101069"	"Exposed to tobacco smoke at home"	1
+"418914010"	"97210"	"Ex-cigarette smoker"	1
+"649821000006115"	NA	"Ex-cigar smoker"	1
+"649831000006117"	NA	"Ex-pipe smoker"	1
+"649851000006112"	NA	"Ex- Rolled Tobacco Smoker"	1
+"649861000006114"	NA	"Ex-Cigarette Smoker"	1
+"853001000006110"	NA	"Ex-smoker NOS"	1
+"854051000006112"	NA	"Ex-pipe smoker"	1
+"854111000006110"	NA	"Past smoker"	1
+"903041000006110"	NA	"EX-Smoker NOS"	1
+"1059701000000119"	"100495"	"Ex roll-up cigarette smoker"	1
+"1123951000000110"	"98447"	"Ex-smoker annual review - enhanced services administration"	1
+"1151791000000117"	"99838"	"Recently stopped smoking"	1
+"1154471000000114"	"100963"	"Ex-smoker annual review"	1
+"1751721000000113"	"105572"	"Stop smoking invitation short message service text message"	1
+"1899561000006114"	NA	"Mother's smoking status at time of baby's birth - ex-smoker"	1
+"2735201000000112"	"12959"	"Ex-very heavy smoker (40+/day)"	1
+"2735281000000119"	"12956"	"Ex-heavy smoker (20-39/day)"	1
+"2735331000000112"	"12955"	"Ex-moderate smoker (10-19/day)"	1
+"2735381000000111"	"12957"	"Ex-light smoker (1-9/day)"	1
+"2735421000000119"	"12961"	"Ex-trivial smoker (<1/day)"	1
+NA	"90"	"Ex smoker"	1
+NA	"12619"	"Excepted from smoking quality indicators: Informed dissent"	1
+NA	"19488"	"Ex cigar smoker"	1
+NA	"26470"	"Ex pipe smoker"	1
+NA	"30644"	"Excepted from smoking quality indicators: Patient unsuitable"	1
+NA	"58678"	"Exception reporting: smoking quality indicators"	1
+NA	"104086"	"Stop smoking invitation first SMS text message"	1
+NA	"106384"	"Stop smoking invitation second SMS text message"	1
+NA	"106385"	"Stop smoking invitation third SMS text message"	1
+"78013015"	"16717"	"Smokers' cough"	2
+"99639019"	"12943"	"Cigar smoker"	2
+"108938018"	"93"	"Cigarette smoker"	2
+"128130017"	"1823"	"Smoker"	2
+"136515019"	"12947"	"Pipe smoker"	2
+"150398019"	"6359"	"Nicotine withdrawal"	2
+"216212011"	"12966"	"Smoking reduced"	2
+"250368013"	"12964"	"Keeps trying to stop smoking"	2
+"250370016"	"12962"	"Tobacco consumption unknown"	2
+"250372012"	"12240"	"Trying to give up smoking"	2
+"250375014"	"12945"	"Rolls own cigarettes"	2
+"250387019"	"12960"	"Tobacco consumption NOS"	2
+"263570019"	"97973"	"Maternal tobacco abuse"	2
+"265092010"	"10184"	"Pregnancy smoking advice"	2
+"285793015"	"40417"	"Stop smoking monitor default"	2
+"285805010"	"63901"	"Stop smoking monitoring delete"	2
+"295256013"	"95610"	"Tobacco dependence, unspecified"	2
+"295257016"	"70746"	"Tobacco dependence, continuous"	2
+"295260011"	"68658"	"Tobacco dependence NOS"	2
+"324597019"	"43433"	"Toxic effect of tobacco and nicotine"	2
+"338608011"	"7622"	"Smoking cessation advice"	2
+"342443012"	"26096"	"Smokes drugs"	2
+"342574011"	"105711"	"Total time smoked"	2
+"344793011"	"12965"	"Cigarette consumption"	2
+"344794017"	"12963"	"Cigar consumption"	2
+"344795016"	"12967"	"Pipe tobacco consumption"	2
+"397733018"	"12941"	"Occasional smoker"	2
+"457286014"	"9833"	"Nicotine replacement therapy"	2
+"459484017"	"24529"	"Nicotine replacement therapy refused"	2
+"459524018"	"32572"	"Over the counter nicotine replacement therapy"	2
+"459722017"	"10742"	"Referral to stop-smoking clinic"	2
+"460127014"	"11713"	"Pack years"	2
+"460127014"	"42288"	"Pack years"	2
+"503483019"	"10558"	"Current smoker"	2
+"504769011"	"32973"	"Chews tobacco"	2
+"1484932017"	"10211"	"Smoking cessation milestones"	2
+"1484933010"	"34126"	"Negotiated date for cessation of smoking"	2
+"1484934016"	"34127"	"Smoking status at 4 weeks"	2
+"1484935015"	"34374"	"Smoking status between 4 and 52 weeks"	2
+"1484936019"	"41405"	"Smoking status at 52 weeks"	2
+"1484937011"	"25106"	"Nicotine replacement therapy provided free"	2
+"1488576014"	"30423"	"Thinking about stopping smoking"	2
+"1488577017"	"31114"	"Ready to stop smoking"	2
+"1488578010"	"30762"	"Not interested in stopping smoking"	2
+"1488666019"	"52503"	"No smokers in the household"	2
+"1488870013"	"66409"	"Nicotine replacement therapy contraindicated"	2
+"1488871012"	"63717"	"Bupropion contraindicated"	2
+"1488872017"	"57639"	"Bupropion refused"	2
+"1488873010"	"10898"	"Smoking free weeks"	2
+"1489355012"	"18573"	"Referral to smoking cessation advisor"	2
+"1773560017"	"38112"	"Smoking cessation programme start date"	2
+"1780273014"	"11356"	"Seen by smoking cessation advisor"	2
+"1780360012"	"46321"	"Reason for restarting smoking"	2
+"1780396011"	"46300"	"Cigarette pack-years"	2
+"2159962015"	"32356"	"Smoking review not indicated"	2
+"2474719011"	"62686"	"Minutes from waking to first tobacco consumption"	2
+"2669652019"	"12952"	"Smoking started"	2
+"2670126018"	"12951"	"Smoking restarted"	2
+"2670126018"	"41979"	"Smoking restarted"	2
+"21681000000118"	"28834"	"Anti-smoking monitoring admin."	2
+"62881000000117"	"11527"	"DNA - Did not attend smoking cessation clinic"	2
+"102951000006115"	"32687"	"Tobacco dependence"	2
+"137711000006111"	NA	"Smoker (Read codes)"	2
+"137721000006115"	"12942"	"Smoker - amount smoked"	2
+"137791000006118"	"12951"	"Smoking restarted"	2
+"137791000006118"	"41979"	"Smoking restarted"	2
+"303501000000115"	"41042"	"Smoking cessation advice provided by community pharmacist"	2
+"397981000006119"	"107792"	"[X]Mental and behav dis due to use tobacco: dependence syndr"	2
+"482771000000118"	"94958"	"Smoking cessation drug therapy"	2
+"482811000000118"	"85975"	"Nicotine replacement therapy using nicotine gum"	2
+"482831000000114"	"85247"	"Nicotine replacement therapy using nicotine inhalator"	2
+"482871000000111"	"91708"	"Other specified smoking cessation therapy"	2
+"489931000000114"	"90522"	"Smoking cessation therapy NOS"	2
+"492511000000117"	"74907"	"Smoking cessation therapy"	2
+"604961000006114"	NA	"Current Smoker NOS"	2
+"852981000006111"	"12945"	"Rolls own cigarettes"	2
+"854021000006115"	"93"	"Cigarette smoker"	2
+"854071000006119"	"10558"	"Current smoker"	2
+"854961000006110"	NA	"Grade B light smoker (1-10/day)"	2
+"854981000006117"	NA	"Grade C moderate smoker (11-20/day)"	2
+"855001000006114"	NA	"Grade D heavy smoker (>20 Day)"	2
+"903981000006117"	"30762"	"Not interested in stopping smoking"	2
+"904001000006111"	"31114"	"Ready to stop smoking"	2
+"904031000006115"	"30423"	"Thinking about stopping smoking"	2
+"904121000006117"	NA	"Carbon monoxide validation confirms smoker"	2
+"923201000006112"	"10184"	"Pregnancy smoking advice"	2
+"923611000006113"	"2111"	"Health ed. - smoking"	2
+"1123541000000118"	"98245"	"Stop smoking face to face follow-up"	2
+"1125741000000111"	"98137"	"Brief intervention for smoking cessation"	2
+"1152111000000118"	"104310"	"Current smoker annual review"	2
+"1175011000000112"	"104230"	"Smoking cessation programme declined"	2
+"1176421000000118"	"100099"	"Smoking cessation advice declined"	2
+"1563081000000115"	"101764"	"Practice based smoking cessation programme start date"	2
+"1592611000000110"	"101338"	"Failed attempt to stop smoking"	2
+"1651711000000113"	"101210"	"Consent given for smoking cessation data sharing"	2
+"1653781000000119"	"101854"	"Declined consent for smoking cessation data sharing"	2
+"1662911000000114"	"101385"	"Consent given for follow-up by smoking cessation team"	2
+"1662951000000113"	"101851"	"Declined consent for follow-up by smoking cessation team"	2
+"1694421000006112"	"7130"	"Stop smoking monitoring admin."	2
+"1704551000006110"	"103400"	"Referred for COPD structured smoking assessment"	2
+"1704581000006119"	"103760"	"COPD structured smoking assessment declined"	2
+"1708051000000119"	"103208"	"Smoking status at 12 weeks"	2
+"1709641000000115"	"102361"	"Referral for smoking cessation service offered"	2
+"1714541000006110"	"98347"	"Current smoker annual review - enhanced services admin"	2
+"1716141000000117"	"102951"	"Lost to smoking cessation follow-up"	2
+"1746211000006111"	"103208"	"Smoking status at 12 weeks"	2
+"1750931000000118"	"103507"	"Stop smoking service opportunity signposted"	2
+"1809121000006113"	"105501"	"Waterpipe tobacco consumption"	2
+"1809131000006111"	"105711"	"Total time smoked"	2
+"1899551000006112"	NA	"Mother's smoking status at time of baby's birth - smoker"	2
+"2141561000000115"	"104185"	"Smoking cessation drug therapy declined"	2
+"2170961000000116"	"105501"	"Waterpipe tobacco consumption"	2
+"2203381000000113"	"105710"	"Smoking cessation 12 week follow-up"	2
+"2251871000000112"	"106391"	"Referral to smoking cessation service declined"	2
+"2251911000000114"	"106359"	"Referral to smoking cessation service"	2
+"2462431000000110"	"110692"	"Varenicline smoking cessation therapy offered"	2
+"4939251000006118"	"9045"	"Advice on smoking"	2
+"5495941000006114"	"12941"	"Occasional smoker"	2
+"5550551000006111"	"63299"	"FTND - Fagerstrom test for nicotine dependence"	2
+"5553641000006116"	"91513"	"Occasions for smoking scale"	2
+"5555231000006111"	"59866"	"Reasons for smoking scale"	2
+"11928911000006113"	"97029"	"Refusal to give smoking status"	2
+"12452041000006114"	"40418"	"Refuses stop smoking monitor"	2
+"12490821000006119"	"97029"	"Refusal to give smoking status"	2
+"13499671000006118"	"98137"	"Brief intervention for smoking cessation"	2
+NA	"54"	"Tobacco consumption"	2
+NA	"1822"	"Very heavy smoker - 40+cigs/d"	2
+NA	"1878"	"Moderate smoker - 10-19 cigs/d"	2
+NA	"3568"	"Heavy smoker - 20-39 cigs/day"	2
+NA	"12944"	"Light smoker - 1-9 cigs/day"	2
+NA	"12953"	"Attends stop smoking monitor."	2
+NA	"12954"	"[V]Tobacco use"	2
+NA	"12958"	"Trivial smoker - < 1 cig/day"	2
+NA	"18926"	"Lifestyle advice regarding smoking"	2
+NA	"19485"	"Stop smoking monitor.chck done"	2
+NA	"21637"	"Stop smoking monitor admin.NOS"	2
+NA	"32083"	"Stop smoking clinic admin."	2
+NA	"35055"	"[V]Tobacco abuse counselling"	2
+NA	"42722"	"Stop smoking monitor 1st lettr"	2
+NA	"46654"	"Admitted tobacco cons untrue ?"	2
+NA	"47273"	"Motives for smoking scale"	2
+NA	"49418"	"RFS - Reasons for smoking scale"	2
+NA	"53101"	"Stop smoking monitor verb.inv."	2
+NA	"56144"	"[X]Mental and behav dis due to use of tobacco: harmful use"	2
+NA	"58597"	"Stop smoking monitor phone inv"	2
+NA	"60720"	"Stop smoking monitor 2nd lettr"	2
+NA	"61905"	"[X]Mental and behavioural disorder due to use of tobacco"	2
+NA	"63666"	"Fagerstrom test for nicotine dependence"	2
+NA	"66387"	"Stop smoking monitor 3rd lettr"	2
+NA	"67178"	"Nicotine replacement therapy provided by community pharmacis"	2
+NA	"72700"	"[V]Personal history of tobacco abuse"	2
+NA	"81440"	"Nicotine replacement therapy using nicotine patches"	2
+NA	"89464"	"Nicotine replacement therapy using nicotine lozenges"	2
+NA	"96992"	"Smoking cessation - enhanced services administration"	2
+NA	"97643"	"Fagerstrom test for nicotine dependence"	2
+NA	"98154"	"Referral to NHS stop smoking service"	2
+NA	"98283"	"COPD structured smoking assessment declined - enh serv admin"	2
+NA	"98284"	"Refer COPD structured smoking assessment - enhanc serv admin"	2
+NA	"98493"	"Smoking cessatn monitor template complet - enhanc serv admin"	2
+NA	"101325"	"Declin cons follow-up evaluation after smoking cess interven"	2
+NA	"101634"	"Consent given follow-up after smoking cessation intervention"	2
+"16588018"	"112418"	"Tobacco deposit on teeth"	2
+"250363016"	NA	"Ex-trivial cigarette smoker (<1/day)"	1
+"250364010"	NA	"Ex-light cigarette smoker (1-9/day)"	1
+"250365011"	NA	"Ex-moderate cigarette smoker (10-19/day)"	1
+"250366012"	NA	"Ex-heavy cigarette smoker (20-39/day)"	1
+"250367015"	NA	"Ex-very heavy cigarette smoker (40+/day)"	1
+"285792013"	NA	"Monitoring of smoking cessation therapy refused"	2
+"295258014"	"108835"	"Tobacco dependence, episodic"	2
+"295951010"	NA	"Nicotine-induced organic mental disorder"	2
+"316079016"	NA	"Fetus and newborn affected by maternal use of tobacco"	2
+"342444018"	"105999"	"Smokes drugs in cigarette form"	2
+"342445017"	"107593"	"Smokes drugs through a pipe"	2
+"408878014"	NA	"Fagerstrom Test for Nicotine Dependence total score"	2
+"460828018"	NA	"Tobacco user"	2
+"461114016"	NA	"Counselling about tobacco use"	2
+"2982426011"	NA	"Provision of smoking cessation leaflet"	2
+"3513101011"	NA	"Date ceased using moist tobacco"	1
+"3513199018"	NA	"Ex-smoker for less than 1 year"	1
+"16261000000110"	NA	"Stop smoking monitoring administration"	2
+"21691000000116"	NA	"Anti-smoking monitoring administration"	2
+"25281000000119"	NA	"Stop smoking clinic administration"	2
+"37311000006117"	NA	"Other anti-smoking drug given"	2
+"67621000006112"	NA	"Very heavy cigarette smoker (40+ cigs/day)"	2
+"88471000006112"	NA	"Trivial cigarette smoker (less than one cigarette/day)"	2
+"102921000006112"	NA	"Tobacco smoking consumption"	2
+"128311000006112"	NA	"Stop smoking monitoring first letter"	2
+"128321000006116"	NA	"Stop smoking monitoring second letter"	2
+"128331000006118"	NA	"Stop smoking monitoring third letter"	2
+"128361000006110"	NA	"Stop smoking monitoring telephone invite"	2
+"128371000006115"	NA	"Stop smoking monitoring verbal invite"	2
+"128381000006117"	NA	"Stop smoking monitoring check done"	2
+"137751000006112"	NA	"Smoking Age"	2
+"137761000006114"	NA	"Smoking Age Ceased"	1
+"137771000006119"	NA	"Smoking Age Started"	2
+"298701000000114"	NA	"History of tobacco use"	1
+"397181000006117"	NA	"[X]Mental and behavioural disorders due to use of tobacco: residual and late-onset psychotic disorder"	2
+"397271000006110"	NA	"[X]Mental and behavioural disorders due to use of tobacco: other mental and behavioural disorders"	2
+"397281000006113"	NA	"[X]Mental and behavioural disorders due to use of tobacco: withdrawal state with delirium"	2
+"397461000006119"	NA	"[X]Mental and behavioural disorders due to use of tobacco: unspecified mental and behavioural disorder"	2
+"397671000006112"	NA	"[X]Mental and behavioural disorders due to use of tobacco: acute intoxication"	2
+"397681000006110"	NA	"[X]Mental and behavioural disorders due to use of tobacco: psychotic disorder"	2
+"397911000006114"	NA	"[X]Mental and behavioural disorders due to use of tobacco: harmful use"	2
+"397971000006117"	NA	"[X]Mental and behav dis due to use tobacco: amnesic syndrome"	2
+"397991000006116"	NA	"[X]Mental and behavioural disorders due to use of tobacco: withdrawal state"	2
+"469421000006110"	NA	"Nicotine adverse reaction"	2
+"482791000000119"	NA	"Nicotine replacement therapy using nicotine patch"	2
+"482851000000119"	NA	"Nicotine replacement therapy using nicotine lozenge"	2
+"498831000006118"	NA	"Attends stop smoking monitoring"	2
+"649841000006110"	NA	"Ex-smoker"	1
+"700121000006118"	NA	"Moderate cigarette smoker (10-19 cigs/day)"	2
+"736241000000116"	NA	"Smoking cessation enhanced services administration"	2
+"743331000006116"	NA	"Light cigarette smoker (1-9 cigs/day)"	2
+"818061000006111"	NA	"Smoking cessation education"	2
+"819331000006110"	NA	"Heavy cigarette smoker (20-39 cigs/day)"	2
+"852111000006118"	NA	"Gradual smoking reduction"	2
+"852121000006114"	NA	"Smoking cessation-maintain abstinence"	1
+"852131000006112"	NA	"Smoking cessation-practice nurse support"	2
+"854151000006111"	NA	"Date stopped smoking"	1
+"856371000006111"	NA	"Smoking clinic"	2
+"903051000006112"	NA	"Tobacco Consumption Nil"	1
+"904011000006114"	NA	"Smoking cessation declaration signed by patient"	2
+"904041000006113"	NA	"Waking time to first cigarette"	2
+"904071000006117"	NA	"Smoking cessation 4 week follow up"	2
+"904081000006119"	NA	"Smoking cessation 52 week follow up"	2
+"904091000006116"	NA	"Date of last cigarette"	2
+"904141000006112"	NA	"Smoking cessation 4 week F/U not completed"	2
+"904151000006114"	NA	"Smoking cessation 4 week F/U completed"	2
+"904161000006111"	NA	"Smoking cessation 52 week F/U completed"	2
+"904171000006116"	NA	"Smoking cessation 52 week F/U not completed"	2
+"904181000006118"	NA	"Smoking cessation counselling"	2
+"904191000006115"	NA	"Smoking cessation motivation score"	2
+"904201000006117"	NA	"Smoking cessation confidence score"	2
+"904211000006119"	NA	"Smoking cessation service patient satisfaction score"	2
+"904221000006110"	NA	"Smoking cessation bupropion therapy"	2
+"904231000006113"	NA	"Smoking cessation counselling by telephone"	2
+"904241000006115"	NA	"Smoking cessation counselling in person"	2
+"909391000006117"	NA	"[RFC] Smoking cessation"	2
+"936011000006114"	NA	"Advice on effects of smoking on health"	2
+"961581000006114"	NA	"Smokes/uses tobacco products"	2
+"983101000006113"	NA	"Misuse of Nicotine"	2
+"998861000006112"	NA	"Nicotine replacement therapy provided by community pharmacist"	2
+"1023971000006117"	NA	"Adverse reaction to Nicotine"	2
+"1027541000006110"	NA	"Adverse reaction to Boots Nicotine"	2
+"1067161000006114"	NA	"Adverse reaction to Nicotinell Tts 10"	2
+"1067171000006119"	NA	"Adverse reaction to Nicotinell Tts 20"	2
+"1067181000006116"	NA	"Adverse reaction to Nicotinell Tts 30"	2
+"1088451000006117"	NA	"Adverse reaction to Nicotinell"	2
+"1101081000006119"	NA	"Adverse reaction to Nicotinell Classic"	2
+"1591651000006110"	NA	"Smoking cessation referral declined"	2
+"1626121000006116"	NA	"Smoking cessation drug therapy - varenicline"	2
+"1676351000006110"	NA	"Nicotine replacement therapy using nicotine sublingual tablets"	2
+"1697731000006111"	NA	"Nicotine replacement therapy not tolerated"	2
+"1704491000006115"	NA	"Smoking cessation enhanced services administration monitoring template completed"	2
+"1704561000006112"	NA	"Referred for chronic obstructive pulmonary disease structured smoking assessment"	2
+"1704571000006117"	NA	"Chronic obstructive pulmonary disease structured smoking assessment declined"	2
+"1715591000006117"	NA	"Referral to National Health Service stop smoking service"	2
+"1739161000000118"	"103955"	"Asthma trigger - tobacco smoke"	2
+"1741641000006117"	"108966"	"Smoking cessation ESA monitoring template completed"	2
+"1750691000006115"	NA	"Adverse reaction to Nicotine Bitartrate"	2
+"1751131000006116"	NA	"Adverse reaction to Nicotine Bitartrate"	2
+"1754091000000110"	"109716"	"Issue of nicotine replacement therapy voucher"	2
+"1755201000006117"	NA	"Consent given for follow-up evaluation after smoking cessation intervention"	2
+"1755231000006113"	NA	"Declined consent for follow-up evaluation after smoking cessation intervention"	2
+"1771191000006119"	NA	"Attends smoking cessation clinic not at practice"	2
+"1777011000006118"	NA	"Reason for referral: Smoking Cessation"	2
+"1778181000006110"	NA	"Group session: Stop smoking education programme"	2
+"1785671000006116"	NA	"Stop smoking invitation first short message service text message"	2
+"1785681000006118"	NA	"Stop smoking invitation second short message service text message"	2
+"1785691000006115"	NA	"Stop smoking invitation third short message service text message"	2
+"1817431000006112"	NA	"Tobacco use and exposure"	2
+"1819411000006114"	NA	"Smoking increased"	2
+"1823811000006115"	NA	"Smoking cessation 12 week follow up"	2
+"1825071000006116"	NA	"Smoking cessation 12 week F/U not completed"	2
+"1825081000006118"	NA	"Smoking cessation 12 week F/U completed"	2
+"1833971000006116"	NA	"Stop Smoking satisfaction questionnaire given"	2
+"1873511000006118"	NA	"Care contact service: Smoking/substance cessation/interven prog."	2
+"1889671000006116"	NA	"Child 27-30 mth exam.- smoking cessation support provided"	2
+"1889681000006118"	NA	"Child 27-30 mth exam.- signpost to smoking cessation"	2
+"1889691000006115"	NA	"Child 27-30 mth exam. - discuss with smoking cessation service"	2
+"1889701000006115"	NA	"Child 27-30 mth exam. - requ. assist. from smoking cessation"	2
+"1889711000006117"	NA	"Child 27-30 mth exam. - refused smoking cessation service"	2
+"1899581000006116"	NA	"Mother's smoking status at time of baby's birth - never smoked"	0
+"1925121000006113"	"109716"	"Issue of nicotine replacement therapy voucher"	2
+"1928201000006116"	NA	"Adverse reaction to Nicotinell Support"	2
+"1973821000006117"	NA	"Mental & behav dis due to use tobacco: acute intoxication, uncomplicated"	2
+"1973841000006112"	NA	"Mental & behav dis due to use tobacco: acute intoxication, with trauma or other bodily injury"	2
+"1973851000006114"	NA	"Mental & behav dis due to use tobacco: acute intoxication, with other medical complications"	2
+"1973921000006114"	NA	"Mental & behav dis due to use tobacco: acute intoxication, with delirium"	2
+"1973951000006117"	NA	"Mental & behav dis due to use tobacco: acute intoxication, with perceptual distortions"	2
+"1973981000006113"	NA	"Mental & behav dis due to use tobacco: acute intoxication, with coma"	2
+"1974031000006110"	NA	"Mental & behav dis due to use tobacco: acute intoxication, with convulsions"	2
+"1974281000006116"	NA	"Mental and behav dis due to use tobacco: dependence syndr, currently abstinent"	1
+"1974311000006119"	NA	"Mental and behav dis due to use tobacco: dependence syndr, currently abstinent, but in a protected environment"	1
+"1974341000006115"	NA	"Mental and behav dis due to use tobacco: dependence syndr, currently on a clinically supervised maintenance or replacement regime [controlled dependence]"	2
+"1974371000006111"	NA	"Mental and behav dis due to use tobacco: dependence syndr, currently abstinent, but receiving treatment with aversive or blocking drugs"	2
+"1974401000006114"	NA	"Mental and behav dis due to use tobacco: dependence syndr, currently using the substance [active dependence]"	2
+"1974421000006116"	NA	"Mental and behav dis due to use tobacco: dependence syndr, continuous use"	2
+"1974461000006110"	NA	"Mental and behav dis due to use tobacco: dependence syndr, episodic use [dipsomania]"	2
+"1974501000006110"	NA	"Mental and behav dis due to use tobacco: withdrawal state, uncomplicated"	2
+"1974531000006119"	NA	"Mental and behav dis due to use tobacco: withdrawal state, with convulsions"	2
+"1974571000006116"	NA	"Mental & behav dis due to tobacco: withdrawl state wth delirium, without convulsions"	2
+"1974581000006118"	NA	"Mental & behav dis due to tobacco: withdrawl state wth delirium, with convulsions"	2
+"1974651000006110"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, schizophrenia-like"	2
+"1974681000006119"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, predominantly delusional"	2
+"1974711000006118"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, predominantly hallucinatory"	2
+"1974741000006119"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, predominantly polymorphic"	2
+"1974761000006115"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, predominantly depressive symptoms"	2
+"1974791000006111"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, predominantly manic symptoms"	2
+"1974811000006110"	NA	"Mental & behav dis due to use tobacco: psychotic disorder, mixed"	2
+"1974841000006114"	NA	"Mental & behav dis due to tobacco: resid & late-onset psychot dis, flashbacks"	2
+"1974871000006118"	NA	"Mental & behav dis due to tobacco: resid & late-onset psychot dis, personality or behaviour disorder"	2
+"1974911000006115"	NA	"Mental & behav dis due to tobacco: resid & late-onset psychot dis, residual affective disorder"	2
+"1974931000006114"	NA	"Mental & behav dis due to tobacco: resid & late-onset psychot dis, dementia"	2
+"1974961000006117"	NA	"Mental & behav dis due to tobacco: resid & late-onset psychot dis, other persisting cognitive impairment"	2
+"1974981000006110"	NA	"Mental & behav dis due to tobacco: resid & late-onset psychot dis, late-onset psychotic disorder"	2
+"1979471000006116"	NA	"Nicotine replacement therapy using nicotine nasal spray"	2
+"1979481000006118"	NA	"Nicotine replacement therapy using nicotine mouth spray"	2
+"1979491000006115"	NA	"Smoking cessation follow-up"	2
+"2462391000000119"	NA	"Varenicline smoking cessation therapy declined"	2
+"2636041000006110"	NA	"Cessation of smoking"	1
+"2717211000000112"	NA	"Signposting to smoking cessation service"	2
+"2735181000000113"	NA	"Ex-smoker amount unknown"	1
+"3419101000006116"	NA	"Moderate smoker (20 or less per day)"	2
+"3422221000006116"	NA	"Heavy smoker (over 20 per day)"	2
+"3874641000006110"	NA	"Pipe smoking tobacco"	2
+"3959111000006111"	NA	"Tobacco dependence syndrome"	2
+"4074571000006117"	NA	"Cigarette smoke"	2
+"4180331000006118"	NA	"Tobacco use"	2
+"4640171000006113"	NA	"Pregnancy smoking education"	2
+"4939241000006115"	NA	"Advice on effects of smoking on health"	2
+"4939261000006116"	NA	"Smoking effects education"	2
+"4948531000006116"	NA	"Smokes in bed"	2
+"4980561000006117"	NA	"Time since stopped smoking"	1
+"4980711000006110"	NA	"Finding relating to moist tobacco use"	2
+"4980741000006114"	NA	"Moist tobacco consumption"	2
+"4980781000006115"	NA	"User of moist powdered tobacco"	2
+"4980831000006112"	NA	"Finding relating to tobacco chewing"	2
+"5003141000006118"	NA	"Trivial cigarette smoker"	2
+"5003151000006116"	NA	"Light cigarette smoker"	2
+"5003161000006119"	NA	"Moderate cigarette smoker"	2
+"5003171000006114"	NA	"Heavy cigarette smoker"	2
+"5003181000006112"	NA	"Very heavy cigarette smoker"	2
+"5003191000006110"	NA	"Chain smoker"	2
+"5074201000006119"	NA	"Smokers keratosis"	2
+"5495901000006112"	NA	"Amount and type of tobacco smoked"	2
+"5495921000006119"	NA	"Never smoked"	0
+"5495951000006111"	NA	"Occasional cigarette smoker (less than one cigarette/day)"	2
+"5496031000006112"	NA	"Ex-cigarette smoker amount unknown"	1
+"5827951000006117"	NA	"Accidental nicotine overdose"	2
+"5979541000006112"	NA	"Smoking monitoring call"	2
+"5979551000006114"	NA	"Smoking monitoring status"	2
+"5999811000006115"	NA	"Smoking monitoring invitation"	2
+"6047151000006118"	NA	"Tobacco related optic neuropathy"	2
+"6217151000006116"	NA	"Intolerant ex-smoker"	1
+"6217281000006116"	NA	"Aggressive ex-smoker"	1
+"6282331000006114"	NA	"Tobacco smoking behaviour - finding"	2
+"6282351000006119"	NA	"Smoking"	2
+"6282371000006112"	NA	"Tobacco smoking consumption - finding"	2
+"6427931000006116"	NA	"Smoking cessation assistance"	2
+"6475771000006114"	NA	"Nicotine inhaler"	2
+"6718071000006115"	NA	"Current non smoker but past smoking history unknown"	0
+"7368961000006112"	NA	"Stopped smoking during pregnancy"	1
+"7368971000006117"	NA	"Stopped smoking before pregnancy"	1
+"7375991000006118"	NA	"Smokes tobacco daily"	2
+"7559591000006110"	NA	"Tobacco use cessation education"	2
+"7569061000006118"	NA	"Never used tobacco"	0
+"7650811000006116"	NA	"Assessment of readiness for smoking cessation"	2
+"7696001000006118"	NA	"Patient request for smoking cessation information"	2
+"7859781000006116"	NA	"Harmful pattern of use of nicotine"	2
+"8012751000006116"	NA	"Did not attend smoking cessation clinic"	2
+"8017571000006117"	NA	"Ex-smoker for more than 1 year"	1
+"8061901000006111"	NA	"Attends practice smoking cessation clinic"	2
+"8063181000006116"	NA	"Wants to stop smoking"	2
+"8153371000006117"	NA	"Occasional tobacco smoker"	2
+"8190531000006112"	NA	"Referral to NHS (National Health Service) stop smoking service"	2
+"8196151000006112"	NA	"Smoking cessation leaflet given"	2
+"8299271000006119"	NA	"Number of previous attempts to stop smoking"	2
+"11793611000006110"	NA	"Smoking cessation behaviour support"	2
+"11904991000006116"	NA	"Occasional cigarette smoker"	2
+"12024741000006113"	NA	"Monitoring of smoking cessation therapy"	2
+"12626191000006119"	NA	"VBA (Very Brief Advice) on Smoking"	2
+"12626391000006117"	NA	"QOF (Quality and Outcomes Framework) smoking quality indicator-related care invitation"	2
+"12734401000006119"	NA	"QOF (Quality and Outcomes Framework) smoking quality indicator-related care invitation using preferred method of communication"	2
+"13494621000006118"	NA	"Referral for brief intervention for smoking cessation"	2
+"13619901000006115"	NA	"Number of calculated smoking pack years"	2
+NA	"53031"	"Adverse reaction to nicotine"	2
+NA	"101519"	"[X]Mental and behav dis due to use tobacco: withdrawal state"	2
+NA	"107504"	"MFS - Motives for smoking scale"	2
+NA	"111853"	"[X]Mental & behav dis due to use tobacco: acute intoxication"	2
+NA	"112529"	"[X]Mental & behav dis due to use tobacco: psychotic disorder"	2
