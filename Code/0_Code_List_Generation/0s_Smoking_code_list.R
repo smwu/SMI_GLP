@@ -2,7 +2,7 @@
 # Generate code lists for Smoking (current or former smoker)
 # Author: SM Wu
 # Date Created: 2025/11/11
-# Date Updated: 2025/11/11
+# Date Updated: 2026/02/06
 # 
 # Details:
 # 1) Set up and load data
@@ -49,10 +49,21 @@ library(openxlsx)
 wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" # VPN connection
 # wd <- "//live.rd.ucl.ac.uk/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" #Desktop@UCL
 setwd(wd)
-
 # Set input and output paths
 path_input <- "Code_Lists/"
 path_output <- "Code_Lists/Smoking/"
+
+# ### For running in Data Safe Haven
+# Set working directory
+wd <- "S:/CDSTP_CPRD_25_005368/" 
+setwd(wd)
+
+
+# Set input and output paths
+path_input <- "SMI_GLP/Code_Lists/"
+path_output <- "SMI_GLP/Code_Lists/Smoking/"
+
+
 
 
 ## Load data
@@ -91,6 +102,9 @@ smoking_codelist_aurum_old <- read_delim(
   paste0(wd, path_input, "Smoking/Old/Aurum_Gold_Smoking_codelist_20230725_Alvin.txt"),
   delim = "\t", escape_double = FALSE, 
   col_types = cols(medcodeid = col_character()), trim_ws = TRUE)
+
+
+
 # Gold
 smoking_codelist_gold_old <- smoking_codelist_aurum_old
 
@@ -102,9 +116,9 @@ smoking_codelist_gold_old <- smoking_codelist_aurum_old
 aurum_smoking <- cprd_aurum_medical %>%
   # Inclusions: smoking, tobacco, bupropion (for nicotine withdrawal)
   filter(grepl(paste0("(?i)smoking|smoker|smokes|smoked|roll-up|roll up|",
-               "tobacco|ex-tobacco|ex-smoker|stop-smoking|stopped smoking|",
-               "bupropion refused|bupropion contraindicated|anti-smoking|",
-               "cigar|cigarette|nicotine|Smokers"), 
+                      "tobacco|ex-tobacco|ex-smoker|stop-smoking|stopped smoking|",
+                      "bupropion refused|bupropion contraindicated|anti-smoking|",
+                      "cigar|cigarette|nicotine|Smokers"), 
                term)) %>%
   # Exclusions: smoke from burning, smoke inhalation
   filter(!grepl(paste0(
@@ -115,11 +129,12 @@ aurum_smoking <- cprd_aurum_medical %>%
     # Family/caregiver
     "fh:|family history|child|infant|maternal|paternal|family|member|relative|",
     "father|mother|carer|newborn|pregnancy|parental|smoker in home|",
-    "smoker in household|smokefree home|",
+    "smoker in household|smokefree home|no smokers in the household",
     # Counselling and care
     "leaflet|advice on|assessment of tobacco use|provision of written information|",
     # e-cigarette, vaping, drug, non-specific
-    "electronic cigarette|e-cigarette|vaper without nicotine|^cigarette$|",
+    "electronic cigarette|e-cigarette|vaper without nicotine|smokes drugs|",
+    "vaper with nicotine|^cigarette$|",
     "drops unextinguished cigarettes|hides lit cigarettes in pockets|",
     # measurement
     "smoking status|waking time|date of|total time|plcom2012|age at|",
@@ -248,7 +263,7 @@ aurum_gold_smoking_new_codes <- list(
   Gold = gold_new_smoking)
 # # Save lists of newly added codes into one .xlsx file on separate tabs
 # write.xlsx(aurum_gold_smoking_new_codes,
-#            file = paste0(wd, path_output, "Aurum_Gold_Smoking_new_codes_11Nov2025.xlsx"),
+#            file = paste0(wd, path_output, "Aurum_Gold_Smoking_new_codes_10Feb2026.xlsx"),
 #            overwrite = TRUE)
 
 
@@ -262,11 +277,11 @@ smoking_codelist_aurum_new <- bind_rows(aurum_smoking, aurum_non_smoker)
 smoking_codelist_gold_new <- bind_rows(gold_smoking, gold_non_smoker)
 
 # # Save updated code lists
-# write.table(smoking_codelist_aurum_new,
-#             file = paste0(wd, path_output, "Aurum_Smoking_codelist_20251111.txt"),
-#             sep = "\t", row.names = FALSE)
+write.table(smoking_codelist_aurum_new,
+            file = paste0(wd, path_output, "Aurum_Smoking_codelist_20260210.txt"),
+            sep = "\t", row.names = FALSE)
 # 
-# write.table(smoking_codelist_gold_new,
-#             file = paste0(wd, path_output, "Gold_Smoking_codelist_20251111.txt"),
-#             sep = "\t", row.names = FALSE)
+write.table(smoking_codelist_gold_new,
+            file = paste0(wd, path_output, "Gold_Smoking_codelist_20260210.txt"),
+            sep = "\t", row.names = FALSE)
 
