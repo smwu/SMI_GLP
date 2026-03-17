@@ -126,7 +126,7 @@ aurum_codelist <- aurum_codelist %>%
 
 # # Save as text file
 # write.table(aurum_codelist,
-#             file = paste0(wd, path_output, "Aurum_Antipsychotic_codelist_20250801.txt"),
+#             file = paste0(wd, path_output, "Aurum_Mood_Stabilisers_codelist_20250801.txt"),
 #             sep = "\t", row.names = FALSE)
 
 ## Gold

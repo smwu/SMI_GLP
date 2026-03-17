@@ -1,0 +1,63 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"257619018"	157000	"42W1"	"42W1.00"	"hb. a1c < 7% - good control"	"165679005"	"257619018"	11
+"257620012"	183036	"42W2"	"42W2.00"	"hb. a1c 7-10% - borderline"	"165680008"	"257620012"	11
+"257621011"	61895	"42W3"	"42W3.00"	"hb. a1c > 10% - bad control"	"165681007"	"257621011"	11
+"257623014"	108503	"42WZ"	"42WZ.00"	"hb. a1c - diabetic control"	"269823000"	"404444016"	11
+"404444016"	3856846	"42W"	"42W..00"	"haemoglobin a1c - diabetic control interpretation"	"269823000"	"1206383011"	11
+"451418011"	36756	"44TC"	"44TC.00"	"haemoglobin a1 level"	"1003681000000106"	"2577721000000116"	34
+"453910015"	177388	"42c"	"42c..00"	"haemoglobin a1c - diabetic control finding"	"365845005"	"1206639010"	11
+"457953019"	53952	"42c3"	"42c3.00"	"hba1 level (diabetes control and complications trial aligned)"	"1019551000000104"	"2583661000000115"	11
+"457954013"	25337747	"42W4"	"42W4.00"	"hba1c level (diabetes control and complications trial aligned)"	"1019431000000105"	"2566161000000115"	11
+"2154205011"	28534	"44TL"	"44TL.00"	"total glycosylated haemoglobin level"	"1013511000000100"	"2574561000000110"	34
+"2160141012"	156875	"66Ae"	"66Ae.00"	"hba1c target"	"408591000"	"1739591000000117"	1
+"129761000000114"	12015519	"44TB"	"44TB.00"	"haemoglobin a1c level"	"1003671000000109"	"2560611000000113"	34
+"803891000006119"	105808	"42W-2"	"42W..12"	"glycated haemoglobin"	"269823000"	"1206383011"	11
+"804121000006112"	327422	"42W-1"	"42W..11"	"glycosylated hb"	"269823000"	"1206383011"	11
+"817471000006110"	36916	"42c0"	"42c0.00"	"haemoglobin a1c less than 7% indicating good diabetic control"	"165679005"	"2770693019"	11
+"817481000006113"	14722	"42c2"	"42c2.00"	"haemoglobin a1c greater than 10% indicating poor diabetic control"	"165681007"	"2767754019"	11
+"817491000006111"	48135	"42c1"	"42c1.00"	"haemoglobin a1c between 7%-10% indicating borderline diabetic control"	"165680008"	"2768430011"	11
+"1700711000006113"	77047272	"42W5"	"42W5.00"	"haemoglobin a1c level - international federation of clinical chemistry and laboratory medicine standardised"	"999791000000106"	"2572901000000113"	11
+"1753211000006115"	540924	"66Ae0"	"66Ae000"	"hba1c (haemoglobin a1c) target level - ifcc (international federation of clinical chemistry and laboratory medicine) standardised"	"446074002"	"1725291000000118"	1
+"1927791000006119"	89253	"EMISNQRA16"	NA	"raised hba1c level"	"1927791000006103"	"1927791000006119"	11
+"1986181000006111"	1204878	"42W50"	NA	"hba1c (haemoglobin a1c) level (diagnostic reference range) - ifcc (international federation of clinical chemistry and laboratory medicine) standardised"	"1049301000000100"	"2643101000000114"	11
+"1986191000006114"	396443	"42W51"	NA	"hba1c (haemoglobin a1c) level (monitoring ranges) - ifcc (international federation of clinical chemistry and laboratory medicine) standardised"	"1049321000000109"	"2643141000000112"	11
+"2397571000000119"	1665293	"44TB0"	"44TB000"	"haemoglobin a1c (diagnostic reference range)"	"1010951000000100"	"2557081000000116"	34
+"2397611000000111"	64933	"44TB1"	"44TB100"	"haemoglobin a1c (monitoring ranges)"	"1010941000000103"	"2582421000000115"	34
+"3199161000006117"	23538	"^ESCTHA319916"	NA	"haemoglobin a1c measurement"	"43396009"	"72395012"	11
+"3199171000006112"	4	"^ESCTHE319917"	NA	"hemoglobin a1c measurement"	"43396009"	"72394011"	11
+"3199181000006110"	361	"^ESCTHB319918"	NA	"hba1c - haemoglobin a1c level"	"43396009"	"493589010"	11
+"3199191000006113"	2401	"^ESCTHB319919"	NA	"hba1c - hemoglobin a1c level"	"43396009"	"493590018"	11
+"5417451000006114"	6555	"^ESCTGL541745"	NA	"glycosylated haemoglobin"	"259689004"	"386737013"	32
+"5417461000006111"	22	"^ESCTGL541746"	NA	"glycosylated hb"	"259689004"	"386736016"	32
+"5417471000006116"	2	"^ESCTGL541747"	NA	"glycosylated hemoglobin"	"259689004"	"386740013"	32
+"5513671000006116"	2	"^ESCTHE551367"	NA	"hemoglobin a1c - diabetic control interpretation"	"269823000"	"404443010"	11
+"6036701000006116"	95	"^ESCTHB603670"	NA	"hba1c measurement (dcct aligned)"	"313835008"	"457955014"	31
+"6036711000006118"	1282	"^ESCTHB603671"	NA	"hba1c level (dcct aligned)"	"313835008"	"457954013"	31
+"6764261000006113"	113652	"^ESCTHB676426"	NA	"hba1c target"	"408591000"	"2160141012"	1
+"6764271000006118"	360	"^ESCTTA676427"	NA	"target hba1c level"	"408591000"	"2163995019"	1
+"6764281000006115"	2	"^ESCTHA676428"	NA	"haemoglobin a1c (hba1c) target"	"408591000"	"2621920018"	1
+"6764291000006117"	4	"^ESCTHE676429"	NA	"hemoglobin a1c (hba1c) target"	"408591000"	"2621921019"	1
+"7285131000006118"	9	"^ESCTOR728513"	NA	"ordinal level of haemoglobin a1c"	"443911005"	"2840605010"	31
+"7285141000006111"	113	"^ESCTHB728514"	NA	"hba1c (haemoglobin a1c) level"	"443911005"	"2840603015"	31
+"7285151000006113"	253	"^ESCTHB728515"	NA	"hba1c (hemoglobin a1c) level"	"443911005"	"2840604014"	31
+"7297311000006119"	3	"^ESCTHI729731"	NA	"high haemoglobin a1c level"	"444751005"	"2870875017"	31
+"7318681000006111"	22336	"^ESCTHA731868"	NA	"haemoglobin a1c target value using international federation of clinical chemistry and laboratory medicine standardised method"	"446074002"	"2883677017"	1
+"7318691000006114"	3	"^ESCTHE731869"	NA	"hemoglobin a1c target value using international federation of clinical chemistry and laboratory medicine standardized method"	"446074002"	"2883676014"	1
+"7318701000006114"	10	"^ESCTHB731870"	NA	"hba1c (haemoglobin a1c) target - ifcc (international federation of clinical chemistry and laboratory medicine) standardised"	"446074002"	"1725281000000115"	1
+"7960861000006110"	130	"^ESCTGL796086"	NA	"glycated haemoglobin"	"733829007"	"3474723019"	31
+"7960871000006115"	7	"^ESCTGL796087"	NA	"glycated hemoglobin"	"733829007"	"3474722012"	31
+"7960881000006117"	5	"^ESCTGL796088"	NA	"glycated hb"	"733829007"	"3474724013"	31
+"7960891000006119"	43	"^ESCTGL796089"	NA	"glycated haemoglobin-a1c"	"733830002"	"3474735015"	31
+"7960911000006117"	32	"^ESCTHB796091"	NA	"hba1c - glycated hemoglobin-a1c"	"733830002"	"3474736019"	31
+"7960921000006113"	11	"^ESCTHB796092"	NA	"hba1c - glycated haemoglobin-a1c"	"733830002"	"3474737011"	31
+"8121171000006116"	107	"^ESCTHB812117"	NA	"hb a1c (haemoglobin a1c) measurement - ifcc (international federation of clinical chemistry and laboratory medicine) standardised"	"371981000000106"	"730981000000118"	31
+"8121181000006118"	804	"^ESCTHB812118"	NA	"hb a1c (haemoglobin a1c) level - ifcc (international federation of clinical chemistry and laboratory medicine) standardised"	"371981000000106"	"732081000000118"	31
+"12622041000006111"	7	"^ESCT1262204"	NA	"hba1c (haemoglobin a1c) molar concentration in blood"	"1107481000000106"	"2773291000000116"	31
+"14368911000006117"	3	"^ESCT1436891"	NA	"haemoglobin a1c measurement - international federation of clinical chemistry and laboratory medicine standardised"	"371981000000106"	"1826141000000114"	31
+"14500411000006110"	969	"^ESCT1450041"	NA	"haemoglobin a1c less than 7 percent indicating good diabetic control"	"165679005"	"4578225017"	11
+"14500421000006119"	1238	"^ESCT1450042"	NA	"haemoglobin a1c between 7 percent to 10 percent indicating borderline diabetic control"	"165680008"	"4578415013"	11
+"14500431000006116"	309	"^ESCT1450043"	NA	"haemoglobin a1c greater than 10 percent indicating poor diabetic control"	"165681007"	"4578059010"	11
+"15098111000006110"	1	"^ESCT1509811"	NA	"haemoglobin a1c diagnostic reference range molar concentration in blood"	"1971000237103"	"12821000237115"	34
+"15098421000006111"	1	"^ESCT1509842"	NA	"haemoglobin a1 mass concentration in whole blood"	"2281000237104"	"11971000237117"	11
+"15099641000006113"	1743	"^ESCT1509964"	NA	"hba1c (glycated haemoglobin a1c)/hba1 (haemoglobin a1) percent in blood"	"3531000237106"	"9191000237116"	11
+"15102281000006115"	3	"^ESCT1510228"	NA	"haemoglobin a1c monitoring range molar concentration in blood"	"6181000237109"	"13821000237113"	34

@@ -34,23 +34,22 @@ library(stringr)
 library(tidyr)
 
 # Set working directory
-wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" # VPN connection
-# wd <- "//live.rd.ucl.ac.uk/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" #Desktop@UCL
+wd <- "S:/CDSTP_CPRD_25_005368/" 
 setwd(wd)
 
 # Set input and output paths
-path_input <- "Code_Lists/"
-path_output <- "Code_Lists/Antidepressants/"
+path_input <- "SMI_GLP/Code_Lists/"
+path_output <- "SMI_GLP/Code_Lists/Antidepressants/"
 
 # Load in helper functions
-source(paste0(wd, "Code/0_Code_List_Generation/helper_fns_code_lists.R"))
+source(paste0(wd, "SMI_GLP/Code/0_Code_List_Generation/helper_fns_code_lists.R"))
 
 ## Load data
 
 # Read in Aurum product dictionary
 cprd_aurum_product <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Product_10Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Product_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(ProdCodeId = col_character(), DrugIssues = col_character(), 
                      BNFChapter = col_character()), 
@@ -67,7 +66,7 @@ cprd_aurum_product <- cprd_aurum_product %>%
 # Read in Gold product dictionary
 cprd_gold_product <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Product_23Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Product_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(prodcode = col_character()), trim_ws = TRUE)
 # Rename and select columns

@@ -1,0 +1,297 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"259307010"	235932	"44T"	"44T..00"	"blood glucose method"	"1031451000000106"	"2598861000000114"	34
+"259310015"	39880	"44T10"	"44T1000"	"random blood sugar normal"	"166890005"	"259310015"	34
+"259311016"	5638	"44T11"	"44T1100"	"random blood sugar low"	"166891009"	"259311016"	34
+"259312011"	55532	"44T12"	"44T1200"	"random blood sugar raised"	"166892002"	"259312011"	34
+"259320013"	89789	"44T5"	"44T5.00"	"laboratory blood sugar"	"166896004"	"259320013"	34
+"259327011"	1117774	"44T9"	"44T9.00"	"glucometer blood sugar"	"166900001"	"259327011"	34
+"259341019"	58875	"44TZ"	"44TZ.00"	"blood glucose method"	"166888009"	"259307010"	34
+"259346012"	3613	"44U1"	"44U1.00"	"blood glucose 0-1.4 mmol/l"	"166914001"	"259346012"	34
+"259347015"	1513	"44U2"	"44U2.00"	"blood glucose 1.5-2.4 mmol/l"	"166915000"	"259347015"	34
+"259348013"	144812	"44U3"	"44U3.00"	"blood glucose 2.5-4.9 mmol/l"	"166916004"	"259348013"	34
+"259349017"	223541	"44U4"	"44U4.00"	"blood glucose 5-6.9 mmol/l"	"166917008"	"259349017"	34
+"259350017"	115250	"44U5"	"44U5.00"	"blood glucose 7-9.9 mmol/l"	"166918003"	"259350017"	34
+"259351018"	80408	"44U6"	"44U6.00"	"blood glucose 10-13.9 mmol/l"	"166919006"	"259351018"	34
+"259353015"	80413	"44U8"	"44U8.00"	"blood glucose normal"	"166921001"	"259353015"	34
+"259356011"	42793	"44U9"	"44U9.00"	"blood glucose abnormal"	"166922008"	"259356011"	34
+"259357019"	53447	"44UZ"	"44UZ.00"	"blood glucose 14+ mmol/l"	"166923003"	"259357019"	34
+"259358012"	153025	"44Uz"	"44Uz.00"	"high glucose level in blood"	"444780001"	"2872829018"	34
+"259364017"	50237	"44V2"	"44V2.00"	"glucose tol. test impaired"	"166927002"	"259364017"	34
+"259584017"	733643	"44f0"	"44f0.00"	"serum random glucose level"	"1028881000000105"	"2600091000000116"	34
+"259587012"	3899566	"44f1"	"44f1.00"	"serum fasting glucose level"	"1003131000000101"	"2564071000000115"	34
+"259588019"	2716	"44f2"	"44f2.00"	"serum 2 hours post-prandial glucose level"	"1028891000000107"	"2600101000000112"	34
+"259597015"	913927	"44g0"	"44g0.00"	"plasma random glucose level"	"1031331000000106"	"2600111000000114"	34
+"259598013"	21138748	"44g1"	"44g1.00"	"plasma fasting glucose level"	"1003141000000105"	"2560571000000116"	34
+"259601015"	4089	"44g2"	"44g2.00"	"plasma 2 hours post-prandial glucose level"	"1028901000000108"	"2600121000000115"	34
+"259789013"	2636154	"4661"	"4661.00"	"urine glucose test not done"	"167260001"	"259789013"	34
+"259790016"	31868574	"4662"	"4662.00"	"urine glucose test negative"	"167261002"	"259790016"	34
+"259791017"	358094	"4663"	"4663.00"	"urine glucose test = trace"	"167262009"	"259791017"	34
+"259794013"	517420	"4664"	"4664.00"	"urine glucose test = +"	"167264005"	"259794013"	34
+"259795014"	545283	"4665"	"4665.00"	"urine glucose test = ++"	"167265006"	"259795014"	34
+"259796010"	479653	"4666"	"4666.00"	"urine glucose test = +++"	"167266007"	"259796010"	34
+"259797018"	411030	"4667"	"4667.00"	"urine glucose test = ++++"	"167267003"	"259797018"	34
+"259800016"	51806	"466Z"	"466Z.00"	"urine glucose test nos"	"1003181000000102"	"2585411000000116"	34
+"260209019"	1452	"46S4"	"46S4.00"	"urine glucose: chem. titre"	"167523004"	"260209019"	34
+"260533012"	212	"47BZ"	"47BZ.00"	"faecal sugars - general nos"	"167676004"	"260524010"	47
+"260540013"	56	"47C2"	"47C2.00"	"glucose present in stool specimen by chromatography"	"167683006"	"2818736018"	47
+"264676010"	8963107	"66A"	"66A..00"	"diabetic monitoring"	"170742000"	"264676010"	1
+"264677018"	148919	"66A1"	"66A1.00"	"initial diabetic assessment"	"170743005"	"264677018"	1
+"264678011"	2436154	"66A2"	"66A2.00"	"follow-up diabetic assessment"	"170744004"	"264678011"	1
+"264711019"	10299	"66AJ0"	"66AJ000"	"chronic hyperglycaemia"	"170765005"	"264711019"	1
+"264728016"	215725	"66AT"	"66AT.00"	"annual diabetic blood test"	"170778005"	"264728016"	1
+"264729012"	626325	"66AZ"	"66AZ.00"	"diabetic monitoring nos"	"170742000"	"264676010"	1
+"356121018"	377	"ESCTDI22"	NA	"diabetic severe hyperglycaemia"	"237621004"	"356121018"	32
+"375614013"	156	"44V-2"	"44V..12"	"blood sugar tolerance"	"1005711000000106"	"2585781000000117"	34
+"398843011"	39378	"C3135"	"C313500"	"glucose intolerance"	"267426009"	"398843011"	32
+"398844017"	930	"C3135-1"	"C313511"	"malabsorption of glucose"	"267426009"	"398844017"	32
+"398855017"	13404	"C321"	"C321.00"	"pure hyperglyceridaemia"	"267433009"	"398855017"	32
+"404515015"	538046	"4669"	"4669.00"	"urine dipstick for glucose"	"1003181000000102"	"2585411000000116"	34
+"405633013"	2085843	"44TK"	"44TK.00"	"fasting blood glucose level"	"997681000000108"	"2572691000000111"	34
+"411749015"	658	"4I39-1"	"4I39.11"	"glucose in sample"	"1010401000000107"	"2578501000000118"	20
+"412230017"	36509	"R1057"	"R105700"	"[d]glucose, blood level abnormal"	"166922008"	"259356011"	34
+"457384010"	5603	"44TF"	"44TF.00"	"60 minute blood glucose level"	"1003701000000108"	"2585471000000114"	34
+"457490013"	53062	"44TH"	"44TH.00"	"120 minute blood glucose level"	"1003721000000104"	"2579861000000112"	34
+"457491012"	135	"44TG"	"44TG.00"	"90 minute blood glucose level"	"1003711000000105"	"2584811000000115"	34
+"457605016"	225	"44TI"	"44TI.00"	"150 minute blood glucose level"	"1003731000000102"	"2561191000000119"	34
+"457608019"	10448	"44g3"	"44g3.00"	"30 minute plasma glucose level"	"1010681000000100"	"2564991000000115"	34
+"457609010"	21343	"44g4"	"44g4.00"	"60 minute plasma glucose level"	"1010691000000103"	"2552411000000115"	34
+"457612013"	392353	"44g6"	"44g6.00"	"120 minute plasma glucose level"	"1010711000000101"	"2565001000000110"	34
+"457613015"	129	"44g7"	"44g7.00"	"150 minute plasma glucose level"	"1012661000000105"	"2578791000000119"	34
+"457616011"	53	"44f3"	"44f3.00"	"30 minute serum glucose level"	"1010621000000101"	"2586481000000115"	34
+"457617019"	397	"44f4"	"44f4.00"	"60 minute serum glucose level"	"1010631000000104"	"2562021000000111"	34
+"457620010"	55010	"44f6"	"44f6.00"	"120 minute serum glucose level"	"1010651000000106"	"2574291000000118"	34
+"457628015"	235	"44TE"	"44TE.00"	"30 minute blood glucose level"	"1003691000000108"	"2584801000000117"	34
+"457711010"	550	"44g5"	"44g5.00"	"90 minute plasma glucose level"	"1010701000000103"	"2586491000000118"	34
+"457712015"	29	"44f5"	"44f5.00"	"90 minute serum glucose level"	"1010641000000108"	"2574281000000115"	34
+"457908016"	13	"44f7"	"44f7.00"	"150 minute serum glucose level"	"1010661000000109"	"2564981000000117"	34
+"459472019"	2756	"R10C"	"R10C.00"	"drug-induced hyperglycaemia"	"441690002"	"2817604016"	5
+"459805012"	128483	"R1057-2"	"R105712"	"hyperglycaemia"	"80394007"	"504417017"	32
+"461270012"	16975	"ZV771"	"ZV77100"	"[v]screening for diabetes mellitus"	"171183004"	"265249012"	1
+"502060018"	426333	"44TA"	"44TA.00"	"plasma glucose"	"1010671000000102"	"2582401000000112"	34
+"1227832019"	418	"ZV771-1"	"ZV77111"	"[v]screening for diabetes mellitus (dm)"	"171183004"	"265249012"	1
+"1485484012"	33078	"466A"	"466A.00"	"urine clinitest"	"1021391000000109"	"2569961000000110"	34
+"1488749011"	2833	"66b1"	"66b1.00"	"diabetic monitoring not required"	"395049009"	"1488749011"	1
+"1488822019"	8085	"46Z0"	"46Z0.00"	"urine screening test for diabetes"	"395123002"	"1488822019"	47
+"1780274015"	583874	"8CAQ"	"8CAQ.00"	"advice about blood glucose control"	"401069007"	"1780274015"	32
+"2154178019"	4071	"47BA"	"47BA.00"	"faecal glucose level"	"1003021000000102"	"2556131000000118"	47
+"2474483019"	5083	"44TM"	"44TM.00"	"blood glucose series"	"994411000000106"	"2554951000000115"	34
+"2476507015"	35633	"R10D"	"R10D.00"	"[d]elevated blood glucose level"	"444780001"	"2872829018"	34
+"2476950017"	110737	"R10D0-1"	"R10D011"	"impaired fasting glucose"	"390951007"	"2476951018"	32
+"3527835011"	1	"^ESCT1167749"	NA	"hyperglycaemia self management plan"	"737437006"	"3527835011"	31
+"69221000033118"	2081	"DRGC784"	NA	"glucose"	"67079006"	"69221000033118"	31
+"70051000006115"	23019	"68K1"	"68K1.00"	"urine screening for glucose"	"268556000"	"401577015"	1
+"70361000006116"	5231247	"466"	"466..00"	"urine test for glucose"	"1003181000000102"	"2585411000000116"	34
+"116631000006118"	1602	"44T7"	"44T7.00"	"supper time blood glucose level"	"1083851000000100"	"2716081000000110"	34
+"119441000006118"	8067	"466-1"	"466..11"	"sugar - urine test"	"1003181000000102"	"2585411000000116"	34
+"119451000006116"	1112	"46S-2"	"46S..12"	"sugars in urine"	"1023741000000104"	"2575881000000117"	34
+"128091000000112"	8063370	"44TJ"	"44TJ.00"	"blood glucose level"	"997671000000106"	"2563461000000115"	34
+"129841000000118"	8646253	"44f"	"44f..00"	"serum glucose level"	"1010611000000107"	"2578521000000110"	34
+"134471000000110"	36236116	"44g"	"44g..00"	"plasma glucose level"	"1010671000000102"	"2582401000000112"	34
+"147481000006113"	23789	"8A19"	"8A19.00"	"self-monitoring of blood and urine glucose"	"308115004"	"451423011"	32
+"147491000006111"	3017733	"8A17"	"8A17.00"	"self-monitoring of blood glucose"	"308113006"	"451421013"	32
+"147501000006115"	132271	"8A18"	"8A18.00"	"self-monitoring of urine glucose"	"308114000"	"451422018"	32
+"191761000006112"	3405551	"44T1"	"44T1.00"	"random blood sugar"	"271061004"	"405631010"	34
+"212381000006110"	48	"C113z"	"C113z00"	"postsurgical hyperglycaemia nos"	"190437000"	"292647018"	32
+"216681000006119"	4974	"44T3-1"	"44T3.11"	"post-prandial blood glucose concentration"	"1083781000000102"	"2715921000000119"	34
+"224191000006110"	138902	"44U-2"	"44U..12"	"plasma glucose level"	"997671000000106"	"2563461000000115"	34
+"294711000006113"	406	"R1057-1"	"R105711"	"[d]drug induced hyperglycaemia"	"441690002"	"2817604016"	5
+"433741000006118"	21791	"44U7"	"44U7.00"	"2 hour post-prandial blood glucose level"	"1030551000000103"	"2599601000000116"	34
+"433751000006116"	23682	"44T3"	"44T3.00"	"2 hours post-food blood sugar"	"88856000"	"508248018"	34
+"500531000006111"	21012	"EMISHGT210"	NA	"average home blood glucose"	"500531000006107"	"500531000006111"	2
+"500541000006118"	1729	"EMISHGT215"	NA	"average post-breakfast blood glucose"	"500541000006102"	"500541000006118"	27
+"500551000006116"	1033	"EMISHGT217"	NA	"average post-dinner blood glucose"	"500551000006100"	"500551000006116"	27
+"500561000006119"	1236	"EMISHGT216"	NA	"average post-lunch blood glucose"	"500561000006103"	"500561000006119"	27
+"500571000006114"	19753	"EMISHGT214"	NA	"average pre-bed blood glucose"	"500571000006105"	"500571000006114"	27
+"500581000006112"	1542	"EMISHGT53"	NA	"average pre-bed sugar"	"500581000006108"	"500581000006112"	2
+"500591000006110"	53153	"EMISHGT211"	NA	"average pre-breakfast blood glucose"	"500591000006106"	"500591000006110"	2
+"500601000006119"	6525	"EMISHGT50"	NA	"average pre-breakfast sugar"	"500601000006103"	"500601000006119"	2
+"500621000006112"	4599	"EMISHGT52"	NA	"average pre-evening meal sugar"	"500621000006108"	"500621000006112"	2
+"500631000006110"	16250	"EMISHGT212"	NA	"average pre-lunch blood glucose"	"500631000006106"	"500631000006110"	2
+"500641000006117"	2162	"EMISHGT51"	NA	"average pre-lunch sugar"	"500641000006101"	"500641000006117"	2
+"500651000006115"	24064	"EMISHGT213"	NA	"average pre-tea blood glucose"	"500651000006104"	"500651000006115"	27
+"504451000006113"	1857	"44T8"	"44T8.00"	"bedtime blood sugar"	"873281000000104"	"2255391000000118"	34
+"517791000006115"	6659226	"44U"	"44U..00"	"blood glucose result"	"997671000000106"	"2563461000000115"	34
+"517921000006115"	12312	"44Uz-1"	"44Uz.11"	"blood hyperglycaemia nos"	"444780001"	"2872829018"	34
+"518531000006111"	10822	"44T-1"	"44T..11"	"blood sugar method"	"1031451000000106"	"2598861000000114"	34
+"518541000006118"	163710	"44U-1"	"44U..11"	"blood sugar result"	"997671000000106"	"2563461000000115"	34
+"616341000006117"	1028116	"6872"	"6872.00"	"diabetes mellitus screening"	"171183004"	"265249012"	1
+"621801000006111"	53116	"44T4"	"44T4.00"	"dipstick blood sugar"	"104686004"	"281007011"	34
+"635701000000114"	25	"44g8"	"44g8.00"	"240 minute plasma glucose level"	"998281000000106"	"2581901000000110"	34
+"635711000000111"	1952	"44g9"	"44g9.00"	"300 minute plasma glucose level"	"998291000000108"	"2581911000000112"	34
+"661741000006114"	393	"47B"	"47B..00"	"faecal sugars - general"	"167676004"	"260524010"	47
+"667181000006113"	1566455	"44T2"	"44T2.00"	"fasting blood sugar"	"997681000000108"	"2572691000000111"	34
+"733311000006111"	5747	"44T6"	"44T6.00"	"blood glucose level before lunch"	"873311000000101"	"2255481000000113"	34
+"762431000006110"	4587	"4I39"	"4I39.00"	"fluid sample glucose"	"1010401000000107"	"2578501000000118"	20
+"777231000006119"	163590	"66AA-1"	"66AA.11"	"diabetic monitoring - injection sites"	"268517006"	"401527018"	1
+"803551000006111"	1578	"46S4-1"	"46S4.11"	"glucose - urine titre"	"167523004"	"260209019"	34
+"853071000006116"	701	"EGTON11"	NA	"2 hour post prandial glucose"	"853071000006100"	"853071000006116"	34
+"960581000006117"	7494	"EMISCHY3"	NA	"hyperglycaemia"	"960581000006101"	"960581000006117"	27
+"977341000006114"	64941	"4Q80"	"4Q80.00"	"glucose level"	"1018851000000108"	"2575211000000111"	3
+"987441000006113"	27840	"EMISNQSI2"	NA	"six month diabetic review"	"987441000006109"	"987441000006113"	1
+"1123651000000116"	3220	"4Q83"	"4Q83.00"	"estimated average glucose level"	"996491000000105"	"2581701000000113"	3
+"1660271000006119"	107	"R10D1"	"R10D100"	"[d]stress induced hyperglycaemia"	"237624007"	"628741000000116"	32
+"1665741000000117"	144	"44gA"	"44gA.00"	"180 minute plasma glucose level"	"1003121000000103"	"2561101000000114"	34
+"1675511000006113"	5978	"EMISNQDI34"	NA	"diabetes mellitus screening risk score"	"1675511000006109"	"1675511000006113"	3
+"1714631000000113"	209223	"8A170"	"8A17000"	"frequency of blood glucose self-monitoring"	"768291000000101"	"1714631000000113"	32
+"1729771000000114"	29802	"44TJ0"	"44TJ000"	"blood glucose range before breakfast"	"774331000000109"	"1729771000000114"	34
+"1729791000000113"	2110	"44TJ4"	"44TJ400"	"blood glucose range after lunch"	"774341000000100"	"1729791000000113"	34
+"1729811000000114"	22619	"44TJ5"	"44TJ500"	"blood glucose range before evening meal"	"774351000000102"	"1729811000000114"	34
+"1729831000000118"	17377	"44TJ1"	"44TJ100"	"blood glucose range after breakfast"	"774361000000104"	"1729831000000118"	34
+"1729851000000113"	4212	"44TJ6"	"44TJ600"	"blood glucose range after evening meal"	"774371000000106"	"1729851000000113"	34
+"1731081000000110"	7072	"44TJ3"	"44TJ300"	"blood glucose range before lunch"	"774921000000106"	"1731081000000110"	34
+"1739411000000110"	3745	"44TJ2"	"44TJ200"	"blood glucose range at bedtime"	"773931000000105"	"1728941000000113"	34
+"1739991000000114"	203	"44TJ7"	"44TJ700"	"blood glucose range overnight"	"773781000000106"	"1727751000000113"	34
+"1780371000006119"	2052	"EMISNQBR26"	NA	"breakfast time blood sugar"	"1780371000006103"	"1780371000006119"	34
+"1807281000006112"	12812	"JHCCA9"	NA	"capillary blood glucose measurement"	"302789003"	"444676015"	34
+"1807291000006110"	1	"JHCCA10"	NA	"capillary random blood glucose level"	"1807291000006106"	"1807291000006110"	34
+"1807301000006111"	1	"JHCCA11"	NA	"capillary fasting blood glucose level"	"1807301000006107"	"1807301000006111"	34
+"1824941000006112"	16193	"EMISNQGL4"	NA	"glucose monitoring at home"	"359772000"	"475099017"	1
+"1884591000006118"	7357	"66o"	"66o..00"	"further diabetic monitoring"	"170742000"	"264676010"	1
+"1955171000006110"	1	"EMISNQKE155"	NA	"keele enhance trial - diabetic review"	"1955171000006106"	"1955171000006110"	37
+"2365491000000112"	173290	"9lQ"	"9lQ..00"	"blood glucose self-monitoring record checked"	"921721000000101"	"2365491000000112"	37
+"2378701000000111"	240	"44TJ8"	"44TJ800"	"baseline blood glucose level"	"928041000000101"	"2378701000000111"	34
+"2389131000000119"	2591	"44TJ9"	"44TJ900"	"blood glucose level after evening meal"	"932401000000106"	"2389131000000119"	34
+"2389171000000117"	274	"44TJA"	"44TJA00"	"blood glucose level during night"	"932421000000102"	"2389171000000117"	34
+"2634891000000112"	4	"44gB"	NA	"210 minute plasma glucose concentration"	"1045471000000104"	"2634891000000112"	34
+"2729491000000116"	16426	"^ESCT1171760"	NA	"random blood glucose level"	"1089381000000101"	"2729491000000116"	34
+"3043011000006116"	145	"^ESCTGL304301"	NA	"glucose measurement, blood"	"33747003"	"56343019"	31
+"3043021000006112"	710	"^ESCTBL304302"	NA	"blood sugar level"	"33747003"	"485621018"	31
+"3043041000006117"	14	"^ESCTBL304304"	NA	"blood glucose level"	"33747003"	"128091000000112"	31
+"3080861000006112"	255	"^ESCTGL308086"	NA	"glucose measurement"	"36048009"	"60151015"	3
+"3347901000006114"	1	"^ESCTGL334790"	NA	"glucose measurement, fasting"	"52302001"	"87034016"	31
+"3590531000006117"	18610	"^ESCTGL359053"	NA	"glucose"	"67079006"	"111415013"	31
+"3628201000006114"	120	"^ESCTUR362820"	NA	"urinalysis, glucose, qualitative"	"69376001"	"115247013"	32
+"3628211000006112"	1	"^ESCTUR362821"	NA	"urine test for glucose"	"69376001"	"2478808013"	32
+"3674501000006115"	3	"^ESCTGL367450"	NA	"glucose measurement, plasma"	"72191006"	"119958019"	31
+"3674511000006117"	63	"^ESCTPL367451"	NA	"plasma glucose"	"72191006"	"502060018"	31
+"3944121000006119"	185	"^ESCTGL394412"	NA	"glucose measurement, 2 hour post prandial"	"88856000"	"147331017"	34
+"3944141000006114"	48	"^ESCT2H394414"	NA	"2 hours post-food blood sugar level"	"88856000"	"1235387015"	34
+"4109691000006119"	5547	"^ESCTGL410969"	NA	"glucose measurement, blood, test strip"	"104686004"	"168662019"	34
+"4109711000006116"	58	"^ESCTDI410971"	NA	"dipstick blood sugar level"	"104686004"	"1219065018"	34
+"4109741000006117"	4	"^ESCTGL410974"	NA	"glucose measurement, post glucose dose"	"104690002"	"168666016"	31
+"4600701000006112"	405	"^ESCTLA460070"	NA	"laboratory blood glucose"	"166896004"	"3078887017"	34
+"4600721000006119"	82949	"^ESCTGL460072"	NA	"glucometer blood glucose"	"166900001"	"3078744014"	34
+"4602041000006112"	10	"^ESCTSE460204"	NA	"serum random glucose level"	"167086002"	"259584017"	31
+"4602061000006111"	2	"^ESCTSE460206"	NA	"serum fasting glucose level"	"167087006"	"259587012"	31
+"4602091000006115"	116	"^ESCTPL460209"	NA	"plasma random glucose measurement"	"167095005"	"259596012"	31
+"4602121000006116"	1	"^ESCTPL460212"	NA	"plasma fasting glucose level"	"167096006"	"259598013"	31
+"4604791000006114"	6	"^ESCTUR460479"	NA	"urine glucose chemical titre measurement"	"167523004"	"1205568014"	34
+"5109401000006116"	130	"^ESCTDI510940"	NA	"disorder of glucose regulation"	"237597000"	"356072012"	31
+"5109931000006116"	131	"^ESCTAC510993"	NA	"acute hyperglycaemia"	"237623001"	"356125010"	31
+"5109951000006111"	2	"^ESCTME510995"	NA	"metabolic stress hyperglycaemia"	"237624007"	"356127019"	32
+"5192411000006114"	4763	"^ESCTDI519241"	NA	"diabetic monitoring status"	"243860001"	"364695019"	1
+"5285361000006114"	24	"^ESCTGL528536"	NA	"glucose concentration, test strip measurement"	"250417005"	"373445017"	31
+"5299141000006111"	8	"^ESCTUR529914"	NA	"urinary glucose output"	"251396006"	"374569010"	31
+"5299211000006118"	4	"^ESCTSM529921"	NA	"small intestine glucose intolerance"	"251403008"	"374577014"	31
+"5514341000006116"	798	"^ESCTUR551434"	NA	"urine dipstick for glucose"	"269879003"	"404515015"	31
+"5519841000006111"	45081	"^ESCTRA551984"	NA	"random blood glucose measurement"	"271061004"	"405631010"	34
+"5519851000006113"	53	"^ESCTRA551985"	NA	"random blood glucose level"	"271061004"	"405632015"	34
+"5519861000006110"	77	"^ESCTRB551986"	NA	"rbg - random blood glucose"	"271061004"	"1225170018"	34
+"5519871000006115"	109	"^ESCTRA551987"	NA	"random blood glucose"	"271061004"	"1225171019"	34
+"5519881000006117"	436	"^ESCTFA551988"	NA	"fasting blood glucose measurement"	"271062006"	"405634019"	34
+"5519891000006119"	672	"^ESCTFA551989"	NA	"fasting blood glucose level"	"271062006"	"405633013"	34
+"5519901000006115"	4	"^ESCTFB551990"	NA	"fbg - fasting blood glucose"	"271062006"	"1225172014"	34
+"5519911000006117"	110	"^ESCTFA551991"	NA	"fasting blood glucose"	"271062006"	"1225173016"	34
+"5519921000006113"	14	"^ESCTFB551992"	NA	"fbs - fasting blood sugar"	"271062006"	"1225174010"	34
+"5519931000006111"	9	"^ESCTLU551993"	NA	"lunch time blood glucose measurement"	"271063001"	"3078802014"	31
+"5519961000006119"	32	"^ESCTSU551996"	NA	"supper time blood glucose measurement"	"271064007"	"3078889019"	34
+"5519981000006112"	35	"^ESCTSU551998"	NA	"supper time blood sugar level"	"271064007"	"405638016"	34
+"5519991000006110"	44	"^ESCTBE551999"	NA	"bedtime blood glucose measurement"	"271065008"	"3078692018"	34
+"5520001000006117"	6	"^ESCTBE552000"	NA	"bedtime blood sugar level"	"271065008"	"405639012"	34
+"5576781000006110"	54	"^ESCTGL557678"	NA	"glucose in sample"	"275794004"	"411749015"	20
+"5576911000006117"	14530	"^ESCTBM557691"	NA	"bm stix glucose measurement"	"275810004"	"411765019"	34
+"5587011000006111"	54	"^ESCTNE558701"	NA	"neonatal hyperglycaemia"	"276557002"	"412745011"	31
+"5910951000006116"	8	"^ESCTPO591095"	NA	"post-prandial blood glucose measurement"	"302788006"	"444673011"	34
+"5910961000006119"	166	"^ESCTPO591096"	NA	"post-prandial blood glucose"	"302788006"	"444674017"	34
+"5910991000006110"	7	"^ESCTCA591099"	NA	"capillary blood glucose level"	"302789003"	"444675016"	34
+"6173321000006112"	2	"^ESCTBL617332"	NA	"blood glucose meters"	"337414009"	"469996017"	31
+"6275381000006114"	1247	"^ESCTGL627538"	NA	"glucose concentration, dipstick - finding"	"365657003"	"488983017"	31
+"6275401000006114"	1	"^ESCTFI627540"	NA	"finding of glucose concentration, dipstick"	"365657003"	"2766318011"	31
+"6279571000006118"	1462	"^ESCTGL627957"	NA	"glucose level - finding"	"365811003"	"489269015"	34
+"6279581000006115"	130	"^ESCTGL627958"	NA	"glucose level"	"365811003"	"489270019"	34
+"6279601000006113"	6487	"^ESCTBL627960"	NA	"blood glucose level - finding"	"365812005"	"489272010"	34
+"6279611000006111"	340	"^ESCTBL627961"	NA	"blood glucose level"	"365812005"	"489271015"	34
+"6279621000006115"	2568	"^ESCTBL627962"	NA	"blood glucose result"	"365812005"	"1228669016"	34
+"6279631000006117"	7	"^ESCTBL627963"	NA	"blood glucose result - finding"	"365812005"	"1228670015"	34
+"6613341000006113"	867	"^ESCTDI661334"	NA	"diabetic monitoring - injection sites abnormal"	"398871001"	"1778359011"	31
+"6615341000006112"	14146	"^ESCTDI661534"	NA	"diabetic monitoring - injection sites normal"	"398985007"	"1778453011"	31
+"6648161000006111"	4089	"^ESCTBL664816"	NA	"blood glucose control education"	"401069007"	"2576247017"	32
+"6710241000006115"	4	"^ESCTBL671024"	NA	"blood glucose status"	"405176005"	"2157004013"	31
+"6833931000006116"	17	"^ESCTBL683393"	NA	"blood glucose series"	"412928005"	"2474483019"	31
+"6920561000006117"	44	"^ESCTBL692056"	NA	"blood sugar management"	"418389000"	"2576779013"	31
+"7257451000006115"	1	"^ESCTME725745"	NA	"measurement of protein and glucose in urine specimen using reagent test strip"	"441948005"	"2818517014"	31
+"7265781000006119"	1	"^ESCTRA726578"	NA	"random blood glucose abnormal"	"442545002"	"2820460015"	31
+"7282391000006114"	1	"^ESCTUR728239"	NA	"urea, electrolytes and glucose measurement"	"443746006"	"2840070019"	31
+"7508821000006112"	2847	"^ESCTBL750882"	NA	"blood glucose monitoring"	"698472009"	"2974507011"	31
+"7555951000006113"	1	"^ESCTHO755595"	NA	"home-use/point-of-care blood glucose spot-check analysis system"	"702189000"	"2994623014"	31
+"7606161000006116"	14	"^ESCTGL760616"	NA	"glucose monitoring system"	"706130009"	"3025466019"	31
+"7628811000006118"	78	"^ESCTST762881"	NA	"steroid-induced hyperglycaemia"	"708122002"	"3033823011"	5
+"8077451000006118"	5	"^ESCTGL807745"	NA	"glucose gel administration"	"243841000000104"	"397401000000110"	31
+"8099601000006117"	9	"^ESCTRE809960"	NA	"review of glucose intolerance"	"307721000000108"	"557171000000118"	1
+"8119331000006114"	11	"^ESCTHY811933"	NA	"hyperglycaemia due to type 1 diabetes mellitus"	"367991000119101"	"3285563015"	31
+"8119451000006114"	4	"^ESCTHY811945"	NA	"hyperglycaemia due to type 2 diabetes mellitus"	"368051000119109"	"3285573018"	31
+"8286781000006119"	492	"^ESCTHY828678"	NA	"hyperglycaemia education"	"846641000000100"	"2195481000000119"	31
+"8291981000006111"	1	"^ESCTTA829198"	NA	"target blood glucose concentration"	"852611000000104"	"2208231000000114"	31
+"8292931000006116"	845	"^ESCTDO829293"	NA	"does monitor blood glucose level before driving"	"853671000000101"	"2210421000000114"	31
+"8304721000006119"	2697	"^ESCTBL830472"	NA	"blood glucose level at bedtime"	"873281000000104"	"2255421000000112"	34
+"8304741000006114"	1	"^ESCTBE830474"	NA	"bedtime blood sugar level"	"873281000000104"	"2255401000000115"	34
+"8304751000006111"	10213	"^ESCTBL830475"	NA	"blood glucose level before evening meal"	"873291000000102"	"2255441000000117"	31
+"8304761000006113"	888	"^ESCTBL830476"	NA	"blood glucose level after lunch"	"873301000000103"	"2255461000000116"	31
+"8304781000006115"	9840	"^ESCTBL830478"	NA	"blood glucose level after breakfast"	"873321000000107"	"2255501000000116"	31
+"8304791000006117"	16235	"^ESCTBL830479"	NA	"blood glucose level before breakfast"	"873331000000109"	"2255521000000113"	31
+"8335441000006111"	130	"^ESCTBA833544"	NA	"baseline blood glucose concentration"	"928041000000101"	"2378671000000112"	34
+"8382991000006111"	779	"^ESCTUR838299"	NA	"urine dipstick for glucose"	"1003181000000102"	"2612961000000111"	34
+"8385771000006115"	4	"^ESCTBL838577"	NA	"blood sugar tolerance"	"1005711000000106"	"2556421000000113"	34
+"8412491000006111"	74	"^ESCTBL841249"	NA	"blood sugar method"	"1031451000000106"	"2599441000000116"	34
+"11904741000006110"	3	"^ESCT1190474"	NA	"post-prandial blood sugar"	"302788006"	"1227129019"	34
+"13927701000006116"	1	"^ESCT1392770"	NA	"hyperglycaemia due to diabetes mellitus"	"822995009"	"3866631013"	31
+"13956321000006111"	305	"^ESCT1395632"	NA	"frequency of blood glucose self-monitoring"	"865984006"	"3956365016"	32
+"14073071000006111"	25	"^ESCT1407307"	NA	"severe hyperglycaemia due to diabetes mellitus"	"237621004"	"3866616016"	32
+"14886231000006115"	273	"^ESCT1488623"	NA	"mean substance concentration of glucose in capillary blood using minimally-invasive continuous glucose monitoring device"	"1464671000000104"	"2970551000000112"	34
+"14886241000006113"	3	"^ESCT1488624"	NA	"mean substance concentration of glucose in capillary blood using minimally-invasive cgm (continuous glucose monitoring) device"	"1464671000000104"	"2970561000000110"	34
+"14886251000006110"	12	"^ESCT1488625"	NA	"mean substance concentration of glucose in capillary blood by self-monitoring of blood glucose using blood glucose meter"	"1464731000000106"	"2970691000000115"	34
+"14886261000006112"	2	"^ESCT1488626"	NA	"mean glucose molar concentration in capillary blood by smbg (self-monitoring of blood glucose) using blood glucose meter"	"1464731000000106"	"2970701000000115"	34
+"14886271000006117"	1	"^ESCT1488627"	NA	"standard deviation of mean substance concentration of glucose in capillary blood using minimally-invasive continuous glucose monitoring device"	"1464741000000102"	"2970711000000118"	34
+"14886291000006116"	1	"^ESCT1488629"	NA	"standard deviation of mean substance concentration of glucose in capillary blood by self-monitoring of blood glucose using blood glucose meter"	"1464751000000104"	"2970751000000119"	34
+"14886301000006115"	1	"^ESCT1488630"	NA	"standard deviation of mean glucose molar concentration in capillary blood by smbg (self-monitoring of blood glucose) using blood glucose meter"	"1464751000000104"	"2970761000000116"	34
+"14886311000006117"	2166	"^ESCT1488631"	NA	"coefficient of variation of mean substance concentration of glucose in capillary blood using minimally-invasive continuous glucose monitoring device"	"1464761000000101"	"2970781000000113"	34
+"14886331000006111"	66	"^ESCT1488633"	NA	"coefficient of variation of mean substance concentration of glucose in capillary blood by self-monitoring of blood glucose using blood glucose meter"	"1464771000000108"	"2970801000000114"	34
+"14886351000006116"	4593	"^ESCT1488635"	NA	"percentage of time in target glucose range to total glucose monitoring time using minimally-invasive continuous glucose monitoring device"	"1464781000000105"	"2970831000000115"	1
+"14886361000006119"	1	"^ESCT1488636"	NA	"percentage of time in target glucose range to total glucose monitoring time using minimally-invasive cgm (continuous glucose monitoring) device"	"1464781000000105"	"2970851000000110"	1
+"14886371000006114"	1085	"^ESCT1488637"	NA	"percentage of time above level 2 hyperglycaemic threshold to total continuous glucose monitoring time using minimally-invasive continuous glucose monitoring device"	"1464791000000107"	"2970871000000118"	1
+"14886391000006110"	1008	"^ESCT1488639"	NA	"percentage of time above level 1 hyperglycaemic threshold to total continuous glucose monitoring time using minimally-invasive continuous glucose monitoring device"	"1464801000000106"	"2970891000000119"	1
+"14886411000006110"	763	"^ESCT1488641"	NA	"percentage of time below level 2 hypoglycaemic threshold to total continuous glucose monitoring time using minimally-invasive continuous glucose monitoring device"	"1464821000000102"	"2970941000000115"	1
+"14886431000006116"	1135	"^ESCT1488643"	NA	"percentage of time below level 1 hypoglycaemic threshold to total continuous glucose monitoring time using minimally-invasive continuous glucose monitoring device"	"1464831000000100"	"2970971000000114"	1
+"14886451000006111"	20	"^ESCT1488645"	NA	"percentage of readings in target range to total self-monitored capillary blood glucose readings using blood glucose meter"	"1464841000000109"	"2971001000000112"	1
+"14886501000006113"	384	"^ESCT1488650"	NA	"glucose management indicator expressed as substance concentration ratio"	"1464891000000104"	"2971101000000113"	11
+"14886511000006111"	2	"^ESCT1488651"	NA	"gmi (glucose management indicator) expressed as molar ratio"	"1464891000000104"	"2971121000000116"	11
+"14886521000006115"	320	"^ESCT1488652"	NA	"number of clinically significant hypoglycaemic episodes recorded by self-monitoring of capillary blood glucose"	"1464901000000103"	"2971141000000111"	1
+"14886531000006117"	100	"^ESCT1488653"	NA	"number of clinically significant hypoglycaemic episodes recorded by continuous glucose monitoring device"	"1464911000000101"	"2971151000000114"	1
+"14886561000006114"	15	"^ESCT1488656"	NA	"mean number of self-monitored capillary blood glucose measurements per day"	"1464931000000109"	"2971211000000119"	1
+"14886571000006119"	381	"^ESCT1488657"	NA	"percentage of successful data capture time to total expected continuous glucose monitoring sensor wear time using minimally-invasive continuous glucose monitoring device"	"1464941000000100"	"2971231000000110"	1
+"14886591000006118"	37	"^ESCT1488659"	NA	"mean substance concentration of glucose in capillary blood using point-of-care testing device"	"1464951000000102"	"2971261000000117"	34
+"14886601000006114"	2	"^ESCT1488660"	NA	"mean substance concentration of glucose in capillary blood using poct (point-of-care testing) device"	"1464951000000102"	"2971271000000112"	34
+"14886611000006112"	1	"^ESCT1488661"	NA	"standard deviation of mean substance concentration of glucose in capillary blood using point-of-care testing device"	"1464961000000104"	"2971281000000114"	34
+"14886631000006118"	6	"^ESCT1488663"	NA	"coefficient of variation of mean substance concentration of glucose in capillary blood using point-of-care testing device"	"1464971000000106"	"2971321000000118"	34
+"14886651000006113"	9	"^ESCT1488665"	NA	"percentage of readings in target range to total point-of-care capillary blood glucose readings using blood glucose meter"	"1464981000000108"	"2971351000000111"	1
+"14886661000006110"	1	"^ESCT1488666"	NA	"percentage of readings above level 2 hyperglycaemic threshold to total point-of-care capillary blood glucose readings using blood glucose meter"	"1464991000000105"	"2971371000000119"	1
+"14886671000006115"	3	"^ESCT1488667"	NA	"percentage of readings above level 1 hyperglycaemic threshold to total point-of-care capillary blood glucose readings using blood glucose meter"	"1465001000000103"	"2971391000000115"	1
+"14886691000006119"	2	"^ESCT1488669"	NA	"percentage of readings below level 1 hypoglycaemic threshold to total point-of-care capillary blood glucose readings using blood glucose meter"	"1465021000000107"	"2971421000000114"	1
+"14886711000006116"	2	"^ESCT1488671"	NA	"mean number of point-of-care capillary blood glucose measurements per day"	"1465041000000100"	"2971461000000118"	1
+"14917971000006117"	2	"^ESCT1491797"	NA	"dsmq (diabetes self management questionnaire) glucose monitoring score"	"1464411000000106"	"2969911000000119"	32
+"14918051000006113"	1	"^ESCT1491805"	NA	"dsmq-r (diabetes self management questionnaire - revised) glucose monitoring score"	"1464451000000105"	"2970031000000111"	32
+"14918851000006117"	18	"^ESCT1491885"	NA	"target blood glucose concentration at breakfast"	"1515951000000106"	"3021801000000118"	1
+"14918861000006115"	1	"^ESCT1491886"	NA	"target blood glucose concentration at lunch"	"1515971000000102"	"3021851000000117"	1
+"14918871000006110"	2	"^ESCT1491887"	NA	"target blood glucose concentration at evening meal"	"1515981000000100"	"3021861000000119"	1
+"14919701000006117"	138	"^ESCT1491970"	NA	"patient advised to monitor blood glucose level before driving"	"1577111000000109"	"3103241000000117"	32
+"14920351000006115"	1	"^ESCT1492035"	NA	"automated low glucose suspend of insulin delivery using sensor augmented insulin pump device"	"1597841000000109"	"3134511000000113"	32
+"14920381000006111"	2	"^ESCT1492038"	NA	"automated predictive low glucose suspend of insulin delivery using sensor augmented insulin pump device"	"1597851000000107"	"3134561000000110"	32
+"14920451000006110"	1	"^ESCT1492045"	NA	"percentage of time spent by continuous automated insulin delivery system in low glucose suspend"	"1597881000000101"	"3134651000000111"	27
+"15077691000006118"	203	"^ESCT1507769"	NA	"random blood glucose within reference range"	"166890005"	"5145408014"	34
+"15077701000006118"	85	"^ESCT1507770"	NA	"random blood sugar below reference range"	"166891009"	"5149020017"	34
+"15077711000006115"	379	"^ESCT1507771"	NA	"random blood sugar above reference range"	"166892002"	"5150104010"	34
+"15077721000006111"	379	"^ESCT1507772"	NA	"blood glucose within reference range"	"166921001"	"5145280019"	34
+"15077731000006114"	365	"^ESCT1507773"	NA	"blood glucose outside reference range"	"166922008"	"5148183013"	34
+"15126321000006118"	2	"^ESCT1512632"	NA	"glucose arbitrary concentration in blood"	"56861000237104"	"114981000237114"	34
+"15127541000006118"	69	"^ESCT1512754"	NA	"fasting glucose molar concentration in plasma"	"58111000237107"	"113291000237115"	34
+"15310291000006114"	238419	"^ESCT1531029"	NA	"urine glucose not detected"	"167261002"	"5168277013"	34

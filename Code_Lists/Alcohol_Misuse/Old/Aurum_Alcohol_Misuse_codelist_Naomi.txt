@@ -1,0 +1,310 @@
+"medcodeid"	"term"	"originalreadcode"	"cleansedreadcode"	"snomedctconceptid"	"snomedctdescriptionid"	"release"	"QOF"
+
+"250313014"	"moderate drinker - 3-6u/day"	"1364"	"1364.00"	"160576006"	"250313014"	""	1
+
+"250323017"	"ex-moderate drinker - (3-6u/d)"	"136C"	"136C.00"	"160584005"	"250323017"	""	1
+
+"250314015"	"heavy drinker - 7-9u/day"	"1365"	"1365.00"	"160577002"	"250314015"	""	1
+
+"250324011"	"ex-heavy drinker - (7-9u/day)"	"136D"	"136D.00"	"160585006"	"250324011"	""	1
+
+"73012011"	"moderate drinker"	"136O"	"136O.00"	"43783005"	"73012011"	""	1
+
+"250322010"	"ex-light drinker - (1-2u/day)"	"136B"	"136B.00"	"160583004"	"250322010"	""	1
+
+"144179014"	"heavy drinker"	"136P"	"136P.00"	"86933000"	"144179014"	""	1
+
+"47085011"	"social drinker"	"136J"	"136J.00"	"28127009"	"47085011"	""	1
+
+"250316018"	"very heavy drinker - >9u/day"	"1366"	"1366.00"	"160578007"	"250316018"	""	1
+
+"250321015"	"ex-trivial drinker (<1u/day)"	"136A"	"136A.00"	"160582009"	"250321015"	""	1
+
+"250333013"	"drinks beer and spirits"	"136H"	"136H.00"	"160590009"	"250333013"	""	1
+
+"250334019"	"drinks wine"	"136I"	"136I.00"	"160591008"	"250334019"	""	1
+
+"250340014"	"alcohol intake within recommended sensible limits"	"136L"	"136L.00"	"160593006"	"250340014"	""	1
+
+"110629012"	"chronic alcoholism"	"E231"	"E231.00"	"66590003"	"110629012"	""	0
+
+"250317010"	"stopped drinking alcohol"	"1367"	"1367.00"	"160579004"	"250317010"	""	1
+
+"250331010"	"spirit drinker"	"136F"	"136F.00"	"160588008"	"250331010"	""	1
+
+"250335018"	"alcohol intake above recommended sensible limits"	"136K"	"136K.00"	"160592001"	"250335018"	""	1
+
+"283028013"	"alcohol leaflet given"	"8CE1"	"8CE1.00"	"183098002"	"283028013"	""	0
+
+"291355016"	"teetotaller"	"1361"	"1361.00"	"105542008"	"291355016"	""	1
+
+"291352018"	"non-drinker alcohol"	"1361-2"	"1361.12"	"105542008"	"291352018"	""	1
+
+"295139014"	"continuous chronic alcoholism"	"E2311"	"E231100"	"191811004"	"295139014"	""	0
+
+"295253017"	"nondependent alcohol abuse, episodic"	"E2502"	"E250200"	"191883007"	"295253017"	""	0
+
+"295142015"	"chronic alcoholism in remission"	"E2313"	"E231300"	"191813001"	"295142015"	""	0
+
+"295252010"	"nondependent alcohol abuse, continuous"	"E2501"	"E250100"	"191882002"	"295252010"	""	0
+
+"295141010"	"episodic chronic alcoholism"	"E2312"	"E231200"	"191812006"	"295141010"	""	0
+
+"342322012"	"very heavy drinker"	"136Q"	"136Q.00"	"228279004"	"342322012"	""	1
+
+"342421016"	"feels should cut down drinking"	"136b"	"136b.00"	"228362008"	"342421016"	""	0
+
+"342366014"	"binge drinker"	"136R"	"136R.00"	"228315001"	"342366014"	""	1
+
+"397729013"	"trivial drinker - <1u/day"	"1362"	"1362.00"	"266917007"	"397729013"	""	1
+
+"401797010"	"nondependent alcohol abuse"	"E250"	"E250.00"	"268645007"	"401797010"	""	0
+
+"342361016"	"drinks in morning to get rid of hangover"	"136Y"	"136Y.00"	"228310006"	"342361016"	""	0
+
+"1221271018"	"alcohol consumption"	"136"	"136..00"	"160573003"	"1221271018"	""	1
+
+"1484890014"	"referral to community alcohol team"	"8H7p"	"8H7p.00"	"390857005"	"1484890014"	""	0
+
+"500478011"	"alcohol dependence syndrome"	"E23"	"E23..00"	"66590003"	"500478011"	""	0
+
+"2474678017"	"alcohol disorder monitoring"	"66e"	"66e..00"	"413130000"	"2474678017"	""	0
+
+"2532935011"	"alcohol questionnaire completed"	"9k13"	"9k13.00"	"413475007"	"2532935011"	""	0
+
+"405461000000114"	"alcohol abuse monitoring"	"66e0"	"66e0.00"	"247721000000109"	"405461000000114"	""	0
+
+"476501000006115"	"alcohol intake"	"EGTON418"	""	"476501000006104"	"476501000006115"	""	0
+
+"492591000000114"	"alcohol screen - fast alcohol screening test completed"	"9k16"	"9k16.00"	"285411000000105"	"492591000000114"	""	0
+
+"622791000000112"	"single alcohol screening questionnaire"	"38D2"	"38D2.00"	"335781000000108"	"622791000000112"	""	0
+
+"622961000000116"	"referral to specialist alcohol treatment service"	"8HkG"	"8HkG.00"	"431260004"	"2768649019"	""	0
+
+"739501000000112"	"advised to contact primary care alcohol worker"	"8CAv"	"8CAv.00"	"375941000000101"	"739501000000112"	""	0
+
+"606991000000117"	"alcohol misuse"	"136W"	"136W.00"	"15167005"	"606991000000117"	""	0
+
+"851471000006110"	"alcohol audit score"	"EMISQAL1"	""	"851471000006106"	"851471000006110"	""	0
+
+"852161000006115"	"audit score >5 alcohol problem drinker"	"EMISQAU3"	""	"852161000006104"	"852161000006115"	""	0
+
+"852141000006119"	"audit score <4 no drinking problem"	"EMISQAU1"	""	"852141000006103"	"852141000006119"	""	0
+
+"852381000006110"	"alcohol reduction-maintain abstinence"	"EMISQAL2"	""	"852381000006106"	"852381000006110"	""	0
+
+"852411000006113"	"thinking about reducing alcohol"	"EMISQTH4"	""	"852411000006109"	"852411000006113"	""	0
+
+"852391000006113"	"not interested in reducing alcohol"	"EMISQNO6"	""	"852391000006109"	"852391000006113"	""	0
+
+"855971000006116"	"heart beat alcohol consumption"	"EGTONHE9"	""	"855971000006100"	"855971000006116"	""	0
+
+"852151000006117"	"audit score >5 alcohol dependence syndrome"	"EMISQAU2"	""	"852151000006101"	"852151000006117"	""	0
+
+"740641000000115"	"referral to alcohol brief intervention service"	"8HkJ"	"8HkJ.00"	"376401000000103"	"740641000000115"	""	0
+
+"299081000000114"	"harmful alcohol use"	"136T"	"136T.00"	"198431000000105"	"299081000000114"	""	1
+
+"882531000006110"	"non-dependent abuse of alcohol"	"E250-99"	"E250.99"	"268645007"	"882531000006110"	""	0
+
+"961571000006111"	"excessive use of alcohol"	"EMISCAB16"	""	"961571000006107"	"961571000006111"	""	0
+
+"923621000006117"	"health ed. - alcohol"	"PC0077"	""	"923621000006101"	"923621000006117"	""	0
+
+"855071000006115"	"grade a none drinker or rare"	"EGTONGR6"	""	"855071000006104"	"855071000006115"	""	0
+
+"940771000006119"	"alcohol consumption in the week before custody"	"HMPNQAL1"	""	"940771000006103"	"940771000006119"	""	0
+
+"983121000006115"	"misuse free - alcohol free"	"EMISNQMI185"	""	"983121000006104"	"983121000006115"	""	0
+
+"970411000006118"	"misuse of alcohol unspecified"	"EMISNQMI150"	""	"970411000006102"	"970411000006118"	""	0
+
+"970401000006116"	"misuse of mixture of alcohol"	"EMISNQMI149"	""	"970401000006100"	"970401000006116"	""	0
+
+"970391000006118"	"substance misuse of alcohol"	"EMISNQND25"	""	"970391000006102"	"970391000006118"	""	0
+
+"831091000006115"	"referral to alcohol abuse team"	"EMISQRE1"	""	"831091000006104"	"831091000006115"	""	0
+
+"831101000006114"	"referral to alcohol counsellor"	"EMISQRE2"	""	"831101000006105"	"831101000006114"	""	0
+
+"1127841000000113"	"breath alcohol level"	"4I91-1"	"4I91.11"	"1820004"	"1127841000000113"	""	0
+
+"1538911000006119"	"structured alcohol intervention"	"PCSQI96"	""	"1538911000006103"	"1538911000006119"	""	0
+
+"1675391000006112"	"referral by community alcohol team"	"EMISNQRE93"	""	"1675391000006108"	"1675391000006112"	""	0
+
+"1724531000000116"	"advised to abstain from alcohol consumption"	"8CAM0"	"8CAM000"	"704106009"	"3010632015"	""	0
+
+"1738421000000111"	"lower risk drinking"	"136d"	"136d.00"	"777671000000105"	"1738421000000111"	""	1
+
+"1738341000000110"	"increasing risk drinking"	"136a"	"136a.00"	"777631000000108"	"1738341000000110"	""	1
+
+"1738381000000119"	"higher risk drinking"	"136c"	"136c.00"	"777651000000101"	"1738381000000119"	""	1
+
+"1859541000006119"	"cage score - ever felt should cut down on drinking"	"EMISNQCA983"	""	"1859541000006103"	"1859541000006119"	""	0
+
+"1859571000006110"	"cage score - ever needed a drink in morning"	"EMISNQCA986"	""	"1859571000006106"	"1859571000006110"	""	0
+
+"1899501000006113"	"audit score - others concerned about drinking/suggest cut down"	"EMISNQAU128"	""	"1899501000006109"	"1899501000006113"	""	0
+
+"1899421000006119"	"audit score - units of alcohol drunk on a typical day"	"EMISNQAU120"	""	"1899421000006103"	"1899421000006119"	""	0
+
+"1899411000006110"	"audit score - frequency of drinking alcohol"	"EMISNQAU119"	""	"1899411000006106"	"1899411000006110"	""	0
+
+"1899461000006113"	"audit score - freq needs morning alcoholic drink in last year"	"EMISNQAU124"	""	"1899461000006109"	"1899461000006113"	""	0
+
+"1899471000006118"	"audit score-freq of guilt or remorse after drinking in last year"	"EMISNQAU125"	""	"1899471000006102"	"1899471000006118"	""	0
+
+"1899491000006117"	"audit score - injury to self/other as a result of drinking"	"EMISNQAU127"	""	"1899491000006101"	"1899491000006117"	""	0
+
+"1859561000006115"	"cage score - ever felt guilty about drinking"	"EMISNQCA985"	""	"1859561000006104"	"1859561000006115"	""	0
+
+"1932921000006118"	"alcohol problems questionnaire"	"EMISNQAL23"	""	"1932921000006102"	"1932921000006118"	""	0
+
+"1808611000006118"	"arep - alcohol rehabilitation education program"	"JHCAR24"	""	"1808611000006102"	"1808611000006118"	""	0
+
+"1956531000006110"	"keele enhance trial- anxiety/depression written advice - alcohol"	"EMISNQKE205"	""	"1956531000006106"	"1956531000006110"	""	0
+
+"1957791000006115"	"reduced alcohol intake"	"EMISNQRE532"	""	"1957791000006104"	"1957791000006115"	""	0
+
+"1974141000006118"	"mental and behav dis due to use alcohol: dependence syndr, episodic use [dipsomania]"	"EMISICD10|F1026"	""	"1974141000006102"	"1974141000006118"	""	0
+
+"1973811000006113"	"mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but in a protected environment"	"EMISICD10|F1021"	""	"1973811000006109"	"1973811000006113"	""	0
+
+"1974021000006112"	"mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but receiving treatment with aversive or blocking drugs"	"EMISICD10|F1023"	""	"1974021000006108"	"1974021000006112"	""	0
+
+"1974071000006113"	"mental and behav dis due to use alcohol: dependence syndr, currently using the substance [active dependence]"	"EMISICD10|F1024"	""	"1974071000006109"	"1974071000006113"	""	0
+
+"1973701000006119"	"mental and behav dis due to use alcohol: dependence syndr, currently abstinent"	"EMISICD10|F1020"	""	"1973701000006103"	"1973701000006119"	""	0
+
+"1974111000006117"	"mental and behav dis due to use alcohol: dependence syndr, continuous use"	"EMISICD10|F1025"	""	"1974111000006101"	"1974111000006117"	""	0
+
+"1859551000006117"	"cage score - annoyed by people criticising drinking"	"EMISNQCA984"	""	"1859551000006101"	"1859551000006117"	""	0
+
+"1899441000006114"	"audit score-freq unable to stop drinking when started in last yr"	"EMISNQAU122"	""	"1899441000006105"	"1899441000006114"	""	0
+
+"2368191000000112"	"witness to adult alcohol misuse"	"13Ho0"	"13Ho000"	"713054000"	"3287853018"	""	0
+
+"2419601000000110"	"specialist alcohol treatment service signposted"	"8CdK"	"8CdK.00"	"946101000000100"	"2419601000000110"	""	0
+
+"2007461000006118"	"srh care activity - alcohol brief intervention"	"EMISNQSR25"	""	"2007461000006102"	"2007461000006118"	""	0
+
+"1956481000006112"	"keele enhance trial - anxiety/depression verbal advice - alcohol"	"EMISNQKE200"	""	"1956481000006108"	"1956481000006112"	""	0
+
+"1806211000006115"	"unsuccessful attempts to reduce alcohol consumption"	"EMISNQUN23"	""	"1806211000006104"	"1806211000006115"	""	0
+
+"12878014"	"alcoholism"	"E23-1"	"E23..11"	"66590003"	"110629012"	""	0
+
+"2716771000000111"	"signposting to alcohol misuse service"	"ESCTSI66"	""	"1084171000000100"	"2716771000000111"	""	0
+
+"295251015"	"nondependent alcohol abuse, unspecified"	"E2500"	"E250000"	"268645007"	"401797010"	""	0
+
+"295136019"	"unspecified chronic alcoholism"	"E2310"	"E231000"	"66590003"	"110628016"	""	0
+
+"295143013"	"chronic alcoholism nos"	"E231z"	"E231z00"	"66590003"	"110629012"	""	0
+
+"295144019"	"alcohol dependence syndrome nos"	"E23z"	"E23z.00"	"66590003"	"500478011"	""	0
+
+"295255012"	"nondependent alcohol abuse nos"	"E250z"	"E250z00"	"268645007"	"401797010"	""	0
+
+"461112017"	"[v]alcohol abuse counselling and surveillance"	"ZV6D6"	"ZV6D600"	"24165007"	"1206287010"	""	0
+
+"461292011"	"[v]screening for alcoholism"	"ZV791"	"ZV79100"	"713107002"	"3288139019"	""	0
+
+"317636014"	"[d]alcohol blood level excessive"	"R103"	"R103.00"	"441685000"	"2817390013"	""	0
+
+"117761000006116"	"suspect alcohol abuse - denied"	"1369"	"1369.00"	"413968004"	"2534341013"	""	0
+
+"217461000000118"	"current non drinker"	"136M"	"136M.00"	"105542008"	"2659856015"	""	0
+
+"240741000006114"	"patient advised about alcohol"	"8CAM"	"8CAM.00"	"281078001"	"2871969016"	""	0
+
+"370971000006114"	"[x]chronic alcoholism"	"Eu102-2"	"Eu10212"	"66590003"	"110629012"	""	0
+
+"397881000006114"	"[x]mental and behav dis due to use of alcohol: harmful use"	"Eu101"	"Eu10100"	"15167005"	"25750014"	""	0
+
+"226571000000116"	"alcohol misuse - enhanced service completed"	"9k12"	"9k12.00"	"166471000000105"	"1154571000000110"	""	0
+
+"476421000006114"	"alcohol consumption screen"	"6892"	"6892.00"	"171208001"	"265301016"	""	0
+
+"476411000006118"	"alcohol consumption nos"	"136Z"	"136Z.00"	"160573003"	"1221271018"	""	1
+
+"362921000006118"	"[x]alcohol addiction"	"Eu102-1"	"Eu10211"	"66590003"	"500478011"	""	0
+
+"629811000006113"	"drinks occasionally"	"1362-2"	"1362.12"	"228276006"	"342318019"	""	1
+
+"587231000006111"	"non drinker alcohol"	"1361-1"	"1361.11"	"105542008"	"291352018"	""	1
+
+"476431000006112"	"alcohol consumption screen"	"68S"	"68S..00"	"171208001"	"265301016"	""	0
+
+"629821000006117"	"drinks rarely"	"1362-1"	"1362.11"	"266917007"	"397729013"	""	1
+
+"502017010"	"alcohol problem drinking"	"E23-2"	"E23..12"	"7200002"	"502017010"	""	0
+
+"1227802010"	"[v]medicolegal blood alcohol test"	"ZV704-1"	"ZV70411"	"171408004"	"265595016"	""	0
+
+"1590911000006113"	"alcohol screen - audit pc completed"	"9k18"	"9k18.00"	"285991000000109"	"493841000000113"	""	0
+
+"1590881000006113"	"alcohol screen - audit completed"	"9k15"	"9k15.00"	"285381000000108"	"492531000000113"	""	0
+
+"750721000000118"	"alcohol units consumed on heaviest drinking day"	"136X"	"136X.00"	"442547005"	"2819352010"	""	1
+
+"1680131000006113"	"extended intervention for excessive alcohol consumptn complt"	"9k1B"	"9k1B.00"	"366421000000103"	"691701000000115"	""	0
+
+"408548014"	"alcohol use disorders identification test"	"38D3"	"38D3.00"	"443280005"	"2837707014"	""	0
+
+"1590901000006110"	"alcohol screen - audit c completed"	"9k17"	"9k17.00"	"285441000000106"	"492651000000119"	""	0
+
+"460926018"	"[v]alcohol rehabilitation"	"ZV57A"	"ZV57A00"	"35637008"	"59452011"	""	0
+
+"346501000006111"	"[v]problems related to lifestyle alcohol use"	"ZV113-1"	"ZV11311"	"371422002"	"1210081015"	""	0
+
+"1659811000006114"	"alcoh use disor id test piccinelli consumption questionnaire"	"38D5"	"38D5.00"	"1087301000000103"	"2730501000000119"	""	0
+
+"556651000000116"	"alcohol units per week"	"136V"	"136V.00"	"1082641000000106"	"2713011000000113"	""	1
+
+"3122331000006110"	"patient referral for alcoholism rehabilitation"	"^ESCTPA312233"	""	"38670004"	"64351016"	""	0
+
+"538891000000111"	"fast alcohol screening test"	"388u"	"388u.00"	"1084601000000102"	"2717721000000114"	""	0
+
+"8461501000006110"	"assessment using audit-c (alcohol use disorders identification test - consumption)"	"^ESCTAS846150"	""	"1084571000000109"	"2717661000000111"	""	0
+
+"8461521000006117"	"assessment using fast (fast alcohol screening test)"	"^ESCTAS846152"	""	"1084591000000108"	"2717701000000117"	""	0
+
+"1168961000000110"	"five-shot questionnaire on heavy drinking"	"38Df"	"38Df.00"	"763106009"	"3700227010"	""	0
+
+"1660411000006112"	"alcohol use disorder identificatn test consumptn questionnre"	"38D4"	"38D4.00"	"763256006"	"3638304015"	""	0
+
+"397801000006117"	"[x]mental and behav dis due to use alcohol: dependence syndr"	"Eu102"	"Eu10200"	"66590003"	"500478011"	""	0
+
+"1899511000006111"	"audit-c score - frequency of drinking alcohol"	"EMISNQAU129"	""	"1899511000006107"	"1899511000006111"	""	0
+
+"250312016"	"light drinker - 1-2u/day"	"1363"	"1363.00"	"160575005"	"250312016"	""	1
+
+"295254011"	"nondependent alcohol abuse in remission"	"E2503"	"E250300"	"191884001"	"295254011"	""	0
+
+"295765017"	"[x]mental and behavioural disorders due to use of alcohol"	"Eu10"	"Eu10.00"	"29212009"	"48886010"	""	0
+
+"409424013"	"sadq - severity of alcohol dependence questionnaire"	"38Dz-1"	"38Dz.11"	"443504004"	"2839850016"	""	0
+
+"1973871000006116"	"mental and behav dis due to use alcohol: dependence syndr, currently on a clinically supervised maintenance or replacement regime [controlled dependence]"	"EMISICD10|F1022"	""	"1973871000006100"	"1973871000006116"	""	0
+
+"1899521000006115"	"audit-c score - units of alcohol drunk on a typical day"	"EMISNQAU130"	""	"1899521000006104"	"1899521000006115"	""	0
+
+"851931000006116"	"referral to alcohol recovery project"	"EMISQRE24"	""	"851931000006100"	"851931000006116"	""	0
+
+"250329018"	"ex-very heavy drinker-(>9u/d)"	"136E"	"136E.00"	"160587003"	"250329018"	""	1
+
+"250332015"	"beer drinker"	"136G"	"136G.00"	"160589000"	"250332015"	""	1
+
+"342320016"	"light drinker"	"136N"	"136N.00"	"228277002"	"342320016"	""	1
+
+"409423019"	"severity of alcohol dependence questionnaire"	"38Dz"	"38Dz.00"	"443504004"	"2839850016"	""	0
+
+"299061000000117"	"hazardous alcohol use"	"136S"	"136S.00"	"198421000000108"	"299061000000117"	""	1
+
+"852401000006110"	"ready to start reducing alcohol"	"EMISQRE13"	""	"852401000006106"	"852401000006110"	""	0
+
+"7382961000006113"	"assessment using alcohol use disorders identification test"	"^ESCTAS738296"	""	"450760003"	"2916998017"	""	0
+

@@ -1,0 +1,552 @@
+medcode	readterm	ethnicgroup	status	Source	CodeType
+25656	European origin	white	query	Shiekh	Ethnicity
+45125	African origin	black	NA	Shiekh	Ethnicity
+25801	Asian origin	asian	NA	Shiekh	Ethnicity
+41150	North American origin	white	NA	Shiekh	Ethnicity
+32101	South American origin	white	NA	Shiekh	Ethnicity
+47975	Australian origin	white	NA	Shiekh	Ethnicity
+45144	Indian origin	asian	NA	Shiekh	Ethnicity
+47951	Middle Eastern origin	other	NA	Shiekh	Ethnicity
+47960	Far Eastern origin	other	query	Shiekh	Ethnicity
+45131	West Indian origin	black	NA	Shiekh	Ethnicity
+12191	RACE: Caucasian	white	NA	Shiekh	Ethnicity
+12875	RACE: Arab	other	NA	Shiekh	Ethnicity
+32224	RACE: Chinese	asian	NA	Shiekh	Ethnicity
+45163	RACE: Japanese	asian	NA	Shiekh	Ethnicity
+41394	RACE: Korean	asian	NA	Shiekh	Ethnicity
+41200	RACE: Oriental	asian	NA	Shiekh	Ethnicity
+25894	RACE: Afro-caribbean	black	NA	Shiekh	Ethnicity
+26348	RACE: Bangladeshi	asian	NA	Shiekh	Ethnicity
+30408	RACE: Mixed	mixed	NA	Shiekh	Ethnicity
+32095	RACE: West indian	black	NA	Shiekh	Ethnicity
+45167	RACE: Afro-caucasian	mixed	NA	Shiekh	Ethnicity
+26062	RACE: Pakistani	asian	NA	Shiekh	Ethnicity
+25550	RACE: White	white	NA	Shiekh	Ethnicity
+22953	RACE: Unknown	unknown	NA	Shiekh	Ethnicity
+46137	RACE: Not stated	not stated	NA	Shiekh	Ethnicity
+32391	RACE: Other	other	NA	Shiekh	Ethnicity
+60284	O/E - ethnic group NOS	not stated	NA	Shiekh	Ethnicity
+93749	Patient ethnicity unknown	unknown	NA	Shiekh	Ethnicity
+22467	White	white	NA	Shiekh	Ethnicity
+12446	White British	white	NA	Shiekh	Ethnicity
+24837	White Irish	white	NA	Shiekh	Ethnicity
+12444	Other white ethnic group	white	NA	Shiekh	Ethnicity
+26467	White Scottish	white	NA	Shiekh	Ethnicity
+26310	Other white British ethnic group	white	NA	Shiekh	Ethnicity
+12632	Black Caribbean	black	NA	Shiekh	Ethnicity
+12778	Black African	black	NA	Shiekh	Ethnicity
+24339	"Black, other, non-mixed origin"	black	NA	Shiekh	Ethnicity
+12452	Black British	black	NA	Shiekh	Ethnicity
+57435	Black Caribbean/W.I./Guyana	black	NA	Shiekh	Ethnicity
+47950	Black Caribbean	black	NA	Shiekh	Ethnicity
+47997	Black West Indian	black	NA	Shiekh	Ethnicity
+32100	Black Guyana	black	NA	Shiekh	Ethnicity
+41329	Black N African/Arab/Iranian	black	NA	Shiekh	Ethnicity
+46812	Black North African	black	NA	Shiekh	Ethnicity
+57752	Black Arab	black	query	Shiekh	Ethnicity
+50286	Black Iranian	black	query	Shiekh	Ethnicity
+35412	Black - other African country	black	NA	Shiekh	Ethnicity
+47965	Black E Afric Asia/Indo-Caribb	black	NA	Shiekh	Ethnicity
+57753	Black East African Asian	black	query	Shiekh	Ethnicity
+57763	Black Indo-Caribbean	black	query	Shiekh	Ethnicity
+48005	Black Indian sub-continent	black	query	Shiekh	Ethnicity
+35350	Black - other Asian	mixed	NA	Shiekh	Ethnicity
+26312	Black Black - other	black	NA	Shiekh	Ethnicity
+25676	"Black - other, mixed"	black	query	Shiekh	Ethnicity
+25623	Other Black - Black/White orig	mixed	NA	Shiekh	Ethnicity
+32165	Other Black - Black/Asian orig	mixed	NA	Shiekh	Ethnicity
+12482	Indian	asian	NA	Shiekh	Ethnicity
+24690	Pakistani	asian	NA	Shiekh	Ethnicity
+24740	Bangladeshi	asian	NA	Shiekh	Ethnicity
+24272	Chinese	asian	NA	Shiekh	Ethnicity
+30280	Other ethnic non-mixed (NMO)	other	NA	Shiekh	Ethnicity
+32110	Brit. ethnic minor. spec.(NMO)	non-white	query	Shiekh	Ethnicity
+57764	Brit. ethnic minor. unsp (NMO)	non-white	query	Shiekh	Ethnicity
+54593	Caribbean I./W.I./Guyana (NMO)	black	NA	Shiekh	Ethnicity
+57094	Caribbean Island (NMO)	black	NA	Shiekh	Ethnicity
+57075	West Indian (NMO)	black	NA	Shiekh	Ethnicity
+93144	Guyana (NMO)	black	NA	Shiekh	Ethnicity
+24962	N African Arab/Iranian (NMO)	other	query	Shiekh	Ethnicity
+47285	North African Arab (NMO)	other	query	Shiekh	Ethnicity
+25082	Iranian (NMO)	other	NA	Shiekh	Ethnicity
+47969	Other African countries (NMO)	black	query	Shiekh	Ethnicity
+38097	E Afric Asian/Indo-Carib (NMO)	mixed	query	Shiekh	Ethnicity
+46818	East African Asian (NMO)	asian	query	Shiekh	Ethnicity
+99316	Indo-Caribbean (NMO)	black	query	Shiekh	Ethnicity
+39696	Indian sub-continent (NMO)	asian	NA	Shiekh	Ethnicity
+26379	Other Asian (NMO)	asian	NA	Shiekh	Ethnicity
+24270	Irish (NMO)	white	NA	Shiekh	Ethnicity
+45947	Greek/Greek Cypriot (NMO)	white	NA	Shiekh	Ethnicity
+45955	Greek (NMO)	white	NA	Shiekh	Ethnicity
+47949	Greek Cypriot (NMO)	white	NA	Shiekh	Ethnicity
+32066	Turkish/Turkish Cypriot (NMO)	NA	NA	Shiekh	Ethnicity
+32126	Turkish (NMO)	NA	NA	Shiekh	Ethnicity
+32069	Turkish Cypriot (NMO)	NA	NA	Shiekh	Ethnicity
+12633	Other European (NMO)	white	NA	Shiekh	Ethnicity
+41214	Other ethnic NEC (NMO)	white	NA	Shiekh	Ethnicity
+12696	"Other ethnic, mixed origin"	mixed	NA	Shiekh	Ethnicity
+47401	"Other ethnic, Black/White orig"	mixed	NA	Shiekh	Ethnicity
+32401	"Other ethnic, Asian/White orig"	mixed	NA	Shiekh	Ethnicity
+35459	"Other ethnic, mixed white orig"	mixed	NA	Shiekh	Ethnicity
+32420	"Other ethnic, other mixed orig"	mixed	NA	Shiekh	Ethnicity
+32425	Black Caribbean and White	mixed	NA	Shiekh	Ethnicity
+32443	Black African and White	mixed	NA	Shiekh	Ethnicity
+25411	Vietnamese	asian	NA	Shiekh	Ethnicity
+12429	Ethnic group not given - patient refused	not stated	NA	Shiekh	Ethnicity
+24340	Ethnic group not recorded	unknown	NA	Shiekh	Ethnicity
+32136	Other black ethnic group	black	NA	Shiekh	Ethnicity
+12668	Other Asian ethnic group	asian	NA	Shiekh	Ethnicity
+47601	Irish traveller	white	NA	Shiekh	Ethnicity
+12757	Other ethnic group	other	NA	Shiekh	Ethnicity
+45199	Ethnic groups (census) NOS	not stated	NA	Shiekh	Ethnicity
+57286	New Zealand European	white	NA	Shiekh	Ethnicity
+85509	Pakeha	white	NA	Shiekh	Ethnicity
+85505	Other European in New Zealand	white	NA	Shiekh	Ethnicity
+32479	New Zealand Maori	other	NA	Shiekh	Ethnicity
+64610	Samoan	other	NA	Shiekh	Ethnicity
+89910	Cook Island Maori	other	NA	Shiekh	Ethnicity
+60837	Tongan	other	NA	Shiekh	Ethnicity
+55584	Niuean	other	NA	Shiekh	Ethnicity
+25434	Tokelauan	other	NA	Shiekh	Ethnicity
+64609	Fijian	other	NA	Shiekh	Ethnicity
+46752	Other Pacific ethnic group	other	NA	Shiekh	Ethnicity
+46649	South East Asian	asian	NA	Shiekh	Ethnicity
+12718	Chinese	asian	NA	Shiekh	Ethnicity
+25920	Indian	asian	NA	Shiekh	Ethnicity
+32396	Other Asian	asian	NA	Shiekh	Ethnicity
+96789	Other New Zealand ethnic group	other	NA	Shiekh	Ethnicity
+71425	New Zealand ethnic group NOS	white	NA	Shiekh	Ethnicity
+32781	Traveller - gypsy	white	NA	Shiekh	Ethnicity
+94487	Yemeni	other	NA	Shiekh	Ethnicity
+99808	Romanian	white	NA	Shiekh	Ethnicity
+99788	Bulgarian	white	NA	Shiekh	Ethnicity
+100143	Czech	white	NA	Shiekh	Ethnicity
+101787	Slovak	white	NA	Shiekh	Ethnicity
+101219	Portuguese	white	NA	Shiekh	Ethnicity
+101162	Nepali	asian	NA	Shiekh	Ethnicity
+12351	British or mixed British - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+98111	White British - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12532	Irish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+98213	White Irish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12421	Other White background - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12352	English - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12436	Scottish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12681	Welsh - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+28887	Cornish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+42294	Northern Irish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+40102	Ulster Scots - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+32778	Cypriot (part not stated) - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12355	Greek - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12769	Greek Cypriot - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12746	Turkish - ethnic category 2001 census	NA	NA	Shiekh	Ethnicity
+32413	Turkish Cypriot - ethnic category 2001 census	NA	NA	Shiekh	Ethnicity
+12412	Italian - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+55223	Irish Traveller - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+55113	Traveller - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+42290	Gypsy/Romany - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12467	Polish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12433	Baltic Estonian/Latvian/Lithuanian - ethn categ 2001 census	white	NA	Shiekh	Ethnicity
+26341	Kosovan - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+25422	Albanian - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+46956	Bosnian - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+28866	Croatian - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+47074	Serbian - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+28936	Other republics former Yugoslavia - ethnic categ 2001 census	white	NA	Shiekh	Ethnicity
+26391	Mixed Irish and other White - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12402	Oth White European/European unsp/Mixed European 2001 census	white	NA	Shiekh	Ethnicity
+28900	Other mixed White - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12591	Other White or White unspecified ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12742	White and Black Caribbean - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+12437	White and Black African - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+12638	White and Asian - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+12873	Other Mixed background - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+12795	Black and Asian - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+49940	Black and Chinese - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+40110	Black and White - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+12706	Chinese and White - ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+47005	Asian and Chinese - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+32408	Other Mixed or Mixed unspecified ethnic category 2001 census	mixed	NA	Shiekh	Ethnicity
+12414	Indian or British Indian - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12460	Pakistani or British Pakistani - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+28888	Bangladeshi or British Bangladeshi - ethn categ 2001 census	asian	NA	Shiekh	Ethnicity
+12513	Other Asian background - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+26392	Punjabi - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+64133	Kashmiri - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+47077	East African Asian - ethnic category 2001 census	asian	query	Shiekh	Ethnicity
+12608	Sri Lankan - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12760	Tamil - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12887	Sinhalese - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+32399	Caribbean Asian - ethnic category 2001 census	asian	query	Shiekh	Ethnicity
+12653	British Asian - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+46056	Mixed Asian - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+28935	Other Asian or Asian unspecified ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12432	Caribbean - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+12350	African - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+32389	Other Black background - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+12443	Somali - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+32886	Nigerian - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+40097	Black British - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+40096	Mixed Black - ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+46047	Other Black or Black unspecified ethnic category 2001 census	black	NA	Shiekh	Ethnicity
+12468	Chinese - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12434	Other - ethnic category 2001 census	other	NA	Shiekh	Ethnicity
+12719	Vietnamese - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12473	Japanese - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12420	Filipino - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+12730	Malaysian - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+63872	Buddhist - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+56127	Hindu - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+46063	Jewish - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+47091	Muslim - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+49658	Sikh - ethnic category 2001 census	asian	NA	Shiekh	Ethnicity
+46059	Arab - ethnic category 2001 census	other	NA	Shiekh	Ethnicity
+47028	North African - ethnic category 2001 census	other	query	Shiekh	Ethnicity
+46964	Israeli - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+25937	Iranian - ethnic category 2001 census	other	NA	Shiekh	Ethnicity
+45964	Kurdish - ethnic category 2001 census	other	NA	Shiekh	Ethnicity
+25451	Moroccan - ethnic category 2001 census	other	NA	Shiekh	Ethnicity
+26246	Latin American - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+12756	South and Central American - ethnic category 2001 census	white	NA	Shiekh	Ethnicity
+32382	Mauritian/Seychellois/Maldivian/St Helena eth cat 2001census	other	NA	Shiekh	Ethnicity
+26455	Any other group - ethnic category 2001 census	other	NA	Shiekh	Ethnicity
+12459	Ethnic category not stated - 2001 census	not stated	NA	Shiekh	Ethnicity
+110556	White: Irish - England and Wales ethnic category 2011 census	white	NA	Shiekh	Ethnicity
+110407	White: other White backgrd- Eng+Wales ethnic cat 2011 census	white	NA	Shiekh	Ethnicity
+110652	Mixed: White+Asian - Eng+Wales ethnic category 2011 census	mixed	NA	Shiekh	Ethnicity
+110477	Asian/Asian Brit: Indian - Eng+Wales ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110922	Asian/Asian Brit: Chinese - Eng+Wales ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110555	Other ethnic group: Arab - Eng+Wales ethnic cat 2011 census	other	NA	Shiekh	Ethnicity
+110742	Other ethnic: any other grp - Eng+Wales eth cat 2011 census	other	NA	Shiekh	Ethnicity
+112899	White - Northern Ireland ethnic category 2011 census	white	NA	Shiekh	Ethnicity
+110661	Mixed: White and Black Caribbean - NI ethnic cat 2011 census	mixed	NA	Shiekh	Ethnicity
+110651	Mixed: White and Black African - NI ethnic cat 2011 census	mixed	NA	Shiekh	Ethnicity
+110471	Mixed: White and Asian - NI ethnic category 2011 census	mixed	NA	Shiekh	Ethnicity
+110536	Mixed: other Mixed/multiple ethnic backgrd - NI 2011 census	mixed	NA	Shiekh	Ethnicity
+110422	Asian or Asian British: Indian - NI ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110538	Asian/Asian British: Pakistani - NI ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110720	Asian/Asian British: Bangladeshi - NI ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+112363	Asian/Asian British: Chinese - NI ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110425	Asian/Asian British: other Asian - NI ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110780	Other ethnic group: Arab - NI ethnic category 2011 census	other	NA	Shiekh	Ethnicity
+110646	Other ethnic group: any other grp- NI ethnic cat 2011 census	other	NA	Shiekh	Ethnicity
+110432	White: Scottish - Scotland ethnic category 2011 census	white	NA	Shiekh	Ethnicity
+110694	White: other British - Scotland ethnic category 2011 census	white	NA	Shiekh	Ethnicity
+110687	White: Irish - Scotland ethnic category 2011 census	white	NA	Shiekh	Ethnicity
+113253	White: Gypsy/Irish Traveller - Scotland ethnic cat 2011 cens	white	NA	Shiekh	Ethnicity
+110465	White: Polish - Scotland ethnic category 2011 census	white	NA	Shiekh	Ethnicity
+110695	White: other White ethnic grp- Scotland ethnic cat 2011 cens	white	NA	Shiekh	Ethnicity
+110696	Mixed/multiple ethnic grps: any- Scot ethnic cat 2011 census	mixed	NA	Shiekh	Ethnicity
+111064	Asian: Chinese - Scotland ethnic category 2011 census	asian	NA	Shiekh	Ethnicity
+110855	Asian: other Asian group - Scotland ethnic cat 2011 census	asian	NA	Shiekh	Ethnicity
+110655	African: any other African - Scotland ethnic cat 2011 census	black	NA	Shiekh	Ethnicity
+112245	Other ethnic grp: Arab/Arab Scot/Arab British- Scotland 2011	other	NA	Shiekh	Ethnicity
+111806	Other ethnic grp: any other ethnic grp- Scotland 2011 census	other	NA	Shiekh	Ethnicity
+110420	White:Eng/Welsh/Scot/NI/Brit - England and Wales 2011 census	white	NA	Naomi	Ethnicity
+110421	Mixed: White+Black African - Eng+Wales eth cat 2011 census	mixed	NA	Naomi	Ethnicity
+110436	Black/African/Caribbn/Black Brit: Caribbean - Eng+Wales 2011	black	NA	Naomi	Ethnicity
+110437	Black/African/Carib/Black Brit: African- Eng+Wales 2011 cens	black	NA	Naomi	Ethnicity
+110445	Mixed: White+Black Caribbean - Eng+Wales eth cat 2011 census	mixed	NA	Naomi	Ethnicity
+110460	Asian: Pakistani/Pakistani Scot/Pakistani Brit- Scot 2011	asian	NA	Naomi	Ethnicity
+110464	Asian/Asian British:Pakistani- Eng+Wales eth cat 2011 census	asian	NA	Naomi	Ethnicity
+110540	Black/Afr/Carib/Black Brit: other Black- Eng+Wales 2011 cens	black	NA	Naomi	Ethnicity
+110590	Asian/Asian Brit: Bangladeshi- Eng+Wales eth cat 2011 census	asian	NA	Naomi	Ethnicity
+110630	Black/Afri/Carib/Black Brit: African- NI eth cat 2011 census	black	NA	Naomi	Ethnicity
+110654	Mixed: other Mixed/multiple backgrd - Eng+Wales 2011 census	mixed	NA	Naomi	Ethnicity
+110779	Black/Afri/Carib/Black Brit: Caribbean- NI eth cat 2011 cens	black	NA	Naomi	Ethnicity
+111059	African: African/African Scot/African Brit - Scotland 2011	black	NA	Naomi	Ethnicity
+111297	Hungarian Roma	white	NA	Naomi	Ethnicity
+111368	"Asian: Indian, Indian Scot/Indian Brit- Scotland 2011 census"	asian	NA	Naomi	Ethnicity
+111386	White: Gypsy/Irish Traveller - Eng+Wales eth cat 2011 census	white	NA	Naomi	Ethnicity
+111609	Romanian roma	white	NA	Naomi	Ethnicity
+111704	Polish roma	white	NA	Naomi	Ethnicity
+111743	Asian/Asian Brit: other Asian- Eng+Wales eth cat 2011 census	asian	NA	Naomi	Ethnicity
+111792	Bulgarian Roma	white	NA	Naomi	Ethnicity
+111822	Roma ethnic group	white	NA	Naomi	Ethnicity
+111880	Black/Afri/Carib/Black Brit: other - NI eth cat 2011 census	black	NA	Naomi	Ethnicity
+112216	Carib/Black: any other Black/Caribbean grp - Scotland 2011	black	NA	Naomi	Ethnicity
+112225	"Bangladeshi, Bangladeshi Scot or Bangladeshi Brit- Scot 2011"	asian	NA	Naomi	Ethnicity
+112649	Carib/Black: Black/Black Scot/Black Brit- Scotland 2011 cens	black	NA	Naomi	Ethnicity
+112662	Slovak roma	white	NA	Naomi	Ethnicity
+112719	Czech Roma	white	NA	Naomi	Ethnicity
+24404	O/E - Negroid	black	NA	Naomi	Ethnicity
+24945	O/E - Europeanoid	white	NA	Naomi	Ethnicity
+28909	"Mid East (excl Israeli, Iranian & Arab) - eth cat 2001 cens"	other	NA	Naomi	Ethnicity
+28973	Commonwealth (Russian) Indep States - ethn categ 2001 census	white	NA	Naomi	Ethnicity
+32132	O/E - Asian origin	asian	NA	Naomi	Ethnicity
+45008	New Zealand ethnic groups	other	query	Naomi	Ethnicity
+66536	O/E - Mongoloid origin	asian	NA	Naomi	Ethnicity
+90712	O/E - Australoid	other	NA	Naomi	Ethnicity
+24881	Main spoken language Polish	white	NA	Direct	Language
+26361	Main spoken language Urdu	asian	NA	Direct	Language
+25829	Main spoken language Punjabi	asian	NA	Direct	Language
+26337	Main spoken language Arabic	unknown	NA	Direct	Language
+25665	Main spoken language French	unknown	NA	Direct	Language
+32728	Main spoken language Portuguese	unknown	NA	Direct	Language
+26247	Main spoken language Spanish	unknown	NA	Direct	Language
+96152	Main spoken language Romanian	white	NA	Direct	Language
+25802	Main spoken language Bengali	asian	NA	Direct	Language
+46861	Main spoken language Tamil	asian	NA	Direct	Language
+36980	Main spoken language Italian	unknown	NA	Direct	Language
+22294	Main spoken language Turkish	NA	NA	Direct	Language
+32427	Main spoken language Russian	white	NA	Direct	Language
+48002	Main spoken language Gujerati	asian	NA	Direct	Language
+46029	Main spoken language Hindi	asian	NA	Direct	Language
+32456	Main spoken language Somali	black	NA	Direct	Language
+95978	Main spoken language Nepali	asian	NA	Direct	Language
+47630	Main spoken language German	unknown	NA	Direct	Language
+47029	Main spoken language Farsi	unknown	too much overlap between mixed and other if this is used	Direct	Language
+32776	Main spoken language Mandarin	asian	NA	Direct	Language
+26464	Main spoken language Czech	unknown	NA	Direct	Language
+100013	Main spoken language Slovak	unknown	NA	Direct	Language
+25472	Main spoken language Cantonese	asian	NA	Direct	Language
+96041	Main spoken language Hungarian	unknown	NA	Direct	Language
+95897	Main spoken language Bulgarian	white	NA	Direct	Language
+25616	Main spoken language Malayalam	asian	NA	Direct	Language
+46014	Main spoken language Kurdish	other	NA	Direct	Language
+46974	Main spoken language Greek	unknown	NA	Direct	Language
+54415	Main spoken language Korean	asian	NA	Direct	Language
+54409	Main spoken language Yoruba	black	NA	Direct	Language
+24691	Language Urdu	asian	NA	Direct	Language
+95940	Main spoken language Latvian	white	NA	Direct	Language
+58643	Main spoken language Pashto	asian	NA	Direct	Language
+47631	Main spoken language Tagalog	asian	NA	Direct	Language
+24295	Language Punjabi	asian	NA	Direct	Language
+36852	Main spoken language Japanese	asian	NA	Direct	Language
+54414	Main spoken language Dutch	unknown	NA	Direct	Language
+54417	Main spoken language Swedish	unknown	NA	Direct	Language
+24296	Language Hindi	asian	NA	Direct	Language
+25609	Main spoken language Thai	asian	NA	Direct	Language
+24712	Language Gujurati	asian	NA	Direct	Language
+56977	Main spoken language Welsh	unknown	NA	Direct	Language
+47627	Main spoken language Sylheti	asian	NA	Direct	Language
+26078	Main spoken language Shona	black	NA	Direct	Language
+26335	Main spoken language Vietnamese	asian	NA	Direct	Language
+47644	Main spoken language Tigrinya	black	NA	Direct	Language
+47641	Main spoken language Swahili	black	NA	Direct	Language
+47643	Main spoken language Sinhala	asian	NA	Direct	Language
+96223	Main spoken language Twi	black	NA	Direct	Language
+24741	Language Bengali	asian	NA	Direct	Language
+96163	Main spoken language Telugu	asian	NA	Direct	Language
+98285	Main spoken language Filipino	asian	NA	Direct	Language
+54452	Interpreter needed - Polish	white	NA	Direct	Language
+47646	Main spoken language Igbo	black	NA	Direct	Language
+47628	Main spoken language Amharic	black	NA	Direct	Language
+57758	Main spoken language Norwegian	unknown	NA	Direct	Language
+66685	Main spoken language Ukrainian	white	NA	Direct	Language
+101220	Main spoken language Dari	other	NA	Direct	Language
+26196	Language Pashtu	asian	NA	Direct	Language
+96147	Main spoken language Panjabi	asian	NA	Direct	Language
+95970	Main spoken language Persian	other	NA	Direct	Language
+52200	Mirpuri language	asian	NA	Direct	Language
+96376	Main spoken language Malay	asian	NA	Direct	Language
+96148	Main spoken language Afrikaans	unknown	NA	Direct	Language
+47007	Main spoken language French Creole	black	NA	Direct	Language
+54410	Main spoken language Croatian	unknown	NA	Direct	Language
+95974	Main spoken language Sinhalese	asian	NA	Direct	Language
+36862	Main spoken language Serbian	unknown	NA	Direct	Language
+96289	Main spoken language Danish	unknown	NA	Direct	Language
+57477	Interpreter needed - Arabic	unknown	NA	Direct	Language
+96560	Main spoken language Finnish	unknown	NA	Direct	Language
+96267	Main spoken language Marathi	asian	NA	Direct	Language
+46973	Main spoken language Lingala	black	NA	Direct	Language
+57755	Main spoken language Hebrew	white	NA	Direct	Language
+95731	Interpreter needed - Mandarin	asian	NA	Direct	Language
+93894	Interpreter needed - Spanish	unknown	NA	Direct	Language
+93984	Interpreter needed - Korean	asian	NA	Direct	Language
+89440	Interpreter needed - Turkish	NA	NA	Direct	Language
+47086	Interpreter needed - Farsi	unknown	too much overlap between mixed and other if this is used	Direct	Language
+97784	Interpreter needed - Bengali	asian	NA	Direct	Language
+96559	Main spoken language Burmese	asian	NA	Direct	Language
+97274	Main spoken language Indonesian	asian	NA	Direct	Language
+95156	Interpreter needed - Cantonese	asian	NA	Direct	Language
+96857	Main spoken language Oromo	black	NA	Direct	Language
+96055	Interpreter needed - Russian	white	NA	Direct	Language
+94048	Interpreter needed - Somali	black	NA	Direct	Language
+96290	Main spoken language Armenian	other	NA	Direct	Language
+100777	Uses British Sign Language interpreter	NA	NA	Direct	Language
+89462	Interpreter needed - British Sign Language	NA	NA	Direct	Language
+25410	Vietnamese language	asian	NA	Direct	Language
+96873	Main spoken language Zulu	black	NA	Direct	Language
+63704	General observations of language and communication	NA	NA	Direct	Language
+97831	Interpreter needed - Urdu	asian	NA	Direct	Language
+97298	Persian language interpreter needed	other	NA	Direct	Language
+86375	Interpreter needed - Kurdish	other	NA	Direct	Language
+90451	Interpreter needed - Czech	unknown	NA	Direct	Language
+62049	Interpreter needed - French	unknown	NA	Direct	Language
+69139	Main spoken language Ethiopian	black	NA	Direct	Language
+57462	Creole language	black	NA	Direct	Language
+97644	Bulgarian language interpreter needed	white	NA	Direct	Language
+97440	Main spoken language Romansh	unknown	NA	Direct	Language
+101814	Punjabi language interpreter needed	asian	NA	Direct	Language
+109896	Main spoken language Gujarati	asian	NA	Direct	Language
+98604	Main spoken language Icelandic	NA	NA	Direct	Language
+96505	Interpreter needed - Tamil	asian	NA	Direct	Language
+97997	Main spoken language Catalan	unknown	NA	Direct	Language
+43892	Speech and language dyspraxias	NA	NA	Direct	Language
+97595	Main spoken language Kazakh	other	NA	Direct	Language
+96558	Main spoken language Tibetan	asian	NA	Direct	Language
+97083	Main spoken language Azerbaijani	NA	NA	Direct	Language
+101038	Main spoken language Konkani	asian	NA	Direct	Language
+100714	Main spoken language Fijian	other	NA	Direct	Language
+96898	Interpreter needed - Panjabi	asian	NA	Direct	Language
+64391	Main spoken language Gaelic	white	NA	Direct	Language
+104886	Main spoken language Ndebele	black	NA	Direct	Language
+96868	Main spoken language Afar	black	NA	Direct	Language
+96033	Interpreter needed - Gujarati	asian	NA	Direct	Language
+96034	Interpreter needed - Hindi	asian	NA	Direct	Language
+98215	Main spoken language Moldavian	unknown	NA	Direct	Language
+98450	Interpreter needed - Pashto	asian	NA	Direct	Language
+97830	Interpreter needed - Vietnamese	asian	NA	Direct	Language
+104635	Latvian language interpreter needed	white	NA	Direct	Language
+97131	Main spoken language Sundanese	asian	NA	Direct	Language
+97015	Main spoken language Kashmiri	asian	NA	Direct	Language
+33003	Linguist/interpreter	NA	NA	Direct	Language
+98070	Main spoken language Guarani	NA	NA	Direct	Language
+100439	Interpreter needed - Japanese	asian	NA	Direct	Language
+100707	Main spoken language Faeroese	unknown	NA	Direct	Language
+102184	Main spoken language Abkhazian	NA	NA	Direct	Language
+97789	Main spoken language Esperanto	unknown	NA	Direct	Language
+47976	Language development regime	NA	NA	Direct	Language
+103979	Interpreter needed - Welsh	unknown	NA	Direct	Language
+98176	Interpreter needed - Thai	asian	NA	Direct	Language
+97041	Main spoken language Turkmen	other	NA	Direct	Language
+96589	Interpreter needed - Makaton Sign Language	NA	NA	Direct	Language
+99794	Tsonga language interpreter needed	black	NA	Direct	Language
+99710	Interpreter needed - Greek	NA	NA	Direct	Language
+99334	Interpreter needed - Swahili	black	NA	Direct	Language
+92228	Unable to use language	NA	NA	Direct	Language
+96634	Main spoken language Tongan	other	NA	Direct	Language
+105529	Main spoken language Aragonese	NA	NA	Direct	Language
+70154	Multilevel informal language inventory	NA	NA	Direct	Language
+101564	Interpreter needed - German	unknown	NA	Direct	Language
+96317	Main spoken language Quechua	NA	NA	Direct	Language
+97439	Main spoken language Southern Sotho	NA	NA	Direct	Language
+104071	Main spoken language Bamun	NA	NA	Direct	Language
+98132	Main spoken language Lao	NA	NA	Direct	Language
+98947	Interpreter needed - Malayalam	NA	NA	Direct	Language
+100011	Main spoken language Javanese	NA	NA	Direct	Language
+103219	Main spoken language Samoan	NA	NA	Direct	Language
+90194	Restricted receptive language development	NA	NA	Direct	Language
+98510	Main spoken language Kalaallisut	NA	NA	Direct	Language
+104461	Interpreter needed - Dutch	unknown	NA	Direct	Language
+99712	Main spoken language Uighur	asian	NA	Direct	Language
+101620	Main spoken language Malagasy	NA	NA	Direct	Language
+105960	Main spoken language Tajik	NA	NA	Direct	Language
+103197	Interpreter needed - Sinhala	asian	NA	Direct	Language
+98762	Main spoken language Aymara	other	NA	Direct	Language
+61015	Speech and language breathing exercises	NA	NA	Direct	Language
+67235	PALPA - Psycholinguistic assess of language proc in aphasia	NA	NA	Direct	Language
+111874	Main spoken language Yiddish	NA	NA	Direct	Language
+89433	Interpreter needed - Norwegian	NA	NA	Direct	Language
+96474	Interpreter needed - Ukrainian	white	NA	Direct	Language
+103102	Interpreter needed - Hebrew	white	NA	Direct	Language
+97323	Interpreter needed - Tagalog	asian	NA	Direct	Language
+90291	Interpreter needed - Sylheti	NA	NA	Direct	Language
+101788	Main spoken language Corsican	unknown	NA	Direct	Language
+111734	Main spoken language Nauru	other	NA	Direct	Language
+94198	Ability to use language	NA	NA	Direct	Language
+112222	Sundanese language interpreter needed	asian	NA	Direct	Language
+103200	Main spoken language Frisian	NA	NA	Direct	Language
+100949	Main spoken language Bihari	NA	NA	Direct	Language
+97147	Carrow elicited language inventory	NA	NA	Direct	Language
+105523	Main spoken language Tetum	NA	NA	Direct	Language
+97685	Main spoken language Tsonga	black	NA	Direct	Language
+57959	Hanen programme of language development	NA	NA	Direct	Language
+111788	Moldavian language interpreter needed	NA	NA	Direct	Language
+112321	Main spoken language Tatar	NA	NA	Direct	Language
+100743	Main spoken language Galician	NA	NA	Direct	Language
+96858	Main spoken language Occitan	unknown	NA	Direct	Language
+98255	Main spoken language Maori	other	NA	Direct	Language
+66450	Derbyshire language scheme	NA	NA	Direct	Language
+100716	Main spoken language Inuktitut	NA	NA	Direct	Language
+98062	Burmese language interpreter needed	asian	NA	Direct	Language
+101614	Telugu language interpreter needed	NA	NA	Direct	Language
+94143	Observations of use and content of language	NA	NA	Direct	Language
+104678	Oromo language interpreter needed	NA	NA	Direct	Language
+102128	Main spoken language Breton	NA	NA	Direct	Language
+73292	General language stimulation	NA	NA	Direct	Language
+110806	Does not understand verbal language	NA	NA	Direct	Language
+111739	Visual frame sign language interpreter needed	NA	NA	Direct	Language
+112961	Armenian language interpreter needed	NA	NA	Direct	Language
+105079	Catalan language interpreter needed	NA	NA	Direct	Language
+109167	Mount Wilga high level language screening assessment	NA	NA	Direct	Language
+106989	Social use of language programme	NA	NA	Direct	Language
+113132	Inuktitut language interpreter needed	NA	NA	Direct	Language
+111303	Romansh language interpreter needed	NA	NA	Direct	Language
+102007	Main spoken language Greenlandic	NA	NA	Direct	Language
+102127	Main spoken language Dzongkha	NA	NA	Direct	Language
+111820	Ethiopian language interpreter needed	black	NA	Direct	Language
+104901	Brawa language interpreter needed	black	NA	Direct	Language
+111679	Sign Supported English interpreter needed	NA	NA	Direct	Language
+100218	Interpreter needed - Igbo	NA	NA	Direct	Language
+110839	Interpreter needed - French Creole	black	NA	Direct	Language
+112690	Hands-on signing interpreter needed	NA	NA	Direct	Language
+46325	Main spoken language Lithuanian	white	NA	NA	Language
+25423	Main spoken language Albanian	white	NA	NA	Language
+96230	Main spoken language Slovenian	unknown	NA	NA	Language
+69153	Main spoken language Luganda	black	NA	NA	Language
+54413	Main spoken language Akan	black	NA	NA	Language
+96268	Main spoken language Kannada	asian	NA	NA	Language
+72379	Main spoken language Kutchi	asian	NA	NA	Language
+96928	Main spoken language Estonian	white	NA	NA	Language
+96146	Main spoken language Irish	unknown	NA	NA	Language
+98841	Romanian language interpreter needed	white	NA	NA	Language
+54448	Interpreter needed - Portuguese	unknown	NA	NA	Language
+54416	Main spoken language Iba	unknown	NA	NA	Language
+58193	Main spoken language Hausa	black	NA	NA	Language
+96370	Main spoken language Maltese	unknown	NA	NA	Language
+95968	Main spoken language Serbo-Croatian	unknown	NA	NA	Language
+97038	Main spoken language Mongolian	asian	NA	NA	Language
+96611	Main spoken language Macedonian	unknown	NA	NA	Language
+56879	Main spoken language Flemish	white	NA	NA	Language
+89441	Interpreter needed - Lithuanian	white	NA	NA	Language
+97212	Main spoken language Georgian	unknown	NA	NA	Language
+64948	Main spoken language Patois	black	NA	NA	Language
+91422	Main spoken language Hakka	asian	NA	NA	Language
+94158	Interpreter needed - Italian	unknown	NA	NA	Language
+97039	Main spoken language Wolof	black	NA	NA	Language
+96240	Main spoken language Sindhi	asian	NA	NA	Language
+98403	Interpreter needed - Tigrinya	black	NA	NA	Language
+98028	Interpreter needed - Amharic	black	NA	NA	Language
+96784	Main spoken language Uzbek	asian	NA	NA	Language
+98063	Interpreter needed - Albanian	white	NA	NA	Language
+98809	Hungarian language interpreter needed	unknown	NA	NA	Language
+98194	Main spoken language Kinyarwanda	black	NA	NA	Language
+100813	Interlingue language interpreter needed	unknown	NA	NA	Language
+97273	Main spoken language Xhosa	black	NA	NA	Language
+96485	Main spoken language Brawa	black	NA	NA	Language
+100828	Main spoken language Belarusian	white	NA	NA	Language
+97297	Main spoken language Oriya	asian	NA	NA	Language
+95969	Main spoken language Serbo-Croatian	unknown	NA	NA	Language
+101189	Main spoken language Central Khmer	asian	NA	NA	Language
+101284	Nepali language interpreter needed	asian	NA	NA	Language
+100759	Slovenian language interpreter needed	unknown	NA	NA	Language
+97574	Main spoken language Basque	unknown	NA	NA	Language
+102218	Main spoken language Assamese	asian	NA	NA	Language
+98543	Interpreter needed - Akan	black	NA	NA	Language
+109489	Kinyarwanda language interpreter needed	black	NA	NA	Language
+102877	Main spoken language Tswana	black	NA	NA	Language
+101761	Main spoken language Iban	unknown	NA	NA	Language
+103067	Interpreter needed - Lingala	black	NA	NA	Language
+100691	Interpreter needed - Yoruba	black	NA	NA	Language
+102129	Main spoken language Interlingue	unknown	NA	NA	Language
+111921	Georgian language interpreter needed	unknown	NA	NA	Language
+108184	Turkmen language interpreter needed	other	NA	NA	Language
+100219	Interpreter needed - Hausa	black	NA	NA	Language
+113326	Main spoken language Bamoun	black	NA	NA	Language
+111789	Main spoken language Zhuang	asian	NA	NA	Language
+112260	Main spoken language Rundi	black	NA	NA	Language
+102259	Main spoken language Bashkir	white	NA	NA	Language
+111919	Main spoken language Sango	black	NA	NA	Language
+101659	Main spoken language Interlingua	unknown	NA	NA	Language
+111709	Main spoken language Swati	black	NA	NA	Language
+100438	Macedonian language interpreter needed	unknown	NA	NA	Language
+111457	Interpreter needed - Hakka	asian	NA	NA	Language
+102537	Interpreter needed - Serbian	unknown	NA	NA	Language
+113227	Interpreter needed - Ganda	black	NA	NA	Language
+103089	Interpreter needed - Croatian	unknown	NA	NA	Language
+100220	Interpreter needed - Shona	black	NA	NA	Language
+115519	Irish Traveller - Northern Ireland ethnic cat 2011 census	white	NA	Direct	Ethnicity
+113671	Carib/Black: Caribbean/Carib Scot/Carib Brit- Scotland 2011	black	NA	Direct	Ethnicity
+59666	Cantonese Chinese dialect	asian	NA	Direct	Ethnicity
+115923	Indonesian language interpreter needed	asian	NA	Direct	Ethnicity

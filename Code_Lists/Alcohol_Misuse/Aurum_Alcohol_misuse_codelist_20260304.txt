@@ -1,0 +1,389 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"4525015"	43488	"J153"	"J153.00"	"alcoholic gastritis"	"2043009"	"4525015"	32
+"12878014"	208986	"E23-1"	"E23..11"	"alcoholism"	"66590003"	"110629012"	32
+"14103017"	6043	"F375"	"F375.00"	"alcohol-induced polyneuropathy"	"7916009"	"14104011"	32
+"15243013"	6007	"E010"	"E010.00"	"alcohol withdrawal delirium"	"8635005"	"15243013"	32
+"17390014"	14990	"J611"	"J611.00"	"acute alcoholic hepatitis"	"9953008"	"17390014"	32
+"73012011"	82952	"136O"	"136O.00"	"moderate drinker"	"43783005"	"73012011"	17
+"83834016"	67281	"J610"	"J610.00"	"alcoholic fatty liver"	"50325005"	"83834016"	32
+"106878015"	7312	"8BA8"	"8BA8.00"	"alcohol detoxification"	"64297001"	"106878015"	32
+"110629012"	80653	"E231"	"E231.00"	"chronic alcoholism"	"66590003"	"110629012"	32
+"138527014"	15367	"G555"	"G555.00"	"alcoholic cardiomyopathy"	"83521008"	"138527014"	32
+"144179014"	46312	"136P"	"136P.00"	"heavy drinker"	"86933000"	"144179014"	17
+"216585018"	21197	"9NN2"	"9NN2.00"	"under care of community alcohol team"	"135827004"	"216585018"	37
+"250313014"	1453362	"1364"	"1364.00"	"moderate drinker - 3-6u/day"	"160576006"	"250313014"	17
+"250314015"	234054	"1365"	"1365.00"	"heavy drinker - 7-9u/day"	"160577002"	"250314015"	17
+"250316018"	135540	"1366"	"1366.00"	"very heavy drinker - >9u/day"	"160578007"	"250316018"	17
+"250323017"	7374	"136C"	"136C.00"	"ex-moderate drinker - (3-6u/d)"	"160584005"	"250323017"	17
+"250324011"	10307	"136D"	"136D.00"	"ex-heavy drinker - (7-9u/day)"	"160585006"	"250324011"	17
+"250329018"	10590	"136E"	"136E.00"	"ex-very heavy drinker-(>9u/d)"	"160587003"	"250329018"	17
+"251195015"	3287	"13Y8"	"13Y8.00"	"alcoholics anonymous"	"1099951000000107"	"2753901000000119"	17
+"251626014"	77145	"1462"	"1462.00"	"h/o: alcoholism"	"161466001"	"251626014"	32
+"254305017"	10468	"2577"	"2577.00"	"o/e - breath - alcohol smell"	"163184002"	"254305017"	27
+"254306016"	4426	"2577-1"	"2577.11"	"o/e - alcoholic breath"	"163184002"	"254306016"	27
+"283028013"	135178	"8CE1"	"8CE1.00"	"alcohol leaflet given"	"183098002"	"283028013"	32
+"283451018"	1105	"8G32"	"8G32.00"	"aversion therapy - alcoholism"	"183388004"	"283451018"	32
+"283559019"	19245	"8H35"	"8H35.00"	"admitted to alcohol detoxification centre"	"183486001"	"283559019"	40
+"294662017"	440	"E0111"	"E011100"	"korsakov's alcoholic psychosis with peripheral neuritis"	"191471000"	"294662017"	32
+"294664016"	129	"E011z"	"E011z00"	"alcohol amnestic syndrome nos"	"73097000"	"121405015"	32
+"294668018"	1820	"E0120"	"E012000"	"chronic alcoholic brain syndrome"	"191475009"	"294668018"	32
+"294669014"	1929	"E013"	"E013.00"	"alcohol withdrawal hallucinosis"	"191476005"	"294669014"	32
+"294671014"	769	"E014"	"E014.00"	"pathological alcohol intoxication"	"191477001"	"294671014"	32
+"294672019"	705	"E015"	"E015.00"	"alcoholic paranoia"	"191478006"	"294672019"	32
+"294673012"	4229	"E01y"	"E01y.00"	"other alcoholic psychosis"	"42344001"	"70655012"	32
+"294674018"	136240	"E01y0"	"E01y000"	"alcohol withdrawal syndrome"	"191480000"	"294674018"	32
+"294675017"	41	"E01yz"	"E01yz00"	"other alcoholic psychosis nos"	"42344001"	"70655012"	32
+"294676016"	860	"E01z"	"E01z.00"	"alcoholic psychosis nos"	"42344001"	"70655012"	32
+"295126010"	581	"E230-1"	"E230.11"	"alcohol dependence with acute alcoholic intoxication"	"191802004"	"295126010"	32
+"295127018"	13384	"E230"	"E230.00"	"acute alcoholic intoxication in alcoholism"	"191802004"	"295127018"	32
+"295128011"	1065	"E2300"	"E230000"	"acute alcoholic intoxication, unspecified, in alcoholism"	"191802004"	"295127018"	32
+"295129015"	206	"E2301"	"E230100"	"continuous acute alcoholic intoxication in alcoholism"	"191804003"	"295129015"	32
+"295130013"	671	"E2302"	"E230200"	"episodic acute alcoholic intoxication in alcoholism"	"191805002"	"295130013"	32
+"295131012"	301	"E2303"	"E230300"	"acute alcoholic intoxication in remission, in alcoholism"	"191806001"	"295131012"	32
+"295132017"	858	"E230z"	"E230z00"	"acute alcoholic intoxication in alcoholism nos"	"191802004"	"295127018"	32
+"295136019"	207374	"E2310"	"E231000"	"alcohol dependence"	"66590003"	"110628016"	32
+"295139014"	13264	"E2311"	"E231100"	"continuous chronic alcoholism"	"191811004"	"295139014"	32
+"295141010"	5952	"E2312"	"E231200"	"episodic chronic alcoholism"	"191812006"	"295141010"	32
+"295142015"	6965	"E2313"	"E231300"	"chronic alcoholism in remission"	"191813001"	"295142015"	32
+"295143013"	7645	"E231z"	"E231z00"	"chronic alcoholism nos"	"66590003"	"110629012"	32
+"295144019"	143335	"E23z"	"E23z.00"	"alcohol dependence syndrome nos"	"66590003"	"500478011"	32
+"295251015"	49581	"E2500"	"E250000"	"nondependent alcohol abuse, unspecified"	"268645007"	"401797010"	32
+"295252010"	3902	"E2501"	"E250100"	"nondependent alcohol abuse, continuous"	"191882002"	"295252010"	32
+"295253017"	5490	"E2502"	"E250200"	"nondependent alcohol abuse, episodic"	"191883007"	"295253017"	32
+"295254011"	1115	"E2503"	"E250300"	"nondependent alcohol abuse in remission"	"191884001"	"295254011"	32
+"295255012"	6655	"E250z"	"E250z00"	"nondependent alcohol abuse nos"	"268645007"	"401797010"	32
+"295765017"	19035	"Eu10"	"Eu10.00"	"alcohol-induced organic mental disorder"	"29212009"	"48886010"	32
+"297011014"	3722	"F11x0-1"	"F11x011"	"alcoholic encephalopathy"	"192811002"	"297011014"	32
+"303399018"	124218	"J613"	"J613.00"	"alcoholic liver damage"	"41309000"	"68906017"	32
+"324466015"	2	"SM002"	"SM00200"	"grain alcohol causing toxic effect"	"212807002"	"324466015"	32
+"324467012"	87	"SM00z"	"SM00z00"	"ethyl alcohol causing toxic effect nos"	"82782008"	"137325017"	32
+"324488015"	100	"SM0y"	"SM0y.00"	"other alcohol causing toxic effect"	"67426006"	"112060019"	32
+"324489011"	1633	"SM0z"	"SM0z.00"	"alcohol causing toxic effect nos"	"67426006"	"112060019"	32
+"325596018"	1002	"SyuG0"	"SyuG000"	"toxic effect of alcohol"	"67426006"	"112060019"	32
+"342322012"	8354	"136Q"	"136Q.00"	"very heavy drinker"	"228279004"	"342322012"	17
+"342361016"	340	"136Y"	"136Y.00"	"drinks in morning to get rid of hangover"	"228310006"	"342361016"	17
+"342366014"	70333	"136R"	"136R.00"	"binge drinker"	"228315001"	"342366014"	17
+"342421016"	3272	"136b"	"136b.00"	"feels should cut down drinking"	"228362008"	"342421016"	17
+"346929012"	7789	"E012-1"	"E012.11"	"alcoholic dementia"	"281004"	"1225776018"	32
+"353587018"	32826	"J617"	"J617.00"	"alcoholic hepatitis"	"235875008"	"353587018"	32
+"353594015"	3171	"J6120"	"J612000"	"alcoholic fibrosis and sclerosis of liver"	"235880004"	"353594015"	32
+"353595019"	4455	"J6130"	"J613000"	"alcoholic hepatic failure"	"235881000"	"353595019"	32
+"353687012"	4867	"J6708"	"J670800"	"alcohol-induced acute pancreatitis"	"235942001"	"353687012"	32
+"353698013"	17076	"J6710"	"J671000"	"alcohol-induced chronic pancreatitis"	"235952002"	"353698013"	32
+"356292013"	184	"C1505"	"C150500"	"alcohol-induced pseudo-cushing's syndrome"	"237738005"	"356292013"	15
+"401760017"	1913	"E012"	"E012.00"	"other alcoholic dementia"	"281004"	"1225776018"	32
+"401797010"	167895	"E250"	"E250.00"	"nondependent alcohol abuse"	"268645007"	"401797010"	32
+"451124014"	1280	"J6170"	"J617000"	"chronic alcoholic hepatitis"	"307757001"	"451124014"	32
+"453265010"	2255	"G8523"	"G852300"	"oesophageal varices in alcoholic cirrhosis of the liver"	"309783001"	"453265010"	32
+"460276013"	3997	"ZV113"	"ZV11300"	"[v]personal history of alcoholism"	"371422002"	"1196720012"	17
+"460926018"	9654	"ZV57A"	"ZV57A00"	"[v]alcohol rehabilitation"	"471691000000107"	"1001331000000118"	32
+"461112017"	29097	"ZV6D6"	"ZV6D600"	"alcoholism counselling"	"24165007"	"1206287010"	32
+"478024019"	3375	"F25B"	"F25B.00"	"alcohol-induced epilepsy"	"361268000"	"478024019"	15
+"478046010"	2189	"F1440"	"F144000"	"cerebellar ataxia due to alcoholism"	"361272001"	"478046010"	32
+"500478011"	1458832	"E23"	"E23..00"	"alcohol dependence syndrome"	"66590003"	"500478011"	32
+"500729017"	6093	"SM0"	"SM0..00"	"alcohol causing toxic effect"	"67426006"	"500729017"	32
+"502017010"	1104933	"E23-2"	"E23..12"	"alcohol problem drinking"	"7200002"	"502017010"	32
+"1225183017"	158	"SLH3"	"SLH3.00"	"alcohol deterrent poisoning"	"27134008"	"1225183017"	32
+"1227802010"	88	"ZV704-1"	"ZV70411"	"[v]medicolegal blood alcohol test"	"171408004"	"265595016"	1
+"1484890014"	121892	"8H7p"	"8H7p.00"	"referral to community alcohol team"	"390857005"	"1484890014"	40
+"2474678017"	18426	"66e"	"66e..00"	"alcohol disorder monitoring"	"413130000"	"2474678017"	1
+"2549646014"	96415	"8HHe"	"8HHe.00"	"referral to community drug and alcohol team"	"417096006"	"2549646014"	40
+"2549849017"	1422	"1B1c"	"1B1c.00"	"alcohol induced hallucinations"	"417633001"	"2549849017"	27
+"117761000006116"	14189	"1369"	"1369.00"	"denies alcohol abuse"	"413968004"	"2534341013"	17
+"223671000000110"	1127	"E250-2"	"E250.12"	"hangover from alcohol"	"32553006"	"485256013"	32
+"226571000000116"	83060	"9k12"	"9k12.00"	"alcohol misuse enhanced service completed"	"166471000000105"	"1154571000000110"	37
+"236441000000113"	118543	"9k1"	"9k1..00"	"alcohol misuse enhanced services administration"	"166251000000100"	"1153251000000119"	37
+"315091000000117"	30639	"Eu108"	"Eu10800"	"alcohol withdrawal-induced seizure"	"308742005"	"452061016"	32
+"362251000006117"	113107	"Eu100-1"	"Eu10011"	"alcohol intoxication"	"25702006"	"43081018"	32
+"362921000006118"	17092	"Eu102-1"	"Eu10211"	"[x]alcohol addiction"	"66590003"	"500478011"	32
+"362931000006115"	11	"U60H3"	"U60H300"	"[x]alcohol deterrents caus adverse effects in therapeut use"	"292416003"	"432554017"	5
+"362941000006113"	3532	"Eu107-1"	"Eu10711"	"[x]alcoholic dementia nos"	"281004"	"1225776018"	32
+"362951000006110"	1896	"Eu105-1"	"Eu10511"	"alcoholic hallucinosis"	"7052005"	"1233279015"	32
+"362961000006112"	43	"Eu105-2"	"Eu10512"	"[x]alcoholic jealousy"	"42344001"	"70655012"	32
+"362971000006117"	211	"Eu105-3"	"Eu10513"	"[x]alcoholic paranoia"	"42344001"	"70655012"	32
+"362981000006119"	1599	"Eu105-4"	"Eu10514"	"[x]alcoholic psychosis nos"	"42344001"	"70655012"	32
+"370961000006119"	493	"Eu107-2"	"Eu10712"	"[x]chronic alcoholic brain syndrome"	"191475009"	"294668018"	32
+"370971000006114"	7774	"Eu102-2"	"Eu10212"	"[x]chronic alcoholism"	"66590003"	"110629012"	32
+"371501000000110"	1027	"7P221"	"7P22100"	"delivery of rehabilitation for alcohol addiction"	"231161000000109"	"371501000000110"	32
+"376451000006113"	1925	"Eu104-1"	"Eu10411"	"[x]delirium tremens, alcohol induced"	"8635005"	"15243013"	32
+"380031000006116"	3772	"U81"	"U81..00"	"[x]evid of alcohol involv determind by level of intoxication"	"25702006"	"43081018"	32
+"380081000006115"	607	"U800"	"U800.00"	"finding of alcohol in blood"	"274776000"	"410638011"	32
+"391351000006115"	4	"U2096"	"U209600"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at industrial and construction area"	"67426006"	"112060019"	32
+"391501000006112"	1	"U2093"	"U209300"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at sports and athletics area"	"67426006"	"112060019"	32
+"391511000006110"	65	"U209y"	"U209y00"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at other specified place"	"67426006"	"112060019"	32
+"391521000006119"	7	"U2092"	"U209200"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area"	"67426006"	"112060019"	32
+"391941000006118"	207	"U2090"	"U209000"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at home"	"67426006"	"112060019"	32
+"391951000006116"	2	"U2097"	"U209700"	"[x]intentional self poisoning by and exposure to alcohol, occurrence on farm"	"67426006"	"112060019"	32
+"393311000006117"	12	"U2094"	"U209400"	"[x]intentional self poisoning by and exposure to alcohol, occurrence on street and highway"	"67426006"	"112060019"	32
+"393321000006113"	2	"U2095"	"U209500"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at trade and service area"	"67426006"	"112060019"	32
+"393591000006118"	3	"U2091"	"U209100"	"[x]intentional self poisoning by and exposure to alcohol, occurrence in residential institution"	"67426006"	"112060019"	32
+"393601000006114"	215	"U209z"	"U209z00"	"[x]intentional self poisoning by and exposure to alcohol, occurrence at unspecified place"	"67426006"	"112060019"	32
+"393861000006111"	1950	"U209"	"U209.00"	"[x]intentional self poisoning by and exposure to alcohol"	"271982007"	"407014015"	32
+"397241000006119"	556	"Eu10y"	"Eu10y00"	"[x]men & behav dis due to use alcohol: oth men & behav dis"	"29212009"	"48886010"	32
+"397431000006111"	1137	"Eu10z"	"Eu10z00"	"[x]ment & behav dis due use alcohol: unsp ment & behav dis"	"91388009"	"151411015"	32
+"397611000006115"	2094	"Eu100"	"Eu10000"	"[x]mental & behav dis due to use alcohol: acute intoxication"	"25702006"	"43081018"	32
+"397621000006111"	1215	"Eu105"	"Eu10500"	"alcohol-induced psychosis"	"42344001"	"70655012"	32
+"397791000006118"	934	"Eu106"	"Eu10600"	"alcohol amnestic disorder"	"73097000"	"121405015"	32
+"397801000006117"	13377	"Eu102"	"Eu10200"	"[x]mental and behav dis due to use alcohol: dependence syndr"	"66590003"	"500478011"	32
+"397811000006119"	832	"Eu103"	"Eu10300"	"[x]mental and behav dis due to use alcohol: withdrawal state"	"191480000"	"294674018"	32
+"397881000006114"	54045	"Eu101"	"Eu10100"	"alcohol abuse"	"15167005"	"25750014"	32
+"405461000000114"	16638	"66e0"	"66e0.00"	"alcohol abuse monitoring"	"247721000000109"	"405461000000114"	1
+"421381000006110"	25	"U409y"	"U409y00"	"[x]poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"	"67426006"	"112060019"	32
+"421521000006118"	5	"U4094"	"U409400"	"[x]poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"	"67426006"	"112060019"	32
+"421531000006115"	1	"U4095"	"U409500"	"[x]poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"	"67426006"	"112060019"	32
+"421791000006112"	1	"U4091"	"U409100"	"[x]poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"	"67426006"	"112060019"	32
+"421801000006113"	8	"U409z"	"U409z00"	"[x]poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"	"67426006"	"112060019"	32
+"422121000006117"	6	"U4090"	"U409000"	"[x]poisoning by and exposure to alcohol, occurrence at home, undetermined intent"	"67426006"	"112060019"	32
+"422131000006119"	1	"U4097"	"U409700"	"[x]poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"	"67426006"	"112060019"	32
+"422381000006116"	1	"U4096"	"U409600"	"[x]poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"	"67426006"	"112060019"	32
+"422801000006118"	317	"U409"	"U409.00"	"[x]poisoning by and exposure to alcohol, undetermined intent"	"67426006"	"112060019"	32
+"464381000006118"	40	"TJH3"	"TJH3.00"	"alcohol metabolism modifier adverse reaction"	"292416003"	"432554017"	5
+"476361000006114"	759	"E011"	"E011.00"	"alcohol amnestic syndrome"	"69482004"	"501300010"	32
+"476611000006116"	135391	"J612"	"J612.00"	"alcoholic cirrhosis of liver"	"420054005"	"2920441014"	32
+"476701000006114"	1273	"F3941"	"F394100"	"alcohol myopathy"	"19303008"	"32551012"	32
+"476741000006111"	5398	"E01"	"E01..00"	"alcohol-induced psychosis"	"42344001"	"70655012"	32
+"480271000000113"	1273	"13ZY"	"13ZY.00"	"disqualified from driving due to excess alcohol"	"279651000000104"	"480271000000113"	17
+"542611000006114"	1262	"F11x0"	"F11x000"	"cerebral degeneration due to alcoholism"	"192811002"	"297011014"	32
+"606991000000117"	64136	"136W"	"136W.00"	"alcohol misuse"	"15167005"	"606991000000117"	32
+"622961000000116"	40005	"8HkG"	"8HkG.00"	"referral to specialist alcohol treatment service"	"431260004"	"2768649019"	40
+"649311000006115"	1278	"SM00"	"SM00.00"	"toxic effect of ethyl alcohol"	"82782008"	"137325017"	32
+"739501000000112"	2154	"8CAv"	"8CAv.00"	"advised to contact primary care alcohol worker"	"375941000000101"	"739501000000112"	32
+"740641000000115"	27324	"8HkJ"	"8HkJ.00"	"referral to alcohol brief intervention service"	"376401000000103"	"740641000000115"	40
+"750531000000113"	33523	"8IAJ"	"8IAJ.00"	"declined referral to specialist alcohol treatment service"	"380861000000109"	"750531000000113"	32
+"753331000006118"	11300	"E0110"	"E011000"	"korsakov alcoholic psychosis"	"69482004"	"501296014"	32
+"769451000006111"	195750	"E250-4"	"E250.14"	"intoxication - alcohol"	"25702006"	"43083015"	32
+"831091000006115"	9632	"EMISQRE1"	NA	"referral to alcohol abuse team"	"831091000006104"	"831091000006115"	40
+"831101000006114"	5544	"EMISQRE2"	NA	"referral to alcohol counsellor"	"831101000006105"	"831101000006114"	40
+"851931000006116"	1141	"EMISQRE24"	NA	"referral to alcohol recovery project"	"851931000006100"	"851931000006116"	40
+"852151000006117"	8232	"EMISQAU2"	NA	"audit score >5 alcohol dependence syndrome"	"852151000006101"	"852151000006117"	17
+"852161000006115"	15808	"EMISQAU3"	NA	"audit score >5 alcohol problem drinker"	"852161000006104"	"852161000006115"	17
+"852381000006110"	2291	"EMISQAL2"	NA	"alcohol reduction-maintain abstinence"	"852381000006106"	"852381000006110"	17
+"852391000006113"	31551	"EMISQNO6"	NA	"not interested in reducing alcohol"	"852391000006109"	"852391000006113"	17
+"852401000006110"	4324	"EMISQRE13"	NA	"ready to start reducing alcohol"	"852401000006106"	"852401000006110"	17
+"852411000006113"	10550	"EMISQTH4"	NA	"thinking about reducing alcohol"	"852411000006109"	"852411000006113"	17
+"854651000006117"	19561	"EGTON59"	NA	"alcohol overdose"	"854651000006101"	"854651000006117"	32
+"882221000006114"	183	"E01y-99"	"E01y.99"	"other alcoholic psychoses"	"623961000000108"	"882221000006114"	32
+"882531000006110"	5596	"E250-99"	"E250.99"	"non-dependent abuse of alcohol"	"268645007"	"882531000006110"	32
+"886501000006115"	2502	"J613-99"	"J613.99"	"alcoholic liver damage nos"	"589511000000102"	"886501000006115"	32
+"899411000006110"	787	"SM0-99"	"SM0..99"	"toxic effects of alcohol"	"67426006"	"899411000006110"	32
+"899421000006119"	43	"SM00-99"	"SM00.99"	"ethyl alcohol - toxic effect"	"82782008"	"899421000006119"	32
+"899431000006116"	102	"SM0z-99"	"SM0z.99"	"alcohol nos - toxic effect"	"592581000000100"	"899431000006116"	32
+"940781000006116"	1467	"HMPNQEV1"	NA	"evidence of alcohol withdrawal"	"940781000006100"	"940781000006116"	28
+"961571000006111"	24794	"EMISCAB16"	NA	"excessive use of alcohol"	"961571000006107"	"961571000006111"	27
+"970391000006118"	4545	"EMISNQND25"	NA	"substance misuse of alcohol"	"970391000006102"	"970391000006118"	17
+"970401000006116"	91	"EMISNQMI149"	NA	"misuse of mixture of alcohol"	"970401000006100"	"970401000006116"	17
+"970411000006118"	2497	"EMISNQMI150"	NA	"misuse of alcohol unspecified"	"970411000006102"	"970411000006118"	17
+"973011000006119"	1	"TRIQQZZ57"	NA	"** seminars in alcohol & drug misuse"	"973011000006103"	"973011000006119"	37
+"991151000006114"	1	"SM0-98"	"SM0..98"	"alcohol nos - toxic effect"	"67426006"	"991151000006114"	32
+"1538911000006119"	2	"PCSQI96"	NA	"structured alcohol intervention"	"1538911000006103"	"1538911000006119"	30
+"1675391000006112"	399	"EMISNQRE93"	NA	"referral by community alcohol team"	"1675391000006108"	"1675391000006112"	37
+"1779661000006118"	260	"EMISNQAL12"	NA	"alcohol detoxification declined"	"1779661000006102"	"1779661000006118"	32
+"1808491000006113"	1	"JHCAL2"	NA	"alcohol-related legal or disciplinary problem"	"1808491000006109"	"1808491000006113"	17
+"1808611000006118"	1	"JHCAR24"	NA	"arep - alcohol rehabilitation education program"	"1808611000006102"	"1808611000006118"	32
+"1878791000006112"	1	"EMISNQIN186"	NA	"in-house alcohol detoxification"	"1878791000006108"	"1878791000006112"	37
+"1926131000006117"	18	"8W2"	"8W2..00"	"referral to mental health services deferred until alcohol misuse resolved"	"933641000000103"	"2391941000000114"	32
+"1972151000006110"	109	"EMISICD10|F1000"	NA	"mental & behav dis due to use alcohol: acute intoxication, uncomplicated"	"1972151000006106"	"1972151000006110"	32
+"1972161000006112"	18	"EMISICD10|F1001"	NA	"mental & behav dis due to use alcohol: acute intoxication, with trauma or other bodily injury"	"1972161000006108"	"1972161000006112"	32
+"1972271000006112"	11	"EMISICD10|F1002"	NA	"mental & behav dis due to use alcohol: acute intoxication, with other medical complications"	"1972271000006108"	"1972271000006112"	32
+"1973241000006113"	12	"EMISICD10|F1003"	NA	"mental & behav dis due to use alcohol: acute intoxication, with delirium"	"1973241000006109"	"1973241000006113"	32
+"1973321000006113"	3	"EMISICD10|F1004"	NA	"mental & behav dis due to use alcohol: acute intoxication, with perceptual distortions"	"1973321000006109"	"1973321000006113"	32
+"1973411000006110"	9	"EMISICD10|F1005"	NA	"mental & behav dis due to use alcohol: acute intoxication, with coma"	"1973411000006106"	"1973411000006110"	32
+"1973441000006114"	11	"EMISICD10|F1006"	NA	"mental & behav dis due to use alcohol: acute intoxication, with convulsions"	"1973441000006105"	"1973441000006114"	32
+"1973481000006115"	14	"EMISICD10|F1007"	NA	"mental & behav dis due to use alcohol: acute intoxication, pathological intoxication"	"1973481000006104"	"1973481000006115"	32
+"1973701000006119"	354	"EMISICD10|F1020"	NA	"mental and behav dis due to use alcohol: dependence syndr, currently abstinent"	"1973701000006103"	"1973701000006119"	32
+"1973811000006113"	21	"EMISICD10|F1021"	NA	"mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but in a protected environment"	"1973811000006109"	"1973811000006113"	32
+"1973871000006116"	34	"EMISICD10|F1022"	NA	"mental and behav dis due to use alcohol: dependence syndr, currently on a clinically supervised maintenance or replacement regime [controlled dependence]"	"1973871000006100"	"1973871000006116"	32
+"1974021000006112"	53	"EMISICD10|F1023"	NA	"mental and behav dis due to use alcohol: dependence syndr, currently abstinent, but receiving treatment with aversive or blocking drugs"	"1974021000006108"	"1974021000006112"	32
+"1974071000006113"	127	"EMISICD10|F1024"	NA	"mental and behav dis due to use alcohol: dependence syndr, currently using the substance [active dependence]"	"1974071000006109"	"1974071000006113"	32
+"1974111000006117"	1708	"EMISICD10|F1025"	NA	"mental and behav dis due to use alcohol: dependence syndr, continuous use"	"1974111000006101"	"1974111000006117"	32
+"1974141000006118"	45	"EMISICD10|F1026"	NA	"mental and behav dis due to use alcohol: dependence syndr, episodic use [dipsomania]"	"1974141000006102"	"1974141000006118"	32
+"1974191000006110"	167	"EMISICD10|F1030"	NA	"mental and behav dis due to use alcohol: withdrawal state, uncomplicated"	"1974191000006106"	"1974191000006110"	32
+"1974231000006117"	16	"EMISICD10|F1031"	NA	"mental and behav dis due to use alcohol: withdrawal state, with convulsions"	"1974231000006101"	"1974231000006117"	32
+"1974301000006117"	14	"EMISICD10|F1040"	NA	"mental & behav dis due to use alcohol: withdrawl state with delirium, without convulsions"	"1974301000006101"	"1974301000006117"	32
+"1974521000006117"	15	"EMISICD10|F1041"	NA	"mental & behav dis due to use alcohol: withdrawl state with delirium, with convulsions"	"1974521000006101"	"1974521000006117"	32
+"1975141000006117"	4	"EMISICD10|F1050"	NA	"mental & behav dis due to use alcohol: psychotic disorder, schizophrenia-like"	"1975141000006101"	"1975141000006117"	32
+"1975181000006111"	7	"EMISICD10|F1051"	NA	"mental & behav dis due to use alcohol: psychotic disorder, predominantly delusional"	"1975181000006107"	"1975181000006111"	32
+"1975291000006117"	19	"EMISICD10|F1052"	NA	"mental & behav dis due to use alcohol: psychotic disorder, predominantly hallucinatory"	"1975291000006101"	"1975291000006117"	32
+"1975341000006119"	1	"EMISICD10|F1053"	NA	"mental & behav dis due to use alcohol: psychotic disorder, predominantly polymorphic"	"1975341000006103"	"1975341000006119"	32
+"1975371000006110"	21	"EMISICD10|F1054"	NA	"mental & behav dis due to use alcohol: psychotic disorder, predominantly depressive symptoms"	"1975371000006106"	"1975371000006110"	32
+"1975411000006111"	1	"EMISICD10|F1055"	NA	"mental & behav dis due to use alcohol: psychotic disorder, predominantly manic symptoms"	"1975411000006107"	"1975411000006111"	32
+"1975461000006114"	424	"EMISICD10|F1056"	NA	"mental & behav dis due to use alcohol: psychotic disorder, mixed"	"1975461000006105"	"1975461000006114"	32
+"1975511000006112"	1	"EMISICD10|F1070"	NA	"mental & behav dis due to use alcohol: resid & late-onset psychot dis, flashbacks"	"1975511000006108"	"1975511000006112"	32
+"1975541000006111"	95	"EMISICD10|F1071"	NA	"mental & behav dis due to use alcohol: resid & late-onset psychot dis, personality or behaviour disorder"	"1975541000006107"	"1975541000006111"	32
+"1975591000006119"	20	"EMISICD10|F1073"	NA	"mental & behav dis due to use alcohol: resid & late-onset psychot dis, dementia"	"1975591000006103"	"1975591000006119"	32
+"1975661000006111"	2	"EMISICD10|F1072"	NA	"mental & behav dis due to use alcohol: resid & late-onset psychot dis, residual affective disorder"	"1975661000006107"	"1975661000006111"	32
+"1976071000006119"	63	"EMISICD10|F1074"	NA	"mental & behav dis due to use alcohol: resid & late-onset psychot dis, other persisting cognitive impairment"	"1976071000006103"	"1976071000006119"	32
+"1976111000006110"	6	"EMISICD10|F1075"	NA	"mental & behav dis due to use alcohol: resid & late-onset psychot dis, late-onset psychotic disorder"	"1976111000006106"	"1976111000006110"	32
+"2007461000006118"	255	"EMISNQSR25"	NA	"srh care activity - alcohol brief intervention"	"2007461000006102"	"2007461000006118"	37
+"2298341000000114"	1603	"9NJz"	"9NJz.00"	"in-house alcohol detoxification"	"892631000000102"	"2298341000000114"	37
+"2358251000000115"	762	"2126C"	"2126C00"	"alcohol dependence resolved"	"918321000000104"	"2358251000000115"	27
+"2364891000000111"	1158	"9EVD"	"9EVD.00"	"hospital alcohol liaison team report received"	"921441000000103"	"2364891000000111"	37
+"2419601000000110"	3561	"8CdK"	"8CdK.00"	"specialist alcohol treatment service signposted"	"946101000000100"	"2419601000000110"	32
+"2462911000000112"	361	"9NgzH"	"9NgzH00"	"withdrawn from alcohol detoxification programme"	"719340007"	"3316032010"	37
+"2467301000000111"	915	"8BAs"	"8BAs.00"	"alcohol relapse prevention"	"968891000000109"	"2467301000000111"	32
+"2475831000000114"	1769	"8BAu"	"8BAu.00"	"alcohol harm reduction programme"	"720175009"	"3319643016"	32
+"2485391000000114"	16	"8BAw"	"8BAw.00"	"alcohol twelve step programme"	"720178006"	"3319659016"	32
+"2502971000006115"	4887	"^ESCTDE250297"	NA	"dementia associated with alcoholism"	"281004"	"1557018"	32
+"2502981000006117"	6	"^ESCTAL250298"	NA	"alcohol-induced persisting dementia"	"281004"	"1558011"	32
+"2612481000006116"	54	"^ESCTAL261248"	NA	"alcohol hallucinosis"	"7052005"	"12634015"	32
+"2614651000006115"	75939	"^ESCTAL261465"	NA	"alcoholism"	"7200002"	"12878014"	32
+"2626141000006112"	111	"^ESCTAL262614"	NA	"alcoholic polyneuropathy"	"7916009"	"14103017"	32
+"2626161000006111"	1297	"^ESCTAL262616"	NA	"alcoholic peripheral neuropathy"	"7916009"	"1234320010"	32
+"2658601000006116"	144	"^ESCTAC265860"	NA	"acute alcoholic liver disease"	"9953008"	"17389017"	32
+"2716771000000111"	4661	"ESCTSI66"	NA	"signposting to alcohol misuse service"	"1084171000000100"	"2716771000000111"	32
+"2740361000006119"	7	"^ESCTAA274036"	NA	"aa - alcohol abuse"	"15167005"	"477199015"	32
+"2740831000000114"	230	"^ESCT1172280"	NA	"harmful use of alcohol"	"1094151000000108"	"2740831000000114"	31
+"2773801000006117"	21	"^ESCTNO277380"	NA	"non-alcoholic korsakoff's psychosis"	"17262008"	"29185012"	32
+"2796011000006111"	159	"^ESCTAL279601"	NA	"alcohol intoxication delirium"	"18653004"	"31451012"	32
+"2819381000006112"	125	"^ESCTAL281938"	NA	"alcohol rehabilitation and detoxification"	"20093000"	"33815017"	31
+"2881581000006119"	8	"^ESCTCO288158"	NA	"combined alcohol and drug rehabilitation and detoxification"	"23915005"	"40167017"	31
+"2885451000006111"	3	"^ESCTAL288545"	NA	"alcoholism counseling"	"24165007"	"40570014"	32
+"2911271000006113"	2	"^ESCTAC291127"	NA	"acute alcoholism"	"25702006"	"43082013"	32
+"2911291000006114"	49	"^ESCTAC291129"	NA	"acute alcohol intoxication"	"25702006"	"483024013"	32
+"2934661000006111"	4	"^ESCTPO293466"	NA	"poisoning by alcohol deterrent"	"27134008"	"45382016"	32
+"2950191000006118"	110	"^ESCTSM295019"	NA	"smell of alcohol on breath"	"28045007"	"483736014"	31
+"2969641000006116"	15	"^ESCTAL296964"	NA	"alcohol-related disorder"	"29212009"	"48889015"	32
+"3073921000006112"	1763	"^ESCTAL307392"	NA	"alcohol rehabilitation"	"35637008"	"59452011"	32
+"3122331000006110"	108	"^ESCTPA312233"	NA	"patient referral for alcoholism rehabilitation"	"38670004"	"3122331000006110"	40
+"3165681000006118"	539	"^ESCTAL316568"	NA	"alcoholic liver disease"	"41309000"	"68909012"	32
+"3165691000006115"	50	"^ESCTAL316569"	NA	"ald - alcoholic liver disease"	"41309000"	"492959019"	32
+"3182581000006111"	1	"^ESCTAL318258"	NA	"alcoholic psychosis"	"42344001"	"70658014"	32
+"3182591000006114"	1	"^ESCTAL318259"	NA	"alcohol induced psychosis"	"42344001"	"2951763010"	32
+"3315041000006111"	1277	"^ESCTAL331504"	NA	"alcoholic steatosis"	"50325005"	"2306821000000116"	32
+"3315061000006110"	75	"^ESCTAL331506"	NA	"alcoholic fatty liver disease"	"50325005"	"3027285017"	32
+"3360071000006111"	2564	"^ESCTAL336007"	NA	"alcohol"	"53041004"	"88230018"	31
+"3402351000006111"	3	"^ESCTKE340235"	NA	"ketoacidosis due to acute alcohol intoxication"	"55571001"	"3035704010"	31
+"3402361000006113"	19	"^ESCTAL340236"	NA	"alcoholic ketoacidosis"	"55571001"	"92368012"	31
+"3402371000006118"	1	"^ESCTAL340237"	NA	"alcohol induced ketoacidosis"	"55571001"	"2957131017"	31
+"3510721000006113"	407	"^ESCTCO351072"	NA	"combined alcohol and drug rehabilitation"	"62213004"	"103391017"	31
+"3528891000006113"	795	"^ESCTAL352889"	NA	"alcohol measurement"	"63267000"	"105170018"	31
+"3545831000006115"	12669	"^ESCTDE354583"	NA	"detoxication psychiatric therapy for alcoholism"	"64297001"	"2160425017"	32
+"3545841000006113"	10	"^ESCTDE354584"	NA	"detoxication therapy for alcoholism"	"64297001"	"106877013"	32
+"3630141000006115"	9	"^ESCTKO363014"	NA	"korsakov syndrome - alcoholic"	"69482004"	"501297017"	32
+"3630161000006116"	58	"^ESCTAM363016"	NA	"amnesic syndrome due to alcohol"	"69482004"	"501299019"	32
+"3630171000006111"	55	"^ESCTAL363017"	NA	"alcoholic amnestic syndrome"	"69482004"	"501300010"	32
+"3846821000006114"	241	"^ESCTAL384682"	NA	"alcohol poisoning"	"82782008"	"1234741018"	32
+"3859091000006114"	595	"^ESCTDI385909"	NA	"dilated cardiomyopathy secondary to alcohol"	"83521008"	"138526017"	32
+"3859111000006117"	3	"^ESCTDI385911"	NA	"dilated cardiomyopathy caused by alcohol"	"83521008"	"3290572011"	32
+"3890681000006118"	2013	"^ESCTUN389068"	NA	"uncomplicated alcohol withdrawal"	"85561006"	"141818010"	32
+"3916281000006114"	30	"^ESCTCO391628"	NA	"combined alcohol and drug detoxification"	"87106005"	"144444016"	31
+"3927031000006111"	1	"^ESCTME392703"	NA	"megaloblastic anaemia due to alcoholism"	"87810006"	"507760015"	31
+"4120351000006119"	31610	"^ESCTDO412035"	NA	"does not drink alcohol"	"105542008"	"291354017"	17
+"4533231000006117"	6798	"^ESCTVE453323"	NA	"very heavy drinker - greater than 9 units/day"	"160578007"	"250315019"	17
+"4533331000006113"	893	"^ESCTEX453333"	NA	"ex-very heavy drinker - greater than 9 units/day"	"160587003"	"250330011"	17
+"4539891000006115"	10	"^ESCTHI453989"	NA	"history of alcoholism"	"161466001"	"2923447012"	32
+"4559361000006118"	1	"^ESCTON455936"	NA	"on examination - breath - alcohol smell"	"163184002"	"2667881012"	27
+"4722771000006115"	7	"^ESCTAL472277"	NA	"alcohol aversion therapy"	"183388004"	"283452013"	32
+"4723831000006118"	3	"^ESCTAD472383"	NA	"admitted to alcohol detoxification center"	"183486001"	"283558010"	40
+"4977991000006113"	643	"^ESCTFA497799"	NA	"fairly heavy drinker"	"228278007"	"342321017"	17
+"4978041000006118"	205	"^ESCTAL497804"	NA	"alcoholic"	"228281002"	"342325014"	17
+"4978471000006116"	671	"^ESCTAL497847"	NA	"alcoholic binges exceeding sensible amounts"	"228316000"	"342370018"	17
+"4978481000006118"	820	"^ESCTAL497848"	NA	"alcoholic binges exceeding safe amounts"	"228317009"	"342371019"	17
+"4978581000006119"	781	"^ESCTAL497858"	NA	"alcohol binge"	"228326007"	"2475862011"	17
+"4978851000006112"	12	"^ESCTTO497885"	NA	"tolerance to alcohol"	"228349009"	"342403019"	31
+"4978881000006116"	3	"^ESCTPH497888"	NA	"physical tolerance to alcohol"	"228351008"	"342406010"	31
+"4978891000006118"	5	"^ESCTPS497889"	NA	"psychological tolerance to alcohol"	"228352001"	"342407018"	31
+"4978901000006119"	19	"^ESCTRE497890"	NA	"reverse tolerance to alcohol"	"228353006"	"342408011"	31
+"4978971000006113"	62	"^ESCTPE497897"	NA	"persistent effect of alcohol"	"228357007"	"342415015"	31
+"4978991000006114"	2	"^ESCTFE497899"	NA	"feels effect of alcohol at work"	"228358002"	"342417011"	31
+"4979051000006113"	4	"^ESCTFE497905"	NA	"feels afraid of being an alcoholic"	"228364009"	"342423018"	31
+"4979061000006110"	1701	"^ESCTCR497906"	NA	"craving for alcohol"	"228365005"	"342424012"	31
+"5063221000006116"	45	"^ESCTAL506322"	NA	"alcohol-related macrocytosis"	"234341005"	"351066013"	31
+"5086741000006114"	2	"^ESCTAH508674"	NA	"ah - alcoholic hepatitis"	"235875008"	"353588011"	32
+"5547201000006114"	186	"^ESCTAL554720"	NA	"alcohol dependence scale"	"273264006"	"408547016"	31
+"5564291000006118"	34	"^ESCTAL556429"	NA	"alcoholism detoxication centre"	"274517002"	"410336016"	31
+"5612351000006115"	17	"^ESCTAL561235"	NA	"alcoholic macrocytosis"	"278363000"	"415240012"	31
+"5689771000006115"	411	"^ESCTPE568977"	NA	"persistent alcohol abuse"	"284591009"	"423307016"	31
+"5689781000006117"	11	"^ESCTCH568978"	NA	"chronic alcohol abuse"	"284591009"	"423308014"	31
+"5801841000006114"	1	"^ESCTAL580184"	NA	"alcohol metabolism modifier allergy"	"293959006"	"434212017"	15
+"5827361000006119"	320	"^ESCTAL582736"	NA	"alcohol deterrent overdose"	"296295001"	"436692012"	31
+"5886961000006112"	4988	"^ESCTAB588696"	NA	"abstinent alcoholic"	"300939009"	"442138014"	17
+"5887581000006113"	24	"^ESCTAL588758"	NA	"alcohol-induced cerebellar ataxia"	"300992002"	"442200018"	31
+"5981291000006110"	13330	"^ESCTAL598129"	NA	"alcohol withdrawal-induced convulsion"	"308742005"	"452062011"	32
+"6006201000006119"	9	"^ESCTIN600620"	NA	"ingestible alcohol"	"311492009"	"455073013"	31
+"6047161000006116"	7	"^ESCTAL604716"	NA	"alcohol related optic neuropathy"	"314539001"	"458914014"	5
+"6221451000006112"	170	"^ESCTAL622145"	NA	"alcohol-related fit"	"361267005"	"478018013"	31
+"6221531000006118"	226	"^ESCTAL622153"	NA	"alcoholic cerebellar degeneration"	"361273006"	"478048011"	32
+"6221541000006111"	1	"^ESCTAL622154"	NA	"alcoholic cerebellar degeneration syndrome"	"361273006"	"1490764012"	32
+"6354581000006114"	3760	"^ESCTHI635458"	NA	"history of alcohol abuse"	"371434005"	"1210092019"	27
+"6455201000006114"	23467	"^ESCTSU645520"	NA	"substance use treatment: alcohol withdrawal"	"386449006"	"1480602019"	31
+"6769881000006115"	1	"^ESCTAL676988"	NA	"alcohol abuse control"	"408945004"	"2477272018"	31
+"6881361000006118"	337	"^ESCTSU688136"	NA	"suspected alcohol abuse"	"415685003"	"2534340014"	27
+"6937401000006115"	6	"^ESCTET693740"	NA	"ethyl alcohol"	"419442005"	"2576569013"	31
+"6947461000006115"	41803	"^ESCTAL694746"	NA	"alcoholic cirrhosis"	"420054005"	"2576981019"	32
+"6947471000006110"	211	"^ESCTAL694747"	NA	"alcoholic liver cirrhosis"	"420054005"	"2912539019"	32
+"7240391000006119"	1	"^ESCTAL724039"	NA	"alcohol abuse cessation behavior"	"440652002"	"2795062010"	31
+"7264381000006117"	3552	"^ESCTRE726438"	NA	"referral to specialist alcohol treatment service declined by patient"	"442444001"	"2819225015"	32
+"7309181000006113"	49	"^ESCTAL730918"	NA	"alcohol-induced pancreatitis"	"445507008"	"2870612012"	5
+"7309201000006114"	85	"^ESCTAL730920"	NA	"alcoholic pancreatitis"	"445507008"	"2951751017"	5
+"7309211000006112"	5	"^ESCTIN730921"	NA	"inflammation of pancreas caused by alcohol"	"445507008"	"3291507014"	5
+"7518451000006115"	9	"^ESCTTH751845"	NA	"thrombocytopaenia due to alcohol"	"699208000"	"2988862012"	31
+"7518461000006118"	1	"^ESCTTH751846"	NA	"thrombocytopenia due to alcohol"	"699208000"	"2983110014"	31
+"7518471000006113"	2	"^ESCTTH751847"	NA	"thrombocytopaenia caused by alcohol"	"699208000"	"3293460019"	31
+"7613321000006119"	21818	"^ESCTAL761332"	NA	"alcohol reduction programme"	"707166002"	"3028954019"	31
+"7613331000006116"	5	"^ESCTAL761333"	NA	"alcohol reduction program"	"707166002"	"3028923018"	31
+"7650111000006114"	2	"^ESCTEX765011"	NA	"exposure to alcohol"	"709460009"	"3039895019"	31
+"7650131000006115"	126	"^ESCTFE765013"	NA	"fetal exposure to alcohol"	"709462001"	"3040342018"	32
+"7683281000006111"	4	"^ESCTFA768328"	NA	"facilitation of alcohol abuse recovery"	"711118008"	"3047473016"	31
+"7700651000006119"	42	"^ESCTCH770065"	NA	"chronic alcoholic liver disease"	"713181003"	"3288362011"	31
+"7703061000006115"	10	"^ESCTAC770306"	NA	"acute on chronic alcoholic liver disease"	"713370005"	"3289055018"	31
+"7706231000006114"	91	"^ESCTMI770623"	NA	"mild alcohol dependence"	"713583005"	"3290336015"	31
+"7710581000006113"	528	"^ESCTSE771058"	NA	"severe alcohol dependence"	"713862009"	"3297813018"	31
+"7725141000006111"	300	"^ESCTMO772514"	NA	"moderate alcohol dependence"	"714829008"	"3300567016"	31
+"7785371000006113"	1	"^ESCTWI778537"	NA	"withdrawn from alcohol detoxification program"	"719340007"	"3316031015"	37
+"7791891000006116"	1	"^ESCTDI779189"	NA	"disorder caused by alcohol"	"719848005"	"3318150011"	5
+"7791901000006117"	9	"^ESCTAL779190"	NA	"alcohol induced disorder"	"719848005"	"3318151010"	5
+"7821631000006114"	8	"^ESCTFI782163"	NA	"fibrosis of liver caused by alcohol"	"721710005"	"3325822012"	31
+"7821641000006116"	12	"^ESCTAL782164"	NA	"alcoholic fibrosis of liver"	"721710005"	"3325823019"	31
+"7848911000006115"	1	"^ESCTAL784891"	NA	"alcoholic duodenitis"	"723882007"	"3426715015"	5
+"7849261000006118"	2	"^ESCTPE784926"	NA	"perceptual disturbances and seizures co-occurrent and due to alcohol withdrawal"	"723926008"	"3427876012"	31
+"7849271000006113"	38	"^ESCTAL784927"	NA	"alcohol withdrawal with perceptual disturbances and seizures"	"723926008"	"3427877015"	31
+"7849301000006110"	1	"^ESCTMO784930"	NA	"mood disorder with depressive symptoms caused by alcohol"	"723928009"	"3429901013"	31
+"7858041000006119"	3	"^ESCTAL785804"	NA	"alcohol-related neurological disorder"	"724574008"	"3441485019"	5
+"8002681000006115"	5	"^ESCTHO800268"	NA	"home office road traffic statistics - police venesection alcohol"	"16751000000101"	"546311000000113"	37
+"8041851000006114"	4	"^ESCTDE804185"	NA	"degenerative brain disorder caused by alcohol"	"133301000119102"	"3290021010"	5
+"8041861000006111"	3	"^ESCTDE804186"	NA	"degenerative brain disorder due to alcohol"	"133301000119102"	"3290091018"	5
+"8048151000006113"	32	"^ESCTCH804815"	NA	"chronic pancreatitis due to chronic alcoholism"	"154211000119108"	"3008826016"	31
+"8088731000006112"	2	"^ESCTDI808873"	NA	"disorder due to alcohol abuse"	"288021000119107"	"3290157019"	5
+"8088741000006119"	19	"^ESCTAL808874"	NA	"alcohol induced disorder co-occurrent and due to alcohol dependence"	"288031000119105"	"3316455019"	31
+"8088751000006117"	88	"^ESCTAL808875"	NA	"alcohol dependence with alcohol induced disorder"	"288031000119105"	"3316456018"	31
+"8121241000006115"	1471	"^ESCTSE812124"	NA	"seen by counsellor for alcohol misuse"	"372501000000100"	"732101000000112"	31
+"8189681000006117"	1	"^ESCTDA818968"	NA	"[d]alcohol blood elevated"	"502401000000108"	"1107361000000114"	31
+"8220581000006118"	4	"^ESCTAL822058"	NA	"alcohol related harm"	"719501000000103"	"1577761000000111"	31
+"8242881000006116"	1	"^ESCTFI824288"	NA	"finding of alcohol drinking risk"	"777691000000109"	"1738451000000118"	31
+"8243961000006112"	1	"^ESCTAL824396"	NA	"alcohol rehabilitation and detoxification care management"	"782181000000105"	"1748911000000114"	31
+"8259601000006117"	2625	"^ESCTRE825960"	NA	"referral to alcohol misuse clinic"	"809401000000103"	"2112501000000115"	40
+"8367371000006114"	252	"^ESCTCU836737"	NA	"current view provisional problem description item 13 score - drug and alcohol difficulties"	"987371000000102"	"2510341000000118"	31
+"8458711000006115"	22	"^ESCTAS845871"	NA	"ascites due to alcoholic cirrhosis"	"1082601000119104"	"3082322015"	31
+"8458751000006119"	1	"^ESCTAS845875"	NA	"ascites due to alcoholic hepatitis"	"1082611000119101"	"3079223017"	31
+"8460501000006118"	301	"^ESCTBR846050"	NA	"breath alcohol concentration"	"1083791000000100"	"2715941000000114"	3
+"12031691000006112"	23	"^ESCT1203169"	NA	"alcoholic steatohepatitis"	"765482002"	"3658938012"	5
+"12117371000006112"	134	"^ESCT1211737"	NA	"referral to alcohol misuse service"	"1099141000000106"	"2751801000000111"	31
+"12456651000006117"	268	"^ESCT1245665"	NA	"[v]alcohol rehabilitation"	"471691000000107"	"895711000000114"	32
+"12618991000006114"	517	"^ESCT1261899"	NA	"signposting to drug and alcohol support service"	"1104571000000100"	"2764961000000110"	32
+"13667221000006114"	4	"^ESCT1366722"	NA	"psychotic behaviour caused by ingestible alcohol"	"787768005"	"3776879017"	27
+"13770661000006117"	241	"^ESCT1377066"	NA	"referral to alcoholism rehabilitation service"	"38670004"	"3705390018"	40
+"13803461000006118"	1	"^ESCT1380346"	NA	"allergy to wool alcohol"	"294330005"	"3748820017"	15
+"13929361000006112"	232960	"^ESCT1392936"	NA	"alcohol detoxification"	"827094004"	"3873802018"	32
+"13938641000006112"	1	"^ESCT1393864"	NA	"acute alcoholic myopathy"	"838386008"	"3896638012"	5
+"13943151000006112"	3	"^ESCT1394315"	NA	"cognitive impairment caused by alcohol"	"840449007"	"3902035014"	5
+"13996301000006113"	239	"^ESCT1399630"	NA	"seen by community alcohol team"	"1325551000000109"	"2840571000000112"	31
+"14146131000006111"	48	"^ESCT1414613"	NA	"estimated volume of intake of alcoholic cider in 24 hours"	"896807001"	"4042915014"	17
+"14146421000006116"	23	"^ESCT1414642"	NA	"oesophageal varices due to cirrhosis of liver caused by alcohol"	"897005004"	"4030032019"	32
+"14447031000006112"	1605	"^ESCT1444703"	NA	"acute alcohol intoxication"	"1149333003"	"4555326016"	32
+"14798841000006110"	30	"^ESCT1479884"	NA	"alcohol-induced psychosis"	"1231846001"	"5075978011"	32
+"14798871000006119"	202	"^ESCT1479887"	NA	"alcoholic cardiomyopathy"	"1234750000"	"5083871014"	32
+"14798891000006118"	4	"^ESCT1479889"	NA	"dilated cardiomyopathy caused by alcohol"	"1234750000"	"5083873012"	32
+"14799161000006114"	21	"^ESCT1479916"	NA	"cognitive impairment caused by alcohol"	"1234774002"	"5083956014"	32
+"14799211000006117"	1	"^ESCT1479921"	NA	"alcoholic steatohepatitis"	"1234778004"	"5083969013"	31
+"14799371000006117"	89	"^ESCT1479937"	NA	"alcohol-induced organic mental disorder"	"1234783007"	"5083991018"	32
+"14801901000006114"	2	"^ESCT1480190"	NA	"history of alcohol withdrawal syndrome"	"1141000161108"	"5070055017"	31
+"15023211000006116"	43	"^ESCT1502321"	NA	"toxic effect of substance with alcohol structure"	"1255413004"	"5146862014"	32
+"15071771000006119"	47	"^ESCT1507177"	NA	"substance with alcohol structure"	"53041004"	"5146837014"	31
+"15072601000006111"	71	"^ESCT1507260"	NA	"alcohol withdrawal without complication"	"85561006"	"5143591010"	32
+"15079111000006113"	5591	"^ESCT1507911"	NA	"alcohol withdrawal"	"191480000"	"5143526011"	32
+"15325021000006118"	31	"^ESCT1532502"	NA	"oesophageal varices due to alcoholic cirrhosis of liver"	"897005004"	"5249434013"	32
+"15505101000006117"	43	"^ESCT1550510"	NA	"alcoholics anonymous"	"1099951000000107"	"5283449011"	17
+"16074141000006111"	340	"^ESCT1607414"	NA	"harmful pattern of use of alcohol"	"15167005"	"5362341013"	32
+"16079371000006117"	2	"^ESCT1607937"	NA	"episodic nondependent harmful pattern of use of alcohol"	"191883007"	"5392779014"	32
+"16083951000006115"	35	"^ESCT1608395"	NA	"nondependent harmful pattern of use of alcohol"	"268645007"	"5392720010"	32

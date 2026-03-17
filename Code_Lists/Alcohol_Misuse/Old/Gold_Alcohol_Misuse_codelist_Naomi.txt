@@ -1,0 +1,288 @@
+"V1"	"V2"	"V3"	"V4"	"V5"	"V6"	"V7"	"V8"	"QOF"
+
+"110671"	"Z191300"	1	0	0	0	"controlled drinking regime"	"Mar-16"	0
+
+"94553"	"8HkG.00"	1864	0	1777	0	"referral to specialist alcohol treatment service"	"Feb-09"	0
+
+"10458"	"ZV79100"	216	0	7	1	"[v]screening for alcoholism"	"Feb-09"	0
+
+"11491"	"6792"	584036	0	274	11	"health ed. - alcohol"	"Feb-09"	0
+
+"31569"	"E250300"	130	0	0	0	"nondependent alcohol abuse in remission"	"Feb-09"	0
+
+"18711"	"67H0.00"	117956	0	64	0	"lifestyle advice regarding alcohol"	"Feb-09"	0
+
+"56441"	"ZRa1.00"	4	0	0	0	"michigan alcoholism screening test"	"Feb-09"	0
+
+"9169"	"R103.00"	1893	0	33	7	"[d]alcohol blood level excessive"	"Feb-09"	0
+
+"12983"	"136E.00"	7323	0	4	0	"ex-very heavy drinker-(>9u/d)"	"Feb-09"	1
+
+"12979"	"136M.00"	204778	0	1	0	"current non drinker"	"Feb-09"	0
+
+"12985"	"136O.00"	15982	0	0	0	"moderate drinker"	"Feb-09"	1
+
+"61583"	"ZV70411"	27	0	1	1	"[v]medicolegal blood alcohol test"	"Feb-09"	0
+
+"19401"	"136R.00"	24890	0	179	0	"binge drinker"	"Feb-09"	1
+
+"24485"	"E231300"	504	0	1	0	"chronic alcoholism in remission"	"Feb-09"	0
+
+"66552"	"ZRR..00"	6	0	0	0	"inventory of drinking situations"	"Feb-09"	0
+
+"32964"	"66e0.00"	8981	0	257	0	"alcohol abuse monitoring"	"Feb-09"	0
+
+"19494"	"136S.00"	17938	0	458	0	"hazardous alcohol use"	"Feb-09"	1
+
+"8388"	"ZV57A00"	1460	0	61	0	"[v]alcohol rehabilitation"	"Feb-09"	0
+
+"12982"	"136K.00"	106949	0	37	0	"alcohol intake above recommended sensible limits"	"Feb-09"	1
+
+"95663"	"9k17.00"	561420	0	186	66	"alcohol screen - audit c completed"	"Feb-09"	0
+
+"35330"	"9k11.00"	27034	0	114	0	"alcohol consumption counselling"	"Feb-09"	0
+
+"48545"	"9k13.00"	85663	0	1	5	"alcohol questionnaire completed"	"Feb-09"	0
+
+"54209"	"ZC2H.00"	17	0	0	0	"advice to change alcohol intake"	"Feb-09"	0
+
+"21879"	"Eu10100"	474	0	5	0	"[x]mental and behav dis due to use of alcohol: harmful use"	"Feb-09"	0
+
+"61383"	"Z191200"	9	0	0	0	"planned reduction of alcohol consumption"	"Feb-09"	0
+
+"33635"	"E231z00"	2444	0	98	0	"chronic alcoholism nos"	"Feb-09"	0
+
+"1618"	"1365"	77583	0	186	2	"heavy drinker - 7-9u/day"	"Feb-09"	1
+
+"669"	"E250000"	50041	0	4762	168	"nondependent alcohol abuse, unspecified"	"Feb-09"	0
+
+"27"	"136..00"	11288077	0	5448	61	"alcohol consumption"	"Feb-09"	1
+
+"99877"	"136b.00"	789	0	2	0	"feels should cut down drinking"	"Jun-10"	0
+
+"96053"	"9k1A.00"	96829	0	30	0	"brief intervention for excessive alcohol consumptn completed"	"Feb-09"	0
+
+"26106"	"E231200"	480	0	11	0	"episodic chronic alcoholism"	"Feb-09"	0
+
+"5758"	"Eu10212"	2255	0	61	0	"[x]chronic alcoholism"	"Feb-09"	0
+
+"21829"	"Z786200"	568	0	2	0	"drinking practice"	"Feb-09"	0
+
+"104109"	"ZC67111"	2	0	0	0	"drinks only"	"May-12"	0
+
+"40602"	"ZR1E.11"	55	0	4	0	"ads - alcohol dependence scale"	"Feb-09"	0
+
+"101718"	"136Y.00"	13	0	0	0	"drinks in morning to get rid of hangover"	"Feb-11"	0
+
+"2689"	"136G.00"	71216	0	15	0	"beer drinker"	"Feb-09"	1
+
+"12968"	"136H.00"	11632	0	7	0	"drinks beer and spirits"	"Feb-09"	1
+
+"956"	"136J.00"	283410	0	3	0	"social drinker"	"Feb-09"	1
+
+"19493"	"136D.00"	7313	0	0	0	"ex-heavy drinker - (7-9u/day)"	"Feb-09"	1
+
+"7692"	"8CAM.00"	162873	0	238	0	"patient advised about alcohol"	"Feb-09"	0
+
+"32850"	"ZR1F.00"	2564	0	0	0	"alcohol use disorders identification test"	"Feb-09"	0
+
+"26472"	"136L.00"	657389	0	0	0	"alcohol intake within recommended sensible limits"	"Feb-09"	1
+
+"12980"	"136N.00"	24009	0	0	0	"light drinker"	"Feb-09"	1
+
+"31443"	"E231.00"	3980	0	93	0	"chronic alcoholism"	"Feb-09"	0
+
+"95650"	"ZC22100"	1	0	0	0	"advice to change drink intake"	"Feb-09"	0
+
+"12442"	"66e..00"	18118	0	282	0	"alcohol disorder monitoring"	"Feb-09"	0
+
+"97309"	"8CAv.00"	1447	0	1	0	"advised to contact primary care alcohol worker"	"Aug-09"	0
+
+"95181"	"Z191211"	19	0	0	0	"alcohol reduction programme"	"Feb-09"	0
+
+"7746"	"E250.00"	57919	0	3796	32	"nondependent alcohol abuse"	"Feb-09"	0
+
+"23610"	"E250100"	902	0	66	0	"nondependent alcohol abuse, continuous"	"Feb-09"	0
+
+"63457"	"ZR3f.11"	4	0	0	0	"cdp - comprehensive drinker profile"	"Feb-09"	0
+
+"95744"	"38D4.00"	803384	0	6	609	"alcohol use disorder identificatn test consumptn questionnre"	"Feb-09"	0
+
+"94485"	"9k18.00"	1674	0	0	0	"alcohol screen - audit pc completed"	"Feb-09"	0
+
+"93624"	"388u.00"	775126	0	5	77	"fast alcohol screening test"	"Feb-09"	0
+
+"16587"	"ZV11311"	168	0	20	0	"[v]problems related to lifestyle alcohol use"	"Feb-09"	0
+
+"42305"	"ZRk6.00"	220	0	0	0	"severity of alcohol dependence questionnaire"	"Feb-09"	0
+
+"39327"	"Eu10200"	1757	0	20	0	"[x]mental and behav dis due to use alcohol: dependence syndr"	"Feb-09"	0
+
+"18156"	"13Y8.00"	1848	0	22	2	"alcoholics anonymous"	"Feb-09"	0
+
+"97126"	"136X.00"	6291	0	4	0	"alcohol units consumed on heaviest drinking day"	"Aug-09"	1
+
+"12969"	"136I.00"	56898	0	10	0	"drinks wine"	"Feb-09"	1
+
+"37264"	"8CE1.00"	4133	0	1	0	"alcohol leaflet given"	"Feb-09"	0
+
+"50507"	"ZR1E.00"	116	0	2	0	"alcohol dependence scale"	"Feb-09"	0
+
+"100493"	"38Df.00"	277	0	0	0	"five-shot questionnaire on heavy drinking"	"Aug-10"	0
+
+"8999"	"136P.00"	16619	0	452	0	"heavy drinker"	"Feb-09"	1
+
+"43193"	"E231000"	270	0	0	0	"unspecified chronic alcoholism"	"Feb-09"	0
+
+"96993"	"8HkJ.00"	269	0	64	0	"referral to alcohol brief intervention service"	"Jun-09"	0
+
+"59873"	"ZR1F.11"	3569	0	1	1	"audit - alcohol use disorders identification test"	"Feb-09"	0
+
+"5611"	"Eu10.00"	1865	0	56	0	"[x]mental and behavioural disorders due to use of alcohol"	"Feb-09"	0
+
+"28150"	"E250z00"	6179	0	2	0	"nondependent alcohol abuse nos"	"Feb-09"	0
+
+"12971"	"136F.00"	18648	0	10	0	"spirit drinker"	"Feb-09"	1
+
+"102564"	"8CAM000"	798	0	0	0	"advised to abstain from alcohol consumption"	"Jul-11"	0
+
+"99985"	"ZRa1100"	1	0	0	0	"brief michigan alcoholism screening test"	"Jun-10"	0
+
+"28780"	"Eu10211"	3523	0	267	0	"[x]alcohol addiction"	"Feb-09"	0
+
+"46848"	"ZRBJ.11"	27	0	1	0	"dps - drinking problem scale"	"Feb-09"	0
+
+"103230"	"136d.00"	1420	0	0	0	"lower risk drinking"	"Oct-11"	1
+
+"12981"	"136Z.00"	126926	0	17	0	"alcohol consumption nos"	"Feb-09"	1
+
+"12976"	"1369"	1202	0	4	0	"suspect alcohol abuse - denied"	"Feb-09"	0
+
+"19495"	"136C.00"	3936	0	0	0	"ex-moderate drinker - (3-6u/d)"	"Feb-09"	1
+
+"94670"	"136W.00"	3460	0	33	0	"alcohol misuse"	"Feb-09"	0
+
+"8030"	"ZV6D600"	20798	0	933	0	"[v]alcohol abuse counselling and surveillance"	"Feb-09"	0
+
+"2081"	"E23..11"	57867	0	4108	21	"alcoholism"	"Feb-09"	0
+
+"1399"	"E23..12"	142514	0	9231	21	"alcohol problem drinking"	"Feb-09"	0
+
+"66831"	"ZRk6.11"	74	0	1	0	"sadq - severity of alcohol dependence questionnaire"	"Feb-09"	0
+
+"9849"	"8H7p.00"	11664	0	14427	0	"referral to community alcohol team"	"Feb-09"	0
+
+"97501"	"38D5.00"	1976	0	0	0	"alcoh use disor id test piccinelli consumption questionnaire"	"Aug-09"	0
+
+"30460"	"Z4B1.00"	1068	0	109	0	"alcoholism counselling"	"Feb-09"	0
+
+"7545"	"ZV4KC00"	7056	0	156	0	"[v] alcohol use"	"Feb-09"	0
+
+"94838"	"38D3.00"	172786	0	9	0	"alcohol use disorders identification test"	"Feb-09"	0
+
+"62299"	"ZRk9.11"	3	0	0	0	"sadd - short alcohol dependence data"	"Feb-09"	0
+
+"4447"	"1361.12"	474479	0	17	14	"non-drinker alcohol"	"Feb-09"	1
+
+"102577"	"38Dz.00"	135	0	10	0	"severity of alcohol dependence questionnaire"	"Jul-11"	0
+
+"47123"	"9k14.00"	855	0	28	0	"alcohol counselling by other agencies"	"Feb-09"	0
+
+"22933"	"136A.00"	5976	0	0	0	"ex-trivial drinker (<1u/day)"	"Feb-09"	1
+
+"30695"	"136T.00"	18688	0	638	0	"harmful alcohol use"	"Feb-09"	1
+
+"59776"	"ZRVK.00"	10	0	0	0	"last six months of drinking questionnaire"	"Feb-09"	0
+
+"41251"	"ZRa1111"	71	0	1	0	"bmast - brief michigan alcoholism screening test"	"Feb-09"	0
+
+"22707"	"ZRBJ.00"	367	0	16	0	"drinking problem scale"	"Feb-09"	0
+
+"65980"	"ZR1G.00"	112	0	0	0	"alcohol use inventory"	"Feb-09"	0
+
+"70939"	"ZRaU.00"	1	0	0	0	"munich alcoholism test"	"Feb-09"	0
+
+"11140"	"ZG23100"	8250	0	32	0	"advice on alcohol consumption"	"Feb-09"	0
+
+"967"	"1367"	584139	0	108	0	"stopped drinking alcohol"	"Feb-09"	1
+
+"12949"	"1361"	3910964	0	166	1	"teetotaller"	"Feb-09"	1
+
+"12972"	"1363"	889386	0	5	0	"light drinker - 1-2u/day"	"Feb-09"	1
+
+"19489"	"6892"	11719	0	3	0	"alcohol consumption screen"	"Feb-09"	0
+
+"2084"	"E23..00"	224072	0	10908	15	"alcohol dependence syndrome"	"Feb-09"	0
+
+"26471"	"136B.00"	3943	0	0	0	"ex-light drinker - (1-2u/day)"	"Feb-09"	1
+
+"93415"	"136V.00"	93413	0	0	0	"alcohol units per week"	"Feb-09"	1
+
+"749"	"1362.12"	2072065	0	33	2	"drinks occasionally"	"Feb-09"	1
+
+"385"	"1362.11"	1668277	0	7	0	"drinks rarely"	"Feb-09"	1
+
+"110494"	"8BAu.00"	13	0	1	0	"alcohol harm reduction programme"	"Jan-16"	0
+
+"97163"	"ZC22200"	3	0	0	0	"advice to change alcoholic drink intake"	"Aug-09"	0
+
+"12984"	"136Q.00"	3519	0	20	0	"very heavy drinker"	"Feb-09"	1
+
+"62300"	"ZRk9.00"	16	0	0	0	"short alcohol dependence data"	"Feb-09"	0
+
+"9264"	"68S..00"	87029	0	27	6	"alcohol consumption screen"	"Feb-09"	0
+
+"64409"	"Z191400"	6	0	0	0	"self-monitoring of alcohol intake"	"Feb-09"	0
+
+"109668"	"8CdK.00"	66	0	14	0	"specialist alcohol treatment service signposted"	"May-15"	0
+
+"110624"	"8BAs.00"	29	0	1	0	"alcohol relapse prevention"	"Mar-16"	0
+
+"69331"	"ZRa1.11"	5	0	0	0	"mast - michigan alcoholism screening test"	"Feb-09"	0
+
+"102770"	"38Dz.11"	179	0	0	0	"sadq - severity of alcohol dependence questionnaire"	"Aug-11"	0
+
+"102121"	"9EQ..12"	4	0	0	0	"police:venesect-alcohol"	"Apr-11"	0
+
+"43813"	"9EQ..11"	8	0	0	0	"police:venesect-alcohol"	"Feb-09"	0
+
+"96107"	"38D2.00"	451	0	0	0	"single alcohol screening questionnaire"	"Apr-09"	0
+
+"6169"	"E23z.00"	9208	0	264	0	"alcohol dependence syndrome nos"	"Feb-09"	0
+
+"12974"	"E250200"	3460	0	269	0	"nondependent alcohol abuse, episodic"	"Feb-09"	0
+
+"24064"	"E231100"	550	0	5	0	"continuous chronic alcoholism"	"Feb-09"	0
+
+"94963"	"9k16.00"	244176	0	7	0	"alcohol screen - fast alcohol screening test completed"	"Feb-09"	0
+
+"63529"	"9k12.00"	5167	0	0	0	"alcohol misuse - enhanced service completed"	"Feb-09"	0
+
+"12978"	"1368"	22535	0	0	0	"alcohol consumption unknown"	"Feb-09"	1
+
+"322"	"1364"	501925	0	22	4	"moderate drinker - 3-6u/day"	"Feb-09"	1
+
+"90714"	"9k15.00"	125720	0	37	11	"alcohol screen - audit completed"	"Feb-09"	0
+
+"12977"	"1366"	45775	0	71	0	"very heavy drinker - >9u/day"	"Feb-09"	1
+
+"61750"	"ZR3f.00"	27	0	0	0	"comprehensive drinker profile"	"Feb-09"	0
+
+"100989"	"4I91.11"	17	0	0	208	"breath alcohol level"	"Nov-10"	0
+
+"12970"	"1361.11"	378638	0	18	2	"non drinker alcohol"	"Feb-09"	1
+
+"84218"	"13ZY.00"	421	0	3	0	"disqualified from driving due to excess alcohol"	"Feb-09"	0
+
+"102665"	"136a.00"	389	0	2	0	"increasing risk drinking"	"Jul-11"	1
+
+"102448"	"136c.00"	181	0	3	0	"higher risk drinking"	"Jun-11"	1
+
+"96054"	"9k1B.00"	3113	0	2	0	"extended intervention for excessive alcohol consumptn complt"	"Feb-09"	0
+
+"105144"	"67K6.00"	5	0	0	0	"cycle of change stage, alcohol"	"Nov-12"	0
+
+"12975"	"1362"	1219759	0	4	0	"trivial drinker - <1u/day"	"Feb-09"	1
+
+"29691"	"8G32.00"	429	0	10	0	"aversion therapy - alcoholism"	"Feb-09"	0
+

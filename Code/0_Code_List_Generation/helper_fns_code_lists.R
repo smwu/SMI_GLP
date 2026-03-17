@@ -9,7 +9,11 @@
 #
 # ========================================================
 
-library(tidyverse)
+library(readr)
+library(readxl)
+library(dplyr)
+library(stringr)
+library(tidyr)
 
 # Find codes that match the drugs and brand names of interest
 # Inputs:

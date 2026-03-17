@@ -2,7 +2,7 @@
 # Extract patients with GLP-1RA medications using code lists
 # Author: SM Wu
 # Date Created: 2025/06/17
-# Date Updated: 2025/06/17
+# Date Updated: 2025/12/05
 # 
 # Details:
 # 1) Set up and read in code lists
@@ -47,30 +47,54 @@ library(forcats)
 library(data.table)
 library(tidylog)
 
+# ### For running locally
+# # Set working directory
+# wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/" # VPN connection
+# # wd <- "//live.rd.ucl.ac.uk/ritd-ag-project-rd00qv-jfhay18/" #Desktop@UCL
+# setwd(wd)
+# 
+# # Set input and output paths
+# path_input <- "Stephanie/SMI_GLP/Code_Lists/GLP1RAs/"
+# path_extract_gold <- "2023 CPRD/GOLD/"
+# path_extract_aurum <- "2023 CPRD/Aurum/"
+# path_output <- "Stephanie/SMI_GLP/Data/"
+# path_lookups_gold <- "/2023 CPRD/LookUps/202303_Lookups_CPRDGold/"
+# path_lookups_aurum <- "/2023 CPRD/LookUps/202205_Lookups_CPRDAurum/"
+# 
+# # Load in helper functions
+# source(paste0(wd, "Stephanie/SMI_GLP/Code/1_Data_Extraction/",
+#               "helper_fns_data_extraction.R"))
+
+
+### For running in Data Safe Haven
 # Set working directory
-wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/" # VPN connection
-# wd <- "//live.rd.ucl.ac.uk/ritd-ag-project-rd00qv-jfhay18/" #Desktop@UCL
+wd <- "S:/CDSTP_CPRD_25_005368/" 
 setwd(wd)
 
 # Set input and output paths
-path_input <- "Stephanie/SMI_GLP/Code_Lists/GLP1RAs/"
-path_output <- "Stephanie/SMI_GLP/Data/"
+path_input <- "SMI_GLP/Code_Lists/GLP1RAs/"
+path_extract_gold <- "GOLD/"
+path_extract_aurum <- c("Aurum_1/", "Aurum_2/", "Aurum_3/")
+path_output <- "SMI_GLP/Data/"
+path_lookups_gold <- "Lookups/202506_Lookups_GOLD2025_09/"
+path_lookups_aurum <- "Lookups/202506_Lookups_CPRDAurum/"
 
 # Load in helper functions
-source(paste0(wd, "Stephanie/SMI_GLP/Code/1_Data_Extraction/",
+source(paste0(wd, "SMI_GLP/Code/1_Data_Extraction/",
               "helper_fns_data_extraction.R"))
+
 
 ## Read in final code lists used to define the CPRD data extraction
 
 # GOLD code list
 glp_gold <- read_delim(
-  file = paste0(wd, path_input, "Gold_GLP1RAs_codelist_20250614.txt"), 
+  file = paste0(wd, path_input, "Gold_GLP1RAs_codelist_20250730.txt"), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(prodcode = col_character()),  trim_ws = TRUE) 
 
 # AURUM code list
 glp_aurum <- read_delim(
-  file = paste0(wd, path_input, "Aurum_GLP1RAs_codelist_20250614.txt"), 
+  file = paste0(wd, path_input, "Aurum_GLP1RAs_codelist_20250730.txt"), 
   delim = "\t", escape_double = FALSE, 
   col_types = cols(prodcodeid = col_character(),
                    BNFChapter = col_character()), 
@@ -83,12 +107,12 @@ glp_aurum <- read_delim(
 # GOLD THERAPY
 
 # Get list of all .txt files in the GOLD/Therapy folder
-gold_therapy_files <- list.files(path = paste0(wd, "2023 CPRD/GOLD/Therapy/"),
+gold_therapy_files <- list.files(path = paste0(wd, path_extract_gold, "Therapy/"),
                               pattern = "\\.txt$")
 
 # Extract patient files matching conditions from code list
 pat_glp_gold_therapy <- read_obs_condition(
-  file_path = paste0(wd, "2023 CPRD/GOLD/Therapy/"),
+  file_path = paste0(wd, path_extract_gold, "Therapy/"),
   file_names = gold_therapy_files,
   code_list = glp_gold,
   database = "gold",
@@ -99,40 +123,85 @@ pat_glp_gold <- pat_glp_gold_therapy %>%
   mutate(database = "Gold")
 
 # Number of unique patients with condition
-n_distinct(pat_glp_gold$patid) # 1,148
+n_distinct(pat_glp_gold$patid) # 75,029
 
 # # Save extracted patient files matching code list conditions 
-# save(pat_glp_gold, 
-#      file = paste0(wd, path_output, "Extraction_Files/pat_glp_gold.RData"))
+save(pat_glp_gold, 
+     file = paste0(wd, path_output, "Extraction_Files/pat_glp_gold.RData"))
 
+# Remove to save memory
+rm(pat_glp_gold, pat_glp_gold_therapy)
 
 # ================= 3) Read in CPRD Aurum data ==================================
 
 # AURUM CLINICAL
 
-# Get list of all .txt files in the Aurum/DrugIssue folder
-aurum_drug_files <- list.files(path = paste0(wd, "2023 CPRD/Aurum/DrugIssue/"),
-                              pattern = "\\.txt$")
+# Number of Aurum folders
+num_folders <- length(path_extract_aurum)
 
-# Extract patient files matching conditions from code list
-pat_glp_aurum_drug <- read_obs_condition(
-  file_path = paste0(wd, "2023 CPRD/Aurum/DrugIssue/"),
-  file_names = aurum_drug_files,
-  code_list = glp_aurum,
-  database = "aurum",
-  medcode = FALSE)
+if (num_folders > 1) {
+  
+  # Initialize to allow for multiple folders
+  pat_glp_aurum_all <- vector(mode = "list", length = num_folders)
+  
+  for (i in 1:num_folders) {
+    path_extract_aurum_i <- path_extract_aurum[i]
 
-# Create new column to indicate database
-pat_glp_aurum <- pat_glp_aurum_drug %>%
-  mutate(database = "Aurum")
+    # Get list of all .txt files in the Aurum/DrugIssue folder
+    aurum_drug_files <- list.files(path = paste0(wd, path_extract_aurum_i, "DrugIssue/"),
+                                  pattern = "\\.txt$")
+
+    # Extract patient files matching conditions from code list
+    pat_glp_aurum_drug <- read_obs_condition(
+      file_path = paste0(wd, path_extract_aurum_i, "DrugIssue/"),
+      file_names = aurum_drug_files,
+      code_list = glp_aurum,
+      database = "aurum",
+      medcode = FALSE)
+    
+    # Create new column to indicate database
+    pat_glp_aurum_i <- pat_glp_aurum_drug %>%
+      mutate(database = "Aurum")
+    
+    # Save partial extracted patient files  
+    save(pat_glp_aurum_i, 
+         file = paste0(wd, path_output, "Extraction_Files/pat_glp_aurum_", i, ".RData"))
+    
+    # Remove to save memory
+    rm(pat_glp_aurum_i, pat_glp_aurum_drug)
+  }
+  
+  # Combine into one file
+  for (i in 1:num_folders) {
+    load(file = paste0(wd, path_output, "Extraction_Files/pat_glp_aurum_", i, ".RData"))
+    pat_glp_aurum_all[[i]] <- pat_glp_aurum_i
+  }
+  pat_glp_aurum <- dplyr::bind_rows(pat_glp_aurum_all)
+  
+} else {
+  # Get list of all .txt files in the Aurum/DrugIssue folder
+  aurum_drug_files <- list.files(path = paste0(wd, path_extract_aurum, "DrugIssue/"),
+                                 pattern = "\\.txt$")
+  
+  # Extract patient files matching conditions from code list
+  pat_glp_aurum_drug <- read_obs_condition(
+    file_path = paste0(wd, path_extract_aurum, "DrugIssue/"),
+    file_names = aurum_drug_files,
+    code_list = glp_aurum,
+    database = "aurum",
+    medcode = FALSE)
+  
+  # Create new column to indicate database
+  pat_glp_aurum <- pat_glp_aurum_drug %>%
+    mutate(database = "Aurum")
+}
 
 # Number of unique patients with condition
-n_distinct(pat_glp_aurum$patid) # 3,465
+n_distinct(pat_glp_aurum$patid) # 302,395
 
 # # Save extracted patient files matching code list conditions 
-# save(pat_glp_aurum, 
-#      file = paste0(wd, path_output, "Extraction_Files/pat_glp_aurum.RData"))
-
+save(pat_glp_aurum, 
+     file = paste0(wd, path_output, "Extraction_Files/pat_glp_aurum.RData"))
 
 
 # ================= 4) Add in look up information ==============================
@@ -143,12 +212,9 @@ n_distinct(pat_glp_aurum$patid) # 3,465
 ## GOLD
 
 # Read in look up files
-common_dosages_g <- read.delim(
-  file = paste0(wd, "/2023 CPRD/LookUps/202303_Lookups_CPRDGold/common_dosages.txt"))
-bnfcodes <- read.delim(
-  file = paste0(wd, "/2023 CPRD/LookUps/202303_Lookups_CPRDGold/bnfcodes.txt"))
-packtype <- read.delim(
-  file = paste0(wd, "/2023 CPRD/LookUps/202303_Lookups_CPRDGold/packtype.txt"))
+common_dosages_g <- read.delim(file = paste0(wd, path_lookups_gold, "common_dosages.txt"))
+bnfcodes <- read.delim(file = paste0(wd, path_lookups_gold, "bnfcodes.txt"))
+packtype <- read.delim(file = paste0(wd, path_lookups_gold, "packtype.txt"))
 
 # Standardise field names to AURUM and add in look up information
 pat_glp_gold_lookup <- pat_glp_gold %>%
@@ -173,10 +239,8 @@ pat_glp_gold_lookup <- pat_glp_gold %>%
 ## AURUM
 
 # Read in look up files
-common_dosages_a <- read.delim(
-  file = paste0(wd, "/2023 CPRD/LookUps/202205_Lookups_CPRDAurum/common_dosages.txt"))
-quantunit <- read.delim(
-  file = paste0(wd, "/2023 CPRD/LookUps/202205_Lookups_CPRDAurum/QuantUnit.txt"))
+common_dosages_a <- read.delim(file = paste0(wd, path_lookups_aurum, "common_dosages.txt"))
+quantunit <- read.delim(file = paste0(wd, path_lookups_aurum, "QuantUnit.txt"))
 
 # Add in look up information
 pat_glp_aurum_lookup <- pat_glp_aurum %>%
@@ -198,10 +262,10 @@ pat_glp_comb <- pat_glp_aurum_lookup %>%
   bind_rows(pat_glp_gold_lookup)
 
 # Transform dates and exclude entries with invalid GLP1RAs dates
-# 0 excluded. 29,604 remaining
+# 0 excluded.
 pat_glp_comb <- transform_dates_meds(patient_data = pat_glp_comb,
                                      earliest_date = '1900-01-01',
-                                     latest_date = '2023-06-01')
+                                     latest_date = '2025-06-01')
 # Rearrange columns, add Gold and Aurum identifiers to patid, and drop duplicates
 pat_glp_comb <- pat_glp_comb %>%
   mutate(bnf = coalesce(bnf, BNFChapter)) %>%
@@ -212,15 +276,15 @@ pat_glp_comb <- pat_glp_comb %>%
       database == "Gold" ~ paste0(patid, "-G"),
       database == "Aurum" ~ paste0(patid, "-A"),
       .default = patid)) %>%
-  distinct()  # Removed 16 duplicates. 120,561 remaining
+  distinct()  # Removed 1107 duplicates. 8,077,676 remaining
 
 
 # Number of unique patients with condition
-n_distinct(pat_glp_comb$patid) # 4,613
+n_distinct(pat_glp_comb$patid) # 377,424
 
 # # Save patient data for GOLD and Aurum
-# save(pat_glp_comb,
-#      file = paste0(wd, path_output, "Extraction_Files/pat_glp_comb.RData"))
+save(pat_glp_comb,
+     file = paste0(wd, path_output, "Extraction_Files/pat_glp_comb.RData"))
 
 
 

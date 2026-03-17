@@ -210,3 +210,463 @@ transform_dates_meds <- function(patient_data, earliest_date, latest_date) {
     filter(!is.na(issuedate), issuedate <= latest)
   
 }
+
+
+
+
+
+#========================================================================================================
+### SQL extraction functions
+
+## Works with medcodes for diagnoses and prodcodes for medications
+
+# Create SQL extraction function for GOLD codes
+# This block:
+#   1) Reads all tab-delimited files in a folder with read_csv()
+#   2) INNER JOINs to the GOLD code list to find code matches
+gold_extract_sql <- function(connection, out_table, files_glob, gold_codes_table, 
+                             source_label, code_kind = c("medcode", "prodcode")){
+  
+  # Medcode for diagnoses, prodcode for medications
+  code_kind <- match.arg(code_kind)
+  
+  # Make sure correct output and codelist table names
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  code_tbl <- as.character(DBI::dbQuoteIdentifier(connection, gold_codes_table))
+  
+  
+  sql <- sprintf("
+    -- Read GOLD raw files
+    
+    CREATE OR REPLACE TEMP VIEW gold_rawfile AS
+    SELECT * FROM read_csv('%1$s',
+      delim='\\t', 
+      header=true, 
+      all_varchar=true,   -- all columns as characters
+      null_padding=true,  -- pad shorter rows
+      strict_mode=false,  -- tolerate irregular rows
+      quote='', escape=''
+    );
+    
+    
+    -- Create out_tbl, keeping only rows matching code list medcode (from code_tbl)
+    -- Attach term from code list
+    -- Also add in database identifier and source type
+    
+    CREATE OR REPLACE TEMP TABLE %2$s AS
+    SELECT
+      c.*,  -- code list columns (e.g., medcode, term)
+      g.*,  -- all columns from records
+      'Gold'          AS database,
+      '%3$s'          AS source
+    FROM gold_rawfile g
+    INNER JOIN %4$s c
+      ON trim(g.%5$s) = trim(c.%5$s);
+  ", 
+                 files_glob, 
+                 out_tbl, 
+                 source_label, 
+                 code_tbl,
+                 code_kind
+  )
+  
+  # Execute SQL commands
+  DBI::dbExecute(connection, sql)
+  # Don't print out 'out_table' by default when returned, but can still call 
+  # on it if necessary 
+  invisible(out_table)
+}
+
+
+# Create SQL extraction function for Aurum codes
+# This block:
+#   1) Reads all tab-delimited files in a folder with read_csv()
+#   2) INNER JOINs to the GOLD code list to find code matches
+aurum_extract_sql <- function(connection, out_table, files_glob, aurum_codes_table, 
+                              source_label, code_kind = c("medcodeid", "prodcodeid")){
+  
+  # Medcodeid for diagnoses, prodcodeid for medications
+  code_kind <- match.arg(code_kind)
+  
+  # Make sure correct output and codelist table names
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  code_tbl <- as.character(DBI::dbQuoteIdentifier(connection, aurum_codes_table))
+  
+  
+  sql <- sprintf("
+    -- Read Aurum raw files
+    
+    CREATE OR REPLACE TEMP VIEW aurum_rawfile AS
+    SELECT * FROM read_csv('%1$s',
+      delim='\\t', 
+      header=true, 
+      all_varchar=true,   -- all columns as characters
+      null_padding=true,  -- pad shorter rows
+      strict_mode=false,  -- tolerate irregular rows
+      quote='', escape=''
+    );
+    
+    
+    -- Create out_tbl, keeping only rows matching code list medcode (from code_tbl)
+    -- Attach term from code list
+    -- Also add in database identifier and source type
+    
+    CREATE OR REPLACE TABLE %2$s AS
+    SELECT
+      c.*,  -- code list columns (e.g., medcodeid, term)
+      a.*,  -- all columns from records
+      'Aurum'         AS database,
+      '%3$s'          AS source
+    FROM aurum_rawfile a
+    INNER JOIN %4$s c
+      ON trim(a.%5$s) = trim(c.%5$s);
+  ", 
+                 files_glob, 
+                 out_tbl, 
+                 source_label, 
+                 code_tbl,
+                 code_kind
+  )
+  
+  # Execute SQL commands
+  DBI::dbExecute(connection, sql)
+  # Don't print out 'out_table' by default when returned, but can still call 
+  # on it if necessary 
+  invisible(out_table)
+}
+
+
+# SQL function to transform dates into date format and filter invalid dates
+transform_dates_sql <- function(connection, 
+                                in_table, 
+                                out_table, 
+                                earliest_date = "1900-01-01",
+                                latest_date   = "2025-06-01",
+                                code_kind = c("medcode", "prodcode")) {
+  
+  # Medcode for diagnoses, prodcode for medications
+  code_kind <- match.arg(code_kind)
+  # Pick column names based on code kind
+  if (code_kind == "medcode") { # diagnosis
+    eventdate <- "eventdate"
+    sysdate <- "sysdate"
+  } else { # medication
+    eventdate <- "issuedate"
+    sysdate <- "enterdate"
+  }
+  
+  # Ensure quote identifiers are safe for SQL table/view names
+  in_tbl <- as.character(DBI::dbQuoteIdentifier(connection, in_table))
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  
+  # Input:  eventdate/sysdate are TEXT in dd/mm/YYYY
+  # Output: eventdate/sysdate are DATE, and rows are filtered
+  sql <- sprintf("
+    CREATE OR REPLACE TABLE %1$s AS
+    WITH parsed AS (
+      SELECT
+        t.*,
+        -- Convert to dates (invalid becomes NULL)
+        CAST(try_strptime(%2$s, '%%d/%%m/%%Y') AS DATE) AS event_dt,
+        CAST(try_strptime(%3$s,   '%%d/%%m/%%Y') AS DATE) AS sys_dt
+      FROM %4$s
+    ),
+    step1 AS (
+      SELECT
+        * EXCLUDE (event_dt, sys_dt)
+
+        -- Apply earliest/latest filters to event_dt1: NULL if < earliest OR > latest
+        CASE
+          WHEN event_dt < DATE '%5$s' THEN NULL
+          WHEN event_dt > DATE '%6$s' THEN NULL
+          ELSE event_dt
+        END AS event_dt1,
+        -- Apply earliest filter to sys_dt1: NULL if < earliest 
+        CASE
+          WHEN sys_dt < DATE '%5$s' THEN NULL
+          ELSE sys_dt
+        END AS sys_dt1
+      FROM parsed
+    ),
+    step2 AS (
+      SELECT
+        * EXCLUDE (event_dt1, sys_dt1),
+        
+        -- event_dt2: replace suspicious early eventdate if sysdate looks plausible
+        CASE
+          WHEN event_dt1 < DATE '1910-01-01' AND sys_dt1 > DATE '1990-01-01'
+            THEN sys_dt1
+          ELSE event_dt1
+        END AS event_dt2
+      FROM step1
+    )
+    SELECT
+      -- Keep columns: medcode/prodcode, term, patid, constype, consid, database, source
+      * EXCLUDE (event_dt2, sys_dt1)
+      
+      -- Fill in missing eventdate using sysdate where possible 
+      -- Set final names: eventdate/issuedate or sysdate/enterdate
+      COALESCE(event_dt2, sys_dt1) AS %2$s,
+      sys_dt1 AS %3$s,
+      
+    FROM step2
+    WHERE
+      -- Filter out those with NULL for both eventdate and sysdate
+      COALESCE(event_dt2, sys_dt1) IS NOT NULL
+      -- Filter out those with final eventdate after latest date
+      AND COALESCE(event_dt2, sys_dt1) <= DATE '%6$s';
+    ", out_tbl, eventdate, sysdate, in_tbl, earliest_date, latest_date)
+  
+  DBI::dbExecute(connection, sql)
+  invisible(out_table)
+}
+
+
+# Extract with set columns
+gold_extract_sql_medcode <- function(connection, out_table, files_glob, gold_codes_table, 
+                                      source_label){
+  
+  # Make sure correct output and codelist table names
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  code_tbl <- as.character(DBI::dbQuoteIdentifier(connection, gold_codes_table))
+  
+  
+  sql <- sprintf("
+    -- Read GOLD raw files
+    
+    CREATE OR REPLACE TEMP VIEW gold_rawfile AS
+    SELECT * FROM read_csv('%1$s',
+      delim='\\t', 
+      header=true, 
+      all_varchar=true,   -- all columns as characters
+      null_padding=true,  -- pad shorter rows
+      strict_mode=false,  -- tolerate irregular rows
+      quote='', escape=''
+    );
+    
+    
+    -- Create out_tbl, keeping only rows matching code list medcode (from code_tbl)
+    -- Attach term from code list
+    -- Also add in database identifier and source type
+    
+    CREATE OR REPLACE TABLE %2$s AS
+    SELECT
+      trim(g.medcode) AS medcode,
+      c.term          AS term,
+      g.patid         AS patid,
+      g.eventdate     AS eventdate,   -- keep as TEXT for now
+      g.sysdate       AS sysdate,     -- keep as TEXT for now
+      g.constype      AS constype,
+      g.consid        AS consid,
+      'Gold'          AS database,
+      '%3$s'          AS source
+    FROM gold_rawfile g
+    INNER JOIN %4$s c
+      ON trim(g.medcode) = trim(c.medcode);
+  ", 
+                 files_glob, 
+                 out_tbl, 
+                 source_label, 
+                 code_tbl
+  )
+  
+  # Execute SQL commands
+  DBI::dbExecute(connection, sql)
+  # Don't print out 'out_table' by default when returned, but can still call 
+  # on it if necessary 
+  invisible(out_table)
+}
+
+# Fixed columns
+aurum_extract_sql_medcode <- function(connection, out_table, files_glob, aurum_codes_table, 
+                                      source_label){
+  
+  # Make sure correct output and codelist table names
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  code_tbl <- as.character(DBI::dbQuoteIdentifier(connection, aurum_codes_table))
+  
+  
+  sql <- sprintf("
+    -- Read Aurum raw files
+    
+    CREATE OR REPLACE TEMP VIEW aurum_rawfile AS
+    SELECT * FROM read_csv('%1$s',
+      delim='\\t', 
+      header=true, 
+      all_varchar=true,   -- all columns as characters
+      null_padding=true,  -- pad shorter rows
+      strict_mode=false,  -- tolerate irregular rows
+      quote='', escape=''
+    );
+    
+    
+    -- Create out_tbl, keeping only rows matching code list medcode (from code_tbl)
+    -- Attach term from code list
+    -- Also add in database identifier and source type
+    
+    CREATE OR REPLACE TABLE %2$s AS
+    SELECT
+      trim(a.medcodeid) AS medcode,
+      c.term          AS term,
+      a.patid         AS patid,
+      a.obsdate       AS eventdate,   -- keep as TEXT for now
+      a.enterdate     AS sysdate,     -- keep as TEXT for now
+      a.obstypeid     AS constype,
+      a.consid        AS consid,
+      'Aurum'         AS database,
+      '%3$s'          AS source
+    FROM aurum_rawfile a
+    INNER JOIN %4$s c
+      ON trim(a.medcodeid) = trim(c.medcodeid);
+  ", 
+                 files_glob, 
+                 out_tbl, 
+                 source_label, 
+                 code_tbl
+  )
+  
+  # Execute SQL commands
+  DBI::dbExecute(connection, sql)
+  # Don't print out 'out_table' by default when returned, but can still call 
+  # on it if necessary 
+  invisible(out_table)
+}
+
+
+# Function to transform dates into date format and filter invalid dates
+transform_dates_sql_medcode <- function(connection, 
+                                in_table, 
+                                out_table, 
+                                earliest_date = "1900-01-01",
+                                latest_date   = "2025-06-01") {
+  # Ensure quote identifiers are safe for SQL table/view names
+  in_tbl <- as.character(DBI::dbQuoteIdentifier(connection, in_table))
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  
+  # Input:  eventdate/sysdate are TEXT in dd/mm/YYYY
+  # Output: eventdate/sysdate are DATE, and rows are filtered
+  sql <- sprintf("
+    CREATE OR REPLACE TABLE %1$s AS
+    WITH parsed AS (
+      SELECT
+        medcode, term, patid, constype, consid, database, source,
+        -- Convert to dates
+        CAST(try_strptime(eventdate, '%%d/%%m/%%Y') AS DATE) AS event_dt,
+        CAST(try_strptime(sysdate,   '%%d/%%m/%%Y') AS DATE) AS sys_dt
+      FROM %2$s
+    ),
+    step1 AS (
+      SELECT
+        medcode, term, patid, constype, consid, database, source,
+        -- event_dt1: NULL if < earliest OR > latest
+        CASE
+          WHEN event_dt < DATE '%3$s' THEN NULL
+          WHEN event_dt > DATE '%4$s' THEN NULL
+          ELSE event_dt
+        END AS event_dt1,
+        -- sys_dt1: NULL if < earliest 
+        CASE
+          WHEN sys_dt < DATE '%3$s' THEN NULL
+          ELSE sys_dt
+        END AS sys_dt1
+      FROM parsed
+    ),
+    step2 AS (
+      SELECT
+        medcode, term, patid, constype, consid, database, source, sys_dt1,
+        -- event_dt2: replace suspicious early eventdate if sysdate looks plausible
+        CASE
+          WHEN event_dt1 < DATE '1910-01-01' AND sys_dt1 > DATE '1990-01-01'
+            THEN sys_dt1
+          ELSE event_dt1
+        END AS event_dt2
+      FROM step1
+    )
+    SELECT
+      medcode, term, patid,
+      -- Fill in missing eventdate using sysdate where possible
+      COALESCE(event_dt2, sys_dt1) AS eventdate,
+      sys_dt1 AS sysdate,
+      constype, consid, database, source
+    FROM step2
+    WHERE
+      -- Filter out those with NULL for both eventdate and sysdate
+      COALESCE(event_dt2, sys_dt1) IS NOT NULL
+      -- Filter out those with final eventdate after latest date
+      AND COALESCE(event_dt2, sys_dt1) <= DATE '%4$s';
+    ",
+                 out_tbl, in_tbl, earliest_date, latest_date)
+  
+  DBI::dbExecute(connection, sql)
+  invisible(out_table)
+}
+
+
+# Function to transform dates into date format and filter invalid dates
+transform_dates_sql_medcode2 <- function(connection, 
+                                        in_table, 
+                                        out_table, 
+                                        earliest_date = "1900-01-01",
+                                        latest_date   = "2025-06-01") {
+  # Ensure quote identifiers are safe for SQL table/view names
+  in_tbl <- as.character(DBI::dbQuoteIdentifier(connection, in_table))
+  out_tbl <- as.character(DBI::dbQuoteIdentifier(connection, out_table))
+  
+  # Input:  eventdate/sysdate are TEXT in dd/mm/YYYY
+  # Output: eventdate/sysdate are DATE, and rows are filtered
+  sql <- sprintf("
+  CREATE OR REPLACE TABLE %1$s AS
+  WITH parsed AS (
+    SELECT 
+      t.* EXCLUDE (eventdate, sysdate),
+      -- Convert to dates
+      CAST(try_strptime(eventdate, '%%d/%%m/%%Y') AS DATE) AS event_dt,
+      CAST(try_strptime(sysdate,   '%%d/%%m/%%Y') AS DATE) AS sys_dt
+    FROM %2$s t
+  ),
+  step1 AS (
+    SELECT 
+      *,
+      -- event_dt1: NULL if < earliest OR > latest
+      CASE
+        WHEN event_dt < DATE '%3$s' THEN NULL
+        WHEN event_dt > DATE '%4$s' THEN NULL
+        ELSE event_dt
+      END AS event_dt1,
+      -- sys_dt1: NULL if < earliest 
+      CASE
+        WHEN sys_dt < DATE '%3$s' THEN NULL
+        ELSE sys_dt
+      END AS sys_dt1
+    FROM parsed
+  ),
+  step2 AS (
+    SELECT 
+      *,
+      -- event_dt2: replace suspicious early eventdate if sysdate looks plausible
+      CASE
+        WHEN event_dt1 < DATE '1910-01-01' AND sys_dt1 > DATE '1990-01-01'
+          THEN sys_dt1
+        ELSE event_dt1
+      END AS event_dt2
+    FROM step1
+  )
+  SELECT 
+    step2.* EXCLUDE (event_dt, sys_dt, event_dt1, sys_dt1, event_dt2),
+    -- Fill in missing eventdate using sysdate where possible
+    COALESCE(event_dt2, sys_dt1) AS eventdate,
+    sys_dt1 AS sysdate,
+  FROM step2
+  WHERE
+    -- Filter out those with NULL for both eventdate and sysdate
+    COALESCE(event_dt2, sys_dt1) IS NOT NULL
+    -- Filter out those with final eventdate after latest date
+    AND COALESCE(event_dt2, sys_dt1) <= DATE '%4$s';
+  ",
+                                   out_tbl, in_tbl, earliest_date, latest_date)
+  
+  DBI::dbExecute(connection, sql)
+  invisible(out_table)
+}
+
+
