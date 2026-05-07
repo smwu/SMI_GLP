@@ -143,3 +143,8 @@
 "41042"	"8CAg.00"	1574	0	19	0	"smoking cessation advice provided by community pharmacist"	"February 2009"	"current or former"
 "106385"	"9OOB200"	140	0	0	0	"stop smoking invitation third sms text message"	"June 2013"	"current or former"
 "104230"	"8IEK.00"	39651	0	0	0	"smoking cessation programme declined"	"June 2012"	"current or former"
+"98177"	"9kn..00"	16095	0	2	0	"non-smoker annual review - enhanced services administration"	"December 2009"	"non-smoker"
+"33"	"1371.00"	29186989	0	662	2	"never smoked tobacco"	"February 2009"	"non-smoker"
+"11788"	"1371.11"	1264018	0	15	13	"non-smoker"	"February 2009"	"non-smoker"
+"60"	"137L.00"	3416038	0	522	24	"current non-smoker"	"February 2009"	"non-smoker"
+"101878"	"9kn..11"	214	0	0	0	"non-smoker annual review"	"March 2011"	"non-smoker"

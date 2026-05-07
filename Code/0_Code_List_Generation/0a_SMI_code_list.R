@@ -56,7 +56,7 @@ path_output <- "Code_Lists/SMI/"
 # Read in Aurum medical dictionary
 cprd_aurum_medical_raw <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Medical_10Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_Aurum_Medical_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(MedCodeId = col_character(), 
                      OriginalReadCode = col_character(), 
@@ -72,7 +72,7 @@ cprd_aurum_medical <- cprd_aurum_medical_raw %>%
 # Read in Gold medical dictionary
 cprd_gold_medical_raw <- 
   read_delim(
-    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Medical_23Feb2025.txt"), 
+    paste0(wd, path_input, "MASTER_Lists/CPRD_GOLD_Medical_14Oct2025.txt"), 
     delim = "\t", escape_double = FALSE, 
     col_types = cols(medcode = col_character(), 
                      readcode = col_character()), 

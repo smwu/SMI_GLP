@@ -1,7 +1,7 @@
 # Generate code list for substance misuse  
 # Author: S Picton & S Wu
 # Date created: 2026/03/06
-# Date updated: 2026/03/06
+# Date updated: 2026/05/01
 
 # 
 # Details:
@@ -18,9 +18,9 @@
 #
 # Final Outputs:
 
-# 1) Code_Lists/Substance_Misuse/Aurum_Substance_misuse_codelist_20260306.txt Updated Aurum substance misuse code list 
-# 2) Code_Lists/Substance_Misuse/Gold_Substance_misuse_codelist_20260306.txt : Updated Gold substance misuse code list 
-# 3) Code_Lists/Substance_Misuse/Aurum_Gold_Substance_misuse_codelist_20260306.txt : Combined Aurum & Gold substance misuse code list
+# 1) Code_Lists/Substance_Misuse/Aurum_Substance_Misuse_codelist_20260501.txt Updated Aurum substance misuse code list 
+# 2) Code_Lists/Substance_Misuse/Gold_Substance_Misuse_codelist_20260501.txt : Updated Gold substance misuse code list 
+# 3) Code_Lists/Substance_Misuse/Aurum_Gold_Substance_Misuse_codelist_20260501.txt : Combined Aurum & Gold substance misuse code list
 
 # ================= 1) Set up and load data ====================================
 
@@ -129,7 +129,7 @@ aurum_substance_misuse <- cprd_aurum_medical  %>%
   caused by amphetamine|cannabis|ecstasy|benzodiazepine misuse|
   hallucinogen|solvent misuse|opiate misuse|tranquilliser misuse|
   barbiturate misuse|antidepressant misuse|misuses drugs|cannabinoids|
-  addict|injects drugs|illicit drug|methadone use|methadone dependence|methadone overdose|
+  addict|injects drugs|smokes drugs|illicit drug|methadone use|methadone dependence|methadone overdose|
   methadone misuse|therapy methadone|methadone positive|education methadone|methadone poison|
   adverse methadone|consumption methadone|methadone product|methadone supervised|
   history of methadone|misuse of methadone|methadone misuse|
@@ -137,7 +137,7 @@ aurum_substance_misuse <- cprd_aurum_medical  %>%
   opioid antagonist|opioid agonist|drug withdrawal|
   drug intoxication|nondependent abuse|drug addiction detoxification therapy|
   mental & behav cocaine|opioids:|hallucinogens:|seds/hypntcs:|solvents:|
-  intravenous drug use|substance misuse annual review|cocaine:|opiate:|psychoac subs:|
+  intravenous drug use|cocaine:|opiate:|psychoac subs:|
   psych subs:|opioid dependence|hallucinogen dependence|opioid:|
   glue sniffing|hallucinogen abuse|opioid abuse|heroin misuse|benzodiazepine dependence|
   hallucinogen misuse|barbiturate misuse|anti-depressant misuse|misused drugs|
@@ -154,7 +154,24 @@ aurum_substance_misuse <- cprd_aurum_medical  %>%
   misuse of tramadol|misuse of benzodiazepines|misuse of diazepam|misuse of nitrazepam|
   misuse of lorazepam|misuse of temazepam|misuse of oxazepam|misuse of methamphetamine|
   misuse of midazolam|misuse of dexamphetamine|misuse of mdma|misuse of solvents|
-  misuse of cocaine|misuse of psiloybin|misuse of amyl nitrate|misuse of ketamine")
+  misuse of cocaine|misuse of psiloybin|misuse of amyl nitrate|misuse of ketamine",
+  "substance abuse|seen by community drug team|substance abuse counselling|referral to addiction service|
+    referred for addictions assessment|dis mlti|non-dependence-producing|
+    analgesic dependence|sedative dependence|drug seeking|
+    behavioural disorders due to use of opioids|dis due to use opioids:|
+    substance abuse counselling|drug/ substance abuse|
+    drug addiction|substance abuse|misuse of|uses 'street'-recreational drugs|
+    drugs used within the past month|opioid analgesic dependence|substance misuse|substance use|opioids: acute|opioids: psychotic|
+  opioids: withdrawal|use hallucinogens|substance use|substance use - drugs|
+  substance use|substance use nos|-recreational drugs|substance use affects physical activity|
+  ndtms|drugs used within the past month|addiction services|substance misuse annual review|hallucinogen misuse|
+  	drug-induced paranoia|drug-induced paranoid|drug-induced paranoid|
+  drug-induced delirium|drug-induced depressive|drug-induced personality|
+  use of opioids|addiction - hallucinogen|addiction - opioids|addiction- sedative|
+  self poison nonopioid|use opioids:|drug dependence during|
+  drug addiction|national drug treatment monitoring|ndtms|naloxone for opiate overdose|
+  addictions assessment|drug driving|performance enhancing drugs|drug-induced hallucinosis|
+  drug-induced paranoia")
                , term)) %>%
 
   # Exclusion     
@@ -173,7 +190,7 @@ extra dressing",
 
 # Alcohol related terms 
 
- "alcohol|sadq|substance misuse of alcohol",
+ "alcohol|sadq|misuse of alcoho|alcohol withdrawal",
   
   
 # Smoking related terms
@@ -183,11 +200,11 @@ extra dressing",
 # Family history 
 
 "maternal drug abuse|carer of a person|family history of|child|	
-witness to|care provider",
+witness to|care provider|paternal|maternal|witness to adult",
   
 # Neonatal / infancy
   
-"newborn|neonatal|fetal|foetal",
+"newborn|neonatal|fetal|foetal|paediatric behaviour,",
 
 # Process of care 
 
@@ -198,16 +215,23 @@ honosca-sr|honosca",
 # Negations
 
 "declined to give|assessment declined|	
-urine methadone negative|	
-does not engage in|urine negative|no history of substance misuse|no misuse"), 
+urine methadone negative|never|	
+does not engage in|urine negative|no misuse of alcohol"), 
 term, perl = TRUE)) %>%
 
 
 
 # Remove negative urine screening tests
 
+  
 filter(!grepl("^urine test(?! positive)",
-              term, perl = TRUE))
+              term, perl = TRUE)) %>% 
+  
+# Remove negations   
+
+  filter(!grepl("no [-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  
+filter(!grepl("no history of[-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE))
 
 # Gold 
 
@@ -215,8 +239,7 @@ gold_substance_misuse <- cprd_gold_medical %>%
   
   # Inclusion - Substance misuse related terms
   
-  filter(grepl(paste0("(?i)substance misuse|drug user|drug abuse|drug misuse|substance abuse|
-  substance dependence|
+  filter(grepl(paste0("(?i)substance misuse|drug user|drug abuse|drug misuse|substance misuse|
   heroin|cocaine use|cocaine dependence|cocaine misuse|cocaine behav|cocaine abuse|
   cocaine drugs|cocaine induced|cocaine intoxication|cocaine withdrawal|
   cocaine-induced|cocaine freebase|cocaine-related|cocaine overdose|cocaine disorder|
@@ -224,31 +247,60 @@ gold_substance_misuse <- cprd_gold_medical %>%
   amphetamine poisoning|poison amphetamine|misuse amphetamine|drugs amphetamine|reaction to amphetamine|
   amphetamine positive|use amphetamine|amphetamine-induced|amphetamine overdose|
   amphetamine or psychostimulant|amphetamine or psychostimulant dependence|
-  caused by amphetamine|cannabis|ecstasy|benzodiazepine misuse|cannabinoids|
+  caused by amphetamine|cannabis|ecstasy|benzodiazepine misuse|
   hallucinogen|solvent misuse|opiate misuse|tranquilliser misuse|
-  barbiturate misuse|antidepressant misuse|misuses drugs|
-  addict|injects drugs|illicit drug|methadone use|methadone dependence|methadone overdose|
+  barbiturate misuse|antidepressant misuse|misuses drugs|cannabinoids|
+  addict|injects drugs|smokes drugs|illicit drug|methadone use|methadone dependence|methadone overdose|
   methadone misuse|therapy methadone|methadone positive|education methadone|methadone poison|
   adverse methadone|consumption methadone|methadone product|methadone supervised|
   history of methadone|misuse of methadone|methadone misuse|
-  urine buprenorphine|drug dependence|
+  urine buprenorphine|drug dependence|substance dependence|
   opioid antagonist|opioid agonist|drug withdrawal|
   drug intoxication|nondependent abuse|drug addiction detoxification therapy|
-  mental & behav cocaine|opioids:|hallucinogens:|seds/hypntcs:|substance misuse annual review|
-  intravenous drug use|solvents:|cocaine:|opiate:|psychoac subs:| psych subs:|
-  misuse of drugs|opioid dependence|barbiturate dependence|sedative dependence|
-  glue sniffing|benzodiazepine dependence|hallucinogen abuse|opioid abuse|
-  heroin misuse|barbiturate misuse|drug dependence|misused drugs in past|	
-glue sniffing dependence|heroin misuse|hallucinogen dependence|anti-depressant misuse|
-  addiction - opioids|misuse of prescription only drugs|hallucinogen misuse")
+  mental & behav cocaine|opioids:|hallucinogens:|seds/hypntcs:|solvents:|
+  intravenous drug use|cocaine:|opiate:|psychoac subs:|
+  psych subs:|opioid dependence|hallucinogen dependence|opioid:|
+  glue sniffing|hallucinogen abuse|opioid abuse|heroin misuse|benzodiazepine dependence|
+  hallucinogen misuse|barbiturate misuse|anti-depressant misuse|misused drugs|
+  substance use|injecting drugs|misuse of diamorphine|
+  psych sbs:|psychoa sbs:|psych subs:|abuse of antidepressants|
+  sedative dependence|glue sniffing|misuse of drugs|drug dependence|drugs service|
+  substance use|syringe exchange|needle exchange|misuse of heroin|misuse of opium|
+  misuse of opiates|opioids:|drug dependence|intravenous drug use|
+  take home naloxone|mlti drg use/oth|reduced drugs misuse|
+  sedative dependence|barbiturate dependence|opioid antagonist therapy|
+  drug dependence|referral to community drug dependency team|
+  substance use|misuse of opiates|misuse of morphine|
+  misuse of dihydrocodeine|misuse of oxycodone|misuse of fentanyl|misuse of codeine|
+  misuse of tramadol|misuse of benzodiazepines|misuse of diazepam|misuse of nitrazepam|
+  misuse of lorazepam|misuse of temazepam|misuse of oxazepam|misuse of methamphetamine|
+  misuse of midazolam|misuse of dexamphetamine|misuse of mdma|misuse of solvents|
+  misuse of cocaine|misuse of psiloybin|misuse of amyl nitrate|misuse of ketamine",
+                      "substance abuse|seen by community drug team|substance abuse counselling|referral to addiction service|
+    referred for addictions assessment|dis mlti|non-dependence-producing|
+    analgesic dependence|sedative dependence|drug seeking|
+    behavioural disorders due to use of opioids|dis due to use opioids:|
+    substance abuse counselling|drug/ substance abuse|
+    drug addiction|substance abuse|misuse of|uses 'street'-recreational drugs|
+    drugs used within the past month|opioid analgesic dependence|substance misuse|substance use|opioids: acute|opioids: psychotic|
+  opioids: withdrawal|use hallucinogens|substance use|substance use - drugs|
+  substance use|substance use nos|-recreational drugs|substance use affects physical activity|
+  ndtms|drugs used within the past month|addiction services|substance misuse annual review|hallucinogen misuse|
+  	drug-induced paranoia|drug-induced paranoid|drug-induced paranoid|
+  drug-induced delirium|drug-induced depressive|drug-induced personality|
+  use of opioids|addiction - hallucinogen|addiction - opioids|addiction- sedative|
+  self poison nonopioid|use opioids:|drug dependence during|
+  drug addiction|national drug treatment monitoring|ndtms|naloxone for opiate overdose|
+  addictions assessment|drug driving|performance enhancing drugs|drug-induced hallucinosis|
+                      drug-induced paranoia")
                , term)) %>%
   
   # Exclusion     
   filter(!grepl(paste0(
     
-# Not related to substance misuse
+    # Not related to substance misuse
     
-"(?!)h/o: respirator dependence|h/o: machine dependence nos|dependence on renal dialysis|
+    "(?!)h/o: respirator dependence|h/o: machine dependence nos|dependence on renal dialysis|
 dependence on enabling machine or device|aspirator dependence|respirator dependence|
 wheelchair|machine|care provider|iron lung|possum|chamber|prosys independence|
 extra sticky|personal independence|independence training|walking stick|
@@ -257,41 +309,51 @@ haemodialysis|client independence|ventilator|ventilation|oxygen|dialysis|steroid
 extra dressing",
     
     
-# Alcohol related terms 
+    # Alcohol related terms 
     
-    "alcohol|sadq|substance misuse of alcohol",
+    "alcohol|sadq|misuse of alcoho|alcohol withdrawal",
     
-
-# Smoking related terms
+    
+    # Smoking related terms
     
     "tobacco|fagerstrom|nicotine",
     
-# Family history 
+    # Family history 
     
     "maternal drug abuse|carer of a person|family history of|child|	
-witness to|care provider|witness to adult substance misuse",
+witness to|care provider|paternal|maternal|witness to adult",
     
-# Neonatal / infancy
+    # Neonatal / infancy
     
-    "newborn|neonatal|fetal|foetal",
-
-# Process of care 
-
-"questionnaire score|sadq|screening test|urine level|audit score|
+    "newborn|neonatal|fetal|foetal|paediatric behaviour,",
+    
+    # Process of care 
+    
+    "questionnaire score|sadq|screening test|urine level|audit score|
 honosca-cr|quantitative screen|northwick park|level of dependence|
-honosca-sr|honosca", 
-
-# Negations
+honosca-sr|honosca",
+    
+    # Negations
     
     "declined to give|assessment declined|	
-urine methadone negative|	
-does not engage in|urine negative|no history of substance misuse"), 
+urine methadone negative|never|	
+does not engage in|urine negative|no misuse of alcohol"), 
     term, perl = TRUE)) %>%
-
-# Remove negative urine screening tests
+  
+  
+  
+  # Remove negative urine screening tests
+  
   
   filter(!grepl("^urine test(?! positive)",
-                term, perl = TRUE))
+                term, perl = TRUE)) %>% 
+  
+  # Remove negations   
+  
+  filter(!grepl("no [-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  
+  filter(!grepl("no history of[-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE))
+
 
 ## Comparing with older codelists
 
@@ -325,29 +387,29 @@ substance_misuse_codelist_gold_new <- gold_substance_misuse
 # Save updated code lists
 
 write.table(substance_misuse_codelist_aurum_new,
-            file = paste0(wd, path_output, "Aurum_Substance_misuse_codelist_20260306.txt"),
+            file = paste0(wd, path_output, "Aurum_Substance_Misuse_codelist_20260501.txt"),
             sep = "\t", row.names = FALSE)
 
 write.table(substance_misuse_codelist_gold_new,
-            file = paste0(wd, path_output, "Gold_Substance_misuse_codelist_20260306.txt"),
+            file = paste0(wd, path_output, "Gold_Substance_Misuse_codelist_20260501.txt"),
             sep = "\t", row.names = FALSE)
 
 # Combine Aurum and GOLD updated code lists
 temp_aurum <- substance_misuse_codelist_aurum_new %>%
   rename(medcode = medcodeid, readcode = CleansedReadCode) %>%
   select(medcode, term)
+
 temp_gold <- substance_misuse_codelist_gold_new %>%
   select(medcode, term)
+
 temp_both <- rbind(temp_aurum, temp_gold)
+
 aurum_gold_misuse_misuse_new <- temp_both %>% distinct()
 
 
-# Save lists of new combined codelist into one .xlsx file
 
 
 
-write_xlsx(aurum_gold_substance_misuse_new,
-           file = paste0(wd, path_output, "Aurum_Gold_Substance_misuse_codelist_20260306.xlsx")
 
            
 # # Combine Aurum and GOLD into one file with a column specifying database
@@ -364,6 +426,6 @@ substance_misuse_codelist_aurum_new %>%
 
 # # Save combined code list
 write.table(substance_misuse_codelist_aurum_gold_new,
-            file = paste0(wd, path_output, "Aurum_Gold_Substance_misuse_codelist_20260306.txt"),
+            file = paste0(wd, path_output, "Aurum_Gold_Substance_Misuse_codelist_20260501.txt"),
             sep = "\t", row.names = FALSE)
 

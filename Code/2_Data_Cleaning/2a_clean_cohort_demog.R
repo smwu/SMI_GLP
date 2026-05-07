@@ -1,5 +1,5 @@
 # ==============================================================================
-# Clean dataset of patients with SMI diagnoses using linked mortality data
+# Clean dataset of patients with T2DM diagnoses using linked mortality data
 # Author: SM Wu
 # Date Created: 2025/06/17
 # Date Updated: 2026/03/06
@@ -12,15 +12,13 @@
 # 5) Create region variable, combine, and save data
 #
 # Inputs:
-# 1) 2023 CPRD/GOLD/Patient/SMI_GOLD_Extract_Patient_001.txt: GOLD patient files
-# 2) 2023 CPRD/GOLD/Practice/SMI_GOLD_Extract_Practice_001.txt: GOLD practice files
-# 3) 2023 CPRD/Aurum/Patient/SMI_AURUM_Extract_Patient_001.txt: Aurum patient files
-# 4) 2023 CPRD/Aurum/Practice/SMI_AURUM_Extract_Practice_001.txt: Aurum practice files
-      # 5) Code_Lists/MASTER_Lists/CPRD_Aurum_Medical_14Oct2025.txt: Aurum medical master code list
-      # 6) Code_Lists/MASTER_Lists/CPRD_GOLD_Medical_14Oct2025.txt: GOLD medical master code list
+# 1) GOLD/Patient/25_005368_SW_Extract_Patient_001.txt: GOLD patient files
+# 2) GOLD/Practice/25_005368_SW_Extract_Practice_001.txtt: GOLD practice files
+# 3) Aurum_1/Patient/25_005368_SW_Extract_Patient_001.txt: Aurum patient files for folders Aurum_1, Aurum_2, Aurum_3
+# 4) Aurum_1/Practice/25_005368_SW_Extract_Practice_001.txt: Aurum practice files for folders Aurum_1, Aurum_2, Aurum_3
 # 
 # Final Outputs:
-# 1) Stephanie/SMI_GLP/Data/Final_Data_Files/cohort_demog.Rdata: Cleaned Aurum and 
+# 1) SMI_GLP/Data/Cleaning_Files/cohort_demog.Rdata: Cleaned Aurum and 
 #     GOLD cohort data with basic demographics containing the following columns:
 #     pracid: practice ID
 #     patid: patient ID
@@ -175,7 +173,7 @@ aurum_pat <- aurum_pat %>%
   rename(deathdate = cprd_ddate) # set to the CPRD-curated death date
 
 
-# ================= Restrict to those with extract T2DM or antidiabetic files
+# ================= Restrict to those with extracted T2DM or antidiabetic files
 
 ### Read in T2DM records
 extraction_files_t2dm <- paste0(path_input, "T2Diabetes/", "pat_comb_final.parquet")

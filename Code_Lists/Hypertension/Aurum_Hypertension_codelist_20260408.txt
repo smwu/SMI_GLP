@@ -1,0 +1,319 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"1409014"	712	"G221"	"G221.00"	"benign hypertensive renal disease"	"193003"	"1409014"	32
+"1529013"	207	"F4042"	"F404200"	"blind hypertensive eye"	"264008"	"1529013"	32
+"3135013"	444920	"G201"	"G201.00"	"benign essential hypertension"	"1201005"	"3135013"	32
+"12496011"	27442	"F4213"	"F421300"	"hypertensive retinopathy"	"6962006"	"12496011"	32
+"47076011"	8869	"G22z-1"	"G22z.11"	"renal hypertension"	"38481006"	"64282015"	32
+"53452019"	48034	"G24"	"G24..00"	"secondary hypertension"	"31992008"	"53452019"	32
+"57989014"	45621	"J623"	"J623.00"	"portal hypertension"	"34742003"	"57989014"	32
+"60444016"	609	"G211"	"G211.00"	"benign hypertensive heart disease"	"36221001"	"60444016"	32
+"64168014"	13929676	"G2"	"G2...00"	"hypertensive disease"	"38341003"	"64168014"	32
+"64282015"	36299	"G22"	"G22..00"	"hypertensive renal disease"	"38481006"	"64282015"	32
+"80224019"	6787	"G203"	"G203.00"	"diastolic hypertension"	"48146000"	"80224019"	32
+"84111015"	3166	"G672"	"G672.00"	"hypertensive encephalopathy"	"50490005"	"84111015"	32
+"84112010"	1043	"G672-1"	"G672.11"	"hypertensive crisis"	"50490005"	"84111015"	32
+"90135019"	580	"G210"	"G210.00"	"malignant hypertensive heart disease"	"54225002"	"90135019"	32
+"93494011"	92922	"G202"	"G202.00"	"systolic hypertension"	"56218007"	"93494011"	32
+"99042012"	48196609	"G20"	"G20..00"	"essential hypertension"	"59621000"	"99042012"	32
+"99047018"	1261	"G20-2"	"G20..12"	"primary hypertension"	"59621000"	"99047018"	32
+"107545013"	43407	"G21"	"G21..00"	"hypertensive heart disease"	"64715009"	"107545013"	32
+"108730018"	975	"G220"	"G220.00"	"malignant hypertensive renal disease"	"65443008"	"108730018"	32
+"109700019"	25	"G231"	"G231.00"	"benign hypertensive heart and renal disease"	"66052004"	"109700019"	32
+"110659019"	111	"G230"	"G230.00"	"malignant hypertensive heart and renal disease"	"66610008"	"110659019"	32
+"131046010"	32984	"G200"	"G200.00"	"malignant essential hypertension"	"78975002"	"131046010"	32
+"143003017"	680	"G23"	"G23..00"	"hypertensive heart and renal disease"	"86234004"	"143003017"	32
+"251674014"	628401	"14A2"	"14A2.00"	"h/o: hypertension"	"161501007"	"251674014"	32
+"262960017"	1909	"61462"	"6146200"	"hypertension induced by oral contraceptive pill"	"169465000"	"262960017"	5
+"264467014"	70816	"6624"	"6624.00"	"yearly observation of borderline hypertension"	"170574005"	"2692347012"	1
+"264471012"	475578	"6627"	"6627.00"	"good hypertension control"	"170577003"	"264471012"	1
+"264472017"	155855	"6628"	"6628.00"	"poor hypertension control"	"170578008"	"264472017"	1
+"264473010"	58702	"6629"	"6629.00"	"hypertension:follow-up default"	"170579000"	"264473010"	1
+"264485019"	57359	"662F"	"662F.00"	"treatment for hypertension started"	"170586008"	"2694699015"	1
+"264486018"	123806	"662G"	"662G.00"	"hypertensive treatment changed"	"170587004"	"2871342011"	1
+"264487010"	11348	"662H"	"662H.00"	"treatment for hypertension stopped"	"170588009"	"2691941019"	1
+"284062018"	42946	"8HT5"	"8HT5.00"	"referral to hypertension clinic"	"183856001"	"284062018"	40
+"285265015"	394500	"9N03"	"9N03.00"	"seen in hypertension clinic"	"185264001"	"285265015"	37
+"299650019"	114	"G210z"	"G210z00"	"malignant hypertensive heart disease nos"	"54225002"	"90135019"	32
+"299654011"	26	"G211z"	"G211z00"	"benign hypertensive heart disease nos"	"36221001"	"60444016"	32
+"299655012"	574	"G21zz"	"G21zz00"	"hypertensive heart disease nos"	"64715009"	"107545013"	32
+"299665018"	1619	"G222"	"G222.00"	"hypertensive renal disease with renal failure"	"49220004"	"81984019"	32
+"299673010"	141	"G233"	"G233.00"	"hypertensive heart and renal disease with renal failure"	"194780003"	"299673010"	32
+"299675015"	25	"G23z"	"G23z.00"	"hypertensive heart and renal disease nos"	"86234004"	"143003017"	32
+"299676019"	93	"G2400"	"G240000"	"secondary malignant renovascular hypertension"	"194783001"	"299676019"	32
+"299677011"	174	"G240z"	"G240z00"	"secondary malignant hypertension nos"	"89242004"	"147988014"	32
+"299678018"	651	"G241"	"G241.00"	"secondary benign hypertension"	"194785008"	"299678018"	32
+"299680012"	225	"G241z"	"G241z00"	"benign secondary hypertension"	"194785008"	"2470031013"	32
+"299681011"	1153	"G244"	"G244.00"	"hypertension secondary to endocrine disorders"	"194788005"	"299681011"	32
+"299682016"	967	"G24zz"	"G24zz00"	"secondary hypertension nos"	"31992008"	"53452019"	32
+"299683014"	1754	"G24z0"	"G24z000"	"renovascular hypertension"	"123799005"	"192288012"	32
+"299684015"	718	"G24z1"	"G24z100"	"hypertension secondary to drug"	"194791005"	"299684015"	5
+"299686018"	6117	"G2y"	"G2y..00"	"other specified hypertensive disease"	"38341003"	"1215744012"	32
+"299687010"	926410	"G2z"	"G2z..00"	"hypertensive disorder"	"38341003"	"1215744012"	32
+"300869017"	484	"Gyu2"	"Gyu2.00"	"[x]hypertensive diseases"	"38341003"	"1215744012"	32
+"300870016"	121	"Gyu20"	"Gyu2000"	"[x]other secondary hypertension"	"31992008"	"53452019"	32
+"300871017"	351	"Gyu21"	"Gyu2100"	"[x]hypertension secondary to other renal disorders"	"31992008"	"53452019"	32
+"324338010"	20	"SLC6"	"SLC6.00"	"other hypertensive agent poisoning"	"22915003"	"38478017"	32
+"324342013"	11	"SLC6z"	"SLC6z00"	"hypertensive agent poisoning nos"	"22915003"	"38478017"	32
+"331291010"	1135	"TJC7"	"TJC7.00"	"adverse reaction to other antihypertensives"	"293495006"	"433712011"	5
+"331302012"	1117	"TJC7z"	"TJC7z00"	"antihypertensive adverse reaction"	"293495006"	"433712011"	5
+"395751018"	1310405	"G20z"	"G20z.00"	"essential hypertension nos"	"59621000"	"99042012"	32
+"395753015"	2341	"G22z"	"G22z.00"	"hypertensive renal disease nos"	"38481006"	"64282015"	32
+"405053013"	107315	"9OIA-1"	"9OIA.11"	"hypertension monitored"	"270440008"	"405053013"	37
+"411508017"	4826	"G21z0-1"	"G21z011"	"cardiomegaly - hypertensive"	"275516004"	"411508017"	32
+"411919011"	3000942	"662-2"	"662..12"	"hypertension monitoring"	"275944005"	"411919011"	1
+"413076015"	184035	"246M"	"246M.00"	"white coat hypertension"	"697930002"	"2968360017"	2
+"443764015"	185888	"662O"	"662O.00"	"on treatment for hypertension"	"302192008"	"443764015"	1
+"451424017"	153035	"8B26"	"8B26.00"	"antihypertensive therapy"	"308116003"	"451424017"	32
+"1484957010"	123370	"9N4L"	"9N4L.00"	"dna - did not attend hypertension clinic"	"390925005"	"1484957010"	37
+"1488750011"	1037	"66b2"	"66b2.00"	"hypertension monitoring not required"	"395050009"	"1488750011"	1
+"1780252014"	6788	"8I3N"	"8I3N.00"	"hypertension treatment refused"	"401047000"	"1780252014"	32
+"1780253016"	1516166	"662c"	"662c.00"	"hypertension six month review"	"401048005"	"1780253016"	1
+"1780318013"	20954	"662b"	"662b.00"	"moderate hypertension control"	"401117004"	"1780318013"	1
+"1780319017"	8062914	"662d"	"662d.00"	"hypertension annual review"	"401118009"	"1780319017"	1
+"2159168015"	971911	"8BL0"	"8BL0.00"	"patient on maximal tolerated antihypertensive therapy"	"407567007"	"2159168015"	32
+"2474335018"	81853	"8CR4"	"8CR4.00"	"hypertension clinical management plan"	"736286003"	"3517026016"	32
+"2478822013"	827	"G2410"	"G241000"	"secondary benign renovascular hypertension"	"73410007"	"2478822013"	32
+"2548266018"	80152	"1JD"	"1JD..00"	"suspected hypertension"	"417312002"	"2548266018"	27
+"2645973019"	5203	"G8y3"	"G8y3.00"	"chronic peripheral venous hypertension"	"423674003"	"2645973019"	32
+"3636694012"	1	"^ESCT1169188"	NA	"combined diastolic and systolic hypertension"	"762463000"	"3636694012"	32
+"3636695013"	43	"^ESCT1169187"	NA	"diastolic hypertension and systolic hypertension"	"762463000"	"3636695013"	32
+"3636696014"	3	"^ESCT1169189"	NA	"diastolic hypertension co-occurrent with systolic hypertension"	"762463000"	"3636696014"	32
+"15901000000114"	77603	"9ODZ"	"9ODZ.00"	"hypertension screen admin. nos"	"715051000000108"	"1566291000000115"	37
+"21601000000111"	341073	"9OI"	"9OI..00"	"hypertension monitoring administration"	"713641000000103"	"1564881000000111"	37
+"26091000000116"	27538	"9OI-1"	"9OI..11"	"hypertension clinic administration"	"713661000000102"	"1564901000000114"	37
+"138991000000110"	43465	"9h3"	"9h3..00"	"exception reporting - hypertension quality indicators"	"717311000000102"	"1569851000000118"	37
+"151161000006115"	758	"G240"	"G240.00"	"malignant secondary hypertension"	"89242004"	"147988014"	32
+"153941000006118"	30672	"9N1y2"	"9N1y200"	"seen in hypertension clinic"	"185264001"	"285265015"	37
+"158241000006117"	1102	"G24z"	"G24z.00"	"secondary hypertension nos"	"31992008"	"53452019"	32
+"179371000006114"	5511	"9OI2"	"9OI2.00"	"hypertension monitoring refused"	"763324001"	"3638555014"	37
+"350601000000116"	10	"7Q01"	"7Q01.00"	"high cost hypertension drugs"	"220901000000101"	"350601000000116"	32
+"351341000000118"	1	"7Q01z"	"7Q01z00"	"high cost hypertension drugs nos"	"220901000000101"	"350591000000110"	32
+"351361000000117"	6	"7Q01y"	"7Q01y00"	"other specified high cost hypertension drugs"	"220901000000101"	"350591000000110"	32
+"351481000006111"	194	"U60C5-A"	"U60C51A"	"[x] adverse reaction to antihypertensives nos"	"293495006"	"433712011"	5
+"356121000006111"	83	"U60C5-1"	"U60C511"	"[x] adverse reaction to other antihypertensives"	"293495006"	"433712011"	5
+"422681000006111"	15	"SyuFT"	"SyuFT00"	"poisoning by antihypertensive agent"	"111769007"	"178964016"	32
+"498791000006113"	170961	"9OI1"	"9OI1.00"	"attends hypertension monitoring"	"185716009"	"285715011"	37
+"504901000006118"	629	"G2111"	"G211100"	"benign hypertensive heart disease with congestive cardiac failure"	"194767001"	"299653017"	32
+"504911000006115"	134	"G2110"	"G211000"	"benign hypertensive heart disease without ccf"	"77970009"	"129404019"	32
+"523801000006119"	108721	"G2-1"	"G2...11"	"bp - hypertensive disease"	"38341003"	"64168014"	32
+"530161000000111"	65	"662q"	"662q.00"	"trial reduction of antihypertensive therapy"	"299531000000100"	"530161000000111"	1
+"530221000000112"	103	"662r"	"662r.00"	"trial withdrawal of antihypertensive therapy"	"299561000000105"	"530221000000112"	1
+"535591000000118"	5	"8IA5"	"8IA5.00"	"trial withdrawal of antihypertensive therapy declined"	"302051000000102"	"535591000000118"	32
+"535651000000113"	125	"8IA6"	"8IA6.00"	"trial reduction of antihypertensive therapy declined"	"302081000000108"	"535651000000113"	32
+"728671000006119"	45	"G2101"	"G210100"	"malignant hypertensive heart disease with congestive cardiac failure"	"83105008"	"1236017010"	32
+"728681000006116"	99	"G2100"	"G210000"	"malignant hypertensive heart disease without congestive heart failure"	"36315003"	"60617018"	32
+"741661000006118"	641	"G21z"	"G21z.00"	"hypertensive heart disease nos"	"64715009"	"107545013"	32
+"741681000006111"	749	"G21z1"	"G21z100"	"hypertensive heart disease nos with ccf"	"64715009"	"107545013"	32
+"741691000006114"	482	"G21z0"	"G21z000"	"hypertensive heart disease nos without ccf"	"64715009"	"107545013"	32
+"741701000006114"	120	"G232"	"G232.00"	"hypertensive heart and renal disease with (congestive) heart failure"	"194779001"	"299672017"	32
+"789941000006117"	46	"G234"	"G234.00"	"hypertensive heart and renal disease with both (congestive) heart failure and renal failure"	"194781004"	"299674016"	32
+"789951000006115"	39122	"9OI3"	"9OI3.00"	"hypertension monitoring offer default"	"185718005"	"285717015"	37
+"789961000006118"	1741598	"9OI5"	"9OI5.00"	"hypertension monitoring second letter"	"185720008"	"285719017"	37
+"789971000006113"	418607	"9OI6"	"9OI6.00"	"hypertension monitoring third letter"	"185721007"	"285720011"	37
+"789991000006114"	668175	"9OI8"	"9OI8.00"	"hypertension monitoring telephone invite"	"185723005"	"285722015"	37
+"790001000006110"	195115	"9OI7"	"9OI7.00"	"hypertension monitoring verbal invite"	"185722000"	"285721010"	37
+"790011000006113"	5538662	"9OI4"	"9OI4.00"	"hypertension monitoring first letter"	"185719002"	"285718013"	37
+"790031000006119"	1425	"EMISHGT69"	NA	"hypertension annual review"	"790031000006103"	"790031000006119"	1
+"790071000006116"	1049643	"9OIA"	"9OIA.00"	"hypertension monitoring check done"	"270440008"	"405052015"	37
+"790091000006115"	8886436	"662P"	"662P.00"	"hypertension monitoring"	"275944005"	"411919011"	1
+"790121000006116"	1671263	"G20z-1"	"G20z.11"	"hypertension"	"38341003"	"64176011"	32
+"856971000006112"	74792	"EGTONHY3"	NA	"hypertensive clinic"	"856971000006108"	"856971000006112"	37
+"884121000006111"	888	"G200-99"	"G200.99"	"malignant hypertension"	"78975002"	"884121000006111"	32
+"884131000006114"	43	"G23-99"	"G23..99"	"hypertensive renal + heart dis"	"86234004"	"884131000006114"	32
+"909441000006118"	7004	"HNGZ016"	NA	"[rfc] reason for care : hypertension"	"909441000006102"	"909441000006118"	12
+"931161000006119"	328049	"9h31"	"9h31.00"	"excepted from hypertension quality indicators - patient unsuitable"	"716821000000100"	"1569371000000118"	37
+"931171000006114"	658213	"9h32"	"9h32.00"	"excepted from hypertension quality indicators - informed dissent"	"716771000000106"	"1569321000000117"	37
+"940001000006110"	181396	"EMISNQHY2"	NA	"hypertension medication review"	"473225006"	"2956303010"	32
+"1011861000006110"	1366	"ALLERGY2.5"	NA	"adverse reaction to antihypertensive drugs"	"1011861000006106"	"1011861000006110"	5
+"1011871000006115"	196	"ALLERGY2.5.1"	NA	"adverse reaction to vasodilator antihypertensive drugs"	"1011871000006104"	"1011871000006115"	5
+"1011881000006117"	49	"ALLERGY2.5.2"	NA	"adverse reaction to centrally acting antihypertensive drugs"	"1011881000006101"	"1011881000006117"	5
+"1131851000000118"	1631899	"67H8"	"67H8.00"	"lifestyle advice regarding hypertension"	"443402002"	"1179241000000118"	17
+"1706551000000114"	15016	"662P0"	"662P000"	"hypertension 9 month review"	"766211000000109"	"1706551000000114"	1
+"1806071000006118"	29	"EMISNQST24"	NA	"stage 1 hypertension"	"1806071000006102"	"1806071000006118"	32
+"1806081000006115"	7	"EMISNQST25"	NA	"stage 2 hypertension"	"1806081000006104"	"1806081000006115"	32
+"1806141000006113"	4	"EMISNQSE73"	NA	"severe hypertension"	"1806141000006109"	"1806141000006113"	32
+"1823901000006112"	367	"EMISNQHY12"	NA	"hypertension confirmed"	"1823901000006108"	"1823901000006112"	27
+"1846941000006119"	68618	"G25"	"G25..00"	"stage 1 hypertension (nice - national institute for health and clinical excellence 2011)"	"843821000000102"	"2189411000000111"	32
+"1846961000006115"	4292	"G26"	"G26..00"	"severe hypertension (nice - national institute for health and clinical excellence 2011)"	"843841000000109"	"2189451000000110"	32
+"1846991000006111"	71008	"G28"	"G28..00"	"stage 2 hypertension (nice - national institute for health and clinical excellence 2011)"	"846371000000103"	"2194941000000119"	32
+"1855781000006115"	2331	"EMISNQHY15"	NA	"hypertension monitoring in primary care"	"1855781000006104"	"1855781000006115"	37
+"1855791000006117"	41	"EMISNQHY16"	NA	"hypertension monitoring in secondary care"	"1855791000006101"	"1855791000006117"	37
+"1858771000006114"	5	"EMISNQAU107"	NA	"auras-af - consider the patient to have hypertension"	"1858771000006105"	"1858771000006114"	37
+"1858801000006111"	43	"EMISNQAU109"	NA	"auras-af - more time needed to decide on hypertension status"	"1858801000006107"	"1858801000006111"	37
+"1877391000006112"	24	"EMISNQHY19"	NA	"hypertension clinical management plan no longer in place"	"1877391000006108"	"1877391000006112"	32
+"1908711000006115"	48044	"G250"	"G250.00"	"stage 1 hypertension (nice 2011) without evidence of end organ damage"	"908631000000108"	"2335761000000116"	32
+"1908721000006111"	5063	"G251"	"G251.00"	"stage 1 hypertension (nice 2011) with evidence of end organ damage"	"908651000000101"	"2335801000000114"	32
+"1946691000006110"	92582	"8OAH"	"8OAH.00"	"provision of written information about diabetes and hypertension"	"715759002"	"3303627011"	32
+"1992471000006116"	150	"EMISNQVT26"	NA	"vte risk assessment - uncontrolled systolic hypertension"	"1992471000006100"	"1992471000006116"	32
+"2115801000000110"	3986	"661N6"	"661N600"	"hypertension self-management plan review"	"810981000000107"	"2115801000000110"	1
+"2117971000000119"	70800	"661M6"	"661M600"	"hypertension self-management plan agreed"	"812021000000106"	"2117971000000119"	1
+"2193021000000110"	2595	"G26-1"	"G26..11"	"severe hypertension"	"843841000000109"	"2193021000000110"	32
+"2193031000000112"	31918	"G25-1"	"G25..11"	"stage 1 hypertension"	"843821000000102"	"2193031000000112"	32
+"2193971000000110"	4493	"G27"	"G27..00"	"hypertension resistant to drug therapy"	"845891000000103"	"2193971000000110"	32
+"2403141000000118"	13057	"9OIB"	"9OIB.00"	"borderline hypertension monitoring first letter"	"938571000000104"	"2403141000000118"	37
+"2403221000000116"	2006	"9OIC"	"9OIC.00"	"borderline hypertension monitoring second letter"	"938611000000108"	"2403221000000116"	37
+"2403261000000112"	1652	"9OID"	"9OID.00"	"borderline hypertension monitoring third letter"	"938631000000100"	"2403261000000112"	37
+"2423811000000118"	13259	"662P1"	"662P100"	"telehealth hypertension monitoring"	"715280009"	"3302075013"	1
+"2517281000006111"	1	"^ESCTAN251728"	NA	"antihypertensive drug"	"1182007"	"3102015"	31
+"2517301000006110"	7	"^ESCTAN251730"	NA	"antihypertensive"	"1182007"	"443235013"	31
+"2581861000006110"	6	"^ESCTHY258186"	NA	"hypertensive heart disease with congestive heart failure"	"5148006"	"9634016"	31
+"2631141000006115"	11	"^ESCTCH263114"	NA	"chronic hypertension complicating and/or reason for care during childbirth"	"8218002"	"14565016"	32
+"2657651000006118"	2	"^ESCTES265765"	NA	"essential hypertension complicating and/or reason for care during puerperium"	"9901000"	"17281016"	32
+"2670511000006119"	227	"^ESCTBE267051"	NA	"benign hypertension"	"10725009"	"18632012"	32
+"2737251000006112"	18	"^ESCTRE273725"	NA	"renal sclerosis with hypertension"	"14973001"	"25417010"	32
+"2786491000006114"	1	"^ESCTHI278649"	NA	"high systolic arterial pressure"	"18050000"	"30496010"	2
+"2786501000006118"	2	"^ESCTHI278650"	NA	"high systolic arterial pulse pressure"	"18050000"	"30499015"	2
+"2792621000006113"	3	"^ESCTES279262"	NA	"essential hypertension complicating and/or reason for care during childbirth"	"18416000"	"31074018"	32
+"2813981000006110"	3	"^ESCTHI281398"	NA	"high-renin essential hypertension"	"19769006"	"33294011"	32
+"2868721000006115"	3	"^ESCTPA286872"	NA	"paroxysmal hypertension"	"23130000"	"38837010"	31
+"2868731000006117"	4	"^ESCTEP286873"	NA	"episodic hypertension"	"23130000"	"3446418011"	31
+"2869181000006114"	2	"^ESCTHI286918"	NA	"high diastolic arterial pressure"	"23154005"	"38882014"	2
+"2883571000006118"	2	"^ESCTCH288357"	NA	"chronic hypertension complicating and/or reason for care during puerperium"	"24042004"	"40362017"	32
+"2951231000006117"	187	"^ESCTRE295123"	NA	"renal hypertension"	"28119000"	"47076011"	32
+"3058531000006114"	1	"^ESCTPR305853"	NA	"pre-existing hypertension complicating and/or reason for care during childbirth"	"34694006"	"57903012"	32
+"3059491000006115"	6	"^ESCTPH305949"	NA	"pht - portal hypertension"	"34742003"	"1228208015"	32
+"3068941000006115"	5	"^ESCTBE306894"	NA	"benign essential hypertension complicating and/or reason for care during puerperium"	"35303009"	"58911017"	32
+"3117411000006118"	651	"^ESCTHI311741"	NA	"high blood pressure"	"38341003"	"64172013"	32
+"3117421000006114"	1	"^ESCTHY311742"	NA	"hypertensive vascular disease"	"38341003"	"64173015"	32
+"3117451000006117"	53	"^ESCTBP311745"	NA	"bp - high blood pressure"	"38341003"	"490277011"	32
+"3117461000006115"	26	"^ESCTSY311746"	NA	"systemic arterial hypertension"	"38341003"	"490278018"	32
+"3117471000006110"	17	"^ESCTHB311747"	NA	"hbp - high blood pressure"	"38341003"	"490280012"	32
+"3117481000006113"	195	"^ESCTHT311748"	NA	"ht - hypertension"	"38341003"	"490281011"	32
+"3117491000006111"	1	"^ESCTHI311749"	NA	"high blood pressure disorder"	"38341003"	"490282016"	32
+"3117501000006115"	48	"^ESCTBP311750"	NA	"bp+ - hypertension"	"38341003"	"490283014"	32
+"3117511000006117"	490	"^ESCTHT311751"	NA	"htn - hypertension"	"38341003"	"2164904016"	32
+"3117521000006113"	77	"^ESCTHY311752"	NA	"hypertensive disorder, systemic arterial"	"38341003"	"2671386015"	32
+"3119661000006114"	205	"^ESCTHY311966"	NA	"hypertensive nephropathy"	"38481006"	"64285018"	32
+"3128041000006117"	10	"^ESCTRE312804"	NA	"renal arterial hypertension"	"39018007"	"65454019"	32
+"3130191000006111"	15	"^ESCTHY313019"	NA	"hypertension education"	"39155009"	"65684016"	31
+"3244761000006113"	15	"^ESCTHY324476"	NA	"hypertensive heart failure"	"46113002"	"76883018"	31
+"3250801000006112"	30	"^ESCTLO325080"	NA	"low-renin essential hypertension"	"46481004"	"77481016"	32
+"3296351000006114"	15	"^ESCTHY329635"	NA	"hypertensive renal failure"	"49220004"	"81984019"	32
+"3354381000006110"	6	"^ESCTTR335438"	NA	"transient hypertension"	"52698002"	"87694017"	31
+"3437381000006110"	56	"^ESCTPA343738"	NA	"parenchymal renal hypertension"	"57684003"	"95927019"	32
+"3468491000006113"	12	"^ESCTID346849"	NA	"idiopathic hypertension"	"59621000"	"99044013"	32
+"3468501000006117"	1	"^ESCTSY346850"	NA	"systemic primary arterial hypertension"	"59621000"	"99046010"	32
+"3470001000006117"	2	"^ESCTSU347000"	NA	"sustained diastolic hypertension"	"59720008"	"99206014"	32
+"3474371000006117"	1	"^ESCTAD347437"	NA	"adrenal hypertension"	"59997006"	"99667011"	31
+"3489281000006119"	3	"^ESCTHY348928"	NA	"hypertensive heart disease without congestive heart failure"	"60899001"	"101181010"	31
+"3552501000006119"	17	"^ESCTHY355250"	NA	"hypertensive cardiopathy"	"64715009"	"107547017"	32
+"3552521000006112"	4	"^ESCTHY355252"	NA	"hypertensive cardiovascular disease"	"64715009"	"107549019"	32
+"3552531000006110"	1	"^ESCTHH355253"	NA	"hhd - hypertensive heart disease"	"64715009"	"499930018"	32
+"3565371000006115"	13	"^ESCTLA356537"	NA	"labile diastolic hypertension"	"65518004"	"108859012"	32
+"3636751000006117"	3	"^ESCTEC363675"	NA	"eclampsia added to pre-existing hypertension"	"69909000"	"116108011"	32
+"3642801000006112"	8421	"^ESCTMA364280"	NA	"malignant hypertension"	"70272006"	"116721012"	32
+"3669111000006119"	2	"^ESCTBE366911"	NA	"benign essential hypertension complicating and/or reason for care during childbirth"	"71874008"	"119423013"	32
+"3693711000006119"	4	"^ESCTBE369371"	NA	"benign secondary renovascular hypertension"	"73410007"	"121910014"	32
+"3710191000006113"	4	"^ESCTSE371019"	NA	"secondary diastolic hypertension"	"74451002"	"123652011"	32
+"3756941000006113"	1	"^ESCTHY375694"	NA	"hypertensive spasm of cardiac sphincter"	"77293007"	"128286012"	31
+"3784371000006115"	33	"^ESCTAC378437"	NA	"accelerated essential hypertension"	"78975002"	"503982017"	32
+"3868031000006113"	9	"^ESCTRE386803"	NA	"rebound hypertension"	"84094009"	"139441012"	32
+"3950631000006119"	1	"^ESCTAC395063"	NA	"accelerated secondary hypertension"	"89242004"	"508416019"	32
+"4356081000006115"	4	"^ESCTHY435608"	NA	"hypertension due to renovascular disease"	"123799005"	"1220673019"	32
+"4540441000006117"	19	"^ESCTHI454044"	NA	"history of hypertension"	"161501007"	"2987063016"	32
+"4634761000006110"	1	"^ESCTON463476"	NA	"on examination - initial high blood pressure"	"170581003"	"2667129010"	1
+"4634791000006119"	6	"^ESCTON463479"	NA	"on examination - check high blood pressure"	"170582005"	"2667131018"	1
+"4738411000006117"	12	"^ESCTHY473841"	NA	"hypertension monitoring deleted"	"185724004"	"285723013"	37
+"4775831000006118"	81	"^ESCTHY477583"	NA	"hypertension secondary to endocrine disorder"	"194788005"	"2532161014"	32
+"4775861000006110"	1	"^ESCTHY477586"	NA	"hypertension caused by drug"	"194791005"	"3290640017"	5
+"5059661000006117"	96	"^ESCTVE505966"	NA	"venous hypertension"	"234072000"	"350703015"	31
+"5059691000006113"	46	"^ESCTVE505969"	NA	"venous hypertension of lower limb"	"234075003"	"350706011"	31
+"5083391000006111"	3	"^ESCTHY508339"	NA	"hypertensive lower oesophageal sphincter"	"235630008"	"353234019"	31
+"5506361000006110"	93	"^ESCTHY550636"	NA	"hypertension risk level"	"268607006"	"401740013"	31
+"5506371000006115"	6	"^ESCTHY550637"	NA	"hypertension risk"	"268607006"	"401739011"	31
+"5835611000006117"	19	"^ESCTAN583561"	NA	"antihypertensive overdose"	"297047006"	"437497016"	31
+"5835711000006113"	10	"^ESCTAC583571"	NA	"accidental antihypertensive overdose"	"297057007"	"437507013"	31
+"5835721000006117"	7	"^ESCTIN583572"	NA	"intentional antihypertensive overdose"	"297058002"	"437508015"	31
+"5835731000006119"	1	"^ESCTAN583573"	NA	"antihypertensive overdose of undetermined intent"	"297059005"	"437509011"	31
+"5914631000006112"	5558	"^ESCTPO591463"	NA	"portal hypertensive gastropathy"	"303082009"	"445147013"	32
+"5979461000006110"	90	"^ESCTHY597946"	NA	"hypertension monitoring status"	"308502002"	"451862010"	31
+"5979471000006115"	1353	"^ESCTHY597947"	NA	"hypertension monitoring call"	"308503007"	"451863017"	37
+"5999791000006119"	620330	"^ESCTHY599979"	NA	"hypertension monitoring invitation"	"310427004"	"454000016"	37
+"6349461000006119"	316	"^ESCTLA634946"	NA	"labile essential hypertension"	"371125006"	"1209829017"	32
+"6357971000006110"	4095	"^ESCTEL635797"	NA	"elevated blood-pressure reading without diagnosis of hypertension"	"371622005"	"1210245011"	27
+"6357981000006113"	8	"^ESCTEL635798"	NA	"elevated blood pressure reading without diagnosis of hypertension"	"371622005"	"2820233013"	27
+"6516381000006117"	9711	"^ESCTDI651638"	NA	"did not attend hypertension clinic"	"390925005"	"2470344013"	37
+"6592161000006112"	120	"^ESCTHY659216"	NA	"hypertension with albuminuria"	"397748008"	"1777358017"	32
+"6977071000006118"	2	"^ESCTHY697707"	NA	"hypertensive optic neuropathy"	"421731000"	"2618341013"	31
+"7080381000006116"	4	"^ESCTHY708038"	NA	"hypertension associated with transplantation"	"427889009"	"2691963011"	32
+"7084301000006117"	4	"^ESCTHY708430"	NA	"hypertensive left ventricular hypertrophy"	"428163005"	"2693917012"	31
+"7090481000006112"	2	"^ESCTHY709048"	NA	"hypertension secondary to kidney transplant"	"428575007"	"2692589017"	32
+"7103581000006114"	64	"^ESCTSY710358"	NA	"systolic essential hypertension"	"429457004"	"2695883018"	32
+"7208001000006118"	2	"^ESCTCO720800"	NA	"congestive heart failure, hypertension, age 75 years or older, diabetes, and previous stroke or transient ischaemic attack risk score"	"438367009"	"2790736010"	31
+"7208011000006115"	1	"^ESCTCO720801"	NA	"congestive heart failure, hypertension, age 75 years or older, diabetes, and previous stroke or transient ischemic attack risk score"	"438367009"	"2790737018"	31
+"7276911000006114"	72297	"^ESCTLI727691"	NA	"lifestyle education regarding hypertension"	"443402002"	"2842455015"	17
+"7278171000006116"	1502	"^ESCTHY727817"	NA	"hypertensive urgency"	"443482000"	"2839339012"	32
+"7374481000006113"	2	"^ESCTHY737448"	NA	"hypertensive complication"	"449759005"	"2912730018"	31
+"7487571000006119"	10	"^ESCTHY748757"	NA	"hypertensive nephrosclerosis"	"473392002"	"2956787011"	31
+"7502041000006112"	45	"^ESCTIN750204"	NA	"intermittent hypertension"	"697929007"	"2968144011"	32
+"7502051000006114"	3403	"^ESCTLA750205"	NA	"labile hypertension due to being in a clinical environment"	"697930002"	"2968361018"	2
+"7567021000006116"	15	"^ESCTPR756702"	NA	"prehypertension"	"702817009"	"3006217018"	27
+"7567571000006112"	11	"^ESCTHY756757"	NA	"hypertension clinic"	"702867002"	"3006305017"	31
+"7572921000006113"	1	"^ESCTGO757292"	NA	"gordon hyperkalemia-hypertension syndrome"	"703254001"	"3008144010"	31
+"7572931000006111"	1	"^ESCTGO757293"	NA	"gordon hyperkalaemia-hypertension syndrome"	"703254001"	"3008177014"	31
+"7593681000006118"	9	"^ESCTHY759368"	NA	"hypertension concurrent and due to end stage renal disease on dialysis"	"704667004"	"3013929017"	32
+"7609711000006110"	1014	"^ESCTHY760971"	NA	"hypertensive crisis"	"706882009"	"3027305016"	32
+"7652601000006116"	1	"^ESCTAN765260"	NA	"antihypertensive agent surveillance done"	"709596006"	"3040605015"	31
+"7654191000006111"	1	"^ESCTST765419"	NA	"stasis dermatitis of lower limb due to chronic peripheral venous hypertension"	"709666005"	"3041232012"	31
+"7696031000006114"	251	"^ESCTSU769603"	NA	"supine hypertension"	"712832005"	"3285652012"	32
+"7805411000006113"	1	"^ESCTBR780541"	NA	"brachydactyly and arterial hypertension syndrome"	"720568003"	"3321269015"	32
+"7837281000006116"	1	"^ESCTID783728"	NA	"idiopathic portal hypertension"	"722867009"	"3333800011"	31
+"7982801000006110"	1	"^ESCTPO798280"	NA	"postoperative hypertension"	"5501000119106"	"2922179019"	31
+"8016541000006110"	129	"^ESCTPO801654"	NA	"postpartum pre-existing essential hypertension"	"40511000119107"	"3005787016"	32
+"8030421000006114"	7	"^ESCTHY803042"	NA	"hypertensive heart and chronic kidney disease stage 4"	"96721000119103"	"2968177010"	32
+"8030431000006112"	10	"^ESCTHY803043"	NA	"hypertensive heart and chronic kidney disease stage 3"	"96731000119100"	"2922231016"	32
+"8030441000006119"	3	"^ESCTHY803044"	NA	"hypertensive heart and chronic kidney disease stage 2"	"96741000119109"	"2922230015"	32
+"8030451000006117"	5	"^ESCTHY803045"	NA	"hypertensive heart and chronic kidney disease stage 1"	"96751000119106"	"2968355016"	32
+"8032721000006117"	1	"^ESCTCH803272"	NA	"chronic kidney disease due to hypertension"	"104931000119100"	"2983529012"	31
+"8034201000006113"	2	"^ESCTCA803420"	NA	"cardiomyopathy due to hypertension"	"108701000119102"	"3322954011"	31
+"8035251000006111"	5	"^ESCTEN803525"	NA	"end stage renal disease due to hypertension"	"111411000119103"	"3288969010"	31
+"8036941000006111"	9	"^ESCTCH803694"	NA	"chronic kidney disease stage 1 due to hypertension"	"117681000119102"	"2968242019"	32
+"8040331000006118"	21	"^ESCTHY804033"	NA	"hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus"	"127991000119101"	"3013758011"	32
+"8040661000006119"	59	"^ESCTCH804066"	NA	"chronic kidney disease stage 4 due to hypertension"	"129151000119102"	"2968350014"	32
+"8040671000006114"	6	"^ESCTCH804067"	NA	"chronic kidney disease stage 5 due to hypertension"	"129161000119100"	"2968176018"	32
+"8040681000006112"	41	"^ESCTCH804068"	NA	"chronic kidney disease stage 3 due to hypertension"	"129171000119106"	"2968262010"	32
+"8040691000006110"	15	"^ESCTCH804069"	NA	"chronic kidney disease stage 2 due to hypertension"	"129181000119109"	"2968276011"	32
+"8041701000006119"	681	"^ESCTHY804170"	NA	"hypertensive emergency"	"132721000119104"	"2922679015"	32
+"8044011000006117"	1	"^ESCTHY804401"	NA	"hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus"	"140101000119109"	"3013074010"	32
+"8044041000006118"	3	"^ESCTHY804404"	NA	"hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus"	"140111000119107"	"3014010018"	32
+"8044061000006119"	4	"^ESCTHY804406"	NA	"hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus"	"140121000119100"	"3013055019"	32
+"8044081000006112"	1	"^ESCTHY804408"	NA	"hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus"	"140131000119102"	"3013117010"	32
+"8047961000006113"	11	"^ESCTVE804796"	NA	"venous ulcer of lower extremity due to chronic peripheral venous hypertension"	"153831000119100"	"2984538017"	31
+"8047981000006115"	3	"^ESCTST804798"	NA	"stasis dermatitis and venous ulcer of lower extremity due to chronic peripheral venous hypertension"	"153871000119102"	"3040909011"	31
+"8048001000006110"	4	"^ESCTEN804800"	NA	"end stage renal disease on dialysis due to hypertension"	"153891000119101"	"2984564011"	31
+"8087051000006119"	1	"^ESCTCH808705"	NA	"chronic kidney disease stage 1 due to benign hypertension"	"284971000119100"	"3040949015"	32
+"8087071000006112"	8	"^ESCTCH808707"	NA	"chronic kidney disease stage 3 due to benign hypertension"	"284991000119104"	"3040933017"	32
+"8087091000006113"	2	"^ESCTCH808709"	NA	"chronic kidney disease stage 5 due to benign hypertension"	"285011000119108"	"3040952011"	32
+"8087641000006112"	1	"^ESCTMA808764"	NA	"malignant hypertensive chronic kidney disease"	"285831000119108"	"2922212010"	31
+"8087661000006111"	1	"^ESCTMA808766"	NA	"malignant hypertensive chronic kidney disease stage 1"	"285851000119102"	"2922173018"	32
+"8087701000006115"	1	"^ESCTMA808770"	NA	"malignant hypertensive chronic kidney disease stage 4"	"285881000119109"	"2922631010"	32
+"8189771000006113"	113	"^ESCTDB818977"	NA	"[d]blood pressure raised, hypertension not diagnosed"	"502541000000105"	"1108001000000113"	31
+"8286321000006117"	25	"^ESCTRE828632"	NA	"resistant hypertension"	"845891000000103"	"2194001000000116"	32
+"8286581000006114"	35	"^ESCTST828658"	NA	"stage 2 hypertension"	"846371000000103"	"2211211000000110"	32
+"8298681000006113"	202	"^ESCTNO829868"	NA	"nocturnal hypertension"	"863191000000102"	"2231971000000117"	32
+"8439981000006118"	308602	"^ESCTHY843998"	NA	"hypertension monitoring invitation sms (short message service) text message"	"1066941000000104"	"2679901000000111"	37
+"8439991000006115"	940224	"^ESCTHY843999"	NA	"hypertension monitoring sms (short message service) text message first invitation"	"1066951000000101"	"2679921000000119"	37
+"8440001000006117"	284311	"^ESCTHY844000"	NA	"hypertension monitoring sms (short message service) text message second invitation"	"1066961000000103"	"2679951000000112"	37
+"8440011000006119"	44240	"^ESCTHY844001"	NA	"hypertension monitoring sms (short message service) text message third invitation"	"1066971000000105"	"2679971000000115"	37
+"8459521000006112"	8334	"^ESCTHY845952"	NA	"hypertension monitoring invitation email"	"1083101000000106"	"2714131000000115"	37
+"9324411000006114"	1	"^ESCTEC932441"	NA	"eclampsia with pre-existing hypertension in childbirth"	"10752641000119102"	"3004468015"	32
+"9325291000006119"	1	"^ESCTPR932529"	NA	"pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth"	"10757401000119104"	"3006011014"	32
+"9897511000006110"	42	"^ESCTLA989751"	NA	"labile systemic arterial hypertension"	"16229371000119106"	"3322938013"	32
+"11777411000006113"	3	"^ESCT1177741"	NA	"renal disease due to hypertension"	"38481006"	"3512257015"	32
+"12002721000006115"	270	"^ESCT1200272"	NA	"hypertension monitoring declined"	"763324001"	"3638556010"	37
+"12049821000006114"	2	"^ESCT1204982"	NA	"hypertension due to gain-of-function mutation in mineralocorticoid receptor"	"766937004"	"3663235019"	32
+"12115621000006113"	5	"^ESCT1211562"	NA	"referral for antihypertensive therapy"	"1097181000000109"	"2747621000000112"	31
+"12626361000006113"	593123	"^ESCT1262636"	NA	"qof (quality and outcomes framework) hypertension quality indicator-related care invitation"	"1110941000000107"	"2779861000000113"	37
+"12734361000006112"	38521	"^ESCT1273436"	NA	"qof (quality and outcomes framework) hypertension quality indicator-related care invitation using preferred method of communication"	"143421000000106"	"1628321000000110"	37
+"13681311000006119"	2	"^ESCT1368131"	NA	"hypertension with disorder of left retina"	"340441000119107"	"3700361014"	31
+"13688011000006110"	150	"^ESCT1368801"	NA	"multiple drug intolerant hypertension"	"1078301000112109"	"3771600016"	5
+"13929131000006117"	1	"^ESCT1392913"	NA	"hypertension stage 2"	"827068008"	"3873321018"	31
+"13929151000006112"	6	"^ESCT1392915"	NA	"hypertension stage 1"	"827069000"	"3873324014"	31
+"13979941000006113"	4853	"^ESCT1397994"	NA	"antihypertensive therapy declined"	"21681000175107"	"3955825015"	32
+"14079361000006117"	2	"^ESCT1407936"	NA	"elevated blood pressure reading without diagnosis of htn (hypertension)"	"371622005"	"3881037019"	27
+"14639941000006112"	116	"^ESCT1463994"	NA	"cardiomegaly due to hypertension"	"275516004"	"4592606010"	32
+"14666061000006112"	161	"^ESCT1466606"	NA	"hypertension treatment declined"	"401047000"	"4590650016"	32
+"14741831000006119"	5	"^ESCT1474183"	NA	"hypertension due to congenital adrenal hyperplasia"	"1204139007"	"4952449013"	32
+"14752031000006115"	8	"^ESCT1475203"	NA	"secondary hypertension due to renal tubular disorder"	"1208839002"	"5013172014"	32
+"14752111000006113"	4	"^ESCT1475211"	NA	"secondary hypertension due to congenital heart disorder"	"1208845005"	"5013185012"	32
+"15048621000006117"	18	"^ESCT1504862"	NA	"haemorrhagic cerebral infarction due to hypertension"	"1260271009"	"5159959019"	32

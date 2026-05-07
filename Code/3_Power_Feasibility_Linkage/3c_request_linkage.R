@@ -40,8 +40,8 @@ path_input <- paste0("SMI_GLP/Data/Extraction_Files/")
 path_output <- paste0("SMI_GLP/Data/Extraction_Files/Linkage/")
 path_gold <- "GOLD/"
 path_aurum <- c("Aurum_1/", "Aurum_2/", "Aurum_3/")
-path_linkage_gold <- "Linkage/October_2025_Source_GOLD/"
-path_linkage_aurum <- "Linkage/January_2026_Source_Aurum/"
+path_linkage_gold <- "Linkage/Linkage_Eligibility/October_2025_Source_GOLD/"
+path_linkage_aurum <- "Linkage/Linkage_Eligibility/January_2026_Source_Aurum/"
 
 
     # # DuckDB in-memory connection

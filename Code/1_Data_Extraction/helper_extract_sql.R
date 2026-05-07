@@ -43,6 +43,12 @@ extract_patients_medcode <- function(wd, path_input, path_gold, path_aurum, code
   # DuckDB in-memory connection
   connection <- DBI::dbConnect(duckdb::duckdb(), dbdir = ":memory:")
   
+  # Allow spilling to local disk after hitting memory limit
+  DBI::dbExecute(connection, "PRAGMA memory_limit = '35GB';")
+  spill_dir <- "N:/Temp/duckdb_spill"
+  dir.create(spill_dir, showWarnings = FALSE, recursive = TRUE)
+  DBI::dbExecute(connection, sprintf("PRAGMA temp_directory='%s';", spill_dir))
+  
   # Set up progress bar
   DBI::dbExecute(connection, "SET enable_progress_bar = true;")
   DBI::dbExecute(connection, "SET enable_progress_bar_print = true;")
@@ -306,16 +312,20 @@ extract_patients_medcode <- function(wd, path_input, path_gold, path_aurum, code
   # Check tables
   dbListTables(connection)
   
-  ### Remove data and shut down connection
+  # Disconnect and wipe the spillover folder
   dbDisconnect(connection, shutdown = TRUE)
+  unlink(spill_dir, recursive = TRUE, force = TRUE)
   cat("\nDone.\n")
   
 }
 
 
+# num_file_split: Integer specifying how many batches to split each folder's files into, 
+#   to save memory. Default is 1, running all the folder's files together. 
 extract_patients_prodcode <- function(wd, path_input, path_gold, path_aurum, code_name,
                                       path_extract_gold_ther, path_extract_aurum_drug,
-                                      path_lookups_gold, path_lookups_aurum, save_rdata = TRUE) {
+                                      path_lookups_gold, path_lookups_aurum, save_rdata = TRUE,
+                                      num_file_split = 1) {
   
   # Globs for DuckDB
   gold_ther_glob <- file.path(path_extract_gold_ther, "*.txt")
@@ -591,265 +601,286 @@ extract_patients_prodcode <- function(wd, path_input, path_gold, path_aurum, cod
   
   # ================= PROCESS AURUM DATASET ========================================
   
+  total_parts <- length(path_aurum) * num_file_split
+  part <- 1
+  
   # Repeat for each folder with data
   for (i in 1:length(path_aurum)) {
     path_aurum_i <- path_aurum[i]
     aurum_drug_glob_i <- aurum_drug_glob[i]
+    files_i <- Sys.glob(aurum_drug_glob_i)
+    # Create file groups based on num_file_split
+    if (num_file_split > 1) {
+      file_groups_i <- split(files_i, 
+                             cut(seq_along(files_i), breaks = num_file_split, labels = FALSE))
+    } else {
+      file_groups_i <- files_i
+    }
     
-    # ===== Restart duckdb connection 
-    connection <- DBI::dbConnect(duckdb::duckdb(), dbdir = ":memory:")
-    # Allow spilling to local disk after hitting memory limit
-    DBI::dbExecute(connection, "PRAGMA memory_limit = '40GB';")
-    spill_dir <- "N:/Temp/duckdb_spill"
-    dir.create(spill_dir, showWarnings = FALSE, recursive = TRUE)
-    DBI::dbExecute(connection, sprintf("PRAGMA temp_directory='%s';", spill_dir))
-    # Set up progress bar
-    DBI::dbExecute(connection, "SET enable_progress_bar = true;")
-    DBI::dbExecute(connection, "SET enable_progress_bar_print = true;")
-    
-    # Write code lists
-    aurum_codes_table <- paste0(code_name, "_aurum_codes")
-    dbWriteTable(connection, aurum_codes_table, codelist_aurum, overwrite = TRUE)
-    
-    # ====== Read in CPRD Aurum data 
-    
-    # AURUM DRUGISSUE
-    
-    sql <- sprintf("
-      -- Read Aurum raw files
+    for (j in 1:num_file_split) {
       
-      CREATE OR REPLACE TEMP VIEW aurum_rawfile AS
-      SELECT * FROM read_csv('%1$s',
-        delim='\\t', 
-        header=true, 
-        all_varchar=true,   -- all columns as characters
-        null_padding=true,  -- pad shorter rows
-        strict_mode=false,  -- tolerate irregular rows
-        quote='', escape=''
-      );
+      # Files in the split group
+      files_ij <- paste0("['", paste(file_groups_i[[j]], collapse = "','"), "']")
+      
+      # ===== Restart duckdb connection 
+      connection <- DBI::dbConnect(duckdb::duckdb(), dbdir = ":memory:")
+      # Allow spilling to local disk after hitting memory limit
+      DBI::dbExecute(connection, "PRAGMA memory_limit = '40GB';")
+      spill_dir <- "N:/Temp/duckdb_spill"
+      dir.create(spill_dir, showWarnings = FALSE, recursive = TRUE)
+      DBI::dbExecute(connection, sprintf("PRAGMA temp_directory='%s';", spill_dir))
+      DBI::dbExecute(connection, "SET threads = 1")
+      # Set up progress bar
+      DBI::dbExecute(connection, "SET enable_progress_bar = true;")
+      DBI::dbExecute(connection, "SET enable_progress_bar_print = true;")
       
       
-      -- Create out_tbl aurum_drug_raw, keeping only rows matching code list medcode (from code_tbl)
-      -- Attach term from code list
-      -- Also add in database identifier and source type
+      # Write code lists
+      aurum_codes_table <- paste0(code_name, "_aurum_codes")
+      dbWriteTable(connection, aurum_codes_table, codelist_aurum, overwrite = TRUE)
       
-      CREATE OR REPLACE TABLE %2$s AS
-      SELECT
-        trim(a.prodcodeid) AS prodcode,
-        c.productname          AS productname,
-        a.patid         AS patid,
-        a.pracid        AS pracid,
-        a.issuedate     AS eventdate,   -- keep as TEXT for now
-        a.enterdate     AS sysdate,     -- keep as TEXT for now
-        'Aurum'         AS database,
-        '%3$s'          AS source,
-        c.formulation   AS formulation,
-        c.route         AS route,
-        c.ingredient    AS ingredient,
-        c.strength      AS strength,
-        c.BNFChapter    AS BNFChapter,
-        a.dosageid      AS dosageid,
-        a.quantunitid   AS quantunitid,
-        a.quantity      AS qty,
-        a.duration      AS numdays
-      FROM aurum_rawfile a
-      INNER JOIN %4$s c
-        ON trim(a.prodcodeid) = trim(c.prodcodeid);
-    ", 
-                   aurum_drug_glob_i, 
-                   "aurum_drug_raw", 
-                   "DrugIssue", 
-                   aurum_codes_table
-    )
-    DBI::dbExecute(connection, sql)
-    
-    print(paste0("Completed Aurum DrugIssue extract part ", i))
-    
-    # Runtime check
-    Sys.time() - start_time
-    
-    # MERGE ALL Aurum FILES TOGETHER
-    
-    DBI::dbExecute(connection, "
-    CREATE OR REPLACE TABLE pat_aurum_raw AS
-    SELECT 
-      prodcode, productname, patid, eventdate, sysdate, database, 
-      BNFChapter, dosageid, quantunitid, qty, numdays,
-      pracid, source, formulation, route, ingredient, strength
-    FROM aurum_drug_raw;
-    ")
-    
-    # Count number of patients in Aurum before transforming dates
-    aurum_raw_by_source <- DBI::dbGetQuery(connection, "
-      SELECT database,
-             COUNT(*) AS n_rows,
-             COUNT(DISTINCT patid) AS n_patids
-      FROM pat_aurum_raw
-      GROUP BY database
-      ORDER BY database;
-    ")
-    print(aurum_raw_by_source)
-    
-    # Drop tables to free up memory
-    DBI::dbExecute(connection, "
-      DROP TABLE IF EXISTS aurum_drug_raw;
-    ")
-    gc()
-    
-    print("Combined Aurum Raw")
-    # Runtime check
-    Sys.time() - start_time
-    
-    # ========= Tranform Aurum dates 
-    
-    # Aurum
-    transform_dates_sql_medcode2(connection = connection, 
-                                 in_table = "pat_aurum_raw", 
-                                 out_table = "pat_aurum_clean",
-                                 earliest_date = earliest_date,
-                                 latest_date = latest_date)
-    print("Cleaned Aurum")
-    # Runtime check
-    Sys.time() - start_time
-    
-    # Drop tables to free up memory
-    DBI::dbExecute(connection, "
-      DROP TABLE IF EXISTS pat_aurum_raw;
-    ")
-    
-    # Rearrange columns, add Aurum identifiers to patid, and drop duplicates
-    # Note: output is number of rows in newly created table
-    # NOTE: Had to remove the following columns for memory space:
-    #   source, formulation, route, ingredient, strength 
-    DBI::dbExecute(connection, "
-      CREATE OR REPLACE TABLE pat_aurum_transform AS
-      SELECT DISTINCT
-        patid || '-A' AS patid,
-        prodcode, productname, pracid, eventdate, sysdate, database, 
-        BNFChapter, dosageid, quantunitid, qty, numdays
-      FROM pat_aurum_clean;
-    ")
-    
-    cat("\nAurum rows / patients:\n")
-    print(dbGetQuery(
-      connection, 
-      "SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_aurum_transform;"))
-    
-    # Drop tables to free up memory
-    DBI::dbExecute(connection, "
-      DROP TABLE IF EXISTS pat_aurum_clean;
-    ")
-    gc()
-    
-    # ======== Add in Aurum look up information 
-    
-    f_common_dosages_a <- paste0(path_lookups_aurum, "common_dosages.txt") # observation type
-    f_quantunit <- paste0(path_lookups_aurum, "QuantUnit.txt") # unit of measurement
-    
-    ## AURUM
-    
-    sql_lookup_a <- sprintf("
-      -- Read in look up files
-      -- Common dosages
-      CREATE OR REPLACE TEMP VIEW common_dosages_a AS
-      SELECT *
-      FROM read_csv('%1$s', 
-        delim='\\t', 
-        header=true, 
-        all_varchar=true,   -- all columns as characters
-        null_padding=true,  -- pad shorter rows
-        strict_mode=false,  -- tolerate irregular rows
-        quote='', escape=''
-      );
+      # ====== Read in CPRD Aurum data 
       
-      -- Quantity unit
-      CREATE OR REPLACE TEMP VIEW quantunit AS
-      SELECT *
-      FROM read_csv('%2$s', 
-        delim='\\t', 
-        header=true, 
-        all_varchar=true,   -- all columns as characters
-        null_padding=true,  -- pad shorter rows
-        strict_mode=false,  -- tolerate irregular rows
-        quote='', escape=''
-      );
+      # AURUM DRUGISSUE
       
-      -- Add in look up information
-      CREATE OR REPLACE TABLE pat_aurum_lookup AS
-      SELECT
-        -- select all pat_aurum_transform columns
-        a.*,
-        a.BNFChapter AS bnf,
+      sql <- sprintf("
+        -- Read Aurum raw files
         
-        -- choose final columns to exclude/rename from lookup files
-        -- cda columns: dosage_text, daily_dose, dose_number, dose_unit, dose_frequency, 
-        --    dose_interval, choice_of_dose, dose_max_average, change_dose, dose_duration 
-        -- qu columns: packtype descriptions (renamed to packtype)
-        cda.* EXCLUDE (dosageid),
-        qu.* EXCLUDE (quantunitid),
-        qu.Description AS packtype
+        CREATE OR REPLACE TEMP VIEW aurum_rawfile AS
+        SELECT * FROM read_csv(%1$s,
+          delim='\\t', 
+          header=true, 
+          all_varchar=true,   -- all columns as characters
+          null_padding=true,  -- pad shorter rows
+          strict_mode=false,  -- tolerate irregular rows
+          quote='', escape=''
+        );
         
-      -- Merge in lookup information (note that all columns are available for merging)
-      FROM pat_aurum_transform a
-      LEFT JOIN common_dosages_a cda ON a.dosageid = cda.dosageid
-      LEFT JOIN quantunit qu ON a.quantunitid = qu.quantunitid;
-    ", f_common_dosages_a, f_quantunit)
-    
-    # Execute SQL code for lookups
-    DBI::dbExecute(connection, sql_lookup_a)
-    
-    print("Added Aurum Lookups")
-    
-    # Drop tables to free up memory
-    DBI::dbExecute(connection, "
-      DROP TABLE IF EXISTS pat_aurum_transform;
-    ")
-    
-    # Finalize Aurum extracted patient files
-    DBI::dbExecute(connection, "
-      CREATE OR REPLACE TABLE pat_aurum_final AS
-      SELECT 
-        prodcode, productname, patid, eventdate, sysdate, database, 
-        qty, numdays, pracid, packtype, bnf,
-        dosage_text, daily_dose, dose_number, dose_unit, dose_frequency, 
-        dose_interval, choice_of_dose, dose_max_average, change_dose, dose_duration 
-      FROM pat_aurum_lookup
-    ")
-    
-    # Drop tables to free up memory
-    DBI::dbExecute(connection, "
-      DROP TABLE IF EXISTS pat_aurum_lookup;
-    ")
-    
-    ## Number of unique patients with condition
-    
-    # Aurum
-    cat("\nAURUM rows / patients:\n")
-    print(dbGetQuery(
-      connection, 
-      "SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_aurum_final;"))
-    
-    ## Save patient data for Aurum as parquet file
-    out_aurum_final_parquet_i <- paste0(path_output, "pat_aurum_final_", i, ".parquet")
-    dbExecute(connection, 
-              sprintf("COPY pat_aurum_final TO '%s' (FORMAT parquet);", 
-                      out_aurum_final_parquet_i))
-    print("Combined Cleaned Aurum")
-    
-    gc()
-    
-    # Check tables
-    dbListTables(connection)
-    
-    # Disconnect and wipe the spillover folder
-    dbDisconnect(connection, shutdown = TRUE)
-    closeAllConnections()
-    unlink(spill_dir, recursive = TRUE, force = TRUE)
-    
-    print(paste0("Aurum ", i, " completed!"))
-    # Runtime check
-    Sys.time() - start_time
-    
+        
+        -- Create out_tbl aurum_drug_raw, keeping only rows matching code list medcode (from code_tbl)
+        -- Attach term from code list
+        -- Also add in database identifier and source type
+        
+        CREATE OR REPLACE TABLE %2$s AS
+        SELECT
+          trim(a.prodcodeid) AS prodcode,
+          c.productname          AS productname,
+          a.patid         AS patid,
+          a.pracid        AS pracid,
+          a.issuedate     AS eventdate,   -- keep as TEXT for now
+          a.enterdate     AS sysdate,     -- keep as TEXT for now
+          'Aurum'         AS database,
+          '%3$s'          AS source,
+          c.formulation   AS formulation,
+          c.route         AS route,
+          c.ingredient    AS ingredient,
+          c.strength      AS strength,
+          c.BNFChapter    AS BNFChapter,
+          a.dosageid      AS dosageid,
+          a.quantunitid   AS quantunitid,
+          a.quantity      AS qty,
+          a.duration      AS numdays
+        FROM aurum_rawfile a
+        INNER JOIN %4$s c
+          ON trim(a.prodcodeid) = trim(c.prodcodeid);
+        ", 
+                         files_ij, 
+                         "aurum_drug_raw", 
+                         "DrugIssue", 
+                         aurum_codes_table
+        )
+        DBI::dbExecute(connection, sql)
+        
+        print(paste0("Completed Aurum DrugIssue extract part ", part, " of ", total_parts))
+        
+        # Runtime check
+        Sys.time() - start_time
+        
+        # MERGE ALL Aurum FILES TOGETHER
+        
+        DBI::dbExecute(connection, "
+        CREATE OR REPLACE TABLE pat_aurum_raw AS
+        SELECT 
+          prodcode, productname, patid, eventdate, sysdate, database, 
+          BNFChapter, dosageid, quantunitid, qty, numdays,
+          pracid, source, formulation, route, ingredient, strength
+        FROM aurum_drug_raw;
+        ")
+        
+        # Count number of patients in Aurum before transforming dates
+        aurum_raw_by_source <- DBI::dbGetQuery(connection, "
+          SELECT database,
+                 COUNT(*) AS n_rows,
+                 COUNT(DISTINCT patid) AS n_patids
+          FROM pat_aurum_raw
+          GROUP BY database
+          ORDER BY database;
+        ")
+        print(aurum_raw_by_source)
+        
+        # Drop tables to free up memory
+        DBI::dbExecute(connection, "
+          DROP TABLE IF EXISTS aurum_drug_raw;
+        ")
+        gc()
+        
+        print("Combined Aurum Raw")
+        # Runtime check
+        Sys.time() - start_time
+        
+        # ========= Tranform Aurum dates 
+        
+        # Aurum
+        transform_dates_sql_medcode2(connection = connection, 
+                                     in_table = "pat_aurum_raw", 
+                                     out_table = "pat_aurum_clean",
+                                     earliest_date = earliest_date,
+                                     latest_date = latest_date)
+        print("Cleaned Aurum")
+        # Runtime check
+        Sys.time() - start_time
+        
+        # Drop tables to free up memory
+        DBI::dbExecute(connection, "
+          DROP TABLE IF EXISTS pat_aurum_raw;
+        ")
+        
+        # Rearrange columns, add Aurum identifiers to patid, and drop duplicates
+        # Note: output is number of rows in newly created table
+        # NOTE: Had to remove the following columns for memory space:
+        #   source, formulation, route, ingredient, strength 
+        DBI::dbExecute(connection, "
+          CREATE OR REPLACE TABLE pat_aurum_transform AS
+          SELECT DISTINCT
+            patid || '-A' AS patid,
+            prodcode, productname, pracid, eventdate, sysdate, database, 
+            BNFChapter, dosageid, quantunitid, qty, numdays
+          FROM pat_aurum_clean;
+        ")
+        
+        cat("\nAurum rows / patients:\n")
+        print(dbGetQuery(
+          connection, 
+          "SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_aurum_transform;"))
+        
+        # Drop tables to free up memory
+        DBI::dbExecute(connection, "
+          DROP TABLE IF EXISTS pat_aurum_clean;
+        ")
+        gc()
+        
+        # ======== Add in Aurum look up information 
+        
+        f_common_dosages_a <- paste0(path_lookups_aurum, "common_dosages.txt") # observation type
+        f_quantunit <- paste0(path_lookups_aurum, "QuantUnit.txt") # unit of measurement
+        
+        ## AURUM
+        
+        sql_lookup_a <- sprintf("
+          -- Read in look up files
+          -- Common dosages
+          CREATE OR REPLACE TEMP VIEW common_dosages_a AS
+          SELECT *
+          FROM read_csv('%1$s', 
+            delim='\\t', 
+            header=true, 
+            all_varchar=true,   -- all columns as characters
+            null_padding=true,  -- pad shorter rows
+            strict_mode=false,  -- tolerate irregular rows
+            quote='', escape=''
+          );
+          
+          -- Quantity unit
+          CREATE OR REPLACE TEMP VIEW quantunit AS
+          SELECT *
+          FROM read_csv('%2$s', 
+            delim='\\t', 
+            header=true, 
+            all_varchar=true,   -- all columns as characters
+            null_padding=true,  -- pad shorter rows
+            strict_mode=false,  -- tolerate irregular rows
+            quote='', escape=''
+          );
+          
+          -- Add in look up information
+          CREATE OR REPLACE TABLE pat_aurum_lookup AS
+          SELECT
+            -- select all pat_aurum_transform columns
+            a.*,
+            a.BNFChapter AS bnf,
+            
+            -- choose final columns to exclude/rename from lookup files
+            -- cda columns: dosage_text, daily_dose, dose_number, dose_unit, dose_frequency, 
+            --    dose_interval, choice_of_dose, dose_max_average, change_dose, dose_duration 
+            -- qu columns: packtype descriptions (renamed to packtype)
+            cda.* EXCLUDE (dosageid),
+            qu.* EXCLUDE (quantunitid),
+            qu.Description AS packtype
+            
+          -- Merge in lookup information (note that all columns are available for merging)
+          FROM pat_aurum_transform a
+          LEFT JOIN common_dosages_a cda ON a.dosageid = cda.dosageid
+          LEFT JOIN quantunit qu ON a.quantunitid = qu.quantunitid;
+        ", f_common_dosages_a, f_quantunit)
+        
+        # Execute SQL code for lookups
+        DBI::dbExecute(connection, sql_lookup_a)
+        
+        print("Added Aurum Lookups")
+        
+        # Drop tables to free up memory
+        DBI::dbExecute(connection, "
+          DROP TABLE IF EXISTS pat_aurum_transform;
+        ")
+        
+        # Finalize Aurum extracted patient files
+        DBI::dbExecute(connection, "
+          CREATE OR REPLACE TABLE pat_aurum_final AS
+          SELECT 
+            prodcode, productname, patid, eventdate, sysdate, database, 
+            qty, numdays, pracid, packtype, bnf,
+            dosage_text, daily_dose, dose_number, dose_unit, dose_frequency, 
+            dose_interval, choice_of_dose, dose_max_average, change_dose, dose_duration 
+          FROM pat_aurum_lookup
+        ")
+        
+        # Drop tables to free up memory
+        DBI::dbExecute(connection, "
+          DROP TABLE IF EXISTS pat_aurum_lookup;
+        ")
+      
+      ## Number of unique patients with condition
+      
+      # Aurum
+      cat("\nAURUM rows / patients:\n")
+      print(dbGetQuery(
+        connection, 
+        "SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_aurum_final;"))
+      
+      ## Save patient data for Aurum as parquet file
+      out_aurum_final_parquet_ij <- paste0(path_output, "pat_aurum_final_", part, ".parquet")
+      dbExecute(connection, 
+                sprintf("COPY pat_aurum_final TO '%s' (FORMAT parquet);", 
+                        out_aurum_final_parquet_ij))
+      print("Combined Cleaned Aurum")
+      
+      gc()
+      
+      # Check tables
+      dbListTables(connection)
+      
+      # Disconnect and wipe the spillover folder
+      dbDisconnect(connection, shutdown = TRUE)
+      closeAllConnections()
+      unlink(spill_dir, recursive = TRUE, force = TRUE)
+      
+      print(paste0("Aurum ", part, " completed!"))
+      
+      part <- part + 1
+      # Runtime check
+      Sys.time() - start_time
+      
+    }
   }
   
   # ================= Combine GOLD and Aurum =====================
@@ -867,7 +898,7 @@ extract_patients_prodcode <- function(wd, path_input, path_gold, path_aurum, cod
   ### Read in gold and aurum records
   
   out_file_names <- c(paste0("pat_gold_final_", 1:length(path_gold)),
-                      paste0("pat_aurum_final_", 1:length(path_aurum)))
+                      paste0("pat_aurum_final_", 1:total_parts))
   extraction_files <- paste0(path_output, out_file_names, ".parquet")
   
   # Stack together all of the Gold and Aurum files
@@ -927,8 +958,9 @@ extract_patients_prodcode <- function(wd, path_input, path_gold, path_aurum, cod
   # Check tables
   dbListTables(connection)
   
-  ### Remove data and shut down connection
+  # Disconnect and wipe the spillover folder
   dbDisconnect(connection, shutdown = TRUE)
+  unlink(spill_dir, recursive = TRUE, force = TRUE)
   cat("\nDone.\n")
   
 }

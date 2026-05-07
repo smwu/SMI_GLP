@@ -45,13 +45,13 @@ library(stringr)
 library(tidyr)
 library(openxlsx)
 
-# Set working directory
-wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" # VPN connection
-# wd <- "//live.rd.ucl.ac.uk/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" #Desktop@UCL
-setwd(wd)
-# Set input and output paths
-path_input <- "Code_Lists/"
-path_output <- "Code_Lists/Smoking/"
+# # Set working directory
+# wd <- "/Volumes/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" # VPN connection
+# # wd <- "//live.rd.ucl.ac.uk/ritd-ag-project-rd00qv-jfhay18/Stephanie/SMI_GLP/" #Desktop@UCL
+# setwd(wd)
+# # Set input and output paths
+# path_input <- "Code_Lists/"
+# path_output <- "Code_Lists/Smoking/"
 
 # ### For running in Data Safe Haven
 # Set working directory
@@ -117,7 +117,7 @@ aurum_smoking <- cprd_aurum_medical %>%
   # Inclusions: smoking, tobacco, bupropion (for nicotine withdrawal)
   filter(grepl(paste0("(?i)smoking|smoker|smokes|smoked|roll-up|roll up|",
                       "tobacco|ex-tobacco|ex-smoker|stop-smoking|stopped smoking|",
-                      "bupropion refused|bupropion contraindicated|anti-smoking|",
+                      "smoking cessation bupropion therapy|anti-smoking|",
                       "cigar|cigarette|nicotine|Smokers"), 
                term)) %>%
   # Exclusions: smoke from burning, smoke inhalation
@@ -129,27 +129,28 @@ aurum_smoking <- cprd_aurum_medical %>%
     # Family/caregiver
     "fh:|family history|child|infant|maternal|paternal|family|member|relative|",
     "father|mother|carer|newborn|pregnancy|parental|smoker in home|",
-    "smoker in household|smokefree home|no smokers in the household",
+    "smoker in household|smokefree home|",
     # Counselling and care
     "leaflet|advice on|assessment of tobacco use|provision of written information|",
     # e-cigarette, vaping, drug, non-specific
-    "electronic cigarette|e-cigarette|vaper without nicotine|smokes drugs|",
-    "vaper with nicotine|^cigarette$|",
+    "electronic cigarette|e-cigarette|vaper without nicotine|^cigarette$|",
     "drops unextinguished cigarettes|hides lit cigarettes in pockets|",
     # measurement
     "smoking status|waking time|date of|total time|plcom2012|age at|",
-    "smoking scale|other smoking information|screen|screening|pack years|",
+    "smoking scale|other smoking information|screen|screening|pack years|packyears|",
     "socio-economic classification|smoking assessment|exacerbation frequency index|",
     # allergies
     "allergy|asthma|poisoning|",
+    # Substance misues
+    "smokes drugs|",
     # Other 
     "teeth|heart beat|copd|chronic obstructive pulmonary|amblyopia|",
     "processed cheese|staining of finger|",
     # Negations
-    "never used|non-smoker|not a|passive|consumption nil|never smoked|",
+    "never used|non-smoker|non smoker|not a|passive|consumption nil|never smoked|",
     "never chewed|tobacco usage unknown|possibly untrue|does not use|",
     "excepted from smoking quality indicators|exception reporting|", 
-    "smoking consumption unknown|does not chew tobacco"), 
+    "smoking consumption unknown|does not chew tobacco|smoking review not indicated"), 
     term, perl = TRUE))
 
 # Create smoking status column
@@ -191,7 +192,7 @@ gold_smoking <- cprd_gold_medical %>%
   # Inclusions: smoking, tobacco, bupropion (for nicotine withdrawal)
   filter(grepl(paste0("(?i)smoking|smoker|smokes|smoked|roll-up|roll up|",
                       "tobacco|ex-tobacco|ex-smoker|stop-smoking|stopped smoking|",
-                      "bupropion refused|bupropion contraindicated|anti-smoking|",
+                      "smoking cessation bupropion therapy|anti-smoking|",
                       "cigar|cigarette|nicotine|Smokers"), 
                term)) %>%
   # Exclusions: smoke from burning, smoke inhalation
@@ -211,18 +212,20 @@ gold_smoking <- cprd_gold_medical %>%
     "drops unextinguished cigarettes|hides lit cigarettes in pockets|",
     # measurement
     "smoking status|waking time|date of|total time|plcom2012|age at|",
-    "smoking scale|other smoking information|screen|screening|pack years|",
+    "smoking scale|other smoking information|screen|screening|pack years|packyears|",
     "socio-economic classification|smoking assessment|exacerbation frequency index|",
     # allergies
     "allergy|asthma|poisoning|",
+    # Substance misues
+    "smokes drugs|",
     # Other 
     "teeth|heart beat|copd|chronic obstructive pulmonary|amblyopia|",
     "processed cheese|staining of finger|",
     # Negations
-    "never used|non-smoker|not a|passive|consumption nil|never smoked|",
+    "never used|non-smoker|non smoker|not a|passive|consumption nil|never smoked|",
     "never chewed|tobacco usage unknown|possibly untrue|does not use|",
     "excepted from smoking quality indicators|exception reporting|", 
-    "smoking consumption unknown|does not chew tobacco"), 
+    "smoking consumption unknown|does not chew tobacco|smoking review not indicated"), 
     term, perl = TRUE))
 
 # Create smoking status column
@@ -272,9 +275,9 @@ aurum_gold_smoking_new_codes <- list(
 # Create updated code lists
 
 # Aurum
-smoking_codelist_aurum_new <- bind_rows(aurum_smoking, aurum_non_smoker)
+smoking_codelist_aurum_new <- aurum_smoking
 # Gold
-smoking_codelist_gold_new <- bind_rows(gold_smoking, gold_non_smoker)
+smoking_codelist_gold_new <- gold_smoking
 
 # # Save updated code lists
 write.table(smoking_codelist_aurum_new,
@@ -283,5 +286,21 @@ write.table(smoking_codelist_aurum_new,
 # 
 write.table(smoking_codelist_gold_new,
             file = paste0(wd, path_output, "Gold_Smoking_codelist_20260210.txt"),
+            sep = "\t", row.names = FALSE)
+
+### Including non-smoker terms
+
+# Aurum
+smoking_with_nonsmoker_codelist_aurum_new <- bind_rows(aurum_smoking, aurum_non_smoker)
+# Gold
+smoking_with_nonsmoker_codelist_gold_new <- bind_rows(gold_smoking, gold_non_smoker)
+
+# # Save updated code lists
+write.table(smoking_with_nonsmoker_codelist_aurum_new,
+            file = paste0(wd, path_output, "Aurum_Smoking_With_Nonsmoker_codelist_20260210.txt"),
+            sep = "\t", row.names = FALSE)
+# 
+write.table(smoking_with_nonsmoker_codelist_gold_new,
+            file = paste0(wd, path_output, "Gold_Smoking_With_Nonsmoker_codelist_20260210.txt"),
             sep = "\t", row.names = FALSE)
 

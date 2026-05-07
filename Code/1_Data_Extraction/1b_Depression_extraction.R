@@ -257,11 +257,11 @@ pat_depr_comb <- pat_depr_comb %>%
       database == "Gold" ~ paste0(patid, "-G"),
       database == "Aurum" ~ paste0(patid, "-A"),
       .default = patid)) %>%
-  distinct()  # Removed 363,522 duplicates. 7,298,090 remaining
+  distinct()  # Removed 363,522 duplicates. 7,666,090 remaining
 
 
 # Number of unique patients with condition
-n_distinct(pat_depr_comb$patid) # 1,181,757
+n_distinct(pat_depr_comb$patid) # 1,214,409
 
 # # Save patient data for GOLD and Aurum
 save(pat_depr_comb,

@@ -2,7 +2,7 @@
 # Extract patients with SMI diagnoses using code lists
 # Author: SM Wu
 # Date Created: 2025/06/16
-# Date Updated: 2025/11/25
+# Date Updated: 2026/04/08
 # 
 # Details:
 # 1) Set up and read in code lists
@@ -264,11 +264,11 @@ pat_smi_comb <- pat_smi_comb %>%
       database == "Gold" ~ paste0(patid, "-G"),
       database == "Aurum" ~ paste0(patid, "-A"),
       .default = patid)) %>%
-  distinct()  # 972,345 remaining
+  distinct()  # 1,021,348 remaining
 
 
 # Number of unique patients with condition
-n_distinct(pat_smi_comb$patid) # 99,388
+n_distinct(pat_smi_comb$patid) # 101,836
 
 # # Save patient data for GOLD and Aurum
 save(pat_smi_comb,

@@ -2,7 +2,7 @@
 # Generate code lists for BMI
 # Authors: SM Wu & S Picton
 # Date Created: 2026/03/10
-# Date Updated: 2026/03/10
+# Date Updated: 2026/04/14
 # 
 # Details:
 # 1) Set up and load data
@@ -17,8 +17,10 @@
 # 4) Code_Lists/BMI/Old/Gold_BMI_20230724_Alvin.txt : Old Gold BMI code list 
 # 
 # Final Outputs:
-# 1) Code_Lists/BMI/Aurum_BMI_codelist_20260310. txt : Updated Aurum BMI code list 
-# 2) Code_Lists/BMI/Gold_BMI_codelist_20260310.txt ; Updated Gold BMI code list
+# 1) Code_Lists/BMI/Aurum_BMI_codelist_20260320.txt : Updated Aurum BMI code list 
+# 2) Code_Lists/BMI/Gold_BMI_codelist_20260320.txt : Updated Gold BMI code list
+# 3) Code_Lists/BMI/Aurum_Gold_BMI_codelist_20260320.txt : Updated combined Aurum & Gold code list 
+
 
 # ================= 1) Set up and load data ====================================
 
@@ -107,53 +109,229 @@ gold_BMI_old <- read_delim(
 # Aurum
 
 aurum_BMI <- cprd_aurum_medical %>%
-  # Inclusion - BMI related terms,  
-  filter(grepl(paste0("(?i)BMI|weight|obesity|underweight|overweight|obese"), 
-               term,))
-
-
-%>%
   
-  # Exclusion - Unrelated terms 
+  # Inclusion - BMI related terms,  
+  filter(grepl(paste0("(?i)BMI|weight|obesity|underweight|overweight|obese|height|body mass index"), 
+               term)) %>%
+  
+# Exclusion - Unrelated terms 
 
-                       
-#Unrelated terms 
-
-filter(!grepl(paste0("(?i)"below knee|weightless environment|weightlessness|
-weight-bearing|non-weight-bearing|sample|
+                      
+filter(!grepl(paste0("(?i)below knee|weightless environment|weightlessness|
+weight-bearing|non-weight-bearing|sample|weight-bearing|weight-bear|
 post-dialysis|fpc|molecular|gold|heparin|hb|lift weights|
-lesions|7pcl|eyelid",
+lesions|7pcl|eyelid|7-point|skin lesion|ede-q|skeletal dysplasia|
+down's|mri|magnetic",
+
+#  Unrelated height codes
 
 
-Relating to family history 
+"uterine fundus|fundal|unfit|gravid|fall|jumping|tinetti|	
+mid-parental|predicted|down's|footwear|measurement declined|furniture|
+heightened|falling|pubis|demispan|sitting|wave|fear|knee|neurodynamic|
+mother|perception|uterine|fundus|fundal|qrs|step",
 
-"fh:|family history:",
+# Relating to family history 
+
+"fh:obesity|family history:|fh:",
 
 
-Relating to children 
+# Relating to children 
 
-"child|baby birth|infant|premature|baby|childhood|birthweight|birth|
-fetal|circum.|foetal",
+"baby birth|child|infant|premature|baby|childhood|birthweight|birth|
+fetal|circum.|foetal|child protection conference|child weight=|27-30 mth exam.|
+national child measurement programme|child overweight|overweight child",
 
-Negations
+# Negations
 
 "not done|unsuitable for",
 
-Relating to pregnancy 
+# Relating to pregnancy 
 
-"pregnancy|gestation|placental|preg|postnatal|preg+postnatal|
+"pregnancy|gestation|placental|placenta|preg|postnatal|preg+postnatal|
 maternal",
 
-Process of care
+# Process of care
 
 
 "framingham",
 
+# Relating to eating disorder
 
-Administrative 
+"purging|excessive exercise|	
+self-induced purging",
+
+# Administrative 
 
 
 "ede-q|compensation|ac563|see report|sentinel"), 
 
-  term, perl = TRUE)) 
+  term, perl = TRUE)) %>%
+  
+
+  
+  # Filter out fh code 
+  
+filter(!grepl("fh:[-_ ]*obesity", term, ignore.case = TRUE, perl =  TRUE))
+
+
+
+
+
+# Gold 
+
+
+gold_BMI <- cprd_gold_medical %>%
+  
+  
+# Inclusion - BMI related terms,  
+ filter(grepl(paste0("(?i)BMI|weight|obesity|underweight|overweight|obese|height|body mass index"), 
+                            term)) %>%
+                 
+# Exclusion - Unrelated terms 
+                 
+                 
+filter(!grepl(paste0("(?i)below knee|weightless environment|weightlessness|
+weight-bearing|non-weight-bearing|sample|weight-bearing|weight-bear|
+post-dialysis|fpc|molecular|gold|heparin|hb|lift weights|
+lesions|7pcl|eyelid|7-point|skin lesion|ede-q|skeletal dysplasia|
+down's|mri|magenetic",
+
+#  Unrelated height codes
+                     
+                     
+"uterine fundus|fundal|unfit|gravid|fall|jumping|tinetti|
+mid-parental|predicted|down's|footwear|measurement declined|furniture|
+heightened|falling|pubis|demispan|sitting|wave|fear|knee|neurodynamic|
+mother|perception|uterine|fundus|fundal|qrs|step|mid-parental",                                      
+                                      
+# Relating to family history 
+                                      
+"fh:obesity|family history:|fh:",
+                                      
+                                      
+# Relating to children 
+                                    
+"baby birth|child|infant|premature|baby|childhood|birthweight|birth|
+fetal|circum.|foetal|child protection conference|child weight=|27-30 mth exam.|
+national child measurement programme|child overweight|overweight child",
+                                      
+# Negations
+                                      
+"not done|unsuitable for",
+                                      
+# Relating to pregnancy 
+                                      
+"pregnancy|gestation|placental|placenta|preg|postnatal|preg+postnatal|
+maternal",
+                                      
+# Process of care
+                                      
+                                      
+"framingham",
+                                      
+# Relating to eating disorder
+                                      
+"purging|excessive exercise|	
+self-induced purging",
+                                      
+# Administrative 
+                                      
+                                    
+"ede-q|compensation|ac563|see report|sentinel"), 
+                               
+                               term, perl = TRUE)) %>%
+                 
+                 
+            
+                 
+# Filter out fh code 
+                 
+filter(!grepl("fh:[-_ ]*obesity", term, ignore.case = TRUE, perl =  TRUE))         
+               
+                     
+## Comparing with older codelists
+
+# New codes not in old list
+
+new_aurum <- aurum_BMI %>%
+  filter(!medcodeid %in% aurum_BMI_old$medcodeid)
+
+new_gold <- gold_BMI %>%
+  filter(!medcode %in% gold_BMI_old$medcode)
+
+# Old codes not in new old list
+
+miss_new_aurum <- aurum_BMI_old %>%
+  filter(!medcodeid %in% aurum_BMI$medcodeid)
+
+miss_new_gold <- gold_BMI_old %>%
+  filter(!medcode %in% gold_BMI$medcode)
+
+               
+# ================= 3) Create updated code lists ===============================
+
+# Create updated code lists
+
+# Aurum
+BMI_codelist_aurum_new <- aurum_BMI
+
+# Gold
+BMI_codelist_gold_new <- gold_BMI
+
+# Save updated code lists
+
+write.table(BMI_codelist_aurum_new,
+            file = paste0(wd, path_output, "Aurum_BMI_codelist_20260320.txt"),
+            sep = "\t", row.names = FALSE)
+
+write.table(BMI_codelist_gold_new,
+            file = paste0(wd, path_output, "Gold_BMI_codelist_20260320.txt"),
+            sep = "\t", row.names = FALSE)
+
+# Combine Aurum and GOLD updated code lists
+
+temp_aurum <- BMI_codelist_aurum_new %>%
+  rename(medcode = medcodeid, readcode = CleansedReadCode) %>%
+  select(medcode, term)
+
+temp_gold <- BMI_codelist_gold_new %>%
+  select(medcode, term)
+
+temp_both <- rbind(temp_aurum, temp_gold)
+
+aurum_gold_BMI_new <- temp_both %>% distinct()
+
+
+# # Combine Aurum and GOLD into one file with a column specifying database
+
+
+BMI_codelist_aurum_new$database <- "Aurum"
+BMI_codelist_gold_new$database <- "Gold"
+BMI_codelist_aurum_gold_new <- rbind(
+  BMI_codelist_aurum_new %>% 
+    rename(medcode = medcodeid) %>%
+    select(medcode, term, database), 
+  BMI_codelist_gold_new %>%
+    select(medcode, term, database))
+
+
+# # Save combined code list
+
+write.table(BMI_codelist_aurum_gold_new,
+            file = paste0(wd, path_output, "Aurum_Gold_BMI_codelist_20260320.txt"),
+            sep = "\t", row.names = FALSE)
+
+
+               
+              
+
+
+
+
+
+
+        
+        
+        
         

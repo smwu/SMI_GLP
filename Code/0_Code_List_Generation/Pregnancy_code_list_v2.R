@@ -1,7 +1,7 @@
 # Generate code list for Pregnancy 
 # Author: S Picton & S Wu
 # Date created: 2026/02/24
-# Date updated: 2026/03/10
+# Date updated: 2026/04/14
 
 # 
 # Details:
@@ -17,9 +17,9 @@
 
 # Final Outputs:
 
-# 1) Code_Lists/Pregnancy/Aurum_Pregnancy_codelist_20260304.txt :  Aurum pregnancy code list 
-# 2) Code_Lists/Pregnancy/Gold_Pregnancy_codelist_20260304.txt : Gold pregnancy code list 
-# 3) Code_Lists/Pregnancy/Aurum_Gold_Pregnancy_codelist_20260304.txt : Combined Aurum & Gold pregnancy code list
+# 1) Code_Lists/Pregnancy/Aurum_Pregnancy_codelist_20260313.txt :  Aurum pregnancy code list 
+# 2) Code_Lists/Pregnancy/Gold_Pregnancy_codelist_20260313.txt : Gold pregnancy code list 
+# 3) Code_Lists/Pregnancy/Aurum_Gold_Pregnancy_codelist_20260313.txt : Combined Aurum & Gold pregnancy code list
 
 
 # ================= 1) Set up and load data ====================================
@@ -117,26 +117,30 @@ aurum_pregnancy <- cprd_aurum_medical %>%
   # Early pregnancy 
   
   
-  filter(grepl(paste0("(?i)hyperemesis|serum pregnancy test positive|urine pregnancy test positive|
-pregnant|antenatal",
+filter(grepl(paste0("(?i)hyperemesis|serum pregnancy test positive|urine pregnancy test positive|
+pregnant|antenatal|ante natal",
                       
 # Late preg
-  "polyhydramnios|oligohydramnios|amniotic|placenta|antepartum",
+"oligohydramnios|amniotic|placenta|antepartum|antepartum haemorrhage|polyhydramnios|oligohydramnios|oligohydramnios",
 
 # Postnatal
 
-"postpartum|postnatal|puerperium|childbirth|labour|delivery|puerperal|postpartum", 
+"postnatal|puerperium|childbirth|labour|delivery|puerperal|postpartum|postnatal care|
+postnatal examination|postnatal visit|postnatal visit nos|postnatal|	
+maternal postnatal", 
 
 # Unspecified 
 
-"primigravida|pregnancy|obstetric|gestation|pregnant|multigravida|maternal care"),
-  term, per = TRUE)) %>%
-               
-   
+"primigravida|primigravid|pregnancy|obstetric|gestation|pregnant|multigravida|maternal care"),
   
+
+         term, per = TRUE)) %>%
+               
+
   
   
   # Exclusion - not pregnancy related 
+  
   filter(!grepl(paste0("(?i)Builders|civil engineer|labourer|fear of pregnancy|delivery of rehabilitation|radiotherapy delivery|
 delivery of oral chemotherapy|delivery of a fraction|oral delivery of radiotherapy|
 consultant gynaecology and obstetrics|obstetrics & gynaecology|obstetrics and gynaecology|
@@ -226,23 +230,67 @@ filter(!grepl("partner[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE)) 
 filter(!grepl("trying to get[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE)) %>%
 
 
-filter(!grepl("non-[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE))  %>%
+filter(!grepl("non-[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE))
 
   
-filter(!grepl("non[-_ ]*puerperal", term, ignore.case = TRUE, perl =  TRUE))
+
+# Add pregnancy period variable: early, late, postnatal, unspecified
+aurum_pregnancy <- aurum_pregnancy %>%
+  mutate(period = str_match(term, "(\\d{1,2}) weeks?\\b")[, 2]) %>%
+  mutate(period = ifelse(!is.na(period), period, case_when(
+    grepl(paste0("(?i)hyperemesis|serum pregnancy test positive|urine pregnancy test positive|",
+                 "pregnant|antenatal|ante natal"), term) ~ "early pregnancy",
+    grepl(paste0("(?i)oligohydramnios|amniotic|placenta|antepartum|antepartum haemorrhage|",
+                 "polyhydramnios|oligohydramnios|oligohydramnios"), term) ~ "late pregnancy",
+    grepl(paste0("(?i)postnatal|puerperium|childbirth|labour|delivery|puerperal|postpartum|",
+                 "postnatal care|postnatal examination|postnatal visit|postnatal visit nos|",
+                 "postnatal|maternal postnatal"), term) ~ "postnatal", 
+    grepl(paste0("(?i)primigravida|primigravid|pregnancy|obstetric|gestation|pregnant|",
+                 "multigravida|maternal care"), term) ~ "unspecified",
+    .default = NA))) %>%
+  mutate(period = case_when(
+    grepl(paste0("(?i)high head at term|complications of labour and delivery|normal delivery|delayed delivery"), term) & 
+      period == "early pregnancy" ~ "late pregnancy",
+    grepl(paste0("(?i)post-term pregnancy"), term) & period == "unspecified" ~ "late pregnancy",
+    .default = period))
+table(aurum_pregnancy2$period, useNA = "always")
+
+
 
 #### Gold
 
 gold_pregnancy <- cprd_gold_medical %>%
+
   # Inclusion - Pregnancy related terms
-  filter(grepl(paste0("(?i)pregnancy|obstetric|hyperemesis|antenatal|gestation|
-  pregnant|maternal care|polyhydramnios|oligohydramnios|
-  amniotic|placenta|antepartum|labour|postpartum|delivery|puerperal|
-  puerperium|postpartum|childbirth|primigravida|multigravida|postnatal|serum pregnancy test positive|urine pregnancy test positive"),
-               term)) %>% 
   
   
-  # Exclusion - not pregnancy related 
+  # Early pregnancy 
+  
+  
+filter(grepl(paste0("(?i)hyperemesis|serum pregnancy test positive|urine pregnancy test positive|
+pregnant|antenatal|ante natal",
+                      
+# Late preg
+
+"oligohydramnios|amniotic|placenta|antepartum|antepartum haemorrhage|polyhydramnios|oligohydramnios|oligohydramnios",
+                      
+# Postnatal
+                    
+"postnatal|puerperium|childbirth|labour|delivery|puerperal|postpartum|postnatal care|
+postnatal examination|postnatal visit|postnatal visit nos|postnatal|	
+maternal postnatal", 
+                      
+# Unspecified 
+                      
+"primigravida|primigravid|pregnancy|obstetric|gestation|pregnant|multigravida|maternal care"),
+               
+  term, per = TRUE)) %>%
+  
+  
+  
+  
+# Exclusion - not pregnancy related 
+  
   filter(!grepl(paste0("(?i)Builders|civil engineer|labourer|fear of pregnancy|delivery of rehabilitation|radiotherapy delivery|
 delivery of oral chemotherapy|delivery of a fraction|oral delivery of radiotherapy|
 consultant gynaecology and obstetrics|obstetrics & gynaecology|obstetrics and gynaecology|
@@ -257,28 +305,30 @@ ultrasound procedure on female genital system and/or|proton|
  proton beam|nitric oxide|obstetrical/gynaecological device|fear of|prostate|cannabis hyperemesis|
  increased risk for unplanned",
                        
-                       # Negations 
-                       "pregnancy test negative|pre-pregnancy|non-obstetric|non-puerperal|nonpuerperal|
+# Negations 
+                       
+"pregnancy test negative|pre-pregnancy|non-obstetric|non-puerperal|nonpuerperal|
   unspecified whether in pregnancy|non obstetric|unspec whether during|
   no history of ectopic pregnancy|	
-  pregnancy prevention programme|recurrent pregnancy loss|not pregnant|
+  pregnancy prevention programme|recurrent pregnancy loss|
   pregnancy test negative|pregnancy prevention|pregnancy not yet confirmed|
   no history of|urine pregnancy test negative", "test negative","pregnancy test negative",
+                       "not pregnant", "non puerperal",
                        
-                       # Related to previous pregnancy
+# Related to previous pregnancy
                        
-                       "h/o:|history of|previous surgery in pregnancy|bladder: incontinence due to childbirth|
-  previous induced terminations|number of miscarriages or induced terminations of pregnancy|
-  number of induced terminations of pregnancy|past pregnancy history|past pregnancy|
+"h/o:|history of|previous surgery in pregnancy|bladder: incontinence due to childbirth|
+previous induced terminations|number of miscarriages or induced terminations of pregnancy|
+number of induced terminations of pregnancy|past pregnancy history|past pregnancy|
 obstetric history",
                        
-                       # Related to family
+# Related to family
                        
-                       "fh|family history","fh: obstetric problem",
+"fh|family history","fh: obstetric problem", "wife pregnant",
                        
-                       # Process of care
+# Process of care
                        
-                       "pregnancy test requested|high sensitivity urine pregnancy test|test request : pregnancy test|
+"pregnancy test requested|high sensitivity urine pregnancy test|test request : pregnancy test|
   pregnancy test kit given|pregnancy advice for patients with epilepsy not indicated|
   failed encounter - short message service|test kit|	
   failed encounter - sms|home delivery of urinary catheters|oxygen delivery|
@@ -300,25 +350,64 @@ obstetric history",
                 term, perl = TRUE))    %>%
   
   
-  # Remove family history codes 
-  filter(!grepl("(?i)(fh: obstetric problem|	
+# Remove family history codes 
+  
+filter(!grepl("(?i)(fh: obstetric problem|	
 fh: raised b.p. in pregnancy|fh: diabetes in pregnancy|fh: puerperal depression|
 fh: obstetric problem nos|fh: multiple pregnancy|	
 fh: twin pregnancy|fh: raised b.p. in pregnancy|fh: twin pregnancy|family history:)", term, perl = TRUE)) %>%
   
   
-  # Remove history of codes 
-  filter(!grepl("(?i)(h/o:|h/o|obstetric history)", term, perl = TRUE)) %>%
+# Remove history of codes 
+  
+filter(!grepl("(?i)(h/o:|h/o|obstetric history)", term, perl = TRUE)) %>%
   
   
-  # Remove negative pregnancy test / test request codes 
+# Remove negative pregnancy test / test request codes / not pregnant code
   
-  filter(!grepl("(?i)(pregnancy test negative|pregnancy test requested|b-hcg|standard|beta|patient advised)",
+filter(!grepl("(?i)(pregnancy test negative|pregnancy test requested|b-hcg|beta|patient advised)",
                 term, perl = TRUE)) %>%
   
-  filter(!grepl("^urine pregnancy test(?! positive)|^pregnancy test(?! positive)",
-                term, perl = TRUE))
+filter(!grepl("^urine pregnancy test(?! positive)|^pregnancy test(?! positive)",
+                term, perl = TRUE)) %>%
+  
+# Remove codes for NOT pregnant, NON PUERPERAL and WIFE/PARTNER and TRYING TO GET pregnant 
+  
+  filter(!grepl("not[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  
+  filter(!grepl("wife[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  
+  filter(!grepl("partner[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  
+  filter(!grepl("trying to get[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  
+  
+  filter(!grepl("non-[-_ ]*pregnant", term, ignore.case = TRUE, perl =  TRUE))  
+  
 
+# Add pregnancy period variable: early, late, postnatal, unspecified
+gold_pregnancy <- gold_pregnancy %>%
+  mutate(period = str_match(term, "(\\d{1,2}) weeks?\\b")[, 2]) %>%
+  mutate(period = ifelse(!is.na(period), period, case_when(
+    grepl(paste0("(?i)hyperemesis|serum pregnancy test positive|urine pregnancy test positive|",
+                 "pregnant|antenatal|ante natal"), term) ~ "early pregnancy",
+    grepl(paste0("(?i)oligohydramnios|amniotic|placenta|antepartum|antepartum haemorrhage|",
+                 "polyhydramnios|oligohydramnios|oligohydramnios"), term) ~ "late pregnancy",
+    grepl(paste0("(?i)postnatal|puerperium|childbirth|labour|delivery|puerperal|postpartum|",
+                 "postnatal care|postnatal examination|postnatal visit|postnatal visit nos|",
+                 "postnatal|maternal postnatal"), term) ~ "postnatal", 
+    grepl(paste0("(?i)primigravida|primigravid|pregnancy|obstetric|gestation|pregnant|",
+                 "multigravida|maternal care"), term) ~ "unspecified",
+    .default = NA))) %>%
+  mutate(period = case_when(
+    grepl(paste0("(?i)high head at term|complications of labour and delivery|normal delivery|delayed delivery"), term) & 
+      period == "early pregnancy" ~ "late pregnancy",
+    grepl(paste0("(?i)post-term pregnancy"), term) & period == "unspecified" ~ "late pregnancy",
+    .default = period))
+    
+table(gold_pregnancy2$period, useNA = "always")
+  
+   
 ###
 
 ## Comparing with older codelists
@@ -346,11 +435,11 @@ miss_new_gold <- pregnancy_gold_old %>%
 # Save updated code lists
 
 write.table(aurum_pregnancy,
-            file = paste0(wd, path_output, "Aurum_Pregnancy_codelist_20260304.txt"),
+            file = paste0(wd, path_output, "Aurum_Pregnancy_codelist_20260313.txt"),
             sep = "\t", row.names = FALSE)
 
 write.table(gold_pregnancy,
-            file = paste0(wd, path_output, "Gold_Pregnancy_codelist_20260304.txt"),
+            file = paste0(wd, path_output, "Gold_Pregnancy_codelist_20260313.txt"),
             sep = "\t", row.names = FALSE)
 
 # Combine Aurum and GOLD updated code lists
@@ -363,12 +452,6 @@ temp_both <- rbind(temp_aurum, temp_gold)
 aurum_gold_pregnancy <- temp_both %>% distinct()
 
 
-# Save lists of new combined codelist into one .xlsx file
-
-
-
-write_xlsx(aurum_gold_pregnancy,
-           file = paste0(wd, path_output, "Aurum_Gold_Pregnancy_codelist_20260304.xlsx"))
 
 
 # # Combine Aurum and GOLD into one file with a column specifying database
@@ -385,5 +468,5 @@ aurum_gold_pregnancy <- rbind(
 
 # # Save combined code list
 write.table(aurum_gold_pregnancy,
-            file = paste0(wd, path_output, "Aurum_Gold_Pregnancy_codelist_20260304.txt"),
+            file = paste0(wd, path_output, "Aurum_Gold_Pregnancy_codelist_20260313.txt"),
             sep = "\t", row.names = FALSE)  
