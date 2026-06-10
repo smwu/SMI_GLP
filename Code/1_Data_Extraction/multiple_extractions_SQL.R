@@ -18,25 +18,30 @@
 # Alcohol_Misuse (TRUE)
 # Substance Misuse (TRUE)
 # Smoking (TRUE)
+# Ethnicity (TRUE)
 # Hypertension (TRUE)
 # Antihypertensives (FALSE)
 # Lipid_Regulating_Med (FALSE)
-# Hypertension (TRUE)
+# Dyslipidaemia (TRUE)
+# Liver_Disease (TRUE)
 #
 # ================================================================================
 
 
 # Clear memory
 rm(list = ls())
+gc()
 
 # Input arguments
 earliest_date <- "1900-01-01"
 latest_date <- "2025-06-01"
 
 # Vector of code list folder names for which data extraction is desired
-code_names <- c("Smoking")
+code_names <- c("Renal_Disease", "Myocardial_Infarction", "Angina", 
+                "Coronary_Revascularisation_Procedures", 
+                "Ischaemic_Heart_Disease", "Stroke")
 # Boolean vector specifying if medcode (TRUE) or prodcode (FALSE)
-med_code_vec <- c(TRUE)
+med_code_vec <- c(TRUE, TRUE, TRUE, TRUE, TRUE, TRUE)
 
 # Packages
 library(dplyr)
@@ -89,8 +94,9 @@ for (i in 1:length(code_names)) {
     path_extract_gold_ref <- paste0(wd, path_gold, "Referral/")
     path_extract_aurum_obs <- paste0(wd, path_aurum, "Observation/")
     
-    extract_patients_medcode(wd = wd, path_input = path_input, path_gold = path_gold, 
-                             path_aurum = path_aurum, code_name = code_name,
+    extract_patients_medcode(wd = wd, path_input = path_input, code_name = code_name,
+                             extract_gold = TRUE, extract_aurum = TRUE, 
+                             path_gold = path_gold, path_aurum = path_aurum, 
                              path_extract_gold_clin = path_extract_gold_clin,
                              path_extract_gold_test = path_extract_gold_test,
                              path_extract_gold_ref = path_extract_gold_ref,
@@ -105,8 +111,9 @@ for (i in 1:length(code_names)) {
     path_lookups_gold <- "Lookups/202506_Lookups_GOLD2025_09/"
     path_lookups_aurum <- "Lookups/202506_Lookups_CPRDAurum/"
     
-    extract_patients_prodcode(wd = wd, path_input = path_input, path_gold = path_gold, 
-                              path_aurum = path_aurum, code_name = code_name,
+    extract_patients_prodcode(wd = wd, path_input = path_input, code_name = code_name,
+                              extract_gold = TRUE, extract_aurum = TRUE, 
+                              path_gold = path_gold, path_aurum = path_aurum, 
                               path_extract_gold_ther = path_extract_gold_ther,
                               path_extract_aurum_drug = path_extract_aurum_drug,
                               path_lookups_gold = path_lookups_gold,

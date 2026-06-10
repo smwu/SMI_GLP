@@ -2,10 +2,10 @@
 # Clean SMI diagnoses among patients in T2DM study cohort
 # Author: SM Wu
 # Date Created: 2026/03/30
-# Date Updated: 2026/04/08
+# Date Updated: 2026/05/26
 # 
 # Details:
-# 1) Read in SMID extracted medical files for those in T2DM cohort. Depression 
+# 1) Read in SMI extracted medical files for those in T2DM cohort. Depression 
 #    restricted to those with at least one antidepressant medication.
 # 2) Get SMI medcode diagnosis date and SMI type. Add future diagnosis dates 
 #    for SMI hierarchy.
@@ -81,7 +81,8 @@ dbExecute(connection, "SELECT setseed(0.42);")
 
 # Read in cohort of patients including diagnosis date
 # Loads as 'cohort_demog_dx_date'
-load(paste0(path_output, "cohort_demog_cleaned.RData")) # created in 2f_clean_dx_date_antidiab.R
+load(paste0(path_output, "cohort_demog_cleaned.RData")) # created in 2e_finalize_dx_date_antidiab_dedup.R
+setDT(cohort_demog_dx_date)
 
 ### Read in SMI data and convert to data.table for wrangling
 
@@ -105,7 +106,7 @@ pat_ad_comb <- as.data.table(pat_comb_final) # 118,599,367
 rm(pat_comb_final)
 gc()
 # Add in yob information and restrict to T2DM cohort: 
-# 90,777,637 antidepressant records from 1,281,393 patients
+# 82,445,573 antidepressant records from 1,145,138 patients
 pat_ad_comb <- cohort_demog_dx_date[, c("patid", "yob", "deathdate")][
   pat_ad_comb,
   on = .(patid),
@@ -113,7 +114,7 @@ pat_ad_comb <- cohort_demog_dx_date[, c("patid", "yob", "deathdate")][
 ]
 gc()
 # Restrict to records after birth and before death: 
-# 90,711,546 recrods from 1,281,301 patients (92 patients dropped)
+# 82,384,667 recrods from 1,145,089 patients (92 patients dropped)
 pat_ad_comb <- pat_ad_comb[(is.na(eventdate) | year(eventdate) >= yob) & 
                            (is.na(eventdate) | is.na(deathdate) | eventdate <= deathdate)]
 ad_ids <- unique(pat_ad_comb$patid)
@@ -124,7 +125,7 @@ gc()
 
 # Restrict depression individuals to those who ever had an AD prescription
 pat_depr_comb <- pat_depr_comb[patid %in% ad_ids]
-# 695,632 (518,777 (42.7%) patients dropped)
+# 617,897 (527,192 (46.0%) patients dropped)
 length(unique(pat_depr_comb$patid))
 
 # SMI medcodes including depression
@@ -141,7 +142,7 @@ gc()
 ### Get SMI medcode earliest date
 
 # Add in patient demog and t2dm dx info for those w/ SMI
-# 5,812,814 records from 726,899 patients
+# 5,235,420 records from 644,490 patients
 # (Old: 5,756,454 records from 811,905 patients if include mild depr)
 # (Old: 8,270,435 records from 1,220,654 patients if include those not in t2dm cohort)
 pat_comb_final <- cohort_demog_dx_date[, -c("medcode", "term", "database")][
@@ -152,7 +153,7 @@ pat_comb_final <- cohort_demog_dx_date[, -c("medcode", "term", "database")][
 length(unique(pat_comb_final$patid))
 
 # Restrict to records after birth and before death: 513 records dropped. 
-# 5,812,282 records from 726,804 patients (95 patients dropped)
+# 5,234,938 records from 644,401 patients (95 patients dropped)
 pat_comb_final <- pat_comb_final[(is.na(eventdate) | year(eventdate) >= yob) & 
                                    (is.na(eventdate) | is.na(deathdate) | eventdate <= deathdate)]
 length(unique(pat_comb_final$patid))
@@ -221,7 +222,7 @@ smi_diagnoses <- result[, .(
 )]
 
 # # Save SMI diagnoses for all patients, including later diagnostic update dates
-# save(smi_diagnoses, file = paste0(wd, "SMI_GLP/Data/Cleaning_Files/smi_diagnoses.RData"))
+save(smi_diagnoses, file = paste0(wd, "SMI_GLP/Data/Cleaning_Files/smi_diagnoses.RData"))
 
 # # Load in SMI diagnoses as 'smi_diagnoses'
 # load(paste0(wd, "SMI_GLP/Data/Cleaning_Files/smi_diagnoses.RData"))
@@ -251,7 +252,7 @@ load(paste0(path_input, "Antipsychotics/pat_comb_final.RData"))
 pat_ap_comb <- as.data.table(pat_comb_final)
 rm(pat_comb_final)
 # Add in yob information and restrict to T2DM cohort: 
-# 18,844,122 records from 745,936 patients
+# 16,880,136 records from 669,992 patients
 pat_ap_comb <- cohort_demog_dx_date[, c("patid", "yob", "deathdate")][
   pat_ap_comb,
   on = .(patid),
@@ -259,7 +260,7 @@ pat_ap_comb <- cohort_demog_dx_date[, c("patid", "yob", "deathdate")][
 ]
 gc()
 # Restrict to records after birth and before death: 
-# 18,830,833 recrods from 745,600 patients (336 patients dropped)
+# 16,868,581 records from 669,857 patients (135 patients dropped)
 pat_ap_comb <- pat_ap_comb[(is.na(eventdate) | year(eventdate) >= yob) & 
                              (is.na(eventdate) | is.na(deathdate) | eventdate <= deathdate)]
 # Drop unnecessary columns
@@ -272,7 +273,7 @@ load(paste0(path_input, "Mood_Stabilisers/pat_comb_final.RData"))
 pat_ms_comb <- as.data.table(pat_comb_final)
 rm(pat_comb_final)
 # Add in yob information and restrict to T2DM cohort: 
-# 10,511,633 records from 120,143 patients
+# 9,430,795 records from 106,642 patients
 pat_ms_comb <- cohort_demog_dx_date[, c("patid", "yob", "deathdate")][
   pat_ms_comb,
   on = .(patid),
@@ -280,7 +281,7 @@ pat_ms_comb <- cohort_demog_dx_date[, c("patid", "yob", "deathdate")][
 ]
 gc()
 # Restrict to records after birth and before death: 
-# 10,504,542 records from 120,137 patients (6 patients dropped)
+# 9,424,344 records from 106,636 patients (6 patients dropped)
 pat_ms_comb <- pat_ms_comb[(is.na(eventdate) | year(eventdate) >= yob) & 
                              (is.na(eventdate) | is.na(deathdate) | eventdate <= deathdate)]
 # Drop unnecessary columns
@@ -290,9 +291,9 @@ gc()
 
 # # Save psychotropic prescriptions with invalid records dropped, restricted to 
 # # those in the T2DM cohort
-# save(pat_ap_comb, file = paste0(path_output, "pat_antipsychotics.RData"))
-# save(pat_ms_comb, file = paste0(path_output, "pat_mood_stabilisers.RData"))
-# save(pat_ad_comb, file = paste0(path_output, "pat_antidepressants.RData"))
+save(pat_ap_comb, file = paste0(path_output, "pat_antipsychotics.RData"))
+save(pat_ms_comb, file = paste0(path_output, "pat_mood_stabilisers.RData"))
+save(pat_ad_comb, file = paste0(path_output, "pat_antidepressants.RData"))
 
 
 ### Get first drug date per patient
@@ -383,7 +384,7 @@ table(dx_first$index_source, useNA = "always")
 smi_dx_date <- dx_first[, .(patid, index_date, index_source, dx_group, 
                             dx_date, dx_medcode, dx_term, date_schiz, date_bpd, date_psych)]
 head(smi_dx_date)
-# 711,651 SMID patients
+# 644,401 SMI patients
 length(unique(smi_dx_date$patid))
 
 # Histogram of SMI index years
@@ -395,7 +396,7 @@ summary(smi_dx_date$index_year)
 
 
 # # Save final SMI diagnosis date table
-# save(smi_dx_date, file = paste0(wd, path_output, "smi_dx_date.RData"))
+save(smi_dx_date, file = paste0(wd, path_output, "smi_dx_date.RData"))
 
 # Save memory
 rm(pat_ad_comb, pat_ap_comb, pat_ms_comb, dx_first, ap_first, ms_first)
@@ -412,7 +413,7 @@ prop.table(table(smi_dx_date$index_source))
 
 # ====== 4) Add SMI diagnosis information to T2DM patient demographic data ==================================
 
-### 2,418,328 patients. Those without SMI have NAs for those columns
+### 2,151,230 patients. Those without SMI have NAs for those columns
 
 # Format SMI data for T2DM cohort
 smi_dx_date_format <- smi_dx_date %>%
@@ -433,7 +434,7 @@ cohort_demog_dx_date_smi <- cohort_demog_dx_date_smi %>%
 
 
 # # Save T2DM cohort with SMI information 
-# save(cohort_demog_dx_date_smi, file = paste0(wd, path_output, "cohort_demog_cleaned_with_smi.RData"))
+save(cohort_demog_dx_date_smi, file = paste0(wd, path_output, "cohort_demog_cleaned_with_smi.RData"))
 
 
 # If SMI diagnosis year is prior to registration year, flag as prevalent SMI (around 42% of SMI)

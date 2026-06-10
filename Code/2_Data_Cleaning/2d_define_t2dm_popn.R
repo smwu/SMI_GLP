@@ -1,18 +1,40 @@
 # ====================================================================
-# Create T2DM population
+# Define T2DM population by applying lab thresholds and excluding T1DM 
+# and gestational diabetes
+# 
 # Author: SM Wu
 # Date Created: 2026/02/10
-# Date Updated: 2026/02/24
+# Date Updated: 2026/05/26
 # 
-# Details: Create final analytic T2DM cohort by applying inclusion and 
-# exclusion criteria based on age, registration, lab thresholds, T1DM, 
-# and gestational diabetes 
+# Details: 
+# 1) Set up directories
+# 2) Restrictions based on elevated lab test
+# 3) Filter antidiabetic records to cohort meeting age and registration
+# 4) Exclude potential T1DM from antidiabetic records
+# 5) Exclude gestational diabetes from antidiabetic records
+# 6) Filter T2DM records to cohort and excluding potential T1DM or gestational DM
+# 7) Calculate total number of patients from T2DM and antidiabetic codes
 # 
 # Inputs:
-#   1) SMI_GLP/Data/Extraction_Files/
-#   2) SMI_GLP/Code_Lists/Pregnancy/
+#   1) SMI_GLP/Data/Cleaning_Files/cohort_demog.Rdata: Age and registration cohort 
+#   2) SMI_GLP/Data/Cleaning_Files/hba1c_clean_elevated.RData: HbA1c lab testing results
+#   3) SMI_GLP/Data/Cleaning_Files/glucose_clean_elevated.RData: Glucose lab testing results
+#   4) SMI_GLP/Data/Extraction_Files/Antidiabetics/: Extracted antidiabetic parquet files
+#   5) SMI_GLP/Data/Extraction_Files/Pregnancy/pat_comb_final.parquet: Extracted pregnancy file
+#   6) SMI_GLP/Code_Lists/Pregnancy/: Pregnancy codelists 
+#   7) SMI_GLP/Data/Extraction_Files/T2Diabetes/pat_comb_final.parquet: Extracted T2DM file
 # 
-# Outputs:
+# Intermediate Outputs:
+#   1) SMI_GLP/Data/Cleaning_Files/pat_antidiab_cohort.parquet: Antidiabetic records before filtering
+#   2) SMI_GLP/Data/Cleaning_Files/pat_antidiab_no_t1dm.parquet: Antidiabetic records excluding T1DM
+#   3) SMI_GLP/Data/Cleaning_Files/preg_windows.parquet: Possible pregnancy windows for patients
+#   4) SMI_GLP/Data/Cleaning_Files/pat_antidiab_no_t1dm_no_gest.parquet: Antidiabetic records excluding T1DM and gestational DM
+#   5) SMI_GLP/Data/Cleaning_Files/pat_t2dm_no_t1dm.parquet: T2DM records excluding T1DM
+#   6) SMI_GLP/Data/Cleaning_Files/pat_t2dm_no_t1dm_no_gest.parquet: T2DM records excluding T1DM and gestational DM
+# 
+# Final Outputs:
+#   1) SMI_GLP/Data/Cleaning_Files/patid_lab.parquet: Patids of those with at least 1 elevated lab test
+#   2) SMI_GLP/Data/Cleaning_Files/study_pop_patids.parquet: Patids of those in study cohort before de-duplication
 # 
 # =====================================================================
 
@@ -32,7 +54,7 @@ library(DBI)     # database interface
 library(duckdb)  # connect to SQL
 library(dbplyr)  # dplyr w/ SQL
 
-# ============= Set up directories ===============================
+# ============= 1) Set up directories ===============================
 
 # ### For running in Data Safe Haven
 # Set working directory
@@ -51,7 +73,7 @@ path_aurum <- c("Aurum_1/", "Aurum_2/", "Aurum_3/")
 connection <- dbConnect(duckdb::duckdb(), dbdir = ":memory:")
 
 # Allow spilling to local disk after hitting memory limit
-DBI::dbExecute(connection, "PRAGMA memory_limit = '35GB';")
+DBI::dbExecute(connection, "PRAGMA memory_limit = '40GB';")
 spill_dir <- "N:/Temp/duckdb_spill"
 dir.create(spill_dir, showWarnings = FALSE, recursive = TRUE)
 DBI::dbExecute(connection, sprintf("PRAGMA temp_directory='%s';", spill_dir))
@@ -68,7 +90,7 @@ consort <- list()
 consort[["num_registration"]] <- length(unique(cohort_demog$patid))
 
 
-# ============= Restrictions based on elevated lab test ===============================
+# ============= 2) Restrictions based on elevated lab test ===============================
 
 ### Read in HbA1c and Glucose
 load(paste0(wd, path_output, "hba1c_clean_elevated.RData"))  # 5 GB
@@ -88,20 +110,20 @@ lab_elevated <- rbindlist(list(hba1c_elevated, glucose_elevated), use.names = TR
 # Number of elevated lab tests per patient
 lab_pat_counts <- lab_elevated[, .(n_entries = .N), by = patid]
 
-# Number of patients with at least 1 elevated lab test: 2,550,811
+# Number of patients with at least 1 elevated lab test: 2,550,690
 patid_lab <- unique(lab_pat_counts$patid)
 length(patid_lab)
 consort[["num_lab_elevated"]] <- length(patid_lab)
 
-# Number of patients with at least 2 elevated lab tests: 2,409,841
+# Number of patients with at least 2 elevated lab tests: 2,409,743
 lab_pat_counts[n_entries >= 2, uniqueN(patid)]
 
 ## HbA1c only
 # Number of elevated lab tests per patient: HbA1c
 lab_pat_counts_hba1c <- hba1c_elevated[, .(n_entries = .N), by = patid]
-# Number of patients with at least 1 elevated hba1c test: 2,491,285
+# Number of patients with at least 1 elevated hba1c test: 2,491,165
 uniqueN(lab_pat_counts_hba1c$patid)
-# Number of patients with at least 2 elevated hba1c tests: 2,318,555
+# Number of patients with at least 2 elevated hba1c tests: 2,318,476
 lab_pat_counts_hba1c[n_entries >= 2, uniqueN(patid)]
 
 # Upload patients with at least 1 elevated lab test to duckdb as a small table
@@ -117,8 +139,18 @@ dbExecute(connection,
           sprintf("COPY patid_lab TO '%s' (FORMAT parquet);",
                   out_lab_parquet))
 
+# # Read patients with lab test to parquet
+# out_lab_parquet <- paste0(path_output, "patid_lab.parquet")
+# dbExecute(connection,
+#           sprintf("CREATE OR REPLACE TABLE patid_lab AS
+#                   SELECT 
+#                     patid 
+#                   FROM read_parquet('%s');",
+#                   out_lab_parquet))
+
+
 # Restrict cohort to those with elevated lab test
-# Removed 396,425. 2,550,811 patients remaining
+# Removed 396,363. 2,550,690 patients remaining
 cohort_demog <- cohort_demog %>%
   filter(patid %in% patid_lab)
 
@@ -146,7 +178,7 @@ gc()
   #   filter(eventdate <= pmin(regenddate, deathdate, lcd, na.rm = TRUE))
 
 
-# ============= Filter antidiabetic records to cohort ===============================
+# ============= 3) Filter antidiabetic records to cohort meeting age and registration ===========
 
 ### Read in antidiabetic records
 
@@ -157,7 +189,7 @@ extraction_files_antidiab <- paste0(path_input, "Antidiabetics/", antidiab_file_
 # 373,563,370 records from 3,218,404 patients
 merge_sql <- paste(sprintf(
   "SELECT 
-    patid, prodcode, productname, antidiabetic, eventdate, sysdate, database
+    patid, prodcode, productname, antidiabetic, eventdate
   FROM read_parquet('%s')",
   extraction_files_antidiab), 
   collapse = "\n UNION ALL\n"
@@ -173,7 +205,7 @@ DBI::dbGetQuery(connection, "DESCRIBE pat_antidiab_final")
 DBI::dbExecute(connection, "
   CREATE OR REPLACE TABLE pat_antidiab_cohort AS
   SELECT 
-    a.patid, a.prodcode, a.productname, a.antidiabetic, a.eventdate, a.sysdate, a.database
+    a.patid, a.prodcode, a.productname, a.antidiabetic, a.eventdate
   FROM pat_antidiab_final a
   WHERE EXISTS (
     SELECT 1
@@ -182,7 +214,7 @@ DBI::dbExecute(connection, "
   )
 ")
 
-# Check number of patients in cohort: 321,367,776 records from 2,200,909 patients
+# Check number of patients in cohort: 321,360,842 records from 2,200,795 patients
 print(DBI::dbGetQuery(connection, "
   SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_antidiab_cohort;
 "))
@@ -218,11 +250,11 @@ dbExecute(connection,
 #   filter(patid %in% patid_lab)
 
 
-# ============= Exclude potential T1DM from antidiabetic records =======================================
+# ============= 4) Exclude potential T1DM from antidiabetic records =======================================
 
 ## Remove patients with only insulin codes
 
-# Get list of patients with only insulin records: 130,050 patients
+# Get list of patients with only insulin records: 130,030 patients
 dbExecute(connection, sprintf("
   CREATE OR REPLACE TABLE insulin_only_patids AS
   SELECT 
@@ -249,7 +281,7 @@ dbExecute(connection, sprintf("
 "))
 
 ## Checks
-# How many insulin-only patients: 130,050 (previously 126,537)
+# How many insulin-only patients: 130,030 (previously 126,537)
 print(dbGetQuery(connection, "
   SELECT COUNT(*) AS n_insulin_only_patids
   FROM insulin_only_patids;
@@ -266,7 +298,7 @@ print(dbGetQuery(connection, "
 "))
 
 # Count how many patients are remaining after filtering out probably T1DM
-# 302,739,962 records from 2,070,859 patients (old: 301,556,685 records from 2,053,360 patients)
+# 302,733,480 records from 2,070,765 patients (old: 301,556,685 records from 2,053,360 patients)
 # Note: this is only patients with antidiabetic records. For full number of 
 # patients, need to combine with T2DM medcode patients
 print(DBI::dbGetQuery(connection, "
@@ -307,7 +339,7 @@ dbExecute(connection,
 # gc()
 
 
-# ============= Exclude gestational diabetes from antidiabetic records =======================================
+# ============= 5) Exclude gestational diabetes from antidiabetic records =======================================
 
 # Filter out possible gestational-only diabetes using pregnancy-related codes
 # 1) Infer pregnancy episode windows from pregnancy codes, merging overlapping windows
@@ -499,7 +531,7 @@ sql_filter <- sprintf("
 ")
 DBI::dbExecute(connection, sql_filter)
 
-# 2,068,234 after gestational filtering. 2,070,859 before
+# 2,068,140 after gestational filtering. 2,070,765 before
 DBI::dbGetQuery(connection, "
   SELECT
     (SELECT COUNT(DISTINCT patid) FROM pat_antidiab_no_t1dm) AS n_before,
@@ -507,7 +539,7 @@ DBI::dbGetQuery(connection, "
     (SELECT COUNT(*) FROM preg_windows) AS n_preg_windows;
 ")
 
-# Export filtered table to parquet. 302,727,096 records from 2,068,234 patients
+# Export filtered table to parquet. 302,720,614 records from 2,068,140 patients
 out_no_t1dm_no_gest_parquet <- paste0(path_output, "pat_antidiab_no_t1dm_no_gest.parquet")
 dbExecute(connection, 
           sprintf("COPY pat_antidiab_no_t1dm_no_gest TO '%s' (FORMAT parquet);", 
@@ -540,7 +572,7 @@ gc()
 
 
 
-# ============= Filter T2DM records to cohort and excluding potential T1DM or gestational DM ============================
+# ============= 6) Filter T2DM records to cohort and excluding potential T1DM or gestational DM ============================
 
 # DuckDB in-memory connection
 connection <- dbConnect(duckdb::duckdb(), dbdir = ":memory:")
@@ -565,7 +597,7 @@ dbExecute(connection, sprintf("
   FROM read_parquet('%s');
 ", out_cohort_parquet))
 
-# Get list of patients with only insulin records (probable T1DM): 130,050 patients
+# Get list of patients with only insulin records (probable T1DM): 130,030 patients
 dbExecute(connection, sprintf("
   CREATE OR REPLACE TABLE insulin_only_patids AS
   SELECT 
@@ -610,7 +642,7 @@ DBI::dbExecute(connection, "
 ")
 
 # Check number of patients in cohort
-# 42,602,801 records from 2,499,531 patients (old: 42,367,812 records from 2,478,038 patients)
+# 42,602,412 records from 2,499,423 patients (old: 42,367,812 records from 2,478,038 patients)
 print(DBI::dbGetQuery(connection, "
   SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_t2dm_cohort;
 "))
@@ -640,7 +672,7 @@ dbExecute(connection, sprintf("
 
 
 # Count how many patients are remaining after filtering out probably T1DM
-# 41,388,353 records from 2,389,444 patients (old: 41,179,761 records from 2,371,065 patients)
+# 41,388,071 records from 2,389,352 patients (old: 41,179,761 records from 2,371,065 patients)
 # Note: this is only patients with T2DM records. For full number of 
 # patients, need to combine with antidiabetic prodcode patients
 print(DBI::dbGetQuery(connection, "
@@ -697,7 +729,7 @@ sql_filter <- sprintf("
 DBI::dbExecute(connection, sql_filter)
 
 # Count how many patients are remaining after filtering out probable gestational diabetes
-# 41,383,638 records from 2,387,215 patients
+# 41,383,356 records from 2,387,123 patients
 # Note: this is only patients with T2DM records. For full number of 
 # patients, need to combine with antidiabetic prodcode patients
 print(DBI::dbGetQuery(connection, "
@@ -730,7 +762,7 @@ dbExecute(connection,
 # ", out_t2dm_no_t1dm_no_gest_parquet))
 
 
-# ============= Calculate total number of patients from T2DM and antidiabetic codes ============================
+# ============= 7) Calculate total number of patients from T2DM and antidiabetic codes ============================
 
 # Read in  pat_antidiab_no_t1dm and pat_t2dm_no_t1dm
 dbExecute(connection, sprintf("
@@ -745,7 +777,7 @@ dbExecute(connection, sprintf("
 ### Number of unique patients after filtering T1DM, using both medcodes and antidiabetic codes
 
 # Create a table of unique patids after filtering from T2DM and antidiabetic codes:
-# 2,418,373 patients (old: 2,402,119)
+# 2,420,660 patients (old: 2,402,119)
 # - in_medcode: 1 if patid appears in pat_t2dm_no_t1dm
 # - in_prodcode: 1 if patid appears in pat_antidiab_no_t1dm
 # - t2dm_type: 'medcode_only', 'prodcode_only', or 'both'
@@ -794,7 +826,7 @@ dbExecute(connection, sprintf("
 ", out_no_t1dm_no_gest_parquet))
 
 # Create a table of unique patids after filtering from T2DM and antidiabetic codes:
-# 2,418,373 patients (old: 2,402,119)
+# 2,418,272 patients (old: 2,402,119)
 # - in_medcode: 1 if patid appears in pat_t2dm_no_t1dm_no_gest
 # - in_prodcode: 1 if patid appears in pat_antidiab_no_t1dm_no_gest
 # - t2dm_type: 'medcode_only', 'prodcode_only', or 'both'
@@ -824,7 +856,7 @@ pat_all_no_t1dm_no_gest_patids <- dbGetQuery(connection, "SELECT patid FROM pati
 consort[["num_no_gest"]] <- length(unique(pat_all_no_t1dm_no_gest_patids$patid))
 
 # Get counts by t2dm_type
-# 2,037,076 both, 350,139 medcode only, 31,158 prodcode only
+# 2,036,991 both, 350,132 medcode only, 31,149 prodcode only
 # Old: 2,022,306 both; 348,759 medcode only; 31,054 prodcode only
 dbGetQuery(connection, "
   SELECT t2dm_type, COUNT(*) AS n_patids
@@ -847,107 +879,4 @@ gc()
 
 # See consort values
 consort
-# ================= Miscellaneous old code ===============================================
 
-# # Combine T2DM and antidiabetics
-# dbExecute(connection, sprintf(
-#   "CREATE OR REPLACE TABLE pat_comb_final AS
-#   SELECT
-#     patid, eventdate, database,
-#     medcode AS termcode,
-#     term AS term
-#   FROM pat_t2dm_cohort
-#   UNION ALL
-#   SELECT
-#     patid, eventdate, database,
-#     prodcode AS termcode,
-#     productname AS term
-#   FROM pat_antidiab_no_t1dm;
-#   "))
-# 
-# # Save combined file
-# out_parquet <- paste0(path_output, "pat_t2dm_antidiab_no_t1dm.parquet")
-# dbExecute(connection,
-#           sprintf("COPY pat_comb_final TO '%s' (FORMAT parquet);",
-#                   out_parquet))
-# 
-# # Number of unique patients across t2dm and antidiab: 
-# # Before removing T1DM and filtering to cohort: 422,397,882 records from 3,703,508 patients
-# cat("\nTotal rows / patients:\n")
-# print(dbGetQuery(
-#   connection,
-#   "SELECT COUNT(*) AS n_rows, COUNT(DISTINCT patid) AS n_pats FROM pat_comb_final;"))
-# 
-# # By Gold/Aurum
-# print(dbGetQuery(
-#   connection,
-#   "SELECT database,
-#     COUNT(*) AS n_rows,
-#     COUNT(DISTINCT patid) AS n_pats
-#   FROM pat_comb_final
-#   GROUP BY database;"))
-# 
-# 
-# 
-# signal_table <- "pat_antidiab_final"
-# signal_date_col <- "eventdate"
-# signal_id_col <- "prodcode"
-# signal_term_col <- "productname"
-# 
-# # Create helper function
-# build_t2dm_lab_confirmed <- function(connection, 
-#                                      signal_table = "t2dm_codes", signal_date_col = "eventdate", 
-#                                      signal_id_col = "medcode", signal_term_col = "term",
-#                                      hba1c_table = "hba1c_high", glucose_table = "glucose_high", 
-#                                      lab_date_col = "eventdate", 
-#                                      exclude_metformin = FALSE, metformin_prod_col = "prodcode",
-#                                      require_min_labs = 1L, window_days = 365L, output_patids_only = TRUE) {
-#   # Define table with med/product codes
-#   sig <- tbl(connection, signal_table)
-#   
-#   # If excluding metformin-only, need to identify patients who only diabetes meds are metformin
-#   if (exclude_metformin) {
-#     # Need prodcode table
-#     if(signal_id_col != "prodcode") {
-#       stop("exclude_metformin = TRUE requires signal_id_col = 'prodcode'")
-#     }
-#     
-#     sig_no_met <- sig %>%
-#       filter(antidiabetic != "Metformin")
-#   }
-#   
-#   # Get first medcode/prodcode date per patient = index date
-#   
-#   
-# }
-# 
-# 
-# # Number of patients excluding metformin. Memory: 3 GB
-# df_no_met <- sig %>%
-#   filter(antidiabetic != "Metformin") %>%
-#   collect()
-# # Number of non-metformin records
-# nrow(df_no_met)
-# # Number of patients with at least one non-metformin record
-# length(unique(df_no_met$patid))
-# 
-# 
-# # Restrict to records after birth and before death: 5812 records dropped. 
-# # 40 GB
-# dbExecute(connection, "
-#   CREATE OR REPLACE TABLE pat_antidiab_restrict AS
-#   SELECT
-#     p.patid, p.prodcode, p.productname, p.antidiabetic, p.eventdate, p.sysdate, p.database
-#   FROM pat_antidiab_final AS p
-#   INNER JOIN cohort_demog as C
-#     ON p.patid = c.patid
-#   WHERE EXTRACT(YEAR FROM p.eventdate) >= c.yob
-#     AND (c.deathdate IS NULL OR p.eventdate <= c.deathdate)
-# ")
-# 
-# # Drop tables to free up memory
-# DBI::dbExecute(connection, "
-#   DROP TABLE IF EXISTS pat_antidiab_final;
-#   DROP TABLE IF EXISTS cohort_demog;
-# ")
-# gc()

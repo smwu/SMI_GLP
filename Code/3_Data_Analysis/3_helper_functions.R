@@ -13,10 +13,47 @@ library(dplyr)
 # Incidence and prevalence helper functions
 # =========================================================
 
+            # # Load in raw extracted GLP-1RA prescriptions with lookup information. 
+            # load(paste0(wd, "SMI_GLP/Data/Extraction_Files/", "pat_glp_comb.RData"))
+            # # Rename to match existing data
+            # pat_glp_comb <- pat_glp_comb %>%
+            #   rename(prodcode = prodcodeid, 
+            #          eventdate = issuedate) %>%
+            #   select(-c(database, `GLP-1RA`, pracid, estnhscost, therapyevents)) %>%
+            #   distinct()
+            # 
+            # glp1ras_dosage <- glp1ras %>%
+            #   left_join(pat_glp_comb, by = join_by(patid, prodcode, productname, eventdate))
+            # glp1ras_dosage <- glp1ras_dosage %>%
+            #   mutate(qty_div_dose = round(quantity / daily_dose),
+            #          qty_div_dose_capped = case_when(
+            #            qty_div_dose > 0 & qty_div_dose <= 90 ~ qty_div_dose, 
+            #            TRUE ~ NA),
+            #          duration_capped = case_when(
+            #            duration > 0 & duration <= 90 ~ duration,
+            #            quantity > 1 & quantity <= 90 ~ quantity,
+            #            TRUE ~ NA
+            #          ),
+            #          calc_days_supply = case_when(
+            #            !is.na(qty_div_dose_capped) ~ qty_div_dose_capped,
+            #            !is.na(duration_capped) ~ duration_capped,
+            #            TRUE ~ 30
+            #          ))
+            # 
+            # sort(table(glp1ras_dosage$calc_days_supply), decreasing = TRUE)
+            # 
+            # glp_products <- sort(unique(glp1ras$productname))
+            # 
+            # # Calculate dosage
+            # calc_dosage <- function()
+  
+
+
+
 # `calc_inc_prev` calculates the incidence rate, period prevalence, and point prevalence 
 # for a given `year` and `formulation`
 # Inputs:
-#   year: Number specifying year for incidence rate
+#   year: Number specifying year
 #   formulation: String specifying GLP-1RA formulation type
 #   risk_df_no_glp: input follow-up dataset for those without GLP-1RAs
 #   incidence: Boolean (default = TRUE) specifying if the incidence rate should be calculated
@@ -25,7 +62,10 @@ library(dplyr)
 #   end_april: Boolean specifying if period prevalence should end 30 Apr (TRUE) or 31 Dec (FALSE; default)
 #   point_prevalence: Boolean (default = TRUE) specifying if the point prevalence should be calculated
 #   prev_glp: dataframe of all valid GLP-1RA prescriptions, needed for prevalence. Default is NULL.
-# Output: List containing the incidence rate, numerator, and denominator
+# Output: List containing the following:
+#   incidence rate, numerator, and denominator: if `incidence = TRUE`
+#   period prevalence, numerator, and denominator: if `period_prevalence = TRUE`
+#   point prevalence, numerator, and denominator: if `point_prevalence = TRUE`
 # 
 calc_inc_prev <- function(year, formulation, risk_df_no_glp, 
                           incidence = TRUE, risk_df = NULL, 
@@ -46,6 +86,9 @@ calc_inc_prev <- function(year, formulation, risk_df_no_glp,
                         as.Date(paste0(year, "-04-30"), format = "%Y-%m-%d"),
                         as.Date(paste0(year, "-12-31"), format = "%Y-%m-%d"))
   }
+  
+  # Set day for point prevalence to Feb 1
+  point_date <- as.Date(paste0(year, "-02-01"), format = "%Y-%m-%d")
   
   ### Calculate incidence rate
   
@@ -103,11 +146,12 @@ calc_inc_prev <- function(year, formulation, risk_df_no_glp,
   ### Calculate period prevalence
   
   if (period_prevalence) {
+    
     # Combine  with those who never had any GLP-1RA prescription
     prev_df <- prev_glp %>%
       bind_rows(risk_df_no_glp %>% select(patid, startfollow, endfollow))
     
-    # Period prevalence denominator: total number of patients with follow-up during the year
+    # Period prevalence denominator: total number of patients with follow-up in that year
     period_prev_denom <- prev_df %>%
       filter(startfollow <= year_end & 
                (is.na(endfollow) | endfollow >= year_start))
@@ -133,6 +177,40 @@ calc_inc_prev <- function(year, formulation, risk_df_no_glp,
     calc_res$period_prev_numer_value <- period_prev_numer_value
     calc_res$period_prev_denom_value <- period_prev_denom_value
   }
+  
+  ### Calculate point prevalence
+  if (point_prevalence) {
+    
+    # Combine  with those who never had any GLP-1RA prescription
+    prev_df <- prev_glp %>%
+      bind_rows(risk_df_no_glp %>% select(patid, startfollow, endfollow))
+    
+    # Point prevalence denominator: total number of patients with follow-up on that day
+    point_prev_denom <- prev_df %>%
+      filter(startfollow <= point_date & 
+               (is.na(endfollow) | endfollow >= point_date))
+    point_prev_denom_value <- length(unique(point_prev_denom$patid))
+    
+    # Point prevalence numerator: Number of patients with relevant prescription on that day
+    # Assume prescriptions are 30 days and a grace period of 60 days (total 90 days exposure after eventdate)
+    point_prev_num <- point_prev_denom %>%
+      filter((eventdate <= point_date) & (eventdate + 90 >= point_date))
+    if (formulation != "Any") {
+      point_prev_num <- point_prev_num %>%
+        filter(type == formulation)
+    }  
+    point_prev_numer_value <- length(unique(point_prev_num$patid))
+    
+    # Combine numerator and denominator to get point prevalence as a percentage
+    point_prev = if_else(point_prev_denom_value == 0, 0,  # Correct for 0 denominator (albiglutide)
+                          100 * point_prev_numer_value / point_prev_denom_value)
+    
+    # Add to results
+    calc_res$point_prev <- point_prev
+    calc_res$point_prev_numer_value <- point_prev_numer_value
+    calc_res$point_prev_denom_value <- point_prev_denom_value
+  }
+ 
   
   return(calc_res)
 }
@@ -193,6 +271,10 @@ filter_smid_type <- function(df, smid_type, year) {
 #   smid_type: String indicator if incidence should be subsetted to an SMI subtype. 
 #     Default is `NULL` (no subsetting). Must be one of "all", "none", "schizophrenia", "bipolar", 
 #     "other psychosis", or "depression".
+# Output: List with the following components:
+#   inc_df: Dataframe of incidences for all years and formulations. `NULL` if `incidence = FALSE`.
+#   period_prev_df: Dataframe of period prevalences for all years and formulations. `NULL` if `period_prevalence = FALSE`.
+#   point_prev_df: Dataframe of point prevalences for all years and formulations. `NULL` if `point_prevalence = FALSE`.
 calc_inc_prev_all_years <- function(years_fu = c(2005:2025), all_formulations, risk_df_no_glp, 
                                     incidence = TRUE, risk_df = NULL, 
                                     period_prevalence = TRUE, end_april = FALSE,
@@ -421,6 +503,284 @@ create_lineplot <- function(data, drug_colors = NULL, drug_linetypes = NULL,
   
 }
 
+
+# ======================================================
+# Treatment pathway helper functions
+# ======================================================
+
+# Helper function to parse combined prescription classes into their component parts 
+parse_classes <- function(x) {
+  if (length(x) == 0 || all(is.na(x))) return(character())
+  
+  x <- x[!is.na(x)]
+  cls <- trimws(unlist(strsplit(x, ", ")))
+  
+  sort(unique(cls))
+}
+
+# Helper function to see whether each row's list-column contains a given class
+contains_class <- function(x, class) {
+  vapply(x, function(z) {
+    if (is.null(z) || length(z) == 0 || all(is.na(z))) return(FALSE)
+    class %in% z
+  }, logical(1))
+}
+
+# Inputs
+#   classes_list: List where each element contains the treatment classes used on a given day 
+#     for a patient. Length is number of prescribing days for that patient.
+build_lines_cumulative <- function(classes_list) {
+  # Initializations
+  seen <- character() # previously seen classes
+  
+  line_no <- integer(length(classes_list)) # therapy line number
+  is_new_line <- logical(length(classes_list)) # whether or not new line on that day
+  newly_introduced <- vector("list", length(classes_list)) # new classes on that day
+  cumulative_classes <- vector("list", length(classes_list)) # all classes up to and included that day
+  
+  current_line <- 0L # Initial treatment line is 0
+  
+  # Loop over each prescribing day to find new classes
+  for (i in seq_along(classes_list)) {
+    
+    today <- classes_list[[i]]  # Antidiabetic classes in the current day's regimen
+    new_classes <- setdiff(today, seen) # Any new classes today?
+    
+    # If there are new classes, increment treatment line
+    if (length(new_classes) > 0L) {
+      current_line <- current_line + 1L # increment current line
+      is_new_line[i] <- TRUE # note new line started today
+      newly_introduced[[i]] <- sort(new_classes) # add new classes to newly introduced
+      seen <- sort(unique(c(seen, new_classes))) # update previously seen classes
+    } else {
+      is_new_line[i] <- FALSE
+      newly_introduced[[i]] <- character()
+    }
+    
+    # Update line number and cumulative classes
+    line_no[i] <- current_line
+    cumulative_classes[[i]] <- seen
+  }
+  
+  # Return output
+  list(
+    line_no = line_no,
+    is_new_line = is_new_line,
+    newly_introduced = newly_introduced,
+    cumulative_classes = cumulative_classes
+  )
+  
+}
+
+
+# Function to create a table showing antidiabetic treatment line progression 
+# for patients with incident T2DM
+# Inputs:
+#   cohort: patient cohort dataframe
+#   new_lines_wide_dt: data table where each row is a patient and the columns 
+#     include the eventdate, newly-introduced classes, and cumulative classes 
+#     for each line of therapy
+# Outputs:
+#   List containing a data.table and a `gt` object, each with the following columns:
+#     Treatment line
+#     Number of patients who started that treatment line
+#     % of previous line patients
+#     % of total cohort
+#     Median days with previous line
+#     Median days since T2DM diagnosis
+create_antidiab_lines_gt <- function(cohort, new_lines_wide_dt) {
+  
+  n_total <- length(unique(cohort$patid))
+  
+  trt_line_stats <- rbindlist(lapply(1:7, function(k) {
+    event_col <- paste0("eventdate_line", k)
+    interval_col <- if (k == 1) "days_to_line1" else paste0("days_line", k-1, "_to_line", k)
+    started <- !is.na(new_lines_wide_dt[[event_col]])
+    n_started <- sum(started)
+    n_prev <- if (k == 1) {
+      n_total
+    } else {
+      sum(!is.na(new_lines_wide_dt[[paste0("eventdate_line", k-1)]]))
+    }
+    days_from_dx <- as.numeric(new_lines_wide_dt[[event_col]] - new_lines_wide_dt$index_date)
+    
+    data.table(
+      trt_line = paste("Line", k),
+      num_patients = n_started,
+      perc_prev_pat = fifelse(n_prev > 0, 100 * n_started / n_prev, NA_real_),
+      perc_tot_pat = 100 * n_started / n_total,
+      med_days_prev = median(new_lines_wide_dt[[interval_col]][started], na.rm = TRUE),
+      med_days_dx = median(days_from_dx[started], na.rm = TRUE)
+    )
+  }))
+  
+  dx_row <- data.table(trt_line = "T2DM Diagnosis",
+                       num_patients = n_total,
+                       perc_prev_pat = NA_real_,
+                       perc_tot_pat = 100,
+                       med_days_prev = NA_real_,
+                       med_days_dx = 0)
+  antidiab_lines_tb <- rbind(dx_row, trt_line_stats)
+  
+  antidiab_lines_tb_gt <- antidiab_lines_tb %>%
+    gt() %>%
+    tab_header(title = md("Antidiabetic Treatment Line Progression"),
+               subtitle = "Treatment initiation among patients with incident T2DM") %>%
+    cols_label(
+      trt_line = "Treatment Line",
+      num_patients = "Patients started, n",
+      perc_prev_pat = "% of previous line",
+      perc_tot_pat = "% of total cohort",
+      med_days_prev = "Median days since previous line",
+      med_days_dx = "Median days since T2DM diagnosis"
+    ) %>%
+    fmt_number(
+      columns = c(perc_prev_pat, perc_tot_pat), decimals = 1
+    ) %>%
+    fmt_number(
+      columns = c(num_patients), decimals = 0, use_seps = TRUE
+    ) %>%
+    sub_missing(columns = everything(), missing_text = "-")
+  
+  return(list(antidiab_lines_tb = antidiab_lines_tb, 
+              antidiab_lines_tb_gt = antidiab_lines_tb_gt))
+}
+
+
+# Function to create a table showing newly introduced antidiabetic classes 
+# by treatment line for patients with incident T2DM
+# Inputs:
+#   new_lines_wide_dt: data table where each row is a patient and the columns 
+#     include the eventdate, newly-introduced classes, and cumulative classes 
+#     for each line of therapy
+#   classes: String vector of the antidiabetic classes to consider
+# Outputs:
+#   List containing a data.table and a `gt` object, each with the following columns:
+#     Treatment line
+#     Number and percentage of patients starting antidiabetic class 
+#       (separate column created for each class)
+#     Total number of patients starting that treatment line
+create_line_class_gt <- function(new_lines_wide_dt, classes) {
+  
+  line_class_tb <- rbindlist(lapply(1:7, function(k) {
+    event_col <- paste0("eventdate_line", k)
+    new_col <- paste0("newly_introduced_line", k)
+    started <- !is.na(new_lines_wide_dt[[event_col]])
+    n_line <- sum(started)
+    
+    out <- data.table(
+      trt_line = k,
+      num_patients = n_line
+    )
+    
+    for (cl in classes) {
+      n_cl <- sum(contains_class(new_lines_wide_dt[[new_col]][started], cl))
+      pct_cl <- if (n_line > 0) 100 * n_cl / n_line else NA_real_
+      
+      out[[cl]] <- sprintf(
+        "%s (%.1f%%)",
+        format(n_cl, big.mark = ","),
+        pct_cl
+      )
+    }
+    out
+  }))
+  
+  line_class_tb_gt <- line_class_tb[, c(1, 3:9, 2)] %>%
+    gt() %>%
+    tab_header(title = md("Newly Introduced Antidiabetic Classes by Treatment Line"),
+               subtitle = "Counts and percentages among patients with incident T2DM starting each treatment line") %>%
+    cols_label(
+      trt_line = "Treatment Line",
+      `GLP-1RAs` = "GLP-1RAs, n (%)",
+      `Metformin` = "Metformin, n (%)",
+      `SGLT-2is` = "SGLT2-is, n (%)",
+      `DPP-4is` = "DPP-4is, n (%)",
+      `Sulfonylureas` = "Sulfonylureas, n (%)",
+      `Other` = "Other, n (%)",
+      `Insulin` = "Insulin, n (%)",
+      num_patients = "Total patients, n",
+    ) %>%
+    fmt_number(
+      columns = c(num_patients), decimals = 0, use_seps = TRUE
+    )
+  
+  return(list(line_class_tb = line_class_tb, 
+              line_class_tb_gt = line_class_tb_gt))
+}
+
+
+# Function to create a table showing prior antidiabetic prescribing among 
+# patients with incident T2DM starting GLP-1RAs
+# Inputs:
+#   new_lines_wide_dt: data table where each row is a patient and the columns 
+#     include the eventdate, newly-introduced classes, and cumulative classes 
+#     for each line of therapy
+#   classes_no_glp: String vector of the antidiabetic classes to consider, excluding GLP-1RAs
+# Outputs:
+#   List containing a data.table and a `gt` object, each with the following columns:
+#     Treatment line
+#     Total number of patients starting GLP-1RAs for that line 
+#     Median number of days since T2DM diagnosis
+#     Number and percentage of patients with previous prescriptions for each antidiabetic class 
+#       (separate column created for each class)
+create_glp1ra_line_gt <- function(new_lines_wide_dt, classes_no_glp) {
+  
+  # Patients whose GLP-1RA was newly introduced at each treatment line
+  glp1ra_line_tb <- rbindlist(lapply(1:7, function(k) {
+    event_col <- paste0("eventdate_line", k)
+    new_col <- paste0("newly_introduced_line", k)
+    cum_prev_col <- if (k == 1) NA_character_ else paste0("cumulative_classes_line", k - 1)
+    started_glp1ra <- !is.na(new_lines_wide_dt[[event_col]]) & 
+      contains_class(new_lines_wide_dt[[new_col]], "GLP-1RAs")
+    n_glp1ra <- sum(started_glp1ra)
+    
+    days_from_dx <- as.numeric(new_lines_wide_dt[[event_col]] - new_lines_wide_dt$index_date)
+    
+    out <- data.table(
+      glp1ra_trt_line = k,
+      num_patients = n_glp1ra,
+      med_days_dx = median(days_from_dx[started_glp1ra], na.rm = TRUE)
+    )
+    
+    for (cl in classes_no_glp) {
+      if (k == 1) {
+        n_prev <- 0L
+      } else {
+        n_prev <- sum(contains_class(
+          new_lines_wide_dt[[cum_prev_col]][started_glp1ra], cl))
+      }
+      pct_prev <- if (n_glp1ra > 0) 100 * n_prev / n_glp1ra else NA_real_
+      
+      out[[cl]] <- if (n_glp1ra > 0) {
+        sprintf("%s (%.1f%%)", format(n_prev, big.mark = ","), pct_prev)
+      } else {
+        "0 (-)"
+      }
+    }
+    out
+  }))
+  
+  glp1ra_line_tb_gt <- glp1ra_line_tb %>%
+    gt() %>%
+    tab_header(title = md("Prior Antidiabetic Prescribing Among Patients with Incident T2DM Starting GLP-1RAs"),
+               subtitle = "Prior classes include those prescribed concurrently with the GLP-1RA treatment line") %>%
+    cols_label(
+      glp1ra_trt_line = "Treatment Line",
+      num_patients = "Patients starting GLP-1RA, n",
+      med_days_dx = "Median days since T2DM diagnosis",
+      `Metformin` = "Previous Metformin, n (%)",
+      `SGLT-2is` = "Previous SGLT2-is, n (%)",
+      `DPP-4is` = "Previous DPP-4is, n (%)",
+      `Sulfonylureas` = "Previous Sulfonylureas, n (%)",
+      `Other` = "Previous Other, n (%)",
+      `Insulin` = "Previous Insulin, n (%)"
+    ) %>%
+    sub_missing(columns = everything(), missing_text = "-")
+  
+  return(list(glp1ra_line_tb = glp1ra_line_tb, 
+              glp1ra_line_tb_gt = glp1ra_line_tb_gt))
+}
 
 
 # =========================================================

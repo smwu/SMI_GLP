@@ -43,6 +43,8 @@ setwd(wd)
 # Set input and output paths
 path_input <- paste0("SMI_GLP/Data/Cleaned_Data/")
 path_output <- paste0("SMI_GLP/Outputs/")
+path_lookups_gold <- "Lookups/202506_Lookups_GOLD2025_09/"
+path_lookups_aurum <- "Lookups/202506_Lookups_CPRDAurum/"
 
 # Load in helper functions
 source(paste0(wd, "SMI_GLP/Code/4_Data_Analysis/",
@@ -101,7 +103,7 @@ years_fu <- 2005:2025
 all_formulations <- c("Albiglutide", "Dulaglutide", "Exenatide", "Liraglutide", 
                       "Lixisenatide", "Semaglutide", "Tirzepatide", "Any")
 
-# ============= Calculate denominator
+# ============= Calculate denominator ===================================
 
 # Period prevalence denominator: patients under follow-up in each year 
 denom_period_year <- tibble(year = years_fu) %>%
@@ -588,6 +590,14 @@ save(glp1ra_period_prev_df_smi_dep,
 
 # ============= 4-month Period Prevalence of GLP-1RA prescriptions over time ===============================
 
+# Define end of at-risk follow-up for individuals who never have any GLP-1RA prescription
+# 2,175,998 patients
+risk_df_no_glp <- cohort_demog_dx_date_smi %>%
+  filter(!(patid %in% glp1ras$patid)) %>%
+  select(patid, startfollow, endfollow) %>%
+  mutate(risk_end = endfollow, 
+         had_event = FALSE)
+
 # Calculate period prevalence for all years
 calc_period_prev_4mo <- calc_inc_prev_all_years(years_fu = years_fu, 
                                             all_formulations = all_formulations, 
@@ -619,6 +629,21 @@ save(glp1ra_period_prev_df_4mo, file = paste0(wd, path_output, "Analyses/glp1ra_
 
 #========== 4-month Period prevalence by SMI ===============================================================
 
+# Add in SMI subtype information to risk_df
+risk_df_smi <- risk_df %>%
+  left_join(cohort_demog_dx_date_smi %>% 
+              select(patid, smi_group, smi_dx_date, date_schiz, date_bpd, date_psych),
+            by = "patid")
+risk_df_no_glp_smi <- risk_df_no_glp %>%
+  left_join(cohort_demog_dx_date_smi %>% 
+              select(patid, smi_group, smi_dx_date,date_schiz, date_bpd, date_psych),
+            by = "patid")
+
+# Add in SMI subtype information to prev_glp
+prev_glp_smi <- prev_glp %>%
+  left_join(cohort_demog_dx_date_smi %>% 
+              select(patid, smi_group, smi_dx_date,date_schiz, date_bpd, date_psych),
+            by = "patid")
 
 # Calculate prevalence for all years and formulations for those with SMI
 period_prev_df_smi_4mo <- calc_inc_prev_all_years(years_fu = years_fu, 
@@ -743,7 +768,7 @@ ggarrange(plot_period_prev_smi_schiz +
           common.legend = TRUE, nrow = 2, ncol = 2, legend = "right")
 
 # # Save period prevalence plot
-ggsave(filename = paste0(wd, path_output, "Figures/glp1ra_lineplot_period_prev_smisubtype_", today(), ".png"),
+ggsave(filename = paste0(wd, path_output, "Figures/glp1ra_lineplot_period_prev_smisubtype_4mo_", today(), ".png"),
        width = 14, height = 12, units = "in", dpi = 600)
 
 # Save period prevalence data
@@ -761,6 +786,200 @@ save(glp1ra_period_prev_df_smi_dep_4mo,
      file = paste0(wd, path_output, "Analyses/glp1ra_period_prev_df_smi_dep_4mo.RData"))
 
 
+# ============= Point Prevalence of GLP-1RA prescriptions over time ===============================
+
+# Add follow-up start and end time for all patients w/ GLP-1RA prescriptions
+
+glp1ras_prev_df <- glp1ras %>% 
+  select(patid, antidiabetic, eventdate) %>%
+  mutate(type = antidiabetic) 
+prev_glp <- glp1ras_prev_df %>%
+  inner_join(cohort_demog_dx_date_smi %>% select(patid, startfollow, endfollow), 
+             by = "patid")
+
+# Define end of at-risk follow-up for individuals who never have any GLP-1RA prescription
+risk_df_no_glp <- cohort_demog_dx_date_smi %>%
+  filter(!(patid %in% glp1ras$patid)) %>%
+  select(patid, startfollow, endfollow) %>%
+  mutate(risk_end = endfollow, 
+         had_event = FALSE)
+
+# Calculate point prevalence for all years
+calc_point_prev <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                            all_formulations = all_formulations, 
+                                            risk_df_no_glp = risk_df_no_glp, 
+                                            incidence = FALSE, risk_df = NULL,
+                                            period_prevalence = FALSE, prev_glp = prev_glp, 
+                                            point_prevalence = TRUE)
+
+# Sanity check
+hist(calc_point_prev$point_prev_df$point_prev, breaks = 30)
+
+### Plot point prevalence
+
+plot_point_prev <- create_lineplot(data = calc_point_prev$point_prev_df, 
+                                    all_formulations = all_formulations, years_fu = years_fu,
+                                    y_var = "point_prev") + ylim(0, 15)
+
+plot_point_prev
+
+# Save point prevalence plot
+ggsave(filename = paste0(wd, path_output, "Figures/glp1ra_lineplot_point_prev_", today(), ".png"),
+       width = 9, height = 6, units = "in", dpi = 600)
+
+# Save prevalence data
+glp1ra_point_prev_df <- calc_point_prev$point_prev_df
+save(glp1ra_point_prev_df, file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_df.RData"))
+
+
+# ============= Point prevalence by SMI ===============================================================
+
+
+# Add in SMI subtype information to prev_glp
+prev_glp_smi <- prev_glp %>%
+  left_join(cohort_demog_dx_date_smi %>% 
+              select(patid, smi_group, smi_dx_date,date_schiz, date_bpd, date_psych),
+            by = "patid")
+
+# Calculate prevalence for all years and formulations for those with SMI
+point_prev_df_smi <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                              all_formulations = all_formulations, 
+                                              risk_df_no_glp = risk_df_no_glp_smi,
+                                              incidence = FALSE,
+                                              period_prevalence = FALSE, 
+                                              prev_glp = prev_glp_smi,
+                                              point_prevalence = TRUE,
+                                              smid_type = "all")
+# Sanity check
+hist(point_prev_df_smi$point_prev_df$point_prev, breaks = 30)
+
+
+# Calculate incidence for all years and formulations for those without SMI
+point_prev_no_smi <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                              all_formulations = all_formulations, 
+                                              risk_df_no_glp = risk_df_no_glp_smi,
+                                              incidence = FALSE,
+                                              period_prevalence = FALSE, 
+                                              prev_glp = prev_glp_smi,
+                                              point_prevalence = TRUE,
+                                              smid_type = "none")
+# Sanity check
+hist(point_prev_no_smi$point_prev_df$point_prev, breaks = 30)
+
+
+### Plot point prevalence
+
+plot_point_prev_smi <- create_lineplot(data = point_prev_df_smi$point_prev_df, 
+                                        all_formulations = all_formulations,
+                                        y_var = "point_prev")
+plot_point_prev_no_smi <- create_lineplot(data = point_prev_no_smi$point_prev_df, 
+                                           all_formulations = all_formulations,
+                                           y_var = "point_prev")
+
+
+ggarrange(plot_point_prev_smi + ggtitle("Patients Diagnosed with Schizophrenia, Bipolar Disorder, Psychosis, or Depression") + 
+            ylim(0, 15), 
+          plot_point_prev_no_smi + ggtitle("Patients Without Schizophrenia, Bipolar Disorder, Psychosis, or Depression") + 
+            ylim(0, 15), 
+          common.legend = TRUE, nrow = 2, legend = "right")
+
+# # Save point prevalence by SMI plot
+ggsave(filename = paste0(wd, path_output, "Figures/glp1ra_lineplot_point_prev_smi_", today(), ".png"),
+       width = 10, height = 9, units = "in", dpi = 600)
+
+# Save point prevalence data
+glp1ra_point_prev_smi <- point_prev_df_smi$point_prev_df
+glp1ra_point_prev_no_smi <- point_prev_no_smi$point_prev_df
+save(glp1ra_point_prev_smi, 
+     file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_smi.RData"))
+save(glp1ra_point_prev_no_smi, 
+     file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_no_smi.RData"))
+
+
+# ============= Point prevalence by SMI subtype ===============================================================
+
+
+# Calculate point prevalence for all years and formulations for those with each SMI subtype
+point_prev_df_smi_schiz <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                                    all_formulations = all_formulations, 
+                                                    risk_df_no_glp = risk_df_no_glp_smi,
+                                                    incidence = FALSE,
+                                                    period_prevalence = FALSE, 
+                                                    prev_glp = prev_glp_smi,
+                                                    point_prevalence = TRUE,
+                                                    smid_type = "schizophrenia")
+point_prev_df_smi_bpd <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                                  all_formulations = all_formulations, 
+                                                  risk_df_no_glp = risk_df_no_glp_smi,
+                                                  incidence = FALSE,
+                                                  period_prevalence = FALSE, 
+                                                  prev_glp = prev_glp_smi,
+                                                  point_prevalence = TRUE,
+                                                  smid_type = "bipolar")
+point_prev_df_smi_psych <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                                    all_formulations = all_formulations, 
+                                                    risk_df_no_glp = risk_df_no_glp_smi,
+                                                    incidence = FALSE,
+                                                    period_prevalence = FALSE, 
+                                                    prev_glp = prev_glp_smi,
+                                                    point_prevalence = TRUE,
+                                                    smid_type = "other psychosis")
+point_prev_df_smi_dep <- calc_inc_prev_all_years(years_fu = years_fu, 
+                                                  all_formulations = all_formulations, 
+                                                  risk_df_no_glp = risk_df_no_glp_smi,
+                                                  incidence = FALSE,
+                                                  period_prevalence = FALSE, 
+                                                  prev_glp = prev_glp_smi,
+                                                  point_prevalence = TRUE,
+                                                  smid_type = "depression")
+
+
+### Plot point prevalence
+
+plot_point_prev_smi_schiz <- create_lineplot(data = point_prev_df_smi_schiz$point_prev_df, 
+                                              all_formulations = all_formulations,
+                                              y_var = "point_prev")
+plot_point_prev_smi_bpd <- create_lineplot(data = point_prev_df_smi_bpd$point_prev_df, 
+                                            all_formulations = all_formulations,
+                                            y_var = "point_prev")
+plot_point_prev_smi_psych <- create_lineplot(data = point_prev_df_smi_psych$point_prev_df, 
+                                              all_formulations = all_formulations,
+                                              y_var = "point_prev")
+plot_point_prev_smi_dep <- create_lineplot(data = point_prev_df_smi_dep$point_prev_df, 
+                                            all_formulations = all_formulations,
+                                            y_var = "point_prev")
+
+ggarrange(plot_point_prev_smi_schiz + 
+            ggtitle("Patients Diagnosed with Schizophrenia") + ylim(0, 15) + 
+            theme(axis.text.x = element_text(angle = 45, hjust = 1)), 
+          plot_point_prev_smi_bpd + 
+            ggtitle("Patients Diagnosed with Bipolar Disorder") + ylim(0, 15) + 
+            theme(axis.text.x = element_text(angle = 45, hjust = 1)), 
+          plot_point_prev_smi_psych + 
+            ggtitle("Patients Diagnosed with Psychosis") + ylim(0, 15) + 
+            theme(axis.text.x = element_text(angle = 45, hjust = 1)), 
+          plot_point_prev_smi_dep + 
+            ggtitle("Patients Diagnosed with Depression") + ylim(0, 15) + 
+            theme(axis.text.x = element_text(angle = 45, hjust = 1)), 
+          common.legend = TRUE, nrow = 2, ncol = 2, legend = "right")
+
+# # Save point prevalence plot
+ggsave(filename = paste0(wd, path_output, "Figures/glp1ra_lineplot_point_prev_smisubtype_", today(), ".png"),
+       width = 14, height = 12, units = "in", dpi = 600)
+
+# Save point prevalence data
+glp1ra_point_prev_df_smi_schiz <- point_prev_df_smi_schiz$point_prev_df
+glp1ra_point_prev_df_smi_bpd <- point_prev_df_smi_bpd$point_prev_df
+glp1ra_point_prev_df_smi_psych <- point_prev_df_smi_psych$point_prev_df
+glp1ra_point_prev_df_smi_dep <- point_prev_df_smi_dep$point_prev_df
+save(glp1ra_point_prev_df_smi_schiz, 
+     file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_df_smi_schiz.RData"))
+save(glp1ra_point_prev_df_smi_bpd, 
+     file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_df_smi_bpd.RData"))
+save(glp1ra_point_prev_df_smi_psych, 
+     file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_df_smi_psych.RData"))
+save(glp1ra_point_prev_df_smi_dep, 
+     file = paste0(wd, path_output, "Analyses/glp1ra_point_prev_df_smi_dep.RData"))
 
 
 
