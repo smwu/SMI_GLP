@@ -1,0 +1,573 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"4044018"	22351	"J616"	"J616.00"	"biliary cirrhosis"	"1761006"	"4044018"	32
+"7302012"	49039	"A70"	"A70..00"	"viral hepatitis"	"3738000"	"7302012"	32
+"11267010"	12	"J6158-2"	"J615812"	"indian childhood cirrhosis"	"6183001"	"11267010"	32
+"17390014"	14990	"J611"	"J611.00"	"acute alcoholic hepatitis"	"9953008"	"17390014"	32
+"17930015"	2130	"A707"	"A707.00"	"chronic viral hepatitis"	"10295004"	"17930015"	32
+"21289010"	428	"J6161"	"J616100"	"secondary biliary cirrhosis"	"12368000"	"21289010"	32
+"25847015"	439	"L167"	"L167.00"	"liver disorder in pregnancy"	"15230009"	"25847015"	32
+"30226018"	143	"J634"	"J634.00"	"hepatic infarction"	"17890003"	"30226018"	32
+"30458014"	54173	"7800"	"7800.00"	"transplantation of liver"	"18027006"	"30458014"	32
+"52980015"	72545	"J6160"	"J616000"	"primary biliary cirrhosis"	"31712002"	"52980015"	15
+"57989014"	45621	"J623"	"J623.00"	"portal hypertension"	"34742003"	"57989014"	32
+"69895016"	759	"J6140"	"J614000"	"chronic persistent hepatitis"	"41889008"	"69895016"	32
+"83834016"	67281	"J610"	"J610.00"	"alcoholic fatty liver"	"50325005"	"83834016"	32
+"84499010"	25	"J63y0"	"J63y000"	"hepatoptosis"	"50701000"	"84499010"	32
+"84516016"	173826	"A70z0"	"A70z000"	"hepatitis c"	"50711007"	"84516016"	32
+"85441018"	3095	"J624"	"J624.00"	"hepatorenal syndrome"	"51292008"	"85441018"	32
+"85961019"	48	"H55-1"	"H55..11"	"cirrhosis of lung"	"266368002"	"396123011"	32
+"95368015"	130	"J6144"	"J614400"	"chronic lobular hepatitis"	"57339008"	"95368015"	32
+"96432016"	73	"J638"	"J638.00"	"peliosis hepatis"	"58008004"	"96432016"	32
+"99549014"	3974	"J62y-3"	"J62y.13"	"hepatic failure"	"59927004"	"99549014"	32
+"103853010"	15174	"J61y4"	"J61y400"	"hepatic fibrosis"	"62484002"	"103853010"	32
+"109733012"	681	"A703-99"	"A703.99"	"serum hepatitis"	"66071002"	"879221000006113"	32
+"118366010"	5839	"7801-1"	"7801.11"	"partial hepatectomy"	"71273005"	"118366010"	32
+"120042012"	651	"J5520"	"J552000"	"subhepatic abscess"	"72249004"	"120042012"	32
+"120980011"	420	"J622"	"J622.00"	"hepatic coma"	"72836002"	"120980011"	32
+"123999018"	27	"J6157-1"	"J615711"	"congestive cirrhosis"	"74669004"	"123997016"	32
+"124771013"	1426	"A053"	"A053.00"	"amoebic liver abscess"	"75119003"	"124771013"	32
+"126721013"	41	"J612-1"	"J612.11"	"florid cirrhosis"	"76301009"	"126721013"	32
+"127487019"	41675	"J614"	"J614.00"	"chronic hepatitis"	"76783007"	"127487019"	32
+"132070012"	334	"Q48yz-1"	"Q48yz11"	"congenital hepatic fibrosis"	"79607001"	"132070012"	32
+"133978014"	13	"A9161"	"A916100"	"secondary syphilitic hepatitis"	"80770009"	"133978014"	32
+"147971019"	17	"A72x0"	"A72x000"	"mumps hepatitis"	"89231008"	"147971019"	32
+"179049010"	53	"A709"	"A709.00"	"viral hepatitis without hepatic coma"	"111896003"	"179049010"	32
+"185065013"	22672	"43q"	"43q..00"	"hepatitis c virus rna (ribonucleic acid) assay"	"1012941000000104"	"2579731000000113"	33
+"251732011"	21786	"14C5"	"14C5.00"	"h/o: liver disease"	"161535005"	"251732011"	32
+"264367013"	9021	"65Q7"	"65Q7.00"	"viral hepatitis carrier"	"170489004"	"264367013"	32
+"270232016"	376	"78002"	"7800200"	"replacement of previous liver transplant"	"174427006"	"270232016"	32
+"270233014"	21	"7800y"	"7800y00"	"other specified transplantation of liver"	"18027006"	"30458014"	32
+"270234015"	2010	"7800z"	"7800z00"	"transplantation of liver nos"	"18027006"	"30458014"	32
+"286858013"	74	"A700"	"A700.00"	"hepatic coma due to viral hepatitis a"	"16060001"	"3008400017"	32
+"286862019"	55	"A702"	"A702.00"	"hepatic coma due to viral hepatitis b"	"26206000"	"3008554017"	32
+"286867013"	6	"A704"	"A704.00"	"other specified viral hepatitis with coma"	"3738000"	"7302012"	32
+"286868015"	27	"A7040"	"A704000"	"viral hepatitis c with coma"	"186628001"	"286868015"	32
+"286869011"	5	"A704z"	"A704z00"	"other specified viral hepatitis with hepatic coma nos"	"3738000"	"7302012"	32
+"286870012"	340	"A705"	"A705.00"	"other specified viral hepatitis without coma"	"3738000"	"7302012"	32
+"286871011"	40858	"A7050"	"A705000"	"viral hepatitis c"	"50711007"	"84513012"	32
+"286876018"	2	"A706"	"A706.00"	"unspecified viral hepatitis with coma"	"3738000"	"7302012"	32
+"286879013"	2344	"A7071"	"A707100"	"chronic viral hepatitis b without delta-agent"	"186639003"	"286879013"	32
+"286882015"	5444	"A70z"	"A70z.00"	"unspecified viral hepatitis"	"3738000"	"7302012"	32
+"286985017"	829	"A7852"	"A785200"	"cytomegaloviral hepatitis"	"186698009"	"286985017"	32
+"287865012"	30	"AD05"	"AD05.00"	"toxoplasma hepatitis"	"187197006"	"287865012"	32
+"287866013"	7	"J6323"	"J632300"	"hepatitis in toxoplasmosis"	"187197006"	"287866013"	32
+"287970018"	32	"AE23"	"AE23.00"	"sequelae of viral hepatitis"	"187260009"	"287970018"	32
+"288168013"	428	"AyuB0"	"AyuB000"	"[x]other specified acute viral hepatitis"	"3738000"	"7302012"	32
+"288169017"	89	"AyuB1"	"AyuB100"	"[x]other chronic viral hepatitis"	"10295004"	"17930015"	32
+"288170016"	130	"AyuB2"	"AyuB200"	"[x]chronic viral hepatitis, unspecified"	"10295004"	"17930015"	32
+"288171017"	3	"AyuB3"	"AyuB300"	"hepatic coma due to viral hepatitis"	"40946000"	"3008405010"	32
+"288172012"	32	"AyuB4"	"AyuB400"	"[x]unspecified viral hepatitis without coma"	"111896003"	"179049010"	32
+"293605014"	446	"C3761"	"C376100"	"alpha-1-antitrypsin hepatitis"	"190944000"	"293605014"	32
+"294324014"	24	"D3070"	"D307000"	"deficiency of coagulation factor due to liver disease"	"191296000"	"294324014"	32
+"303376017"	634	"J60"	"J60..00"	"acute and subacute liver necrosis"	"197268000"	"303376017"	32
+"303377014"	180	"J600"	"J600.00"	"acute necrosis of liver"	"197269008"	"303377014"	32
+"303379012"	3041	"J6000-1"	"J600011"	"acute liver failure"	"197270009"	"303379012"	32
+"303381014"	3143	"J6000"	"J600000"	"acute hepatic failure"	"197270009"	"303381014"	32
+"303385017"	45	"J600z"	"J600z00"	"acute necrosis of liver nos"	"197269008"	"303377014"	32
+"303387013"	27	"J601"	"J601.00"	"subacute necrosis of liver"	"197274000"	"303387013"	32
+"303388015"	308	"J6010"	"J601000"	"subacute hepatic failure"	"197275004"	"303388015"	32
+"303389011"	1	"J6012"	"J601200"	"subacute yellow atrophy"	"197276003"	"303389011"	32
+"303391015"	67	"J601z"	"J601z00"	"subacute necrosis of liver nos"	"235856003"	"353559010"	32
+"303392010"	9	"J60z"	"J60z.00"	"acute and subacute liver necrosis nos"	"197268000"	"303376017"	32
+"303393017"	66679	"J61"	"J61..00"	"cirrhosis and chronic liver disease"	"197279005"	"303393017"	32
+"303401012"	17159	"J6141"	"J614100"	"chronic active hepatitis"	"197284004"	"303401012"	32
+"303404016"	9111	"J6141-1"	"J614111"	"autoimmune chronic active hepatitis"	"197284004"	"303404016"	32
+"303407011"	153	"J6143"	"J614300"	"recurrent hepatitis"	"197286002"	"303407011"	32
+"303409014"	501	"J614y"	"J614y00"	"chronic hepatitis unspecified"	"76783007"	"127487019"	32
+"303410016"	4989	"J614z"	"J614z00"	"chronic hepatitis nos"	"76783007"	"127487019"	32
+"303414013"	2	"J6150"	"J615000"	"unilobular portal cirrhosis"	"197291001"	"303414013"	32
+"303419015"	198	"J6153"	"J615300"	"diffuse nodular cirrhosis"	"197293003"	"303419015"	32
+"303420014"	63	"J6154"	"J615400"	"fatty portal cirrhosis"	"197294009"	"303420014"	32
+"303425016"	19	"J6156"	"J615600"	"capsular portal cirrhosis"	"197296006"	"303425016"	32
+"303433015"	5	"J6159"	"J615900"	"pigmentary portal cirrhosis"	"197299004"	"303433015"	32
+"303435010"	4	"J615B"	"J615B00"	"toxic portal cirrhosis"	"197301006"	"303435010"	32
+"303437019"	3	"J615D"	"J615D00"	"bacterial portal cirrhosis"	"197303009"	"303437019"	32
+"303438012"	37	"J615E"	"J615E00"	"cardituberculous cirrhosis"	"301811001"	"443293016"	32
+"303439016"	1	"J615F"	"J615F00"	"syphilitic portal cirrhosis"	"197305002"	"303439016"	32
+"303440019"	1	"J615G"	"J615G00"	"zooparasitic portal cirrhosis"	"197306001"	"303440019"	32
+"303441015"	93	"J615H"	"J615H00"	"infectious cirrhosis"	"235896001"	"353622016"	32
+"303442010"	57	"J615y"	"J615y00"	"portal cirrhosis unspecified"	"419728003"	"2576980018"	32
+"303452014"	7	"J6162"	"J616200"	"biliary cirrhosis of children"	"197310003"	"303452014"	32
+"303453016"	441	"J616z"	"J616z00"	"biliary cirrhosis nos"	"1761006"	"4044018"	32
+"303456012"	1653	"J61y"	"J61y.00"	"chronic nonalcoholic liver disease"	"79720007"	"132267018"	32
+"303457015"	526183	"J61y1"	"J61y100"	"non-alcoholic fatty liver"	"197315008"	"303457015"	32
+"303458013"	294	"J61y3"	"J61y300"	"portal fibrosis without cirrhosis"	"197316009"	"303458013"	32
+"303464018"	254	"J61yz"	"J61yz00"	"other non-alcoholic chronic liver disease nos"	"328383001"	"467154010"	32
+"303465017"	41070	"J61z"	"J61z.00"	"chronic liver disease"	"328383001"	"467154010"	32
+"303466016"	721	"J62"	"J62..00"	"liver abscess and sequelae of chronic liver disease"	"197324004"	"303466016"	32
+"303468015"	1974	"J620"	"J620.00"	"liver abscess - excluding amoebic liver abscess"	"27916005"	"46731011"	32
+"303469011"	62	"J6200"	"J620000"	"liver abscess due to portal pyaemia"	"197326002"	"303469011"	32
+"303471011"	216	"J6201"	"J620100"	"liver abscess due to cholangitis"	"197327006"	"303471011"	32
+"303472016"	264	"J6202"	"J620200"	"liver abscess via hepatic artery"	"197328001"	"303472016"	32
+"303473014"	2	"J6203"	"J620300"	"liver abscess via umbilicus"	"197329009"	"303473014"	32
+"303474015"	33	"J6204"	"J620400"	"liver abscess due to direct extension"	"197330004"	"303474015"	32
+"303475019"	17199	"J620z"	"J620z00"	"abscess of liver"	"27916005"	"46731011"	32
+"303489012"	10	"J62z"	"J62z.00"	"liver abscess and chronic liver disease causing sequelae nos"	"197324004"	"303466016"	32
+"303490015"	11815	"J63"	"J63..00"	"other liver disorders"	"235856003"	"353563015"	32
+"303491016"	369	"J631"	"J631.00"	"hepatitis in viral diseases ec"	"3738000"	"7302012"	32
+"303493018"	11	"J6310"	"J631000"	"hepatitis in coxsackie virus"	"197339003"	"303493018"	32
+"303496014"	10	"J6314"	"J631400"	"hepatitis in yellow fever"	"197342009"	"303496014"	32
+"303497017"	594	"J6315"	"J631500"	"hepatitis in other viral disease"	"3738000"	"7302012"	32
+"303499019"	42	"J631z"	"J631z00"	"hepatitis in viral diseases ec nos"	"3738000"	"7302012"	32
+"303500011"	183	"J632"	"J632.00"	"hepatitis in other infectious diseases ec"	"235862008"	"353571016"	32
+"303501010"	2	"J6321"	"J632100"	"hepatitis in late syphilis"	"197347003"	"303501010"	32
+"303503013"	15	"J6322"	"J632200"	"hepatitis in secondary syphilis"	"197348008"	"303503013"	32
+"303505018"	195	"J632z"	"J632z00"	"hepatitis in infectious diseases ec nos"	"235862008"	"353571016"	32
+"303506017"	37163	"J633"	"J633.00"	"hepatitis"	"128241005"	"474350017"	32
+"303507014"	853	"J6330"	"J633000"	"toxic hepatitis"	"197352008"	"303507014"	32
+"303509012"	14270	"J633z"	"J633z00"	"inflammatory disease of liver"	"128241005"	"206503018"	32
+"303510019"	927	"J635"	"J635.00"	"toxic liver disease"	"197354009"	"303510019"	32
+"303511015"	2745	"J6350"	"J635000"	"toxic liver disease with cholestasis"	"197355005"	"303511015"	32
+"303512010"	56	"J6351"	"J635100"	"toxic liver disease with hepatic necrosis"	"197356006"	"303512010"	32
+"303514011"	305	"J6352"	"J635200"	"toxic liver disease with acute hepatitis"	"197358007"	"303514011"	32
+"303515012"	21	"J6353"	"J635300"	"toxic liver disease with chronic persistent hepatitis"	"197359004"	"303515012"	32
+"303516013"	34	"J6354"	"J635400"	"toxic liver disease with chronic lobular hepatitis"	"197360009"	"303516013"	32
+"303517016"	38	"J6355"	"J635500"	"toxic liver disease with chronic active hepatitis"	"197361008"	"303517016"	32
+"303518014"	246	"J6356"	"J635600"	"toxic liver disease with fibrosis and cirrhosis of liver"	"197362001"	"303518014"	32
+"303521011"	10	"J636"	"J636.00"	"central haemorrhagic necrosis of liver"	"197364000"	"303521011"	32
+"303524015"	12	"J639"	"J639.00"	"hepatic granulomas in berylliosis"	"197367007"	"303524015"	32
+"303525019"	480	"J63A"	"J63A.00"	"hepatic granulomas in sarcoidosis"	"197368002"	"303525019"	32
+"303527010"	741	"J63y"	"J63y.00"	"other specified liver disorder"	"235856003"	"353559010"	32
+"303531016"	466	"J63yz"	"J63yz00"	"other specified liver disorder nos"	"235856003"	"353559010"	32
+"303532011"	7219	"J63z"	"J63z.00"	"liver disease"	"235856003"	"353560017"	32
+"303780012"	14	"Jyu70"	"Jyu7000"	"[x]toxic liver disease with other disorders of liver"	"197354009"	"303510019"	32
+"303781011"	2119	"Jyu71"	"Jyu7100"	"[x]other and unspecified cirrhosis of liver"	"19943007"	"33568015"	32
+"303782016"	174	"Jyu72"	"Jyu7200"	"[x]other specified inflammatory liver diseases"	"128241005"	"206502011"	32
+"303783014"	10218	"Jyu73"	"Jyu7300"	"disease of liver"	"235856003"	"353563015"	32
+"303785019"	50	"Jyu75"	"Jyu7500"	"[x]liver disorders in other diseases classified elsewhere"	"235856003"	"353559010"	32
+"303786018"	37	"Jyu76"	"Jyu7600"	"[x]toxic liver disease, unspecified"	"197354009"	"303510019"	32
+"303787010"	236	"Jyu77"	"Jyu7700"	"[x]granulomatous hepatitis, not elsewhere classified"	"86514004"	"143474019"	32
+"305599019"	2	"L09y0"	"L09y000"	"acute liver necrosis following abortive pregnancy"	"609454008"	"2966954019"	32
+"305985014"	41	"L1670"	"L167000"	"liver disorder in pregnancy unspecified"	"15230009"	"25847015"	32
+"305986010"	26	"L1671"	"L167100"	"liver disorder in pregnancy - delivered"	"199117000"	"305986010"	32
+"305987018"	8	"L1672"	"L167200"	"liver disorder in pregnancy - not delivered"	"199118005"	"305987018"	32
+"305988011"	64	"L167z"	"L167z00"	"liver disorder in pregnancy nos"	"15230009"	"25847015"	32
+"314040012"	137	"PB62z"	"PB62z00"	"congenital cystic liver disease nos"	"72925005"	"121132018"	32
+"314053010"	1702	"PB6y9"	"PB6y900"	"liver hyperplasia"	"204799005"	"314053010"	32
+"316474016"	57	"Q409"	"Q409.00"	"congenital viral hepatitis"	"206372007"	"316474016"	32
+"316475015"	173	"Q4090"	"Q409000"	"congenital hepatitis a infection"	"206373002"	"316475015"	32
+"316476019"	7	"Q409y"	"Q409y00"	"other specified congenital viral hepatitis"	"206372007"	"316474016"	32
+"316477011"	12	"Q409z"	"Q409z00"	"congenital viral hepatitis nos"	"206372007"	"316474016"	32
+"316634019"	172	"Q4340"	"Q434000"	"perinatal hepatitis causing jaundice, unspecified"	"387712008"	"1481791016"	32
+"324976011"	486	"SP086"	"SP08600"	"liver transplant failure and rejection"	"213153001"	"324976011"	32
+"325079010"	268	"SP142-1"	"SP14211"	"liver failure as a complication of care"	"213230009"	"325079010"	32
+"325080013"	138	"SP142"	"SP14200"	"hepatic failure as a complication of care"	"213230009"	"325080013"	32
+"325081012"	104	"SP143"	"SP14300"	"hepatorenal syndrome as a complication of care"	"213231008"	"325081012"	32
+"352929018"	30	"78052-1"	"7805211"	"exploration of liver transplant"	"235458006"	"352929018"	32
+"353567019"	1680	"J63y1"	"J63y100"	"nonspecific reactive hepatitis"	"235858002"	"353567019"	32
+"353572011"	2	"A98yy-1"	"A98yy11"	"gonococcal hepatitis"	"235863003"	"353572011"	32
+"353575013"	289	"A7051"	"A705100"	"acute delta-(super)infection of hepatitis b carrier"	"235865005"	"353575013"	32
+"353576014"	709	"A70G"	"A70G.00"	"acute hepatitis c"	"235866006"	"353576014"	32
+"353577017"	5503	"A7052"	"A705200"	"acute hepatitis e"	"235867002"	"353577017"	32
+"353580016"	827	"A7070"	"A707000"	"chronic viral hepatitis b with delta-agent"	"235869004"	"353580016"	32
+"353587018"	32826	"J617"	"J617.00"	"alcoholic hepatitis"	"235875008"	"353587018"	32
+"353594015"	3171	"J6120"	"J612000"	"alcoholic fibrosis and sclerosis of liver"	"235880004"	"353594015"	32
+"353595019"	4455	"J6130"	"J613000"	"alcoholic hepatic failure"	"235881000"	"353595019"	32
+"353596018"	4453	"J62y-2"	"J62y.12"	"liver failure"	"59927004"	"498583014"	32
+"353597010"	140	"J62y-1"	"J62y.11"	"hepatic failure nos"	"59927004"	"99549014"	32
+"353613017"	150694	"J615z-3"	"J615z13"	"cirrhosis of liver"	"19943007"	"33568015"	32
+"353621011"	7	"J615z-4"	"J615z14"	"laennec's cirrhosis, non-alcoholic"	"235895002"	"353621011"	32
+"353625019"	147	"J61y5"	"J61y500"	"hepatic sclerosis"	"235899008"	"353625019"	32
+"353627010"	37	"J61y6"	"J61y600"	"hepatic fibrosis with hepatic sclerosis"	"235901004"	"353627010"	32
+"355299012"	9	"A98yy-3"	"A98yy13"	"gonococcal perihepatitis"	"237042003"	"355299012"	32
+"396390012"	8	"J6151"	"J615100"	"multilobular portal cirrhosis"	"266469006"	"396390012"	32
+"396391011"	203	"J6157"	"J615700"	"cardiac portal cirrhosis"	"266470007"	"396391011"	32
+"396392016"	11	"J6158"	"J615800"	"juvenile portal cirrhosis"	"266471006"	"396392016"	32
+"396393014"	4552	"J615z"	"J615z00"	"non-alcoholic cirrhosis nos"	"266468003"	"396389015"	32
+"396394015"	377	"J62y"	"J62y.00"	"other sequelae of chronic liver disease"	"235856003"	"353559010"	32
+"406316015"	122501	"43B2"	"43B2.00"	"hepatitis b immune"	"271511000"	"406316015"	9
+"411809016"	1172	"65V3-1"	"65V3.11"	"hepatitis notification"	"275847004"	"411809016"	1
+"415473019"	4684	"B7158"	"B715800"	"focal nodular hyperplasia of liver"	"278527001"	"415473019"	32
+"416050010"	18152	"2J21"	"2J21.00"	"hepatitis a immune"	"278971009"	"416050010"	9
+"416053012"	2717	"2J11"	"2J11.00"	"hepatitis c immune"	"278974001"	"416053012"	9
+"419703010"	12678	"65PL"	"65PL.00"	"exposure to hepatitis b virus"	"444486008"	"2840644019"	27
+"450169010"	567	"78017"	"7801700"	"extended right hemihepatectomy"	"307010009"	"450169010"	32
+"450934014"	168	"78018"	"7801800"	"extended left hemihepatectomy"	"307615003"	"450934014"	32
+"451124014"	1280	"J6170"	"J617000"	"chronic alcoholic hepatitis"	"307757001"	"451124014"	32
+"451442010"	1347	"G8522"	"G852200"	"oesophageal varices in cirrhosis of the liver"	"308129003"	"451442010"	32
+"453265010"	2255	"G8523"	"G852300"	"oesophageal varices in alcoholic cirrhosis of the liver"	"309783001"	"453265010"	32
+"454393018"	6848	"2J23"	"2J23.00"	"hepatitis a - current infection"	"310875001"	"454393018"	27
+"459860017"	75692	"ZV02B"	"ZV02B00"	"hepatitis b carrier"	"235871004"	"353582012"	32
+"460179010"	3151	"ZV01B"	"ZV01B00"	"exposure to viral hepatitis"	"444491009"	"2841582010"	32
+"460192013"	1518	"ZV026"	"ZV02600"	"[v]viral hepatitis carrier"	"170489004"	"264367013"	32
+"460651015"	11204	"ZV427"	"ZV42700"	"transplanted liver present"	"737297006"	"3527364013"	32
+"461319017"	950	"ZV7C0"	"ZV7C000"	"[v]assessment for liver transplant"	"400381000000101"	"1004021000000115"	32
+"477604016"	16	"J6152"	"J615200"	"mixed portal cirrhosis"	"15999000"	"477604016"	32
+"493707012"	251	"J6155"	"J615500"	"hypertrophic portal cirrhosis"	"43904005"	"493707012"	32
+"498982013"	3513	"78010"	"7801000"	"right hemihepatectomy"	"61326000"	"498982013"	32
+"499684018"	1387	"78011"	"7801100"	"left hemihepatectomy"	"63816008"	"499684018"	32
+"500791011"	24	"J621-1"	"J621.11"	"phlebitis of portal vein"	"85514005"	"141737013"	32
+"502288018"	2180	"PB62-1"	"PB62.11"	"congenital hepatic cyst"	"72925005"	"502288018"	32
+"502290017"	2817	"PB620"	"PB62000"	"congenital polycystic liver disease"	"72925005"	"502290017"	32
+"502291018"	768	"PB621"	"PB62100"	"fibrocystic liver disease"	"72925005"	"502291018"	32
+"504762019"	4	"J61y0"	"J61y000"	"chronic yellow liver atrophy"	"81675001"	"504762019"	32
+"506360011"	96294	"J63y2"	"J63y200"	"liver cyst"	"85057007"	"506360011"	32
+"1232261014"	38475	"A7073"	"A707300"	"chronic viral hepatitis b"	"61977001"	"1232261014"	32
+"1234780014"	29	"J6320"	"J632000"	"hepatitis in malaria"	"83072009"	"1234780014"	32
+"1235437014"	7	"J6313"	"J631300"	"hepatitis in mumps"	"89231008"	"1235437014"	32
+"1783609017"	7737	"4JQ3"	"4JQ3.00"	"hepatitis c virus genotype"	"992771000000100"	"2581311000000111"	47
+"1786709019"	54	"C3500-2"	"C350012"	"pigmentary cirrhosis of liver"	"399126000"	"1786709019"	32
+"2159899016"	70104	"J63B"	"J63B.00"	"autoimmune hepatitis"	"408335007"	"2159899016"	32
+"2474329018"	13646	"ZV02C"	"ZV02C00"	"hepatitis c carrier"	"235872006"	"353583019"	32
+"2475553015"	371	"J6311"	"J631100"	"hepatitis in cytomegalic inclusion virus"	"186698009"	"2475553015"	32
+"2534188017"	320	"J6357"	"J635700"	"acute hepatic failure due to drugs"	"413438002"	"2534188017"	5
+"2576980018"	263	"J615-1"	"J615.11"	"portal cirrhosis"	"419728003"	"2576980018"	32
+"2579818016"	10	"J612-2"	"J612.12"	"laennec's cirrhosis"	"419728003"	"2576980018"	32
+"2619492010"	4	"J6002"	"J600200"	"acute yellow atrophy"	"197269008"	"2619492010"	32
+"2675247013"	281	"C3707"	"C370700"	"liver disease due to cystic fibrosis"	"427022004"	"2675247013"	32
+"2676200013"	54	"78004"	"7800400"	"orthotopic transplantation of whole liver"	"426356008"	"2676200013"	32
+"2693857014"	17753	"141E"	"141E.00"	"history of hepatitis b"	"429721005"	"2693857014"	32
+"2819666013"	13547	"J61y8"	"J61y800"	"nonalcoholic steatohepatitis"	"442685003"	"2819666013"	32
+"3038537014"	317	"ESCTHI11"	NA	"history of hepatitis c"	"93871000119101"	"3038537014"	32
+"3515305014"	8	"^ESCT1165905"	NA	"cirrhosis of liver with primary sclerosing cholangitis"	"735733008"	"3515305014"	31
+"3516480011"	1	"^ESCT1165904"	NA	"liver disease with mitochondrial disorder"	"735732003"	"3516480011"	31
+"3532180010"	8	"^ESCT1167615"	NA	"liver transplant recipient"	"737297006"	"3532180010"	32
+"1601000006112"	70	"A705z"	"A705z00"	"other specified viral hepatitis without mention of coma nos"	"3738000"	"7302012"	32
+"31211000006119"	4516	"78000"	"7800000"	"orthotopic transplantation of liver"	"174425003"	"270228010"	32
+"55851000006118"	5	"J615C"	"J615C00"	"xanthomatous portal cirrhosis"	"271440004"	"406232019"	32
+"61061000006116"	44477	"A703"	"A703.00"	"serum hepatitis"	"66071002"	"109733012"	32
+"61281000006119"	67	"L1765"	"L176500"	"viral hepatitis complicating pregnancy, childbirth and the puerperium"	"199203001"	"306085015"	32
+"99171000006113"	61	"J635X"	"J635X00"	"toxic liver disease, unspecified"	"197354009"	"303510019"	32
+"122921000006118"	440	"J6011"	"J601100"	"subacute hepatitis - noninfective"	"72445008"	"1233507016"	32
+"211821000006111"	12	"J6151-1"	"J615111"	"postnecrotic cirrhosis of liver"	"43904005"	"73201018"	32
+"221111000000114"	14671	"J615"	"J615.00"	"cirrhosis - non-alcoholic"	"266468003"	"396389015"	32
+"221131000000118"	18743	"J622-1"	"J622.11"	"hepatic encephalopathy"	"13920009"	"23734015"	32
+"222881000000116"	38346	"A701"	"A701.00"	"viral infectious hepatitis a"	"25102003"	"482836011"	32
+"222891000000119"	31068	"A701-1"	"A701.11"	"infectious hepatitis"	"40468003"	"67481015"	32
+"225661000006111"	13	"78001-2"	"7800112"	"piggy back liver transplant"	"174426002"	"270231011"	32
+"226161000006113"	1	"J615A"	"J615A00"	"pipe-stem portal cirrhosis"	"197300007"	"303434014"	32
+"252501000006117"	2	"C14-KC60"	NA	"other viral hepatitis"	"252501000006101"	"252501000006117"	35
+"303891000000112"	2417	"65PM"	"65PM.00"	"hepatitis c contact"	"200371000000104"	"303891000000112"	27
+"350841000000119"	204	"7Q052"	"7Q05200"	"hepatitis b treatment drugs band 1"	"221021000000103"	"350841000000119"	32
+"358961000006119"	1221	"J625"	"J625.00"	"[x] hepatic failure"	"59927004"	"99549014"	32
+"359011000006113"	3229	"J625-1"	"J625.11"	"[x] liver failure"	"59927004"	"498583014"	32
+"363051000000111"	2	"78003"	"7800300"	"transplantation of liver cells"	"428198008"	"2692369017"	32
+"376141000000113"	194	"78005"	"7800500"	"orthotopic transplantation of liver nec"	"174425003"	"270228010"	32
+"395261000006113"	11	"Jyu74"	"Jyu7400"	"[x]liver disorders in infectious and parasitic diseases ce"	"235856003"	"353559010"	32
+"426451000006118"	10	"AyuJ9"	"AyuJ900"	"[x]sequelae of viral hepatitis"	"187260009"	"287970018"	32
+"432411000006115"	549	"AyuB"	"AyuB.00"	"[x]viral hepatitis"	"3738000"	"7302012"	32
+"457391000006117"	96	"A7020"	"A702000"	"acute hepatitis b with delta agent (coinfection) with hepatic coma"	"186624004"	"286863012"	32
+"457401000006115"	633	"A7030"	"A703000"	"acute hepatitis b with delta-agent (coinfection) without hepatic coma"	"186626002"	"286866016"	32
+"457421000006113"	7234	"J6001"	"J600100"	"acute hepatitis - non-infective"	"197271008"	"303382019"	32
+"476611000006116"	135391	"J612"	"J612.00"	"alcoholic cirrhosis of liver"	"420054005"	"2920441014"	32
+"500401000006116"	63	"78001-1"	"7800111"	"auxillary liver transplant"	"174426002"	"270230012"	32
+"538081000000115"	296	"7L1f"	"7L1f.00"	"compensation for liver failure"	"773411000000107"	"1726971000000115"	32
+"538101000000114"	56	"7L1fz"	"7L1fz00"	"liver failure support management"	"773411000000107"	"1726971000000115"	32
+"538121000000117"	13	"7L1fy"	"7L1fy00"	"other specified compensation for liver failure"	"773411000000107"	"1726971000000115"	32
+"550431000006116"	13	"J6158-1"	"J615811"	"childhood function cirrhosis"	"197284004"	"303401012"	32
+"553311000006111"	100	"J6142"	"J614200"	"chronic aggressive hepatitis"	"197284004"	"303401012"	32
+"555881000006114"	154	"J630"	"J630.00"	"chronic passive liver congestion"	"34736002"	"57977012"	32
+"557071000006112"	27639	"A7072"	"A707200"	"chronic hepatitis c"	"128302006"	"206586011"	32
+"557081000006110"	131	"A707X"	"A707X00"	"chronic viral hepatitis, unspecified"	"10295004"	"17930015"	32
+"581481000006118"	5337	"PB62"	"PB62.00"	"congenital cystic liver disease"	"72925005"	"502290017"	32
+"582851000006119"	1227	"Q4091"	"Q409100"	"congenital viral hepatitis b infection"	"60498001"	"100520013"	32
+"603321000006118"	5218	"J615z-2"	"J615z12"	"cryptogenic cirrhosis"	"89580002"	"148522018"	32
+"669921000006118"	18	"EMISHGT56"	NA	"fetor hepatis"	"669921000006102"	"669921000006118"	27
+"683211000000113"	118	"9kR-1"	"9kR..11"	"chronic hepatitis annual review"	"362421000000102"	"683211000000113"	37
+"731231000006114"	811	"J615z-1"	"J615z11"	"macronodular cirrhosis of liver"	"43904005"	"73201018"	32
+"739931000006118"	56	"TB002"	"TB00200"	"liver transplant with complication, without blame"	"88797001"	"147234011"	32
+"744481000000115"	246	"78019"	"7801900"	"right hemihepatectomy nec"	"61326000"	"101893015"	32
+"744501000000112"	106	"7801A"	"7801A00"	"left hemihepatectomy nec"	"63816008"	"106068019"	32
+"763241000006110"	96	"D0124"	"D012400"	"folate-deficiency anaemia due to liver disorders"	"191150003"	"293939011"	32
+"803961000006119"	139	"C3104"	"C310400"	"glycogenosis with hepatic cirrhosis"	"29633007"	"49567015"	32
+"806841000006117"	1270	"J63X"	"J63X.00"	"granulomatous hepatitis"	"86514004"	"143474019"	32
+"820381000006112"	1313	"J615z-5"	"J615z15"	"hepatic fibrosis"	"62484002"	"103853010"	32
+"820481000006115"	271	"J637"	"J637.00"	"hepatic veno-occlusive disease"	"65617004"	"3028711017"	32
+"820491000006117"	42	"J6316"	"J631600"	"hepatitis + adenovirus"	"197344005"	"303498010"	32
+"820881000006118"	1800	"2J12"	"2J12.00"	"hepatitis c non immune"	"278975000"	"416054018"	33
+"820971000006110"	573	"J6312"	"J631200"	"hepatitis in infectious mononucleosis"	"302919001"	"2476427017"	32
+"821081000006115"	781	"A7054"	"A705400"	"hepatitis non a non b"	"186634008"	"286874015"	32
+"822591000006117"	297	"78001"	"7800100"	"heterotopic liver transplant"	"174426002"	"270229019"	32
+"851341000006110"	438	"EMISR4QFA1"	NA	"fatty liver"	"851341000006106"	"851341000006110"	32
+"864281000006116"	1488	"7800-98"	"7800.98"	"liver transplant"	"18027006"	"864281000006116"	32
+"864291000006118"	6	"7800-99"	"7800.99"	"total hepatectomy"	"18027006"	"864291000006118"	32
+"864381000006114"	59	"780B1-99"	"780B199"	"diagn. asp. liver cyst/abscess"	"682701000000108"	"864381000006114"	32
+"879211000006117"	4115	"A701-99"	"A701.99"	"infectious hepatitis"	"25102003"	"879211000006117"	32
+"879231000006111"	1402	"A70z-99"	"A70z.99"	"other hepatitis"	"561661000000104"	"879231000006111"	32
+"886491000006111"	86	"J60-99"	"J60..99"	"acute/subac. necrosis of liver"	"197268000"	"886491000006111"	32
+"886511000006117"	468	"J63-99"	"J63..99"	"liver disorders nos"	"620981000000108"	"886511000006117"	32
+"886521000006113"	581	"J63z-99"	"J63z.99"	"liver disorders nos"	"660841000000103"	"886521000006113"	32
+"906001000006117"	919	"HNG0084"	NA	"[rfc] reason for care : liver failure"	"906001000006101"	"906001000006117"	12
+"906081000006114"	3447	"HNG0090"	NA	"[rfc] reason for care : cirrhosis"	"906081000006105"	"906081000006114"	12
+"906101000006118"	665	"HNG0091"	NA	"[rfc] reason for care : hepatitis"	"906101000006102"	"906101000006118"	12
+"906231000006115"	371	"HNG0099"	NA	"[rfc] reason for care : liver disorder (general)"	"906231000006104"	"906231000006115"	12
+"939481000006116"	29	"EMISNQHE6"	NA	"hepatitis c carrier"	"939481000006100"	"939481000006116"	32
+"994011000006111"	2	"EMISNQHO3"	NA	"h/o: hepatitis b"	"994011000006107"	"994011000006111"	32
+"994021000006115"	7107	"EMISNQHE11"	NA	"hepatitis c positive"	"994021000006104"	"994021000006115"	27
+"1137511000000111"	1089	"141F"	"141F.00"	"history of viral hepatitis"	"473117004"	"2955906018"	32
+"1680591000006117"	212	"9kR"	"9kR..00"	"chronic hepatitis annual review - enhanced services admin"	"362421000000102"	"683201000000111"	37
+"1686831000000111"	4444	"21267"	"2126700"	"hepatitis c resolved"	"761381000000102"	"1686831000000111"	9
+"1709341000006117"	5	"EMISNQLI28"	NA	"liver disease due to cystic fibrosis"	"1709341000006101"	"1709341000006117"	32
+"1736361000000112"	39	"C3708"	"C370800"	"cystic fibrosis related cirrhosis"	"776981000000103"	"1736361000000112"	32
+"1753501000000111"	773	"8LH"	"8LH..00"	"liver transplant planned"	"704201006"	"3011001010"	32
+"1756531000006116"	1	"EMISNQHE46"	NA	"hepatitis c resolved"	"1756531000006100"	"1756531000006116"	27
+"1761241000006114"	954	"C13-SHHAPT"	NA	"[shhapt] viral hepatitis b (hbsag positive) - first diagnosis"	"1761241000006105"	"1761241000006114"	32
+"1761251000006111"	59	"C14-SHHAPT"	NA	"[shhapt] viral hepatitis c - first diagnosis"	"1761251000006107"	"1761251000006111"	32
+"1761261000006113"	1014	"C15-SHHAPT"	NA	"[shhapt] viral hepatitis a - acute infection"	"1761261000006109"	"1761261000006113"	32
+"1761791000006110"	122	"P2I-SHHAPT"	NA	"[shhapt] hepatitis b immune"	"1761791000006106"	"1761791000006110"	32
+"1766481000006112"	2853	"4JQD"	"4JQD.00"	"hepatitis c viral ribonucleic acid polymerase chain reaction positive"	"760421000000100"	"1681741000000116"	47
+"1786201000006119"	59513	"J61y9"	"J61y900"	"fatty change of liver"	"197321007"	"303463012"	32
+"1786211000006116"	225659	"J61y9-1"	"J61y911"	"fatty liver"	"197321007"	"2819770010"	32
+"1805791000006114"	41	"EMISNQVI15"	NA	"viral hepatitis d"	"424460009"	"1805791000006114"	32
+"1814911000006116"	2320	"A70z1"	"A70z100"	"acute viral hepatitis"	"57412004"	"95482016"	32
+"1897771000006116"	45	"EMISNQHE98"	NA	"health education - hepatitis"	"1897771000006100"	"1897771000006116"	17
+"1899401000006112"	690	"EMISNQMO106"	NA	"mother hepatitis b positive at time of baby's birth"	"1899401000006108"	"1899401000006112"	7
+"2112071000000118"	4666	"12K5"	"12K5.00"	"mother hepatitis b positive"	"809201000000102"	"2112071000000118"	7
+"2146441000000113"	2833	"A70A"	"A70A.00"	"hepatitis c genotype 1"	"824841000000105"	"2146441000000113"	32
+"2146461000000114"	277	"A70B"	"A70B.00"	"hepatitis c genotype 2"	"824851000000108"	"2146461000000114"	32
+"2146501000000114"	3081	"A70C"	"A70C.00"	"hepatitis c genotype 3"	"824871000000104"	"2146501000000114"	32
+"2146521000000117"	222	"A70D"	"A70D.00"	"hepatitis c genotype 4"	"824881000000102"	"2146521000000117"	32
+"2146541000000112"	3	"A70E"	"A70E.00"	"hepatitis c genotype 5"	"824891000000100"	"2146541000000112"	32
+"2146561000000113"	7	"A70F"	"A70F.00"	"hepatitis c genotype 6"	"824901000000104"	"2146561000000113"	32
+"2155841000000118"	930	"8BB5"	"8BB5.00"	"12 week virologic response to hepatitis c treatment"	"829241000000108"	"2155841000000118"	32
+"2156971000000110"	1017	"14i"	"14i..00"	"h/o hepatitis c antiviral drug therapy"	"829691000000100"	"2156971000000110"	32
+"2157051000000119"	3114	"9NgR"	"9NgR.00"	"on hepatitis c treatment plan"	"829731000000106"	"2157051000000119"	37
+"2221291000000111"	233	"67P42"	"67P4200"	"discussion about liver transplantation"	"858441000000104"	"2221291000000111"	17
+"2412181000000118"	52	"4L17"	"4L17.00"	"hepatitis e virus genotype determination"	"1008511000000109"	"2556761000000112"	32
+"2558581000006119"	2	"^ESCTVH255858"	NA	"vh - viral hepatitis"	"3738000"	"486706012"	32
+"2560511000006119"	4	"^ESCTST256051"	NA	"structure of transplanted liver"	"3860006"	"491557011"	31
+"2560521000006110"	61	"^ESCTTR256052"	NA	"transplanted liver"	"3860006"	"7501018"	31
+"2577341000006117"	34	"^ESCTAC257734"	NA	"acute toxic hepatitis"	"4896000"	"9161015"	32
+"2658281000006111"	1	"^ESCTPE265828"	NA	"perinatal jaundice due to giant cell hepatitis"	"9936001"	"17360019"	32
+"2658601000006116"	144	"^ESCTAC265860"	NA	"acute alcoholic liver disease"	"9953008"	"17389017"	32
+"2720851000006112"	1	"^ESCTHE272085"	NA	"he - hepatic encephalopathy"	"13920009"	"475600012"	32
+"2724641000000113"	42	"^ESCT1171478"	NA	"suspected acute infectious hepatitis"	"1087641000000109"	"2724641000000113"	31
+"2742271000000111"	2	"^ESCT1172345"	NA	"education about hepatitis"	"1094791000000101"	"2742271000000111"	31
+"2754711000006112"	3	"^ESCTVI275471"	NA	"viral hepatitis a with hepatic coma"	"16060001"	"27185016"	32
+"2772951000006115"	7	"^ESCTTO277295"	NA	"total hepatectomy"	"17203000"	"29086010"	31
+"2783891000006116"	7	"^ESCTIN278389"	NA	"infarction of liver"	"17890003"	"1221609013"	32
+"2786001000006114"	2	"^ESCTTX278600"	NA	"tx - liver transplantation"	"18027006"	"1221632012"	32
+"2786021000006116"	10	"^ESCTLT278602"	NA	"ltx - liver transplant"	"18027006"	"1221634013"	32
+"2816671000006112"	22	"^ESCTHE281667"	NA	"hepatic cirrhosis"	"19943007"	"33572016"	32
+"2816681000006110"	27	"^ESCTCL281668"	NA	"cl - cirrhosis of liver"	"19943007"	"480137013"	32
+"2824431000006111"	3	"^ESCTPR282443"	NA	"progressive neuronal degeneration with liver cirrhosis"	"20415001"	"1222436018"	32
+"2847631000006117"	15	"^ESCTMI284763"	NA	"micronodular cirrhosis"	"21861000"	"36676018"	31
+"2901091000006115"	638	"^ESCTAC290109"	NA	"acute type a viral hepatitis"	"25102003"	"42082019"	32
+"2901111000006112"	948	"^ESCTAC290111"	NA	"acute hepatitis a"	"25102003"	"482837019"	32
+"2919481000006111"	4	"^ESCTVI291948"	NA	"viral hepatitis b with hepatic coma"	"26206000"	"43901018"	32
+"2948081000006117"	28	"^ESCTHE294808"	NA	"hepatic abscess"	"27916005"	"46734015"	32
+"2962351000006117"	1	"^ESCTTR296235"	NA	"transfusion hepatitis"	"28766006"	"48170017"	31
+"3022601000006119"	6	"^ESCTHA302260"	NA	"hav - hepatitis a virus"	"32452004"	"1227942018"	31
+"3022621000006112"	1	"^ESCTHE302262"	NA	"hepatitis a virus"	"32452004"	"54183018"	31
+"3059381000006110"	98	"^ESCTCH305938"	NA	"chronic passive congestion of liver"	"34736002"	"57977012"	32
+"3059491000006115"	6	"^ESCTPH305949"	NA	"pht - portal hypertension"	"34742003"	"1228208015"	32
+"3110091000006117"	730	"^ESCTAC311009"	NA	"acute hepatitis"	"37871000"	"63183013"	31
+"3122241000006112"	10	"^ESCTCH312224"	NA	"chronic persistent type b viral hepatitis"	"38662009"	"64336013"	31
+"3151471000006110"	606	"^ESCTVI315147"	NA	"viral hepatitis, type a"	"40468003"	"67480019"	32
+"3151491000006111"	32	"^ESCTHE315149"	NA	"hepatitis a"	"40468003"	"67483017"	32
+"3165681000006118"	539	"^ESCTAL316568"	NA	"alcoholic liver disease"	"41309000"	"68909012"	32
+"3165691000006115"	50	"^ESCTAL316569"	NA	"ald - alcoholic liver disease"	"41309000"	"492959019"	32
+"3175071000006117"	3	"^ESCTCP317507"	NA	"cph - chronic persistent hepatitis"	"41889008"	"1229804015"	32
+"3206871000006111"	160	"^ESCTMA320687"	NA	"macronodular cirrhosis"	"43904005"	"73201018"	32
+"3277241000006113"	1	"^ESCTPY327724"	NA	"pyogenic hepatic abscess"	"48036004"	"80046015"	31
+"3277251000006110"	7	"^ESCTPY327725"	NA	"pyogenic liver abscess"	"48036004"	"3286396010"	31
+"3312561000006112"	7	"^ESCTCH331256"	NA	"chronic active type b viral hepatitis"	"50167007"	"83566015"	31
+"3315061000006110"	75	"^ESCTAL331506"	NA	"alcoholic fatty liver disease"	"50325005"	"3027285017"	32
+"3331291000006117"	7	"^ESCTHE333129"	NA	"hepatorenal failure"	"51292008"	"495986010"	32
+"3336411000006117"	8	"^ESCTCI333641"	NA	"cirrhosis of lung"	"51615001"	"85961019"	32
+"3496361000006112"	44	"^ESCTHE349636"	NA	"hepatectomy, total right lobectomy"	"61326000"	"101893015"	32
+"3507191000006112"	2115	"^ESCTCH350719"	NA	"chronic type b viral hepatitis"	"61977001"	"103019010"	32
+"3515871000006112"	2586	"^ESCTFI351587"	NA	"fibrosis of liver"	"62484002"	"499304011"	32
+"3523221000006115"	1145	"^ESCTHE352322"	NA	"hepatitis c virus"	"62944002"	"104615012"	31
+"3523231000006117"	13	"^ESCTHC352323"	NA	"hcv - hepatitis c virus"	"62944002"	"1232404019"	31
+"3537891000006111"	33	"^ESCTHE353789"	NA	"hepatectomy, total left lobectomy"	"63816008"	"106068019"	32
+"3566811000006113"	7	"^ESCTVE356681"	NA	"veno-occlusive disease of the liver"	"65617004"	"109013019"	32
+"3574401000006110"	765	"^ESCTTY357440"	NA	"type b viral hepatitis"	"66071002"	"109732019"	32
+"3574421000006117"	400	"^ESCTHE357442"	NA	"hepatitis b"	"66071002"	"109735017"	32
+"3574431000006119"	1	"^ESCTSH357443"	NA	"sh - serum hepatitis"	"66071002"	"1232758012"	32
+"3574441000006112"	4995	"^ESCTHE357444"	NA	"hepatitis b infection"	"66071002"	"2536443012"	32
+"3574451000006114"	25	"^ESCTVI357445"	NA	"viral hepatitis type b"	"66071002"	"2983616016"	32
+"3634891000006110"	1	"^ESCTGI363489"	NA	"giant cell hepatitis"	"69800000"	"115938013"	31
+"3659301000006110"	2	"^ESCTSU365930"	NA	"subtotal hepatectomy"	"71273005"	"118368011"	32
+"3678071000006110"	3	"^ESCTSU367807"	NA	"subacute noninfective hepatitis"	"72445008"	"120350013"	32
+"3678081000006113"	13	"^ESCTSU367808"	NA	"subacute non-infective hepatitis"	"72445008"	"1233507016"	32
+"3686231000006114"	135	"^ESCTCO368623"	NA	"congenital cystic disease of liver"	"72925005"	"121132018"	32
+"3686271000006112"	3	"^ESCTPL368627"	NA	"pld - polycystic liver disease"	"72925005"	"502289014"	32
+"3686301000006114"	941	"^ESCTPO368630"	NA	"polycystic liver disease"	"72925005"	"502292013"	32
+"3686311000006112"	438	"^ESCTCY368631"	NA	"cystic disease of liver"	"72925005"	"502293015"	32
+"3713561000006119"	155	"^ESCTCA371356"	NA	"cardiac cirrhosis"	"74669004"	"123997016"	32
+"3713571000006114"	4	"^ESCTCO371357"	NA	"congestive cirrhosis"	"74669004"	"123999018"	32
+"3740851000006118"	32	"^ESCTHE374085"	NA	"hepatic congestion"	"76281005"	"126691010"	31
+"3748921000006116"	212	"^ESCTAC374892"	NA	"acute type b viral hepatitis"	"76795007"	"127504014"	32
+"3748931000006118"	10	"^ESCTAC374893"	NA	"acute hepatitis b"	"76795007"	"1234030013"	32
+"3776561000006116"	67	"^ESCTHE377656"	NA	"hepatitis e virus"	"78475006"	"130218013"	31
+"3776571000006111"	12	"^ESCTHE377657"	NA	"hev - hepatitis e virus"	"78475006"	"1234260014"	31
+"3828001000006112"	331	"^ESCTHE382800"	NA	"hepatitis b virus"	"81665004"	"135459015"	31
+"3828011000006110"	1	"^ESCTSE382801"	NA	"serum hepatitis virus"	"81665004"	"135460013"	31
+"3828021000006119"	74	"^ESCTHB382802"	NA	"hbv - hepatitis b virus"	"81665004"	"1234618018"	31
+"3860561000006112"	14	"^ESCTHE386056"	NA	"hepatitis d virus"	"83617006"	"138677016"	31
+"3860581000006119"	1	"^ESCTHD386058"	NA	"hdv - hepatitis d virus"	"83617006"	"1234847010"	31
+"3864411000006119"	3	"^ESCTDR386441"	NA	"drug-induced cholestatic hepatitis"	"83864008"	"139061013"	5
+"3883521000006113"	515	"^ESCTHE388352"	NA	"hepatic cyst"	"85057007"	"141016010"	32
+"3883531000006111"	381	"^ESCTCY388353"	NA	"cyst of liver"	"85057007"	"506359018"	32
+"3900211000006115"	2	"^ESCTEX390021"	NA	"excision of hydatid cyst of liver"	"86127008"	"142815011"	31
+"3918501000006116"	4	"^ESCTLI391850"	NA	"liver necrosis"	"87248009"	"507487017"	31
+"3921221000006113"	2	"^ESCTEV392122"	NA	"evacuation of cyst of liver"	"87421006"	"144938014"	31
+"4058511000006118"	19	"^ESCTCH405851"	NA	"cholestatic hepatitis"	"95556007"	"158272011"	31
+"4151501000006118"	47	"^ESCTHE415150"	NA	"hepatectomy"	"107963000"	"321604014"	31
+"4170241000006112"	5	"^ESCTNO417024"	NA	"nodular hyperplasia of liver"	"109820009"	"174496012"	31
+"4200781000006117"	1	"^ESCTVI420078"	NA	"viral hepatitis a without hepatic coma"	"111879004"	"179042018"	31
+"4330671000006113"	1	"^ESCTHE433067"	NA	"hepatitis b virus dna"	"121112003"	"179365016"	31
+"4353641000006110"	15	"^ESCTTO435364"	NA	"toxic cirrhosis"	"123604002"	"192093015"	31
+"4355091000006112"	1	"^ESCTLA435509"	NA	"latent cirrhosis"	"123716002"	"192205013"	31
+"4355101000006118"	11	"^ESCTAD435510"	NA	"advanced cirrhosis"	"123717006"	"192206014"	31
+"4407011000006114"	3	"^ESCTCH440701"	NA	"chronic type c viral hepatitis"	"128302006"	"206585010"	32
+"4661751000006118"	1306	"^ESCTOR466175"	NA	"orthotopic liver transplant"	"174425003"	"270228010"	32
+"4661791000006112"	7	"^ESCTPI466179"	NA	"piggy-back liver transplant"	"174426002"	"270231011"	32
+"4742611000006119"	8	"^ESCTHE474261"	NA	"hepatitis non-a non-b"	"186634008"	"286874015"	32
+"4742761000006113"	389	"^ESCTCY474276"	NA	"cytomegalovirus hepatitis"	"186698009"	"286984018"	32
+"4742781000006115"	18	"^ESCTCM474278"	NA	"cmv - cytomegalovirus hepatitis"	"186698009"	"286986016"	32
+"4761131000006119"	24	"^ESCTFO476113"	NA	"folate deficiency anaemia due to liver disorders"	"191150003"	"293939011"	32
+"4787031000006110"	3	"^ESCTAL478703"	NA	"alf - acute liver failure"	"197270009"	"303380010"	32
+"4787291000006118"	461	"^ESCTNA478729"	NA	"nafld - nonalcoholic fatty liver disease"	"197315008"	"2820175018"	32
+"4787421000006116"	2	"^ESCTCO478742"	NA	"coxsackie virus hepatitis"	"197339003"	"303492011"	32
+"4787451000006113"	10	"^ESCTHE478745"	NA	"hepatitis with adenovirus"	"197344005"	"303498010"	32
+"5080561000006115"	44	"^ESCTDR508056"	NA	"drainage of liver abscess"	"235461007"	"352933013"	31
+"5080571000006110"	2	"^ESCTLI508057"	NA	"live donor partial hepatectomy"	"235462000"	"352934019"	31
+"5086511000006115"	1	"^ESCTLD508651"	NA	"ld - liver disease"	"235856003"	"353562013"	32
+"5086531000006114"	4	"^ESCTLI508653"	NA	"liver disorder due to infection"	"235859005"	"353568012"	31
+"5086571000006112"	89	"^ESCTHE508657"	NA	"hepatitis due to infection"	"235862008"	"353571016"	32
+"5086591000006113"	3	"^ESCTAC508659"	NA	"acute hepatitis b with hepatitis d"	"235864009"	"353573018"	31
+"5086601000006117"	33	"^ESCTHE508660"	NA	"hepatitis d superinfection of hepatitis b carrier"	"235865005"	"353574012"	32
+"5086641000006115"	2	"^ESCTAC508664"	NA	"acute non-a non-b hepatitis"	"235868007"	"353578010"	31
+"5086651000006118"	386	"^ESCTCH508665"	NA	"chronic viral hepatitis b with hepatitis d"	"235869004"	"353579019"	32
+"5086741000006114"	2	"^ESCTAH508674"	NA	"ah - alcoholic hepatitis"	"235875008"	"353588011"	32
+"5086751000006111"	64	"^ESCTDR508675"	NA	"drug-induced hepatitis"	"235876009"	"353589015"	5
+"5086761000006113"	31	"^ESCTIS508676"	NA	"ischaemic hepatitis"	"235877000"	"353591011"	31
+"5086771000006118"	3	"^ESCTIS508677"	NA	"ischemic hepatitis"	"235877000"	"353590012"	31
+"5086811000006118"	6	"^ESCTFU508681"	NA	"fulminant hepatic failure"	"235884008"	"353598017"	31
+"5086841000006119"	7	"^ESCTCH508684"	NA	"chronic hepatic failure"	"235886005"	"353601010"	31
+"5086951000006114"	1	"^ESCTDR508695"	NA	"drug-induced chronic hepatitis"	"235889003"	"353611015"	5
+"5086961000006111"	123	"^ESCTAU508696"	NA	"autoimmune liver disease"	"235890007"	"353612010"	31
+"5087201000006117"	14	"^ESCTLI508720"	NA	"liver transplant disorder"	"235910007"	"353646011"	31
+"5087211000006119"	13	"^ESCTLI508721"	NA	"liver transplant rejection"	"235911006"	"353647019"	31
+"5102691000006116"	1	"^ESCTCH510269"	NA	"chlamydial perihepatitis"	"237043008"	"355302012"	31
+"5359951000006114"	108	"^ESCTCI535995"	NA	"cirrhotic"	"255417007"	"380621016"	31
+"5493051000006111"	1	"^ESCTCI549305"	NA	"cirrhosis of liver not due to alcohol"	"266468003"	"3038846010"	32
+"5524681000006114"	5	"^ESCTCI552468"	NA	"cirrhosis secondary to cholestasis"	"271440004"	"406232019"	32
+"5538541000006110"	1	"^ESCTEN553854"	NA	"entire transplanted liver"	"272508003"	"407653011"	31
+"5562801000006119"	3	"^ESCTDI556280"	NA	"diagnostic aspiration of liver abscess"	"274384004"	"410178017"	31
+"5619351000006114"	1	"^ESCTCO561935"	NA	"congenital hepatitis c infection"	"278929008"	"415996012"	31
+"5913201000006116"	448	"^ESCTEP591320"	NA	"epstein-barr virus hepatitis"	"302919001"	"444942014"	32
+"5913211000006118"	8	"^ESCTEB591321"	NA	"ebv - epstein-barr virus hepatitis"	"302919001"	"444941019"	32
+"5913221000006114"	36	"^ESCTIN591322"	NA	"infectious mononucleosis hepatitis"	"302919001"	"2476427017"	32
+"5914631000006112"	5558	"^ESCTPO591463"	NA	"portal hypertensive gastropathy"	"303082009"	"445147013"	32
+"5963241000006115"	67	"^ESCTEX596324"	NA	"extended right hepatectomy"	"307010009"	"450170011"	32
+"5970611000006115"	2	"^ESCTMA597061"	NA	"marsupialisation of liver cyst"	"307620003"	"450943017"	31
+"5970631000006114"	5	"^ESCTLA597063"	NA	"laparoscopic marsupialisation of liver cyst"	"307621004"	"450944011"	31
+"6342181000006111"	2	"^ESCTCH634218"	NA	"cholangiohepatitis"	"370489002"	"1209223011"	31
+"6349661000006117"	113	"^ESCTEA634966"	NA	"early cirrhosis"	"371139006"	"1209842017"	31
+"6349671000006112"	6	"^ESCTPC634967"	NA	"pcr positive for hepatitis c viral rna (genotype 1a)"	"371140008"	"1215815015"	31
+"6349681000006110"	2	"^ESCTPO634968"	NA	"polymerase chain reaction (pcr) positive for hepatitis c viral ribonucleic acid (genotype 1a)"	"371140008"	"2621318012"	31
+"6449171000006114"	1	"^ESCTPE644917"	NA	"perihepatitis"	"386041004"	"1480228013"	31
+"6617621000006115"	1	"^ESCTPC661762"	NA	"pcr for hepatitis c"	"399117003"	"1778577019"	31
+"6729611000006117"	1	"^ESCTNO672961"	NA	"non-a, non-b, non-c hepatitis"	"406584008"	"2158233015"	31
+"6729621000006113"	2	"^ESCTAC672962"	NA	"acute non-a, non-b, non-c hepatitis"	"406585009"	"2158234014"	31
+"6941941000006119"	2	"^ESCTPC694194"	NA	"pc - portal cirrhosis"	"419728003"	"2579819012"	32
+"6947461000006115"	41803	"^ESCTAL694746"	NA	"alcoholic cirrhosis"	"420054005"	"2576981019"	32
+"6947471000006110"	211	"^ESCTAL694747"	NA	"alcoholic liver cirrhosis"	"420054005"	"2912539019"	32
+"7043971000006117"	1	"^ESCTDR704397"	NA	"drug-induced cirrhosis of liver"	"425413006"	"2674160016"	5
+"7082331000006118"	3	"^ESCTHI708233"	NA	"history of hepatitis a"	"428030001"	"2695045018"	31
+"7133411000006113"	4	"^ESCTAC713341"	NA	"acute rejection of liver transplant"	"431222008"	"2767723018"	31
+"7260251000006113"	1	"^ESCTHE726025"	NA	"hepatitis b associated with human immunodeficiency virus infection"	"442134007"	"2819115019"	31
+"7261021000006117"	763	"^ESCTST726102"	NA	"steatohepatitis"	"442191002"	"2819275018"	32
+"7263471000006113"	33	"^ESCTHE726347"	NA	"hepatitis b and hepatitis c"	"442374005"	"2818954010"	31
+"7266931000006113"	82	"^ESCTNA726693"	NA	"nash - nonalcoholic steatohepatitis"	"442685003"	"2819665012"	32
+"7293951000006112"	26	"^ESCTEX729395"	NA	"exposure to hepatitis a virus"	"444500002"	"2840636019"	31
+"7294591000006114"	1	"^ESCTEX729459"	NA	"exposure to hepatitis c virus"	"444563003"	"2871439018"	31
+"7300021000006118"	1	"^ESCTSE730002"	NA	"sequela of chronic liver disease"	"444918006"	"2872221014"	31
+"7304981000006110"	1	"^ESCTPU730498"	NA	"pulmonary arterial hypertension associated with portal hypertension"	"445237003"	"2968175019"	31
+"7328421000006117"	7	"^ESCTRE732842"	NA	"reactivation of hepatitis b viral hepatitis"	"446698005"	"2883285015"	31
+"7376511000006111"	1	"^ESCTHE737651"	NA	"hepatic encephalopathy in fulminant hepatic failure"	"449901005"	"2912505018"	31
+"7384531000006118"	1	"^ESCTCH738453"	NA	"chronic hepatitis e"	"450880008"	"2920529016"	31
+"7507441000006116"	2	"^ESCTAW750744"	NA	"awaiting transplantation of liver"	"698305006"	"2973906019"	31
+"7507451000006119"	15	"^ESCTAW750745"	NA	"awaiting liver transplant"	"698305006"	"2973836012"	31
+"7559751000006113"	33	"^ESCTCO755975"	NA	"compensated liver disease"	"702399004"	"2995092016"	31
+"7568861000006119"	3	"^ESCTRE756886"	NA	"reactivation of hepatitis c viral hepatitis"	"702969000"	"3006630013"	31
+"7615591000006113"	4	"^ESCTVI761559"	NA	"viral hepatitis d"	"707341005"	"3029687014"	31
+"7615621000006110"	3	"^ESCTHE761562"	NA	"hepatitis d"	"707341005"	"3029711014"	31
+"7625161000006118"	1	"^ESCTHE762516"	NA	"hepatitis e virus rna"	"707890003"	"3032177018"	31
+"7629961000006118"	8	"^ESCTCH762996"	NA	"chronic active hepatitis c"	"708198006"	"3034193014"	31
+"7630871000006114"	42	"^ESCTEN763087"	NA	"end stage liver disease"	"708248004"	"3033652011"	31
+"7700651000006119"	42	"^ESCTCH770065"	NA	"chronic alcoholic liver disease"	"713181003"	"3288362011"	31
+"7703061000006115"	10	"^ESCTAC770306"	NA	"acute on chronic alcoholic liver disease"	"713370005"	"3289055018"	31
+"7712041000006110"	3	"^ESCTOC771204"	NA	"occult chronic type b viral hepatitis"	"713966008"	"3298054013"	31
+"7716821000006114"	7	"^ESCTHE771682"	NA	"hepatic granuloma"	"714253009"	"3299056019"	31
+"7727891000006116"	14	"^ESCTNO772789"	NA	"nodular regenerative hyperplasia of liver"	"715140008"	"3301499016"	31
+"7743751000006110"	1	"^ESCTIS774375"	NA	"isolated polycystic liver disease"	"716196007"	"3305053017"	31
+"7743871000006114"	728	"^ESCTDE774387"	NA	"decompensated cirrhosis of liver"	"716203000"	"3305077011"	31
+"7743881000006112"	130	"^ESCTDE774388"	NA	"decompensated cirrhosis"	"716203000"	"3305078018"	31
+"7746321000006113"	8	"^ESCTAC774632"	NA	"acute fatty liver of pregnancy"	"716379000"	"3305738016"	31
+"7767231000006112"	2	"^ESCTDO776723"	NA	"doppler ultrasound scan of transplanted liver"	"718078008"	"3312542019"	31
+"7821631000006114"	8	"^ESCTFI782163"	NA	"fibrosis of liver caused by alcohol"	"721710005"	"3325822012"	31
+"7821641000006116"	12	"^ESCTAL782164"	NA	"alcoholic fibrosis of liver"	"721710005"	"3325823019"	31
+"7821651000006119"	22	"^ESCTAU782165"	NA	"autoimmune hepatitis type 1"	"721711009"	"3325825014"	31
+"7821661000006117"	1	"^ESCTAU782166"	NA	"autoimmune hepatitis type 2"	"721712002"	"3325827018"	31
+"7837271000006119"	65	"^ESCTNO783727"	NA	"non-alcoholic fatty liver disease without non-alcoholic steatohepatitis"	"722866000"	"3333798016"	32
+"7837281000006116"	1	"^ESCTID783728"	NA	"idiopathic portal hypertension"	"722867009"	"3333800011"	31
+"7839841000006119"	4	"^ESCTAL783984"	NA	"alpps - associating liver partition and portal vein ligation for staged hepatectomy"	"723069003"	"3324805018"	31
+"7966981000006110"	14	"^ESCTCI796698"	NA	"cirrhosis of liver due to chronic hepatitis c"	"831000119103"	"3010174012"	31
+"7987091000006114"	15	"^ESCTVI798709"	NA	"viral hepatitis e"	"7111000119109"	"3015397015"	31
+"7987101000006115"	3	"^ESCTHE798710"	NA	"hepatitis e virus infection"	"7111000119109"	"3015395011"	31
+"7987121000006113"	25	"^ESCTHE798712"	NA	"hepatitis e"	"7111000119109"	"3028956017"	31
+"8019341000006114"	1	"^ESCTHI801934"	NA	"history of hepatitis b conferring immunity"	"59851000119103"	"3290015011"	31
+"8029551000006113"	116	"^ESCTHO802955"	NA	"h/o hepatitis c"	"93871000119101"	"2722791000000116"	32
+"8032261000006117"	14	"^ESCTCI803226"	NA	"cirrhosis of liver due to hepatitis b"	"103611000119102"	"3015025011"	31
+"8033091000006112"	1	"^ESCTIM803309"	NA	"immunity to hepatitis a by positive serology"	"105801000119103"	"3431893010"	31
+"8033111000006115"	2	"^ESCTIM803311"	NA	"immunity to hepatitis b by positive serology"	"105811000119100"	"3431891012"	31
+"8234961000006111"	3	"^ESCTHE823496"	NA	"hepatitis c viral rna pcr (ribonucleic acid polymerase chain reaction) positive"	"760421000000100"	"1696681000000110"	47
+"8242561000006112"	3	"^ESCTCI824256"	NA	"cirrhosis associated with cystic fibrosis"	"776981000000103"	"1735771000000114"	32
+"8266081000006118"	1	"^ESCTHD826608"	NA	"hdv (hepatitis d virus) genotype determination by rna (ribonucleic acid) analysis"	"818111000000101"	"2131151000000114"	31
+"8266161000006110"	16	"^ESCTHB826616"	NA	"hbv (hepatitis b virus) genotype determination by dna (deoxyribonucleic acid) analysis"	"818171000000106"	"2131291000000111"	31
+"8266271000006110"	12	"^ESCTHC826627"	NA	"hcv (hepatitis c virus) genotype determination by rna (ribonucleic acid) analysis"	"818261000000106"	"2131511000000116"	31
+"8269611000006112"	154	"^ESCTAC826961"	NA	"acute infectious hepatitis"	"822071000000104"	"2140481000000115"	32
+"8284111000006117"	1	"^ESCTCO828411"	NA	"compensation for liver failure"	"843101000000101"	"2186901000000110"	31
+"8293001000006116"	9	"^ESCTLI829300"	NA	"living donor liver transplantation"	"853761000000103"	"2210601000000119"	31
+"8293011000006118"	1	"^ESCTLI829301"	NA	"live donor liver transplant"	"853761000000103"	"2210621000000111"	31
+"8301811000006116"	385	"^ESCTHE830181"	NA	"hepatitis c antiviral treatment completed"	"868191000000109"	"2243931000000116"	31
+"8325761000006118"	1	"^ESCTUL832576"	NA	"ultrasonography guided biopsy of transplanted liver"	"911671000000103"	"2343261000000112"	31
+"8325771000006113"	2	"^ESCTUL832577"	NA	"ultrasound guided biopsy of transplanted liver"	"911671000000103"	"2352571000000111"	31
+"8433581000006113"	63	"^ESCTHE843358"	NA	"hepatitis b resolved"	"1060591000000103"	"2666081000000115"	27
+"8458621000006115"	2	"^ESCTHE845862"	NA	"hepatic coma due to acute hepatic failure"	"1082511000119102"	"3083984019"	31
+"8458711000006115"	22	"^ESCTAS845871"	NA	"ascites due to alcoholic cirrhosis"	"1082601000119104"	"3082322015"	31
+"8458751000006119"	1	"^ESCTAS845875"	NA	"ascites due to alcoholic hepatitis"	"1082611000119101"	"3079223017"	31
+"8462251000006117"	1	"^ESCTHE846225"	NA	"hepatic coma due to chronic hepatic failure"	"1085091000119108"	"3079245016"	31
+"12031691000006112"	23	"^ESCT1203169"	NA	"alcoholic steatohepatitis"	"765482002"	"3658938012"	5
+"12061221000006116"	1	"^ESCT1206122"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 6"	"767809001"	"3675589015"	31
+"12064771000006114"	36	"^ESCT1206477"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 3"	"768006009"	"3684568011"	31
+"12066921000006115"	1	"^ESCT1206692"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 2"	"768125005"	"3684570019"	31
+"12066931000006117"	3	"^ESCT1206693"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 4"	"768126006"	"3684572010"	31
+"12066941000006110"	17	"^ESCT1206694"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 1"	"768127002"	"3684576013"	31
+"12070031000006113"	3	"^ESCT1207003"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 1b"	"768288001"	"3685058018"	31
+"12070041000006115"	9	"^ESCT1207004"	NA	"chronic hepatitis c caused by hepatitis c virus genotype 1a"	"768289009"	"3685060016"	31
+"12456711000006114"	21	"^ESCT1245671"	NA	"[v]assessment for liver transplant"	"400381000000101"	"948491000000118"	32
+"12626571000006113"	3	"^ESCT1262657"	NA	"hepatitis b virus dna (deoxyribonucleic acid) presence"	"1111151000000101"	"2780301000000119"	31
+"12731181000006119"	1	"^ESCT1273118"	NA	"liver disorder nos"	"660841000000103"	"1451451000000115"	32
+"13499591000006116"	2	"^ESCT1349959"	NA	"hepatic fibrosis, renal cyst, intellectual disability syndrome"	"771149000"	"3704579019"	32
+"13519221000006112"	388	"^ESCT1351922"	NA	"acute infectious hepatitis"	"773113008"	"3720360016"	32
+"13938561000006110"	1	"^ESCT1393856"	NA	"chronic hepatitis b with hepatitis c and hepatitis d"	"838380002"	"3896626015"	31
+"13954441000006117"	5	"^ESCT1395444"	NA	"chronic necrosis of liver"	"863957008"	"3951524016"	32
+"13956641000006114"	3	"^ESCT1395664"	NA	"assessment using model for end-stage liver disease"	"866002000"	"3956579011"	31
+"13958471000006115"	5	"^ESCT1395847"	NA	"bacterial liver abscess"	"866119000"	"3957242017"	31
+"13965861000006113"	5	"^ESCT1396586"	NA	"fontan-associated liver disease"	"870428003"	"3969423013"	31
+"13965871000006118"	2	"^ESCT1396587"	NA	"fald - fontan associated liver disease"	"870428003"	"3969421010"	31
+"14071021000006114"	3	"^ESCT1407102"	NA	"hepatic coma due to acute hepatitis b with delta agent"	"186624004"	"3778884018"	32
+"14137051000006119"	9	"^ESCT1413705"	NA	"autosomal dominant polycystic liver disease"	"890229002"	"4011651011"	31
+"14146411000006112"	88	"^ESCT1414641"	NA	"oesophageal varices due to cirrhosis of liver"	"897004000"	"4030029017"	32
+"14146421000006116"	23	"^ESCT1414642"	NA	"oesophageal varices due to cirrhosis of liver caused by alcohol"	"897005004"	"4030032019"	32
+"14150251000006111"	1	"^ESCT1415025"	NA	"laparoscopic extended left hemihepatectomy"	"897702006"	"4034845011"	31
+"14150261000006113"	1	"^ESCT1415026"	NA	"laparoscopic extended left hepatectomy"	"897702006"	"4034844010"	31
+"14150281000006115"	2	"^ESCT1415028"	NA	"laparoscopic extended right hepatectomy"	"897703001"	"4034848013"	31
+"14439301000006114"	1	"^ESCT1443930"	NA	"hepatic failure following surgical procedure"	"1148573000"	"4550648017"	31
+"14789131000006116"	1	"^ESCT1478913"	NA	"primary biliary cholangitis and/or primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome"	"1230291009"	"5068767014"	31
+"14798641000006114"	14	"^ESCT1479864"	NA	"non-alcoholic fatty liver disease"	"1231824009"	"5074591010"	32
+"14799211000006117"	1	"^ESCT1479921"	NA	"alcoholic steatohepatitis"	"1234778004"	"5083969013"	31
+"15223041000006118"	1	"^ESCT1522304"	NA	"acute necrosis of liver following ectopic pregnancy"	"1264435003"	"5172661011"	31
+"15224471000006118"	47	"^ESCT1522447"	NA	"at increased risk of exposure to hepatitis b virus due to occupation"	"1264552001"	"5173365018"	27
+"15310261000006118"	96	"^ESCT1531026"	NA	"hepatitis a detected"	"165997004"	"5168337019"	33
+"15325021000006118"	31	"^ESCT1532502"	NA	"oesophageal varices due to alcoholic cirrhosis of liver"	"897005004"	"5249434013"	32
+"15329141000006110"	2	"^ESCT1532914"	NA	"immunity to hepatitis c determined by serology"	"249248231000119105"	"5180593013"	31
+"15903281000006114"	12	"^ESCT1590328"	NA	"metabolic dysfunction-associated steatotic liver disease"	"1231824009"	"4005561000000111"	32
+"16079651000006118"	189	"^ESCT1607965"	NA	"steatotic liver disease"	"197321007"	"5389708018"	32
+"16095341000006116"	5	"^ESCT1609534"	NA	"metabolic dysfunction-associated steatohepatitis"	"442685003"	"5389722018"	32
+"16103491000006111"	9	"^ESCT1610349"	NA	"metabolic dysfunction-associated steatotic liver disease"	"1231824009"	"5389710016"	32

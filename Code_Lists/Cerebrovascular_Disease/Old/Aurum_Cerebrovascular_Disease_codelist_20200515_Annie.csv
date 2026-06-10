@@ -1,0 +1,191 @@
+medcodeid,term,originalreadcode,snomedctconceptid,snomedctdescriptionid,release,readcode,cat,
+2474668015,stroke group member,13YA,413119003,2474668015,,13YA.00,Cerebrovascular disease,CVD
+451368019,h/o: cerebrovascular disease,1477,308064009,451368019,,1477,Cerebrovascular disease,CVD
+8.09E+14,h/o: cva/stroke,14A7,275526006,2986886017,,14A7.00,Cerebrovascular disease,CVD
+2476091017,h/o: stroke,14A7-2,275526006,2476091017,,14A7.12,Cerebrovascular disease,CVD
+451371010,h/o: stroke in last year,14AK,308067002,451371010,,14AK.00,Cerebrovascular disease,CVD
+3.14E+14,suspected cerebrovascular disease,1JA1,2.05E+14,3.14E+14,,1JA1.00,Cerebrovascular disease,CVD
+413750011,central post-stroke pain,1M4,277286006,413750011,,1M4..00,Cerebrovascular disease,CVD
+1.78E+15,"hyperten, abnorm renal/liver funct, stroke, bled score",38G3,704180000,3012193016,,38G3.00,Cerebrovascular disease,CVD
+2160121019,carotid artery doppler abnormal,5C10,408571007,2160121019,,5C10.00,Cerebrovascular disease,CVD
+2.12E+15,stroke self-management plan agreed,661M7,8.12E+14,2.12E+15,,661M700,Cerebrovascular disease,CVD
+1780304018,stroke/cva annual review,662e,699270006,2983515011,,662e.00,Cerebrovascular disease,CVD
+2.13E+15,stroke annual review,6.62E+01,699270006,2983500010,,662e.11,Cerebrovascular disease,CVD
+264499015,stroke monitoring,662M,170600009,264499015,,662M.00,Cerebrovascular disease,CVD
+1.16E+15,stroke 6 month review,662M1,5.20E+14,1.16E+15,,662M100,Cerebrovascular disease,CVD
+2548554013,haemorrhagic stroke monitoring,662o,417506008,2548554013,,662o.00,Cerebrovascular disease,CVD
+265692011,evacuation of intracerebral haematoma nec,70043,10458001,279429014,,7004300,Cerebrovascular disease,CVD
+6.42E+14,endarterectomy and patch repair of carotid artery,7A203,175367001,271532012,,7A20300,Cerebrovascular disease,CVD
+271533019,carotid endarterectomy and patch,7A203-1,175367001,271533019,,7A20311,Cerebrovascular disease,CVD
+271534013,endarterectomy of carotid artery nec,7A204,66951008,111206015,,7A20400,Cerebrovascular disease,CVD
+3.72E+14,delivery of rehabilitation for stroke,7P242,2.31E+14,3.72E+14,,7P24200,Cerebrovascular disease,CVD
+1.15E+15,transient ischaemic attack clinical management plan,8CRB,736288002,3517033016,,8CRB.00,Cerebrovascular disease,CVD
+2469365010,stroke / transient ischaemic attack referral,8HBJ,413124000,2469365010,,8HBJ.00,Cerebrovascular disease,CVD
+449935012,admission to stroke unit,8Hd6,306803007,449935012,,8Hd6.00,Cerebrovascular disease,CVD
+9.67E+14,ref to multidisciplinary stroke function improvement service,8HHM,1.13E+14,1.99E+14,,8HHM.00,Cerebrovascular disease,CVD
+1.78E+15,ref multidisciplinary stroke function improvement declined,8IEC,7.82E+14,1.75E+15,,8IEC.00,Cerebrovascular disease,CVD
+1.39E+14,exception reporting: stroke quality indicators,9h2,7.16E+14,1.57E+15,,9h2..00,Cerebrovascular disease,CVD
+1.39E+14,excepted from stroke quality indicators: patient unsuitable,9h21,7.17E+14,1.57E+15,,9h21.00,Cerebrovascular disease,CVD
+1.39E+14,excepted from stroke quality indicators: informed dissent,9h22,7.16E+14,1.57E+15,,9h22.00,Cerebrovascular disease,CVD
+2.36E+14,stroke/transient ischaemic attack monitoring administration,9Om,7.14E+14,1.57E+15,,9Om..00,Cerebrovascular disease,CVD
+2534253014,stroke/transient ischaemic attack monitoring first letter,9Om0,415628004,2534253014,,9Om0.00,Cerebrovascular disease,CVD
+2534212018,stroke/transient ischaemic attack monitoring second letter,9Om1,415629007,2534212018,,9Om1.00,Cerebrovascular disease,CVD
+2534196010,stroke/transient ischaemic attack monitoring third letter,9Om2,415631003,2534196010,,9Om2.00,Cerebrovascular disease,CVD
+9.87E+14,stroke/transient ischaemic attack monitoring verbal invitati,9Om3,417059002,2549607012,,9Om3.00,Cerebrovascular disease,CVD
+294703019,"acute confusional state, of cerebrovascular origin",E0304,191505005,294703019,,E030400,Cerebrovascular disease,CVD
+294711012,"subacute confusional state, of cerebrovascular origin",E0314,191512001,294711012,,E031400,Cerebrovascular disease,CVD
+474192015,infantile posthaemorrhagic hydrocephalus,F117,359634001,474192015,,F117.00,Cerebrovascular disease,CVD
+297013012,cerebral degeneration due to cerebrovascular disease,F11x2,192813004,297013012,,F11x200,Cerebrovascular disease,CVD
+345121017,vascular parkinsonism,F124,230296006,345121017,,F124.00,Cerebrovascular disease,CVD
+4.17E+14,[x]other vascular syndroms/brain in cerebrovasculr diseases,Fyu57,62914000,104563015,,Fyu5700,Cerebrovascular disease,CVD
+104563015,cerebrovascular disease,G6,62914000,104563015,,G6...00,Cerebrovascular disease,CVD
+481028017,subarachnoid haemorrhage,G60,21454007,481028017,,G60..00,Cerebrovascular disease,CVD
+300242011,ruptured berry aneurysm,G600,195154000,300242011,,G600.00,Cerebrovascular disease,CVD
+300244012,subarachnoid haemorrhage from carotid siphon and bifurcation,G601,195155004,300244012,,G601.00,Cerebrovascular disease,CVD
+1.24E+14,subarachnoid haemorrhage from middle cerebral artery,G602,21454007,481028017,,G602.00,Cerebrovascular disease,CVD
+1.23E+14,subarachnoid haemorrhage from anterior communicating artery,G603,21454007,481028017,,G603.00,Cerebrovascular disease,CVD
+1.24E+14,subarachnoid haemorrhage from posterior communicating artery,G604,21454007,481028017,,G604.00,Cerebrovascular disease,CVD
+1.23E+14,subarachnoid haemorrhage from basilar artery,G605,276284000,412361011,,G605.00,Cerebrovascular disease,CVD
+300253017,subarachnoid haemorrhage from vertebral artery,G606,195160000,300253017,,G606.00,Cerebrovascular disease,CVD
+1.23E+14,"subarachnoid haemorrh from intracranial artery, unspecif",G60X,21454007,36011016,,G60X.00,Cerebrovascular disease,CVD
+300257016,subarachnoid haemorrhage nos,G60z,21454007,481028017,,G60z.00,Cerebrovascular disease,CVD
+7.45E+14,intracerebral haemorrhage,G61,274100004,2819959010,,G61..00,Cerebrovascular disease,CVD
+6.05E+14,cva - cerebrovascular accid due to intracerebral haemorrhage,G61-1,274100004,409859018,,G61..11,Cerebrovascular disease,CVD
+1.22E+14,stroke due to intracerebral haemorrhage,G61-2,274100004,409859018,,G61..12,Cerebrovascular disease,CVD
+495394013,cortical haemorrhage,G610,49422009,495394013,,G610.00,Cerebrovascular disease,CVD
+496232015,internal capsule haemorrhage,G611,52201006,496232015,,G611.00,Cerebrovascular disease,CVD
+5.04E+14,basal nucleus haemorrhage,G612,195165005,300272017,,G612.00,Cerebrovascular disease,CVD
+502878012,cerebellar haemorrhage,G613,75038005,502878012,,G613.00,Cerebrovascular disease,CVD
+503469016,pontine haemorrhage,G614,7713009,503469016,,G614.00,Cerebrovascular disease,CVD
+483988011,bulbar haemorrhage,G615,732923001,3467314012,,G615.00,Cerebrovascular disease,CVD
+300276019,external capsule haemorrhage,G616,195167002,300276019,,G616.00,Cerebrovascular disease,CVD
+300277011,"intracerebral haemorrhage, intraventricular",G617,195168007,300277011,,G617.00,Cerebrovascular disease,CVD
+7.47E+14,"intracerebral haemorrhage, multiple localized",G618,195169004,300280012,,G618.00,Cerebrovascular disease,CVD
+345675012,lobar cerebral haemorrhage,G619,230710000,345675012,,G619.00,Cerebrovascular disease,CVD
+7.45E+14,"intracerebral haemorrhage in hemisphere, unspecified",G61X,274100004,409860011,,G61X.00,Cerebrovascular disease,CVD
+7.49E+14,"left sided intracerebral haemorrhage, unspecified",G61X0,274100004,409860011,,G61X000,Cerebrovascular disease,CVD
+1.63E+14,"right sided intracerebral haemorrhage, unspecified",G61X1,308128006,451441015,,G61X100,Cerebrovascular disease,CVD
+300287010,intracerebral haemorrhage nos,G61z,274100004,2819959010,,G61z.00,Cerebrovascular disease,CVD
+300290016,other and unspecified intracranial haemorrhage,G62,62914000,104563015,,G62..00,Cerebrovascular disease,CVD
+300294013,subdural haemorrhage - nontraumatic,G621,195176009,300294013,,G621.00,Cerebrovascular disease,CVD
+2534198011,subdural haemorrhage nos,G623,35486000,486181011,,G623.00,Cerebrovascular disease,CVD
+300298011,intracranial haemorrhage nos,G62z,1386000,475553012,,G62z.00,Cerebrovascular disease,CVD
+395777014,precerebral arterial occlusion,G63,266253001,395777014,,G63..00,Cerebrovascular disease,CVD
+345639010,infarction - precerebral,G63-1,230692004,345639010,,G63..11,Cerebrovascular disease,CVD
+1.26E+14,stenosis of precerebral arteries,G63-2,1055001,2858018,,G63..12,Cerebrovascular disease,CVD
+300303013,basilar artery occlusion,G630,195180004,300303013,,G630.00,Cerebrovascular disease,CVD
+395778016,carotid artery occlusion,G631,266254007,395778016,,G631.00,Cerebrovascular disease,CVD
+1.27E+14,"stenosis, carotid artery",G631-1,64586002,107332010,,G631.11,Cerebrovascular disease,CVD
+300309012,vertebral artery occlusion,G632,195182007,300309012,,G632.00,Cerebrovascular disease,CVD
+300310019,multiple and bilateral precerebral arterial occlusion,G633,195183002,300310019,,G633.00,Cerebrovascular disease,CVD
+107332010,carotid artery stenosis,G634,64586002,107332010,,G634.00,Cerebrovascular disease,CVD
+300311015,other precerebral artery occlusion,G63y,266253001,395777014,,G63y.00,Cerebrovascular disease,CVD
+300312010,cerebral infarct due to thrombosis of precerebral arteries,G63y0,195185009,300312010,,G63y000,Cerebrovascular disease,CVD
+300313017,cerebral infarction due to embolism of precerebral arteries,G63y1,195186005,300313017,,G63y100,Cerebrovascular disease,CVD
+300314011,precerebral artery occlusion nos,G63z,266253001,395777014,,G63z.00,Cerebrovascular disease,CVD
+1222398015,cerebral arterial occlusion,G64,20059004,1222398015,,G64..00,Cerebrovascular disease,CVD
+6.05E+14,cva - cerebral artery occlusion,G64-1,230691006,345638019,,G64..11,Cerebrovascular disease,CVD
+2.19E+14,infarction - cerebral,G64-2,432504007,2770034014,,G64..12,Cerebrovascular disease,CVD
+1.22E+14,stroke due to cerebral arterial occlusion,G64-3,230691006,345638019,,G64..13,Cerebrovascular disease,CVD
+118689010,cerebral thrombosis,G640,71444005,118689010,,G640.00,Cerebrovascular disease,CVD
+300321011,cerebral infarction due to thrombosis of cerebral arteries,G6400,195189003,300321011,,G640000,Cerebrovascular disease,CVD
+125470015,cerebral embolism,G641,75543006,125470015,,G641.00,Cerebrovascular disease,CVD
+5.43E+14,cerebral embolus,G641-1,75543006,125470015,,G641.11,Cerebrovascular disease,CVD
+300322016,cerebral infarction due to embolism of cerebral arteries,G6410,195190007,300322016,,G641000,Cerebrovascular disease,CVD
+395780010,cerebral infarction nos,G64z,432504007,2770034014,,G64z.00,Cerebrovascular disease,CVD
+345650013,brainstem infarction nos,G64z-1,95457000,158113017,,G64z.11,Cerebrovascular disease,CVD
+158118014,cerebellar infarction,G64z-2,95460007,158118014,,G64z.12,Cerebrovascular disease,CVD
+5.25E+14,brainstem infarction,G64z0,95457000,158113017,,G64z000,Cerebrovascular disease,CVD
+5.73E+13,wallenberg syndrome,G64z1,78569004,130374019,,G64z100,Cerebrovascular disease,CVD
+130375018,lateral medullary syndrome,G64z1-1,78569004,130375018,,G64z111,Cerebrovascular disease,CVD
+451133011,left sided cerebral infarction,G64z2,307766002,451133011,,G64z200,Cerebrovascular disease,CVD
+451134017,right sided cerebral infarction,G64z3,307767006,451134017,,G64z300,Cerebrovascular disease,CVD
+2474651019,infarction of basal ganglia,G64z4,413102000,2474651019,,G64z400,Cerebrovascular disease,CVD
+395788015,transient cerebral ischaemia,G65,266257000,395788015,,G65..00,Cerebrovascular disease,CVD
+395783012,transient ischaemic attack,G65-2,266257000,395783012,,G65..12,Cerebrovascular disease,CVD
+6.75E+13,vertebro-basilar insufficiency,G65-3,64009001,106394016,,G65..13,Cerebrovascular disease,CVD
+106392017,basilar artery syndrome,G650,64009001,106392017,,G650.00,Cerebrovascular disease,CVD
+499739014,insufficiency - basilar artery,G650-1,64009001,499739014,,G650.11,Cerebrovascular disease,CVD
+58046010,vertebral artery syndrome,G651,34781003,58046010,,G651.00,Cerebrovascular disease,CVD
+6.75E+13,vertebro-basilar artery syndrome,G6510,195199008,300343015,,G651000,Cerebrovascular disease,CVD
+300344014,carotid artery syndrome hemispheric,G653,195200006,300344014,,G653.00,Cerebrovascular disease,CVD
+300345010,multiple and bilateral precerebral artery syndromes,G654,195201005,300345010,,G654.00,Cerebrovascular disease,CVD
+106394016,vertebrobasilar insufficiency,G656,64009001,106394016,,G656.00,Cerebrovascular disease,CVD
+345684012,carotid territory transient ischaemic attack,G657,230716006,345684012,,G657.00,Cerebrovascular disease,CVD
+300348012,other transient cerebral ischaemia,G65y,266257000,395788015,,G65y.00,Cerebrovascular disease,CVD
+9.59E+13,transient cerebral ischaemia nos,G65z,266257000,395788015,,G65z.00,Cerebrovascular disease,CVD
+300353019,intermittent cerebral ischaemia,G65z1,195206000,300353019,,G65z100,Cerebrovascular disease,CVD
+300349016,transient cerebral ischaemia nos,G65zz,266257000,395788015,,G65zz00,Cerebrovascular disease,CVD
+405339016,stroke and cerebrovascular accident unspecified,G66,230690007,345637012,,G66..00,Cerebrovascular disease,CVD
+6.06E+14,cva unspecified,G66-1,230690007,345637012,,G66..11,Cerebrovascular disease,CVD
+1.22E+14,stroke unspecified,G66-2,230690007,345637012,,G66..12,Cerebrovascular disease,CVD
+6.05E+14,cva - cerebrovascular accident unspecified,G66-3,230690007,345635016,,G66..13,Cerebrovascular disease,CVD
+300362017,middle cerebral artery syndrome,G660,195209007,300362017,,G660.00,Cerebrovascular disease,CVD
+300363010,anterior cerebral artery syndrome,G661,195210002,300363010,,G661.00,Cerebrovascular disease,CVD
+300364016,posterior cerebral artery syndrome,G662,195211003,300364016,,G662.00,Cerebrovascular disease,CVD
+5.25E+14,brain stem stroke syndrome,G663,195212005,300365015,,G663.00,Cerebrovascular disease,CVD
+300366019,cerebellar stroke syndrome,G664,195213000,300366019,,G664.00,Cerebrovascular disease,CVD
+345655015,pure motor lacunar syndrome,G665,230699008,345655015,,G665.00,Cerebrovascular disease,CVD
+345658018,pure sensory lacunar syndrome,G666,230700009,345658018,,G666.00,Cerebrovascular disease,CVD
+300370010,left sided cva,G667,195216008,300370010,,G667.00,Cerebrovascular disease,CVD
+300371014,right sided cva,G668,195217004,300371014,,G668.00,Cerebrovascular disease,CVD
+300374018,other cerebrovascular disease,G67,62914000,104563015,,G67..00,Cerebrovascular disease,CVD
+8.01E+14,generalised ischaemic cerebrovascular disease nos,G671,302909007,444905019,,G671.00,Cerebrovascular disease,CVD
+300380014,acute cerebrovascular insufficiency nos,G6710,29322000,49074018,,G671000,Cerebrovascular disease,CVD
+300379011,generalised ischaemic cerebrovascular disease nos,G671z,302909007,444905019,,G671z00,Cerebrovascular disease,CVD
+5.42E+14,"cereb infarct due cerebral venous thrombosis, nonpyogenic",G6760,195230003,300393016,,G676000,Cerebrovascular disease,CVD
+2.67E+14,occlusion/stenosis cerebral arts not result cerebral infarct,G677,195231004,300394010,,G677.00,Cerebrovascular disease,CVD
+300395011,occlusion and stenosis of middle cerebral artery,G6770,195232006,300395011,,G677000,Cerebrovascular disease,CVD
+300396012,occlusion and stenosis of anterior cerebral artery,G6771,195233001,300396012,,G677100,Cerebrovascular disease,CVD
+300398013,occlusion and stenosis of posterior cerebral artery,G6772,195234007,300398013,,G677200,Cerebrovascular disease,CVD
+300399017,occlusion and stenosis of cerebellar arteries,G6773,195235008,300399017,,G677300,Cerebrovascular disease,CVD
+2.67E+14,occlusion+stenosis of multiple and bilat cerebral arteries,G6774,195236009,300400012,,G677400,Cerebrovascular disease,CVD
+1.13E+15,small vessel cerebrovascular disease,G679,443929000,2842187014,,G679.00,Cerebrovascular disease,CVD
+300401011,other cerebrovascular disease os,G67y,62914000,104563015,,G67y.00,Cerebrovascular disease,CVD
+300402016,other cerebrovascular disease nos,G67z,62914000,104563015,,G67z.00,Cerebrovascular disease,CVD
+300403014,late effects of cerebrovascular disease,G68,195239002,300403014,,G68..00,Cerebrovascular disease,CVD
+300406018,sequelae of subarachnoid haemorrhage,G680,195240000,300406018,,G680.00,Cerebrovascular disease,CVD
+300407010,sequelae of intracerebral haemorrhage,G681,195241001,300407010,,G681.00,Cerebrovascular disease,CVD
+1.50E+14,sequelae of other nontraumatic intracranial haemorrhage,G682,363302008,482447013,,G682.00,Cerebrovascular disease,CVD
+300411016,sequelae of cerebral infarction,G683,195243003,300411016,,G683.00,Cerebrovascular disease,CVD
+1.50E+14,sequelae/other + unspecified cerebrovascular diseases,G68W,195239002,300403014,,G68W.00,Cerebrovascular disease,CVD
+1.50E+14,"sequelae of stroke,not specfd as h'morrhage or infarction",G68X,195239002,300403014,,G68X.00,Cerebrovascular disease,CVD
+5.42E+14,cereb infarct due unsp occlus/stenos precerebr arteries,G6W,1.25E+14,3042974014,,G6W..00,Cerebrovascular disease,CVD
+5.43E+14,cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs,G6X,20059004,33759015,,G6X..00,Cerebrovascular disease,CVD
+300418010,other specified cerebrovascular disease,G6y,62914000,104563015,,G6y..00,Cerebrovascular disease,CVD
+300419019,cerebrovascular disease nos,G6z,62914000,104563015,,G6z..00,Cerebrovascular disease,CVD
+1228941010,carotid artery disease,G70y0-1,300920004,442119017,,G70y011,Cerebrovascular disease,CVD
+3.71E+14,[x]cerebrovascular diseases,Gyu6,62914000,104563015,,Gyu6.00,Cerebrovascular disease,CVD
+300935019,[x]subarachnoid haemorrhage from other intracranial arteries,Gyu60,21454007,481028017,,Gyu6000,Cerebrovascular disease,CVD
+300936018,[x]other subarachnoid haemorrhage,Gyu61,21454007,481028017,,Gyu6100,Cerebrovascular disease,CVD
+300939013,[x]other intracerebral haemorrhage,Gyu62,274100004,409860011,,Gyu6200,Cerebrovascular disease,CVD
+3.71E+14,[x]cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs,Gyu63,20059004,33759015,,Gyu6300,Cerebrovascular disease,CVD
+300941014,[x]other cerebral infarction,Gyu64,432504007,2770034014,,Gyu6400,Cerebrovascular disease,CVD
+300942019,[x]occlusion and stenosis of other precerebral arteries,Gyu65,266253001,395777014,,Gyu6500,Cerebrovascular disease,CVD
+300943012,[x]occlusion and stenosis of other cerebral arteries,Gyu66,20059004,33759015,,Gyu6600,Cerebrovascular disease,CVD
+300944018,[x]other specified cerebrovascular diseases,Gyu67,62914000,104563015,,Gyu6700,Cerebrovascular disease,CVD
+4.07E+14,[x]other cerebrovascular disorders in diseases ce,Gyu6A,62914000,104563015,,Gyu6A00,Cerebrovascular disease,CVD
+4.26E+14,[x]sequelae/other + unspecified cerebrovascular diseases,Gyu6D,195239002,300403014,,Gyu6D00,Cerebrovascular disease,CVD
+4.28E+14,"[x]subarachnoid haemorrh from intracranial artery, unspecif",Gyu6E,21454007,36011016,,Gyu6E00,Cerebrovascular disease,CVD
+300956017,"[x]intracerebral haemorrhage in hemisphere, unspecified",Gyu6F,274100004,409860011,,Gyu6F00,Cerebrovascular disease,CVD
+3.71E+14,[x]cereb infarct due unsp occlus/stenos precerebr arteries,Gyu6G,1.25E+14,3042974014,,Gyu6G00,Cerebrovascular disease,CVD
+5.43E+14,cerebrovascular disorders in the puerperium,L440,6594005,11941010,,L440.00,Cerebrovascular disease,CVD
+6.05E+14,cva - cerebrovascular accident in the puerperium,L440-1,275434003,411416011,,L440.11,Cerebrovascular disease,CVD
+411416011,stroke in the puerperium,L440-2,275434003,411416011,,L440.12,Cerebrovascular disease,CVD
+307879017,puerperal cerebrovascular disorder unspecified,L4400,6594005,11941010,,L440000,Cerebrovascular disease,CVD
+307880019,puerperal cerebrovascular disorder - delivered,L4401,200330000,307880019,,L440100,Cerebrovascular disease,CVD
+2.01E+14,puerperal cerebrovascular disorder with antenatal comp,L4403,200332008,307882010,,L440300,Cerebrovascular disease,CVD
+313568013,cerebrovascular system anomalies,P7y0,204497008,313568013,,P7y0.00,Cerebrovascular disease,CVD
+313576010,other specified cerebrovascular anomaly,P7y0y,204497008,313568013,,P7y0y00,Cerebrovascular disease,CVD
+313577018,cerebrovascular system anomaly nos,P7y0z,204497008,313568013,,P7y0z00,Cerebrovascular disease,CVD
+359985011,intracerebral haemorrhage in fetus or newborn,Q2000-1,240313004,2790755010,,Q200011,Cerebrovascular disease,CVD
+7.45E+14,intracerebral (nontraumatic) haemorrhage of fet and newborn,Q4170,206417009,2791314016,,Q417000,Cerebrovascular disease,CVD
+391042012,subarachnoid haemorrhage following injury,S62-2,450375008,2915656010,,S62..12,Cerebrovascular disease,CVD
+402929011,closed traumatic subarachnoid haemorrhage,S620,28048009,483737017,,S620.00,Cerebrovascular disease,CVD
+320735017,open traumatic subarachnoid haemorrhage,S621,5251007,496337012,,S621.00,Cerebrovascular disease,CVD
+391043019,traumatic subarachnoid haemorrhage,S627,450375008,2915656010,,S627.00,Cerebrovascular disease,CVD
+320835014,traumatic subdural haemorrhage,S628,209987007,320835014,,S628.00,Cerebrovascular disease,CVD
+320897016,other cerebral haemorrhage following injury nos,S63z,450418003,2916363013,,S63z.00,Cerebrovascular disease,CVD
+1227591017,[v]personal history of stroke,ZV125-1,275526006,2476091017,,ZV12511,Cerebrovascular disease,CVD
+1227592012,[v]personal history of cerebrovascular accident (cva),ZV125-2,266995000,397829016,,ZV12512,Cerebrovascular disease,CVD
+8.85E+14,stroke,G66-99,6.86E+14,8.85E+14,,4369B,Cerebrovascular disease,CVD

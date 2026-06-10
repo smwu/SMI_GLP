@@ -1,0 +1,389 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"118689010"	27662	"G640"	"G640.00"	"cerebral thrombosis"	"71444005"	"118689010"	32
+"125470015"	7631	"G641"	"G641.00"	"cerebral embolism"	"75543006"	"125470015"	32
+"158118014"	49750	"G64z-2"	"G64z.12"	"cerebellar infarction"	"95460007"	"158118014"	32
+"264499015"	628954	"662M"	"662M.00"	"stroke monitoring"	"170600009"	"264499015"	1
+"299342019"	34030	"Fyu56"	"Fyu5600"	"lacunar infarction"	"230698000"	"345651012"	32
+"300277011"	5812	"G617"	"G617.00"	"intracerebral haemorrhage, intraventricular"	"195168007"	"300277011"	32
+"300287010"	4588	"G61z"	"G61z.00"	"intracerebral haemorrhage nos"	"274100004"	"2819959010"	32
+"300303013"	1189	"G630"	"G630.00"	"basilar artery occlusion"	"195180004"	"300303013"	32
+"300310019"	13	"G633"	"G633.00"	"multiple and bilateral precerebral arterial occlusion"	"195183002"	"300310019"	32
+"300311015"	219	"G63y"	"G63y.00"	"other precerebral artery occlusion"	"266253001"	"395777014"	32
+"300312010"	3311	"G63y0"	"G63y000"	"cerebral infarct due to thrombosis of precerebral arteries"	"195185009"	"300312010"	32
+"300313017"	1374	"G63y1"	"G63y100"	"cerebral infarction due to embolism of precerebral arteries"	"195186005"	"300313017"	32
+"300314011"	626	"G63z"	"G63z.00"	"precerebral artery occlusion nos"	"266253001"	"395777014"	32
+"300321011"	4804	"G6400"	"G640000"	"cerebral infarction due to thrombosis of cerebral arteries"	"195189003"	"300321011"	32
+"300322016"	1981	"G6410"	"G641000"	"cerebral infarction due to embolism of cerebral arteries"	"195190007"	"300322016"	32
+"300366019"	10753	"G664"	"G664.00"	"cerebellar stroke syndrome"	"195213000"	"300366019"	32
+"300370010"	86446	"G667"	"G667.00"	"left sided cva"	"195216008"	"300370010"	32
+"300371014"	79870	"G668"	"G668.00"	"right sided cva"	"195217004"	"300371014"	32
+"300395011"	814	"G6770"	"G677000"	"occlusion and stenosis of middle cerebral artery"	"195232006"	"300395011"	32
+"300396012"	80	"G6771"	"G677100"	"occlusion and stenosis of anterior cerebral artery"	"195233001"	"300396012"	32
+"300398013"	138	"G6772"	"G677200"	"occlusion and stenosis of posterior cerebral artery"	"195234007"	"300398013"	32
+"300407010"	140	"G681"	"G681.00"	"sequelae of intracerebral haemorrhage"	"195241001"	"300407010"	32
+"300411016"	670	"G683"	"G683.00"	"sequelae of cerebral infarction"	"195243003"	"300411016"	32
+"300939013"	1654	"Gyu62"	"Gyu6200"	"cerebral haemorrhage"	"274100004"	"409860011"	32
+"300941014"	3167	"Gyu64"	"Gyu6400"	"[x]other cerebral infarction"	"432504007"	"2770034014"	32
+"300942019"	41	"Gyu65"	"Gyu6500"	"[x]occlusion and stenosis of other precerebral arteries"	"266253001"	"395777014"	32
+"300943012"	4267	"Gyu66"	"Gyu6600"	"cerebral artery occlusion"	"20059004"	"33759015"	32
+"300956017"	481	"Gyu6F"	"Gyu6F00"	"[x]intracerebral haemorrhage in hemisphere, unspecified"	"274100004"	"409860011"	32
+"307780013"	167	"L417"	"L417.00"	"obstetric cerebral venous thrombosis"	"200258006"	"307780013"	32
+"345639010"	148	"G63-1"	"G63..11"	"infarction - precerebral"	"230692004"	"345639010"	32
+"345650013"	1021	"G64z-1"	"G64z.11"	"brainstem infarction nos"	"95457000"	"158113017"	32
+"345675012"	1325	"G619"	"G619.00"	"lobar cerebral haemorrhage"	"230710000"	"345675012"	32
+"395777014"	2467	"G63"	"G63..00"	"precerebral arterial occlusion"	"266253001"	"395777014"	32
+"395780010"	256573	"G64z"	"G64z.00"	"cerebral infarction"	"432504007"	"2770034014"	32
+"405339016"	1171810	"G66"	"G66..00"	"cerebrovascular accident"	"230690007"	"345637012"	32
+"411518010"	64976	"14A7-1"	"14A7.11"	"h/o: cva"	"275526006"	"411518010"	32
+"413750011"	1472	"1M4"	"1M4..00"	"central post-stroke pain"	"277286006"	"413750011"	27
+"449935012"	2341	"8Hd6"	"8Hd6.00"	"admission to stroke unit"	"306803007"	"449935012"	40
+"451133011"	46039	"G64z2"	"G64z200"	"left sided cerebral infarction"	"307766002"	"451133011"	32
+"451134017"	40957	"G64z3"	"G64z300"	"right sided cerebral infarction"	"307767006"	"451134017"	32
+"451371010"	1420	"14AK"	"14AK.00"	"h/o: stroke in last year"	"308067002"	"451371010"	32
+"502878012"	12877	"G613"	"G613.00"	"cerebellar haemorrhage"	"75038005"	"502878012"	32
+"1212072018"	721	"ESCTOC3"	NA	"occlusive stroke"	"373606000"	"1212072018"	32
+"1222398015"	136949	"G64"	"G64..00"	"cerebral arterial occlusion"	"20059004"	"1222398015"	32
+"1227591017"	18453	"ZV125-1"	"ZV12511"	"[v]personal history of stroke"	"275526006"	"2476091017"	32
+"1227592012"	1269	"ZV125-2"	"ZV12512"	"[v]personal history of cerebrovascular accident (cva)"	"266995000"	"397829016"	32
+"1780304018"	623664	"662e"	"662e.00"	"cva annual review"	"699270006"	"2983515011"	1
+"2469365010"	248156	"8HBJ"	"8HBJ.00"	"stroke / transient ischaemic attack referral"	"413124000"	"2469365010"	40
+"2474330011"	130831	"8HTQ"	"8HTQ.00"	"referral to stroke clinic"	"412773009"	"2474330011"	40
+"2474651019"	13423	"G64z4"	"G64z400"	"infarction of basal ganglia"	"413102000"	"2474651019"	32
+"2474668015"	144	"13YA"	"13YA.00"	"stroke group member"	"413119003"	"2474668015"	17
+"2476091017"	42395	"14A7-2"	"14A7.12"	"h/o: stroke"	"275526006"	"2476091017"	32
+"2548554013"	1547	"662o"	"662o.00"	"haemorrhagic stroke monitoring"	"417506008"	"2548554013"	1
+"3505637014"	228	"^ESCT1170857"	NA	"occlusion of left middle cerebral artery"	"329491000119109"	"3505637014"	32
+"3505639012"	192	"^ESCT1170856"	NA	"occlusion of right middle cerebral artery"	"329481000119106"	"3505639012"	32
+"3505651014"	51	"^ESCT1170859"	NA	"occlusion of left posterior cerebral artery"	"329571000119107"	"3505651014"	32
+"3505653012"	30	"^ESCT1170858"	NA	"occlusion of right posterior cerebral artery"	"329561000119101"	"3505653012"	32
+"3508952018"	20	"^ESCT1170889"	NA	"cerebrovascular accident due to thrombus of left carotid artery"	"330791000119108"	"3508952018"	32
+"3508955016"	199	"^ESCT1170860"	NA	"cerebrovascular accident due to thrombus of basilar artery"	"329641000119104"	"3508955016"	32
+"3508956015"	8	"^ESCT1170861"	NA	"stroke due to basilar artery thrombus"	"329641000119104"	"3508956015"	32
+"3508958019"	28	"^ESCT1170862"	NA	"cerebrovascular accident due to thrombus of right carotid artery"	"329651000119102"	"3508958019"	32
+"3508961018"	298	"^ESCT1172901"	NA	"cerebrovascular accident due to thrombus of right middle cerebral artery"	"16002031000119102"	"3508961018"	32
+"3508962013"	37	"^ESCT1172902"	NA	"stroke due to thrombus of right middle cerebral artery"	"16002031000119102"	"3508962013"	32
+"3508964014"	316	"^ESCT1172903"	NA	"cerebrovascular accident due to thrombus of left middle cerebral artery"	"16002111000119106"	"3508964014"	32
+"3508965010"	37	"^ESCT1172904"	NA	"stroke due to thrombus of left middle cerebral artery"	"16002111000119106"	"3508965010"	32
+"3509769018"	6	"^ESCT1172974"	NA	"cerebrovascular accident due to occlusion of left cerebellar artery"	"16024151000119105"	"3509769018"	32
+"3509777019"	7	"^ESCT1172971"	NA	"cerebrovascular accident due to occlusion of left pontine artery"	"16023991000119104"	"3509777019"	31
+"3509781019"	15	"^ESCT1172975"	NA	"cerebrovascular accident due to occlusion of right cerebellar artery"	"16024271000119107"	"3509781019"	32
+"3509790014"	74	"^ESCT1172898"	NA	"cerebrovascular accident due to occlusion of right posterior cerebral artery"	"16000391000119104"	"3509790014"	32
+"3509792018"	32	"^ESCT1172973"	NA	"cerebrovascular accident due to occlusion of left carotid artery"	"16024111000119109"	"3509792018"	32
+"3509794017"	285	"^ESCT1172900"	NA	"cerebrovascular accident due to occlusion of left middle cerebral artery"	"16000511000119103"	"3509794017"	32
+"3509799010"	30	"^ESCT1172897"	NA	"cerebrovascular accident due to occlusion of left posterior cerebral artery"	"16000351000119109"	"3509799010"	32
+"3509810017"	216	"^ESCT1172899"	NA	"cerebrovascular accident due to occlusion of right middle cerebral artery"	"16000431000119109"	"3509810017"	32
+"3509817019"	13	"^ESCT1170855"	NA	"left hemispheric cerebellar artery embolism with stroke"	"329461000119102"	"3509817019"	32
+"3510550010"	1	"^ESCT1170615"	NA	"history of haemorrhagic cerebrovascular accident with residual deficit"	"141811000119106"	"3510550010"	31
+"3510551014"	1	"^ESCT1170616"	NA	"history of hemorrhagic stroke with residual deficit"	"141811000119106"	"3510551014"	31
+"3510824019"	2	"^ESCT1170661"	NA	"ataxia as sequela of cerebrovascular accident"	"290581000119101"	"3510824019"	31
+"3511955015"	176	"^ESCT1164369"	NA	"thrombosis of right middle cerebral artery"	"734384004"	"3511955015"	32
+"3511959014"	195	"^ESCT1164367"	NA	"thrombosis of left middle cerebral artery"	"734383005"	"3511959014"	32
+"3512170017"	10	"^ESCT1164935"	NA	"embolus of left posterior cerebral artery"	"734961002"	"3512170017"	32
+"3512174014"	10	"^ESCT1164936"	NA	"embolus of right posterior cerebral artery"	"734963004"	"3512174014"	32
+"3512176011"	82	"^ESCT1164937"	NA	"embolus of left middle cerebral artery"	"734964005"	"3512176011"	32
+"3512178012"	66	"^ESCT1164938"	NA	"embolus of right middle cerebral artery"	"734965006"	"3512178012"	32
+"3516948016"	6	"^ESCT1166502"	NA	"stroke care plan"	"736251000"	"3516948016"	31
+"3521990012"	37	"^ESCT1166914"	NA	"pass (postural assessment scale for stroke patients) score"	"736712009"	"3521990012"	27
+"3636133016"	14	"^ESCT1170849"	NA	"cerebrovascular accident due to occlusion of right middle cerebral artery by embolus"	"329361000119107"	"3636133016"	32
+"3636136012"	24	"^ESCT1170850"	NA	"cerebrovascular accident due to occlusion of left middle cerebral artery by embolus"	"329371000119101"	"3636136012"	32
+"3636139017"	1	"^ESCT1170852"	NA	"cerebrovascular accident due to occlusion of left posterior cerebral artery by embolus"	"329431000119105"	"3636139017"	32
+"3636141016"	2	"^ESCT1170853"	NA	"cerebrovascular accident due to occlusion of right cerebellar artery by embolus"	"329451000119104"	"3636141016"	32
+"3636143018"	16	"^ESCT1170854"	NA	"cerebrovascular accident due to occlusion of left cerebellar artery by embolus"	"329461000119102"	"3636143018"	32
+"3636969013"	9	"^ESCT1169370"	NA	"occlusion of right middle cerebral artery by embolus"	"762629007"	"3636969013"	32
+"3636970014"	22	"^ESCT1169371"	NA	"occlusion of left middle cerebral artery by embolus"	"762630002"	"3636970014"	32
+"3637002014"	1	"^ESCT1169388"	NA	"occlusion of left posterior cerebral artery by embolus"	"762652006"	"3637002014"	32
+"100691000006118"	1439	"F0510"	"F051000"	"cerebral venous thrombosis of cavernous sinus"	"89980009"	"1235519010"	32
+"122361000006113"	34079	"G64-3"	"G64..13"	"stroke due to cerebral arterial occlusion"	"230691006"	"345638019"	32
+"122371000006118"	43925	"G61-2"	"G61..12"	"cerebral haemorrhage"	"274100004"	"409860011"	32
+"122401000006115"	116319	"G66-2"	"G66..12"	"stroke unspecified"	"230690007"	"345637012"	32
+"149571000006118"	584	"G68X"	"G68X.00"	"sequelae of stroke,not specfd as h'morrhage or infarction"	"195239002"	"300403014"	32
+"162111000000112"	7646	"9N4X"	"9N4X.00"	"did not attend stroke clinic"	"88601000000107"	"137901000000116"	37
+"163261000006119"	1366	"G61X1"	"G61X100"	"right sided intracerebral haemorrhage, unspecified"	"195168007"	"300277011"	32
+"218511000000117"	17066	"G64-2"	"G64..12"	"infarction - cerebral"	"432504007"	"2770034014"	32
+"267311000006118"	44	"G6774"	"G677400"	"occlusion and stenosis of multiple and bilateral cerebral arteries"	"195236009"	"300400012"	32
+"267321000006114"	52	"G677"	"G677.00"	"occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction"	"195231004"	"300394010"	32
+"306621000000116"	392574	"9N0p"	"9N0p.00"	"seen in stroke clinic"	"201501000000108"	"306621000000116"	37
+"370661000006114"	232	"Gyu6G"	"Gyu6G00"	"[x]cereb infarct due unsp occlus/stenos precerebr arteries"	"125081000119106"	"3042974014"	32
+"370701000006118"	451	"Gyu63"	"Gyu6300"	"[x]cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs"	"20059004"	"33759015"	32
+"371641000000112"	3082	"7P242"	"7P24200"	"delivery of rehabilitation for stroke"	"231231000000107"	"371641000000112"	32
+"426321000006116"	105	"Gyu6C"	"Gyu6C00"	"[x]sequelae of stroke,not specfd as h'morrhage or infarction"	"195239002"	"300403014"	32
+"524511000006116"	10237	"G663"	"G663.00"	"brainstem stroke syndrome"	"195212005"	"300365015"	32
+"542251000006112"	1044	"G6760"	"G676000"	"cerebral infarction due to cerebral venous thrombosis, non-pyogenic"	"195230003"	"300393016"	32
+"542261000006114"	1682	"G6W"	"G6W..00"	"cerebral infarction due to occlusion of precerebral artery"	"125081000119106"	"3042974014"	32
+"542831000006116"	426	"G641-1"	"G641.11"	"cerebral embolus"	"75543006"	"125470015"	32
+"543141000006110"	5827	"G6X"	"G6X..00"	"cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs"	"20059004"	"33759015"	32
+"605461000006117"	167848	"G64-1"	"G64..11"	"cva - cerebrovascular accident due to cerebral artery occlusion"	"230691006"	"345638019"	32
+"605471000006112"	56150	"G61-1"	"G61..11"	"cerebral hemorrhage"	"274100004"	"409859018"	32
+"605491000006113"	252819	"G66-3"	"G66..13"	"cva - cerebrovascular accident"	"230690007"	"345635016"	32
+"605501000006117"	586984	"G66-1"	"G66..11"	"cva unspecified"	"230690007"	"345637012"	32
+"744901000006114"	97536	"G61"	"G61..00"	"intracerebral haemorrhage (ich)"	"274100004"	"2819959010"	32
+"744921000006116"	727	"G61X"	"G61X.00"	"intracerebral haemorrhage in hemisphere, unspecified"	"274100004"	"409860011"	32
+"746571000006116"	179	"G618"	"G618.00"	"intracerebral haemorrhage, multiple localized"	"195169004"	"300280012"	32
+"748941000006115"	1332	"G61X0"	"G61X000"	"left sided intracerebral haemorrhage, unspecified"	"274100004"	"409859018"	32
+"809421000006116"	175148	"14A7"	"14A7.00"	"history of cerebrovascular accident"	"275526006"	"2986886017"	32
+"841051000006113"	3418	"G678"	"G678.00"	"cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy"	"390936003"	"1477210016"	32
+"884421000006119"	1135	"G6-99"	"G6...99"	"cerebral haemorrhage"	"274100004"	"884421000006119"	32
+"884451000006111"	222	"G62z-99"	"G62z.99"	"cerebral haemorrhage nos"	"700251000000105"	"884451000006111"	32
+"884521000006115"	23418	"G66-98"	"G66..98"	"stroke/cva - undefined"	"685631000000102"	"884521000006115"	32
+"884531000006117"	11698	"G66-99"	"G66..99"	"stroke"	"685631000000102"	"884531000006117"	32
+"907581000006119"	2007	"HNG0234"	NA	"[rfc] reason for care : stroke/cva"	"907581000006103"	"907581000006119"	12
+"907591000006116"	2543	"HNG0235"	NA	"[rfc] reason for care : stroke"	"907591000006100"	"907591000006116"	12
+"908801000006114"	39277	"HNG0602"	NA	"[rfc] reason for care : stroke"	"908801000006105"	"908801000006114"	12
+"909171000006115"	3942	"HNGP003"	NA	"[rfc] reason for care : cva"	"909171000006104"	"909171000006115"	12
+"940051000006114"	7	"EMISNQST1"	NA	"stroke monitoring administration"	"940051000006105"	"940051000006114"	37
+"966981000006112"	929	"8HHM"	"8HHM.00"	"referral to multidisciplinary stroke function improvement service"	"112901000000108"	"199461000000113"	40
+"968341000006116"	1884	"EMISNQAN3"	NA	"annual stroke/cva blood test"	"968341000006100"	"968341000006116"	1
+"989201000006117"	1	"G61-99"	"G61..99"	"cerebral haemorrhage"	"274100004"	"989201000006117"	32
+"989211000006119"	1	"G61-98"	"G61..98"	"cerebral haemorrhage nos"	"274100004"	"989211000006119"	32
+"1160471000000111"	8737	"662M1"	"662M100"	"stroke 6 month review"	"519751000000106"	"1160471000000111"	1
+"1573101000006112"	701	"EMISNQCE4"	NA	"cerebral infarction with haemorrhagic transformation"	"1573101000006108"	"1573101000006112"	32
+"1576261000006112"	205	"EGTON2EGTON275"	NA	"cause of death- cerebral infarct"	"1576261000006108"	"1576261000006112"	37
+"1716621000000117"	36620	"1JA10"	"1JA1000"	"suspected cerebrovascular accident"	"769211000000103"	"1716621000000117"	27
+"1726581000006116"	27	"EMISNQCE10"	NA	"central post-stroke pain"	"1726581000006100"	"1726581000006116"	27
+"1729331000006116"	137	"EMISNQCE11"	NA	"cerebral venous thrombosis"	"1729331000006100"	"1729331000006116"	32
+"1773371000006117"	1095	"EMISNQCE16"	NA	"cerebrovascular accident care plan"	"1773371000006101"	"1773371000006117"	32
+"1784651000006110"	43	"8IEC"	"8IEC.00"	"referral for multidisciplinary stroke function improvement declined"	"781731000000103"	"1747751000000110"	32
+"1863321000006113"	83	"EMISNQRE381"	NA	"referral by stroke nurse specialist"	"1863321000006109"	"1863321000006113"	37
+"1994761000006112"	889	"EMISNQRE602"	NA	"referral to stroke rehabilitation service"	"1994761000006108"	"1994761000006112"	40
+"2008521000006110"	937	"EMISNQRE623"	NA	"referral to community stroke service"	"2008521000006106"	"2008521000006110"	40
+"2008601000006116"	1252	"EMISNQDI251"	NA	"discharge from community stroke service"	"2008601000006100"	"2008601000006116"	32
+"2115821000000118"	3325	"661N7"	"661N700"	"stroke self-management plan review"	"810991000000109"	"2115821000000118"	1
+"2118011000000114"	2614	"661M7"	"661M700"	"stroke self-management plan agreed"	"812041000000104"	"2118011000000114"	1
+"2126181000000114"	11715	"662e-1"	"662e.11"	"stroke annual review"	"699270006"	"2983500010"	1
+"2127781000000110"	1840	"662M2"	"662M200"	"stroke initial post discharge review"	"816561000000108"	"2127781000000110"	1
+"2436731000000112"	3671	"5C13"	"5C13.00"	"old cerebral infarction on imaging"	"955491000000106"	"2436731000000112"	41
+"2539131000006116"	413	"^ESCTST253913"	NA	"stroke rehabilitation"	"2517002"	"5296016"	31
+"2729551000000111"	140	"^ESCT1171762"	NA	"cerebral infarction due to occlusion of cerebral artery"	"1089411000000104"	"2729551000000111"	32
+"2729571000000119"	105	"^ESCT1171763"	NA	"cerebral infarction due to stenosis of cerebral artery"	"1089421000000105"	"2729571000000119"	32
+"2818821000006111"	1	"^ESCTOC281882"	NA	"occlusion of cerebral artery"	"20059004"	"2966627019"	32
+"2832671000006118"	2	"^ESCTSU283267"	NA	"subcortical cerebral haemorrhage"	"20908003"	"1216115011"	32
+"2838001000006118"	54	"^ESCTCE283800"	NA	"cerebral venous thrombosis of lateral sinus"	"21258007"	"1222620011"	32
+"2901571000006113"	244	"^ESCTCO290157"	NA	"completed stroke"	"25133001"	"42129011"	32
+"3441831000006111"	28	"^ESCTPR344183"	NA	"progressing stroke"	"57981008"	"96390010"	32
+"3441841000006118"	1	"^ESCTST344184"	NA	"stroke-in-evolution syndrome"	"57981008"	"96391014"	32
+"4056971000006118"	363	"^ESCTTH405697"	NA	"thrombosis of cerebral veins"	"95455008"	"158110019"	32
+"4056981000006115"	1007	"^ESCTCE405698"	NA	"cerebral venous thrombosis"	"95455008"	"158111015"	32
+"4057041000006110"	2	"^ESCTBR405704"	NA	"brain stem stroke"	"95457000"	"2966556014"	32
+"4193641000006111"	39	"^ESCTNO419364"	NA	"nonparalytic stroke"	"111297002"	"178528011"	32
+"4270361000006116"	17	"^ESCTPA427036"	NA	"paralytic stroke"	"116288000"	"178738015"	32
+"4777861000006119"	10	"^ESCTIN477786"	NA	"intracerebral haemorrhage with intraventricular haemorrhage"	"195168007"	"2915438018"	32
+"4777871000006114"	1	"^ESCTIN477787"	NA	"intracerebral hemorrhage with intraventricular hemorrhage"	"195168007"	"2916313015"	32
+"4777881000006112"	336	"^ESCTIN477788"	NA	"intracerebral haemorrhage, multiple localised"	"195169004"	"300280012"	32
+"4778181000006119"	11421	"^ESCTLE477818"	NA	"left sided cerebral hemisphere cerebrovascular accident"	"195216008"	"300369014"	32
+"4778201000006118"	9415	"^ESCTRI477820"	NA	"right sided cerebral hemisphere cerebrovascular accident"	"195217004"	"300372019"	32
+"5010981000006119"	193290	"^ESCTST501098"	NA	"stroke"	"230690007"	"345636015"	32
+"5011041000006118"	1240	"^ESCTAN501104"	NA	"anterior cerebral circulation infarction"	"230693009"	"345640012"	32
+"5011051000006116"	3001	"^ESCTTO501105"	NA	"total anterior cerebral circulation infarction"	"230694003"	"345644015"	32
+"5011061000006119"	24	"^ESCTTA501106"	NA	"taci - total anterior cerebral circulation infarction"	"230694003"	"345641011"	32
+"5011071000006114"	86	"^ESCTTO501107"	NA	"total anterior cerebral circulation stroke"	"230694003"	"345642016"	32
+"5011081000006112"	62	"^ESCTTA501108"	NA	"tacs - total anterior cerebral circulation stroke"	"230694003"	"345643014"	32
+"5011091000006110"	7561	"^ESCTPA501109"	NA	"partial anterior cerebral circulation infarction"	"230695002"	"345645019"	32
+"5011101000006116"	60	"^ESCTPA501110"	NA	"paci - partial anterior cerebral circulation infarction"	"230695002"	"345646018"	32
+"5011111000006118"	176	"^ESCTPA501111"	NA	"partial anterior cerebral circulation stroke"	"230695002"	"345647010"	32
+"5011121000006114"	147	"^ESCTPA501112"	NA	"pacs - partial anterior cerebral circulation stroke"	"230695002"	"345648017"	32
+"5011131000006112"	5814	"^ESCTPO501113"	NA	"posterior cerebral circulation infarction"	"230696001"	"345649013"	32
+"5011141000006119"	202	"^ESCTPO501114"	NA	"posterior cerebral circulation stroke"	"230696001"	"2966565019"	32
+"5011161000006115"	326	"^ESCTLA501116"	NA	"lacunar stroke"	"230698000"	"345652017"	32
+"5011171000006110"	52	"^ESCTLA501117"	NA	"laci - lacunar infarction"	"230698000"	"345653010"	32
+"5011181000006113"	10	"^ESCTLI501118"	NA	"li - lacunar infarction"	"230698000"	"345654016"	32
+"5011191000006111"	309	"^ESCTPU501119"	NA	"pure motor lacunar infarction"	"230699008"	"345656019"	32
+"5011211000006112"	171	"^ESCTPU501121"	NA	"pure sensory lacunar infarction"	"230700009"	"345657011"	32
+"5011231000006118"	24	"^ESCTPU501123"	NA	"pure sensorimotor lacunar infarction"	"230701008"	"345659014"	32
+"5011291000006119"	705	"^ESCTHA501129"	NA	"haemorrhagic cerebral infarction"	"230706003"	"345667018"	32
+"5011301000006118"	2	"^ESCTHE501130"	NA	"hemorrhagic cerebral infarction"	"230706003"	"345666010"	32
+"5011331000006114"	20	"^ESCTAN501133"	NA	"anterior cerebral circulation haemorrhagic infarction"	"230707007"	"345668011"	32
+"5011351000006119"	75	"^ESCTPO501135"	NA	"posterior cerebral circulation haemorrhagic infarction"	"230708002"	"345671015"	32
+"5011361000006117"	1	"^ESCTPO501136"	NA	"posterior cerebral circulation hemorrhagic infarction"	"230708002"	"345670019"	32
+"5011371000006112"	1	"^ESCTMA501137"	NA	"massive supratentorial cerebral haemorrhage"	"230709005"	"345672010"	32
+"5011451000006114"	232	"^ESCTST501145"	NA	"stroke of uncertain pathology"	"230713003"	"345680015"	32
+"5011461000006111"	714	"^ESCTAN501146"	NA	"anterior circulation stroke of uncertain pathology"	"230714009"	"345681016"	32
+"5011471000006116"	1671	"^ESCTPO501147"	NA	"posterior circulation stroke of uncertain pathology"	"230715005"	"345682011"	32
+"5011641000006114"	2	"^ESCTCE501164"	NA	"cerebral venous thrombosis of straight sinus"	"230720005"	"345697014"	31
+"5011651000006111"	30	"^ESCTCE501165"	NA	"cerebral venous thrombosis of sigmoid sinus"	"230721009"	"345698016"	31
+"5011661000006113"	14	"^ESCTCE501166"	NA	"cerebral venous thrombosis of cortical vein"	"230722002"	"345699012"	31
+"5011671000006118"	3	"^ESCTCE501167"	NA	"cerebral venous thrombosis of great cerebral vein"	"230723007"	"345700013"	31
+"5011871000006119"	25	"^ESCTSP501187"	NA	"spinal cord stroke"	"230739000"	"345722018"	31
+"5582311000006110"	4883	"^ESCTOC558231"	NA	"occipital cerebral infarction"	"276219001"	"412270012"	32
+"5598341000006110"	1	"^ESCTRI559834"	NA	"right ventricular stroke work index"	"277380003"	"413877011"	31
+"5649201000006113"	13	"^ESCTEX564920"	NA	"extension of cerebrovascular accident"	"281240008"	"419214014"	32
+"5960821000006117"	4705	"^ESCTRE596082"	NA	"referral to stroke service"	"306802002"	"449934011"	40
+"5960951000006117"	834	"^ESCTDI596095"	NA	"discharge from stroke service"	"306808003"	"2901297011"	31
+"5960971000006110"	2559	"^ESCTSE596097"	NA	"seen by stroke service"	"306810001"	"449946010"	31
+"5974521000006116"	2	"^ESCTHI597452"	NA	"history of stroke in last year"	"308067002"	"2986393012"	32
+"5994741000006112"	267	"^ESCTST599474"	NA	"stroke unit"	"309966001"	"453493011"	31
+"5996861000006112"	318	"^ESCTST599686"	NA	"stroke service"	"310137004"	"453716018"	31
+"6348291000006115"	231	"^ESCTTH634829"	NA	"thrombotic stroke"	"371040005"	"1209750017"	32
+"6348301000006119"	1492	"^ESCTEM634830"	NA	"embolic stroke"	"371041009"	"1209751018"	32
+"6516541000006119"	48	"^ESCTCE651654"	NA	"cerebral autosomal dominant arteriopathy with subcortical infarcts and leucoencephalopathy"	"390936003"	"1476249012"	32
+"6837051000006119"	11	"^ESCTBA683705"	NA	"basal ganglion stroke"	"413102000"	"2966612019"	32
+"6837371000006110"	4	"^ESCTST683737"	NA	"stroke / transient ischemic attack referral"	"413124000"	"2469839018"	40
+"6837381000006113"	14	"^ESCTST683738"	NA	"stroke/transient ischemic attack referral"	"413124000"	"2694676019"	40
+"6846141000006118"	462	"^ESCTCA684614"	NA	"cardioembolic stroke"	"413758000"	"2535208016"	32
+"6990981000006114"	20440	"^ESCTIS699098"	NA	"ischaemic stroke"	"422504002"	"2644234018"	32
+"6990991000006112"	183	"^ESCTIS699099"	NA	"ischemic stroke"	"422504002"	"2644233012"	32
+"7054171000006115"	1693	"^ESCTAC705417"	NA	"acute lacunar infarction"	"426107000"	"2674093010"	32
+"7071911000006114"	42	"^ESCTTH707191"	NA	"thalamic stroke"	"427296003"	"2966596011"	31
+"7073801000006116"	2	"^ESCTPA707380"	NA	"paralytic syndrome as late effect of thalamic stroke"	"427432001"	"2675305012"	31
+"7085851000006110"	3	"^ESCTHI708585"	NA	"history of cerebral haemorrhage"	"428267002"	"2696030019"	31
+"7251251000006113"	1	"^ESCTIN725125"	NA	"infarct of cerebrum due to iatrogenic cerebrovascular accident"	"441526008"	"2816760014"	31
+"7512581000006113"	95	"^ESCTPO751258"	NA	"post-cerebrovascular accident epilepsy"	"698767004"	"2981171013"	32
+"7519441000006112"	54531	"^ESCTCE751944"	NA	"cerebrovascular accident annual review"	"699270006"	"2983532010"	1
+"7568281000006111"	358	"^ESCTST756828"	NA	"stroke clinic"	"702924006"	"3006454013"	31
+"7586751000006112"	2	"^ESCTCE758675"	NA	"cerebrovascular accident six month review"	"704125007"	"3011722012"	31
+"7598981000006119"	113	"^ESCTCE759898"	NA	"cerebral infarction due to embolism of middle cerebral artery"	"705128004"	"3023367013"	31
+"7598991000006116"	4	"^ESCTTH759899"	NA	"thrombosis of middle cerebral artery"	"705129007"	"3023377010"	31
+"7599001000006116"	33	"^ESCTCE759900"	NA	"cerebral infarction due to thrombosis of middle cerebral artery"	"705130002"	"3023374015"	31
+"7703591000006117"	6	"^ESCTPA770359"	NA	"pain following cerebrovascular accident"	"713410003"	"3289227010"	27
+"7703601000006113"	10	"^ESCTPO770360"	NA	"post stroke pain"	"713410003"	"3289241018"	27
+"7839991000006115"	231	"^ESCTSI783999"	NA	"silent cerebral infarct"	"723082006"	"3334556014"	32
+"7855631000006111"	176	"^ESCTCE785563"	NA	"cerebral ischaemic stroke due to small artery occlusion"	"724424009"	"3438036013"	32
+"7855641000006118"	2	"^ESCTCE785564"	NA	"cerebral ischemic stroke due to small artery occlusion"	"724424009"	"3438035012"	32
+"7855651000006116"	1	"^ESCTCE785565"	NA	"cerebral ischaemic stroke due to intracranial large artery atherosclerosis"	"724425005"	"3438046010"	31
+"7855711000006113"	16	"^ESCTST785571"	NA	"stroke co-occurrent with migraine"	"724429004"	"3498186019"	32
+"7855721000006117"	2	"^ESCTST785572"	NA	"stroke and migraine"	"724429004"	"3498187011"	32
+"7861161000006119"	2	"^ESCTWH786116"	NA	"white matter disorder co-occurrent and due to cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy"	"724779000"	"3445735017"	31
+"7861331000006113"	1	"^ESCTEP786133"	NA	"epilepsy due to cerebrovascular accident"	"724787004"	"3481696018"	32
+"7861341000006115"	22	"^ESCTEP786134"	NA	"epilepsy due to stroke"	"724787004"	"3481697010"	32
+"7863741000006115"	1	"^ESCTCE786374"	NA	"cerebral ischemic stroke due to stenosis of extracranial large artery"	"724994008"	"3436999014"	31
+"7991141000006110"	4	"^ESCTOC799114"	NA	"occlusion of cerebral artery with stroke"	"9901000119100"	"2967598015"	31
+"8011371000006117"	4	"^ESCTSE801137"	NA	"sequela of ischaemic cerebral infarction"	"23671000119107"	"2967516015"	31
+"8014911000006110"	7	"^ESCTSE801491"	NA	"sequela of cardioembolic stroke"	"33301000119105"	"2967607012"	32
+"8024261000006112"	1	"^ESCTST802426"	NA	"stroke care management"	"80051000119107"	"2955691018"	31
+"8026451000006117"	6	"^ESCTDN802645"	NA	"dna (did not attend) stroke clinic"	"88601000000107"	"1681231000000118"	37
+"8031281000006118"	68	"^ESCTCE803128"	NA	"cerebral infarction due to stenosis of carotid artery"	"99451000119105"	"2967601013"	32
+"8034181000006112"	7	"^ESCTSP803418"	NA	"spasticity as sequela of stroke"	"108691000119102"	"2967701015"	31
+"8043371000006110"	4	"^ESCTSE804337"	NA	"seizure disorder as sequela of stroke"	"137991000119103"	"2967506011"	31
+"8044481000006118"	2157	"^ESCTIS804448"	NA	"ischaemic stroke without coma"	"140921000119102"	"2967538018"	32
+"8045251000006112"	1	"^ESCTSP804525"	NA	"spontaneous cerebellar haemorrhage"	"142851000119103"	"2967474013"	31
+"8045741000006119"	121	"^ESCTNO804574"	NA	"nontraumatic intraparenchymal cerebral haemorrhage"	"143521000119103"	"2984396019"	32
+"8045751000006117"	1	"^ESCTSP804575"	NA	"spontaneous intraparenchymal cerebral haemorrhage"	"143521000119103"	"2984150019"	32
+"8045761000006115"	1	"^ESCTSP804576"	NA	"spontaneous intraparenchymal cerebral hemorrhage"	"143521000119103"	"2984188017"	32
+"8046951000006114"	1	"^ESCTCE804695"	NA	"cerebral infarction due to carotid artery occlusion"	"149821000119103"	"2967501018"	31
+"8089821000006113"	3	"^ESCTSP808982"	NA	"spontaneous cerebral haemorrhage"	"291571000119106"	"2967483015"	31
+"8090471000006119"	1	"^ESCTCE809047"	NA	"cerebral infarction due to stenosis of precerebral artery"	"293831000119105"	"3043006017"	31
+"8195431000006118"	16	"^ESCTST819543"	NA	"stroke/cerebrovascular accident 6 month review"	"519751000000106"	"1550221000000113"	1
+"8196061000006110"	9	"^ESCTDI819606"	NA	"did not attend stroke review"	"521411000000106"	"1164231000000119"	31
+"8211961000006117"	5	"^ESCTHI821196"	NA	"history of cerebellar stroke"	"690051000119100"	"3037871010"	31
+"8211971000006112"	1	"^ESCTHI821197"	NA	"history of stroke of cerebellum"	"690051000119100"	"3037246018"	31
+"8221321000006118"	162	"^ESCTST822132"	NA	"stroke and tia"	"720191000000104"	"1574361000000119"	31
+"8264201000006110"	2	"^ESCTMA826420"	NA	"management of stroke rehabilitation"	"816241000000109"	"2127101000000118"	31
+"8265471000006116"	13	"^ESCTAC826547"	NA	"acute stroke care"	"817701000000103"	"2130091000000112"	31
+"8265481000006118"	3	"^ESCTMA826548"	NA	"management of acute stroke"	"817711000000101"	"2130111000000119"	31
+"8271261000006115"	1	"^ESCTAC827126"	NA	"acute stroke care management"	"823971000000109"	"2144501000000117"	31
+"8274811000006116"	754	"^ESCTST827481"	NA	"stroke medicine"	"828261000000103"	"2153471000000113"	31
+"8453031000006117"	6222	"^ESCTHA845303"	NA	"haemorrhagic stroke"	"1078001000000105"	"2702821000000119"	32
+"8453821000006113"	107	"^ESCTEM845382"	NA	"emergency hospital admission to stroke service"	"1078671000000108"	"2704231000000114"	31
+"9875641000006111"	33	"^ESCTCE987564"	NA	"cerebrovascular accident due to right carotid artery occlusion"	"16023911000119108"	"3308761018"	32
+"9875951000006117"	30	"^ESCTCE987595"	NA	"cerebrovascular accident due to right carotid artery stenosis"	"16026951000119102"	"3308759010"	32
+"9875961000006115"	29	"^ESCTCE987596"	NA	"cerebrovascular accident due to left carotid artery stenosis"	"16026991000119107"	"3308763015"	32
+"9912271000006112"	3091	"^ESCTCE991227"	NA	"cerebellar stroke"	"16371781000119100"	"3320493016"	32
+"12223101000006118"	1193	"^ESCT1222310"	NA	"intracerebral haemorrhage"	"274100004"	"3673215016"	32
+"12223111000006115"	60	"^ESCT1222311"	NA	"intracerebral hemorrhage"	"274100004"	"3673216015"	32
+"12223121000006111"	124	"^ESCT1222312"	NA	"ich - intracerebral haemorrhage"	"274100004"	"3673217012"	32
+"12223131000006114"	11	"^ESCT1222313"	NA	"ich - intracerebral hemorrhage"	"274100004"	"3673218019"	32
+"12626401000006115"	55604	"^ESCT1262640"	NA	"qof (quality and outcomes framework) stroke and transient ischaemic attack quality indicator-related care invitation"	"1110981000000104"	"2779941000000115"	37
+"12734411000006116"	2166	"^ESCT1273441"	NA	"qof (quality and outcomes framework) stroke and transient ischaemic attack quality indicator-related care invitation using preferred method of communication"	"143471000000105"	"1628421000000119"	37
+"13717171000006112"	28	"^ESCT1371717"	NA	"cerebrovascular accident due to stenosis of bilateral carotid arteries"	"16661971000119104"	"3773590013"	32
+"13718601000006110"	11	"^ESCT1371860"	NA	"history of embolic cerebrovascular accident"	"16896851000119101"	"3774528015"	32
+"13718611000006113"	4	"^ESCT1371861"	NA	"history of embolic stroke"	"16896851000119101"	"3774529011"	32
+"13718621000006117"	93	"^ESCT1371862"	NA	"history of cerebrovascular accident due to ischaemia"	"16896891000119106"	"3774524018"	32
+"13718641000006112"	6	"^ESCT1371864"	NA	"history of ischaemic stroke"	"16896891000119106"	"3774555012"	32
+"13909861000006114"	101	"^ESCT1390986"	NA	"cerebral ischaemic stroke due to dissection of artery"	"788880006"	"3787578016"	32
+"13909871000006119"	9	"^ESCT1390987"	NA	"cerebral ischaemic stroke due to aortic arch embolism"	"788881005"	"3786063014"	32
+"13909881000006116"	164	"^ESCT1390988"	NA	"cerebral ischaemic stroke due to global hypoperfusion with watershed infarct"	"788882003"	"3786067010"	32
+"13909891000006118"	5	"^ESCT1390989"	NA	"cerebral ischaemic stroke due to hypercoagulable state"	"788883008"	"3786069013"	32
+"13909901000006119"	206	"^ESCT1390990"	NA	"cerebral ischaemic stroke co-occurrent with subarachnoid haemorrhage"	"788884002"	"3786072018"	32
+"14014251000006116"	188	"^ESCT1401425"	NA	"cerebrovascular accident due to occlusion of bilateral pontine arteries"	"16644681000119102"	"3780817010"	32
+"14014281000006112"	25	"^ESCT1401428"	NA	"cerebrovascular accident due to stenosis of bilateral vertebral arteries"	"16661931000119102"	"3780821015"	32
+"14172901000006118"	5	"^ESCT1417290"	NA	"bilateral occlusion of middle cerebral arteries"	"329501000119102"	"3993144016"	32
+"14172931000006114"	1	"^ESCT1417293"	NA	"bilateral occlusion of anterior cerebral arteries"	"329541000119100"	"3993148018"	32
+"14182621000006113"	172	"^ESCT1418262"	NA	"cryptogenic stroke"	"16891111000119104"	"4009580018"	32
+"14194151000006115"	2	"^ESCT1419415"	NA	"acute cerebrovascular accident due to occlusion of left posterior cerebral artery"	"40076141000119107"	"3993165010"	32
+"14194161000006118"	2	"^ESCT1419416"	NA	"acute stroke due to occlusion of left posterior cerebral artery"	"40076141000119107"	"3993167019"	32
+"14194191000006114"	10	"^ESCT1419419"	NA	"acute cerebrovascular accident due to stenosis of left carotid artery"	"46583221000119102"	"3993137013"	32
+"14194201000006112"	3	"^ESCT1419420"	NA	"acute stroke due to stenosis of left carotid artery"	"46583221000119102"	"3993136016"	32
+"14194211000006110"	18	"^ESCT1419421"	NA	"acute cerebrovascular accident due to occlusion of left middle cerebral artery"	"63230211000119103"	"3993157012"	32
+"14194221000006119"	2	"^ESCT1419422"	NA	"acute stroke due to occlusion of left middle cerebral artery"	"63230211000119103"	"3993158019"	32
+"14194281000006115"	3	"^ESCT1419428"	NA	"acute cerebrovascular accident due to occlusion of right posterior cerebral artery"	"137592291000119101"	"3993169016"	32
+"14194331000006112"	3	"^ESCT1419433"	NA	"acute cerebrovascular accident due to occlusion of right middle cerebral artery"	"272202251000119109"	"3993162013"	32
+"14194341000006119"	5	"^ESCT1419434"	NA	"acute stroke due to occlusion of right middle cerebral artery"	"272202251000119109"	"3993164014"	32
+"14194491000006118"	10	"^ESCT1419449"	NA	"acute cerebrovascular accident due to occlusion of right carotid artery"	"407573811000119100"	"4011845015"	32
+"14194501000006114"	2	"^ESCT1419450"	NA	"acute stroke due to occlusion of right carotid artery"	"407573811000119100"	"4011846019"	32
+"14194571000006115"	5	"^ESCT1419457"	NA	"acute cerebrovascular accident due to occlusion of left carotid artery"	"502836591000119106"	"4011843010"	32
+"14194611000006113"	31	"^ESCT1419461"	NA	"acute cerebrovascular accident of basal ganglia"	"595899961000119100"	"4015877011"	32
+"14194621000006117"	3	"^ESCT1419462"	NA	"acute stroke of basal ganglia"	"595899961000119100"	"4015875015"	32
+"14194641000006112"	18	"^ESCT1419464"	NA	"acute cerebrovascular accident of brainstem"	"652287331000119104"	"4016003015"	32
+"14194651000006114"	4	"^ESCT1419465"	NA	"acute stroke of brainstem"	"652287331000119104"	"4016004014"	32
+"14194661000006111"	15	"^ESCT1419466"	NA	"acute cerebrovascular accident due to stenosis of right carotid artery"	"693158221000119105"	"3993384019"	32
+"14194721000006113"	10	"^ESCT1419472"	NA	"acute cerebrovascular accident due to thrombosis of right middle cerebral artery"	"738211801000119107"	"3993388016"	32
+"14194731000006111"	1	"^ESCT1419473"	NA	"acute stroke due to thrombosis of right middle cerebral artery"	"738211801000119107"	"3993387014"	32
+"14194741000006118"	17	"^ESCT1419474"	NA	"acute cerebrovascular accident due to occlusion of right cerebellar artery"	"738478141000119101"	"3993407012"	32
+"14194801000006111"	155	"^ESCT1419480"	NA	"acute cerebrovascular accident due to ischaemia"	"762005171000119101"	"4011866011"	32
+"14194811000006114"	142	"^ESCT1419481"	NA	"acute ischaemic stroke"	"762005171000119101"	"4011863015"	32
+"14194841000006113"	4	"^ESCT1419484"	NA	"acute cerebrovascular accident due to occlusion of left cerebellar artery"	"788310011000119109"	"3993410017"	32
+"14194941000006115"	8	"^ESCT1419494"	NA	"acute cerebrovascular accident due to embolism of right middle cerebral artery"	"931164671000119105"	"4011851013"	32
+"14194951000006118"	2	"^ESCT1419495"	NA	"acute stroke due to embolism of right middle cerebral artery"	"931164671000119105"	"4011852018"	32
+"14194971000006111"	9	"^ESCT1419497"	NA	"acute cerebrovascular accident due to embolism of left middle cerebral artery"	"936648941000119105"	"4011849014"	32
+"14194981000006114"	9	"^ESCT1419498"	NA	"acute stroke due to embolism of left middle cerebral artery"	"936648941000119105"	"4011848018"	32
+"14451971000006119"	14	"^ESCT1445197"	NA	"occlusion of anterior cerebral artery"	"1153543002"	"4564993018"	32
+"14451981000006116"	7	"^ESCT1445198"	NA	"occlusion of right anterior cerebral artery"	"1153544008"	"4564995013"	32
+"14451991000006118"	13	"^ESCT1445199"	NA	"occlusion of left anterior cerebral artery"	"1153545009"	"4564996014"	32
+"14452001000006116"	1	"^ESCT1445200"	NA	"bilateral occlusion of posterior cerebral arteries"	"1153546005"	"4565023016"	32
+"14452011000006118"	1	"^ESCT1445201"	NA	"occlusion of both posterior cerebral arteries"	"1153546005"	"4565022014"	32
+"14489491000006119"	26	"^ESCT1448949"	NA	"cerebrovascular accident due to thrombosis of right posterior cerebral artery"	"38595071000119104"	"4577054015"	32
+"14491921000006111"	3	"^ESCT1449192"	NA	"cerebrovascular accident due to embolism of bilateral cerebellar arteries"	"58173271000119101"	"4577040011"	32
+"14492111000006112"	2	"^ESCT1449211"	NA	"cerebrovascular accident due to occlusion of left posterior communicating artery"	"117776611000119102"	"4577076012"	32
+"14492161000006110"	3	"^ESCT1449216"	NA	"cerebrovascular accident due to embolism of bilateral posterior cerebral arteries"	"168747591000119109"	"4577048016"	32
+"14492191000006119"	15	"^ESCT1449219"	NA	"cerebrovascular accident due to occlusion of left anterior cerebral artery"	"182960891000119101"	"4577065013"	32
+"14492201000006116"	2	"^ESCT1449220"	NA	"stroke due to occlusion of left anterior cerebral artery"	"182960891000119101"	"4577064012"	32
+"14492211000006118"	50	"^ESCT1449221"	NA	"cerebrovascular accident due to occlusion of bilateral middle cerebral arteries"	"188174841000119103"	"4577071019"	32
+"14492221000006114"	2	"^ESCT1449222"	NA	"stroke due to occlusion of bilateral middle cerebral arteries"	"188174841000119103"	"4577070018"	32
+"14492231000006112"	26	"^ESCT1449223"	NA	"cerebrovascular accident due to occlusion of basilar artery"	"239965291000119107"	"4577282019"	32
+"14492241000006119"	1	"^ESCT1449224"	NA	"stroke due to occlusion of basilar artery"	"239965291000119107"	"4577283012"	32
+"14492321000006119"	23	"^ESCT1449232"	NA	"cerebrovascular accident due to embolism of left anterior cerebral artery"	"251770561000119107"	"4577022012"	32
+"14492331000006116"	5	"^ESCT1449233"	NA	"stroke due to embolism of left anterior cerebral artery"	"251770561000119107"	"4577021017"	32
+"14492341000006114"	2	"^ESCT1449234"	NA	"cerebrovascular accident due to occlusion of bilateral cerebellar arteries"	"346674811000119104"	"4577275018"	32
+"14492421000006113"	5	"^ESCT1449242"	NA	"cerebrovascular accident due to embolism of right carotid artery"	"384430101000119103"	"4577036019"	32
+"14492471000006114"	20	"^ESCT1449247"	NA	"cerebrovascular accident due to thrombosis of right cerebellar artery"	"496369931000119104"	"4577292010"	32
+"14492481000006112"	18	"^ESCT1449248"	NA	"stroke due to thrombosis of right cerebellar artery"	"496369931000119104"	"4577294011"	32
+"14492491000006110"	4	"^ESCT1449249"	NA	"cerebrovascular accident due to thrombosis of right vertebral artery"	"511452481000119102"	"4577300014"	32
+"14492511000006116"	2	"^ESCT1449251"	NA	"cerebrovascular accident due to embolism of left vertebral artery"	"517253051000119105"	"4577266015"	32
+"14492571000006113"	46	"^ESCT1449257"	NA	"cerebrovascular accident due to occlusion of right anterior cerebral artery"	"655081461000119101"	"4577069019"	32
+"14492581000006111"	1	"^ESCT1449258"	NA	"stroke due to occlusion of right anterior cerebral artery"	"655081461000119101"	"4577068010"	32
+"14492661000006117"	4	"^ESCT1449266"	NA	"cerebrovascular accident due to embolism of bilateral vertebral arteries"	"732330391000119107"	"4577262018"	32
+"14492701000006113"	10	"^ESCT1449270"	NA	"cerebrovascular accident due to thrombosis of left vertebral artery"	"759950981000119101"	"4577295012"	32
+"14492731000006117"	570	"^ESCT1449273"	NA	"cerebrovascular accident of thalamus"	"769023031000119104"	"4577288015"	32
+"14492741000006110"	54	"^ESCT1449274"	NA	"stroke of thalamus"	"769023031000119104"	"4577286016"	32
+"14492751000006112"	39	"^ESCT1449275"	NA	"thalamic stroke"	"769023031000119104"	"4578629016"	32
+"14492821000006110"	8	"^ESCT1449282"	NA	"cerebrovascular accident due to embolism of right anterior cerebral artery"	"849488701000119104"	"4577023019"	32
+"14492841000006115"	13	"^ESCT1449284"	NA	"cerebrovascular accident due to occlusion of right posterior communicating artery"	"849579281000119106"	"4577080019"	32
+"14492851000006118"	3	"^ESCT1449285"	NA	"stroke due to occlusion of right posterior communicating artery"	"849579281000119106"	"4577079017"	32
+"14492861000006116"	51	"^ESCT1449286"	NA	"cerebrovascular accident due to thrombosis of left posterior cerebral artery"	"851365731000119106"	"4577051011"	32
+"14492871000006111"	12	"^ESCT1449287"	NA	"stroke due to thrombosis of left posterior cerebral artery"	"851365731000119106"	"4577050012"	32
+"14492911000006114"	4	"^ESCT1449291"	NA	"cerebrovascular accident due to embolism of left carotid artery"	"859422751000119101"	"4577033010"	32
+"14492921000006118"	1	"^ESCT1449292"	NA	"stroke due to embolism of left carotid artery"	"859422751000119101"	"4577034016"	32
+"14492941000006113"	2	"^ESCT1449294"	NA	"cerebrovascular accident due to occlusion of bilateral vertebral arteries"	"898941951000119108"	"4577279012"	32
+"14493231000006118"	59	"^ESCT1449323"	NA	"cerebrovascular accident due to embolism of bilateral middle cerebral arteries"	"939885431000119109"	"4577045018"	32
+"14493251000006113"	1	"^ESCT1449325"	NA	"stroke due to embolism of bilateral middle cerebral arteries"	"939885431000119109"	"4577043013"	32
+"14493261000006110"	32	"^ESCT1449326"	NA	"cerebrovascular accident due to thrombosis of left cerebellar artery"	"957319791000119104"	"4577289011"	32
+"14493271000006115"	1	"^ESCT1449327"	NA	"stroke due to thrombosis of left cerebellar artery"	"957319791000119104"	"4577290019"	32
+"14516811000006114"	1	"^ESCT1451681"	NA	"idiopathic ischaemic stroke"	"16891111000119104"	"4553056016"	32
+"14518481000006115"	153	"^ESCT1451848"	NA	"cerebrovascular accident of basal ganglia"	"595899961000119100"	"4577269010"	32
+"14518501000006113"	124	"^ESCT1451850"	NA	"cerebrovascular accident of brainstem"	"652287331000119104"	"4577270011"	32
+"14518521000006115"	4	"^ESCT1451852"	NA	"cerebrovascular accident of medulla oblongata"	"881694631000119107"	"4577160018"	32
+"14518541000006110"	25	"^ESCT1451854"	NA	"cerebrovascular accident due to embolism of basilar artery"	"915141931000119109"	"4577259016"	32
+"14742691000006111"	3	"^ESCT1474269"	NA	"infective occlusion of cerebral artery"	"1204202004"	"4953603016"	32
+"14802151000006119"	87	"^ESCT1480215"	NA	"cerebrovascular accident with intracranial haemorrhage"	"5571000124103"	"4964984018"	32
+"15048621000006117"	18	"^ESCT1504862"	NA	"haemorrhagic cerebral infarction due to hypertension"	"1260271009"	"5159959019"	32
+"15236641000006119"	2	"^ESCT1523664"	NA	"cerebrovascular accident due to thrombosis of anterior cerebral artery"	"1269237007"	"5183319014"	32
+"15236651000006117"	6	"^ESCT1523665"	NA	"thrombosis of anterior cerebral artery"	"1269238002"	"5183322011"	32
+"15236661000006115"	2	"^ESCT1523666"	NA	"thrombosis of left anterior cerebral artery"	"1269239005"	"5183323018"	32
+"15293291000006113"	4	"^ESCT1529329"	NA	"cerebrovascular accident due to occlusion of right anterior choroidal artery"	"16024071000119102"	"5183414015"	32
+"15293301000006114"	1	"^ESCT1529330"	NA	"stroke due to occlusion of right anterior choroidal artery"	"16024071000119102"	"5183416018"	32
+"15294751000006112"	5	"^ESCT1529475"	NA	"cerebrovascular accident due to occlusion of bilateral carotid arteries"	"16644541000119106"	"5183387015"	32
+"15294961000006112"	1	"^ESCT1529496"	NA	"psychomotor retardation due to and following cerebrovascular accident with intracranial haemorrhage"	"16702561000119104"	"5234794013"	31
+"15303461000006113"	6	"^ESCT1530346"	NA	"cerebrovascular accident due to thrombosis of left anterior cerebral artery"	"195772021000119105"	"5183315015"	32
+"15303471000006118"	1	"^ESCT1530347"	NA	"stroke due to thrombosis of left anterior cerebral artery"	"195772021000119105"	"5183313010"	32
+"15304181000006112"	6	"^ESCT1530418"	NA	"cerebrovascular accident due to thrombosis of bilateral carotid arteries"	"563789641000119101"	"5183331011"	32
+"15304561000006111"	2	"^ESCT1530456"	NA	"cerebrovascular accident due to thrombosis of right anterior cerebral artery"	"828066161000119106"	"5183317011"	32
+"15314321000006112"	9	"^ESCT1531432"	NA	"chronic central post-stroke pain"	"277286006"	"5243819016"	27

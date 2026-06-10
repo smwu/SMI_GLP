@@ -1,0 +1,105 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"89332015"	2036	"G3-2"	"G3...12"	"atherosclerotic heart disease"	"443502000"	"2842265012"	32
+"256451015"	1530	"322Z"	"322Z.00"	"ecg: myocardial ischaemia nos"	"164861001"	"1205556017"	3
+"264484015"	3643	"662E"	"662E.00"	"cardiac disease treatment stopped"	"170585007"	"2160743019"	1
+"299723016"	495	"G31y"	"G31y.00"	"other acute and subacute ischaemic heart disease"	"414545008"	"2534663012"	32
+"299742017"	298	"G312"	"G312.00"	"coronary thrombosis not resulting in myocardial infarction"	"194821006"	"299742017"	32
+"299776014"	19392	"G34"	"G34..00"	"chronic ischaemic heart disease"	"413838009"	"2534672016"	32
+"299782012"	35633	"G3400"	"G340000"	"single coronary vessel disease"	"194842008"	"299782012"	32
+"299783019"	24137	"G3401"	"G340100"	"double coronary vessel disease"	"194843003"	"299783019"	32
+"299796018"	21720	"G343"	"G343.00"	"ischaemic cardiomyopathy"	"194849004"	"299796018"	32
+"299800012"	365	"G34y"	"G34y.00"	"other specified chronic ischaemic heart disease"	"413838009"	"2534671011"	32
+"299834013"	5053	"G3y"	"G3y..00"	"other specified ischaemic heart disease"	"414545008"	"2534664018"	32
+"300876010"	70	"Gyu32"	"Gyu3200"	"[x]other forms of acute ischaemic heart disease"	"414545008"	"2534663012"	32
+"300879015"	79	"Gyu33"	"Gyu3300"	"[x]other forms of chronic ischaemic heart disease"	"413838009"	"2534671011"	32
+"300932016"	558	"Gyu5g"	"Gyu5g00"	"[x]cardiovascular disease, unspecified"	"49601007"	"2474885016"	32
+"350354017"	2270	"G344"	"G344.00"	"silent myocardial ischaemia"	"233823002"	"350354017"	32
+"397829016"	39277	"14A"	"14A..00"	"h/o: cardiovascular disease"	"266995000"	"397829016"	32
+"401517012"	6055	"662D"	"662D.00"	"cardiac disease treatment started"	"268510008"	"2156056014"	1
+"411904010"	168822	"8B63-1"	"8B63.11"	"aspirin prophylaxis for ischaemic heart disease"	"275931000"	"2770029010"	32
+"451372015"	6335	"14AL"	"14AL.00"	"h/o: treatment for ischaemic heart disease"	"308068007"	"451372015"	32
+"459488019"	1341	"G31y3"	"G31y300"	"transient myocardial ischaemia"	"315026000"	"459488019"	32
+"459859010"	7906	"G34z0"	"G34z000"	"asymptomatic coronary heart disease"	"315348000"	"459859010"	32
+"460133017"	3117313	"6A2"	"6A2..00"	"coronary heart disease annual review"	"315614006"	"460133017"	1
+"460687010"	1686	"ZV458"	"ZV45800"	"history of placement of stent for coronary artery disease"	"428375006"	"2692299011"	32
+"494438016"	464	"G31y2"	"G31y200"	"subendocardial ischaemia"	"46109009"	"494438016"	32
+"1484833014"	153546	"6A4"	"6A4..00"	"coronary heart disease review"	"390799004"	"1484833014"	1
+"1488382011"	252890	"G3115"	"G311500"	"acute coronary syndrome"	"394659003"	"1488382011"	32
+"1488440011"	206869	"8B3k"	"8B3k.00"	"coronary heart disease medication review"	"394724007"	"1488440011"	32
+"1786197015"	3612	"G30-2"	"G30..12"	"coronary thrombosis"	"398274000"	"1786197015"	32
+"1786198013"	533	"G30-6"	"G30..16"	"thrombosis - coronary"	"398274000"	"1786198013"	32
+"2534664018"	6638239	"G3"	"G3...00"	"ischaemic heart disease"	"414545008"	"2534664018"	32
+"2534674015"	3837	"G34y1"	"G34y100"	"chronic myocardial ischaemia"	"413844008"	"2534674015"	32
+"2536393012"	1030	"G3-1"	"G3...11"	"arteriosclerotic heart disease"	"443502000"	"2842265012"	32
+"2536395017"	342053	"G340-2"	"G340.12"	"coronary artery disease"	"53741008"	"2536395017"	32
+"2537480011"	1507450	"G3-3"	"G3...13"	"ihd - ischaemic heart disease"	"414545008"	"2537480011"	32
+"2548276015"	409728	"66f0"	"66f0.00"	"cardiovascular disease annual review"	"417322008"	"2548276015"	1
+"39111000006114"	3109	"G31"	"G31..00"	"other acute and subacute ischaemic heart disease"	"414545008"	"2534663012"	32
+"394541000006112"	2025	"Gyu3"	"Gyu3.00"	"[x]ischaemic heart diseases"	"414545008"	"2534664018"	32
+"496991000006111"	1839	"G342"	"G342.00"	"atherosclerotic cardiovascular disease"	"72092001"	"119795011"	32
+"585631000000113"	199	"8H2V"	"8H2V.00"	"emergency hospital admission for ischaemic heart disease"	"699245006"	"3082941013"	40
+"634751000006116"	8877	"322"	"322..00"	"ecg myocardial ischaemia"	"164861001"	"1205556017"	3
+"635641000006111"	8094	"3222"	"3222.00"	"ecg:shows myocardial ischaemia"	"164861001"	"1205556017"	3
+"884141000006116"	938	"G30-98"	"G30..98"	"coronary thrombosis"	"57054005"	"884141000006116"	32
+"908791000006113"	25921	"HNG0601"	NA	"[rfc] reason for care : coronary heart disease"	"908791000006109"	"908791000006113"	12
+"931961000006117"	228	"G31y0-99"	"G31y099"	"acute coronary syndrome"	"194823009"	"931961000006117"	32
+"1142521000000115"	8805	"8CEJ"	"8CEJ.00"	"coronary heart disease leaflet given"	"513841000000103"	"1142521000000115"	32
+"1539331000006118"	5804	"EMISNOQFH3"	NA	"h/o: coronary heart disease"	"1539331000006102"	"1539331000006118"	32
+"1774801000000114"	16113	"8CMP"	"8CMP.00"	"coronary heart disease care plan"	"736368003"	"3517259010"	32
+"1823891000006113"	534	"EMISNQCO148"	NA	"coronary heart disease confirmed"	"1823891000006109"	"1823891000006113"	27
+"1895641000006114"	1149	"EMISNQON8"	NA	"on coronary heart disease register"	"1895641000006105"	"1895641000006114"	37
+"2115181000000110"	2773	"G39"	"G39..00"	"coronary microvascular disease"	"810681000000101"	"2115181000000110"	32
+"2173281000000112"	1309	"14AW"	"14AW.00"	"h/o acute coronary syndrome"	"837091000000100"	"2173281000000112"	32
+"3302691000006119"	35	"^ESCTCA330269"	NA	"cardiovascular disease"	"49601007"	"82618012"	32
+"3302731000006110"	51	"^ESCTCV330273"	NA	"cvd - cardiovascular disease"	"49601007"	"2957091018"	32
+"3371381000006110"	433	"^ESCTCA337138"	NA	"cad - coronary artery disease"	"53741008"	"2536394018"	32
+"3371411000006113"	4364	"^ESCTCH337141"	NA	"chd - coronary heart disease"	"53741008"	"2536397013"	32
+"3371421000006117"	9848	"^ESCTCO337142"	NA	"coronary heart disease"	"53741008"	"2536398015"	32
+"4776021000006118"	4	"^ESCTIS477602"	NA	"ischemic heart disease - angina"	"194828000"	"299761018"	32
+"4776031000006115"	49	"^ESCTIS477603"	NA	"ischaemic heart disease - angina"	"194828000"	"299762013"	32
+"4776051000006110"	42	"^ESCTSI477605"	NA	"single vessel coronary artery disease"	"194842008"	"2535853014"	32
+"4776071000006117"	185	"^ESCTTW477607"	NA	"two coronary vessel disease"	"194843003"	"299784013"	32
+"4776081000006119"	21	"^ESCTDO477608"	NA	"double vessel coronary artery disease"	"194843003"	"2535854015"	32
+"5056201000006111"	281	"^ESCTTR505620"	NA	"triple vessel coronary artery disease"	"233817007"	"2535923015"	32
+"5056471000006118"	15	"^ESCTAC505647"	NA	"accelerated coronary artery disease in transplanted heart"	"233844002"	"350378010"	32
+"5496991000006110"	2	"^ESCTHI549699"	NA	"history of cardiovascular disease"	"266995000"	"2986568011"	32
+"5974561000006110"	2	"^ESCTHI597456"	NA	"history of treatment for ischaemic heart disease"	"308068007"	"2986970011"	32
+"6360351000006112"	1644	"^ESCTMU636035"	NA	"multi vessel coronary artery disease"	"371803003"	"1210398011"	32
+"6360361000006114"	347	"^ESCTLE636036"	NA	"left main coronary artery disease"	"371804009"	"1210399015"	32
+"6360601000006119"	1	"^ESCTMY636060"	NA	"myocardial ischaemia manifest on stress test status post myocardial infarction"	"371824008"	"1207334015"	31
+"6546111000006118"	347	"^ESCTAC654611"	NA	"acs - acute coronary syndrome"	"394659003"	"2579561010"	32
+"6601131000006115"	2	"^ESCTCT660113"	NA	"ct - coronary thrombosis"	"398274000"	"1786196012"	32
+"6841231000006113"	158	"^ESCTAC684123"	NA	"acute ischaemic heart disease"	"413439005"	"2534668015"	32
+"6841241000006115"	1	"^ESCTAC684124"	NA	"acute ischemic heart disease"	"413439005"	"2534667013"	32
+"6841391000006118"	100	"^ESCTAC684139"	NA	"acute myocardial ischaemia"	"413444003"	"2534670012"	32
+"6841401000006116"	1	"^ESCTAC684140"	NA	"acute myocardial ischemia"	"413444003"	"2534669011"	32
+"6847761000006118"	7	"^ESCTCH684776"	NA	"chronic ischemic heart disease"	"413838009"	"2534671011"	32
+"6860251000006115"	382	"^ESCTIS686025"	NA	"ischemic heart disease"	"414545008"	"2534663012"	32
+"6860261000006118"	160	"^ESCTIH686026"	NA	"ihd - ischemic heart disease"	"414545008"	"2537479013"	32
+"6864781000006110"	939	"^ESCTMY686478"	NA	"myocardial ischaemia"	"414795007"	"2534666016"	32
+"6864791000006113"	7	"^ESCTMY686479"	NA	"myocardial ischemia"	"414795007"	"2534665017"	32
+"6946631000006113"	23	"^ESCTOB694663"	NA	"obliterative coronary artery disease"	"420006002"	"2578015012"	32
+"7084801000006112"	18	"^ESCTMI708480"	NA	"mixed myocardial ischaemia and infarction"	"428196007"	"2694710011"	32
+"7087601000006118"	2	"^ESCTHI708760"	NA	"history of coronary artery disease with stent placement"	"428375006"	"2695581010"	32
+"7475751000006117"	198	"^ESCTIS747575"	NA	"ischaemic dilated cardiomyopathy due to coronary artery disease"	"472100003"	"2951007019"	32
+"7518321000006118"	157	"^ESCTCO751832"	NA	"coronary artery disease absent"	"699196002"	"2983022014"	27
+"7573181000006118"	538	"^ESCTHE757318"	NA	"heart failure with reduced ejection fraction due to coronary artery disease"	"703273002"	"3008136010"	32
+"7696501000006114"	8	"^ESCTRE769650"	NA	"resting ischaemia"	"712866001"	"3286157013"	32
+"7703511000006110"	11	"^ESCTSU770351"	NA	"subacute ischaemic heart disease"	"713405002"	"3289285016"	32
+"8259701000006112"	11	"^ESCTRE825970"	NA	"referral to coronary heart disease clinic"	"809581000000109"	"2112861000000118"	31
+"9833971000006112"	1	"^ESCTCO983397"	NA	"congestive heart failure stage c due to ischaemic cardiomyopathy"	"15629541000119106"	"3323391019"	31
+"14015311000006110"	6	"^ESCT1401531"	NA	"coronary artery disease due to type 2 diabetes mellitus"	"16891151000119103"	"3778765010"	32
+"14194451000006112"	1	"^ESCT1419445"	NA	"history of myocardial infarction due to atherothrombotic coronary artery disease"	"387785661000119105"	"4032953018"	27
+"14194701000006115"	7	"^ESCT1419470"	NA	"myocardial infarction due to atherothrombotic coronary artery disease"	"726499301000119105"	"4030229011"	32
+"14639991000006115"	1271	"^ESCT1463999"	NA	"administration of prophylactic aspirin for ischaemic heart disease"	"275931000"	"4634330015"	32
+"14742711000006114"	27	"^ESCT1474271"	NA	"left ventricular failure with normal ejection fraction due to coronary artery disease"	"1204203009"	"4952600012"	32
+"15055891000006113"	61	"^ESCT1505589"	NA	"anterior myocardial ischaemia"	"35461000087105"	"5154814013"	32
+"15055911000006110"	1	"^ESCT1505591"	NA	"anteroapical myocardial ischaemia"	"35471000087101"	"5154768013"	32
+"15055931000006116"	8	"^ESCT1505593"	NA	"myocardial ischaemia of ventricular septum"	"35481000087104"	"5154964017"	32
+"15055961000006113"	17	"^ESCT1505596"	NA	"lateral myocardial ischaemia"	"35491000087102"	"5154825016"	32
+"15055981000006115"	5	"^ESCT1505598"	NA	"anterolateral myocardial ischaemia"	"35501000087105"	"5154841015"	32
+"15056001000006116"	9	"^ESCT1505600"	NA	"anteroseptal myocardial ischaemia"	"35511000087107"	"5154758015"	32
+"15056021000006114"	38	"^ESCT1505602"	NA	"apical myocardial ischaemia"	"35521000087104"	"5154816010"	32
+"15056041000006119"	72	"^ESCT1505604"	NA	"inferior myocardial ischaemia"	"35541000087108"	"5154853016"	32
+"15056061000006115"	20	"^ESCT1505606"	NA	"inferolateral myocardial ischaemia"	"35551000087106"	"5155114016"	32
+"15056121000006110"	7	"^ESCT1505612"	NA	"posterior myocardial ischaemia"	"35581000087103"	"5154835010"	32

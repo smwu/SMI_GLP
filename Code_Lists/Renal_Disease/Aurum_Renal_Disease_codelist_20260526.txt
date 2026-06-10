@@ -1,0 +1,996 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"1409014"	712	"G221"	"G221.00"	"benign hypertensive renal disease"	"193003"	"1409014"	32
+"30043012"	135	"SP015"	"SP01500"	"mechanical complication of dialysis catheter"	"17778006"	"30043012"	32
+"32619017"	28932	"K00"	"K00..00"	"acute glomerulonephritis"	"19351000"	"32619017"	32
+"35171019"	26975	"K02"	"K02..00"	"chronic glomerulonephritis"	"20917003"	"35171019"	32
+"64282015"	36299	"G22"	"G22..00"	"hypertensive renal disease"	"38481006"	"64282015"	32
+"81307015"	516	"K01w"	"K01w.00"	"congenital nephrotic syndrome"	"48796009"	"81307015"	32
+"86957016"	149776	"K01"	"K01..00"	"nephrotic syndrome"	"52254009"	"86957016"	32
+"108730018"	975	"G220"	"G220.00"	"malignant hypertensive renal disease"	"65443008"	"108730018"	32
+"109700019"	25	"G231"	"G231.00"	"benign hypertensive heart and renal disease"	"66052004"	"109700019"	32
+"110659019"	111	"G230"	"G230.00"	"malignant hypertensive heart and renal disease"	"66610008"	"110659019"	32
+"117168016"	8493	"7B00-98"	"7B00.98"	"renal transplant"	"70536003"	"117168016"	32
+"118218017"	22375	"7L1A1"	"7L1A100"	"peritoneal dialysis"	"71192002"	"118218017"	32
+"136885015"	18945	"PD1"	"PD1..00"	"congenital cystic disease of kidney"	"82525005"	"505127011"	32
+"143003017"	680	"G23"	"G23..00"	"hypertensive heart and renal disease"	"86234004"	"143003017"	32
+"170418016"	15305	"K132-1"	"K132.11"	"acquired renal cystic disease"	"105999006"	"170418016"	32
+"251764016"	5189	"14D2"	"14D2.00"	"h/o: kidney infection"	"161547004"	"251764016"	32
+"251923016"	1187	"14S2"	"14S2.00"	"h/o: kidney recipient"	"161665007"	"251923016"	32
+"251956015"	322	"14V2-1"	"14V2.11"	"h/o: kidney dialysis"	"161693006"	"251956015"	32
+"251957012"	3722	"14V2"	"14V2.00"	"h/o: renal dialysis"	"161693006"	"251957012"	32
+"261136015"	76	"4I29"	"4I29.00"	"peritoneal dialysis sample"	"168140004"	"261136015"	20
+"272320011"	53	"7B001-1"	"7B00111"	"allotransplantation of kidney from live donor"	"175901007"	"272320011"	32
+"272325018"	10781	"7B002-2"	"7B00212"	"cadaveric renal transplant"	"175902000"	"272325018"	32
+"272326017"	164	"7B00y"	"7B00y00"	"other specified transplantation of kidney"	"70536003"	"117163013"	32
+"272327014"	6587	"7B00z"	"7B00z00"	"transplantation of kidney nos"	"70536003"	"501594013"	32
+"272389014"	941	"7B063"	"7B06300"	"exploration of renal transplant"	"175948009"	"272389014"	32
+"278832011"	47856	"7L1A2"	"7L1A200"	"haemodialysis"	"302497006"	"444203017"	32
+"278834012"	21	"7L1Ay"	"7L1Ay00"	"other specified compensation for renal failure"	"265763003"	"394639018"	32
+"278835013"	20	"7L1Az"	"7L1Az00"	"compensation for renal failure nos"	"265764009"	"394640016"	32
+"278844014"	1580	"7L1C0"	"7L1C000"	"insertion of temporary peritoneal dialysis catheter"	"180277007"	"278844014"	32
+"282526013"	46	"8882"	"8882.00"	"intestinal dialysis"	"182753006"	"282526013"	32
+"284213011"	4322	"8L50"	"8L50.00"	"renal transplant planned"	"183985008"	"284213011"	32
+"290737016"	773	"8DD"	NA	"dependence on renal dialysis"	"105502003"	"290737016"	32
+"293759015"	2713	"Cyu23"	"Cyu2300"	"diabetic renal disease"	"127013003"	"301016"	32
+"299665018"	1619	"G222"	"G222.00"	"hypertensive renal disease with renal failure"	"49220004"	"81984019"	32
+"299673010"	141	"G233"	"G233.00"	"hypertensive heart and renal disease with renal failure"	"194780003"	"299673010"	32
+"299675015"	25	"G23z"	"G23z.00"	"hypertensive heart and renal disease nos"	"86234004"	"143003017"	32
+"300871017"	351	"Gyu21"	"Gyu2100"	"[x]hypertension secondary to other renal disorders"	"31992008"	"53452019"	32
+"303806010"	3110	"K0"	"K0...00"	"nephritis, nephrosis and nephrotic syndrome"	"197577008"	"303806010"	32
+"303812017"	1417	"K000"	"K000.00"	"acute proliferative glomerulonephritis"	"197579006"	"303812017"	32
+"303815015"	408	"K00y"	"K00y.00"	"other acute glomerulonephritis"	"19351000"	"32619017"	32
+"303816019"	128	"K00y0"	"K00y000"	"acute glomerulonephritis in diseases ec"	"197582001"	"303816019"	32
+"303820015"	403	"K00yz"	"K00yz00"	"other acute glomerulonephritis nos"	"19351000"	"32619017"	32
+"303824012"	1987	"K00z"	"K00z.00"	"acute glomerulonephritis nos"	"19351000"	"32619017"	32
+"303825013"	404	"K010"	"K010.00"	"nephrotic syndrome with proliferative glomerulonephritis"	"197589005"	"303825013"	32
+"303826014"	8733	"K011"	"K011.00"	"nephrotic syndrome with membranous glomerulonephritis"	"197590001"	"303826014"	32
+"303832016"	436	"K014"	"K014.00"	"nephrotic syndrome, minor glomerular abnormality"	"197593004"	"303832016"	32
+"303833014"	3417	"K015"	"K015.00"	"nephrotic syndrome, focal and segmental glomerular lesions"	"197594005"	"303833014"	32
+"303834015"	1316	"K016"	"K016.00"	"nephrotic syndrome, diffuse membranous glomerulonephritis"	"197595006"	"303834015"	32
+"303838017"	40	"K01A"	"K01A.00"	"nephrotic syndrome, dense deposit disease"	"197599000"	"303838017"	32
+"303839013"	560	"K01B"	"K01B.00"	"nephrotic syndrome, diffuse crescentic glomerulonephritis"	"197600002"	"303839013"	32
+"303843012"	55	"K01wz"	"K01wz00"	"congenital nephrotic syndrome nos"	"48796009"	"81307015"	32
+"303844018"	168	"K01x"	"K01x.00"	"nephrotic syndrome in diseases ec"	"197603000"	"303844018"	32
+"303845017"	466	"K01x0"	"K01x000"	"nephrotic syndrome in amyloidosis"	"197604006"	"303845017"	32
+"303846016"	833	"K01x1"	"K01x100"	"nephrotic syndrome in diabetes mellitus"	"197605007"	"303846016"	32
+"303848015"	7	"K01x2"	"K01x200"	"nephrotic syndrome in malaria"	"197606008"	"303848015"	32
+"303849011"	18	"K01x3"	"K01x300"	"nephrotic syndrome in polyarteritis nodosa"	"197607004"	"303849011"	32
+"303853013"	74	"K01xz"	"K01xz00"	"nephrotic syndrome associated with another disorder"	"197603000"	"2575708013"	32
+"303854019"	27	"K01y"	"K01y.00"	"nephrotic syndrome with other pathological kidney lesions"	"52254009"	"86957016"	32
+"303855018"	3034	"K01z"	"K01z.00"	"nephrotic syndrome nos"	"52254009"	"86957016"	32
+"303863017"	52	"K023"	"K023.00"	"chronic rapidly progressive glomerulonephritis"	"236392004"	"354352010"	32
+"303864011"	332	"K02y"	"K02y.00"	"other chronic glomerulonephritis"	"20917003"	"35171019"	32
+"303866013"	3	"K02y1"	"K02y100"	"chronic exudative glomerulonephritis"	"197617009"	"303866013"	32
+"303867016"	1233	"K02y2"	"K02y200"	"chronic focal glomerulonephritis"	"197618004"	"303867016"	32
+"303868014"	94	"K02y3"	"K02y300"	"chronic diffuse glomerulonephritis"	"197619007"	"303868014"	32
+"303869018"	155	"K02yz"	"K02yz00"	"other chronic glomerulonephritis nos"	"20917003"	"35171019"	32
+"303870017"	932	"K02z"	"K02z.00"	"chronic glomerulonephritis nos"	"20917003"	"35171019"	32
+"303875010"	4200	"K031"	"K031.00"	"membranous glomerulonephritis"	"77182004"	"128137019"	32
+"303877019"	374	"K0320"	"K032000"	"focal membranoproliferative glomerulonephritis"	"197626007"	"303877019"	32
+"303881019"	11	"K0323"	"K032300"	"anaphylactoid glomerulonephritis"	"197629000"	"303881019"	15
+"303883016"	99	"K0325"	"K032500"	"other familial glomerulonephritis"	"399340005"	"1778791010"	32
+"303907019"	12973	"K03z"	"K03z.00"	"glomerulonephritis"	"36171008"	"60355017"	32
+"303915016"	856	"K04y"	"K04y.00"	"other acute renal failure"	"14669001"	"2920634011"	32
+"303916015"	4589	"K04z"	"K04z.00"	"acute renal failure nos"	"14669001"	"2920634011"	32
+"303943013"	20111	"K08"	"K08..00"	"impaired renal function disorder"	"197663003"	"303943013"	32
+"303949012"	245	"K08y"	"K08y.00"	"other impaired renal function disorder"	"197663003"	"303943013"	32
+"303951011"	73	"K08y3"	"K08y300"	"renal function impairment with growth failure"	"197671004"	"303951011"	32
+"303960015"	3373	"K08z"	"K08z.00"	"impaired renal function disorder nos"	"197663003"	"303943013"	32
+"303969019"	25	"K0A00"	"K0A0000"	"acute nephritic syndrome, minor glomerular abnormality"	"197681000"	"303969019"	32
+"303975011"	3	"K0A06"	"K0A0600"	"acute nephritic syndrome, dense deposit disease"	"197687001"	"303975011"	32
+"303977015"	35	"K0A1"	"K0A1.00"	"rapidly progressive nephritic syndrome"	"197689003"	"303977015"	32
+"304004016"	492	"K0A3"	"K0A3.00"	"chronic nephritic syndrome"	"197707007"	"304004016"	32
+"304005015"	55	"K0A30"	"K0A3000"	"chronic nephritic syndrome, minor glomerular abnormality"	"197708002"	"304005015"	32
+"304011017"	20	"K0A36"	"K0A3600"	"chronic nephritic syndrome, dense deposit disease"	"197714009"	"304011017"	32
+"304042010"	6	"K0B3"	"K0B3.00"	"renal tubulo-interstitial disorders in metabolic diseases"	"197744007"	"304042010"	32
+"304056012"	191	"K0y"	"K0y..00"	"other specified nephritis, nephrosis or nephrotic syndrome"	"90708001"	"150315015"	32
+"304058013"	5612	"K0z"	"K0z..00"	"nephritis, nephrosis and nephrotic syndrome nos"	"90708001"	"150315015"	32
+"304091016"	12110	"K10z"	"K10z.00"	"kidney infection"	"129128006"	"207842016"	32
+"305162014"	3	"Kyu07"	"Kyu0700"	"[x]rapidly progressive nephritic syndrome, other"	"197679002"	"303967017"	32
+"305166012"	26	"Kyu0B"	"Kyu0B00"	"[x]unspecified nephritic syndrome, dense deposit disease"	"462181000000102"	"891521000000111"	32
+"305178011"	51	"Kyu16"	"Kyu1600"	"[x]other specified renal tubulo-interstitial diseases"	"28689008"	"48036015"	32
+"305191012"	479	"Kyu20"	"Kyu2000"	"[x]other acute renal failure"	"14669001"	"2920634011"	32
+"305192017"	396	"Kyu21"	"Kyu2100"	"[x]other chronic renal failure"	"90688005"	"509111010"	32
+"305328015"	2	"L0413"	"L041300"	"incomplete spontaneous abortion with renal failure"	"198647008"	"305328015"	32
+"305343018"	1	"L0423"	"L042300"	"complete spontaneous abortion with renal failure"	"198659007"	"305343018"	32
+"305387010"	2	"L0503"	"L050300"	"legal termination of pregnancy complicated by renal failure"	"4576001"	"2967053016"	32
+"305407013"	2	"L0513"	"L051300"	"incomplete legal abortion with renal failure"	"198708004"	"305407013"	32
+"305428016"	2	"L0523"	"L052300"	"complete legal abortion with renal failure"	"198721006"	"305428016"	32
+"305447018"	1	"L0603"	"L060300"	"unspecified illegal abortion with renal failure"	"49632008"	"82664019"	32
+"305460012"	2	"L0613"	"L061300"	"incomplete illegal abortion with renal failure"	"198747002"	"305460012"	32
+"305473011"	2	"L0623"	"L062300"	"complete illegal abortion with renal failure"	"198759003"	"305473011"	32
+"305491018"	1	"L0703"	"L070300"	"unspecified abortion with renal failure"	"17369002"	"29367011"	32
+"305504016"	1	"L0713"	"L071300"	"incomplete miscarriage with renal failure"	"198647008"	"2966503012"	32
+"305530017"	3	"L083"	"L083.00"	"failed attempted abortion with renal failure"	"198809000"	"305530017"	32
+"305569011"	58	"L093"	"L093.00"	"renal failure following abortive pregnancy"	"609452007"	"2966819013"	32
+"305571011"	13	"L0931"	"L093100"	"acute renal failure following abortive pregnancy"	"609455009"	"2966764018"	32
+"305944016"	4	"L1620"	"L162000"	"unspecified renal disease in pregnancy unspecified"	"198609003"	"305277014"	32
+"305945015"	3	"L1621"	"L162100"	"unspecified renal disease in pregnancy - delivered"	"198609003"	"305277014"	32
+"305947011"	1	"L1623"	"L162300"	"unspecified renal disease in pregnancy - not delivered"	"198609003"	"305277014"	32
+"305949014"	9	"L162z"	"L162z00"	"unspecified renal disease in pregnancy nos"	"198609003"	"305277014"	32
+"307550017"	16	"L3930"	"L393000"	"post-delivery acute renal failure unspecified"	"733839001"	"3474857017"	32
+"307552013"	12	"L3932"	"L393200"	"post-delivery acute renal failure with postnatal problem"	"200118004"	"307552013"	32
+"307553015"	8	"L393z"	"L393z00"	"post-delivery acute renal failure nos"	"733839001"	"3474857017"	32
+"314302019"	13861	"PD1y"	"PD1y.00"	"congenital cystic kidney disease"	"82525005"	"136885015"	32
+"314306016"	86	"PD1yz"	"PD1yz00"	"other congenital cystic kidney disease nos"	"82525005"	"136885015"	32
+"314307013"	273	"PD1z"	"PD1z.00"	"congenital cystic kidney disease nos"	"82525005"	"136885015"	32
+"315750010"	2583	"Pyu70"	"Pyu7000"	"cystic kidney disease"	"236439005"	"3037469017"	32
+"321129019"	95	"S760z"	"S760z00"	"kidney injury without mention of open wound into cavity nos"	"40095003"	"66795010"	32
+"321131011"	7	"S7610"	"S761000"	"kidney injury with open wound into cavity, unspecified"	"210203000"	"321130012"	32
+"321136018"	11	"S761z"	"S761z00"	"kidney injury with open wound into cavity nos"	"210203000"	"321130012"	32
+"324973015"	1920	"SP083"	"SP08300"	"kidney transplant failure and rejection"	"213150003"	"324973015"	32
+"329081019"	2	"TA120"	"TA12000"	"foreign object left in body during kidney dialysis"	"216904007"	"329081019"	32
+"329116017"	3	"TA220"	"TA22000"	"failure of sterile precautions during kidney dialysis"	"216933008"	"329116017"	32
+"353974015"	232	"7B006"	"7B00600"	"xenograft renal transplant"	"236138007"	"353974015"	32
+"354317019"	19485	"K13-1"	"K13..11"	"kidney disease"	"90708001"	"150315015"	32
+"354340015"	101	"K01w2"	"K01w200"	"congenital nephrotic syndrome with focal glomerulosclerosis"	"236384008"	"354340015"	32
+"354346014"	139	"K032y-5"	"K032y15"	"mixed membranous and proliferative glomerulonephritis nec"	"52845002"	"87940013"	32
+"354347017"	1059	"K032y-3"	"K032y13"	"chronic mesangial proliferative glomerulonephritis"	"197613008"	"303860019"	32
+"354348010"	9	"K032y-2"	"K032y12"	"lobular glomerulonephritis nec"	"52845002"	"87940013"	32
+"354349019"	86	"K032y-1"	"K032y11"	"hypocomplementaemic persistent glomerulonephritis nec"	"197613008"	"303860019"	32
+"354352010"	103	"K0A8"	"K0A8.00"	"rapidly progressive glomerulonephritis"	"236392004"	"354352010"	32
+"354363013"	753	"K0001"	"K000100"	"crescentic glomerulonephritis"	"236398000"	"354363013"	32
+"354364019"	302	"K0001-1"	"K000111"	"cgn - crescentic glomerulonephritis"	"236398000"	"354364019"	32
+"354380012"	1525	"K032y-4"	"K032y14"	"mesangiocapillary glomerulonephritis"	"80321008"	"133280014"	32
+"354406016"	257654	"K060"	"K060.00"	"renal impairment"	"236423003"	"354406016"	32
+"354407013"	80395	"K060-1"	"K060.11"	"impaired renal function"	"236423003"	"354407013"	32
+"354409011"	197205	"1Z1"	"1Z1..00"	"chronic renal impairment"	"709044004"	"3037970010"	32
+"354413016"	876	"K043"	"K043.00"	"acute drug-induced renal failure"	"236429004"	"354413016"	5
+"354417015"	6277	"K0E"	"K0E..00"	"acute-on-chronic renal failure"	"236433006"	"354417015"	32
+"354486019"	2	"K08yF-1"	"K08yF11"	"renal tubule insufficiency with biliary malformation"	"236482006"	"354486019"	32
+"354505015"	161	"K0J"	"K0J..00"	"renal disorders in systemic disease"	"236498004"	"354505015"	32
+"354512012"	32	"K0J0"	"K0J0.00"	"renal involvement in scleroderma"	"236502006"	"354512012"	32
+"354516010"	56	"K036"	"K036.00"	"cryoglobulinaemic glomerulonephritis"	"236505008"	"354516010"	32
+"354521013"	19	"K0J1"	"K0J1.00"	"renal involvement in malignant disease"	"236507000"	"354521013"	32
+"354537019"	10	"K13C"	"K13C.00"	"chronic drug-induced renal disease"	"236519008"	"354537019"	32
+"354591016"	12	"SP0E0"	"SP0E000"	"bloodstained peritoneal dialysis effluent"	"236556004"	"354591016"	32
+"354610013"	667	"SP08R"	"SP08R00"	"renal transplant rejection"	"236570004"	"354610013"	32
+"354612017"	13	"SP08C"	"SP08C00"	"accelerated rejection of renal transplant"	"236572007"	"354612017"	32
+"354613010"	21	"SP08V"	"SP08V00"	"very mild acute rejection of renal transplant"	"236573002"	"354613010"	32
+"354615015"	417	"SP08H"	"SP08H00"	"acute rejection of renal transplant"	"236574008"	"354615015"	32
+"354616019"	42	"SP08E"	"SP08E00"	"acute rejection of renal transplant - grade i"	"236575009"	"354616019"	32
+"354617011"	9	"SP08F"	"SP08F00"	"acute rejection of renal transplant - grade ii"	"236576005"	"354617011"	32
+"354618018"	4	"SP08G"	"SP08G00"	"acute rejection of renal transplant - grade iii"	"236577001"	"354618018"	32
+"354619014"	170	"SP08J"	"SP08J00"	"chronic rejection of renal transplant"	"236578006"	"354619014"	32
+"354623018"	10	"SP08K"	"SP08K00"	"chronic rejection of renal transplant - grade 1"	"236579003"	"354623018"	32
+"354624012"	5	"SP08L"	"SP08L00"	"chronic rejection of renal transplant - grade ii"	"236580000"	"354624012"	32
+"354627017"	4	"SP08M"	"SP08M00"	"chronic rejection of renal transplant - grade iii"	"236581001"	"354627017"	32
+"354628010"	19	"SP08D"	"SP08D00"	"acute-on-chronic rejection of renal transplant"	"236582008"	"354628010"	32
+"354632016"	4	"SP08b"	"SP08b00"	"de novo glomerulonephritis"	"236586006"	"354632016"	32
+"354636018"	8	"K0A9"	"K0A9.00"	"cytomegalovirus-induced glomerulonephritis"	"236590008"	"354636018"	32
+"356511015"	11	"C300y-2"	"C300y12"	"hypophosphataemic rickets with nephrotic-glycosuric dwarfism"	"237888005"	"356511015"	32
+"356557018"	149	"C3536"	"C353600"	"renal failure-associated hyperphosphataemia"	"237904006"	"356557018"	32
+"357219012"	1513	"7L1A5"	"7L1A500"	"continuous ambulatory peritoneal dialysis"	"238318009"	"357219012"	32
+"359372019"	652	"C345"	"C345.00"	"gout due to impairment of renal function"	"239844009"	"359372019"	32
+"359990014"	12	"Q20yz-2"	"Q20yz12"	"kidney injury due to birth trauma"	"240317003"	"359990014"	32
+"359991013"	21	"Q20yz-3"	"Q20yz13"	"renal injury due to birth trauma"	"240317003"	"359991013"	32
+"377976016"	4528	"PD11z-1"	"PD11z11"	"cystic disease of kidney"	"236439005"	"354423013"	32
+"394639018"	1214	"7L1A"	"7L1A.00"	"compensation for renal failure"	"265763003"	"394639018"	32
+"394640016"	34326	"7L1A0"	"7L1A000"	"renal dialysis"	"265764009"	"394640016"	32
+"395753015"	2341	"G22z"	"G22z.00"	"hypertensive renal disease nos"	"38481006"	"64282015"	32
+"396706011"	4109	"K013"	"K013.00"	"nephrotic syndrome with minimal change glomerulonephritis"	"266549004"	"396706011"	32
+"396711013"	67377	"K06"	"K06..00"	"rf - renal failure"	"42399005"	"1229860014"	32
+"396713011"	158	"K08yz"	"K08yz00"	"other impaired renal function disorder nos"	"197663003"	"303943013"	32
+"398347019"	121	"L162"	"L162.00"	"unspecified renal disease in pregnancy"	"198609003"	"305277014"	32
+"400870015"	3122	"PD11z"	"PD11z00"	"polycystic kidney disease nos"	"82525005"	"505126019"	32
+"400871016"	9	"PD1y0"	"PD1y000"	"fibrocystic kidney disease"	"268234004"	"400871016"	32
+"402249011"	144	"Q48y0"	"Q48y000"	"congenital renal failure"	"268854008"	"402249011"	32
+"403109016"	446	"SP154"	"SP15400"	"renal failure as a complication of care"	"269301005"	"403109016"	32
+"403110014"	194	"SP154-1"	"SP15411"	"kidney failure as a complication of care"	"269301005"	"403110014"	32
+"411547015"	11317	"14D-1"	"14D..11"	"h/o: kidney disease"	"275552000"	"411547015"	32
+"413415016"	139	"SP08N"	"SP08N00"	"unexplained episode of renal transplant dysfunction"	"277010001"	"413415016"	32
+"422992018"	38	"7B015-1"	"7B01511"	"excision of rejected transplanted kidney"	"284348003"	"422992018"	32
+"429878012"	1539	"G703"	"G703.00"	"acquired renal artery stenosis"	"289923007"	"429878012"	32
+"443820016"	20885	"P7690"	"P769000"	"renal artery stenosis"	"302233006"	"443820016"	32
+"444906018"	95	"G7010"	"G701000"	"atherosclerotic renal artery stenosis"	"302910002"	"444906018"	32
+"444907010"	23	"G7010-1"	"G701011"	"aras - atherosclerotic renal artery stenosis"	"302910002"	"444907010"	32
+"453312018"	924	"SP056-3"	"SP05613"	"peritoneal dialysis-associated peritonitis"	"276883000"	"413231010"	32
+"454255014"	6594	"D215"	"D215.00"	"anaemia secondary to renal failure"	"310647000"	"454255014"	32
+"460644012"	18303	"ZV420"	"ZV42000"	"history of renal transplant"	"161665007"	"2793932016"	32
+"460680012"	1101	"ZV451"	"ZV45100"	"dialysis finding"	"251859005"	"375186018"	32
+"460910019"	19	"ZV56"	"ZV56.00"	"[v]aftercare involving intermittent dialysis"	"398471000000102"	"1008471000000116"	32
+"460911015"	8	"ZV560"	"ZV56000"	"[v]aftercare involving extracorporeal dialysis"	"410511000000103"	"1008481000000119"	32
+"460912010"	436	"ZV561"	"ZV56100"	"[v]preparatory care for dialysis"	"385971003"	"1480159015"	32
+"460913017"	19	"ZV56y"	"ZV56y00"	"[v]other specified aftercare involving intermittent dialysis"	"426351000000102"	"1008501000000111"	32
+"460914011"	9	"ZV56z"	"ZV56z00"	"[v]unspecified aftercare involving intermittent dialysis"	"426361000000104"	"1008511000000113"	32
+"461420012"	1465	"ZVu3G"	"ZVu3G00"	"dialysis procedure"	"108241001"	"172680015"	32
+"477999016"	681	"K1386"	"K138600"	"renal vascular disease"	"16934004"	"477999016"	32
+"479396010"	31	"K00-3"	"K00..13"	"agn - acute glomerulonephritis"	"19351000"	"479396010"	32
+"481692010"	2278	"SK08"	"SK08.00"	"acute renal failure due to rhabdomyolysis"	"23697004"	"481692010"	32
+"483965010"	7190	"PD111-1"	"PD11111"	"autosomal dominant polycystic kidney disease"	"765330003"	"3657945014"	32
+"499033018"	1080	"K0A0"	"K0A0.00"	"acute nephritic syndrome"	"61503006"	"499033018"	32
+"501594013"	142195	"7B00"	"7B00.00"	"transplantation of kidney"	"70536003"	"501594013"	32
+"505126019"	55555	"PD11"	"PD11.00"	"polycystic kidney disease"	"82525005"	"505126019"	32
+"505130016"	3	"PD1-2"	"PD1..12"	"fibrocystic kidney"	"82525005"	"505130016"	32
+"507483018"	115	"SP0H0"	"SP0H000"	"dialysis disequilibrium"	"87235005"	"507483018"	32
+"507993019"	30	"SP3y9"	"SP3y900"	"acute hypercalcaemia of dialysis"	"88351001"	"507993019"	32
+"509108014"	476	"K05-1"	"K05..11"	"chronic uraemia"	"90688005"	"509108014"	32
+"509111010"	521536	"K05"	"K05..00"	"chronic renal failure"	"90688005"	"509111010"	32
+"1212359014"	2	"L093z"	"L093z00"	"renal failure nos following abortive pregnancy"	"10697004"	"2966499018"	32
+"1221119015"	128	"K04-1"	"K04..11"	"arf - acute renal failure"	"14669001"	"1221119015"	32
+"1226060014"	197	"PD110-1"	"PD11011"	"autosomal recessive polycystic kidney disease"	"28770003"	"1226060014"	32
+"1227722017"	58	"ZV560-1"	"ZV56011"	"[v]aftercare involving renal dialysis nos"	"410511000000103"	"1008481000000119"	32
+"1227723010"	51	"ZV56y-1"	"ZV56y11"	"[v]aftercare involving peritoneal dialysis"	"426351000000102"	"1008501000000111"	32
+"2474415018"	58	"4N"	"4N...00"	"dialysis fluid examination"	"412859006"	"2474415018"	3
+"2474453011"	13	"4N3"	"4N3..00"	"peritoneal dialysis fluid cell count"	"1016231000000104"	"2580201000000112"	3
+"2478488018"	48	"4N0"	"4N0..00"	"dialysis fluid urea level"	"991511000000108"	"2570421000000112"	3
+"2478490017"	25	"4N1"	"4N1..00"	"dialysis fluid creatinine level"	"1011911000000108"	"2552161000000112"	3
+"2478492013"	15	"4N2"	"4N2..00"	"dialysis fluid glucose level"	"991521000000102"	"2558991000000119"	3
+"2478640010"	10	"4N4"	"4N4..00"	"dialysis fluid potassium level"	"1016391000000106"	"2557801000000117"	3
+"2478641014"	6	"4N5"	"4N5..00"	"dialysis fluid sodium level"	"991611000000107"	"2581131000000118"	3
+"2645796013"	2033	"K0430"	"K043000"	"acute renal failure due to ace inhibitor"	"422593004"	"2645796013"	5
+"2645965011"	568	"SP07G"	"SP07G00"	"stenosis of arteriovenous dialysis fistula"	"423062001"	"2645965011"	32
+"2674486017"	35	"7L1f0"	"7L1f000"	"extracorporeal albumin haemodialysis"	"427053002"	"2674486017"	32
+"2675886019"	1889	"7A606"	"7A60600"	"creation of graft fistula for dialysis"	"426340003"	"2675886019"	32
+"2692168016"	255	"7L1A4"	"7L1A400"	"automated peritoneal dialysis"	"428648006"	"2692168016"	32
+"2767154014"	2094	"K055"	"K055.00"	"chronic kidney disease stage 5"	"433146000"	"2767154014"	32
+"2767383018"	115	"K051"	"K051.00"	"chronic kidney disease stage 1"	"431855005"	"2767383018"	32
+"2767384012"	946	"K052"	"K052.00"	"chronic kidney disease stage 2"	"431856006"	"2767384012"	32
+"2767385013"	3630	"K054"	"K054.00"	"chronic kidney disease stage 4"	"431857002"	"2767385013"	32
+"2771041011"	43636	"K05-3"	"K05..13"	"chronic kidney disease"	"709044004"	"3036750018"	32
+"2773184015"	24886	"K053"	"K053.00"	"chronic kidney disease stage 3"	"433144002"	"2773184015"	32
+"3331116019"	1	"^ESCT1170580"	NA	"glomerulonephritis due to antineutrophil cytoplasmic antibody (anca) positive vasculitis"	"101711000119105"	"3331116019"	31
+"3516789013"	1	"^ESCT1166435"	NA	"post-dialysis target weight"	"736190007"	"3516789013"	31
+"3517310014"	1	"^ESCT1170561"	NA	"history of renal insufficiency"	"73901000119107"	"3517310014"	31
+"3521937013"	1	"^ESCT1166878"	NA	"dialysis care plan"	"736690008"	"3521937013"	31
+"3525741013"	1	"^ESCT1167145"	NA	"infection of bloodstream co-occurrent and due to haemodialysis catheter in situ"	"736918003"	"3525741013"	31
+"3525743011"	1	"^ESCT1167147"	NA	"infection related to haemodialysis catheter"	"736918003"	"3525743011"	31
+"3525746015"	6	"^ESCT1167149"	NA	"insertion of haemodialysis catheter"	"736919006"	"3525746015"	31
+"3525758015"	2	"^ESCT1167156"	NA	"insertion of tunneled hemodialysis catheter"	"736922008"	"3525758015"	31
+"3525759011"	18	"^ESCT1167155"	NA	"insertion of tunnelled haemodialysis catheter"	"736922008"	"3525759011"	31
+"3526122014"	1	"^ESCT1167267"	NA	"infection of bloodstream co-occurrent and due to temporary haemodialysis catheter in situ"	"736984007"	"3526122014"	31
+"3527360016"	61	"^ESCT1167612"	NA	"transplanted kidney present"	"737295003"	"3527360016"	31
+"3527814014"	3	"^ESCT1167738"	NA	"chronic kidney disease clinical management plan"	"737429003"	"3527814014"	31
+"3528309015"	48	"^ESCT1167847"	NA	"mckd - multicystic kidney disease"	"737562008"	"3528309015"	32
+"3541411013"	1	"^ESCT1170579"	NA	"glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis"	"101711000119105"	"3541411013"	31
+"3634081012"	7	"^ESCT1168630"	NA	"pos-s renal (palliative care outcome scale symptom list for end-stage renal disease) score"	"761866001"	"3634081012"	3
+"77541000006113"	16	"K03V"	"K03V.00"	"unspecified nephritic syndrome, dense deposit disease"	"462181000000102"	"891521000000111"	32
+"78391000006114"	2	"L1622"	"L162200"	"unspecified renal disease in pregnancy - del with p/n comp"	"198609003"	"305277014"	32
+"81251000006113"	58	"K03W"	"K03W.00"	"unsp nephrit synd, diff endocap prolif glomerulonephritis"	"3704008"	"7243014"	32
+"81261000006110"	164	"K03X"	"K03X.00"	"unsp nephrit synd, diff mesang prolif glomerulonephritis"	"197679002"	"303967017"	32
+"81581000006119"	37	"K03U"	"K03U.00"	"unspecif nephr synd, diff concentric glomerulonephritis"	"64212008"	"106739010"	32
+"90461000006118"	18046	"7B002"	"7B00200"	"transplantation of kidney from cadaver"	"175902000"	"272325018"	32
+"90471000006113"	25796	"7B001"	"7B00100"	"live donor renal transplant"	"175901007"	"272318013"	32
+"106291000006118"	11	"7L1A0-1"	"7L1A011"	"thomas intravascular shunt for dialysis"	"302497006"	"444203017"	32
+"127091000006118"	990	"K013-2"	"K013.12"	"steroid-sensitive nephrotic syndrome"	"236380004"	"354331019"	32
+"165061000006114"	8	"K0A13"	"K0A1300"	"rapidly progressive nephritic syndrome, diffuse mesangial proliferative glomerulonephritis"	"197693009"	"303981015"	32
+"176321000006119"	20	"K0B2"	"K0B2.00"	"renal tubulo-interstitial disorders in blood diseases and disorders involving the immune mechanism"	"197743001"	"304041015"	32
+"176331000006116"	20	"K0B4"	"K0B4.00"	"renal tubulo-interstitial disorders in systemic connective tissue disorders"	"197745008"	"304043017"	32
+"176711000006111"	93	"TB11-1"	"TB11.11"	"renal dialysis with complication, without blame"	"116223007"	"178923014"	32
+"176741000006110"	8	"SK05-1"	"SK05.11"	"renal failure after crushing"	"269257004"	"403057012"	32
+"176771000006119"	127	"SK05"	"SK05.00"	"renal failure following crush syndrome"	"269257004"	"403057012"	32
+"177251000006119"	1927	"TB001-1"	"TB00111"	"renal transplant with complication, without blame"	"88797001"	"147234011"	32
+"177301000006114"	48	"K0B40"	"K0B4000"	"renal tubulo-interstitial disorder in systemic lupus erythematosus"	"307755009"	"451122013"	32
+"177311000006112"	36	"K0B1"	"K0B1.00"	"renal tubulo-interstitial disorders in neoplastic diseases"	"197742006"	"304040019"	32
+"177321000006116"	356	"K0B"	"K0B..00"	"renal tubulo-interstitial disorders in diseases ec"	"28689008"	"48036015"	32
+"177341000006111"	49	"K0B5"	"K0B5.00"	"renal tubulo-interstitial disorders in transplant rejection"	"197747000"	"304045012"	32
+"181021000006119"	1190	"7L1B1"	"7L1B100"	"removal of ambulatory peritoneal dialysis catheter"	"180273006"	"278840017"	32
+"189131000006116"	5	"K0A27"	"K0A2700"	"recurrent haematuria co-occurrent and due to diffuse crescentic glomerulonephritis"	"714815007"	"3300526014"	32
+"189141000006114"	27	"K0A22"	"K0A2200"	"recurrent haematuria co-occurrent and due to diffuse membranous glomerulonephritis"	"714821006"	"3300544018"	32
+"189161000006113"	3	"K0A24"	"K0A2400"	"recurrent haematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis"	"714817004"	"3300532016"	32
+"189171000006118"	51	"K0A23"	"K0A2300"	"recurrent haematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis"	"714825002"	"3300556017"	32
+"189181000006115"	13	"K0A25"	"K0A2500"	"recurrent haematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis"	"714819001"	"3300538017"	32
+"191841000006118"	6	"K0A15"	"K0A1500"	"rapidly progressive nephritic syndrome, diffuse mesangiocapillary glomerulonephritis"	"197695002"	"303983017"	32
+"191851000006116"	2	"K0A14"	"K0A1400"	"rapidly progressive nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis"	"197694003"	"303982010"	32
+"191861000006119"	3	"K0A12"	"K0A1200"	"rapidly progressive nephritic syndrome, diffuse membranous glomerulonephritis"	"197692004"	"303980019"	32
+"191871000006114"	4	"K0A10"	"K0A1000"	"rapidly progressive nephritic syndrome, minor glomerular abnormality"	"197690007"	"303978013"	32
+"191881000006112"	21	"K0A17"	"K0A1700"	"rapidly progressive nephritic syndrome, diffuse crescentic glomerulonephritis"	"197697005"	"303985012"	32
+"191891000006110"	17	"K0A11"	"K0A1100"	"rapidly progressive nephritic syndrome, focal and segmental glomerular lesions"	"197691006"	"303979017"	32
+"191901000006114"	9	"K0A16"	"K0A1600"	"rapidly progressive nephritic syndrome, dense deposit disease"	"197696001"	"303984011"	32
+"213101000006114"	1	"L1281"	"L128100"	"pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth and the puerperium"	"199007008"	"305828012"	32
+"215521000000116"	51351	"K050"	"K050.00"	"end stage renal disease"	"46177005"	"76995019"	32
+"216921000006111"	19	"L3931"	"L393100"	"post-delivery acute renal failure - delivered with p/n prob"	"200118004"	"307552013"	32
+"218351000000112"	237	"SP154-2"	"SP15412"	"post operative renal failure"	"275408006"	"411387014"	32
+"228101000006113"	47	"7L1B"	"7L1B.00"	"placement ambulatory apparatus compensation renal failure"	"180272001"	"278839019"	32
+"228111000006111"	8	"7L1Bz"	"7L1Bz00"	"placement ambulatory apparatus- compensate renal failure nos"	"271418008"	"406192014"	32
+"228121000006115"	13	"7L1By"	"7L1By00"	"placement ambulatory apparatus- compensate renal failure os"	"271418008"	"406192014"	32
+"228131000006117"	43	"7L1B-1"	"7L1B.11"	"placement ambulatory dialysis apparatus - compens renal fail"	"180272001"	"278839019"	32
+"228211000006117"	46	"7L1C"	"7L1C.00"	"placement other apparatus for compensation for renal failure"	"180277007"	"278844014"	32
+"228221000006113"	4	"7L1Cz"	"7L1Cz00"	"placement other apparatus- compensate for renal failure nos"	"180277007"	"278844014"	32
+"228231000006111"	5	"7L1Cy"	"7L1Cy00"	"placement other apparatus- compensate for renal failure os"	"180277007"	"278844014"	32
+"304031000000117"	71207	"1Z10"	"1Z10.00"	"chronic kidney disease stage 1"	"431855005"	"2767383018"	32
+"304051000000112"	397860	"1Z11"	"1Z11.00"	"chronic kidney disease stage 2"	"431856006"	"2767384012"	32
+"304071000000115"	4220287	"1Z12"	"1Z12.00"	"chronic kidney disease stage 3"	"433144002"	"2773184015"	32
+"304091000000116"	735621	"1Z13"	"1Z13.00"	"chronic kidney disease stage 4"	"431857002"	"2767385013"	32
+"304111000000114"	235193	"1Z14"	"1Z14.00"	"chronic kidney disease stage 5"	"433146000"	"2767154014"	32
+"366671000000118"	29	"7B0F"	"7B0F.00"	"interventions associated with transplantation of kidney"	"711446003"	"3078450015"	32
+"372621000000114"	214	"7B003"	"7B00300"	"allotransplantation of kidney from beating heart cadaver"	"711411006"	"3078356013"	32
+"375841000000114"	459	"7L1A6"	"7L1A600"	"peritoneal dialysis nec"	"71192002"	"118218017"	32
+"380061000000118"	20	"7B0Fz"	"7B0Fz00"	"interventions associated with transplantation of kidney nos"	"711446003"	"3078450015"	32
+"380101000000116"	48	"7B0F3"	"7B0F300"	"examination of recipient after kidney transplant"	"428645009"	"2693113012"	32
+"384641000006114"	4	"U6122"	"U612200"	"[x]failure sterile precautions dur kidney dialys/other perf"	"216933008"	"329116017"	32
+"386181000000111"	138	"7B0F1"	"7B0F100"	"pre-transplantation of kidney work-up, recipient"	"238251000000109"	"386181000000111"	32
+"387351000000117"	83	"7B0F4"	"7B0F400"	"examination of live donor after kidney transplant"	"429496005"	"2694666017"	32
+"387911000000115"	227	"7B0F2"	"7B0F200"	"pre-transplantation of kidney work-up, live donor"	"239101000000109"	"387911000000115"	32
+"394661000006112"	2	"U641"	"U641.00"	"[x]kidny dialysis caus abn reac pt/lat comp no misad at time"	"19765000"	"33288015"	32
+"399381000000115"	101	"7B005"	"7B00500"	"allotransplantation of kidney from cadaver nec"	"175902000"	"272323013"	32
+"406821000000110"	72221	"9Ot"	"9Ot..00"	"chronic kidney disease monitoring administration"	"713811000000100"	"1565051000000110"	37
+"407481000000111"	295167	"66i"	"66i..00"	"chronic kidney disease monitoring"	"248721000000108"	"407481000000111"	1
+"408261000000119"	643813	"9Ot0"	"9Ot0.00"	"chronic kidney disease monitoring first letter"	"716651000000106"	"1569201000000115"	37
+"408281000000111"	146626	"9Ot1"	"9Ot1.00"	"chronic kidney disease monitoring second letter"	"717751000000104"	"1570281000000111"	37
+"408301000000112"	50932	"9Ot2"	"9Ot2.00"	"chronic kidney disease monitoring third letter"	"717461000000108"	"1570001000000114"	37
+"408321000000115"	14508	"9Ot3"	"9Ot3.00"	"chronic kidney disease monitoring verbal invite"	"717231000000104"	"1570441000000116"	37
+"408341000000110"	29513	"9Ot4"	"9Ot4.00"	"chronic kidney disease monitoring telephone invite"	"717511000000105"	"1570451000000118"	37
+"408381000000119"	1007727	"6AA"	"6AA..00"	"chronic kidney disease annual review"	"249171000000102"	"408381000000119"	1
+"408661000000117"	402	"9Ot5"	"9Ot5.00"	"predicted stage chronic kidney disease"	"249311000000109"	"408661000000117"	37
+"409591000006112"	127	"Kyu40"	"Kyu4000"	"[x]other disorders resulting/impaired renal tubular function"	"236437007"	"354421010"	32
+"424731000006111"	13682	"Kyu2"	"Kyu2.00"	"renal failure"	"42399005"	"3014127011"	32
+"424761000006119"	281	"Kyu1"	"Kyu1.00"	"renal tubulo-interstitial disease"	"28689008"	"483950014"	32
+"424771000006114"	6	"Kyu1D"	"Kyu1D00"	"[x]renal tubulo-interstitial disorders in other diseases ce"	"28689008"	"48036015"	32
+"424781000006112"	4	"Kyu1A"	"Kyu1A00"	"[x]renal tubulo-interstitial disorders/metabolic diseases ce"	"28689008"	"48036015"	32
+"424791000006110"	59	"Kyu1C"	"Kyu1C00"	"[x]renal tubulo-interstitial disorders/transplant rejection"	"197747000"	"304045012"	32
+"424801000006111"	1	"Kyu17"	"Kyu1700"	"[x]renal tubulo-interstitial disordr/infect+parasitic dis ce"	"28689008"	"48036015"	32
+"424811000006114"	2	"Kyu18"	"Kyu1800"	"[x]renal tubulo-interstitial disordrs/neoplastic diseases ce"	"28689008"	"48036015"	32
+"430091000006117"	3	"Kyu0A"	"Kyu0A00"	"[x]unspecified nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis"	"3704008"	"7243014"	32
+"430101000006111"	40	"Kyu09"	"Kyu0900"	"[x]unsp nephrit synd, diff mesang prolif glomerulonephritis"	"197679002"	"303967017"	32
+"430591000006111"	3	"Kyu0C"	"Kyu0C00"	"[x]unspecified nephritic syndrome, diffuse concentric glomerulonephritis"	"64212008"	"106739010"	32
+"430601000006115"	29	"Kyu08"	"Kyu0800"	"[x]unspecif nephritic syndr, minor glomerular abnormality"	"197679002"	"303967017"	32
+"440031000006117"	3	"K0A04"	"K0A0400"	"acute nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis"	"197685009"	"303973016"	32
+"441151000006115"	2	"TA020"	"TA02000"	"accidental cut, puncture, perforation or haemorrhage during kidney dialysis"	"216878005"	"329026014"	32
+"441161000006118"	2	"TA02"	"TA02.00"	"accid cut,puncture,perf,h'ge - kidney dialysis/oth perfusion"	"269691005"	"404223019"	32
+"446291000006111"	3	"TA020-1"	"TA02011"	"accidental cut/puncture/perf/haem'ge during renal dialysis"	"216878005"	"329026014"	32
+"455321000006114"	131	"K0A03"	"K0A0300"	"acute nephritic syndrome, diffuse mesangial proliferative glomerulonephritis"	"197684008"	"303972014"	32
+"458441000006117"	81	"K0A05"	"K0A0500"	"acute nephritic syndrome, diffuse mesangiocapillary glomerulonephritis"	"197686005"	"303974010"	32
+"458451000006115"	123	"K0A02"	"K0A0200"	"acute nephritic syndrome, diffuse membranous glomerulonephritis"	"197683002"	"303971019"	32
+"458481000006111"	260	"K0A01"	"K0A0100"	"acute nephritic syndrome, focal and segmental glomerular lesions"	"197682007"	"303970018"	32
+"458521000006111"	245	"K0A07"	"K0A0700"	"acute nephritic syndrome, diffuse crescentic glomerulonephritis"	"197688006"	"303976012"	32
+"460091000006111"	170664	"K04"	"K04..00"	"acute renal failure"	"14669001"	"2920634011"	32
+"460121000006110"	41	"L393"	"L393.00"	"acute renal failure following labour and delivery"	"733839001"	"3474857017"	32
+"478131000006115"	53	"7B002-1"	"7B00211"	"allotransplantation of kidney from cadaver"	"175902000"	"272325018"	32
+"480871000006117"	11601	"D2150"	"D215000"	"anaemia of chronic renal failure"	"49708008"	"495474017"	32
+"500371000006119"	191	"7B000"	"7B00000"	"autotransplant of kidney"	"175899003"	"272315011"	32
+"526441000000118"	1697	"9Ni9"	"9Ni9.00"	"did not attend chronic kidney disease monitoring clinic"	"298141000000107"	"526441000000118"	37
+"553181000006118"	110	"K0A33"	"K0A3300"	"chronic nephritic syndrome, diffuse mesangial proliferative glomerulonephritis"	"197613008"	"303861015"	32
+"553191000006115"	5	"K0A34"	"K0A3400"	"chronic nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis"	"197712008"	"304009014"	32
+"553201000006117"	145	"K0A32"	"K0A3200"	"chronic nephritic syndrome, diffuse membranous glomerulonephritis"	"77182004"	"1234074010"	32
+"554481000006111"	22	"K02y0"	"K02y000"	"chronic glomerulonephritis + diseases ec"	"197616000"	"303865012"	32
+"555191000006119"	985	"K022"	"K022.00"	"membranoproliferative glomerulonephritis"	"80321008"	"133282018"	32
+"555201000006116"	4805	"K021"	"K021.00"	"chronic membranous glomerulonephritis"	"77182004"	"128137019"	32
+"555371000006118"	79	"K0A35"	"K0A3500"	"chronic nephritic syndrome, diffuse mesangiocapillary glomerulonephritis"	"197713003"	"304010016"	32
+"555381000006115"	314	"K0A37"	"K0A3700"	"chronic nephritic syndrome, diffuse crescentic glomerulonephritis"	"197715005"	"304012012"	32
+"555391000006117"	526	"K0A31"	"K0A3100"	"chronic nephritic syndrome, focal and segmental glomerular lesions"	"197709005"	"304006019"	32
+"556211000006112"	923	"K020"	"K020.00"	"chronic proliferative glomerulonephritis"	"197613008"	"303862010"	32
+"557811000000119"	227619	"1Z15"	"1Z15.00"	"chronic kidney disease stage 3a"	"700378005"	"2990386017"	27
+"557831000000110"	96796	"1Z16"	"1Z16.00"	"chronic kidney disease stage 3b"	"700379002"	"2990361014"	27
+"581531000006115"	1549	"PD1-1"	"PD1..11"	"congenital cystic renal disease"	"82525005"	"505127011"	32
+"595541000000119"	1682	"1Z17"	"1Z17.00"	"chronic kidney disease stage 1 with proteinuria"	"324121000000109"	"595541000000119"	27
+"595601000000118"	1609	"1Z18"	"1Z18.00"	"chronic kidney disease stage 1 without proteinuria"	"324151000000104"	"595601000000118"	27
+"595661000000119"	5408	"1Z19"	"1Z19.00"	"chronic kidney disease stage 2 with proteinuria"	"324181000000105"	"595661000000119"	27
+"595721000000116"	13144	"1Z1A"	"1Z1A.00"	"chronic kidney disease stage 2 without proteinuria"	"324211000000106"	"595721000000116"	27
+"595811000000117"	47795	"1Z1B"	"1Z1B.00"	"chronic kidney disease stage 3 with proteinuria"	"324251000000105"	"595811000000117"	27
+"595871000000110"	134548	"1Z1C"	"1Z1C.00"	"chronic kidney disease stage 3 without proteinuria"	"324281000000104"	"595871000000110"	27
+"595931000000116"	25586	"1Z1D"	"1Z1D.00"	"chronic kidney disease stage 3a with proteinuria"	"324311000000101"	"595931000000116"	27
+"595991000000115"	134725	"1Z1E"	"1Z1E.00"	"chronic kidney disease stage 3a without proteinuria"	"324341000000100"	"595991000000115"	27
+"596051000000115"	25222	"1Z1F"	"1Z1F.00"	"chronic kidney disease stage 3b with proteinuria"	"324371000000106"	"596051000000115"	27
+"596131000000114"	49781	"1Z1G"	"1Z1G.00"	"chronic kidney disease stage 3b without proteinuria"	"324411000000105"	"596131000000114"	27
+"596191000000110"	26674	"1Z1H"	"1Z1H.00"	"chronic kidney disease stage 4 with proteinuria"	"324441000000106"	"596191000000110"	27
+"596261000000111"	23469	"1Z1J"	"1Z1J.00"	"chronic kidney disease stage 4 without proteinuria"	"324471000000100"	"596261000000111"	27
+"596321000000110"	7396	"1Z1K"	"1Z1K.00"	"chronic kidney disease stage 5 with proteinuria"	"324501000000107"	"596321000000110"	27
+"596401000000111"	3224	"1Z1L"	"1Z1L.00"	"chronic kidney disease stage 5 without proteinuria"	"324541000000105"	"596401000000111"	27
+"618391000000118"	968	"1Z17-1"	"1Z17.11"	"ckd stage 1 with proteinuria"	"324121000000109"	"618391000000118"	27
+"618401000000115"	1401	"1Z18-1"	"1Z18.11"	"ckd stage 1 without proteinuria"	"324151000000104"	"618401000000115"	27
+"618411000000118"	2877	"1Z19-1"	"1Z19.11"	"ckd stage 2 with proteinuria"	"324181000000105"	"618411000000118"	27
+"618421000000112"	8321	"1Z1A-1"	"1Z1A.11"	"ckd stage 2 without proteinuria"	"324211000000106"	"618421000000112"	27
+"618431000000114"	12987	"1Z1B-1"	"1Z1B.11"	"ckd stage 3 with proteinuria"	"324251000000105"	"618431000000114"	27
+"618441000000117"	36432	"1Z1C-1"	"1Z1C.11"	"ckd stage 3 without proteinuria"	"324281000000104"	"618441000000117"	27
+"618451000000119"	7432	"1Z1D-1"	"1Z1D.11"	"ckd stage 3a with proteinuria"	"324311000000101"	"618451000000119"	27
+"618461000000116"	38160	"1Z1E-1"	"1Z1E.11"	"ckd stage 3a without proteinuria"	"324341000000100"	"618461000000116"	27
+"618471000000111"	8578	"1Z1F-1"	"1Z1F.11"	"ckd stage 3b with proteinuria"	"324371000000106"	"618471000000111"	27
+"618481000000113"	17536	"1Z1G-1"	"1Z1G.11"	"ckd stage 3b without proteinuria"	"324411000000105"	"618481000000113"	27
+"618491000000110"	11191	"1Z1H-1"	"1Z1H.11"	"ckd stage 4 with proteinuria"	"324441000000106"	"618491000000110"	27
+"618501000000116"	8120	"1Z1J-1"	"1Z1J.11"	"ckd stage 4 without proteinuria"	"324471000000100"	"618501000000116"	27
+"618511000000119"	3316	"1Z1K-1"	"1Z1K.11"	"ckd stage 5 with proteinuria"	"324501000000107"	"618511000000119"	27
+"618521000000113"	1376	"1Z1L-1"	"1Z1L.11"	"ckd stage 5 without proteinuria"	"324541000000105"	"618521000000113"	27
+"619541000006116"	16319	"7L1A-1"	"7L1A.11"	"dialysis for renal failure"	"265764009"	"394640016"	32
+"637771000000113"	341	"7A619"	"7A61900"	"ligation of arteriovenous dialysis fistula"	"438546008"	"2792170012"	32
+"638111000000115"	16	"7A61A"	"7A61A00"	"ligation of arteriovenous dialysis graft"	"438548009"	"2792171011"	32
+"641471000006117"	11442	"K05-2"	"K05..12"	"end stage renal failure"	"46177005"	"76995019"	32
+"641491000006116"	4283	"K0D"	"K0D..00"	"end-stage renal disease"	"46177005"	"76996018"	32
+"663551000006118"	1	"TA220-1"	"TA22011"	"failure of sterile precautions during renal dialysis"	"216933008"	"329116017"	32
+"666291000006116"	510	"K0324"	"K032400"	"familial glomerulonephritis in alport's syndrome"	"399340005"	"1786829010"	32
+"670581000006113"	10	"Q001-1"	"Q001.11"	"fetus or neonate affected by maternal renal disease"	"268795001"	"402168015"	32
+"677461000006115"	883	"K017"	"K017.00"	"nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis"	"197596007"	"303835019"	32
+"677471000006110"	467	"K019"	"K019.00"	"nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis"	"197598008"	"303837010"	32
+"677481000006113"	6	"K018"	"K018.00"	"nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis"	"197597003"	"303836018"	32
+"677561000006119"	1058	"K01x4"	"K01x400"	"nephrotic syndrome in systemic lupus erythematosus"	"68815009"	"114310015"	32
+"677621000006112"	376	"K012"	"K012.00"	"nephrotic syndrome with membranoproliferative glomerulonephritis"	"197591002"	"303827017"	32
+"677971000006118"	31	"K032z"	"K032z00"	"nephritis unsp+membranoprolif glomerulonephritis lesion nos"	"52845002"	"87940013"	32
+"677981000006115"	140	"K032y"	"K032y00"	"nephritis unsp+os membranoprolif glomerulonephritis lesion"	"52845002"	"87940013"	32
+"703451000006112"	1	"K0A47"	"K0A4700"	"isolated proteinuria with specified morphological lesion, diffuse concentric glomerulonephritis"	"197725000"	"304022018"	32
+"703481000006116"	8	"K01w0-1"	"K01w011"	"microcystic type congenital nephrotic syndrome"	"197601003"	"303840010"	32
+"710221000006113"	115	"K01w0"	"K01w000"	"finnish congenital nephrotic syndrome"	"197601003"	"303840010"	32
+"712841000006115"	2	"K0A42"	"K0A4200"	"isolated proteinuria with specified morphological lesion, diffuse membranous glomerulonephritis"	"197720005"	"304017018"	32
+"713611000006110"	7	"TA420"	"TA42000"	"mechanical failure of instrument or apparatus during kidney dialysis"	"269698004"	"404234016"	32
+"713671000006118"	2	"TA420-1"	"TA42011"	"mechanical failure of apparatus during renal dialysis"	"269698004"	"404234016"	32
+"741701000006114"	120	"G232"	"G232.00"	"hypertensive heart and renal disease with (congestive) heart failure"	"194779001"	"299672017"	32
+"742231000006118"	3	"K0A44"	"K0A4400"	"isolated proteinuria with specified morphological lesion, diffuse endocapillary proliferative glomerulonephritis"	"197722002"	"304019015"	32
+"742241000006111"	7	"K0A43"	"K0A4300"	"isolated proteinuria with specified morphological lesion, diffuse mesangial proliferative glomerulonephritis"	"197721009"	"304018011"	32
+"745481000006111"	5	"K0A45"	"K0A4500"	"isolated proteinuria with specified morphological lesion, diffuse mesangiocapillary glomerulonephritis"	"197723007"	"304020014"	32
+"753971000006119"	100	"S7600"	"S760000"	"kidney injury without open wound into cavity, unspecified"	"40095003"	"66795010"	32
+"754061000006111"	608	"TB001"	"TB00100"	"kidney transplant with complication, without blame"	"88797001"	"147234011"	32
+"754781000006116"	62	"TB11"	"TB11.00"	"kidney dialysis with complication, without blame"	"116223007"	"178923014"	32
+"763111000006117"	15	"K0322"	"K032200"	"focal glomerulonephritis with focal recurrent macroscopic glomerulonephritis"	"36171008"	"60355017"	32
+"766101000006114"	1	"TA120-1"	"TA12011"	"foreign object left in body during renal dialysis"	"216904007"	"329081019"	32
+"773041000006111"	3926	"7L1B0"	"7L1B000"	"insertion of chronic ambulatory peritoneal dialysis catheter"	"180272001"	"278839019"	32
+"773311000006114"	364	"70103-2"	"7010312"	"insertion of hakim ventriculoperitoneal shunt"	"47020004"	"78368010"	32
+"789941000006117"	46	"G234"	"G234.00"	"hypertensive heart and renal disease with both (congestive) heart failure and renal failure"	"194781004"	"299674016"	32
+"811521000006115"	11582	"14D-2"	"14D..12"	"h/o: renal disease"	"275552000"	"411547015"	32
+"855641000006115"	116	"EGTON89"	NA	"chronic kidney rejection"	"855641000006104"	"855641000006115"	32
+"886631000006110"	1241	"K06-99"	"K06..99"	"renal failure nos"	"690191000000102"	"886631000006110"	32
+"886641000006117"	159	"K1-99"	"K1...99"	"other kidney/urinary diseases"	"577531000000106"	"886641000006117"	32
+"886661000006118"	476	"K10z-99"	"K10z.99"	"kidney infection nos"	"601541000000108"	"886661000006118"	32
+"886721000006116"	816	"K13z-99"	"K13z.99"	"renal disease nos"	"620391000000106"	"886721000006116"	32
+"886871000006112"	148	"K1z-99"	"K1z..99"	"kidney/urinary disease nos"	"666091000000101"	"886871000006112"	32
+"887731000006115"	2478	"L093-99"	"L093.99"	"renal failure"	"198841006"	"887731000006115"	32
+"893231000006117"	2048	"PD1-99"	"PD1..99"	"cystic kidney disease"	"82525005"	"893231000006117"	32
+"900121000006113"	67	"SP081-99"	"SP08199"	"renal transplant rejected"	"236570004"	"900121000006113"	32
+"906301000006115"	67	"HNG0106"	NA	"[rfc] reason for care : renal probs including renal failure"	"906301000006104"	"906301000006115"	12
+"906311000006117"	200	"HNG0107"	NA	"[rfc] reason for care : continuous ambulatory peritoneal dialysis"	"906311000006101"	"906311000006117"	12
+"906351000006116"	14807	"HNG0111"	NA	"[rfc] reason for care : renal transplant"	"906351000006100"	"906351000006116"	12
+"988961000006115"	1	"SP083-99"	"SP08399"	"renal transplant rejected"	"213150003"	"988961000006115"	32
+"990791000006113"	5	"K10-99"	"K10..99"	"kidney infection nos"	"129128006"	"990791000006113"	32
+"994391000006115"	7030	"EMISNQCH17"	NA	"chronic kidney disease stage"	"994391000006104"	"994391000006115"	27
+"994411000006115"	6	"EMISNQCH19"	NA	"chronic kidney disease stage 2"	"994411000006104"	"994411000006115"	27
+"994421000006111"	158	"EMISNQCH20"	NA	"chronic kidney disease stage 3"	"994421000006107"	"994421000006111"	27
+"994441000006116"	13	"EMISNQCH22"	NA	"chronic kidney disease stage 5"	"994441000006100"	"994441000006116"	27
+"999981000006116"	8648	"9hE"	"9hE..00"	"exception reporting - chronic kidney disease quality indicators"	"717361000000100"	"1569901000000110"	37
+"999991000006118"	159453	"9hE0"	"9hE0.00"	"excepted from chronic kidney disease quality indicators - patient unsuitable"	"716891000000102"	"1569441000000118"	37
+"1000001000006114"	70937	"9hE1"	"9hE1.00"	"excepted from chronic kidney disease quality indicators - informed dissent"	"716881000000104"	"1569431000000110"	37
+"1549841000006116"	411	"7B004"	"7B00400"	"allotransplantation of kidney from non-beating heart cadaver"	"711413009"	"3078484016"	32
+"1550021000006110"	2	"7B0Fy"	"7B0Fy00"	"os interventions associated with transplantation of kidney"	"711446003"	"3078450015"	32
+"1705621000000113"	56	"7L1B2"	"7L1B200"	"flushing of peritoneal dialysis catheter"	"238317004"	"1705621000000113"	32
+"1705781000006113"	572	"K044"	"K044.00"	"acute renal failure due to obstruction"	"429489008"	"2694055011"	32
+"1743241000006119"	25	"SP06B"	"SP06B00"	"continuous ambulatory peritoneal dialysis associated peritonitis"	"699235009"	"2983127018"	32
+"1770901000006119"	310	"EMISNQCH78"	NA	"chronic kidney disease diagnosis reviewed"	"1770901000006103"	"1770901000006119"	1
+"1816581000006110"	975	"K06-2"	"K06..12"	"kidney failure unspecified"	"42399005"	"1229860014"	32
+"1823941000006114"	363	"EMISNQCH103"	NA	"chronic kidney disease confirmed"	"1823941000006105"	"1823941000006114"	27
+"1825111000006112"	2658	"EMISNQCH107"	NA	"chronic kidney disease diagnosis discussed with patient"	"1825111000006108"	"1825111000006112"	32
+"1847091000006110"	33	"G72D0"	"G72D000"	"aneurysm of superficialised artery of dialysis arteriovenous fistula"	"846671000000106"	"2195541000000114"	32
+"1847111000006118"	85	"G72D2"	"G72D200"	"aneurysm of anastomotic site of dialysis arteriovenous fistula"	"846801000000104"	"2195801000000114"	32
+"1847541000006113"	83	"K01w1-2"	"K01w112"	"wilms' tumour and nephrotic syndrome with pseudohermaphroditism"	"236385009"	"354342011"	32
+"1847641000006114"	96	"K0434"	"K043400"	"acute renal failure induced by non-steroidal anti-inflammatory drug"	"840471000000106"	"2180941000000110"	5
+"1847891000006118"	11	"K08yF"	"K08yF00"	"inherited renal tubule insufficiency with cholestatic jaundice"	"236482006"	"354487011"	32
+"1848741000006116"	86	"SP0E"	"SP0E.00"	"complication of peritoneal dialysis"	"33461007"	"55841017"	32
+"1850891000006119"	2999	"EMISNQRE331"	NA	"reason for influenza vaccine - chronic kidney disease"	"1850891000006103"	"1850891000006119"	9
+"1854991000006119"	486	"TESTPEG1"	NA	"egfr 3 month repeat test for ckd confirmatory"	"1854991000006103"	"1854991000006119"	34
+"1856481000006117"	329	"EMISNQCH157"	NA	"chronic kidney disease follow-up"	"1856481000006101"	"1856481000006117"	32
+"1870801000006111"	191	"Gy41"	"Gy41.00"	"infection of haemodialysis arteriovenous fistula"	"449288005"	"2901095010"	32
+"1889401000006113"	3514	"EMISNQCH279"	NA	"chronic kidney disease screening administration"	"1889401000006109"	"1889401000006113"	37
+"1889421000006115"	6785	"EMISNQCH281"	NA	"chronic kidney disease screening invitation"	"1889421000006104"	"1889421000006115"	37
+"1905531000006112"	11	"7B019"	"7B01900"	"excision of rejected transplanted kidney"	"284348003"	"422992018"	32
+"1927751000006113"	130	"SP0H"	"SP0H.00"	"complication of dialysis"	"19765000"	"33288015"	32
+"1932031000006119"	2477	"EMISNQ3D7"	NA	"3d study - problems with chronic kidney disease management"	"1932031000006103"	"1932031000006119"	37
+"1940501000006119"	8848	"1Z1a"	"1Z1a.00"	"ckd g4a1 - chronic kidney disease with glomerular filtration rate category g4 and albuminuria category a1"	"950181000000106"	"2428021000000111"	27
+"1940511000006116"	11543	"1Z1b"	"1Z1b.00"	"ckd g4a2 - chronic kidney disease with glomerular filtration rate category g4 and albuminuria category a2"	"950211000000107"	"2428091000000114"	27
+"1940521000006112"	10938	"1Z1c"	"1Z1c.00"	"ckd g4a3 - chronic kidney disease with glomerular filtration rate category g4 and albuminuria category a3"	"950231000000104"	"2428141000000115"	27
+"1940531000006110"	891	"1Z1d"	"1Z1d.00"	"ckd g5a1 - chronic kidney disease with glomerular filtration rate category g5 and albuminuria category a1"	"950251000000106"	"2428191000000113"	27
+"1940541000006117"	1193	"1Z1e"	"1Z1e.00"	"ckd g5a2 - chronic kidney disease with glomerular filtration rate category g5 and albuminuria category a2"	"950291000000103"	"2428281000000117"	27
+"1940551000006115"	4497	"1Z1f"	"1Z1f.00"	"ckd g5a3 - chronic kidney disease with glomerular filtration rate category g5 and albuminuria category a3"	"950311000000102"	"2428331000000110"	27
+"1940561000006118"	4881	"1Z1M"	"1Z1M.00"	"ckd g1a1 - chronic kidney disease with glomerular filtration rate category g1 and albuminuria category a1"	"949401000000103"	"2426331000000114"	27
+"1940571000006113"	13458	"1Z1N"	"1Z1N.00"	"ckd g1a2 - chronic kidney disease with glomerular filtration rate category g1 and albuminuria category a2"	"949421000000107"	"2426381000000113"	27
+"1940581000006111"	3717	"1Z1P"	"1Z1P.00"	"ckd g1a3 - chronic kidney disease with glomerular filtration rate category g1 and albuminuria category a3"	"949481000000108"	"2426511000000114"	27
+"1940591000006114"	22580	"1Z1Q"	"1Z1Q.00"	"ckd g2a1 - chronic kidney disease with glomerular filtration rate category g2 and albuminuria category a1"	"949521000000108"	"2426601000000111"	27
+"1940601000006118"	24467	"1Z1R"	"1Z1R.00"	"ckd g2a2 - chronic kidney disease with glomerular filtration rate category g2 and albuminuria category a2"	"949561000000100"	"2426691000000116"	27
+"1940611000006115"	5820	"1Z1S"	"1Z1S.00"	"ckd g2a3 - chronic kidney disease with glomerular filtration rate category g2 and albuminuria category a3"	"949621000000109"	"2426821000000118"	27
+"1940621000006111"	113236	"1Z1T"	"1Z1T.00"	"ckd g3aa1 - chronic kidney disease with glomerular filtration rate category g3a and albuminuria category a1"	"949881000000106"	"2427381000000110"	27
+"1940631000006114"	39144	"1Z1V"	"1Z1V.00"	"ckd g3aa2 - chronic kidney disease with glomerular filtration rate category g3a and albuminuria category a2"	"949901000000109"	"2427401000000110"	27
+"1940641000006116"	11062	"1Z1W"	"1Z1W.00"	"ckd g3aa3 - chronic kidney disease with glomerular filtration rate category g3a and albuminuria category a3"	"949921000000100"	"2427451000000111"	27
+"1940651000006119"	40070	"1Z1X"	"1Z1X.00"	"ckd g3ba1 - chronic kidney disease with glomerular filtration rate category g3b and albuminuria category a1"	"950061000000103"	"2427751000000117"	27
+"1940661000006117"	26662	"1Z1Y"	"1Z1Y.00"	"ckd g3ba2 - chronic kidney disease with glomerular filtration rate category g3b and albuminuria category a2"	"950081000000107"	"2427801000000112"	27
+"1940671000006112"	12215	"1Z1Z"	"1Z1Z.00"	"ckd g3ba3 - chronic kidney disease with glomerular filtration rate category g3b and albuminuria category a3"	"950101000000101"	"2427851000000113"	27
+"1985201000006119"	3125	"14D8"	NA	"history of acute kidney injury"	"137971000119104"	"2613231000000115"	32
+"2002941000006114"	12	"EMISNQCH952"	NA	"chronic kidney disease monthly review"	"2002941000006105"	"2002941000006114"	1
+"2002951000006111"	1	"EMISNQCH953"	NA	"chronic kidney disease 2 monthly review"	"2002951000006107"	"2002951000006111"	1
+"2002961000006113"	17	"EMISNQCH954"	NA	"chronic kidney disease 3 monthly review"	"2002961000006109"	"2002961000006113"	1
+"2002971000006118"	5	"EMISNQCH955"	NA	"chronic kidney disease 4 monthly review"	"2002971000006102"	"2002971000006118"	1
+"2002981000006115"	373	"EMISNQCH956"	NA	"chronic kidney disease six monthly review"	"2002981000006104"	"2002981000006115"	1
+"2115881000000117"	12696	"661N2"	"661N200"	"chronic kidney disease self-management plan review"	"811021000000104"	"2115881000000117"	1
+"2117811000000117"	9491	"661M2"	"661M200"	"chronic kidney disease self-management plan agreed"	"811941000000105"	"2117811000000117"	1
+"2145851000000117"	7120	"68D1-1"	"68D1.11"	"chronic kidney disease screening"	"171234009"	"2145851000000117"	1
+"2180741000000113"	3	"K0431"	"K043100"	"acute renal failure induced by aminoglycoside"	"840371000000100"	"2180741000000113"	5
+"2180861000000117"	3	"K0432"	"K043200"	"acute renal failure induced by cisplatin"	"840431000000109"	"2180861000000117"	5
+"2180901000000112"	2	"K0433"	"K043300"	"acute renal failure induced by cyclosporin a"	"840451000000102"	"2180901000000112"	5
+"2184271000000115"	128	"K045"	"K045.00"	"acute renal failure due to non-traumatic rhabdomyolysis"	"841961000000100"	"2184271000000115"	32
+"2185551000000111"	1	"K0460"	"K046000"	"acute renal failure induced by animal toxin"	"842511000000101"	"2185551000000111"	32
+"2185591000000115"	1	"K0461"	"K046100"	"acute renal failure induced by plant toxin"	"842531000000109"	"2185591000000115"	32
+"2185631000000115"	1	"K047"	"K047.00"	"acute renal failure induced by heavy metal"	"842551000000102"	"2185631000000115"	32
+"2189151000000117"	31	"SP08T"	"SP08T00"	"urological complication of renal transplant"	"843691000000100"	"2189151000000117"	32
+"2191151000000117"	6	"K048"	"K048.00"	"acute renal failure induced by poison"	"844631000000104"	"2191151000000117"	32
+"2191221000000118"	6	"SP08W"	"SP08W00"	"vascular complication of renal transplant"	"844661000000109"	"2191221000000118"	32
+"2191301000000116"	97	"K049"	"K049.00"	"acute renal failure induced by radiographic contrast media"	"844701000000103"	"2191301000000116"	32
+"2191381000000114"	1	"K04A"	"K04A.00"	"acute renal failure induced by solvent"	"844741000000100"	"2191381000000114"	32
+"2195121000000113"	3	"G72C"	"G72C.00"	"ruptured aneurysm of dialysis vascular access"	"846461000000102"	"2195121000000113"	32
+"2195661000000114"	249	"G72D"	"G72D.00"	"aneurysm of dialysis arteriovenous fistula"	"846731000000104"	"2195661000000114"	32
+"2195721000000112"	24	"G72D1"	"G72D100"	"aneurysm of needle site of dialysis arteriovenous fistula"	"846761000000109"	"2195721000000112"	32
+"2197961000000113"	1	"SP08X"	"SP08X00"	"rupture of artery of transplanted kidney"	"847791000000101"	"2197961000000113"	32
+"2198001000000111"	1	"SP08Y"	"SP08Y00"	"rupture of vein of transplanted kidney"	"847811000000100"	"2198001000000111"	32
+"2198081000000118"	96	"K04B"	"K04B.00"	"acute renal failure due to traumatic rhabdomyolysis"	"847851000000101"	"2198081000000118"	32
+"2198141000000110"	12	"SP08P"	"SP08P00"	"stenosis of vein of transplanted kidney"	"847881000000107"	"2198141000000110"	32
+"2204191000000110"	478438	"K04-2"	"K04..12"	"acute kidney injury"	"14669001"	"2204191000000110"	32
+"2206791000000119"	81189	"K04C"	"K04C.00"	"acute kidney injury stage 1"	"851931000000107"	"2206791000000119"	32
+"2206811000000118"	26711	"K04D"	"K04D.00"	"acute kidney injury stage 2"	"851941000000103"	"2206811000000118"	32
+"2206831000000114"	29693	"K04E"	"K04E.00"	"acute kidney injury stage 3"	"851951000000100"	"2206831000000114"	32
+"2209021000000112"	2	"SP08S"	"SP08S00"	"aneurysm of vein of transplanted kidney"	"852981000000100"	"2209021000000112"	32
+"2209101000000119"	4	"SP08Q"	"SP08Q00"	"aneurysm of artery of transplanted kidney"	"853021000000108"	"2209101000000119"	32
+"2210341000000113"	16	"Gy1"	"Gy1..00"	"stenosis of dialysis vascular access"	"853631000000103"	"2210341000000113"	32
+"2210381000000117"	19	"Gy2"	"Gy2..00"	"thrombosis of dialysis vascular access"	"853651000000105"	"2210381000000117"	32
+"2211311000000117"	6	"SP0F"	"SP0F.00"	"haemodialysis first use syndrome"	"236539007"	"2211311000000117"	5
+"2211591000000116"	13	"SP0E1"	"SP0E100"	"thrombus in peritoneal dialysis catheter"	"854131000000107"	"2211591000000116"	32
+"2211671000000119"	13	"SP0G"	"SP0G.00"	"anaphylactoid reaction due to haemodialysis"	"854161000000102"	"2211671000000119"	5
+"2214211000000112"	18	"K046"	"K046.00"	"acute renal failure induced by toxin"	"236428007"	"2214211000000112"	32
+"2221251000000115"	349	"67P41"	"67P4100"	"discussion about kidney transplantation"	"858421000000106"	"2221251000000115"	17
+"2232261000000110"	10	"G72E"	"G72E.00"	"aneurysm of dialysis vascular access"	"863331000000100"	"2232261000000110"	32
+"2234541000000115"	2	"SP08Z"	"SP08Z00"	"thrombosis of artery of transplanted kidney"	"864271000000105"	"2234541000000115"	32
+"2234621000000111"	2	"SP08a"	"SP08a00"	"thrombosis of vein of transplanted kidney"	"864311000000105"	"2234621000000111"	32
+"2237821000000118"	14	"Gy3"	"Gy3..00"	"occlusion of dialysis vascular access"	"865761000000105"	"2237821000000118"	32
+"2237861000000114"	78	"Gy4"	"Gy4..00"	"infection of dialysis vascular access"	"865781000000101"	"2237861000000114"	32
+"2237901000000119"	9	"Gy5"	"Gy5..00"	"haemorrhage of dialysis vascular access"	"865801000000100"	"2237901000000119"	32
+"2237941000000116"	4	"Gy6"	"Gy6..00"	"rupture of dialysis vascular access"	"865821000000109"	"2237941000000116"	32
+"2237981000000112"	30	"Gy10"	"Gy10.00"	"stenosis of dialysis arteriovenous graft"	"865841000000102"	"2237981000000112"	32
+"2238021000000114"	3	"Gy11"	"Gy11.00"	"stenosis of dialysis arteriovenous shunt"	"865861000000101"	"2238021000000114"	32
+"2238261000000112"	107	"Gy20"	"Gy20.00"	"thrombosis of dialysis arteriovenous graft"	"865981000000103"	"2238261000000112"	32
+"2238301000000119"	199	"Gy21"	"Gy21.00"	"thrombosis of dialysis arteriovenous fistula"	"866001000000102"	"2238301000000119"	32
+"2238341000000116"	2	"Gy22"	"Gy22.00"	"thrombosis of dialysis arteriovenous shunt"	"866021000000106"	"2238341000000116"	32
+"2238381000000112"	42	"Gy30"	"Gy30.00"	"occlusion of dialysis arteriovenous graft"	"866041000000104"	"2238381000000112"	32
+"2238421000000115"	142	"Gy31"	"Gy31.00"	"occlusion of dialysis arteriovenous fistula"	"866061000000103"	"2238421000000115"	32
+"2238461000000111"	1	"Gy32"	"Gy32.00"	"occlusion of dialysis arteriovenous shunt"	"866081000000107"	"2238461000000111"	32
+"2240321000000114"	24	"Gy40"	"Gy40.00"	"infection of dialysis arteriovenous graft"	"430332005"	"2240321000000114"	32
+"2240741000000115"	8	"Gy42"	"Gy42.00"	"infection of dialysis arteriovenous shunt"	"866951000000102"	"2240741000000115"	32
+"2240831000000118"	11	"Gy50"	"Gy50.00"	"haemorrhage of dialysis arteriovenous graft"	"866991000000105"	"2240831000000118"	32
+"2240871000000116"	93	"Gy51"	"Gy51.00"	"haemorrhage of dialysis arteriovenous fistula"	"867011000000102"	"2240871000000116"	32
+"2240911000000119"	3	"Gy52"	"Gy52.00"	"haemorrhage of dialysis arteriovenous shunt"	"867031000000105"	"2240911000000119"	32
+"2240951000000115"	2	"Gy60"	"Gy60.00"	"rupture of dialysis arteriovenous graft"	"867051000000103"	"2240951000000115"	32
+"2240991000000111"	25	"Gy61"	"Gy61.00"	"rupture of dialysis arteriovenous fistula"	"867071000000107"	"2240991000000111"	32
+"2241031000000116"	3	"Gy62"	"Gy62.00"	"rupture of dialysis arteriovenous shunt"	"867091000000106"	"2241031000000116"	32
+"2253631000000110"	4	"Gy110"	"Gy11000"	"stenosis of arterial side of dialysis arteriovenous shunt"	"872461000000102"	"2253631000000110"	32
+"2253671000000112"	17	"Gy111"	"Gy11100"	"stenosis of venous side of dialysis arteriovenous shunt"	"872481000000106"	"2253671000000112"	32
+"2323001000000115"	1489	"4Z1"	"4Z1..00"	"chronic kidney disease laboratory study"	"903261000000109"	"2323001000000115"	20
+"2388721000000111"	13530045	"451L"	"451L.00"	"acute kidney injury warning stage"	"1007921000000107"	"2551601000000111"	34
+"2404491000000115"	11840	"2126E"	"2126E00"	"chronic kidney disease resolved"	"939211000000104"	"2404491000000115"	27
+"2405141000000117"	151010	"8OAG"	"8OAG.00"	"provision of written information about acute kidney injury"	"939531000000109"	"2405141000000117"	32
+"2521181000006116"	20	"^ESCTNE252118"	NA	"necrotising glomerulonephritis"	"1426004"	"476201012"	31
+"2521191000006118"	1	"^ESCTNE252119"	NA	"necrotizing glomerulonephritis"	"1426004"	"3481019"	31
+"2573581000006110"	11	"^ESCTSL257358"	NA	"sle glomerulonephritis syndrome, who class ii"	"4676006"	"8814010"	31
+"2613841000000113"	259	"8DE"	NA	"dialysis therapy started by renal service"	"1035471000000100"	"2613841000000113"	32
+"2613881000000117"	53	"8DF"	NA	"dialysis therapy stopped by renal service"	"1035491000000101"	"2613881000000117"	32
+"2622801000006117"	135	"^ESCTNE262280"	NA	"nephritic syndrome"	"7724006"	"13775014"	32
+"2641961000000110"	2	"44yC1"	NA	"peritoneal dialysis fluid adenosine deaminase level"	"1048801000000102"	"2641961000000110"	34
+"2649061000006115"	2	"^ESCTDI264906"	NA	"dialysis dementia"	"9345005"	"16396012"	32
+"2672571000006112"	43	"^ESCTRE267257"	NA	"removal of peritoneal dialysis catheter"	"10848006"	"18842012"	31
+"2711281000006117"	1	"^ESCTSC271128"	NA	"sclerosing glomerulonephritis"	"13335004"	"22804011"	31
+"2732241000006113"	3480	"^ESCTAC273224"	NA	"acute renal failure syndrome"	"14669001"	"24910011"	32
+"2732281000006119"	17	"^ESCTAK273228"	NA	"aki - acute kidney injury"	"14669001"	"2204201000000112"	32
+"2765401000006111"	19	"^ESCTRE276540"	NA	"renal bone disease"	"16726004"	"477916012"	32
+"2802101000006111"	2	"^ESCTHY280210"	NA	"hyperparathyroidism due to renal insufficiency"	"19034001"	"32084015"	31
+"2866121000006115"	2	"^ESCTHY286612"	NA	"hypertensive heart and renal disease complicating and/or reason for care during pregnancy"	"22966008"	"38584017"	31
+"2878351000006115"	1	"^ESCTMY287835"	NA	"myoglobinuric acute renal failure"	"23697004"	"481691015"	32
+"2962391000006111"	36	"^ESCTPO296239"	NA	"polycystic kidney disease, infantile type"	"28770003"	"48176011"	32
+"2962421000006115"	36	"^ESCTIN296242"	NA	"infantile polycystic kidney disease"	"28770003"	"1226061013"	32
+"2962431000006117"	12	"^ESCTAR296243"	NA	"arpkd - autosomal recessive polycystic kidney disease"	"28770003"	"1226062018"	32
+"2963201000006119"	1	"^ESCTHA296320"	NA	"haemodialysis education"	"28812006"	"2575936013"	31
+"3013481000006111"	8	"^ESCTCA301348"	NA	"cardiovascular renal disease"	"31881008"	"53259014"	31
+"3038761000006114"	13	"^ESCTRE303876"	NA	"renal disease diet"	"33489005"	"55883010"	31
+"3072641000006116"	4	"^ESCTME307264"	NA	"mesangial proliferative glomerulonephritis"	"35546006"	"59308019"	31
+"3083861000006118"	1	"^ESCTAC308386"	NA	"acute renal failure due to procedure"	"36225005"	"60449014"	31
+"3086671000006119"	36	"^ESCTSL308667"	NA	"sle glomerulonephritis syndrome, who class iv"	"36402006"	"60752017"	31
+"3091371000006117"	872	"^ESCTAC309137"	NA	"acute kidney infection"	"36689008"	"3035395015"	32
+"3145141000006113"	129	"^ESCTRE314514"	NA	"renal injury"	"40095003"	"66798012"	32
+"3147311000006115"	1	"^ESCTNE314731"	NA	"nephrotic-nephritic syndrome"	"40233000"	"63585010"	31
+"3183501000006111"	609	"^ESCTRE318350"	NA	"renal failure syndrome"	"42399005"	"70742017"	32
+"3222361000006116"	1	"^ESCTMC322236"	NA	"mcgn - minimal change glomerulonephritis"	"44785005"	"1230130017"	32
+"3222371000006111"	3	"^ESCTMI322237"	NA	"minimal change nephrotic syndrome"	"44785005"	"1230131018"	32
+"3222411000006112"	5	"^ESCTMI322241"	NA	"minimal change glomerulonephritis"	"44785005"	"1230135010"	32
+"3245841000006115"	150	"^ESCTEN324584"	NA	"end stage kidney disease"	"46177005"	"76996018"	32
+"3245851000006118"	5405	"^ESCTES324585"	NA	"esrf - end stage renal failure"	"46177005"	"1230314019"	32
+"3245861000006116"	93	"^ESCTES324586"	NA	"escrf - end stage chronic renal failure"	"46177005"	"1230315018"	32
+"3245871000006111"	14978	"^ESCTES324587"	NA	"esrd - end stage renal disease"	"46177005"	"1230316017"	32
+"3245881000006114"	27	"^ESCTEN324588"	NA	"end stage chronic renal failure"	"46177005"	"2647096016"	32
+"3296351000006114"	15	"^ESCTHY329635"	NA	"hypertensive renal failure"	"49220004"	"81984019"	32
+"3304631000006114"	1	"^ESCTAN330463"	NA	"anaemia of chronic renal insufficiency"	"49708008"	"2969201012"	32
+"3331291000006117"	7	"^ESCTHE333129"	NA	"hepatorenal failure"	"51292008"	"495986010"	32
+"3343571000006117"	14	"^ESCTSL334357"	NA	"sle glomerulonephritis syndrome, who class v"	"52042003"	"86630016"	31
+"3347091000006118"	7	"^ESCTNS334709"	NA	"ns - nephrotic syndrome"	"52254009"	"1231098019"	32
+"3389691000006113"	2	"^ESCTFO338969"	NA	"formation of arteriovenous fistula by external cannula for renal dialysis"	"54817007"	"91109011"	31
+"3430751000006117"	3	"^ESCTIN343075"	NA	"initial haemodialysis"	"57274006"	"497841010"	31
+"3455171000006118"	5	"^ESCTDI345517"	NA	"disorder of transplanted kidney"	"58797008"	"2695164010"	31
+"3455181000006115"	3	"^ESCTCO345518"	NA	"complication of transplanted kidney"	"58797008"	"97706015"	31
+"3466081000006115"	1	"^ESCTME346608"	NA	"mesangiocapillary glomerulonephritis, type ii"	"59479006"	"98800018"	31
+"3468071000006119"	1	"^ESCTHA346807"	NA	"haemodialysis education at home"	"59596005"	"2576118019"	31
+"3468091000006118"	1	"^ESCTHA346809"	NA	"haemodialysis training at home"	"59596005"	"498484017"	31
+"3544341000006115"	2	"^ESCTDI354434"	NA	"diffuse crescentic glomerulonephritis"	"64212008"	"106739010"	32
+"3579801000006114"	2	"^ESCTPE357980"	NA	"peritoneal dialysis education"	"66402002"	"2576123019"	31
+"3605671000006116"	6	"^ESCTHA360567"	NA	"haemodialysis, maintenance at home"	"67970008"	"500883012"	31
+"3615291000006119"	67	"^ESCTAC361529"	NA	"acute post-streptococcal glomerulonephritis"	"68544003"	"113842014"	31
+"3615301000006118"	37	"^ESCTPO361530"	NA	"post-streptococcal glomerulonephritis"	"68544003"	"1233060012"	31
+"3619221000006118"	243	"^ESCTSL361922"	NA	"sle glomerulonephritis syndrome"	"68815009"	"114307010"	32
+"3647021000006114"	1525	"^ESCTTR364702"	NA	"transplant of kidney"	"70536003"	"117163013"	32
+"3647031000006112"	4	"^ESCTKI364703"	NA	"kidney transplantation"	"70536003"	"117167014"	32
+"3647051000006117"	35	"^ESCTTX364705"	NA	"tx - renal transplantation"	"70536003"	"501591017"	32
+"3647061000006115"	223	"^ESCTKI364706"	NA	"kidney transplant"	"70536003"	"501592012"	32
+"3647071000006110"	1	"^ESCTTX364707"	NA	"tx - kidney transplantation"	"70536003"	"501593019"	32
+"3653841000006116"	38	"^ESCTTR365384"	NA	"transplanted kidney"	"70948008"	"117847019"	31
+"3655991000006116"	2	"^ESCTAC365599"	NA	"acquired polycystic kidney disease"	"71064009"	"118025018"	31
+"3691761000006115"	3	"^ESCTSL369176"	NA	"sle glomerulonephritis syndrome, who class i"	"73286009"	"121706015"	31
+"3692101000006114"	3	"^ESCTFI369210"	NA	"fibrillary glomerulonephritis"	"73305009"	"121734010"	31
+"3734051000006118"	4	"^ESCTME373405"	NA	"mesangiocapillary glomerulonephritis, type i"	"75888001"	"126049014"	31
+"3734081000006114"	1	"^ESCTME373408"	NA	"mesangiocapillary glomerulonephritis type i"	"75888001"	"1233931018"	31
+"3744641000006112"	10	"^ESCTSL374464"	NA	"sle glomerulonephritis syndrome, who class iii"	"76521009"	"127076018"	31
+"3798181000006111"	1	"^ESCTAR379818"	NA	"arteriovenous anastomosis for renal dialysis"	"79827002"	"132442018"	31
+"3798201000006112"	11	"^ESCTFO379820"	NA	"formation of arteriovenous fistula for kidney dialysis"	"79827002"	"132444017"	31
+"3798211000006110"	2	"^ESCTAR379821"	NA	"arteriovenous shunt for renal dialysis"	"79827002"	"132445016"	31
+"3806561000006111"	18	"^ESCTMP380656"	NA	"mpgn - membranoproliferative glomerulonephritis"	"80321008"	"504398013"	32
+"3842511000006119"	32	"^ESCTPK384251"	NA	"pkd - polycystic kidney disease"	"82525005"	"505125015"	32
+"3842551000006118"	19	"^ESCTPC384255"	NA	"pck - polycystic kidney disease"	"82525005"	"505129014"	32
+"3864441000006115"	1	"^ESCTFO386444"	NA	"focal and segmental proliferative glomerulonephritis"	"83866005"	"139066015"	31
+"3902031000006117"	6	"^ESCTCA390203"	NA	"cardiorenal disease"	"86234004"	"143006013"	32
+"3918321000006116"	3	"^ESCTDI391832"	NA	"dialysis disequilibrium syndrome"	"87235005"	"144650018"	32
+"3973811000006118"	14	"^ESCTCH397381"	NA	"chronic renal failure syndrome"	"90688005"	"150286014"	32
+"3973841000006119"	5	"^ESCTCR397384"	NA	"crf - chronic renal failure"	"90688005"	"509110011"	32
+"3974181000006119"	41	"^ESCTRE397418"	NA	"renal disease"	"90708001"	"150323018"	32
+"4119171000006114"	8	"^ESCTDO411917"	NA	"donor of kidney for transplant"	"105462002"	"169531015"	31
+"4195721000006113"	1	"^ESCTHY419572"	NA	"hypertension secondary to renal disease in obstetric context"	"111438007"	"178680012"	32
+"4218231000006113"	1	"^ESCTKI421823"	NA	"kidney transplant evaluation"	"113127005"	"186851015"	31
+"4259221000006112"	8	"^ESCTPR425922"	NA	"pre-dialysis"	"115499008"	"176299017"	31
+"4259231000006110"	1	"^ESCTPO425923"	NA	"post-dialysis"	"115500004"	"176300013"	31
+"4355461000006113"	1	"^ESCTIM435546"	NA	"immune complex glomerulonephritis"	"123752003"	"3037280015"	31
+"4541021000006112"	1	"^ESCTHI454102"	NA	"history of kidney infection"	"161547004"	"2986510010"	32
+"4543021000006113"	72	"^ESCTHI454302"	NA	"history of renal dialysis"	"161693006"	"2986348016"	32
+"4668951000006113"	51	"^ESCTAU466895"	NA	"autotransplantation of kidney"	"175899003"	"272315011"	32
+"4669451000006113"	5	"^ESCTEX466945"	NA	"exploration of kidney transplant"	"175948009"	"272390017"	32
+"4694051000006116"	551	"^ESCTRE469405"	NA	"removal of chronic ambulatory peritoneal dialysis catheter"	"180273006"	"278840017"	32
+"4788191000006111"	9	"^ESCTAC478819"	NA	"acute glomerulonephritis associated with another disorder"	"197582001"	"2575722013"	32
+"4788421000006117"	3	"^ESCTNE478842"	NA	"nephrotic syndrome due to diabetes mellitus"	"197605007"	"3013381011"	32
+"4788491000006115"	1	"^ESCTPG478849"	NA	"pgn - chronic mesangial proliferative glomerulonephritis"	"197613008"	"303860019"	32
+"4794191000006115"	1	"^ESCTFA479419"	NA	"failed attempted termination of pregnancy with renal failure"	"198809000"	"2967116012"	32
+"4827551000006116"	2	"^ESCTFA482755"	NA	"familial juvenile medullary cystic kidney disease"	"204958008"	"314292011"	32
+"4937911000006117"	1	"^ESCTPU493791"	NA	"putting additive into peritoneal dialysis bag"	"225228006"	"338462016"	31
+"4938591000006118"	5	"^ESCTWA493859"	NA	"washing back through haemodialysis lines"	"225282005"	"338536011"	31
+"5052661000006111"	10	"^ESCTIN505266"	NA	"intermittent haemodialysis"	"233575001"	"349977013"	31
+"5052721000006113"	4	"^ESCTCO505272"	NA	"continuous haemodialysis"	"233578004"	"349983011"	31
+"5052821000006118"	1	"^ESCTCV505282"	NA	"cvvhd - continuous venovenous haemodialysis"	"233580005"	"349991019"	31
+"5063361000006117"	202	"^ESCTAN506336"	NA	"anaemia of renal disease"	"234348004"	"351083016"	31
+"5063371000006112"	16	"^ESCTAN506337"	NA	"anemia of renal disease"	"234348004"	"351084010"	31
+"5093331000006111"	2	"^ESCTST509333"	NA	"steroid-responsive nephrotic syndrome"	"236380004"	"354332014"	32
+"5093351000006116"	19	"^ESCTST509335"	NA	"steroid-resistant nephrotic syndrome"	"236381000"	"354336012"	31
+"5093381000006112"	49	"^ESCTST509338"	NA	"steroid-dependent nephrotic syndrome"	"236382007"	"354337015"	31
+"5093391000006110"	2	"^ESCTSD509339"	NA	"sdns - steroid-dependent nephrotic syndrome"	"236382007"	"354338013"	31
+"5093471000006118"	2	"^ESCTRP509347"	NA	"rpgn - rapidly progressive glomerulonephritis"	"236392004"	"354353017"	32
+"5093511000006111"	20	"^ESCTPO509351"	NA	"post-infectious glomerulonephritis"	"236395002"	"354357016"	31
+"5093551000006112"	23	"^ESCTID509355"	NA	"idiopathic crescentic glomerulonephritis"	"236398000"	"354362015"	32
+"5093591000006118"	2	"^ESCTST509359"	NA	"steroid-sensitive minimal change glomerulonephritis"	"236399008"	"354365018"	31
+"5093831000006119"	4	"^ESCTME509383"	NA	"membranous glomerulonephritis - stage i"	"236413007"	"354388017"	31
+"5093851000006114"	1	"^ESCTME509385"	NA	"membranous glomerulonephritis - stage ii"	"236414001"	"354391017"	31
+"5093891000006115"	3	"^ESCTME509389"	NA	"membranous glomerulonephritis - stage iv"	"236416004"	"354395014"	31
+"5093911000006118"	2	"^ESCTME509391"	NA	"membranous glomerulonephritis stage v"	"236417008"	"354396010"	31
+"5094041000006117"	124	"^ESCTAC509404"	NA	"acute renal impairment"	"236424009"	"354408015"	31
+"5094071000006113"	25	"^ESCTNE509407"	NA	"nephrotoxic acute renal failure"	"236428007"	"354412014"	32
+"5094141000006118"	24	"^ESCTAC509414"	NA	"acute on chronic renal failure"	"236433006"	"3037716017"	32
+"5094151000006116"	6	"^ESCTEN509415"	NA	"end stage renal failure untreated by renal replacement therapy"	"236434000"	"354418013"	31
+"5094161000006119"	240	"^ESCTEN509416"	NA	"end stage renal failure on dialysis"	"236435004"	"354419017"	31
+"5094171000006114"	114	"^ESCTEN509417"	NA	"end stage renal failure with renal transplant"	"236436003"	"354420011"	31
+"5095431000006117"	20	"^ESCTRE509543"	NA	"renal disorders in inherited disease"	"236526008"	"354545012"	32
+"5095591000006119"	1	"^ESCTFI509559"	NA	"first use syndrome of dialysis"	"236539007"	"354562019"	5
+"5095811000006114"	1	"^ESCTUN509581"	NA	"underdialysis"	"236551009"	"354584019"	31
+"5095821000006118"	1	"^ESCTIN509582"	NA	"inadequate dialysis"	"236551009"	"354585018"	31
+"5095881000006119"	3	"^ESCTPE509588"	NA	"peritoneal dialysis catheter exit site infection"	"236557008"	"354592011"	31
+"5095891000006116"	1	"^ESCTPE509589"	NA	"peritoneal dialysis cannula exit site infection"	"236557008"	"354593018"	31
+"5095901000006117"	3	"^ESCTPE509590"	NA	"peritoneal dialysis catheter tunnel infection"	"236558003"	"354595013"	31
+"5095941000006115"	6	"^ESCTDI509594"	NA	"disorder of peritoneal dialysis catheter"	"236561002"	"354598010"	31
+"5095971000006111"	1	"^ESCTBL509597"	NA	"blockage of peritoneal dialysis catheter"	"236562009"	"354600016"	31
+"5096011000006111"	1	"^ESCTEX509601"	NA	"extrusion of peritoneal dialysis catheter cuff"	"236566007"	"354605014"	31
+"5096031000006117"	2	"^ESCTPR509603"	NA	"primary non-function of renal transplant"	"236569000"	"354609015"	31
+"5096231000006110"	20	"^ESCTFA509623"	NA	"failed renal transplant"	"236583003"	"354629019"	31
+"5120111000006110"	7	"^ESCTRE512011"	NA	"renewal of chronic ambulatory peritoneal dialysis catheter"	"238314006"	"357215018"	31
+"5120121000006119"	4	"^ESCTAD512012"	NA	"adjustment of chronic ambulatory peritoneal dialysis catheter"	"238315007"	"357216017"	31
+"5120141000006114"	55	"^ESCTFL512014"	NA	"flushing of chronic ambulatory peritoneal dialysis catheter"	"238317004"	"357218016"	32
+"5120171000006118"	30	"^ESCTCA512017"	NA	"capd - continuous ambulatory peritoneal dialysis"	"238318009"	"357220018"	32
+"5120211000006116"	3	"^ESCTIN512021"	NA	"intermittent peritoneal dialysis"	"238321006"	"357225011"	31
+"5120221000006112"	3	"^ESCTIP512022"	NA	"ipd - intermittent peritoneal dialysis"	"238321006"	"357226012"	31
+"5120251000006115"	16	"^ESCTNI512025"	NA	"night-time intermittent peritoneal dialysis"	"238323009"	"357229017"	31
+"5140041000006113"	43	"^ESCTGO514004"	NA	"gout secondary to renal impairment"	"239844009"	"359371014"	32
+"5141521000006119"	9	"^ESCTPR514152"	NA	"primary pauci-immune necrotising and crescentic glomerulonephritis"	"239932005"	"359502019"	31
+"5161281000006112"	24	"^ESCTUS516128"	NA	"us scan of transplant kidney"	"241484009"	"361595010"	31
+"5161291000006110"	11	"^ESCTUL516129"	NA	"ultrasound scan of transplant kidney"	"241484009"	"2619719015"	31
+"5191471000006111"	1	"^ESCTAR519147"	NA	"arterial port blood sampling during haemodialysis"	"243778000"	"364604011"	31
+"5191491000006112"	9	"^ESCTVE519149"	NA	"venous port blood sampling during haemodialysis"	"243779008"	"364605012"	31
+"5307121000006117"	1	"^ESCTPE530712"	NA	"peritoneal dialysis observable"	"251860000"	"3491847010"	31
+"5307211000006119"	3	"^ESCTAD530721"	NA	"adequacy of dialysis"	"251866006"	"375194013"	31
+"5307241000006115"	1	"^ESCTAD530724"	NA	"adequacy of haemodialysis"	"251869004"	"375198011"	31
+"5335381000006115"	53	"^ESCTAD533538"	NA	"adult type polycystic kidney disease type 1"	"253878003"	"377977013"	31
+"5335401000006115"	2	"^ESCTPK533540"	NA	"pkd1 - polycystic kidney disease 1"	"253878003"	"377979011"	31
+"5335411000006117"	2	"^ESCTAD533541"	NA	"adult type polycystic kidney disease type 2"	"253879006"	"2765151017"	31
+"5335421000006113"	5	"^ESCTPK533542"	NA	"pkd2 - polycystic kidney disease 2"	"253879006"	"377980014"	31
+"5335431000006111"	14	"^ESCTAU533543"	NA	"autosomal dominant polycystic kidney disease in childhood"	"253880009"	"377982018"	31
+"5467031000006112"	1	"^ESCTTY546703"	NA	"type of haemodialysis"	"263636009"	"391897018"	31
+"5481301000006114"	508	"^ESCTNE548130"	NA	"nephrotic range proteinuria"	"264867001"	"393369011"	27
+"5488801000006112"	9	"^ESCTKI548880"	NA	"kidney dialysis"	"265764009"	"394641017"	32
+"5524381000006119"	2	"^ESCTCH552438"	NA	"chronic ambulatory peritoneal dialysis catheter procedure"	"271418008"	"406192014"	32
+"5524621000006110"	2	"^ESCTCO552462"	NA	"congenital renal artery stenosis"	"271432005"	"406217014"	32
+"5572971000006110"	1	"^ESCTPO557297"	NA	"postoperative renal failure"	"275408006"	"411387014"	32
+"5574501000006119"	1	"^ESCTHI557450"	NA	"history of renal disease"	"275552000"	"2986603012"	32
+"5574511000006116"	2	"^ESCTHI557451"	NA	"history of kidney disease"	"275552000"	"2986680013"	32
+"5592051000006113"	3	"^ESCTPE559205"	NA	"peritonitis secondary to peritoneal dialysis"	"276883000"	"2871057010"	32
+"5847371000006111"	2	"^ESCTAC584737"	NA	"acute renal papillary necrosis with renal failure"	"298015003"	"438612016"	31
+"5880631000006112"	2	"^ESCTFI588063"	NA	"finding of measures of dialysis"	"300478000"	"441548018"	31
+"5899121000006110"	8	"^ESCTPO589912"	NA	"post-renal renal failure"	"301814009"	"443296012"	31
+"5904501000006119"	3	"^ESCTRA590450"	NA	"ras - renal artery stenosis"	"302233006"	"443819010"	32
+"5907541000006112"	5	"^ESCTHD590754"	NA	"hd - hemodialysis"	"302497006"	"444200019"	32
+"5907551000006114"	21	"^ESCTHD590755"	NA	"hd - haemodialysis"	"302497006"	"444201015"	32
+"5907591000006115"	13	"^ESCTHE590759"	NA	"hemodialysis"	"302497006"	"444206013"	32
+"5966771000006111"	32	"^ESCTTR596677"	NA	"transient acute renal failure"	"307309005"	"450541012"	31
+"6024541000006117"	44	"^ESCTDO602454"	NA	"donor renal transplantation"	"313030004"	"456855017"	31
+"6210341000006119"	36	"^ESCTPE621034"	NA	"peritoneal dialysis catheter"	"360132007"	"475787016"	31
+"6241711000006115"	1	"^ESCTNE624171"	NA	"nephrotic syndrome secondary to glomerulonephritis"	"363233007"	"482373016"	31
+"6241721000006111"	1	"^ESCTNE624172"	NA	"nephrotic syndrome secondary to systemic disease"	"363234001"	"482375011"	31
+"6346651000006113"	5	"^ESCTZO634665"	NA	"zonular dialysis"	"370935006"	"1209650012"	31
+"6447741000006114"	1	"^ESCTDI644774"	NA	"dialysis care assessment"	"385970002"	"1480158011"	31
+"6447761000006113"	135	"^ESCTDI644776"	NA	"dialysis care"	"385971003"	"1480159015"	32
+"6447771000006118"	2	"^ESCTDI644777"	NA	"dialysis care education"	"385972005"	"1480160013"	31
+"6447801000006116"	2	"^ESCTDI644780"	NA	"dialysis care management"	"385973000"	"1480161012"	31
+"6593721000006112"	5	"^ESCTDI659372"	NA	"dialysis catheter"	"397849009"	"1777449011"	31
+"6613531000006114"	1	"^ESCTRE661353"	NA	"renal replacement"	"398887003"	"1778373019"	31
+"6703951000006115"	1	"^ESCTPE670395"	NA	"peritoneal dialysis leakage"	"404813001"	"2156695011"	31
+"6707511000006119"	1	"^ESCTHE670751"	NA	"hemodialysis access status"	"405044002"	"2161505013"	31
+"6724211000006116"	2	"^ESCTDI672421"	NA	"dialysis access maintenance"	"406168002"	"2157874010"	31
+"6724221000006112"	2	"^ESCTDI672422"	NA	"dialysis access site care"	"406168002"	"2163237018"	31
+"6765381000006112"	1	"^ESCTHA676538"	NA	"haemodialysis-associated hypotension"	"408667000"	"2469052012"	5
+"6858011000006117"	6	"^ESCTHI685801"	NA	"history of renal failure"	"414417004"	"2535178010"	31
+"6922501000006119"	69	"^ESCTDI692250"	NA	"dialysis unit"	"418518002"	"2576699012"	31
+"6932441000006115"	1	"^ESCTRE693244"	NA	"renal transplant angiogram"	"419139005"	"2580477012"	31
+"6992471000006118"	3	"^ESCTAC699247"	NA	"acute renal failure due to angiotensin-converting-enzyme inhibitor"	"422593004"	"2649446019"	5
+"6992491000006117"	6	"^ESCTAC699249"	NA	"acute renal failure caused by angiotensin-converting-enzyme inhibitor"	"422593004"	"3290639019"	5
+"7043231000006112"	3	"^ESCTCH704323"	NA	"chronic progressive renal failure"	"425369003"	"2645799018"	31
+"7043991000006116"	3	"^ESCTBI704399"	NA	"bilateral renal artery stenosis"	"425414000"	"2674102014"	31
+"7075651000006117"	2	"^ESCTGL707565"	NA	"glomerulonephritis due to wegener granulomatosis"	"427555000"	"2838811011"	31
+"7083761000006118"	1	"^ESCTPR708376"	NA	"procedure involving peritoneal dialysis catheter"	"428118009"	"2694765010"	31
+"7083771000006113"	13	"^ESCTPE708377"	NA	"peritoneal dialysis catheter procedure"	"428118009"	"2694386012"	31
+"7090481000006112"	2	"^ESCTHY709048"	NA	"hypertension secondary to kidney transplant"	"428575007"	"2692589017"	32
+"7096521000006114"	9	"^ESCTDE709652"	NA	"dependence on haemodialysis due to end stage renal disease"	"428982002"	"2694168017"	31
+"7096531000006112"	1	"^ESCTDE709653"	NA	"dependence on hemodialysis due to end stage renal disease"	"428982002"	"2693614019"	31
+"7097941000006112"	2	"^ESCTDE709794"	NA	"dependence on dialysis due to end stage renal disease"	"429075005"	"2694500017"	31
+"7100101000006115"	3	"^ESCTAC710010"	NA	"acute renal failure due to acute cortical necrosis"	"429224003"	"2692740012"	32
+"7103511000006119"	8	"^ESCTDI710351"	NA	"disorder related to renal transplantation"	"429451003"	"2693948016"	31
+"7118481000006117"	1	"^ESCTHE711848"	NA	"hematoma of dialysis access site"	"430333000"	"2770923014"	31
+"7122851000006116"	1	"^ESCTAC712285"	NA	"acute renal failure with oliguria"	"430535006"	"2765843017"	31
+"7129081000006113"	6	"^ESCTIN712908"	NA	"infection of peritoneal dialysis catheter"	"430958003"	"2764444014"	31
+"7133981000006111"	1	"^ESCTPE713398"	NA	"percutaneous thrombolysis of dialysis fistula using fluoroscopic guidance"	"431252000"	"2769519018"	31
+"7141661000006113"	1	"^ESCTPE714166"	NA	"percutaneous mechanical thrombectomy of dialysis fistula using fluoroscopic guidance"	"431607007"	"2770547014"	31
+"7145841000006112"	2	"^ESCTFL714584"	NA	"fluoroscopy guided insertion of tunnelled dialysis catheter"	"431781000"	"701741000000112"	31
+"7145851000006114"	5	"^ESCTIN714585"	NA	"insertion of tunnelled dialysis catheter using fluoroscopic guidance"	"431781000"	"2771218011"	31
+"7145861000006111"	1	"^ESCTIN714586"	NA	"insertion of tunneled dialysis catheter using fluoroscopic guidance"	"431781000"	"2881599012"	31
+"7147741000006114"	20	"^ESCTCK714774"	NA	"ckd stage 1"	"431855005"	"2871055019"	32
+"7147761000006113"	41	"^ESCTCK714776"	NA	"ckd stage 2"	"431856006"	"2870828017"	32
+"7147781000006115"	339	"^ESCTCK714778"	NA	"ckd stage 4"	"431857002"	"2872614018"	32
+"7148101000006112"	1	"^ESCTPE714810"	NA	"peritonitis due to infected peritoneal dialysis catheter"	"431873008"	"2770082015"	31
+"7150601000006116"	1	"^ESCTUS715060"	NA	"us doppler scan of transplanted kidney"	"431988002"	"694521000000116"	31
+"7150641000006119"	3	"^ESCTDO715064"	NA	"doppler ultrasound of transplanted kidney"	"431988002"	"3307532019"	31
+"7161691000006111"	1	"^ESCTIN716169"	NA	"insertion of dialysis catheter using doppler ultrasound guidance"	"432509002"	"2769089016"	31
+"7164581000006111"	5	"^ESCTFL716458"	NA	"fluoroscopy guided insertion of peritoneal dialysis catheter"	"432654009"	"704771000000116"	31
+"7164601000006118"	8	"^ESCTIN716460"	NA	"insertion of peritoneal dialysis catheter using fluoroscopy guidance"	"432654009"	"2771456010"	31
+"7171111000006119"	12	"^ESCTPE717111"	NA	"percutaneous transluminal angioplasty of dialysis fistula using fluoroscopic guidance"	"432952005"	"2767848010"	31
+"7171121000006110"	1	"^ESCTPT717112"	NA	"pta of dialysis fistula"	"432952005"	"711861000000118"	31
+"7174791000006111"	252	"^ESCTCK717479"	NA	"ckd stage 3"	"433144002"	"2873059015"	32
+"7174851000006111"	192	"^ESCTCK717485"	NA	"ckd stage 5"	"433146000"	"2870834012"	32
+"7181851000006118"	1	"^ESCTPE718185"	NA	"percutaneous transluminal cutting balloon angioplasty of dialysis fistula using fluoroscopic guidance"	"433631008"	"2769717019"	31
+"7182791000006111"	1	"^ESCTAC718279"	NA	"active warming of subject using peritoneal dialysis fluid"	"433693008"	"2774059010"	31
+"7207581000006116"	29	"^ESCTLA720758"	NA	"laparoscopic insertion of peritoneal dialysis catheter"	"438341004"	"2793584016"	31
+"7207591000006118"	1	"^ESCTRE720759"	NA	"replacement of peritoneal dialysis catheter"	"438342006"	"2790837013"	31
+"7211601000006117"	1	"^ESCTPE721160"	NA	"peritoneal dialysis therapy discontinued"	"438604008"	"2792333012"	31
+"7212371000006110"	1	"^ESCTSP721237"	NA	"specimen from transplanted kidney obtained by biopsy"	"438661003"	"2794543012"	31
+"7212381000006113"	19	"^ESCTRE721238"	NA	"renal transplant biopsy sample"	"438661003"	"2790986011"	31
+"7218201000006110"	22	"^ESCTPE721820"	NA	"peritoneal dialysis catheter in situ"	"439073006"	"2793675012"	31
+"7238471000006113"	10	"^ESCTBI723847"	NA	"biopsy of transplanted kidney using ultrasound guidance"	"440512006"	"2792687013"	31
+"7255581000006116"	3	"^ESCTPR725558"	NA	"proliferative glomerulonephritis"	"441815006"	"2817638012"	31
+"7262731000006112"	1	"^ESCTCL726273"	NA	"cloudy peritoneal dialysis effluent"	"442326005"	"2820289016"	31
+"7272711000006110"	34	"^ESCTDE727271"	NA	"dependence on haemodialysis"	"443143006"	"2840173015"	31
+"7272721000006119"	1	"^ESCTDE727272"	NA	"dependence on hemodialysis"	"443143006"	"2840174014"	31
+"7305291000006117"	4	"^ESCTID730529"	NA	"idiopathic rapidly progressive glomerulonephritis"	"445258009"	"2872817010"	31
+"7318211000006119"	1	"^ESCTCH731821"	NA	"change of prescription for haemodialysis"	"446048008"	"2882770019"	31
+"7354791000006117"	8	"^ESCTRE735479"	NA	"removal of haemodialysis catheter"	"448423006"	"2900465017"	31
+"7354801000006116"	2	"^ESCTRE735480"	NA	"removal of hemodialysis catheter"	"448423006"	"2900466016"	31
+"7401361000006113"	2	"^ESCTHA740136"	NA	"haemodialysis start/stop set"	"462316005"	"2947695018"	31
+"7403361000006112"	1	"^ESCTHA740336"	NA	"haemodialysis system, institutional/home-use"	"462550000"	"2946775013"	31
+"7406851000006110"	1	"^ESCTPE740685"	NA	"peritoneal dialysis system tubing set"	"462933006"	"2948132019"	31
+"7480371000006113"	308	"^ESCTHO748037"	NA	"h/o chronic kidney disease"	"472953006"	"2244571000000110"	31
+"7480381000006111"	1	"^ESCTHI748038"	NA	"history of chronic kidney disease"	"472953006"	"2952277011"	31
+"7481701000006114"	10	"^ESCTCO748170"	NA	"complication associated with dialysis catheter"	"473034005"	"2955766012"	32
+"7484191000006117"	1	"^ESCTMO748419"	NA	"mode of dialysis access by patient choice"	"473193004"	"2956074014"	31
+"7484221000006112"	2	"^ESCTNO748422"	NA	"normal renal function of transplanted kidney"	"473195006"	"2956209012"	31
+"7484791000006116"	1802	"^ESCTKI748479"	NA	"kidney disease medication review"	"473231009"	"2956256010"	32
+"7487651000006113"	1	"^ESCTDI748765"	NA	"dialysis catheter in situ usable"	"473397008"	"2956775016"	31
+"7498321000006110"	2	"^ESCTIN749832"	NA	"induced termination of pregnancy complicated by renal failure"	"609452007"	"2966959012"	32
+"7502751000006112"	3	"^ESCTRE750275"	NA	"referral to surgical transplant service for renal transplant evaluation"	"697982000"	"2968385014"	31
+"7507461000006117"	4	"^ESCTAW750746"	NA	"awaiting transplantation of kidney"	"698306007"	"2973862015"	31
+"7507471000006112"	2	"^ESCTAW750747"	NA	"awaiting renal transplant"	"698306007"	"2973945012"	31
+"7593681000006118"	9	"^ESCTHY759368"	NA	"hypertension concurrent and due to end stage renal disease on dialysis"	"704667004"	"3013929017"	32
+"7598001000006110"	2	"^ESCTCH759800"	NA	"childhood nephrotic syndrome"	"705065000"	"3022950016"	31
+"7615331000006115"	22	"^ESCTAN761533"	NA	"anaemia in chronic kidney disease"	"707323002"	"3029760016"	31
+"7615361000006112"	1	"^ESCTAN761536"	NA	"anemia in chronic kidney disease"	"707323002"	"3029850016"	31
+"7615371000006117"	2	"^ESCTAN761537"	NA	"anaemia in end stage renal disease"	"707324008"	"3029715017"	31
+"7641781000006113"	4	"^ESCTMA764178"	NA	"maintenance haemodialysis"	"708931003"	"3036926014"	31
+"7641801000006112"	1	"^ESCTEM764180"	NA	"emergency haemodialysis"	"708932005"	"3037170014"	31
+"7643311000006115"	551	"^ESCTCK764331"	NA	"ckd - chronic kidney disease"	"709044004"	"3037959015"	32
+"7643331000006114"	10	"^ESCTCH764333"	NA	"chronic renal disease"	"709044004"	"3038200016"	32
+"7700671000006112"	1	"^ESCTCA770067"	NA	"cadaver donor for kidney transplant"	"713183000"	"3288326010"	31
+"7702321000006115"	1	"^ESCTCH770232"	NA	"chronic kidney disease mineral and bone disorder"	"713313000"	"3288821013"	31
+"7710041000006114"	6	"^ESCTTR771004"	NA	"transplant renal artery stenosis"	"713825007"	"3297818010"	31
+"7714891000006118"	590	"^ESCTCH771489"	NA	"chronic kidney disease stage 5 on dialysis"	"714152005"	"3298729015"	32
+"7714901000006119"	3	"^ESCTCH771490"	NA	"chronic kidney disease 5d"	"714152005"	"3298467018"	32
+"7714911000006116"	4	"^ESCTCK771491"	NA	"ckd (chronic kidney disease) stage 5d"	"714152005"	"3298670011"	32
+"7714921000006112"	28	"^ESCTCH771492"	NA	"chronic kidney disease stage 5 with transplant"	"714153000"	"3298559011"	32
+"7714941000006117"	1	"^ESCTCK771494"	NA	"ckd (chronic kidney disease) stage 5t"	"714153000"	"3298692010"	32
+"7723851000006119"	8	"^ESCTCO772385"	NA	"continuous renal replacement therapy"	"714749008"	"3300117019"	31
+"7723861000006117"	1	"^ESCTCR772386"	NA	"crrt - continuous renal replacement therapy"	"714749008"	"3300118012"	31
+"7766371000006116"	1	"^ESCTFL776637"	NA	"fluoroscopy guided antegrade insertion of ureteric stent into ureter of transplanted kidney"	"718030008"	"3310957014"	31
+"7770551000006113"	2	"^ESCTPE777055"	NA	"peritoneal dialysis care"	"718308002"	"3311852014"	31
+"7770921000006110"	18	"^ESCTHA777092"	NA	"haemodialysis care"	"718330001"	"3311908017"	31
+"7791761000006119"	1	"^ESCTTU779176"	NA	"tubular renal disease with cardiomyopathy syndrome"	"719839000"	"3318118018"	31
+"7804711000006115"	2	"^ESCTED780471"	NA	"education about chronic kidney disease"	"720510004"	"3322840016"	31
+"7827231000006119"	2	"^ESCTAC782723"	NA	"acute kidney injury due to circulatory failure"	"722095005"	"3330670013"	31
+"7827241000006112"	32	"^ESCTAC782724"	NA	"acute kidney injury due to hypovolaemia"	"722096006"	"3330673010"	31
+"7827251000006114"	2	"^ESCTAC782725"	NA	"acute kidney injury due to hypovolemia"	"722096006"	"3330774012"	31
+"7827571000006118"	1	"^ESCTCO782757"	NA	"congenital nephrotic syndrome due to congenital infection"	"722118005"	"3331399016"	31
+"7827591000006117"	16	"^ESCTID782759"	NA	"idiopathic membranous glomerulonephritis"	"722119002"	"3330958011"	31
+"7829401000006116"	27	"^ESCTAC782940"	NA	"acute kidney injury due to sepsis"	"722278006"	"3331407014"	31
+"7832091000006112"	1	"^ESCTCH783209"	NA	"chronic kidney disease due to traumatic loss of kidney"	"722467000"	"3332275016"	31
+"7841541000006119"	3	"^ESCTRE784154"	NA	"renal insufficiency"	"723188008"	"3334970017"	31
+"7841561000006115"	3	"^ESCTAC784156"	NA	"acute renal insufficiency"	"723189000"	"3334973015"	31
+"7841571000006110"	7	"^ESCTCH784157"	NA	"chronic renal insufficiency"	"723190009"	"3334975010"	31
+"7854191000006115"	1	"^ESCTHD785419"	NA	"hdr (hypoparathyroidism, sensorineural deafness, renal disease) syndrome"	"724282009"	"3433588014"	31
+"7879771000006116"	8	"^ESCTAC787977"	NA	"acute kidney injury due to trauma"	"726541005"	"3452123014"	31
+"7879781000006118"	30	"^ESCTAK787978"	NA	"aki (acute kidney injury) due to trauma"	"726541005"	"3452124015"	31
+"7954311000006119"	193	"^ESCTAC795431"	NA	"acute kidney failure stage 1"	"733137002"	"3498837018"	32
+"7954321000006110"	64	"^ESCTAC795432"	NA	"acute renal failure stage 1"	"733137002"	"3498838011"	32
+"7954331000006113"	48	"^ESCTAC795433"	NA	"acute kidney failure stage 2"	"733138007"	"3498842014"	32
+"7954341000006115"	11	"^ESCTAC795434"	NA	"acute renal failure stage 2"	"733138007"	"3498840018"	32
+"7954351000006118"	49	"^ESCTAC795435"	NA	"acute kidney failure stage 3"	"733139004"	"3498845011"	32
+"7954361000006116"	7	"^ESCTAC795436"	NA	"acute renal failure stage 3"	"733139004"	"3498843016"	32
+"7958391000006116"	6	"^ESCTMI795839"	NA	"microcephalus, glomerulonephritis, marfanoid habitus syndrome"	"733472005"	"3499508016"	32
+"7961041000006113"	8	"^ESCTPO796104"	NA	"postpartum acute renal failure"	"733839001"	"3474857017"	32
+"7965331000006115"	1	"^ESCTPE796533"	NA	"peritoneal dialysis finding"	"341000124104"	"3027976014"	31
+"7965521000006111"	1	"^ESCTHA796552"	NA	"haemodialysis residual renal function"	"411000124108"	"3030694010"	31
+"7965541000006116"	1	"^ESCTHA796554"	NA	"haemodialysis access site non-patent"	"431000124102"	"3030706010"	31
+"7966611000006114"	35	"^ESCTCH796661"	NA	"chronic kidney disease stage 5 due to type 2 diabetes mellitus"	"711000119100"	"3013043013"	32
+"7966641000006113"	52	"^ESCTCH796664"	NA	"chronic kidney disease stage 4 due to type 2 diabetes mellitus"	"721000119107"	"3013100015"	32
+"7966691000006116"	61	"^ESCTCH796669"	NA	"chronic kidney disease stage 3 due to type 2 diabetes mellitus"	"731000119105"	"3013103018"	32
+"7966761000006115"	27	"^ESCTCH796676"	NA	"chronic kidney disease stage 2 due to type 2 diabetes mellitus"	"741000119101"	"3013063018"	32
+"7966791000006111"	27	"^ESCTCH796679"	NA	"chronic kidney disease stage 1 due to type 2 diabetes mellitus"	"751000119104"	"3013056018"	32
+"7966871000006118"	1	"^ESCTCH796687"	NA	"chronic kidney disease due to type 2 diabetes mellitus"	"771000119108"	"3013487011"	31
+"7970081000006117"	1	"^ESCTPA797008"	NA	"patient awaiting renal transplant"	"1721000119108"	"2916869015"	31
+"7970091000006119"	3	"^ESCTAW797009"	NA	"awaiting renal transplant"	"1721000119108"	"2916925011"	31
+"7985891000006113"	28	"^ESCTTR798589"	NA	"transplantation of kidney and pancreas"	"6471000179103"	"3313005013"	31
+"7985971000006118"	4	"^ESCTLA798597"	NA	"laparoscopic biopsy of transplanted kidney"	"6501000179109"	"3315654019"	31
+"8013961000006110"	1	"^ESCTCH801396"	NA	"chronic nephritic syndrome with membranous glomerulonephritis"	"28191000119109"	"3078564018"	31
+"8014771000006115"	7	"^ESCTLI801477"	NA	"line sepsis associated with dialysis catheter"	"32751000119100"	"3312030016"	31
+"8027251000006115"	1	"^ESCTHI802725"	NA	"history of nephrotic syndrome"	"90171000119101"	"3040364010"	31
+"8027391000006115"	7	"^ESCTCH802739"	NA	"chronic kidney disease stage 1 due to type 1 diabetes mellitus"	"90721000119101"	"3010567012"	32
+"8027411000006115"	6	"^ESCTCH802741"	NA	"chronic kidney disease stage 2 due to type 1 diabetes mellitus"	"90731000119103"	"3010552013"	32
+"8027451000006119"	7	"^ESCTCH802745"	NA	"chronic kidney disease stage 3 due to type 1 diabetes mellitus"	"90741000119107"	"3013167015"	32
+"8027471000006112"	21	"^ESCTCH802747"	NA	"chronic kidney disease stage 4 due to type 1 diabetes mellitus"	"90751000119109"	"3013465019"	32
+"8027491000006113"	8	"^ESCTCH802749"	NA	"chronic kidney disease stage 5 due to type 1 diabetes mellitus"	"90761000119106"	"3013545012"	32
+"8027531000006113"	1	"^ESCTEN802753"	NA	"end stage renal disease on dialysis due to type 2 diabetes mellitus"	"90791000119104"	"3013806012"	31
+"8030421000006114"	7	"^ESCTHY803042"	NA	"hypertensive heart and chronic kidney disease stage 4"	"96721000119103"	"2968177010"	32
+"8030431000006112"	10	"^ESCTHY803043"	NA	"hypertensive heart and chronic kidney disease stage 3"	"96731000119100"	"2922231016"	32
+"8030441000006119"	3	"^ESCTHY803044"	NA	"hypertensive heart and chronic kidney disease stage 2"	"96741000119109"	"2922230015"	32
+"8030451000006117"	5	"^ESCTHY803045"	NA	"hypertensive heart and chronic kidney disease stage 1"	"96751000119106"	"2968355016"	32
+"8032721000006117"	1	"^ESCTCH803272"	NA	"chronic kidney disease due to hypertension"	"104931000119100"	"2983529012"	31
+"8035251000006111"	5	"^ESCTEN803525"	NA	"end stage renal disease due to hypertension"	"111411000119103"	"3288969010"	31
+"8036941000006111"	9	"^ESCTCH803694"	NA	"chronic kidney disease stage 1 due to hypertension"	"117681000119102"	"2968242019"	32
+"8040331000006118"	21	"^ESCTHY804033"	NA	"hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus"	"127991000119101"	"3013758011"	32
+"8040661000006119"	59	"^ESCTCH804066"	NA	"chronic kidney disease stage 4 due to hypertension"	"129151000119102"	"2968350014"	32
+"8040671000006114"	6	"^ESCTCH804067"	NA	"chronic kidney disease stage 5 due to hypertension"	"129161000119100"	"2968176018"	32
+"8040681000006112"	41	"^ESCTCH804068"	NA	"chronic kidney disease stage 3 due to hypertension"	"129171000119106"	"2968262010"	32
+"8040691000006110"	15	"^ESCTCH804069"	NA	"chronic kidney disease stage 2 due to hypertension"	"129181000119109"	"2968276011"	32
+"8040771000006116"	41	"^ESCTPR804077"	NA	"prerenal renal failure"	"129561000119108"	"3013582015"	31
+"8040781000006118"	50	"^ESCTPR804078"	NA	"pre-renal acute kidney injury"	"129561000119108"	"3013999013"	31
+"8040791000006115"	103	"^ESCTAC804079"	NA	"acute renal failure"	"129561000119108"	"3014026017"	31
+"8043351000006117"	349	"^ESCTHI804335"	NA	"history of acute renal failure"	"137971000119104"	"3037982018"	32
+"8043971000006111"	203	"^ESCTAC804397"	NA	"acute nontraumatic kidney injury"	"140031000119103"	"3012709019"	31
+"8043981000006114"	153	"^ESCTNO804398"	NA	"nontraumatic aki (acute kidney injury)"	"140031000119103"	"3491571011"	31
+"8044011000006117"	1	"^ESCTHY804401"	NA	"hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus"	"140101000119109"	"3013074010"	32
+"8044041000006118"	3	"^ESCTHY804404"	NA	"hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus"	"140111000119107"	"3014010018"	32
+"8044061000006119"	4	"^ESCTHY804406"	NA	"hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus"	"140121000119100"	"3013055019"	32
+"8044081000006112"	1	"^ESCTHY804408"	NA	"hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus"	"140131000119102"	"3013117010"	32
+"8047651000006115"	1	"^ESCTHA804765"	NA	"haemodialysis procedure done"	"152421000119107"	"3467765018"	31
+"8048001000006110"	4	"^ESCTEN804800"	NA	"end stage renal disease on dialysis due to hypertension"	"153891000119101"	"2984564011"	31
+"8087051000006119"	1	"^ESCTCH808705"	NA	"chronic kidney disease stage 1 due to benign hypertension"	"284971000119100"	"3040949015"	32
+"8087071000006112"	8	"^ESCTCH808707"	NA	"chronic kidney disease stage 3 due to benign hypertension"	"284991000119104"	"3040933017"	32
+"8087091000006113"	2	"^ESCTCH808709"	NA	"chronic kidney disease stage 5 due to benign hypertension"	"285011000119108"	"3040952011"	32
+"8087641000006112"	1	"^ESCTMA808764"	NA	"malignant hypertensive chronic kidney disease"	"285831000119108"	"2922212010"	31
+"8087661000006111"	1	"^ESCTMA808766"	NA	"malignant hypertensive chronic kidney disease stage 1"	"285851000119102"	"2922173018"	32
+"8087701000006115"	1	"^ESCTMA808770"	NA	"malignant hypertensive chronic kidney disease stage 4"	"285881000119109"	"2922631010"	32
+"8104161000006117"	1	"^ESCTCK810416"	NA	"ckd (chronic kidney disease) stage 2 with proteinuria"	"324181000000105"	"1677031000000110"	27
+"8104231000006115"	235	"^ESCTCK810423"	NA	"ckd (chronic kidney disease) stage 3 with proteinuria"	"324251000000105"	"1676871000000115"	27
+"8104261000006112"	4	"^ESCTCK810426"	NA	"ckd (chronic kidney disease) stage 3 without proteinuria"	"324281000000104"	"1676861000000110"	27
+"8104301000006115"	123	"^ESCTCK810430"	NA	"ckd (chronic kidney disease) stage 3a with proteinuria"	"324311000000101"	"1692921000000118"	27
+"8104381000006112"	189	"^ESCTCK810438"	NA	"ckd (chronic kidney disease) stage 3b with proteinuria"	"324371000000106"	"1692941000000113"	27
+"8104451000006111"	143	"^ESCTCK810445"	NA	"ckd (chronic kidney disease) stage 4 with proteinuria"	"324441000000106"	"1693001000000116"	27
+"8104481000006115"	1	"^ESCTCK810448"	NA	"ckd (chronic kidney disease) stage 4 without proteinuria"	"324471000000100"	"1693051000000115"	27
+"8104511000006111"	26	"^ESCTCK810451"	NA	"ckd (chronic kidney disease) stage 5 with proteinuria"	"324501000000107"	"1693061000000117"	27
+"8104551000006112"	1	"^ESCTCK810455"	NA	"ckd (chronic kidney disease) stage 5 without proteinuria"	"324541000000105"	"1692911000000112"	27
+"8117041000006112"	4	"^ESCTKI811704"	NA	"kidney transplant waiting list patient status"	"365051000000108"	"688731000000116"	31
+"8117051000006114"	80	"^ESCTAC811705"	NA	"active on kidney transplant waiting list"	"365061000000106"	"688751000000111"	31
+"8117061000006111"	1	"^ESCTAC811706"	NA	"active on kidney transplant waiting list while waiting live donor work-up"	"365071000000104"	"688771000000119"	31
+"8117071000006116"	9	"^ESCTAC811707"	NA	"active on kidney and pancreas transplant waiting list"	"365081000000102"	"688791000000115"	31
+"8117151000006113"	2	"^ESCTSU811715"	NA	"suspended from kidney transplant waiting list due to patient being unfit"	"365181000000103"	"688991000000117"	31
+"8117181000006117"	1	"^ESCTRE811718"	NA	"removed from kidney transplant waiting list at patient request"	"365241000000101"	"689111000000119"	31
+"8117211000006118"	1	"^ESCTNO811721"	NA	"not on kidney transplant waiting list at patient request"	"365281000000109"	"689211000000110"	31
+"8117261000006115"	1	"^ESCTNO811726"	NA	"not on kidney transplant waiting list"	"365321000000101"	"689291000000118"	31
+"8117941000006113"	1	"^ESCTRE811794"	NA	"removed from kidney transplant waiting list"	"367091000000109"	"693141000000117"	31
+"8117951000006110"	4	"^ESCTSU811795"	NA	"suspended from kidney transplant waiting list"	"367101000000101"	"693161000000116"	31
+"8118531000006114"	2	"^ESCTHE811853"	NA	"hereditary diffuse mesangial proliferative glomerulonephritis"	"367551000119100"	"3012584012"	31
+"8120581000006115"	2	"^ESCTAC812058"	NA	"acute renal failure caused by contrast agent"	"368951000119105"	"3289780013"	31
+"8194551000006110"	2	"^ESCTHA819455"	NA	"haemodialysis blood flow rate"	"517591000000100"	"1155001000000112"	31
+"8212361000006113"	3	"^ESCTAN821236"	NA	"anaemia in chronic kidney disease stage 5"	"691411000119101"	"3312519014"	31
+"8212401000006115"	74	"^ESCTAN821240"	NA	"anaemia co-occurrent and due to chronic kidney disease stage 3"	"691421000119108"	"3289583012"	32
+"8214711000006116"	9989	"^ESCTCH821471"	NA	"chronic kidney disease monitoring invitation"	"711421000000107"	"1555861000000111"	37
+"8218841000006117"	225	"^ESCTCH821884"	NA	"chronic kidney disease monitoring verbal invitation"	"717231000000104"	"1569771000000117"	37
+"8219121000006112"	4372	"^ESCTCH821912"	NA	"chronic kidney disease monitoring telephone invitation"	"717511000000105"	"1570051000000110"	37
+"8321121000006114"	1	"^ESCTUL832112"	NA	"ultrasonography guided insertion of nephrostomy tube into transplanted kidney"	"905871000000102"	"2329251000000114"	31
+"8341221000006119"	1	"^ESCTPR834122"	NA	"provision of information about aki (acute kidney injury)"	"939531000000109"	"2405171000000111"	32
+"8345651000006111"	1	"^ESCTCH834565"	NA	"chronic kidney disease with glomerular filtration rate category g2 and albuminuria category a1"	"949521000000108"	"2426671000000115"	27
+"8345901000006119"	1	"^ESCTCH834590"	NA	"chronic kidney disease with glomerular filtration rate category g3a and albuminuria category a2"	"949901000000109"	"2427431000000116"	27
+"8345931000006110"	9	"^ESCTCH834593"	NA	"chronic kidney disease with glomerular filtration rate category g3a and albuminuria category a3"	"949921000000100"	"2427481000000117"	27
+"8346001000006110"	5	"^ESCTCH834600"	NA	"chronic kidney disease with glomerular filtration rate category g3b and albuminuria category a1"	"950061000000103"	"2427781000000111"	27
+"8346021000006117"	2	"^ESCTCH834602"	NA	"chronic kidney disease with glomerular filtration rate category g3b and albuminuria category a2"	"950081000000107"	"2427831000000118"	27
+"8346041000006112"	2	"^ESCTCH834604"	NA	"chronic kidney disease with glomerular filtration rate category g3b and albuminuria category a3"	"950101000000101"	"2427881000000119"	27
+"8346151000006113"	2	"^ESCTCH834615"	NA	"chronic kidney disease with glomerular filtration rate category g4 and albuminuria category a3"	"950231000000104"	"2428171000000114"	27
+"8346221000006114"	2	"^ESCTCH834622"	NA	"chronic kidney disease with glomerular filtration rate category g5 and albuminuria category a3"	"950311000000102"	"2428361000000117"	27
+"8352941000006110"	1	"^ESCTES835294"	NA	"estimated glomerular filtration rate using cystatin c chronic kidney disease epidemiology collaboration equation"	"963601000000106"	"2455121000000118"	31
+"8425491000006113"	11	"^ESCTAC842549"	NA	"acute kidney injury due to acute tubular necrosis due to hypovolaemia"	"1048451000000103"	"2641181000000115"	31
+"8425521000006110"	33	"^ESCTAC842552"	NA	"acute kidney injury due to acute tubular necrosis due to sepsis"	"1048491000000106"	"2641261000000117"	31
+"8425531000006113"	3	"^ESCTAC842553"	NA	"acute kidney injury due to acute tubular necrosis with histological evidence"	"1048501000000100"	"2641281000000114"	31
+"8425561000006116"	1	"^ESCTAC842556"	NA	"acute kidney injury due to acute tubular necrosis due to circulatory failure with histological evidence"	"1048541000000102"	"2641361000000114"	31
+"8451011000006112"	1	"^ESCTAS845101"	NA	"assessment prior to construction of renal dialysis vascular access"	"1076461000000100"	"2699281000000117"	31
+"8459271000006110"	5	"^ESCTTR845927"	NA	"treatment escalation plan decision - appropriate for dialysis"	"1082851000000108"	"2713491000000111"	32
+"8459281000006113"	49	"^ESCTTR845928"	NA	"treatment escalation plan decision - not appropriate for dialysis"	"1082861000000106"	"2713511000000115"	32
+"9325291000006119"	1	"^ESCTPR932529"	NA	"pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth"	"10757401000119104"	"3006011014"	32
+"9351511000006113"	2	"^ESCTDE935151"	NA	"dependence on continuous ambulatory peritoneal dialysis"	"11000731000119102"	"3045266011"	31
+"9351521000006117"	11	"^ESCTDE935152"	NA	"dependence on continuous cycling peritoneal dialysis"	"11000771000119104"	"3036677016"	31
+"9352761000006114"	1	"^ESCTRE935276"	NA	"renal dialysis done"	"11009631000119100"	"3039980017"	31
+"9681361000006119"	27	"^ESCTIN968136"	NA	"insertion of dialysis catheter into femoral vein"	"14030001000004108"	"3078660019"	31
+"9681371000006114"	3	"^ESCTDI968137"	NA	"dialysis catheter inserted in groin"	"14030001000004108"	"3078336012"	31
+"11777411000006113"	3	"^ESCT1177741"	NA	"renal disease due to hypertension"	"38481006"	"3512257015"	32
+"11856521000006116"	2	"^ESCT1185652"	NA	"umod-related autosomal dominant tubulointerstitial kidney disease"	"723373006"	"3636196010"	31
+"11856531000006118"	7	"^ESCT1185653"	NA	"uromodulin related autosomal dominant tubulointerstitial kidney disease"	"723373006"	"3636195014"	31
+"12016621000006114"	11	"^ESCT1201662"	NA	"action myoclonus renal failure syndrome"	"764453009"	"3649900014"	32
+"12022411000006113"	8	"^ESCT1202241"	NA	"acquired cystic disease associated renal cell carcinoma"	"764856008"	"3655326012"	32
+"12029931000006117"	82	"^ESCT1202993"	NA	"adpkd - autosomal dominant polycystic kidney disease"	"765330003"	"3657946010"	32
+"12051941000006113"	21	"^ESCT1205194"	NA	"renal parenchymal disease"	"767094002"	"3664195016"	31
+"12107561000006114"	3	"^ESCT1210756"	NA	"vasculitis with glomerulonephritis"	"90971000119103"	"3647363012"	31
+"12704471000006116"	1162	"^ESCT1270447"	NA	"end-stage renal disease"	"46177005"	"3517959016"	32
+"12704531000006115"	220	"^ESCT1270453"	NA	"chronic mesangial proliferative glomerulonephritis"	"197613008"	"303862010"	32
+"12716071000006117"	7	"^ESCT1271607"	NA	"predicted stage chronic kidney disease"	"249311000000109"	"408661000000117"	37
+"12717101000006112"	59	"^ESCT1271710"	NA	"nephritis, nephrosis and nephrotic syndrome"	"197577008"	"303806010"	32
+"13485211000006111"	33	"^ESCT1348521"	NA	"acute kidney injury due to disease caused by sars-cov-2 (severe acute respiratory syndrome coronavirus 2)"	"870589006"	"2838151000000110"	32
+"13485231000006117"	4	"^ESCT1348523"	NA	"acute kidney injury due to disease caused by severe acute respiratory syndrome coronavirus 2"	"870589006"	"3972966011"	32
+"13688941000006110"	5	"^ESCT1368894"	NA	"acute nephrotic syndrome"	"1081801000112104"	"3768424010"	31
+"14174291000006113"	1	"^ESCT1417429"	NA	"chronic kidney disease stage 2 due to drug induced diabetes mellitus"	"368431000119106"	"4016030013"	32
+"14174311000006112"	1	"^ESCT1417431"	NA	"chronic kidney disease stage 4 due to drug induced diabetes mellitus"	"368451000119100"	"4016032017"	32
+"14174321000006116"	1	"^ESCT1417432"	NA	"chronic kidney disease stage 5 due to drug induced diabetes mellitus"	"368461000119103"	"4016035015"	32
+"14175011000006111"	1	"^ESCT1417501"	NA	"anaemia due to chronic kidney disease stage 1"	"691381000119104"	"4024618016"	31
+"14415811000006111"	38101	"^ESCT1441581"	NA	"acute kidney injury stage 1"	"733137002"	"1945761000000113"	32
+"14415821000006115"	14293	"^ESCT1441582"	NA	"acute kidney injury stage 2"	"733138007"	"1945771000000118"	32
+"14415831000006117"	12276	"^ESCT1441583"	NA	"acute kidney injury stage 3"	"733139004"	"1945781000000116"	32
+"14433091000006115"	1	"^ESCT1443309"	NA	"soft tissue calcification due to chronic kidney disease"	"1144916002"	"4546169018"	31
+"14433101000006114"	1	"^ESCT1443310"	NA	"calcification of soft tissue due to chronic kidney disease"	"1144916002"	"4543722014"	31
+"14443411000006116"	1	"^ESCT1444341"	NA	"hypocalcaemia due to chronic kidney disease"	"1148928001"	"4553099014"	31
+"14551471000006117"	3	"^ESCT1455147"	NA	"insertion of peritoneal dialysis catheter"	"1172563000"	"4634391019"	31
+"14592671000006116"	2	"^ESCT1459267"	NA	"on waiting list for renal transplant"	"49201000175103"	"4589340019"	31
+"14683491000006118"	1	"^ESCT1468349"	NA	"acute kidney injury due to covid-19"	"870589006"	"4670117014"	32
+"14861861000006118"	1	"^ESCT1486186"	NA	"chronic kidney disease due to and following excision of neoplasm of kidney"	"722149000"	"5072236015"	31
+"15084101000006115"	9	"^ESCT1508410"	NA	"renal function of transplanted kidney within reference range"	"473195006"	"5145386011"	31
+"15284691000006112"	2	"^ESCT1528469"	NA	"fluoroscopy guided insertion of nephrostomy tube into transplanted kidney in right iliac fossa region of abdomen"	"1833501000000109"	"3422351000000114"	32
+"15284921000006117"	2	"^ESCT1528492"	NA	"fluoroscopy guided insertion of nephrostomy tube into transplanted kidney in left iliac fossa region of abdomen"	"1853531000000104"	"3451271000000115"	32
+"15285241000006119"	36	"^ESCT1528524"	NA	"fluoroscopy guided pta (percutaneous transluminal angioplasty) of arteriovenous dialysis fistula of left upper limb with contrast"	"1853671000000101"	"3451781000000111"	32
+"15285251000006117"	1	"^ESCT1528525"	NA	"percutaneous transluminal angioplasty of arteriovenous dialysis fistula of left upper limb using fluoroscopic guidance with contrast"	"1853671000000101"	"3451771000000114"	32
+"15285271000006110"	15	"^ESCT1528527"	NA	"fluoroscopy guided pta (percutaneous transluminal angioplasty) of arteriovenous dialysis fistula of right upper limb with contrast"	"1853681000000104"	"3451791000000113"	32
+"15305441000006110"	2722	"^ESCT1530544"	NA	"acute kidney injury"	"14669001"	"5181272017"	32
+"15321281000006111"	1600	"^ESCT1532128"	NA	"at increased risk of chronic kidney disease"	"698463001"	"5147969014"	32
+"15420441000006116"	480	"^ESCT1542044"	NA	"post-renal acute kidney injury"	"1293198008"	"5277853012"	32
+"15420461000006117"	22	"^ESCT1542046"	NA	"post-renal aki (acute kidney injury)"	"1293198008"	"5277863016"	32
+"15420481000006110"	1	"^ESCT1542048"	NA	"intra-renal acute kidney injury"	"1293200002"	"5277886011"	31
+"15421331000006112"	1	"^ESCT1542133"	NA	"biopsy of transplanted kidney"	"1293269004"	"5278250016"	31
+"15492541000006114"	4	"^ESCT1549254"	NA	"live donor allotransplant kidney"	"286626001"	"5290679013"	31
+"15502901000006111"	9	"^ESCT1550290"	NA	"dialysis system"	"1231460007"	"5305584014"	31
+"15504281000006119"	204	"^ESCT1550428"	NA	"history of acute kidney injury"	"137971000119104"	"5266601014"	32

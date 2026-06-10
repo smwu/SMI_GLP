@@ -1,0 +1,321 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"271073015"	1498	"79200"	"7920000"	"saphenous vein graft replacement of one coronary artery"	"736967001"	"3525967012"	32
+"271074014"	3820	"79201"	"7920100"	"aortocoronary artery bypass of two coronary arteries with saphenous vein graft"	"736969003"	"3525975018"	32
+"271075010"	10021	"79202"	"7920200"	"aortocoronary artery bypass of three coronary arteries with saphenous vein graft"	"736968006"	"3525971010"	32
+"271079016"	1138	"7920z"	"7920z00"	"saphenous vein graft replacement coronary artery nos"	"3546002"	"6979016"	32
+"271080018"	1949	"7921"	"7921.00"	"other autograft replacement of coronary artery"	"232717009"	"348640013"	32
+"271081019"	226	"79210"	"7921000"	"autograft replacement of one coronary artery nec"	"232719007"	"348647011"	32
+"271082014"	334	"79211"	"7921100"	"autograft replacement of two coronary arteries nec"	"232720001"	"348649014"	32
+"271083016"	1094	"79212"	"7921200"	"autograft replacement of three coronary arteries nec"	"232721002"	"348651013"	32
+"271084010"	583	"79213"	"7921300"	"autograft replacement of four of more coronary arteries nec"	"232722009"	"348654017"	32
+"271086012"	41	"7921z"	"7921z00"	"other autograft replacement of coronary artery nos"	"232717009"	"348640013"	32
+"271087015"	994	"7922-1"	"7922.11"	"allograft bypass of coronary artery"	"175021005"	"271087015"	32
+"271088013"	401	"7922"	"7922.00"	"allograft replacement of coronary artery"	"175021005"	"271087015"	32
+"271089017"	60	"79220"	"7922000"	"allograft replacement of one coronary artery"	"736971003"	"3525979012"	32
+"271092018"	113	"79221"	"7922100"	"allograft replacement of two coronary arteries"	"736973000"	"3525983012"	32
+"271093011"	447	"79222"	"7922200"	"allograft replacement of three coronary arteries"	"736972005"	"3525981014"	32
+"271094017"	191	"79223"	"7922300"	"allograft replacement of four or more coronary arteries"	"736970002"	"3525977014"	32
+"271095016"	292	"7922y"	"7922y00"	"other specified allograft replacement of coronary artery"	"175021005"	"271087015"	32
+"271096015"	152	"7922z"	"7922z00"	"allograft replacement of coronary artery nos"	"175021005"	"271087015"	32
+"271097012"	276	"7923-1"	"7923.11"	"prosthetic bypass of coronary artery"	"175029007"	"271097012"	32
+"271098019"	271	"7923"	"7923.00"	"prosthetic replacement of coronary artery"	"175029007"	"271097012"	32
+"271099010"	30	"79230"	"7923000"	"prosthetic replacement of one coronary artery"	"736963002"	"3525947015"	32
+"271100019"	42	"79231"	"7923100"	"prosthetic replacement of two coronary arteries"	"736965009"	"3525955010"	32
+"271101015"	92	"79232"	"7923200"	"prosthetic replacement of three coronary arteries"	"736964008"	"3525952013"	32
+"271102010"	51	"79233"	"7923300"	"prosthetic replacement of four or more coronary arteries"	"736962007"	"3525944010"	32
+"271103017"	14	"7923y"	"7923y00"	"other specified prosthetic replacement of coronary artery"	"175029007"	"271097012"	32
+"271104011"	174	"7923z"	"7923z00"	"prosthetic replacement of coronary artery nos"	"175029007"	"271097012"	32
+"271105012"	13231	"7924"	"7924.00"	"revision of bypass for coronary artery"	"175036008"	"271105012"	32
+"271106013"	86	"79240"	"7924000"	"revision of bypass for one coronary artery"	"175037004"	"271106013"	32
+"271107016"	141	"79241"	"7924100"	"revision of bypass for two coronary arteries"	"175038009"	"271107016"	32
+"271108014"	213	"79242"	"7924200"	"revision of bypass for three coronary arteries"	"175039001"	"271108014"	32
+"271109018"	64	"79243"	"7924300"	"revision of bypass for four or more coronary arteries"	"175040004"	"271109018"	32
+"271110011"	5	"79244"	"7924400"	"revision of connection of thoracic artery to coronary artery"	"175041000"	"271110011"	32
+"271111010"	3	"79245"	"7924500"	"revision of implantation of thoracic artery into heart"	"175042007"	"271111010"	32
+"271112015"	24	"7924y"	"7924y00"	"other specified revision of bypass for coronary artery"	"175036008"	"271105012"	32
+"271113013"	53	"7924z"	"7924z00"	"revision of bypass for coronary artery nos"	"175036008"	"271105012"	32
+"271114019"	441	"7925"	"7925.00"	"connection of mammary artery to coronary artery"	"175045009"	"271114019"	32
+"271115018"	56	"7925-1"	"7925.11"	"creation of bypass from mammary artery to coronary artery"	"175045009"	"271115018"	32
+"271126012"	82	"79254"	"7925400"	"single implantation of mammary artery into coronary artery"	"175050003"	"271126012"	32
+"271128013"	2666	"7925z"	"7925z00"	"connection of mammary artery to coronary artery nos"	"175045009"	"271114019"	32
+"271129017"	12	"7926"	"7926.00"	"connection of other thoracic artery to coronary artery"	"232717009"	"348640013"	32
+"271132019"	7	"79262"	"7926200"	"single anastomosis of thoracic artery to coronary artery nec"	"232719007"	"348647011"	32
+"271135017"	4	"7926z"	"7926z00"	"connection of other thoracic artery to coronary artery nos"	"232717009"	"348640013"	32
+"271136016"	12299	"7927"	"7927.00"	"other open operations on coronary artery"	"31413008"	"52509013"	32
+"271140013"	30	"7927y"	"7927y00"	"other specified other open operation on coronary artery"	"31413008"	"52509013"	32
+"271141012"	31	"7927z"	"7927z00"	"other open operation on coronary artery nos"	"31413008"	"52509013"	32
+"271148018"	7611	"7928z"	"7928z00"	"transluminal balloon angioplasty of coronary artery nos"	"11101003"	"19234014"	32
+"271149014"	749	"7929"	"7929.00"	"other therapeutic transluminal operations on coronary artery"	"31413008"	"52509013"	32
+"271157012"	521	"792A"	"792A.00"	"diagnostic transluminal operations on coronary artery"	"175076003"	"271157012"	32
+"271160017"	83	"792Az"	"792Az00"	"diagnostic transluminal operation on coronary artery nos"	"175076003"	"271157012"	32
+"271161018"	703	"792B"	"792B.00"	"repair of coronary artery nec"	"31413008"	"52509013"	32
+"271162013"	1594	"792B0"	"792B000"	"endarterectomy of coronary artery"	"20738002"	"34888017"	32
+"271163015"	83	"792By"	"792By00"	"other specified repair of coronary artery"	"31413008"	"52509013"	32
+"271164014"	57	"792Bz"	"792Bz00"	"repair of coronary artery nos"	"31413008"	"52509013"	32
+"271165010"	56	"792C"	"792C.00"	"other replacement of coronary artery"	"232717009"	"348640013"	32
+"271166011"	31	"792C0"	"792C000"	"replacement of coronary arteries using multiple methods"	"175085003"	"271166011"	32
+"271167019"	37	"792Cy"	"792Cy00"	"other specified replacement of coronary artery"	"232717009"	"348640013"	32
+"271168012"	123	"792Cz"	"792Cz00"	"replacement of coronary artery nos"	"232717009"	"348640013"	32
+"271169016"	64614	"792D"	"792D.00"	"coronary artery bypass graft"	"232717009"	"348640013"	32
+"271170015"	758	"792Dy"	"792Dy00"	"other specified other bypass of coronary artery"	"232717009"	"348640013"	32
+"271171016"	5475	"792Dz"	"792Dz00"	"other bypass of coronary artery nos"	"232717009"	"348640013"	32
+"271172011"	1568	"792y"	"792y.00"	"other specified operations on coronary artery"	"31413008"	"52509013"	32
+"271173018"	8962	"792z"	"792z.00"	"coronary artery operations nos"	"31413008"	"484868016"	32
+"272107018"	34976	"7A540"	"7A54000"	"percutaneous balloon angioplasty of artery"	"276861004"	"413186016"	32
+"272295013"	2568	"7A6G1"	"7A6G100"	"peroperative angioplasty"	"175882004"	"272295013"	32
+"278083012"	38	"7K6PD"	"7K6PD00"	"primary open autograft replacement intra-articular ligament"	"179769008"	"278083012"	32
+"278087013"	3	"7K6PH"	"7K6PH00"	"revision open autograft replacement intra-articular ligament"	"179773006"	"278087013"	32
+"324808010"	24	"SP003"	"SP00300"	"mechanical complication of coronary bypass"	"213037002"	"324808010"	32
+"348644016"	480946	"792-1"	"792..11"	"coronary artery bypass graft operations"	"232717009"	"348644016"	32
+"394286010"	121	"79250"	"7925000"	"double anastomosis of mammary arteries to coronary arteries"	"265481001"	"394286010"	32
+"405092018"	115	"79253"	"7925300"	"single anastomosis of mammary artery to coronary artery nec"	"232719007"	"348647011"	32
+"411159010"	298	"79253-1"	"7925311"	"lima single anastomosis"	"275215001"	"411159010"	32
+"411160017"	14	"79253-2"	"7925312"	"rima single anastomosis"	"275216000"	"411160017"	32
+"411212010"	107	"79250-1"	"7925011"	"lima sequential anastomosis"	"275252001"	"411212010"	32
+"411213017"	2	"79250-2"	"7925012"	"rima sequential anastomosis"	"275253006"	"411213017"	32
+"451132018"	9381	"ZV45K"	"ZV45K00"	"[v]presence of coronary artery bypass graft"	"399261000"	"1767181012"	32
+"453269016"	1297	"ZV45L"	"ZV45L00"	"[v]status following coronary angioplasty nos"	"105501005"	"169590017"	32
+"456362017"	471	"7A6H3"	"7A6H300"	"prosthetic graft patch angioplasty"	"312610006"	"456362017"	32
+"456363010"	559	"7A6H4"	"7A6H400"	"percutaneous transluminal angioplasty of vascular graft"	"312611005"	"456363010"	32
+"460686018"	198	"ZV457"	"ZV45700"	"[v]presence of aortocoronary bypass graft"	"399261000"	"1767181012"	32
+"484402013"	3540	"79290"	"7929000"	"percutaneous transluminal laser coronary angioplasty"	"29843007"	"484402013"	32
+"1221061012"	29136	"79275"	"7927500"	"open angioplasty of coronary artery"	"14201006"	"1221061012"	32
+"1221554018"	865	"7921-1"	"7921.11"	"other autograft bypass of coronary artery"	"232717009"	"348640013"	32
+"1227364015"	17260	"ZV45K-1"	"ZV45K11"	"history of coronary artery bypass grafting"	"399261000"	"2986657017"	32
+"1228282017"	47040	"7920"	"7920.00"	"saphenous vein graft replacement of coronary artery"	"3546002"	"6979016"	32
+"1785743019"	2061	"79293"	"7929300"	"rotary blade coronary angioplasty"	"397193006"	"1785743019"	32
+"2160096015"	8567	"SP076"	"SP07600"	"coronary artery bypass graft occlusion"	"408546009"	"2160096015"	32
+"2535176014"	99109	"792E"	"792E.00"	"percutaneous coronary intervention"	"415070008"	"2535176014"	32
+"2535177017"	5297	"792E0"	"792E000"	"emergency percutaneous coronary intervention"	"414089002"	"2535177017"	32
+"2536354015"	207915	"79294"	"7929400"	"insertion of coronary artery stent"	"36969009"	"2536354015"	32
+"2675862016"	83	"790F3"	"790F300"	"repair of coronary sinus abnormality"	"425895009"	"2675862016"	32
+"2675882017"	2239	"7A564"	"7A56400"	"percutaneous transluminal balloon angioplasty of artery"	"426674009"	"2675882017"	32
+"3525968019"	23	"^ESCT1167247"	NA	"aortocoronary artery bypass of one coronary artery with saphenous vein graft"	"736967001"	"3525968019"	32
+"3525970011"	1	"^ESCT1167250"	NA	"saphenous vein graft bypass of three coronary arteries"	"736968006"	"3525970011"	32
+"3525981014"	3	"^ESCT1167255"	NA	"allograft bypass of three coronary arteries"	"736972005"	"3525981014"	32
+"36861000006113"	16	"7921y"	"7921y00"	"other autograft replacement of coronary artery os"	"232717009"	"348640013"	32
+"89711000006118"	149998	"7928"	"7928.00"	"percutaneous transluminal coronary angioplasty"	"11101003"	"19234014"	32
+"89731000006112"	2234	"7928y"	"7928y00"	"transluminal balloon angioplasty of coronary artery os"	"11101003"	"19234014"	32
+"142361000006111"	447	"79252"	"7925200"	"single anastomosis of mammary artery to left anterior descending coronary artery"	"175048006"	"271121019"	32
+"142431000006114"	6	"79263"	"7926300"	"single implantation thoracic artery into coronary artery nec"	"232719007"	"348647011"	32
+"161451000006116"	4811	"7920-1"	"7920.11"	"saphenous vein graft replacement of coronary artery"	"3546002"	"1228282017"	32
+"161481000006112"	22793	"7920y"	"7920y00"	"aortocoronary artery bypass graft with saphenous vein graft"	"3546002"	"6979016"	32
+"161491000006110"	5480	"79203"	"7920300"	"aortocoronary artery bypass of four or more coronary arteries with saphenous vein graft"	"736966005"	"3525965016"	32
+"220231000000118"	206658	"792"	"792..00"	"coronary artery operation"	"31413008"	"484868016"	32
+"238561000006119"	542	"79282"	"7928200"	"percutaneous transluminal balloon angioplasty of bypass graft of coronary artery"	"175066001"	"271142017"	32
+"238571000006114"	7887	"79281"	"7928100"	"percutaneous transluminal balloon angioplasty of multiple coronary arteries"	"85053006"	"506356013"	32
+"238581000006112"	51	"79291-1"	"7929111"	"percutaneous transluminal coronary thrombolytic using streptokinase"	"175071008"	"271151013"	32
+"238641000006117"	34060	"79280"	"7928000"	"percutaneous transluminal balloon angioplasty of one coronary artery"	"68466008"	"1233048011"	32
+"238651000006115"	890	"79291"	"7929100"	"percutaneous transluminal coronary thrombolysis using streptokinase"	"175071008"	"271150014"	32
+"238821000006111"	19490	"7928-1"	"7928.11"	"percutaneous balloon coronary angioplasty"	"11101003"	"19234014"	32
+"250931000006117"	193	"7929z"	"7929z00"	"other therapeutic transluminal op on coronary artery nos"	"31413008"	"52509013"	32
+"250941000006110"	109	"7929y"	"7929y00"	"other therapeutic transluminal op on coronary artery os"	"31413008"	"52509013"	32
+"311461000000116"	19657	"79295"	"7929500"	"insertion of drug-eluting coronary artery stent"	"203741000000101"	"311461000000116"	32
+"354901000000117"	156	"79296"	"7929600"	"percutaneous transluminal atherectomy of coronary artery"	"232726007"	"354901000000117"	32
+"359451000000111"	157	"7A561"	"7A56100"	"percutaneous transluminal stent reconstruction of artery"	"709019007"	"3037829014"	32
+"377281000000114"	169	"7A6N2"	"7A6N200"	"endovascular placement of three or more drug-eluting stents"	"746050008"	"3564437018"	32
+"384521000000113"	1170	"7A6N4"	"7A6N400"	"endovascular insertion of drug eluting stent"	"746050008"	"3564437018"	32
+"589721000006114"	13	"7925y"	"7925y00"	"connection of mammary artery to coronary artery os"	"175045009"	"271114019"	32
+"619381000006119"	39	"792Ay"	"792Ay00"	"diagnostic transluminal operation on coronary artery os"	"175076003"	"271157012"	32
+"627951000006112"	4	"79260"	"7926000"	"double anastom thoracic arteries to coronary arteries nec"	"232720001"	"348649014"	32
+"628021000006118"	32	"79251"	"7925100"	"double implantation of mammary arteries into coronary arteries"	"175047001"	"271120018"	32
+"628031000006115"	8	"79261"	"7926100"	"double implant thoracic arteries into coronary arteries nec"	"232720001"	"348649014"	32
+"865171000006113"	744	"792-99"	"792..99"	"coronary artery operation nos"	"31413008"	"865171000006113"	32
+"865181000006111"	5860	"7920-99"	"7920.99"	"coronary artery venous graft"	"3546002"	"865181000006111"	32
+"865191000006114"	1729	"7923-99"	"7923.99"	"insertn coronary artery stent"	"175029007"	"865191000006114"	32
+"865201000006112"	1404	"7924-99"	"7924.99"	"coronary a revasc. by-pass"	"175036008"	"865201000006112"	32
+"865211000006110"	1	"7925-99"	"7925.99"	"heart: int. mammary a implant"	"175045009"	"865211000006110"	32
+"865221000006119"	354	"7925z-99"	"7925z99"	"int.mammary coronary a by-pass"	"588811000000108"	"865221000006119"	32
+"865231000006116"	1	"7926-99"	"7926.99"	"heart: arterial implant"	"581151000000108"	"865231000006116"	32
+"865251000006111"	2	"7926z-99"	"7926z99"	"heart: arterial implant nos"	"596331000000108"	"865251000006111"	32
+"865261000006113"	2683	"7927-99"	"7927.99"	"coronary a by-pass anastam nos"	"591161000000105"	"865261000006113"	32
+"865281000006115"	1369	"79275-99"	"7927599"	"angioplasty of coronary artery"	"14201006"	"865281000006115"	32
+"865291000006117"	6760	"7928-99"	"7928.99"	"coronary angioplasty"	"11101003"	"865291000006117"	32
+"865301000006116"	208	"79280-99"	"7928099"	"percut angiopl coronary artery"	"68466008"	"865301000006116"	32
+"865311000006118"	66	"792B0-99"	"792B099"	"coronary endarterectomy"	"538891000000107"	"865311000006118"	32
+"865321000006114"	165	"792Dz-99"	"792Dz99"	"aorto-coronary by-pass anastam"	"582901000000101"	"865321000006114"	32
+"933021000006113"	454	"792y-99"	"792y.99"	"angioplasty of coronary artery"	"582911000000104"	"933021000006113"	32
+"987711000006115"	3	"7925-98"	"7925.98"	"int.mammary coronary a by-pass"	"175045009"	"987711000006115"	32
+"987721000006111"	1	"792D-99"	"792D.99"	"aorto-coronary by-pass anastam"	"537001000000108"	"987721000006111"	32
+"1547311000006116"	366	"79283"	"7928300"	"percutaneous transluminal cutting balloon angioplasty of coronary artery"	"707828002"	"3032475016"	32
+"1547631000006117"	32910	"793G"	"793G.00"	"percutaneous transluminal balloon angioplasty with insertion of stent into coronary artery"	"429639007"	"2694928017"	32
+"1547641000006110"	13107	"793G0"	"793G000"	"percutaneous transluminal balloon angioplasty and insertion of drug eluting stent into coronary artery"	"936451000000108"	"2398371000000113"	32
+"1547651000006112"	1078	"793G1"	"793G100"	"perc tran ball angio ins 3 or more drug elut stents cor art"	"936451000000108"	"2398371000000113"	32
+"1547661000006114"	3125	"793G2"	"793G200"	"perc translum balloon angioplasty insert 1-2 stents cor art"	"429639007"	"2694928017"	32
+"1547671000006119"	375	"793G3"	"793G300"	"percutaneous cor balloon angiop 3 more stents cor art nec"	"429639007"	"2694928017"	32
+"1547681000006116"	498	"793Gy"	"793Gy00"	"os perc translumina balloon angioplast stenting coronary art"	"429639007"	"2694928017"	32
+"1547691000006118"	2529	"793Gz"	"793Gz00"	"perc translum balloon angioplasty stenting coronary art nos"	"429639007"	"2694928017"	32
+"1548301000006115"	208	"7A28G"	"7A28G00"	"percutaneous transluminal insertion of stent into subclavian artery"	"426419000"	"2676340016"	32
+"1548451000006111"	235	"7A566"	"7A56600"	"percutaneous transluminal placement of peripheral stent in artery"	"237451000000109"	"384541000000118"	32
+"1716121000006117"	287	"7A35E"	"7A35E00"	"percutaneous transluminal insertion of stent into superior mesenteric artery"	"443463009"	"2839075018"	32
+"2664231000006114"	3	"^ESCTCO266423"	NA	"coronary artery bypass with autogenous graft, three grafts"	"10326007"	"17985016"	31
+"2676611000006115"	6	"^ESCTBA267661"	NA	"balloon angioplasty of coronary artery"	"11101003"	"357438017"	32
+"2676621000006111"	12	"^ESCTPE267662"	NA	"percutaneous transluminal coronary balloon angioplasty"	"11101003"	"1219584012"	32
+"2676631000006114"	77	"^ESCTPT267663"	NA	"ptca - percutaneous transluminal coronary angioplasty"	"11101003"	"1219585013"	32
+"2676641000006116"	18	"^ESCTPE267664"	NA	"percutaneous angioplasty of coronary artery"	"11101003"	"1219586014"	32
+"2724981000006116"	331	"^ESCTCO272498"	NA	"coronary angioplasty by open chest approach"	"14201006"	"24164010"	32
+"2771011000006114"	32	"^ESCTAO277101"	NA	"aortocoronary artery bypass graft with vein graft"	"17073005"	"28888019"	32
+"2825851000006119"	1	"^ESCTPE282585"	NA	"percutaneous transluminal iliac artery balloon angioplasty"	"20500004"	"34495017"	31
+"2979921000006113"	4	"^ESCTAO297992"	NA	"aortocoronary bypass of one coronary artery"	"29819009"	"49894014"	31
+"2980331000006110"	38	"^ESCTCO298033"	NA	"coronary atherectomy by laser"	"29843007"	"49944012"	32
+"2980341000006117"	92	"^ESCTLA298034"	NA	"laser coronary angioplasty"	"29843007"	"484400017"	32
+"3006261000006110"	1059	"^ESCTOP300626"	NA	"operative procedure on coronary artery"	"31413008"	"2642691017"	32
+"3006271000006115"	3	"^ESCTOP300627"	NA	"operative procedure on coronary arteries"	"31413008"	"52509013"	32
+"3006281000006117"	9	"^ESCTCO300628"	NA	"coronary artery surgery"	"31413008"	"52512011"	32
+"3095621000006113"	3900	"^ESCTPL309562"	NA	"placement of stent in coronary artery"	"36969009"	"2532566012"	32
+"3130801000006113"	2	"^ESCTCO313080"	NA	"coronary artery bypass with autogenous graft, four grafts"	"39202005"	"65754018"	31
+"3139031000006115"	8	"^ESCTDO313903"	NA	"double internal mammary-coronary artery bypass"	"39724006"	"66992015"	31
+"3166201000006119"	2081	"^ESCTCO316620"	NA	"coronary angioplasty"	"41339005"	"68955014"	31
+"3219961000006117"	13	"^ESCTPE321996"	NA	"persistent hyaloid artery"	"44647001"	"74476017"	31
+"3283571000006115"	2	"^ESCTAN328357"	NA	"anastomosis of thoracic artery to coronary artery, single"	"48431000"	"80687018"	31
+"3494951000006115"	2	"^ESCTAO349495"	NA	"aortocoronary artery bypass graft repeated"	"61236006"	"2871738010"	32
+"3592031000006112"	1	"^ESCTAO359203"	NA	"aortocoronary bypass for heart revascularization"	"67166004"	"111565019"	31
+"3613991000006113"	194	"^ESCTPE361399"	NA	"percutaneous transluminal balloon angioplasty"	"68457009"	"113703017"	31
+"3614031000006112"	11	"^ESCTPE361403"	NA	"percutaneous balloon angioplasty"	"68457009"	"501020017"	31
+"3614141000006115"	378	"^ESCTRE361414"	NA	"removal of coronary artery obstruction by percutaneous transluminal balloon, single vessel"	"68466008"	"113718016"	32
+"3883421000006114"	83	"^ESCTPE388342"	NA	"percutaneous transluminal coronary angioplasty, multiple vessels"	"85053006"	"141011017"	32
+"4166411000006118"	1	"^ESCTCA416641"	NA	"caliber persistent artery"	"109558001"	"2988804010"	31
+"4317901000006119"	39	"^ESCTIN431790"	NA	"internal mammary-coronary artery bypass graft"	"119564002"	"184013019"	32
+"4317911000006116"	14	"^ESCTCO431791"	NA	"coronary artery bypass graft, anastomosis of artery of thorax to coronary artery"	"119565001"	"184014013"	31
+"5040091000006112"	209	"^ESCTCA504009"	NA	"cabg - coronary artery bypass graft"	"232717009"	"348641012"	32
+"5040101000006118"	4	"^ESCTCB504010"	NA	"cbg - coronary bypass graft"	"232717009"	"348642017"	32
+"5040111000006115"	199	"^ESCTCO504011"	NA	"coronary artery bypass grafting"	"232717009"	"348643010"	32
+"5040141000006116"	150	"^ESCTCO504014"	NA	"coronary artery bypass graft x 1"	"232719007"	"348647011"	32
+"5040151000006119"	21	"^ESCTCA504015"	NA	"cabg x 1 - coronary artery bypass graft x 1"	"232719007"	"348648018"	32
+"5040161000006117"	2679	"^ESCTCO504016"	NA	"coronary artery bypass grafts x 2"	"232720001"	"348650014"	32
+"5040171000006112"	60	"^ESCTCA504017"	NA	"cabg x 2 - coronary artery bypass grafts x 2"	"232720001"	"348649014"	32
+"5040181000006110"	5453	"^ESCTCO504018"	NA	"coronary artery bypass grafts x 3"	"232721002"	"348651013"	32
+"5040191000006113"	6	"^ESCTTR504019"	NA	"triple coronary bypass"	"232721002"	"348652018"	32
+"5040201000006111"	120	"^ESCTCA504020"	NA	"cabg x 3 - coronary artery bypass grafts x 3"	"232721002"	"348653011"	32
+"5040211000006114"	2117	"^ESCTCO504021"	NA	"coronary artery bypass grafts x 4"	"232722009"	"348655016"	32
+"5040221000006118"	68	"^ESCTCA504022"	NA	"cabg x 4 - coronary artery bypass grafts x 4"	"232722009"	"348654017"	32
+"5040231000006115"	64	"^ESCTCO504023"	NA	"coronary artery bypass grafts x 5"	"232723004"	"348656015"	31
+"5040241000006113"	15	"^ESCTCA504024"	NA	"cabg x 5 - coronary artery bypass grafts x 5"	"232723004"	"348657012"	31
+"5040251000006110"	7	"^ESCTCO504025"	NA	"coronary artery bypass grafts greater than 5"	"232724005"	"348659010"	31
+"5040281000006119"	45	"^ESCTPE504028"	NA	"percutaneous endarterectomy of coronary artery"	"232726007"	"348663015"	32
+"5040381000006112"	1	"^ESCTOP504038"	NA	"operation for coronary artery fistula"	"232735000"	"348676014"	31
+"5047871000006117"	19	"^ESCTBA504787"	NA	"balloon angioplasty of artery"	"233258006"	"349469017"	32
+"5294451000006117"	5	"^ESCTCO529445"	NA	"coronary bypass graft finding"	"251019006"	"374153011"	31
+"5294501000006115"	9	"^ESCTCO529450"	NA	"coronary graft patent"	"251023003"	"374157012"	31
+"5294511000006117"	69	"^ESCTCO529451"	NA	"coronary graft stenosis"	"251024009"	"374158019"	32
+"5294521000006113"	2	"^ESCTCO529452"	NA	"coronary stent site"	"251026006"	"374160017"	31
+"5294531000006111"	10	"^ESCTCO529453"	NA	"coronary stent patency"	"251027002"	"374161018"	31
+"5294561000006119"	62	"^ESCTCO529456"	NA	"coronary stent patent"	"251029004"	"374164014"	31
+"5294571000006114"	33	"^ESCTCO529457"	NA	"coronary stent stenosis"	"251030009"	"374165010"	31
+"5294581000006112"	11	"^ESCTCO529458"	NA	"coronary stent occluded"	"251031008"	"374166011"	31
+"5315871000006115"	4	"^ESCTCO531587"	NA	"coronary bypass graft angiography"	"252427007"	"375986019"	31
+"5474671000006119"	8	"^ESCTCO547467"	NA	"coronary artery graft"	"264293000"	"392700019"	31
+"5595841000006110"	1	"^ESCTCO559584"	NA	"coronary artery graft placement"	"277192005"	"413637017"	31
+"5993071000006115"	1	"^ESCTAO599307"	NA	"aortocoronary bypass grafting"	"309814006"	"453308012"	31
+"6013241000006110"	15	"^ESCTSA601324"	NA	"saphenous vein graft"	"312140007"	"455807014"	31
+"6013251000006112"	11	"^ESCTLO601325"	NA	"long saphenous vein graft"	"312141006"	"455808016"	31
+"6204121000006118"	2	"^ESCTCO620412"	NA	"coronary artery bypass with autogenous graft of internal mammary artery, single graft"	"359601003"	"473687010"	31
+"6360371000006119"	2	"^ESCTSI636037"	NA	"significant coronary bypass graft disease"	"371805005"	"1210400010"	32
+"6360401000006116"	23	"^ESCTRE636040"	NA	"recurrent angina after percutaneous transluminal coronary angioplasty"	"371808007"	"2470265017"	32
+"6360421000006114"	17	"^ESCTRE636042"	NA	"recurrent angina after coronary stent placement"	"371809004"	"2470266016"	32
+"6360441000006119"	14	"^ESCTRE636044"	NA	"recurrent angina after coronary artery bypass graft"	"371810009"	"2470267013"	32
+"6360581000006112"	1	"^ESCTPA636058"	NA	"patient post percutaneous transluminal coronary angioplasty"	"371822007"	"1210417015"	31
+"6376491000006116"	1	"^ESCTPO637649"	NA	"post percutaneous transluminal coronary angioplasty"	"373108000"	"1211624017"	31
+"6427011000006114"	1	"^ESCTPA642701"	NA	"patch repair of coronary artery"	"384681005"	"1479005015"	31
+"6450471000006112"	18	"^ESCTST645047"	NA	"stented coronary artery"	"386138005"	"1480321017"	31
+"6583111000006116"	1	"^ESCTPE658311"	NA	"percutaneous transluminal coronary angioplasty by rotoablation"	"397193006"	"1776881019"	32
+"6583131000006110"	22	"^ESCTPE658313"	NA	"percutaneous rotational coronary endarterectomy"	"397194000"	"1776882014"	32
+"6718021000006116"	18	"^ESCTHI671802"	NA	"history of percutaneous coronary intervention"	"405741001"	"2986424012"	31
+"6765901000006116"	11	"^ESCTST676590"	NA	"stented artery"	"408708000"	"2470569012"	31
+"6807961000006113"	89	"^ESCTDR680796"	NA	"drug eluting stent"	"411191007"	"2472833017"	31
+"6851841000006118"	19	"^ESCTEM685184"	NA	"emergency cabg"	"414088005"	"2535175013"	31
+"6869441000006114"	1500	"^ESCTPC686944"	NA	"pci - percutaneous coronary intervention"	"415070008"	"3028800015"	32
+"6923381000006110"	1	"^ESCTFL692338"	NA	"fluoroscopy and stent superior mesenteric artery"	"418573004"	"2580550018"	31
+"6927491000006113"	7	"^ESCTOF692749"	NA	"off-pump coronary artery bypass"	"418824004"	"2576881018"	31
+"6929971000006111"	1	"^ESCTFL692997"	NA	"fluoroscopic angiography of coronary artery and insertion of stent"	"418982001"	"2578289017"	31
+"6932321000006116"	7	"^ESCTMI693232"	NA	"minimally invasive direct coronary artery bypass"	"419132001"	"2576880017"	31
+"6932331000006118"	4	"^ESCTMI693233"	NA	"midcab - minimally invasive direct coronary artery bypass"	"419132001"	"2579798014"	31
+"6969941000006114"	11	"^ESCTCO696994"	NA	"coronary artery stent thrombosis"	"421327009"	"2618027011"	31
+"7086511000006119"	4	"^ESCTHI708651"	NA	"history of percutaneous transluminal coronary angioplasty"	"428308007"	"2695664011"	31
+"7089321000006111"	9	"^ESCTPL708932"	NA	"placement of stent in anterior descending branch of left coronary artery"	"428488008"	"2695107017"	31
+"7095511000006111"	1	"^ESCTHI709551"	NA	"history of stent placement in anterior descending branch of left coronary artery"	"428912006"	"2691979012"	31
+"7100421000006116"	1	"^ESCTRE710042"	NA	"recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty"	"429245005"	"2693393017"	32
+"7104261000006116"	1	"^ESCTPL710426"	NA	"placement of stent in circumflex branch of left coronary artery"	"429499003"	"2694383016"	31
+"7106981000006113"	5	"^ESCTAR710698"	NA	"arteriosclerosis of coronary artery bypass graft"	"429673002"	"2819587014"	32
+"7106991000006111"	4	"^ESCTCO710699"	NA	"coronary arteriosclerosis of coronary artery bypass graft"	"429673002"	"2694939019"	32
+"7109181000006117"	1	"^ESCTFL710918"	NA	"fluoroscopic percutaneous transluminal angioplasty of coronary artery"	"429809004"	"2765054011"	31
+"7177921000006118"	2	"^ESCTFL717792"	NA	"fluoroscopic angioplasty of vein graft"	"433325002"	"2771128010"	31
+"7181851000006118"	1	"^ESCTPE718185"	NA	"percutaneous transluminal cutting balloon angioplasty of dialysis fistula using fluoroscopic guidance"	"433631008"	"2769717019"	31
+"7210461000006110"	1	"^ESCTMA721046"	NA	"magnetic resonance angiography of coronary artery bypass graft"	"438530000"	"2791546017"	31
+"7261421000006113"	1	"^ESCTAR726142"	NA	"arteriosclerosis of autologous vein coronary artery bypass graft"	"442224005"	"2818746016"	32
+"7264041000006114"	4	"^ESCTAR726404"	NA	"arteriosclerosis of arterial coronary artery bypass graft"	"442421004"	"2819331019"	32
+"7278931000006116"	2	"^ESCTPE727893"	NA	"percutaneous insertion of stent into right ventricular outflow tract using fluoroscopic guidance"	"443532008"	"2840453019"	31
+"7298951000006115"	18	"^ESCTAR729895"	NA	"arteriosclerosis of coronary artery bypass graft of transplanted heart"	"444855007"	"2872851014"	32
+"7395971000006114"	1	"^ESCTAB739597"	NA	"abnormal origin of dual left anterior descending coronary arteries from right coronary artery and left coronary artery"	"460437005"	"2922771013"	31
+"7396481000006113"	1	"^ESCTAB739648"	NA	"abnormal origin of right coronary artery from left coronary artery"	"460586009"	"2923483015"	31
+"7399281000006115"	1	"^ESCTCO739928"	NA	"coronary artery fistula with dilation of entire coronary artery"	"461425003"	"2923386012"	31
+"7430441000006118"	2	"^ESCTAT743044"	NA	"atherectomy coronary angioplasty system"	"465631000"	"2943268015"	31
+"7493781000006117"	3	"^ESCTPE749378"	NA	"percutaneous insertion of drug eluting stent into coronary artery using fluoroscopic guidance"	"609153008"	"2959012016"	31
+"7602891000006115"	174	"^ESCTDR760289"	NA	"drug-eluting coronary artery stent"	"705637003"	"3024514018"	31
+"7602941000006119"	88	"^ESCTCO760294"	NA	"coronary artery stent"	"705643001"	"3024526011"	31
+"7604961000006112"	3	"^ESCTCO760496"	NA	"coronary angioplasty balloon catheter"	"705926001"	"3025067018"	31
+"7604981000006119"	1	"^ESCTCO760498"	NA	"coronary angioplasty catheter"	"705928000"	"3025071015"	31
+"7700501000006119"	7	"^ESCTPE770050"	NA	"percutaneous transluminal balloon angioplasty with insertion of stent into iliac artery"	"713170001"	"3288300017"	31
+"7707821000006114"	1	"^ESCTRE770782"	NA	"repair of coronary artery"	"713689002"	"3297371018"	31
+"7802511000006115"	24	"^ESCTCO780251"	NA	"coronary angioplasty balloon catheter, drug-eluting"	"720351003"	"3320432011"	31
+"7855741000006112"	2	"^ESCTAT785574"	NA	"atherosclerosis of autologous coronary artery bypass graft"	"724431008"	"3498189014"	32
+"8041051000006118"	30	"^ESCTHI804105"	NA	"history of placement of stent in coronary artery bypass graft"	"130541000119100"	"3447385012"	32
+"8041061000006116"	13	"^ESCTST804106"	NA	"stent in branch of right coronary artery"	"130551000119103"	"2984969013"	31
+"8041311000006117"	3	"^ESCTDR804131"	NA	"drug coated stent in circumflex branch of left coronary artery"	"131581000119102"	"2987655016"	31
+"8041331000006111"	7	"^ESCTDR804133"	NA	"drug coated stent in anterior descending branch of left coronary artery"	"131601000119106"	"2987715010"	31
+"8067801000006114"	28	"^ESCTST806780"	NA	"stent in anterior descending branch of left coronary artery"	"216621000119100"	"2987681017"	31
+"8067811000006112"	7	"^ESCTST806781"	NA	"stent in circumflex branch of left coronary artery"	"216631000119102"	"3005439010"	31
+"8270031000006111"	1	"^ESCTEN827003"	NA	"endoscopic robot assisted coronary artery bypass"	"822501000000101"	"2141371000000115"	31
+"8280081000006119"	2	"^ESCTFL828008"	NA	"fluoroscopy guided percutaneous transluminal drug eluting balloon angioplasty"	"838541000000104"	"2176371000000114"	31
+"8327951000006114"	64	"^ESCTFL832795"	NA	"fluoroscopy guided primary percutaneous coronary intervention"	"914231000000100"	"2349091000000114"	31
+"8440261000006112"	1	"^ESCTPE844026"	NA	"percutaneous coronary intervention record"	"1067211000000108"	"2680501000000118"	31
+"8440271000006117"	7	"^ESCTPC844027"	NA	"pci (percutaneous coronary intervention) record"	"1067211000000108"	"2680521000000110"	31
+"9353781000006114"	27	"^ESCTCO935378"	NA	"coronary arteriosclerosis after percutaneous coronary angioplasty"	"11018701000119109"	"3078321014"	32
+"12009341000006119"	13	"^ESCT1200934"	NA	"percutaneous transluminal angioplasty of coronary artery using drug eluting balloon catheter"	"763725002"	"3643524015"	31
+"12009351000006117"	7	"^ESCT1200935"	NA	"percutaneous transluminal coronary angioplasty using drug eluting balloon catheter"	"763725002"	"3643519018"	31
+"12025931000006119"	1	"^ESCT1202593"	NA	"angiogram of right coronary artery bypass graft"	"765076009"	"3656324019"	31
+"12025941000006112"	1	"^ESCT1202594"	NA	"angiography of left coronary artery bypass graft"	"765077000"	"3656329012"	31
+"12025951000006114"	2	"^ESCT1202595"	NA	"angiogram of left coronary artery bypass graft"	"765077000"	"3656327014"	31
+"12125951000006116"	1	"^ESCT1212595"	NA	"arteriosclerosis of autologous vein coronary artery bypass graft with angina"	"15960581000119102"	"3645095017"	32
+"12125971000006114"	19	"^ESCT1212597"	NA	"unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft"	"15960661000119107"	"3645129018"	32
+"12127701000006111"	20	"^ESCT1212770"	NA	"percutaneous insertion of catheter into portal vein"	"16629601000119108"	"3646865018"	31
+"13697771000006116"	2	"^ESCT1369777"	NA	"percutaneous transluminal flow diverting stent embolisation of aneurysm of artery"	"1239291000000107"	"2800111000000118"	31
+"13931051000006110"	1	"^ESCT1393105"	NA	"insertion of endovascular stent into artery of lower limb"	"830041003"	"3880375016"	31
+"13961451000006111"	9	"^ESCT1396145"	NA	"acute stemi (st elevation myocardial infarction) due to pda (posterior descending artery) branch of rca (right coronary artery) occlusion"	"868225002"	"3963985016"	32
+"13961481000006115"	1	"^ESCT1396148"	NA	"coronary artery bypass grafting using radial artery graft"	"868227005"	"3964004012"	31
+"13961541000006110"	14	"^ESCT1396154"	NA	"coronary artery bypass graft using free lima (left internal mammary artery) graft"	"868231004"	"3964017010"	31
+"13961551000006112"	7	"^ESCT1396155"	NA	"coronary artery bypass graft using free left internal mammary artery graft"	"868231004"	"3964018017"	31
+"13961751000006115"	110	"^ESCT1396175"	NA	"percutaneous coronary intervention of left coronary artery"	"868245005"	"3964089016"	31
+"13961761000006118"	36	"^ESCT1396176"	NA	"pci (percutaneous coronary intervention) of lca (left coronary artery)"	"868245005"	"3964100018"	31
+"13961771000006113"	34	"^ESCT1396177"	NA	"percutaneous coronary intervention of anterior descending branch of left coronary artery"	"868246006"	"3964091012"	31
+"13961781000006111"	149	"^ESCT1396178"	NA	"pci (percutaneous coronary intervention) of left anterior descending branch of coronary artery"	"868246006"	"3964101019"	31
+"13961791000006114"	11	"^ESCT1396179"	NA	"percutaneous coronary intervention of circumflex branch of left coronary artery"	"868247002"	"3964094016"	31
+"13961801000006110"	23	"^ESCT1396180"	NA	"pci (percutaneous coronary intervention) of circumflex branch of left coronary artery"	"868247002"	"3964095015"	31
+"13961811000006113"	149	"^ESCT1396181"	NA	"percutaneous coronary intervention of right coronary artery"	"868248007"	"3964099014"	31
+"13961821000006117"	242	"^ESCT1396182"	NA	"pci (percutaneous coronary intervention) of rca (right coronary artery)"	"868248007"	"3964097011"	31
+"13969591000006117"	1	"^ESCT1396959"	NA	"sequential anastomosis of left internal thoracic artery to coronary artery"	"871496000"	"3972904011"	32
+"14011951000006112"	2	"^ESCT1401195"	NA	"unstable angina due to arteriosclerosis of autologous vein coronary artery bypass graft"	"15960541000119107"	"3779541018"	32
+"14055221000006116"	6	"^ESCT1405522"	NA	"coronary artery bypass graft with saphenous vein graft"	"3546002"	"3971183018"	32
+"14056221000006114"	1	"^ESCT1405622"	NA	"cavg - coronary artery vein graft"	"17073005"	"3971185013"	32
+"14056231000006112"	4	"^ESCT1405623"	NA	"cvg - coronary vein graft"	"17073005"	"3971186014"	32
+"14160781000006119"	3	"^ESCT1416078"	NA	"anastomosis of lima (left internal mammary artery) to lad (left anterior descending) coronary artery"	"1010291002"	"4212396011"	31
+"14164951000006116"	1	"^ESCT1416495"	NA	"sequential anastomosis of left internal thoracic artery from second diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery"	"1017227007"	"4230228018"	31
+"14178181000006110"	1	"^ESCT1417818"	NA	"acute deep vein thrombosis of left lower limb following coronary artery bypass graft"	"15708361000119109"	"3993369011"	31
+"14179491000006111"	7	"^ESCT1417949"	NA	"unstable angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart"	"15960341000119104"	"3991458017"	32
+"14210681000006112"	1	"^ESCT1421068"	NA	"percutaneous insertion of drug eluting stent into coronary artery using fluoroscopic guidance with contrast"	"609153008"	"4010344018"	31
+"14453321000006115"	5	"^ESCT1445332"	NA	"coronary artery bypass grafting using free right internal thoracic artery graft from left internal thoracic artery to intermediate artery"	"1155686006"	"4569567017"	31
+"14466301000006111"	3	"^ESCT1446630"	NA	"coronary artery bypass grafting using free right internal thoracic artery graft from left internal thoracic artery to diagonal branch of anterior descending branch of left coronary artery"	"1156983007"	"4576926016"	31
+"14466311000006114"	1	"^ESCT1446631"	NA	"anastomosis of free rima (right internal mammary artery) from lima (left internal mammary artery) to diagonal branch of lad (left anterior descending) coronary artery"	"1156983007"	"4576923012"	31
+"14466331000006115"	3	"^ESCT1446633"	NA	"coronary artery bypass grafting using free right internal thoracic artery graft from left internal thoracic artery to anterior descending branch of left coronary artery"	"1156984001"	"4576928015"	31
+"14518901000006116"	3	"^ESCT1451890"	NA	"assessment using pci (patient complexity instrument)"	"1198121000000103"	"1080721000000113"	32
+"14636541000006114"	6	"^ESCT1463654"	NA	"angiography of coronary artery bypass graft"	"252427007"	"4670295011"	31
+"14753521000006119"	1	"^ESCT1475352"	NA	"sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first diagonal branch of anterior descending branch of left coronary artery and first marginal circumflex coronary artery"	"1208943002"	"5013667018"	31
+"14756081000006115"	1	"^ESCT1475608"	NA	"sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to second obtuse marginal branch of circumflex branch of left coronary artery and posterior descending coronary artery"	"1209205004"	"5025558011"	31
+"14856811000006118"	10	"^ESCT1485681"	NA	"recurrent angina following placement of coronary artery stent"	"371809004"	"5013900016"	32
+"14865391000006117"	1	"^ESCT1486539"	NA	"endovascular insertion of stent into artery of lower limb"	"830041003"	"5069603011"	31
+"15032341000006117"	1	"^ESCT1503234"	NA	"percutaneous coronary intervention on mid-segment of left main coronary artery"	"1258930006"	"5154979012"	31
+"16075121000006117"	6	"^ESCT1607512"	NA	"percutaneous transluminal angioplasty of coronary artery using imaging guidance with contrast"	"41339005"	"5393369017"	31
+"16076601000006113"	2	"^ESCT1607660"	NA	"fluoroscopy guided percutaneous transluminal angioplasty of coronary artery, multiple vessels with contrast"	"85053006"	"5393655011"	32
+"16084651000006113"	20	"^ESCT1608465"	NA	"fluoroscopy guided percutaneous transluminal balloon angioplasty of artery with contrast"	"276861004"	"5393302011"	32
+"16094341000006117"	8	"^ESCT1609434"	NA	"fluoroscopy guided percutaneous transluminal balloon angioplasty with insertion of stent into coronary artery using fluoroscopic guidance with contrast"	"429639007"	"5385690016"	32
+"16107211000006110"	1	"^ESCT1610721"	NA	"primary pci (percutaneous coronary intervention) using fluoroscopic guidance"	"914231000000100"	"2048011000000113"	31

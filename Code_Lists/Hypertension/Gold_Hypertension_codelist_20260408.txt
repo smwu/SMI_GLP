@@ -18,7 +18,6 @@
 "11056"	"8BL0.00"	183183	0	42	0	"patient on maximal tolerated antihypertensive therapy"	"February 2009"
 "114722"	"J17B.00"	1812	0	0	0	"portal hypertensive gastropathy"	"March 2020"
 "29310"	"G22z.11"	636	0	26	1	"renal hypertension"	"February 2009"
-"71433"	"66b2.00"	28	0	0	0	"hypertension monitoring not required"	"February 2009"
 "24127"	"9OIA.11"	9543	0	15	0	"hypertension monitored"	"February 2009"
 "37086"	"F404200"	113	0	2	0	"blind hypertensive eye"	"February 2009"
 "51635"	"G241z00"	95	0	0	0	"secondary benign hypertension nos"	"February 2009"

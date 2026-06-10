@@ -1,0 +1,216 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"4031011"	77398	"G32"	"G32..00"	"old myocardial infarction"	"1755008"	"4031011"	32
+"4032016"	1059	"G32-1"	"G32..11"	"healed myocardial infarction"	"1755008"	"4032016"	32
+"37443015"	13390	"G30-4"	"G30..14"	"heart attack"	"22298006"	"37443015"	32
+"94884017"	2008762	"G30"	"G30..00"	"acute myocardial infarction"	"57054005"	"94884017"	32
+"109915012"	426	"G310"	"G310.00"	"post-myocardial infarction syndrome"	"66189004"	"500341014"	32
+"208365015"	1018	"G38"	"G38..00"	"postoperative myocardial infarction"	"129574000"	"208365015"	32
+"256452010"	6842	"323"	"323..00"	"ecg: myocardial infarction"	"164865005"	"256452010"	3
+"256454011"	6094	"3232"	"3232.00"	"ecg: old myocardial infarction"	"164867002"	"256454011"	3
+"256460011"	1210	"323Z"	"323Z.00"	"ecg: myocardial infarct nos"	"164865005"	"256452010"	3
+"299707016"	9430	"G301"	"G301.00"	"acute anterior myocardial infarction"	"54329005"	"1231324017"	32
+"299709018"	31380	"G301z"	"G301z00"	"anterior myocardial infarction nos"	"54329005"	"1231324017"	32
+"299710011"	6135	"G304"	"G304.00"	"acute posterior myocardial infarction"	"233838001"	"350371016"	32
+"299711010"	3586	"G305"	"G305.00"	"acute lateral myocardial infarction"	"58612006"	"1231860015"	32
+"299712015"	589	"G306"	"G306.00"	"true posterior myocardial infarction"	"194802003"	"299712015"	32
+"299714019"	122211	"G308"	"G308.00"	"acute myocardial infarction of inferior wall"	"73795002"	"122557015"	32
+"299718016"	2315	"G30y"	"G30y.00"	"other acute myocardial infarction"	"57054005"	"94884017"	32
+"299720018"	692	"G30yz"	"G30yz00"	"other acute myocardial infarction nos"	"57054005"	"94884017"	32
+"299721019"	74221	"G30z"	"G30z.00"	"acute myocardial infarction nos"	"57054005"	"94884017"	32
+"299808017"	942	"G35"	"G35..00"	"subsequent myocardial infarction"	"194856005"	"299808017"	32
+"299811016"	164	"G350"	"G350.00"	"subsequent myocardial infarction of anterior wall"	"194857001"	"299811016"	32
+"299812011"	285	"G351"	"G351.00"	"subsequent myocardial infarction of inferior wall"	"194858006"	"299812011"	32
+"299813018"	26	"G353"	"G353.00"	"subsequent myocardial infarction of other sites"	"194856005"	"299808017"	32
+"300881018"	6	"Gyu35"	"Gyu3500"	"[x]subsequent myocardial infarction of other sites"	"194856005"	"299808017"	32
+"300882013"	19	"Gyu36"	"Gyu3600"	"[x]subsequent myocardial infarction of unspecified site"	"194856005"	"299808017"	32
+"350376014"	3806	"G30-7"	"G30..17"	"silent myocardial infarction"	"233843008"	"350376014"	32
+"451369010"	2526	"14AH"	"14AH.00"	"h/o: myocardial infarction in last year"	"308065005"	"451369010"	32
+"455422014"	282	"G384"	"G384.00"	"postoperative subendocardial myocardial infarction"	"311796008"	"455422014"	32
+"455423016"	104	"G38z"	"G38z.00"	"postoperative myocardial infarction, unspecified"	"129574000"	"208365015"	32
+"461192018"	880	"ZV719"	"ZV71900"	"[v]observation for suspected myocardial infarction"	"171405001"	"265592018"	1
+"1780491019"	297045	"G30X0"	"G30X000"	"acute st segment elevation myocardial infarction"	"401303003"	"1780491019"	32
+"1780501013"	685257	"G3071"	"G307100"	"acute non-st segment elevation myocardial infarction"	"401314000"	"1780501013"	32
+"3526080018"	14	"^ESCT1167259"	NA	"mural thrombus of right ventricle following acute myocardial infarction"	"736978009"	"3526080018"	32
+"3527838013"	1	"^ESCT1167751"	NA	"myocardial infarction clinical management plan"	"737438001"	"3527838013"	31
+"3636255019"	5	"^ESCT1168902"	NA	"intracardiac thrombosis"	"762255004"	"3636255019"	31
+"67081000006119"	79	"G362"	"G362.00"	"ventricular septal defect as current complication following acute myocardial infarction"	"233846000"	"350381017"	32
+"100681000006116"	240	"G366"	"G366.00"	"thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction"	"194868001"	"299824016"	32
+"118831000006118"	65	"G35X"	"G35X.00"	"subsequent myocardial infarction of unspecified site"	"194856005"	"299808017"	32
+"158601000006116"	15	"G363"	"G363.00"	"rupture of cardiac wall without haemopericardium as current complication following acute myocardial infarction"	"194865003"	"299821012"	32
+"158611000006118"	6	"G364"	"G364.00"	"rupture of chordae tendinae as current complication following acute myocardial infarction"	"194866002"	"299822017"	32
+"159001000006119"	9	"G365"	"G365.00"	"rupture of papillary muscle as current complication following acute myocardial infarction"	"194867006"	"299823010"	32
+"212061000006119"	24	"G380"	"G380.00"	"postoperative transmural myocardial infarction of anterior wall"	"311792005"	"455418016"	32
+"212071000006114"	31	"G381"	"G381.00"	"postoperative transmural myocardial infarction of inferior wall"	"311793000"	"455419012"	32
+"212081000006112"	6	"G382"	"G382.00"	"postoperative transmural myocardial infarction other sites"	"129574000"	"208365015"	32
+"212091000006110"	13	"G383"	"G383.00"	"postoperative transmural myocardial infarction unspec site"	"129574000"	"208365015"	32
+"219531000000117"	359080	"G30-5"	"G30..15"	"mi - acute myocardial infarction"	"57054005"	"94884017"	32
+"230021000006115"	8064	"G32-2"	"G32..12"	"personal history of myocardial infarction"	"399211009"	"2986492018"	32
+"362461000006119"	138	"Gyu34"	"Gyu3400"	"[x]acute transmural myocardial infarction of unspecif site"	"57054005"	"94884017"	32
+"455641000006112"	19526	"G300"	"G300.00"	"acute anterolateral myocardial infarction"	"70211005"	"1233238016"	32
+"455651000006114"	5879	"G3011"	"G301100"	"acute anteroseptal myocardial infarction"	"62695002"	"104192010"	32
+"457531000006110"	13392	"G302"	"G302.00"	"acute inferolateral myocardial infarction"	"65547006"	"1232697013"	32
+"460681000006116"	773	"G30X"	"G30X.00"	"acute transmural myocardial infarction of unspecif site"	"57054005"	"94884017"	32
+"498031000006112"	117	"G361"	"G361.00"	"atrial septal defect as current complication following acute myocardial infarction"	"194863005"	"299818010"	32
+"537751000006115"	264	"G30-3"	"G30..13"	"cardiac rupture after acute myocardial infarction"	"233847009"	"350383019"	32
+"543291000006110"	61	"G36"	"G36..00"	"myocardial infarction with complication"	"371068009"	"1209776017"	32
+"616081000006113"	32	"889A"	"889A.00"	"diabetes mellitus insulin-glucose infusion in acute myocardial infarction"	"315287002"	"459791015"	32
+"810811000006116"	18813	"14A3"	"14A3.00"	"h/o: myocardial infarct at less than 60"	"161502000"	"251675010"	32
+"810821000006112"	16945	"14A4"	"14A4.00"	"h/o: myocardial infarct at greater than 60"	"161503005"	"251678012"	32
+"813961000006116"	122	"G360"	"G360.00"	"haemopericardium as current complication following acute myocardial infarction"	"194862000"	"299816014"	32
+"884151000006119"	7809	"G30-99"	"G30..99"	"myocardial infarction"	"57054005"	"884151000006119"	32
+"905351000006113"	4762	"HNG0009"	NA	"[rfc] reason for care : myocardial infarction (mi)"	"905351000006109"	"905351000006113"	12
+"967931000006114"	432	"G30B"	"G30B.00"	"acute myocardial infarction of posterolateral wall"	"15990001"	"27071012"	32
+"1576271000006117"	697	"EGTON2EGTON433"	NA	"cause of death- myocardial infarction"	"1576271000006101"	"1576271000006117"	37
+"1576301000006115"	467	"EGTON2G41"	NA	"cause of death- acute myocardial infarction"	"1576301000006104"	"1576301000006115"	37
+"1738171000006114"	3704	"14AT"	"14AT.00"	"history of myocardial infarction"	"399211009"	"2986492018"	32
+"1741571000006114"	523	"9hM"	"9hM..00"	"exception reporting - myocardial infarction quality indicators"	"717541000000106"	"1570081000000116"	37
+"1741581000006112"	930	"9hM0"	"9hM0.00"	"excepted from myocardial infarction quality indicators - informed dissent"	"715971000000103"	"1568531000000115"	37
+"1741591000006110"	1961	"9hM1"	"9hM1.00"	"excepted from myocardial infarction quality indicators - patient unsuitable"	"715981000000101"	"1568541000000112"	37
+"2503001000006118"	3	"^ESCTAC250300"	NA	"acute myocardial infarction of basal-lateral wall"	"282006"	"1559015"	32
+"2616611000006112"	1	"^ESCTIN261661"	NA	"inferior myocardial infarction on electrocardiogram"	"7326005"	"2693357019"	31
+"2729611000000111"	1	"^ESCT1171765"	NA	"postoperative transmural myocardial infarction"	"1089441000000103"	"2729611000000111"	32
+"2729631000000115"	3	"^ESCT1171766"	NA	"acute nontransmural myocardial infarction"	"1089451000000100"	"2729631000000115"	32
+"2729671000000118"	235	"^ESCT1171768"	NA	"acute transmural myocardial infarction"	"1089471000000109"	"2729671000000118"	32
+"2855301000006112"	10808	"^ESCTMY285530"	NA	"myocardial infarction"	"22298006"	"37436014"	32
+"2855341000006114"	11	"^ESCTMI285534"	NA	"mi - myocardial infarction"	"22298006"	"1784872019"	32
+"2855351000006111"	88	"^ESCTMY285535"	NA	"myocardial infarct"	"22298006"	"1784873012"	32
+"2953391000006113"	2	"^ESCTLE295339"	NA	"left anterior descending coronary artery thrombosis"	"28248000"	"47279011"	31
+"3024781000006112"	30	"^ESCTPA302478"	NA	"past myocardial infarction diagnosed on ecg and/or other special investigation, but currently presenting no symptoms"	"32574007"	"54388015"	32
+"3343471000006116"	7	"^ESCTAC334347"	NA	"acute anteroapical myocardial infarction"	"52035003"	"86618010"	32
+"3381601000006117"	958	"^ESCTAC338160"	NA	"acute myocardial infarction of anterior wall"	"54329005"	"90302019"	32
+"3427201000006111"	3	"^ESCTAM342720"	NA	"ami - acute myocardial infarction"	"57054005"	"1231678011"	32
+"3452181000006112"	132	"^ESCTAC345218"	NA	"acute myocardial infarction of lateral wall"	"58612006"	"97399018"	32
+"3459561000006119"	36	"^ESCTAC345956"	NA	"acute myocardial infarction of apical-lateral wall"	"59063002"	"98155017"	32
+"3551171000006114"	16	"^ESCTAC355117"	NA	"acute myocardial infarction of high lateral wall"	"64627002"	"107408016"	32
+"3565871000006113"	193	"^ESCTAC356587"	NA	"acute myocardial infarction of inferolateral wall"	"65547006"	"108912018"	32
+"3576371000006117"	29	"^ESCTPO357637"	NA	"postmyocardial infarction syndrome"	"66189004"	"109915012"	32
+"3641641000006116"	285	"^ESCTAC364164"	NA	"acute myocardial infarction of anterolateral wall"	"70211005"	"116613011"	32
+"3655161000006110"	9	"^ESCTPE365516"	NA	"pericarditis secondary to acute myocardial infarction"	"71023004"	"117962016"	32
+"3699921000006110"	32	"^ESCTAC369992"	NA	"acute inferior myocardial infarction"	"73795002"	"1233665015"	32
+"3745741000006117"	103	"^ESCTAC374574"	NA	"acute myocardial infarction of inferoposterior wall"	"76593002"	"127193015"	32
+"3784911000006111"	29	"^ESCTAC378491"	NA	"acute myocardial infarction of septum"	"79009004"	"131106018"	32
+"4775891000006119"	12	"^ESCTAC477589"	NA	"acute myocardial infarction of atrium"	"194809007"	"2470032018"	32
+"4775931000006111"	13	"^ESCTAB477593"	NA	"aborted myocardial infarction"	"194821006"	"2619483012"	32
+"5056411000006110"	131	"^ESCTOL505641"	NA	"old anterior myocardial infarction"	"233839009"	"350372011"	32
+"5056421000006119"	215	"^ESCTOL505642"	NA	"old inferior myocardial infarction"	"233840006"	"350373018"	32
+"5056431000006116"	20	"^ESCTOL505643"	NA	"old lateral myocardial infarction"	"233841005"	"350374012"	32
+"5056441000006114"	14	"^ESCTOL505644"	NA	"old posterior myocardial infarction"	"233842003"	"350375013"	32
+"5056461000006113"	3	"^ESCTMI505646"	NA	"mi - silent myocardial infarction"	"233843008"	"350377017"	32
+"5056951000006117"	3	"^ESCTPE505695"	NA	"pericarditis following myocardial infarction"	"233885007"	"350432018"	32
+"5935321000006111"	31	"^ESCTAC593532"	NA	"acute q wave myocardial infarction"	"304914007"	"447323012"	32
+"6043771000006118"	42	"^ESCTNO604377"	NA	"non-q wave myocardial infarction"	"314207007"	"458526013"	32
+"6360601000006119"	1	"^ESCTMY636060"	NA	"myocardial ischaemia manifest on stress test status post myocardial infarction"	"371824008"	"1207334015"	31
+"6546751000006118"	76	"^ESCTFI654675"	NA	"first myocardial infarction"	"394710008"	"1488431012"	32
+"6601121000006118"	323	"^ESCTCO660112"	NA	"coronary artery thrombosis"	"398274000"	"1777817018"	32
+"6619191000006115"	2	"^ESCTPA661919"	NA	"past history of myocardial infarction"	"399211009"	"1786753012"	32
+"6651221000006117"	1168	"^ESCTST665122"	NA	"stemi - st elevation myocardial infarction"	"401303003"	"2840840013"	32
+"6914971000006118"	11	"^ESCTMY691497"	NA	"myocardial infarction in recovery phase"	"418044006"	"2576878011"	32
+"7093091000006111"	51	"^ESCTRE709309"	NA	"recent myocardial infarction"	"428752002"	"2691951018"	32
+"7102561000006110"	1	"^ESCTNE710256"	NA	"new myocardial infarction compared to prior study"	"429391004"	"2693848015"	27
+"7107851000006112"	2	"^ESCTAN710785"	NA	"anterior myocardial infarction on electrocardiogram"	"429731003"	"2695928013"	31
+"7510331000006117"	107	"^ESCTHI751033"	NA	"history of non-st segment elevation myocardial infarction"	"698593009"	"2974755014"	32
+"7571581000006113"	1973	"^ESCTAC757158"	NA	"acute anterior st segment elevation myocardial infarction"	"703164000"	"3007817016"	32
+"7571591000006111"	3	"^ESCTAC757159"	NA	"acute st segment elevation myocardial infarction of anterior wall"	"703164000"	"3007419012"	32
+"7571601000006115"	275	"^ESCTAC757160"	NA	"acute stemi (st elevation myocardial infarction) of anterior wall"	"703164000"	"3007542019"	32
+"7571611000006117"	14	"^ESCTAC757161"	NA	"acute st segment elevation myocardial infarction of anterior wall involving right ventricle"	"703165004"	"3007986019"	32
+"7571621000006113"	1	"^ESCTAC757162"	NA	"acute anterior st segment elevation myocardial infarction with right ventricular involvement"	"703165004"	"3007620014"	32
+"7572221000006117"	14	"^ESCTSU757222"	NA	"subsequent st segment elevation myocardial infarction of inferior wall"	"703209002"	"3007816013"	32
+"7572251000006114"	10	"^ESCTSU757225"	NA	"subsequent st segment elevation myocardial infarction of anterior wall"	"703210007"	"3007438015"	32
+"7572261000006111"	1	"^ESCTSU757226"	NA	"subsequent stemi (st elevation myocardial infarction) of anterior wall"	"703210007"	"3007404011"	32
+"7572281000006118"	11	"^ESCTSU757228"	NA	"subsequent st segment elevation myocardial infarction"	"703211006"	"3007759014"	32
+"7572291000006115"	3	"^ESCTSU757229"	NA	"subsequent stemi (st elevation myocardial infarction)"	"703211006"	"3007794019"	32
+"7572301000006119"	5	"^ESCTAC757230"	NA	"acute myocardial infarction during procedure"	"703212004"	"3007658013"	32
+"7572321000006112"	1231	"^ESCTAC757232"	NA	"acute st segment elevation myocardial infarction of inferior wall"	"703213009"	"3007915011"	32
+"7572331000006110"	283	"^ESCTAC757233"	NA	"acute stemi (st elevation myocardial infarction) of inferior wall"	"703213009"	"3007397011"	32
+"7572341000006117"	40	"^ESCTAC757234"	NA	"acute inferior st segment elevation myocardial infarction"	"703213009"	"3007793013"	32
+"7572861000006110"	5	"^ESCTAC757286"	NA	"acute myocardial infarction of anterior wall involving right ventricle"	"703252002"	"3008134013"	32
+"7572881000006117"	16	"^ESCTAC757288"	NA	"acute st segment elevation myocardial infarction of inferior wall involving right ventricle"	"703253007"	"3008179012"	32
+"7572901000006115"	1	"^ESCTAC757290"	NA	"acute stemi (st elevation myocardial infarction) of inferior wall with right ventricular involvement"	"703253007"	"3008213014"	32
+"7574041000006111"	9	"^ESCTMI757404"	NA	"mitral valve regurgitation due to acute myocardial infarction"	"703326006"	"3008312019"	32
+"7574081000006117"	4	"^ESCTMI757408"	NA	"mitral valve regurgitation due to acute myocardial infarction without papillary muscle and chordal rupture"	"703328007"	"3008299014"	32
+"7574101000006113"	3	"^ESCTMI757410"	NA	"mitral valve regurgitation due to acute myocardial infarction with papillary muscle and chordal rupture"	"703330009"	"3008253012"	32
+"7574481000006111"	78	"^ESCTSU757448"	NA	"subsequent non-st segment elevation myocardial infarction"	"703360004"	"3008465013"	32
+"7574491000006114"	33	"^ESCTSU757449"	NA	"subsequent nstemi (non-st segment elevation myocardial infarction)"	"703360004"	"3008532019"	32
+"7662871000006115"	7	"^ESCTIN766287"	NA	"inducible ischaemia manifest on stress test post myocardial infarction"	"710031008"	"3042814015"	31
+"7848501000006110"	7	"^ESCTVE784850"	NA	"ventricular aneurysm as current complication following acute myocardial infarction"	"723858002"	"3427203013"	32
+"7848521000006117"	18	"^ESCTPU784852"	NA	"pulmonary embolism as current complication following acute myocardial infarction"	"723859005"	"3427206017"	32
+"7848541000006112"	7	"^ESCTAR784854"	NA	"arrhythmia as current complication following acute myocardial infarction"	"723860000"	"3427221011"	32
+"7965621000006110"	2	"^ESCTHI796562"	NA	"history of myocardial infarction in last eight weeks"	"461000119108"	"2967019015"	32
+"8004261000006118"	9	"^ESCTAC800426"	NA	"acute myocardial infarction due to left coronary artery occlusion"	"17531000119105"	"2968255018"	32
+"8011041000006111"	40	"^ESCTAC801104"	NA	"acute myocardial infarction due to right coronary artery occlusion"	"23311000119105"	"2968252015"	32
+"8032161000006112"	12	"^ESCTCO803216"	NA	"coronary arteriosclerosis in patient with history of previous myocardial infarction"	"103011000119106"	"3290272012"	27
+"8087551000006113"	17	"^ESCTHI808755"	NA	"history of acute st segment elevation myocardial infarction"	"285721000119104"	"3307011019"	32
+"8087751000006116"	106	"^ESCTAC808775"	NA	"acute st segment elevation myocardial infarction involving left anterior descending coronary artery"	"285981000119103"	"2922211015"	32
+"8308931000006114"	198	"^ESCTTH830893"	NA	"thrombolysis in myocardial infarction risk score for unstable angina or non-st-segment-elevation myocardial infarction"	"883961000000109"	"2279011000000112"	31
+"9843951000006115"	18	"^ESCTAC984395"	NA	"acute st segment elevation myocardial infarction of posterolateral wall"	"15712841000119100"	"3041039014"	32
+"9843961000006118"	127	"^ESCTAC984396"	NA	"acute st segment elevation myocardial infarction of anterolateral wall"	"15712881000119105"	"3041141013"	32
+"9843981000006111"	31	"^ESCTAC984398"	NA	"acute st segment elevation myocardial infarction of lateral wall"	"15712921000119103"	"3041019010"	32
+"9843991000006114"	33	"^ESCTAC984399"	NA	"acute st segment elevation myocardial infarction of anteroseptal wall"	"15712961000119108"	"3041144017"	32
+"9844011000006119"	74	"^ESCTAC984401"	NA	"acute st segment elevation myocardial infarction of posterior wall"	"15713041000119103"	"3041268019"	32
+"9844021000006110"	3	"^ESCTAC984402"	NA	"acute st segment elevation myocardial infarction due to left coronary artery occlusion"	"15713081000119108"	"3082859010"	32
+"9844051000006118"	29	"^ESCTAC984405"	NA	"acute st segment elevation myocardial infarction due to right coronary artery occlusion"	"15713121000119105"	"3082407014"	32
+"9844071000006111"	4	"^ESCTAC984407"	NA	"acute st segment elevation myocardial infarction of septum"	"15713161000119100"	"3082468018"	32
+"9868571000006116"	251	"^ESCTMU986857"	NA	"mural thrombus of left ventricle following acute myocardial infarction"	"15960981000119105"	"3322978018"	32
+"12122331000006116"	151	"^ESCT1212233"	NA	"acute st segment elevation myocardial infarction of inferolateral wall"	"12238111000119106"	"3646299014"	32
+"12122341000006114"	171	"^ESCT1212234"	NA	"acute st segment elevation myocardial infarction of inferoposterior wall"	"12238151000119107"	"3646297011"	32
+"13930031000006112"	209	"^ESCT1393003"	NA	"delayed postmyocardial infarction pericarditis"	"827164008"	"3874232012"	32
+"13935161000006114"	8	"^ESCT1393516"	NA	"acute myocardial infarction of right ventricle"	"836293000"	"3890822012"	32
+"13935191000006118"	3	"^ESCT1393519"	NA	"acute myocardial infarction of apex of heart"	"836294006"	"3890982011"	32
+"13935201000006115"	4	"^ESCT1393520"	NA	"acute apical myocardial infarction of heart"	"836294006"	"3890984012"	32
+"13935211000006117"	22	"^ESCT1393521"	NA	"acute myocardial infarction of inferolateral wall with posterior extension"	"836295007"	"3890829015"	32
+"13941091000006115"	22	"^ESCT1394109"	NA	"acute st segment elevation myocardial infarction due to proximal left anterior descending coronary artery occlusion"	"840309000"	"3901248018"	32
+"13941111000006112"	2	"^ESCT1394111"	NA	"acute stemi (st elevation myocardial infarction) due to proximal lad (left anterior descending) coronary artery occlusion"	"840309000"	"3902914010"	32
+"13941141000006111"	68	"^ESCT1394114"	NA	"acute st segment elevation myocardial infarction due to mid left anterior descending coronary artery occlusion"	"840312002"	"3901259010"	32
+"13941161000006110"	6	"^ESCT1394116"	NA	"acute stemi (st elevation myocardial infarction) due to mid lad (left anterior descending) coronary artery occlusion"	"840312002"	"3902913016"	32
+"13941211000006118"	21	"^ESCT1394121"	NA	"acute st segment elevation myocardial infarction due to distal left anterior descending coronary artery occlusion"	"840316004"	"3901277017"	32
+"13941231000006112"	1	"^ESCT1394123"	NA	"acute stemi (st elevation myocardial infarction) due to distal lad (left anterior descending) coronary artery occlusion"	"840316004"	"3902912014"	32
+"13945211000006116"	12	"^ESCT1394521"	NA	"acute st segment elevation myocardial infarction due to occlusion of anterior descending branch of left coronary artery"	"840609007"	"3902908015"	32
+"13945231000006110"	2	"^ESCT1394523"	NA	"acute stemi (st segment elevation myocardial infarction) due to lad (left anterior descending) coronary artery occlusion"	"840609007"	"3902911019"	32
+"13945981000006117"	14	"^ESCT1394598"	NA	"acute st segment elevation myocardial infarction due to occlusion of septal branch of anterior descending branch of left coronary artery"	"840680009"	"3914888011"	32
+"13947591000006117"	1	"^ESCT1394759"	NA	"acute st segment elevation myocardial infarction due to occlusion of diagonal branch of anterior descending branch of left coronary artery"	"846668006"	"3914916018"	32
+"13947721000006111"	1	"^ESCT1394772"	NA	"acute st segment elevation myocardial infarction due to occlusion of intermediate artery"	"846683001"	"3914972012"	32
+"13961301000006115"	2	"^ESCT1396130"	NA	"acute st segment elevation myocardial infarction due to occlusion of proximal portion of right coronary artery"	"868214006"	"3963958011"	32
+"13961311000006117"	1	"^ESCT1396131"	NA	"acute stemi (st elevation myocardial infarction) due to proximal rca (right coronary artery) occlusion"	"868214006"	"3963959015"	32
+"13961341000006118"	7	"^ESCT1396134"	NA	"acute st segment elevation myocardial infarction due to occlusion of distal portion of right coronary artery"	"868217004"	"3963965015"	32
+"13961351000006116"	2	"^ESCT1396135"	NA	"acute stemi (st elevation myocardial infarction) due to distal rca (right coronary artery) occlusion"	"868217004"	"3963966019"	32
+"13961371000006114"	1	"^ESCT1396137"	NA	"acute st segment elevation myocardial infarction due to occlusion of mid portion of right coronary artery"	"868220007"	"3963973012"	32
+"13961381000006112"	4	"^ESCT1396138"	NA	"acute stemi (st elevation myocardial infarction) due to mid rca (right coronary artery) occlusion"	"868220007"	"3963971014"	32
+"13961421000006119"	2	"^ESCT1396142"	NA	"acute st segment elevation myocardial infarction due to occlusion of marginal branch of right coronary artery"	"868224003"	"3963981013"	32
+"13961431000006116"	8	"^ESCT1396143"	NA	"acute stemi (st elevation myocardial infarction) due to am (acute marginal) branch of rca (right coronary artery) occlusion"	"868224003"	"3963980014"	32
+"13961441000006114"	6	"^ESCT1396144"	NA	"acute st segment elevation myocardial infarction due to occlusion of posterior descending branch of right coronary artery"	"868225002"	"3963983011"	32
+"13961451000006111"	9	"^ESCT1396145"	NA	"acute stemi (st elevation myocardial infarction) due to pda (posterior descending artery) branch of rca (right coronary artery) occlusion"	"868225002"	"3963985016"	32
+"13961461000006113"	11	"^ESCT1396146"	NA	"acute st segment elevation myocardial infarction due to occlusion of posterior lateral branch of right coronary artery"	"868226001"	"3963987012"	32
+"13961471000006118"	1	"^ESCT1396147"	NA	"acute stemi (st elevation myocardial infarction) due to pl (posterolateral) branch of rca (right coronary artery) occlusion"	"868226001"	"3963988019"	32
+"14015031000006119"	185	"^ESCT1401503"	NA	"myocardial infarction due to demand ischaemia"	"16837681000119104"	"3779054018"	32
+"14057221000006111"	14	"^ESCT1405722"	NA	"rupture of ventricle due to acute myocardial infarction"	"30277009"	"3902936013"	32
+"14132941000006118"	958	"^ESCT1413294"	NA	"myocardial infarction with non-obstructive coronary artery"	"879955009"	"3994016011"	32
+"14132951000006116"	24	"^ESCT1413295"	NA	"minoca - myocardial infarction with non-obstructive coronary artery"	"879955009"	"3994017019"	32
+"14145371000006117"	8	"^ESCT1414537"	NA	"acute myocardial infarction due to occlusion of circumflex branch of left coronary artery"	"896689003"	"4028647019"	32
+"14145391000006116"	8	"^ESCT1414539"	NA	"acute st segment elevation myocardial infarction due to occlusion of circumflex branch of left coronary artery"	"896691006"	"4028649016"	32
+"14145431000006110"	1	"^ESCT1414543"	NA	"acute st segment elevation myocardial infarction of apex of heart"	"896696001"	"4028673012"	32
+"14145451000006115"	4	"^ESCT1414545"	NA	"acute stemi (st segment elevation myocardial infarction) of apex of heart"	"896696001"	"4028675017"	32
+"14145461000006118"	4	"^ESCT1414546"	NA	"acute st segment elevation myocardial infarction of right ventricle"	"896697005"	"4028677013"	32
+"14194451000006112"	1	"^ESCT1419445"	NA	"history of myocardial infarction due to atherothrombotic coronary artery disease"	"387785661000119105"	"4032953018"	27
+"14194701000006115"	7	"^ESCT1419470"	NA	"myocardial infarction due to atherothrombotic coronary artery disease"	"726499301000119105"	"4030229011"	32
+"14194711000006117"	6	"^ESCT1419471"	NA	"type 1 myocardial infarction"	"726499301000119105"	"4030227013"	32
+"14194821000006118"	6	"^ESCT1419482"	NA	"history of myocardial infarction due to demand ischaemia"	"776219771000119107"	"4029334010"	27
+"14194831000006115"	16	"^ESCT1419483"	NA	"history of type 2 myocardial infarction"	"776219771000119107"	"4029332014"	27
+"14428131000006112"	8	"^ESCT1442813"	NA	"mitral valve regurgitation due to acute myocardial infarction"	"1142308000"	"4537390011"	32
+"14488861000006119"	3	"^ESCT1448886"	NA	"supraventricular tachycardia following acute myocardial infarction"	"16415081000119104"	"4573825014"	32
+"14546511000006116"	8	"^ESCT1454651"	NA	"postmyocardial infarction pericardial effusion"	"1163420005"	"4596779013"	32
+"14546721000006115"	5	"^ESCT1454672"	NA	"postoperative acute myocardial infarction"	"1163440003"	"4596874013"	32
+"14741971000006110"	188	"^ESCT1474197"	NA	"acute inferior non-st segment elevation myocardial infarction"	"1204152002"	"4952475012"	32
+"14742011000006111"	64	"^ESCT1474201"	NA	"acute anterior non-st segment elevation myocardial infarction"	"1204155000"	"4952482011"	32
+"14742991000006119"	1	"^ESCT1474299"	NA	"acute non-st segment elevation myocardial infarction of right ventricle"	"1204222000"	"4953526017"	32
+"14752451000006117"	47	"^ESCT1475245"	NA	"ventricular thrombus following acute myocardial infarction"	"1208867006"	"5013229011"	32
+"14752511000006117"	6	"^ESCT1475251"	NA	"subsequent inferior non-st segment elevation myocardial infarction"	"1208873007"	"5013242011"	32
+"15055731000006118"	1	"^ESCT1505573"	NA	"old apical mi (myocardial infarction)"	"35401000087106"	"5149195016"	32
+"15055771000006115"	14	"^ESCT1505577"	NA	"old inferolateral myocardial infarction"	"35421000087100"	"5149180018"	32
+"15276121000006116"	4	"^ESCT1527612"	NA	"acute st segment elevation myocardial infarction due to distal left circumflex coronary artery occlusion"	"44811000087108"	"5233402011"	32
+"15276151000006113"	21	"^ESCT1527615"	NA	"acute st segment elevation myocardial infarction due to mid left circumflex coronary artery occlusion"	"44821000087100"	"5233398019"	32
+"15276161000006110"	3	"^ESCT1527616"	NA	"acute stemi (st elevation myocardial infarction) due to mid lcx (left circumflex coronary artery) occlusion"	"44821000087100"	"5233399010"	32
+"15276181000006117"	2	"^ESCT1527618"	NA	"acute st segment elevation myocardial infarction due to obtuse marginal branch of left circumflex coronary artery occlusion"	"44831000087103"	"5233370017"	32
+"15276201000006116"	1	"^ESCT1527620"	NA	"acute stemi (st elevation myocardial infarction) due to om (obtuse marginal) branch of lcx (left circumflex coronary artery) occlusion"	"44831000087103"	"5233372013"	32
+"15276211000006118"	16	"^ESCT1527621"	NA	"acute st segment elevation myocardial infarction due to posterolateral branch of left circumflex coronary artery occlusion"	"44841000087109"	"5233374014"	32
+"15276221000006114"	1	"^ESCT1527622"	NA	"acute stemi (st elevation myocardial infarction) due to pl (posterolateral) branch of lcx (left circumflex coronary artery) occlusion"	"44841000087109"	"5233375010"	32
+"15276241000006119"	6	"^ESCT1527624"	NA	"acute st segment elevation myocardial infarction due to proximal left circumflex coronary artery occlusion"	"44851000087107"	"5233395016"	32

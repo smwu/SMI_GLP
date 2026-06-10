@@ -1,0 +1,258 @@
+medcode,readcode,readterm,cat,Type
+59903,C106.11,amyotrophy,Diabetes with end-organ damage,Amyotrophy
+2340,F381311,amyotrophy,Diabetes with end-organ damage,Amyotrophy
+39420,F381300,Myasthenic syndrome due to amyotrophy,Diabetes with end-organ damage,Amyotrophy
+219965,250 M,CHARCOT'S ARTHROPATHY,Diabetes with end-organ damage,Arthropathy
+27891,N030100,Charcot arthropathy,Diabetes with end-organ damage,Arthropathy
+18142,N030000,cheiroarthropathy,Diabetes with end-organ damage,Arthropathy
+57333,N030011,cheiropathy,Diabetes with end-organ damage,Arthropathy
+39809,C108J00,Insulin dependent diab mell with neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+65616,C108H00,Insulin dependent  arthropathy,Diabetes with end-organ damage,Arthropathy
+40962,C109H00,Non-insulin dependent d m with neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+24693,C109G00,Non-insulin dependent  arthropathy,Diabetes with end-organ damage,Arthropathy
+18642,C10EH00, arthropathy,Diabetes with end-organ damage,Arthropathy
+49869,C109G12, arthropathy,Diabetes with end-organ damage,Arthropathy
+59253,C10FG00, arthropathy,Diabetes with end-organ damage,Arthropathy
+35385,C10FH00, neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+66965,C109H12, neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+62352,C108H11,Type I  arthropathy,Diabetes with end-organ damage,Arthropathy
+60208,C108J11,Type I  neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+103902,C10FG11,Type II  arthropathy,Diabetes with end-organ damage,Arthropathy
+18143,C109G11,Type II  arthropathy,Diabetes with end-organ damage,Arthropathy
+47816,C109H11,Type II  neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+109197,C10FH11,Type II  neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+18230,C108J12, neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+54008,C10EJ00, neuropathic arthropathy,Diabetes with end-organ damage,Arthropathy
+102490,66Av.00,assessment of erectile dysfunction,Diabetes with end-organ damage,Erectile dysfunction
+106360,K27y700,Erectile dysfunction due to diabetes mellitus,Diabetes with end-organ damage,Erectile dysfunction
+55239,C10EQ00, gastroparesis,Diabetes with end-organ damage,Gastric
+63690,C10FR00, gastroparesis,Diabetes with end-organ damage,Gastric
+108724,C10EQ11,Type I  gastroparesis,Diabetes with end-organ damage,Gastric
+43857,C10M.00,Lipoatrophic diabetes mellitus,Diabetes with end-organ damage,Lipoatrophy
+18056,2G5C.00,Foot abnormality - diabetes related,Diabetes with end-organ damage,Neuropathy
+7045,14F4.00,H/O: Admission in last year for diabetes foot problem,Diabetes with end-organ damage,Neuropathy
+53634,R054200,Gangrene of toe,Diabetes with end-organ damage,Neuropathy
+31053,R054300,Gangrene widespread of foot,Diabetes with end-organ damage,Neuropathy
+32403,C107.11, gangrene,Diabetes with end-organ damage,Neuropathy
+33807,C107200,gangrene,Diabetes with end-organ damage,Neuropathy
+32556,C107.12,Diabetes with gangrene,Diabetes with end-organ damage,Neuropathy
+32403,C107.11,Gangrene,Diabetes with end-organ damage,Neuropathy
+60499,C108600,Insulin dependent  gangrene,Diabetes with end-organ damage,Neuropathy
+109051,C10E612,Insulin dependent  gangrene,Diabetes with end-organ damage,Neuropathy
+40401,C109500,Non-insulin dependent  gangrene,Diabetes with end-organ damage,Neuropathy
+69993,C10E600, gangrene,Diabetes with end-organ damage,Neuropathy
+46150,C109512, gangrene,Diabetes with end-organ damage,Neuropathy
+102112,C10E611,Type I  gangrene,Diabetes with end-organ damage,Neuropathy
+62107,C109511,Type II  gangrene,Diabetes with end-organ damage,Neuropathy
+104323,C10F511,Type II  gangrene,Diabetes with end-organ damage,Neuropathy
+12736,C10F500, gangrene,Diabetes with end-organ damage,Neuropathy
+24327,M271000,Ischaemic ulcer foot,Diabetes with end-organ damage,Neuropathy
+9881,M271200,Mixed ulcer - foot,Diabetes with end-organ damage,Neuropathy
+49640,2G5W.00,O/E - left chronic foot ulcer,Diabetes with end-organ damage,Neuropathy
+35116,2G5L.00,O/E - Left foot - ulcerated,Diabetes with end-organ damage,Neuropathy
+62384,2G5V.00,O/E - right chronic foot ulcer,Diabetes with end-organ damage,Neuropathy
+35316,2G5H.00,O/E - Right foot - ulcerated,Diabetes with end-organ damage,Neuropathy
+98704,C10E512,Insulin dependent  ulcer,Diabetes with end-organ damage,Neuropathy
+44443,C108500,Insulin dependent  ulcer,Diabetes with end-organ damage,Neuropathy
+34912,C109400,Non-insulin dependent  ulcer,Diabetes with end-organ damage,Neuropathy
+68390,C108512, ulcer,Diabetes with end-organ damage,Neuropathy
+18683,C10E500, ulcer,Diabetes with end-organ damage,Neuropathy
+65704,C109412, ulcer,Diabetes with end-organ damage,Neuropathy
+49074,C10F400, ulcer,Diabetes with end-organ damage,Neuropathy
+51957,C108511,Type I  ulcer,Diabetes with end-organ damage,Neuropathy
+93878,C10E511,Type I  ulcer,Diabetes with end-organ damage,Neuropathy
+91646,C10F411,Type II  ulcer,Diabetes with end-organ damage,Neuropathy
+55075,C109411,Type II  ulcer,Diabetes with end-organ damage,Neuropathy
+44033,F345000,mononeuritis multiplex,Diabetes with end-organ damage,Neuropathy
+17247,F35z000,mononeuritis NOS,Diabetes with end-organ damage,Neuropathy
+37315,F3y0.00,mononeuropathy,Diabetes with end-organ damage,Neuropathy
+24694,C108B00,Insulin dependent  mononeuropathy,Diabetes with end-organ damage,Neuropathy
+72320,C109A00,Non-insulin dependent  mononeuropathy,Diabetes with end-organ damage,Neuropathy
+68105,C10EB00, mononeuropathy,Diabetes with end-organ damage,Neuropathy
+62674,C10FA00, mononeuropathy,Diabetes with end-organ damage,Neuropathy
+99231,C108B11,Type I  mononeuropathy,Diabetes with end-organ damage,Neuropathy
+50813,C109A11,Type II  mononeuropathy,Diabetes with end-organ damage,Neuropathy
+95351,C10FA11,Type II  mononeuropathy,Diabetes with end-organ damage,Neuropathy
+48078,F372000,Acute painful neuropathy,Diabetes with end-organ damage,Neuropathy
+24571,F372200,Asymptomatic neuropathy,Diabetes with end-organ damage,Neuropathy
+17067,F171100,Autonomic neuropathy due to diabetes,Diabetes with end-organ damage,Neuropathy
+35785,F372100,Chronic painful neuropathy,Diabetes with end-organ damage,Neuropathy
+22573,C106z00,neurological manifestation,Diabetes with end-organ damage,Neuropathy
+16230,C106.00, neurological manifestation,Diabetes with end-organ damage,Neuropathy
+7795,C106.12, neuropathy,Diabetes with end-organ damage,Neuropathy
+39317,C106100,neurological manifestation,Diabetes with end-organ damage,Neuropathy
+67853,C106000,neurological manifestation,Diabetes with end-organ damage,Neuropathy
+2342,F372.12,neuropathy,Diabetes with end-organ damage,Neuropathy
+101735,C10E212,Insulin-dependent  neurological comps,Diabetes with end-organ damage,Neuropathy
+52283,C108200,Insulin-dependent  neurological comps,Diabetes with end-organ damage,Neuropathy
+22573,C106z00,Neurological manifestation,Diabetes with end-organ damage,Neuropathy
+16230,C106.00,Neurological manifestation,Diabetes with end-organ damage,Neuropathy
+306132,250 F,NEUROPATHY DIABETIC,Diabetes with end-organ damage,Neuropathy
+55842,C109200,Non-insulin-dependent  neuro comps,Diabetes with end-organ damage,Neuropathy
+61523,C106y00,Other specified  neurological comps,Diabetes with end-organ damage,Neuropathy
+61829,C108212, neurological complications,Diabetes with end-organ damage,Neuropathy
+42831,C10E200, neurological complications,Diabetes with end-organ damage,Neuropathy
+34268,C10F200, neurological complications,Diabetes with end-organ damage,Neuropathy
+45919,C109212, neurological complications,Diabetes with end-organ damage,Neuropathy
+49146,C108211,Type I  neurological complications,Diabetes with end-organ damage,Neuropathy
+67905,C109211,Type II  neurological complications,Diabetes with end-organ damage,Neuropathy
+98616,C10F211,Type II  neurological complications,Diabetes with end-organ damage,Neuropathy
+16491,C106.13, polyneuropathy,Diabetes with end-organ damage,Neuropathy
+5002,F372.11,polyneuropathy,Diabetes with end-organ damage,Neuropathy
+101311,C10EC12,Insulin dependent  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+41716,C108C00,Insulin dependent  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+45467,C109B00,Non-insulin dependent  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+31790,F372.00,Polyneuropathy in diabetes,Diabetes with end-organ damage,Neuropathy
+63555,F374z00,Polyneuropathy in disease NOS,Diabetes with end-organ damage,Neuropathy
+46301,C10EC00, polyneuropathy,Diabetes with end-organ damage,Neuropathy
+18425,C10FB00, polyneuropathy,Diabetes with end-organ damage,Neuropathy
+346841,C108C11,Type I  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+91943,C10EC11,Type I  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+47409,C109B11,Type II  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+50527,C10FB11,Type II  polyneuropathy,Diabetes with end-organ damage,Neuropathy
+65025,C107z00, peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+35399,C107.00, peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+63357,C107100,peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+70448,C107000,peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+34152,G73y000,peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+69124,C107300,IDDM with peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+64446,C108G00,Insulin dependent diab mell with peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+100347,C10A500,Malnutritn-relat diabetes melitus wth periph circul complctn,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+56803,C107400,NIDDM with peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+54212,C109F00,Non-insulin-dependent d m with peripheral angiopath,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+65025,C107z00,Peripheral circulatory disorder,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+93468,C10EG00, peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+60699,C109F12, peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+37806,C10FF00, peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+104639,C10FF11,Type II  peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+54899,C109F11,Type II  peripheral angiopathy,Diabetes with end-organ damage,Peripheral Circulatory Disorder
+107881,K08yA11,Clinical nephropathy,Diabetes with end-organ damage,Renal
+35107,C104z00, nephropathy NOS,Diabetes with end-organ damage,Renal
+306133,250 N,NEPHROPATHY,Diabetes with end-organ damage,Renal
+57621,C108D00,Insulin dependent  nephropathy,Diabetes with end-organ damage,Renal
+102163,C10ED12,Insulin dependent  nephropathy,Diabetes with end-organ damage,Renal
+35107,C104z00,Nephropathy NOS,Diabetes with end-organ damage,Renal
+2471,K01x100,Nephrotic syndrome in diabetes mellitus,Diabetes with end-organ damage,Renal
+59365,C109C00,Non-insulin dependent  nephropathy,Diabetes with end-organ damage,Renal
+105302,K08yA00,Proteinuric nephropathy,Diabetes with end-organ damage,Renal
+10418,C10ED00, nephropathy,Diabetes with end-organ damage,Renal
+24836,C109C12, nephropathy,Diabetes with end-organ damage,Renal
+12640,C10FC00, nephropathy,Diabetes with end-organ damage,Renal
+102201,C10FC11,Type II  nephropathy,Diabetes with end-organ damage,Renal
+64571,C109C11,Type II  nephropathy,Diabetes with end-organ damage,Renal
+16502,C104.00, renal manifestation,Diabetes with end-organ damage,Renal
+35105,C104100,renal manifestation,Diabetes with end-organ damage,Renal
+93922,C104000,renal manifestation,Diabetes with end-organ damage,Renal
+201928,250 LG,GLOMERULOSCLEROSIS,Diabetes with end-organ damage,Renal
+99628,Kyu0300,Glomerular disorders,Diabetes with end-organ damage,Renal
+46963,C108000,Insulin-dependent  renal complications,Diabetes with end-organ damage,Renal
+102946,C10E012,Insulin-dependent  renal complications,Diabetes with end-organ damage,Renal
+45499,K01x111,Kimmelstiel - Wilson disease,Diabetes with end-organ damage,Renal
+256383,250 LK,KIMMELSTIEL- WILSON DISEASE/SYNDROME,Diabetes with end-organ damage,Renal
+52303,C109000,Non-insulin-dependent  renal comps,Diabetes with end-organ damage,Renal
+13279,C104y00,Other specified  renal complications,Diabetes with end-organ damage,Renal
+100292,Cyu2300,Renal complications,Diabetes with end-organ damage,Renal
+11848,C314.11,Renal diabetes,Diabetes with end-organ damage,Renal
+30294,C10EL00, persistent microalbuminuria,Diabetes with end-organ damage,Renal
+30323,C10EK00, persistent proteinuria,Diabetes with end-organ damage,Renal
+47582,C10E000, renal complications,Diabetes with end-organ damage,Renal
+21983,C108012, renal complications,Diabetes with end-organ damage,Renal
+18390,C10FM00, persistent microalbuminuria,Diabetes with end-organ damage,Renal
+26054,C10FL00, persistent proteinuria,Diabetes with end-organ damage,Renal
+18777,C10F000, renal complications,Diabetes with end-organ damage,Renal
+18209,C109012, renal complications,Diabetes with end-organ damage,Renal
+66872,C108D11,Type I  nephropathy,Diabetes with end-organ damage,Renal
+102620,C10EL11,Type I  persistent microalbuminuria,Diabetes with end-organ damage,Renal
+61344,C108011,Type I  renal complications,Diabetes with end-organ damage,Renal
+85991,C10FM11,Type II  persistent microalbuminuria,Diabetes with end-organ damage,Renal
+60796,C10FL11,Type II  persistent proteinuria,Diabetes with end-organ damage,Renal
+50225,C109011,Type II  renal complications,Diabetes with end-organ damage,Renal
+57278,C10F011,Type II  renal complications,Diabetes with end-organ damage,Renal
+49554,C10EF00, cataract,Diabetes with end-organ damage,Retinopathy
+10099,F420300,Advanced maculopathy,Diabetes with end-organ damage,Retinopathy
+34283,C105z00, ophthalmic manifestation,Diabetes with end-organ damage,Retinopathy
+33254,C105.00, ophthalmic manifestation,Diabetes with end-organ damage,Retinopathy
+41389,C105100,ophthalmic manifestation,Diabetes with end-organ damage,Retinopathy
+69748,C105000,ophthalmic manifestation,Diabetes with end-organ damage,Retinopathy
+10659,F464000,cataract,Diabetes with end-organ damage,Retinopathy
+17313,F440700,iritis,Diabetes with end-organ damage,Retinopathy
+3837,F420400,maculopathy,Diabetes with end-organ damage,Retinopathy
+44260,C108F00,Insulin dependent  cataract,Diabetes with end-organ damage,Retinopathy
+100770,C10EF12,Insulin dependent  cataract,Diabetes with end-organ damage,Retinopathy
+98071,C10E112,Insulin-dependent  ophthalmic comps,Diabetes with end-organ damage,Retinopathy
+49276,C108100,Insulin-dependent  ophthalmic comps,Diabetes with end-organ damage,Retinopathy
+69278,C109E00,Non-insulin depend  cataract,Diabetes with end-organ damage,Retinopathy
+50429,C109100,Non-insulin-dependent  ophthalm comps,Diabetes with end-organ damage,Retinopathy
+9835,2BBL.00,O/E - maculopathy present both eyes,Diabetes with end-organ damage,Retinopathy
+13108,2BBX.00,O/E - left eye maculopathy,Diabetes with end-organ damage,Retinopathy
+13102,2BBW.00,O/E - right eye maculopathy,Diabetes with end-organ damage,Retinopathy
+34283,C105z00,Ophthalmic manifestation,Diabetes with end-organ damage,Retinopathy
+47377,C105y00,Other specified  ophthalmic complicatn,Diabetes with end-organ damage,Retinopathy
+11599,7276,Pan retinal photocoagulation for diabetes,Diabetes with end-organ damage,Retinopathy
+22967,2BBF.00,Retinal abnormality - diabetes related,Diabetes with end-organ damage,Retinopathy
+22871,C10EP00, exudative maculopathy,Diabetes with end-organ damage,Retinopathy
+102740,C108112, ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+47649,C10E100, ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+44779,C109E12, cataract,Diabetes with end-organ damage,Retinopathy
+44982,C10FE00, cataract,Diabetes with end-organ damage,Retinopathy
+25591,C10FQ00, exudative maculopathy,Diabetes with end-organ damage,Retinopathy
+47321,C10F100, ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+70316,C109112, ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+17545,C108F11,Type I  cataract,Diabetes with end-organ damage,Retinopathy
+97894,C10EP11,Type I  exudative maculopathy,Diabetes with end-organ damage,Retinopathy
+99311,C10E111,Type I  ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+48192,C109E11,Type II  cataract,Diabetes with end-organ damage,Retinopathy
+93727,C10FE11,Type II  cataract,Diabetes with end-organ damage,Retinopathy
+100964,C10F111,Type II  ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+59725,C109111,Type II  ophthalmic complications,Diabetes with end-organ damage,Retinopathy
+47584,F420500,Advanced retinal disease,Diabetes with end-organ damage,Retinopathy
+7069,F420000,Background retinopathy,Diabetes with end-organ damage,Retinopathy
+1323,F420.00,retinopathy,Diabetes with end-organ damage,Retinopathy
+11018,8HBG.00,retinopathy 12 month review,Diabetes with end-organ damage,Retinopathy
+18662,8HBH.00,retinopathy 6 month review,Diabetes with end-organ damage,Retinopathy
+11626,F420z00,retinopathy NOS,Diabetes with end-organ damage,Retinopathy
+65463,F420800,High risk non proliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+30477,F420700,High risk proliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+101881,2BBr.00,Impaired vision due to retinopathy,Diabetes with end-organ damage,Retinopathy
+93875,C10E712,Insulin dependent  retinopathy,Diabetes with end-organ damage,Retinopathy
+6509,C108700,Insulin dependent  retinopathy,Diabetes with end-organ damage,Retinopathy
+10755,F420600,Non proliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+17262,C109600,Non-insulin-dependent  retinopathy,Diabetes with end-organ damage,Retinopathy
+11129,2BBQ.00,O/E - left eye background retinopathy,Diabetes with end-organ damage,Retinopathy
+13103,2BBS.00,O/E - left eye preproliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+13101,2BBV.00,O/E - left eye proliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+52041,2BBl.00,O/E - left eye stable treated prolif retinopathy,Diabetes with end-organ damage,Retinopathy
+11433,2BBP.00,O/E - right eye background retinopathy,Diabetes with end-organ damage,Retinopathy
+13099,2BBR.00,O/E - right eye preproliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+13097,2BBT.00,O/E - right eye proliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+47328,2BBk.00,O/E - right eye stable treated prolif retinopathy,Diabetes with end-organ damage,Retinopathy
+52630,2BBo.00,O/E - sight threatening retinopathy,Diabetes with end-organ damage,Retinopathy
+2986,F420200,Preproliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+3286,F420100,Proliferative retinopathy,Diabetes with end-organ damage,Retinopathy
+41049,C108712, retinopathy,Diabetes with end-organ damage,Retinopathy
+18387,C10E700, retinopathy,Diabetes with end-organ damage,Retinopathy
+42762,C109612, retinopathy,Diabetes with end-organ damage,Retinopathy
+18496,C10F600, retinopathy,Diabetes with end-organ damage,Retinopathy
+38161,C108711,Type I  retinopathy,Diabetes with end-organ damage,Retinopathy
+95343,C10E711,Type I  retinopathy,Diabetes with end-organ damage,Retinopathy
+49655,C10F611,Type II  retinopathy,Diabetes with end-organ damage,Retinopathy
+58604,C109611,Type II  retinopathy,Diabetes with end-organ damage,Retinopathy
+64357,C10zz00, unspecified complication,Diabetes with end-organ damage,Unspecified
+45491,C10z.00, unspecified complication,Diabetes with end-organ damage,Unspecified
+63762,C10z100,unspecified complication,Diabetes with end-organ damage,Unspecified
+68792,C10z000,unspecified complication,Diabetes with end-organ damage,Unspecified
+45276,C10E312,Insulin dependent  multiple complicat,Diabetes with end-organ damage,Unspecified
+52104,C108300,Insulin dependent  multiple complicatn,Diabetes with end-organ damage,Unspecified
+62146,C109300,Non-insulin-dependent  multiple comps,Diabetes with end-organ damage,Unspecified
+46290,C108y00,Other specified  multiple comps,Diabetes with end-organ damage,Unspecified
+10098,C10yy00,Other specified  other spec comps,Diabetes with end-organ damage,Unspecified
+64283,C10zy00,Other specified  unspecified comps,Diabetes with end-organ damage,Unspecified
+70821,C10yz00,Other specified manifestation,Diabetes with end-organ damage,Unspecified
+47650,C10E300, multiple complications,Diabetes with end-organ damage,Unspecified
+65267,C10F300, multiple complications,Diabetes with end-organ damage,Unspecified
+108005,C109312, multiple complications,Diabetes with end-organ damage,Unspecified
+108007,C108311,Type I  multiple complications,Diabetes with end-organ damage,Unspecified
+91942,C10E311,Type I  multiple complications,Diabetes with end-organ damage,Unspecified
+43227,C10F311,Type II  multiple complications,Diabetes with end-organ damage,Unspecified
+64357,C10zz00,Unspecified complication,Diabetes with end-organ damage,Unspecified
+64449,C108z00,Unspecified  multiple complications,Diabetes with end-organ damage,Unspecified

@@ -1,0 +1,235 @@
+"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"
+"192452016"	11945	"C32-1"	"C32..11"	"disorder of cholesterol metabolism"	"123963007"	"192452016"	32
+"201018013"	177	"C3273-1"	"C327311"	"primary familial xanthomatosis"	"82500001"	"201018013"	32
+"216555011"	75254	"8BG2"	"8BG2.00"	"lipid lowering therapy indicated"	"135797000"	"216555011"	32
+"216580011"	21573	"8I2C"	"8I2C.00"	"lipid lowering therapy contraindicated"	"135822005"	"216580011"	32
+"216584019"	401765	"8I3J"	"8I3J.00"	"lipid lowering therapy declined"	"135826008"	"216584019"	32
+"250451013"	154987	"13B3"	"13B3.00"	"low cholesterol diet"	"160672004"	"250451013"	17
+"251600016"	72140	"1442"	"1442.00"	"h/o: raised blood lipids"	"161450003"	"251600016"	32
+"259211019"	94700	"44O3"	"44O3.00"	"serum lipids borderline raised"	"166815004"	"259211019"	34
+"259212014"	212501	"44O4"	"44O4.00"	"serum lipids high"	"166816003"	"259212014"	34
+"259215011"	94634	"44O6"	"44O6.00"	"lipids abnormal"	"166818002"	"259215011"	34
+"259228016"	166359	"44P2"	"44P2.00"	"serum cholesterol borderline"	"166829003"	"259228016"	34
+"259229012"	2059382	"44P3"	"44P3.00"	"serum cholesterol raised"	"166830008"	"259229012"	34
+"259230019"	53934	"44P4"	"44P4.00"	"serum cholesterol very high"	"166831007"	"259230019"	34
+"259257017"	14624	"44Q2"	"44Q2.00"	"serum triglycerides borderline"	"166847009"	"259257017"	34
+"259258010"	155466	"44Q3"	"44Q3.00"	"serum triglycerides raised"	"166848004"	"259258010"	34
+"259265019"	350	"44R2"	"44R2.00"	"lipoprotein electrophoresis abnormal"	"166853009"	"2667631017"	34
+"284058012"	172546	"8HT1"	"8HT1.00"	"referral to lipid clinic"	"183852004"	"284058012"	40
+"285156015"	85236	"9N0I"	"9N0I.00"	"seen in lipid clinic"	"185177002"	"285156015"	37
+"285157012"	50127	"9N0J"	"9N0J.00"	"seen in cholesterol clinic"	"185178007"	"285157012"	37
+"293259016"	393	"C3201"	"C320100"	"hyperbetalipoproteinaemia"	"190773008"	"293259016"	32
+"293262018"	4680	"C3202"	"C320200"	"hyperlipidaemia, group a"	"190774002"	"293262018"	32
+"293267012"	4193	"C320y"	"C320y00"	"other specified pure hypercholesterolaemia"	"13644009"	"23283015"	32
+"293270011"	128950	"C320z"	"C320z00"	"pure hypercholesterolaemia nos"	"267432004"	"398852019"	32
+"293299018"	2675459	"C324"	"C324.00"	"hyperlipidaemia"	"55822004"	"497411018"	32
+"293307012"	118	"C3252"	"C325200"	"hypo-beta-lipoproteinaemia"	"190786004"	"293307012"	32
+"293313015"	341	"C325z"	"C325z00"	"lipoprotein deficiency nos"	"267436001"	"398869017"	32
+"293821018"	2096	"Cyu8D"	"Cyu8D00"	"[x]other hyperlipidaemia"	"55822004"	"497411018"	32
+"356800016"	8525	"C3220"	"C322000"	"familial combined hyperlipidaemia"	"238040008"	"356800016"	32
+"356862010"	598	"C327z-1"	"C327z11"	"xanthomatosis, familial"	"238074007"	"356862010"	32
+"356867016"	7461	"C3206"	"C320600"	"polygenic hypercholesterolaemia"	"238077000"	"356867016"	32
+"356886012"	352	"C321-1"	"C321.11"	"fredrickson type iv lipidaemia"	"238085009"	"356886012"	32
+"375685018"	2972	"PH335"	"PH33500"	"pseudoxanthoma elasticum"	"252246005"	"375685018"	32
+"398850010"	317122	"C32"	"C32..00"	"disorder of lipid metabolism"	"267431006"	"398851014"	32
+"398852019"	3547672	"C320"	"C320.00"	"pure hypercholesterolaemia"	"267432004"	"398852019"	32
+"398855017"	13404	"C321"	"C321.00"	"pure hyperglyceridaemia"	"267433009"	"398855017"	32
+"398856016"	729566	"C322"	"C322.00"	"mixed hyperlipidaemia"	"267434003"	"398856016"	32
+"444854010"	115055	"C3210"	"C321000"	"hypertriglyceridaemia"	"302870006"	"444854010"	32
+"454394012"	212372	"8BAG"	"8BAG.00"	"cholesterol reduction programme"	"310876000"	"454394012"	32
+"454400014"	53849	"8BAG0"	"8BAG000"	"cholesterol reduction programme - invited"	"310879007"	"454400014"	32
+"454402018"	4858	"8BAG1"	"8BAG100"	"cholesterol reduction programme - attended"	"310880005"	"454403011"	32
+"454405016"	1830	"8BAG2"	"8BAG200"	"cholesterol reduction programme - declined"	"182981008"	"3637691014"	32
+"459694018"	110555	"13AB"	"13AB.00"	"diabetic lipid lowering diet"	"315207000"	"459694018"	17
+"460116012"	105164	"66X"	"66X..00"	"lipid disorder monitoring"	"315598000"	"460116012"	1
+"475418015"	554916	"C329"	"C329.00"	"hypercholesterolaemia"	"13644009"	"475418015"	32
+"1216379016"	7582	"ZV653-7"	"ZV65317"	"dietary surveillance in hypercholesterolaemia"	"804641000000101"	"1798831000000116"	32
+"1233200015"	396	"N228"	"N228.00"	"tendinous xanthoma"	"69880002"	"1233200015"	32
+"1484916015"	17243	"8H6E"	"8H6E.00"	"referral to gp - lipid management"	"390883000"	"1484916015"	40
+"1484956018"	1905	"9N4K"	"9N4K.00"	"dna - did not attend cholesterol clinic"	"390924009"	"1484956018"	37
+"1484968010"	11029	"U60C9"	"U60C900"	"lipid-lowering drug adverse reaction"	"293417004"	"433633010"	5
+"1773186016"	190942	"C3200"	"C320000"	"familial hypercholesterolaemia"	"398036000"	"1773186016"	32
+"1784926017"	1178	"C322-3"	"C322.13"	"xanthoma tuberosum"	"238954002"	"1784926017"	32
+"2159169011"	623508	"8BL1"	"8BL1.00"	"patient on maximal tolerated lipid lowering therapy"	"407568002"	"2159169011"	32
+"2469357012"	2127	"8CR3"	"8CR3.00"	"hyperlipidaemia clinical management plan"	"736285004"	"3517024018"	32
+"2642990018"	93453	"C328"	"C328.00"	"dyslipidaemia"	"370992007"	"2642990018"	32
+"3517028015"	1	"^ESCT1166517"	NA	"hyperlipidemia clinical management plan"	"736285004"	"3517028015"	32
+"55851000006118"	5	"J615C"	"J615C00"	"xanthomatous portal cirrhosis"	"271440004"	"406232019"	32
+"240871000006110"	926304	"8CA47"	"8CA4700"	"low cholesterol diet education"	"183062005"	"2575687014"	32
+"363481000006118"	401	"U60C6"	"U60C600"	"[x]antihyperlipidaemic and antiarteriosclerotic drugs causing adverse effects in therapeutic use"	"459431000000105"	"1004591000000113"	5
+"435351000006118"	264	"C3253"	"C325300"	"abetalipoproteinaemia"	"190787008"	"293309010"	32
+"533341000000119"	1038	"9Oc0"	"9Oc0.00"	"attends lipid disorder monitoring"	"300971000000106"	"533341000000119"	37
+"533641000000111"	8145	"9Oc1"	"9Oc1.00"	"lipid disorder monitoring declined"	"301111000000107"	"533641000000111"	37
+"534301000000115"	1518	"9Oc5"	"9Oc5.00"	"lipid disorder monitoring verbal invitation"	"716461000000106"	"1569011000000113"	37
+"534501000000112"	15865	"9Oc6"	"9Oc6.00"	"lipid disorder monitoring telephone invitation"	"716741000000100"	"1569291000000110"	37
+"557061000000112"	29661	"9Oc2"	"9Oc2.00"	"lipid disorder monitoring first letter"	"716001000000100"	"1568561000000113"	37
+"557071000000117"	4913	"9Oc3"	"9Oc3.00"	"lipid disorder monitoring second letter"	"716751000000102"	"1569301000000114"	37
+"557081000000115"	1035	"9Oc4"	"9Oc4.00"	"lipid disorder monitoring third letter"	"716731000000109"	"1570391000000117"	37
+"607761000006117"	1643	"PH335-1"	"PH33511"	"darier's disease - pseudoxanthoma elasticum"	"252246005"	"375685018"	32
+"666301000006115"	59191	"C320-1"	"C320.11"	"familial hypercholesterolaemia"	"398036000"	"1773186016"	32
+"734191000006118"	7422	"C3203"	"C320300"	"low-density-lipoprotein-type (ldl) hyperlipoproteinaemia"	"398036000"	"1783622013"	32
+"735661000006117"	564	"C320-3"	"C320.13"	"low density lipoproteinaemia"	"398036000"	"1783622013"	32
+"742751000006118"	611072	"8B28"	"8B28.00"	"lipid-lowering therapy"	"134350008"	"216152019"	32
+"788841000006119"	72	"C3251"	"C325100"	"hypo-alpha-lipoproteinaemia"	"190785000"	"293304017"	32
+"794161000006118"	2330	"C320-2"	"C320.12"	"familial hyperbetalipoproteinaemia"	"398036000"	"1783622013"	32
+"794171000006113"	1266	"C322-1"	"C322.11"	"fredrickson type iib lipidaemia"	"238040008"	"356800016"	32
+"794181000006111"	149	"C322-2"	"C322.12"	"fredrickson type iii lipidaemia"	"398796005"	"1783671015"	32
+"794211000006110"	1957	"C3204"	"C320400"	"fredrickson's hyperlipoproteinaemia, type iia"	"398036000"	"1783622013"	32
+"840781000006113"	8743	"9Oc"	"9Oc..00"	"lipid disorder monitoring administration"	"315598000"	"460116012"	1
+"881701000006116"	1551	"C32-99"	"C32..99"	"disorders of lipid metabolism"	"267431006"	"881701000006116"	32
+"881711000006118"	166	"C32y-99"	"C32y.99"	"other lipid metabolism disord."	"623021000000101"	"881711000006118"	32
+"918351000006118"	2103	"PC0653"	NA	"patient advised re low cholesterol diet"	"918351000006102"	"918351000006118"	42
+"1011701000006118"	5485	"ALLERGY2.12"	NA	"adverse reaction to drugs used in hyperlipidaemia"	"1011701000006102"	"1011701000006118"	5
+"1591681000006119"	1673	"EMISNQRE70"	NA	"refuses lipid disorder monitoring"	"1591681000006103"	"1591681000006119"	37
+"1591691000006116"	33	"EMISNQLI19"	NA	"lipid disorder monitoring default"	"1591691000006100"	"1591691000006116"	37
+"1591701000006116"	1	"EMISNQLI20"	NA	"lipid disorder monitoring 1st letter"	"1591701000006100"	"1591701000006116"	37
+"1591751000006117"	3	"EMISNQLI25"	NA	"lipid disorder monitoring deleted"	"1591751000006101"	"1591751000006117"	37
+"1591761000006115"	1361	"EMISNQLI26"	NA	"lipid disorder monitoring check done"	"1591761000006104"	"1591761000006115"	37
+"1659061000000112"	15561	"1W1"	"1W1..00"	"possible familial hypercholesterolaemia"	"473145005"	"2956064011"	27
+"1675011000000111"	1551	"66X0"	"66X0.00"	"lipid disorder treatment started"	"759151000000101"	"1675011000000111"	1
+"1675461000000115"	41	"66X1"	"66X1.00"	"lipid disorder treatment stopped"	"759191000000109"	"1675461000000115"	1
+"1675631000000110"	621	"66X2"	"66X2.00"	"lipid disorder treatment changed"	"759211000000108"	"1675631000000110"	1
+"1675891000000112"	3822	"66X3"	"66X3.00"	"lipid disorder initial assessment"	"473212003"	"2956269014"	1
+"1675961000000112"	6895	"66X4"	"66X4.00"	"lipid disorder follow up assessment"	"473211005"	"2956266019"	1
+"1788141000006110"	7	"EMISNQLI35"	NA	"lipid lowering therapy discussed"	"1788141000006106"	"1788141000006110"	32
+"1877381000006114"	2	"EMISNQHY18"	NA	"hyperlipidaemia clinical management plan no longer in place"	"1877381000006105"	"1877381000006114"	32
+"1946711000006113"	189722	"8OAK"	"8OAK.00"	"provision of written information about diabetes and high cholesterol"	"715879000"	"3304025010"	32
+"2135731000000117"	165007	"8CP6"	"8CP6.00"	"discussion about lipid lowering therapy"	"819911000000108"	"2135731000000117"	32
+"2241371000000117"	3413	"1W2"	"1W2..00"	"probable familial hypercholesterolaemia"	"867261000000106"	"2241371000000117"	27
+"2558651000006111"	1	"^ESCTHY255865"	NA	"hyperlipoproteinaemia"	"3744001"	"486720017"	31
+"2716211000006115"	755	"^ESCTHY271621"	NA	"hypercholesterolemia"	"13644009"	"23283015"	32
+"2716221000006111"	326	"^ESCTHI271622"	NA	"high cholesterol"	"13644009"	"3035252016"	32
+"2743431000006112"	12	"^ESCTFA274343"	NA	"familial hypoalphalipoproteinaemia"	"15346004"	"477325012"	32
+"3053091000006112"	3	"^ESCTFA305309"	NA	"familial type 5 hyperlipoproteinaemia"	"34349009"	"485814015"	32
+"3055881000006119"	25	"^ESCTFA305588"	NA	"familial hypertriglyceridaemia"	"34528009"	"213740012"	31
+"3055891000006116"	1	"^ESCTFA305589"	NA	"familial hypertriglyceridemia"	"34528009"	"57626015"	31
+"3281131000006114"	5	"^ESCTDI328113"	NA	"disorder of lipoprotein and/or lipid metabolism"	"48286001"	"80440019"	31
+"3281141000006116"	1	"^ESCTDI328114"	NA	"disorder of lipid and lipoprotein metabolism"	"48286001"	"1230572012"	31
+"3406761000006110"	174	"^ESCTHY340676"	NA	"hyperlipidemia"	"55822004"	"92826017"	32
+"3406771000006115"	1	"^ESCTLI340677"	NA	"lipidemia"	"55822004"	"92829012"	32
+"3406781000006117"	3	"^ESCTHL340678"	NA	"hld - hyperlipidemia"	"55822004"	"497409010"	32
+"3406791000006119"	2	"^ESCTHL340679"	NA	"hld - hyperlipidaemia"	"55822004"	"497410017"	32
+"3406801000006118"	1	"^ESCTLI340680"	NA	"lipidaemia"	"55822004"	"497412013"	32
+"3441411000006115"	1	"^ESCTLI344141"	NA	"lipid lowering drug"	"57952007"	"498025010"	31
+"3496511000006115"	29	"^ESCTHY349651"	NA	"hypocholesterolaemia"	"61336008"	"498983015"	31
+"3496521000006111"	6	"^ESCTHY349652"	NA	"hypocholesterolemia"	"61336008"	"101906015"	31
+"3496541000006116"	5	"^ESCTHY349654"	NA	"hypocholesteraemia"	"61336008"	"498984014"	31
+"3525901000006119"	43	"^ESCTXA352590"	NA	"xanthomatosis"	"63103006"	"104893019"	31
+"3528561000006119"	4	"^ESCTCE352856"	NA	"cerebrotendinous xanthomatosis"	"63246000"	"105136019"	31
+"3576121000006115"	11	"^ESCTVE357612"	NA	"verruciform xanthoma"	"66174008"	"109890019"	31
+"3636311000006119"	19	"^ESCTXA363631"	NA	"xanthoma tendinosum"	"69880002"	"116055015"	32
+"3729221000006117"	5	"^ESCTXA372922"	NA	"xanthomatous deposition"	"75594004"	"125551010"	31
+"3729241000006112"	10	"^ESCTXA372924"	NA	"xanthoma"	"75594004"	"125555018"	31
+"4061051000006113"	9	"^ESCTLI406105"	NA	"lipidaemia retinalis"	"95692001"	"512252017"	31
+"4428041000006119"	1	"^ESCTEN442804"	NA	"endogenous hyperlipidaemia"	"129589009"	"208387012"	31
+"4428121000006110"	3	"^ESCTMI442812"	NA	"mixed hypercholesterolaemia and hypertriglyceridaemia"	"129591001"	"208395011"	31
+"4428131000006113"	1	"^ESCTMI442813"	NA	"mixed hypercholesterolemia and hypertriglyceridemia"	"129591001"	"208394010"	31
+"4534341000006117"	14931	"^ESCTCH453434"	NA	"cholesterol-lowering diet"	"160672004"	"250452018"	17
+"4759641000006114"	29	"^ESCTHY475964"	NA	"hypoalphalipoproteinaemia"	"190785000"	"293304017"	32
+"4950911000006117"	338	"^ESCTLI495091"	NA	"lipid-lowering diet"	"226115004"	"339702012"	31
+"4950921000006113"	64	"^ESCTTR495092"	NA	"triglyceride-lowering diet"	"226116003"	"339703019"	31
+"5116191000006112"	38	"^ESCTFA511619"	NA	"familial hyperlipoproteinaemia"	"238038003"	"356792012"	31
+"5116221000006117"	4	"^ESCTFA511622"	NA	"familial combined hyperlipidemia"	"238040008"	"356799015"	32
+"5116271000006116"	2	"^ESCTFA511627"	NA	"familial hyperlipoproteinaemia type iib"	"238040008"	"356805014"	32
+"5116291000006115"	14	"^ESCTFR511629"	NA	"fredrickson type iib hyperlipoproteinaemia"	"238040008"	"356807018"	32
+"5116901000006115"	2282	"^ESCTPR511690"	NA	"primary hypercholesterolaemia"	"238076009"	"356866013"	31
+"5116911000006117"	1	"^ESCTPR511691"	NA	"primary hypercholesterolemia"	"238076009"	"356865012"	31
+"5116951000006116"	73	"^ESCTPO511695"	NA	"polygenic hypercholesterolemia"	"238077000"	"356870017"	32
+"5116961000006119"	162	"^ESCTFA511696"	NA	"familial hypercholesterolaemia - homozygous"	"238078005"	"356872013"	32
+"5116991000006110"	1	"^ESCTFA511699"	NA	"familial homozygous hypercholesterolaemia"	"238078005"	"3037302012"	32
+"5117001000006119"	1525	"^ESCTFA511700"	NA	"familial hypercholesterolaemia - heterozygous"	"238079002"	"356873015"	32
+"5117011000006116"	9	"^ESCTFA511701"	NA	"familial hypercholesterolemia - heterozygous"	"238079002"	"356874014"	32
+"5117061000006118"	1	"^ESCTFA511706"	NA	"familial hypercholesterolaemia due to genetic defect of apolipoprotein b-100"	"238081000"	"1736451000000119"	32
+"5117071000006113"	4047	"^ESCTSE511707"	NA	"secondary hypercholesterolaemia"	"238082007"	"356880018"	32
+"5117091000006114"	43	"^ESCTPR511709"	NA	"primary hypertriglyceridaemia"	"238083002"	"356881019"	31
+"5117131000006111"	20	"^ESCTFR511713"	NA	"fredrickson type iv hyperlipoproteinaemia"	"238085009"	"356887015"	32
+"5117221000006115"	22	"^ESCTSE511722"	NA	"secondary hypertriglyceridaemia"	"238087001"	"356895016"	31
+"5117241000006110"	26	"^ESCTPR511724"	NA	"primary combined hyperlipidaemia"	"238088006"	"356896015"	31
+"5117261000006114"	2	"^ESCTPR511726"	NA	"primary mixed hyperlipidaemia"	"238088006"	"356898019"	31
+"5117271000006119"	4	"^ESCTPR511727"	NA	"primary combined hyperlipidemia"	"238088006"	"356899010"	31
+"5117281000006116"	250	"^ESCTSE511728"	NA	"secondary combined hyperlipidaemia"	"238089003"	"356903015"	32
+"5117321000006110"	12	"^ESCTHY511732"	NA	"hypolipidaemia"	"238090007"	"356904014"	31
+"5117331000006113"	2	"^ESCTHY511733"	NA	"hypolipidemia"	"238090007"	"356905010"	31
+"5128431000006112"	3	"^ESCTER512843"	NA	"eruptive xanthoma"	"238952003"	"358113015"	31
+"5128451000006117"	64	"^ESCTTU512845"	NA	"tuberous xanthoma"	"238954002"	"358115010"	32
+"5312921000006118"	1	"^ESCTPX531292"	NA	"pxe - pseudoxanthoma elasticum"	"252246005"	"375686017"	32
+"5349691000006110"	1	"^ESCTFI534969"	NA	"fibrous xanthoma of skin"	"254750001"	"1784995010"	32
+"5349751000006114"	9	"^ESCTVE534975"	NA	"verruciform xanthoma of skin"	"254756007"	"379455014"	31
+"5500431000006111"	6	"^ESCTPU550043"	NA	"pure hypercholesterolemia"	"267432004"	"398853012"	32
+"5500471000006114"	2	"^ESCTMU550047"	NA	"multiple-type hyperlipidaemia"	"267434003"	"398857013"	32
+"5500491000006110"	25	"^ESCTMI550049"	NA	"mixed hyperlipidemia"	"267434003"	"398859011"	32
+"5500571000006113"	27	"^ESCTLI550057"	NA	"lipoprotein deficiency disorder"	"267436001"	"398869017"	32
+"5575101000006110"	1	"^ESCTHY557510"	NA	"hyperlipoproteinaemia, type i"	"275598004"	"411590019"	31
+"5867281000006112"	15	"^ESCTFA586728"	NA	"familial multiple lipoprotein-type hyperlipidaemia"	"299465007"	"440398014"	32
+"5912411000006113"	48	"^ESCTHY591241"	NA	"hypertriglyceridemia"	"302870006"	"444855011"	32
+"6003981000006113"	14	"^ESCTCH600398"	NA	"cholesterol reduction programme status"	"310878004"	"454399019"	31
+"6347381000006110"	119	"^ESCTDY634738"	NA	"dyslipidemia"	"370992007"	"1209706018"	32
+"6347391000006113"	4	"^ESCTHI634739"	NA	"high blood cholesterol/triglycerides"	"370992007"	"3035380017"	32
+"6515871000006116"	461	"^ESCTRE651587"	NA	"referral to general practitioner for lipid management"	"390883000"	"2693471011"	40
+"6516361000006110"	52	"^ESCTDI651636"	NA	"did not attend cholesterol clinic"	"390924009"	"2470343019"	37
+"6594651000006110"	223	"^ESCTFR659465"	NA	"fredrickson type iia hyperlipoproteinaemia"	"397915002"	"1773163011"	32
+"6596631000006112"	95	"^ESCTFA659663"	NA	"familial hypercholesterolemia"	"398036000"	"1774472018"	32
+"6596691000006111"	6	"^ESCTLD659669"	NA	"ldl - low density lipoprotein receptor disorder"	"398036000"	"1786060011"	32
+"6611881000006114"	75	"^ESCTFA661188"	NA	"familial type 3 hyperlipoproteinaemia"	"398796005"	"1773258015"	32
+"6633591000006119"	5	"^ESCTJU663359"	NA	"juvenile xanthoma"	"400031009"	"1787073019"	32
+"6665911000006113"	3	"^ESCTPR666591"	NA	"primary \"polygenic\" combined hyperlipidaemia"	"402474007"	"1773632011"	31
+"6669241000006116"	5687	"^ESCTSE666924"	NA	"secondary hyperlipidaemia"	"402727002"	"1773664016"	32
+"6669251000006119"	1	"^ESCTSE666925"	NA	"secondary hyperlipidemia"	"402727002"	"1774950014"	32
+"6670011000006112"	1	"^ESCTPR667001"	NA	"primary genetic hyperlipidaemia"	"402785008"	"1773669014"	31
+"6687581000006118"	1	"^ESCTAU668758"	NA	"autosomal recessive pseudoxanthoma elasticum"	"403812000"	"1782820011"	31
+"6687861000006113"	231	"^ESCTFA668786"	NA	"familial hypercholesterolaemia due to heterozygous ldl receptor mutation"	"403829002"	"1773757014"	32
+"6687901000006118"	49	"^ESCTFA668790"	NA	"familial hypercholesterolaemia due to homozygous ldl receptor mutation"	"403830007"	"1773758016"	32
+"6687941000006116"	30	"^ESCTFA668794"	NA	"familial hypercholesterolaemia due to genetic defect of apolipoprotein b"	"403831006"	"1773759012"	32
+"6687951000006119"	1	"^ESCTFA668795"	NA	"familial hypercholesterolemia due to genetic defect of apolipoprotein b"	"403831006"	"1775045012"	32
+"6693831000006111"	1	"^ESCTDI669383"	NA	"diffuse normolipemic plane xanthomatosis"	"404163009"	"1783118019"	31
+"6857991000006113"	2	"^ESCTHI685799"	NA	"history of hypercholesterolaemia"	"414416008"	"2535182012"	31
+"6858001000006115"	1	"^ESCTHI685800"	NA	"history of hypercholesterolemia"	"414416008"	"2535181017"	31
+"7054871000006111"	96	"^ESCTCH705487"	NA	"chemically induced hyperlipidaemia"	"426161002"	"2674570010"	32
+"7097881000006113"	1482	"^ESCTDI709788"	NA	"dietary education for lipid disorder"	"429071001"	"2693937011"	31
+"7097901000006110"	494	"^ESCTDI709790"	NA	"dietary education for hyperlipidaemia"	"429072008"	"2694630018"	31
+"7261041000006112"	398	"^ESCTSE726104"	NA	"serum triglycerides borderline high"	"442193004"	"2819854016"	34
+"7261561000006118"	3976	"^ESCTSE726156"	NA	"serum cholesterol borderline high"	"442234001"	"2820789017"	34
+"7263101000006113"	20	"^ESCTSE726310"	NA	"serum cholesterol borderline low"	"442350007"	"2819746011"	34
+"7264941000006110"	8	"^ESCTSE726494"	NA	"serum triglycerides borderline low"	"442480001"	"2820247012"	34
+"7301411000006114"	10	"^ESCTLO730141"	NA	"low density lipoprotein receptor mutation"	"445010006"	"2872219016"	31
+"7360751000006114"	10	"^ESCTHI736075"	NA	"high density lipoprotein deficiency"	"448834003"	"2901227016"	32
+"7483481000006112"	8	"^ESCTPO748348"	NA	"possible familial hypercholesterolemia"	"473145005"	"2956035019"	27
+"7510431000006112"	1094	"^ESCTSU751043"	NA	"suspected heterozygous familial hypercholesterolaemia"	"698600006"	"2975021013"	27
+"7510441000006119"	1	"^ESCTSU751044"	NA	"suspected heterozygous familial hypercholesterolemia"	"698600006"	"2974977017"	27
+"7533901000006114"	1	"^ESCTXA753390"	NA	"xanthoma of upper eyelid"	"700342000"	"2989848010"	31
+"7966561000006111"	130	"^ESCTMI796656"	NA	"mixed hyperlipidaemia due to type 2 diabetes mellitus"	"701000119103"	"3014148013"	32
+"7966831000006116"	1	"^ESCTDI796683"	NA	"diabetic dyslipidemia associated with type 2 diabetes mellitus"	"761000119102"	"2967622019"	31
+"7969211000006115"	14	"^ESCTMI796921"	NA	"mixed hyperlipidaemia due to type 1 diabetes mellitus"	"1571000119104"	"3013050012"	32
+"8035211000006110"	1	"^ESCTDY803521"	NA	"dyslipidemia with high density lipoprotein below reference range and triglyceride above reference range due to type 2 diabetes mellitus"	"111231000119109"	"3011558015"	31
+"8036201000006119"	41	"^ESCTHY803620"	NA	"hyperlipidaemia caused by steroid"	"114831000119107"	"3288754018"	32
+"8043301000006116"	486	"^ESCTHY804330"	NA	"hyperlipidaemia due to type 2 diabetes mellitus"	"137931000119102"	"3013435012"	32
+"8043321000006114"	75	"^ESCTHY804332"	NA	"hyperlipidaemia due to type 1 diabetes mellitus"	"137941000119106"	"3013242014"	32
+"8192861000006119"	81	"^ESCTPO819286"	NA	"possible heterozygous familial hypercholesterolaemia"	"513831000000107"	"1142501000000112"	27
+"8214761000006118"	58523	"^ESCTLI821476"	NA	"lipid disorder monitoring invitation"	"711471000000106"	"1555961000000117"	37
+"8215641000006110"	2	"^ESCTLI821564"	NA	"lipid disorder monitoring administration"	"713841000000104"	"1565081000000116"	31
+"11639951000006118"	13	"ALLERGY125829NEMIS"	NA	"adverse reaction to cholesterol and simvastatin"	"11639951000006102"	"11639951000006118"	5
+"11998141000006116"	1028	"^ESCT1199814"	NA	"cholesterol reduction programme"	"151259001"	"235888010"	31
+"11998171000006112"	1261	"^ESCT1199817"	NA	"cholesterol reduction programme declined"	"182981008"	"3637691014"	32
+"12024181000006115"	2	"^ESCT1202418"	NA	"lipid-lowering therapy started"	"764968003"	"3655848011"	31
+"12052551000006114"	8	"^ESCT1205255"	NA	"double heterozygous familial hypercholesterolaemia"	"767133009"	"3664437017"	32
+"12353501000006117"	4	"^ESCT1235350"	NA	"ldlr (low density lipoprotein receptor) mutation"	"445010006"	"3664442013"	31
+"12462911000006116"	2	"^ESCT1246291"	NA	"[x]antihyperlipidaemic and antiarteriosclerotic drugs causing adverse effects in therapeutic use"	"459431000000105"	"803291000000110"	5
+"12619211000006117"	42	"^ESCT1261921"	NA	"referral for lipid lowering therapy"	"1105081000000108"	"2766111000000118"	31
+"12680511000006110"	4967	"^ESCT1268051"	NA	"lipid lowering therapy"	"134350008"	"2768421000000115"	32
+"12704051000006116"	18	"^ESCT1270405"	NA	"fibrate antihyperlipidaemic adverse reaction"	"418466007"	"2579025010"	5
+"12716491000006111"	1837	"^ESCT1271649"	NA	"serum cholesterol borderline"	"166829003"	"259228016"	34
+"12716501000006115"	169	"^ESCT1271650"	NA	"serum triglycerides borderline"	"166847009"	"259257017"	34
+"13526571000006112"	4	"^ESCT1352657"	NA	"hypercholesterolaemia due to cholesterol 7alpha-hydroxylase deficiency"	"773726000"	"3726003017"	32
+"13871201000006111"	1	"^ESCT1387120"	NA	"dyslipidemia due to type 2 diabetes mellitus"	"761000119102"	"3775798018"	31
+"14308971000006110"	512	"^ESCT1430897"	NA	"history of secondary hypercholesterolaemia"	"1363961000000109"	"2883641000000115"	32
+"14308981000006113"	5	"^ESCT1430898"	NA	"h/o secondary hypercholesterolaemia"	"1363961000000109"	"2883651000000117"	32
+"14308991000006111"	364	"^ESCT1430899"	NA	"history of secondary hyperlipidaemia"	"1363981000000100"	"2883691000000113"	32
+"14309001000006111"	4	"^ESCT1430900"	NA	"h/o secondary hyperlipidaemia"	"1363981000000100"	"2883701000000113"	32
+"14805151000006114"	23	"^ESCT1480515"	NA	"ldlr (low density lipoprotein receptor) gene mutation positive"	"204891000237102"	"307501000237110"	3
+"14805221000006110"	441	"^ESCT1480522"	NA	"genetic variant causing familial hypercholesterolaemia not detected"	"204931000237105"	"307611000237111"	27
+"14805231000006113"	3	"^ESCT1480523"	NA	"genetic variant causing fh (familial hypercholesterolaemia) not detected"	"204931000237105"	"307631000237117"	27
+"14805241000006115"	3	"^ESCT1480524"	NA	"genetic variant causing familial hypercholesterolaemia detection result negative"	"204931000237105"	"307641000237112"	27
+"15131791000006111"	17	"^ESCT1513179"	NA	"genetic variant of uncertain significance for familial hypercholesterolaemia detected"	"1669121000000107"	"3215361000000114"	27
+"15131811000006110"	4	"^ESCT1513181"	NA	"genetic vus (variant of uncertain significance) for fh (familial hypercholesterolaemia) detected"	"1669121000000107"	"3215381000000117"	27
+"15220971000006116"	267	"^ESCT1522097"	NA	"lipoprotein (a) hyperlipoproteinaemia"	"1264212004"	"5171714017"	32
+"6611941000006113"	1	"^ESCTDY661194"	NA	"dysbetalipoproteinaemia"	"398796005"	"1783666010"	32

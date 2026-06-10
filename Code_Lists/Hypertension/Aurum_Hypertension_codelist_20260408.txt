@@ -65,7 +65,6 @@
 "443764015"	185888	"662O"	"662O.00"	"on treatment for hypertension"	"302192008"	"443764015"	1
 "451424017"	153035	"8B26"	"8B26.00"	"antihypertensive therapy"	"308116003"	"451424017"	32
 "1484957010"	123370	"9N4L"	"9N4L.00"	"dna - did not attend hypertension clinic"	"390925005"	"1484957010"	37
-"1488750011"	1037	"66b2"	"66b2.00"	"hypertension monitoring not required"	"395050009"	"1488750011"	1
 "1780252014"	6788	"8I3N"	"8I3N.00"	"hypertension treatment refused"	"401047000"	"1780252014"	32
 "1780253016"	1516166	"662c"	"662c.00"	"hypertension six month review"	"401048005"	"1780253016"	1
 "1780318013"	20954	"662b"	"662b.00"	"moderate hypertension control"	"401117004"	"1780318013"	1
@@ -78,7 +77,6 @@
 "3636694012"	1	"^ESCT1169188"	NA	"combined diastolic and systolic hypertension"	"762463000"	"3636694012"	32
 "3636695013"	43	"^ESCT1169187"	NA	"diastolic hypertension and systolic hypertension"	"762463000"	"3636695013"	32
 "3636696014"	3	"^ESCT1169189"	NA	"diastolic hypertension co-occurrent with systolic hypertension"	"762463000"	"3636696014"	32
-"15901000000114"	77603	"9ODZ"	"9ODZ.00"	"hypertension screen admin. nos"	"715051000000108"	"1566291000000115"	37
 "21601000000111"	341073	"9OI"	"9OI..00"	"hypertension monitoring administration"	"713641000000103"	"1564881000000111"	37
 "26091000000116"	27538	"9OI-1"	"9OI..11"	"hypertension clinic administration"	"713661000000102"	"1564901000000114"	37
 "138991000000110"	43465	"9h3"	"9h3..00"	"exception reporting - hypertension quality indicators"	"717311000000102"	"1569851000000118"	37
@@ -247,7 +245,6 @@
 "7487571000006119"	10	"^ESCTHY748757"	NA	"hypertensive nephrosclerosis"	"473392002"	"2956787011"	31
 "7502041000006112"	45	"^ESCTIN750204"	NA	"intermittent hypertension"	"697929007"	"2968144011"	32
 "7502051000006114"	3403	"^ESCTLA750205"	NA	"labile hypertension due to being in a clinical environment"	"697930002"	"2968361018"	2
-"7567021000006116"	15	"^ESCTPR756702"	NA	"prehypertension"	"702817009"	"3006217018"	27
 "7567571000006112"	11	"^ESCTHY756757"	NA	"hypertension clinic"	"702867002"	"3006305017"	31
 "7572921000006113"	1	"^ESCTGO757292"	NA	"gordon hyperkalemia-hypertension syndrome"	"703254001"	"3008144010"	31
 "7572931000006111"	1	"^ESCTGO757293"	NA	"gordon hyperkalaemia-hypertension syndrome"	"703254001"	"3008177014"	31
@@ -287,7 +284,6 @@
 "8087641000006112"	1	"^ESCTMA808764"	NA	"malignant hypertensive chronic kidney disease"	"285831000119108"	"2922212010"	31
 "8087661000006111"	1	"^ESCTMA808766"	NA	"malignant hypertensive chronic kidney disease stage 1"	"285851000119102"	"2922173018"	32
 "8087701000006115"	1	"^ESCTMA808770"	NA	"malignant hypertensive chronic kidney disease stage 4"	"285881000119109"	"2922631010"	32
-"8189771000006113"	113	"^ESCTDB818977"	NA	"[d]blood pressure raised, hypertension not diagnosed"	"502541000000105"	"1108001000000113"	31
 "8286321000006117"	25	"^ESCTRE828632"	NA	"resistant hypertension"	"845891000000103"	"2194001000000116"	32
 "8286581000006114"	35	"^ESCTST828658"	NA	"stage 2 hypertension"	"846371000000103"	"2211211000000110"	32
 "8298681000006113"	202	"^ESCTNO829868"	NA	"nocturnal hypertension"	"863191000000102"	"2231971000000117"	32

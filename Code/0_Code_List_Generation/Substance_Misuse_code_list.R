@@ -1,7 +1,7 @@
 # Generate code list for substance misuse  
 # Author: S Picton & S Wu
 # Date created: 2026/03/06
-# Date updated: 2026/05/01
+# Date updated: 2026/05/15
 
 # 
 # Details:
@@ -18,8 +18,8 @@
 #
 # Final Outputs:
 
-# 1) Code_Lists/Substance_Misuse/Aurum_Substance_Misuse_codelist_20260501.txt Updated Aurum substance misuse code list 
-# 2) Code_Lists/Substance_Misuse/Gold_Substance_Misuse_codelist_20260501.txt : Updated Gold substance misuse code list 
+# 1) Code_Lists/Substance_Misuse/Aurum_Substance_Misuse_codelist_20260515.txt Updated Aurum substance misuse code list 
+# 2) Code_Lists/Substance_Misuse/Gold_Substance_Misuse_codelist_20260515.txt : Updated Gold substance misuse code list 
 # 3) Code_Lists/Substance_Misuse/Aurum_Gold_Substance_Misuse_codelist_20260501.txt : Combined Aurum & Gold substance misuse code list
 
 # ================= 1) Set up and load data ====================================
@@ -171,9 +171,15 @@ aurum_substance_misuse <- cprd_aurum_medical  %>%
   self poison nonopioid|use opioids:|drug dependence during|
   drug addiction|national drug treatment monitoring|ndtms|naloxone for opiate overdose|
   addictions assessment|drug driving|performance enhancing drugs|drug-induced hallucinosis|
-  drug-induced paranoia")
+  drug-induced paranoia|drug misuse|	
+drug dependence during pregnancy/childbirth/puerperium nos|drug dependence in|
+mental and behav dis due to other stimulants|mental and behav dis due to other stimulants|
+  substance use affects physical activity|drug dependence in pregnancy, childbirth and the puerperium|
+  drug dependence")
                , term)) %>%
-
+  
+ 
+  
   # Exclusion     
 filter(!grepl(paste0(
 
@@ -200,11 +206,11 @@ extra dressing",
 # Family history 
 
 "maternal drug abuse|carer of a person|family history of|child|	
-witness to|care provider|paternal|maternal|witness to adult",
+witness to|care provider|paternal|maternal|witness to adult|in household|drug misuse by mother",
   
 # Neonatal / infancy
   
-"newborn|neonatal|fetal|foetal|paediatric behaviour,",
+"newborn|neonatal|fetal|foetal|paediatric behaviour,|newborn drug withdrawal syndrome",
 
 # Process of care 
 
@@ -216,7 +222,7 @@ honosca-sr|honosca",
 
 "declined to give|assessment declined|	
 urine methadone negative|never|	
-does not engage in|urine negative|no misuse of alcohol"), 
+does not engage in|urine negative|no misuse of alcohol|abstinent from|does not engage in substance misuse"), 
 term, perl = TRUE)) %>%
 
 
@@ -227,17 +233,19 @@ term, perl = TRUE)) %>%
 filter(!grepl("^urine test(?! positive)",
               term, perl = TRUE)) %>% 
   
+
 # Remove negations   
 
   filter(!grepl("no [-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE)) %>%
-  
-filter(!grepl("no history of[-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE))
+
+filter(!grepl("no history of[-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE)) 
+ 
 
 # Gold 
 
 gold_substance_misuse <- cprd_gold_medical %>%
   
-  # Inclusion - Substance misuse related terms
+  # Inclusion - Substance misuse related terms 
   
   filter(grepl(paste0("(?i)substance misuse|drug user|drug abuse|drug misuse|substance misuse|
   heroin|cocaine use|cocaine dependence|cocaine misuse|cocaine behav|cocaine abuse|
@@ -292,8 +300,13 @@ gold_substance_misuse <- cprd_gold_medical %>%
   self poison nonopioid|use opioids:|drug dependence during|
   drug addiction|national drug treatment monitoring|ndtms|naloxone for opiate overdose|
   addictions assessment|drug driving|performance enhancing drugs|drug-induced hallucinosis|
-                      drug-induced paranoia")
+  drug-induced paranoia|drug misuse|	
+drug dependence during pregnancy/childbirth/puerperium nos|drug dependence in|mental and behav dis due to other stimulants|
+                      substance use affects physical activity|drug dependence in pregnancy, childbirth and the puerperium|
+                      drug dependence")
                , term)) %>%
+
+  
   
   # Exclusion     
   filter(!grepl(paste0(
@@ -321,11 +334,11 @@ extra dressing",
     # Family history 
     
     "maternal drug abuse|carer of a person|family history of|child|	
-witness to|care provider|paternal|maternal|witness to adult",
+witness to|care provider|paternal|maternal|witness to adult|in household|drug misuse by mother",
     
     # Neonatal / infancy
     
-    "newborn|neonatal|fetal|foetal|paediatric behaviour,",
+    "newborn|neonatal|fetal|foetal|paediatric behaviour,|newborn drug withdrawal syndrome",
     
     # Process of care 
     
@@ -337,7 +350,7 @@ honosca-sr|honosca",
     
     "declined to give|assessment declined|	
 urine methadone negative|never|	
-does not engage in|urine negative|no misuse of alcohol"), 
+does not engage in|urine negative|no misuse of alcohol|abstinent from|does not engage in substance misuse"), 
     term, perl = TRUE)) %>%
   
   
@@ -348,12 +361,12 @@ does not engage in|urine negative|no misuse of alcohol"),
   filter(!grepl("^urine test(?! positive)",
                 term, perl = TRUE)) %>% 
   
+  
   # Remove negations   
   
   filter(!grepl("no [-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE)) %>%
   
-  filter(!grepl("no history of[-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE))
-
+  filter(!grepl("no history of[-_ ]*substance", term, ignore.case = TRUE, perl =  TRUE)) 
 
 ## Comparing with older codelists
 
@@ -387,11 +400,11 @@ substance_misuse_codelist_gold_new <- gold_substance_misuse
 # Save updated code lists
 
 write.table(substance_misuse_codelist_aurum_new,
-            file = paste0(wd, path_output, "Aurum_Substance_Misuse_codelist_20260501.txt"),
+            file = paste0(wd, path_output, "Aurum_Substance_Misuse_codelist_20260515.txt"),
             sep = "\t", row.names = FALSE)
 
 write.table(substance_misuse_codelist_gold_new,
-            file = paste0(wd, path_output, "Gold_Substance_Misuse_codelist_20260501.txt"),
+            file = paste0(wd, path_output, "Gold_Substance_Misuse_codelist_20260515.txt"),
             sep = "\t", row.names = FALSE)
 
 # Combine Aurum and GOLD updated code lists
@@ -426,6 +439,6 @@ substance_misuse_codelist_aurum_new %>%
 
 # # Save combined code list
 write.table(substance_misuse_codelist_aurum_gold_new,
-            file = paste0(wd, path_output, "Aurum_Gold_Substance_Misuse_codelist_20260501.txt"),
+            file = paste0(wd, path_output, "Aurum_Gold_Substance_Misuse_codelist_20260505.txt"),
             sep = "\t", row.names = FALSE)
 

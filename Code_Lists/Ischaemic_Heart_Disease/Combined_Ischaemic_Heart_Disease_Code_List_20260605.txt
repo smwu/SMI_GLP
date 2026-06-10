@@ -1,0 +1,979 @@
+"source_table"	"medcodeid"	"Observations"	"OriginalReadCode"	"CleansedReadCode"	"term"	"SnomedCTConceptId"	"SnomedCTDescriptionId"	"EmisCodeCategoryId"	"medcode"	"readcode"	"clinicalevents"	"immunisationevents"	"referralevents"	"testevents"	"databaserelease"
+"aurum_angina"	"7845011"	"114239"	"G3111"	"G311100"	"unstable angina"	"4557003"	"7845011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"7847015"	"10317"	"G311-1"	"G311.11"	"crescendo angina"	"4557003"	"7847015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"59952018"	"878"	"G3300"	"G330000"	"nocturnal angina"	"35928006"	"59952018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"98087016"	"2760"	"G330"	"G330.00"	"angina decubitus"	"59021001"	"98087016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"144819018"	"570"	"G331-1"	"G331.11"	"variant angina pectoris"	"87343002"	"1235225010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"251679016"	"110966"	"14A5"	"14A5.00"	"h/o: angina pectoris"	"161504004"	"251679016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"264492012"	"110206"	"662K"	"662K.00"	"angina control"	"170593007"	"264492012"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"264493019"	"549557"	"662K0"	"662K000"	"angina control - good"	"170594001"	"264493019"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"264494013"	"21916"	"662K1"	"662K100"	"angina control - poor"	"170595000"	"264494013"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"264495014"	"17282"	"662K2"	"662K200"	"angina control - improving"	"170596004"	"264495014"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"264496010"	"28776"	"662K3"	"662K300"	"angina control - worsening"	"170597008"	"264496010"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"264497018"	"10459"	"662Kz"	"662Kz00"	"angina control nos"	"170593007"	"264492012"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"299757012"	"3802580"	"G33"	"G33..00"	"angina pectoris"	"194828000"	"299757012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"299763015"	"236"	"G330z"	"G330z00"	"angina decubitus nos"	"59021001"	"98087016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"299765010"	"60764"	"G33zz"	"G33zz00"	"angina pectoris nos"	"194828000"	"299757012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"300874013"	"386"	"Gyu30"	"Gyu3000"	"[x]other forms of angina pectoris"	"194828000"	"299757012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"350348018"	"113624"	"G33z7"	"G33z700"	"stable angina"	"233819005"	"350348018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"350350014"	"4434"	"G33z6"	"G33z600"	"new onset angina"	"233821000"	"350350014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"442204010"	"17874"	"G33z3"	"G33z300"	"angina on effort"	"300995000"	"442204010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"451370011"	"5547"	"14AJ"	"14AJ.00"	"h/o: angina in last year"	"308066006"	"451370011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"451425016"	"4529"	"8B27"	"8B27.00"	"antianginal therapy"	"308117007"	"451425016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"458410010"	"1684"	"G33z5"	"G33z500"	"post infarct angina"	"314116003"	"458410010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"459487012"	"1874"	"G3113"	"G311300"	"refractory angina"	"315025001"	"459487012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"494261017"	"9055"	"G3114"	"G311400"	"worsening angina"	"4557003"	"494261017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"498328016"	"5587"	"G3112"	"G311200"	"angina at rest"	"59021001"	"498328016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"1235225010"	"7193"	"G331"	"G331.00"	"prinzmetal's angina"	"87343002"	"1235225010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3516223013"	"34"	"^ESCT1166277"	NA	"angina self management plan"	"736059007"	"3516223013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"72571000006115"	"85083"	"G311-3"	"G311.13"	"unstable angina"	"4557003"	"7845011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"482811000006113"	"1372"	"G311-4"	"G311.14"	"angina at rest"	"59021001"	"498328016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"482941000006119"	"71960"	"G33z"	"G33z.00"	"angina pectoris nos"	"194828000"	"299757012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"482961000006115"	"130769"	"EMISHGT65"	NA	"anginal control: no attacks"	"482961000006104"	"482961000006115"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"854491000006113"	"184"	"EGTON458"	NA	"unstable angina"	"854491000006109"	"854491000006113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"855991000006115"	"41164"	"EMISAC1"	NA	"angina control - stable"	"855991000006104"	"855991000006115"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"856011000006116"	"1831"	"EMISAC3"	NA	"angina control - unsatisfactory"	"856011000006100"	"856011000006116"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"856451000006113"	"63584"	"EMISPO1"	NA	"possible angina"	"856451000006109"	"856451000006113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"905381000006117"	"5544"	"HNG0012"	NA	"[rfc] reason for care : angina"	"905381000006101"	"905381000006117"	"12"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"960181000006111"	"1519"	"EMISCAN2"	NA	"anginal pain"	"960181000006107"	"960181000006111"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"1576311000006117"	"4"	"EGTON2G44"	NA	"cause of death- angina pectoris"	"1576311000006101"	"1576311000006117"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"1731551000000112"	"124"	"662K4"	"662K400"	"angina self management plan commenced"	"775161000000102"	"1731551000000112"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"1731571000000115"	"130"	"662K5"	"662K500"	"angina self management plan completed"	"775171000000109"	"1731571000000115"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"1752201000000116"	"4652"	"187"	"187..00"	"frequency of angina"	"704207005"	"3010438013"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"2117311000000111"	"287"	"661N0"	"661N000"	"angina self-management plan review"	"811701000000105"	"2117311000000111"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"2117731000000119"	"6916"	"661M0"	"661M000"	"angina self-management plan agreed"	"811901000000107"	"2117731000000119"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"2210191000000118"	"62"	"8T04"	"8T04.00"	"referral to angina plan self-management programme"	"853561000000109"	"2210191000000118"	"40"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"2210251000000115"	"12"	"8IEY"	"8IEY.00"	"referral to angina plan self-management programme declined"	"853591000000103"	"2210251000000115"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"2878031000006112"	"2"	"^ESCTAN287803"	NA	"angina pectoris with documented spasm"	"23687008"	"481684018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3166141000006114"	"243"	"^ESCTAN316614"	NA	"angina, class ii"	"41334000"	"68946011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3458791000006114"	"8"	"^ESCTAN345879"	NA	"anginal chest pain at rest"	"59021001"	"98088014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3499001000006116"	"72"	"^ESCTAN349900"	NA	"angina, class i"	"61490001"	"102153019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3886751000006118"	"81"	"^ESCTAN388675"	NA	"angina, class iii"	"85284003"	"141382014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3919991000006112"	"161"	"^ESCTPR391999"	NA	"prinzmetal angina"	"87343002"	"144818014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3920001000006119"	"1"	"^ESCTVA392000"	NA	"variant angina pectoris"	"87343002"	"144819018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3920011000006116"	"76"	"^ESCTVA392001"	NA	"variant angina"	"87343002"	"1235223015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3920021000006112"	"292"	"^ESCTCO392002"	NA	"coronary artery spasm angina"	"87343002"	"1235224014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"3951991000006119"	"11"	"^ESCTAN395199"	NA	"angina, class iv"	"89323001"	"148118017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"4540501000006118"	"5"	"^ESCTHI454050"	NA	"history of angina pectoris"	"161504004"	"2986318019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"4775971000006114"	"2176"	"^ESCTAN477597"	NA	"angina"	"194828000"	"299755016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"4775981000006112"	"5"	"^ESCTCA477598"	NA	"cardiac angina"	"194828000"	"299756015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"4776001000006111"	"10"	"^ESCTAN477600"	NA	"anginal syndrome"	"194828000"	"299759010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"4776021000006118"	"4"	"^ESCTIS477602"	NA	"ischemic heart disease - angina"	"194828000"	"299761018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"4776031000006115"	"49"	"^ESCTIS477603"	NA	"ischaemic heart disease - angina"	"194828000"	"299762013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"5887611000006117"	"2759"	"^ESCTEX588761"	NA	"exercise-induced angina"	"300995000"	"442203016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"5887631000006111"	"350"	"^ESCTEX588763"	NA	"exertional angina"	"300995000"	"442205011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"5887641000006118"	"8"	"^ESCTAN588764"	NA	"angina of effort"	"300995000"	"442206012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"6360391000006118"	"2074"	"^ESCTAT636039"	NA	"atypical angina"	"371807002"	"1210402019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"6360401000006116"	"23"	"^ESCTRE636040"	NA	"recurrent angina after percutaneous transluminal coronary angioplasty"	"371808007"	"2470265017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"6360421000006114"	"17"	"^ESCTRE636042"	NA	"recurrent angina after coronary stent placement"	"371809004"	"2470266016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"6360441000006119"	"14"	"^ESCTRE636044"	NA	"recurrent angina after coronary artery bypass graft"	"371810009"	"2470267013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"6360461000006115"	"1"	"^ESCTRE636046"	NA	"recurrent angina post rotational atherectomy"	"371811008"	"2470268015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"7105241000006116"	"972"	"^ESCTTY710524"	NA	"typical angina"	"429559004"	"2692821011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"7966931000006114"	"12"	"^ESCTAN796693"	NA	"angina associated with type 2 diabetes mellitus"	"791000119109"	"2967773018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"8240941000006118"	"21"	"^ESCTAN824094"	NA	"angina self management plan declined"	"772471000000106"	"1724231000000118"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"9868461000006110"	"94"	"^ESCTUN986846"	NA	"unstable angina co-occurrent and due to coronary arteriosclerosis"	"15960061000119102"	"3323416014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"9868481000006117"	"7"	"^ESCTAN986848"	NA	"angina co-occurrent and due to coronary arteriosclerosis"	"15960141000119102"	"3323422017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"12125951000006116"	"1"	"^ESCT1212595"	NA	"arteriosclerosis of autologous vein coronary artery bypass graft with angina"	"15960581000119102"	"3645095017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"12125971000006114"	"19"	"^ESCT1212597"	NA	"unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft"	"15960661000119108"	"3645129018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"12276271000006112"	"48"	"^ESCT1227627"	NA	"progressive angina"	"371806006"	"3673888019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"13718071000006112"	"1"	"^ESCT1371807"	NA	"stable angina due to coronary arteriosclerosis"	"16754391000119100"	"3756807015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"13718081000006110"	"4"	"^ESCT1371808"	NA	"coronary arteriosclerosis with stable angina"	"16754391000119100"	"3756806012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"14011951000006112"	"2"	"^ESCT1401195"	NA	"unstable angina due to arteriosclerosis of autologous vein coronary artery bypass graft"	"15960541000119108"	"3779541018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"14179491000006111"	"7"	"^ESCT1417949"	NA	"unstable angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart"	"15960341000119104"	"3991458017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_angina"	"14856811000006118"	"10"	"^ESCT1485681"	NA	"recurrent angina following placement of coronary artery stent"	"371809004"	"5013900016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271073015"	"1498"	"79200"	"7920000"	"saphenous vein graft replacement of one coronary artery"	"736967001"	"3525967012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271074014"	"3820"	"79201"	"7920100"	"aortocoronary artery bypass of two coronary arteries with saphenous vein graft"	"736969003"	"3525975018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271075010"	"10021"	"79202"	"7920200"	"aortocoronary artery bypass of three coronary arteries with saphenous vein graft"	"736968006"	"3525971010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271079016"	"1138"	"7920z"	"7920z00"	"saphenous vein graft replacement coronary artery nos"	"3546002"	"6979016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271080018"	"1949"	"7921"	"7921.00"	"other autograft replacement of coronary artery"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271081019"	"226"	"79210"	"7921000"	"autograft replacement of one coronary artery nec"	"232719007"	"348647011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271082014"	"334"	"79211"	"7921100"	"autograft replacement of two coronary arteries nec"	"232720001"	"348649014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271083016"	"1094"	"79212"	"7921200"	"autograft replacement of three coronary arteries nec"	"232721002"	"348651013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271084010"	"583"	"79213"	"7921300"	"autograft replacement of four of more coronary arteries nec"	"232722009"	"348654017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271086012"	"41"	"7921z"	"7921z00"	"other autograft replacement of coronary artery nos"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271087015"	"994"	"7922-1"	"7922.11"	"allograft bypass of coronary artery"	"175021005"	"271087015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271088013"	"401"	"7922"	"7922.00"	"allograft replacement of coronary artery"	"175021005"	"271087015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271089017"	"60"	"79220"	"7922000"	"allograft replacement of one coronary artery"	"736971003"	"3525979012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271092018"	"113"	"79221"	"7922100"	"allograft replacement of two coronary arteries"	"736973000"	"3525983012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271093011"	"447"	"79222"	"7922200"	"allograft replacement of three coronary arteries"	"736972005"	"3525981014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271094017"	"191"	"79223"	"7922300"	"allograft replacement of four or more coronary arteries"	"736970002"	"3525977014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271095016"	"292"	"7922y"	"7922y00"	"other specified allograft replacement of coronary artery"	"175021005"	"271087015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271096015"	"152"	"7922z"	"7922z00"	"allograft replacement of coronary artery nos"	"175021005"	"271087015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271097012"	"276"	"7923-1"	"7923.11"	"prosthetic bypass of coronary artery"	"175029007"	"271097012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271098019"	"271"	"7923"	"7923.00"	"prosthetic replacement of coronary artery"	"175029007"	"271097012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271099010"	"30"	"79230"	"7923000"	"prosthetic replacement of one coronary artery"	"736963002"	"3525947015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271100019"	"42"	"79231"	"7923100"	"prosthetic replacement of two coronary arteries"	"736965009"	"3525955010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271101015"	"92"	"79232"	"7923200"	"prosthetic replacement of three coronary arteries"	"736964008"	"3525952013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271102010"	"51"	"79233"	"7923300"	"prosthetic replacement of four or more coronary arteries"	"736962007"	"3525944010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271103017"	"14"	"7923y"	"7923y00"	"other specified prosthetic replacement of coronary artery"	"175029007"	"271097012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271104011"	"174"	"7923z"	"7923z00"	"prosthetic replacement of coronary artery nos"	"175029007"	"271097012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271105012"	"13231"	"7924"	"7924.00"	"revision of bypass for coronary artery"	"175036008"	"271105012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271106013"	"86"	"79240"	"7924000"	"revision of bypass for one coronary artery"	"175037004"	"271106013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271107016"	"141"	"79241"	"7924100"	"revision of bypass for two coronary arteries"	"175038009"	"271107016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271108014"	"213"	"79242"	"7924200"	"revision of bypass for three coronary arteries"	"175039001"	"271108014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271109018"	"64"	"79243"	"7924300"	"revision of bypass for four or more coronary arteries"	"175040004"	"271109018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271110011"	"5"	"79244"	"7924400"	"revision of connection of thoracic artery to coronary artery"	"175041000"	"271110011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271111010"	"3"	"79245"	"7924500"	"revision of implantation of thoracic artery into heart"	"175042007"	"271111010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271112015"	"24"	"7924y"	"7924y00"	"other specified revision of bypass for coronary artery"	"175036008"	"271105012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271113013"	"53"	"7924z"	"7924z00"	"revision of bypass for coronary artery nos"	"175036008"	"271105012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271114019"	"441"	"7925"	"7925.00"	"connection of mammary artery to coronary artery"	"175045009"	"271114019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271115018"	"56"	"7925-1"	"7925.11"	"creation of bypass from mammary artery to coronary artery"	"175045009"	"271115018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271126012"	"82"	"79254"	"7925400"	"single implantation of mammary artery into coronary artery"	"175050003"	"271126012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271128013"	"2666"	"7925z"	"7925z00"	"connection of mammary artery to coronary artery nos"	"175045009"	"271114019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271129017"	"12"	"7926"	"7926.00"	"connection of other thoracic artery to coronary artery"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271132019"	"7"	"79262"	"7926200"	"single anastomosis of thoracic artery to coronary artery nec"	"232719007"	"348647011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271135017"	"4"	"7926z"	"7926z00"	"connection of other thoracic artery to coronary artery nos"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271136016"	"12299"	"7927"	"7927.00"	"other open operations on coronary artery"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271140013"	"30"	"7927y"	"7927y00"	"other specified other open operation on coronary artery"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271141012"	"31"	"7927z"	"7927z00"	"other open operation on coronary artery nos"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271148018"	"7611"	"7928z"	"7928z00"	"transluminal balloon angioplasty of coronary artery nos"	"11101003"	"19234014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271149014"	"749"	"7929"	"7929.00"	"other therapeutic transluminal operations on coronary artery"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271157012"	"521"	"792A"	"792A.00"	"diagnostic transluminal operations on coronary artery"	"175076003"	"271157012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271160017"	"83"	"792Az"	"792Az00"	"diagnostic transluminal operation on coronary artery nos"	"175076003"	"271157012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271161018"	"703"	"792B"	"792B.00"	"repair of coronary artery nec"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271162013"	"1594"	"792B0"	"792B000"	"endarterectomy of coronary artery"	"20738002"	"34888017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271163015"	"83"	"792By"	"792By00"	"other specified repair of coronary artery"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271164014"	"57"	"792Bz"	"792Bz00"	"repair of coronary artery nos"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271165010"	"56"	"792C"	"792C.00"	"other replacement of coronary artery"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271166011"	"31"	"792C0"	"792C000"	"replacement of coronary arteries using multiple methods"	"175085003"	"271166011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271167019"	"37"	"792Cy"	"792Cy00"	"other specified replacement of coronary artery"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271168012"	"123"	"792Cz"	"792Cz00"	"replacement of coronary artery nos"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271169016"	"64614"	"792D"	"792D.00"	"coronary artery bypass graft"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271170015"	"758"	"792Dy"	"792Dy00"	"other specified other bypass of coronary artery"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271171016"	"5475"	"792Dz"	"792Dz00"	"other bypass of coronary artery nos"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271172011"	"1568"	"792y"	"792y.00"	"other specified operations on coronary artery"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"271173018"	"8962"	"792z"	"792z.00"	"coronary artery operations nos"	"31413008"	"484868016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"272107018"	"34976"	"7A540"	"7A54000"	"percutaneous balloon angioplasty of artery"	"276861004"	"413186016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"272295013"	"2568"	"7A6G1"	"7A6G100"	"peroperative angioplasty"	"175882004"	"272295013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"278083012"	"38"	"7K6PD"	"7K6PD00"	"primary open autograft replacement intra-articular ligament"	"179769008"	"278083012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"278087013"	"3"	"7K6PH"	"7K6PH00"	"revision open autograft replacement intra-articular ligament"	"179773006"	"278087013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"324808010"	"24"	"SP003"	"SP00300"	"mechanical complication of coronary bypass"	"213037002"	"324808010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"348644016"	"480946"	"792-1"	"792..11"	"coronary artery bypass graft operations"	"232717009"	"348644016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"394286010"	"121"	"79250"	"7925000"	"double anastomosis of mammary arteries to coronary arteries"	"265481001"	"394286010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"405092018"	"115"	"79253"	"7925300"	"single anastomosis of mammary artery to coronary artery nec"	"232719007"	"348647011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"411159010"	"298"	"79253-1"	"7925311"	"lima single anastomosis"	"275215001"	"411159010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"411160017"	"14"	"79253-2"	"7925312"	"rima single anastomosis"	"275216000"	"411160017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"411212010"	"107"	"79250-1"	"7925011"	"lima sequential anastomosis"	"275252001"	"411212010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"411213017"	"2"	"79250-2"	"7925012"	"rima sequential anastomosis"	"275253006"	"411213017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"451132018"	"9381"	"ZV45K"	"ZV45K00"	"[v]presence of coronary artery bypass graft"	"399261000"	"1767181012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"453269016"	"1297"	"ZV45L"	"ZV45L00"	"[v]status following coronary angioplasty nos"	"105501005"	"169590017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"456362017"	"471"	"7A6H3"	"7A6H300"	"prosthetic graft patch angioplasty"	"312610006"	"456362017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"456363010"	"559"	"7A6H4"	"7A6H400"	"percutaneous transluminal angioplasty of vascular graft"	"312611005"	"456363010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"460686018"	"198"	"ZV457"	"ZV45700"	"[v]presence of aortocoronary bypass graft"	"399261000"	"1767181012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"484402013"	"3540"	"79290"	"7929000"	"percutaneous transluminal laser coronary angioplasty"	"29843007"	"484402013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1221061012"	"29136"	"79275"	"7927500"	"open angioplasty of coronary artery"	"14201006"	"1221061012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1221554018"	"865"	"7921-1"	"7921.11"	"other autograft bypass of coronary artery"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1227364015"	"17260"	"ZV45K-1"	"ZV45K11"	"history of coronary artery bypass grafting"	"399261000"	"2986657017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1228282017"	"47040"	"7920"	"7920.00"	"saphenous vein graft replacement of coronary artery"	"3546002"	"6979016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1785743019"	"2061"	"79293"	"7929300"	"rotary blade coronary angioplasty"	"397193006"	"1785743019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2160096015"	"8567"	"SP076"	"SP07600"	"coronary artery bypass graft occlusion"	"408546009"	"2160096015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2535176014"	"99109"	"792E"	"792E.00"	"percutaneous coronary intervention"	"415070008"	"2535176014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2535177017"	"5297"	"792E0"	"792E000"	"emergency percutaneous coronary intervention"	"414089002"	"2535177017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2536354015"	"207915"	"79294"	"7929400"	"insertion of coronary artery stent"	"36969009"	"2536354015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2675862016"	"83"	"790F3"	"790F300"	"repair of coronary sinus abnormality"	"425895009"	"2675862016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2675882017"	"2239"	"7A564"	"7A56400"	"percutaneous transluminal balloon angioplasty of artery"	"426674009"	"2675882017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3525968019"	"23"	"^ESCT1167247"	NA	"aortocoronary artery bypass of one coronary artery with saphenous vein graft"	"736967001"	"3525968019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3525970011"	"1"	"^ESCT1167250"	NA	"saphenous vein graft bypass of three coronary arteries"	"736968006"	"3525970011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3525981014"	"3"	"^ESCT1167255"	NA	"allograft bypass of three coronary arteries"	"736972005"	"3525981014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"36861000006113"	"16"	"7921y"	"7921y00"	"other autograft replacement of coronary artery os"	"232717009"	"348640013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"89711000006118"	"149998"	"7928"	"7928.00"	"percutaneous transluminal coronary angioplasty"	"11101003"	"19234014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"89731000006112"	"2234"	"7928y"	"7928y00"	"transluminal balloon angioplasty of coronary artery os"	"11101003"	"19234014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"142361000006111"	"447"	"79252"	"7925200"	"single anastomosis of mammary artery to left anterior descending coronary artery"	"175048006"	"271121019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"142431000006114"	"6"	"79263"	"7926300"	"single implantation thoracic artery into coronary artery nec"	"232719007"	"348647011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"161451000006116"	"4811"	"7920-1"	"7920.11"	"saphenous vein graft replacement of coronary artery"	"3546002"	"1228282017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"161481000006112"	"22793"	"7920y"	"7920y00"	"aortocoronary artery bypass graft with saphenous vein graft"	"3546002"	"6979016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"161491000006110"	"5480"	"79203"	"7920300"	"aortocoronary artery bypass of four or more coronary arteries with saphenous vein graft"	"736966005"	"3525965016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"220231000000118"	"206658"	"792"	"792..00"	"coronary artery operation"	"31413008"	"484868016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"238561000006119"	"542"	"79282"	"7928200"	"percutaneous transluminal balloon angioplasty of bypass graft of coronary artery"	"175066001"	"271142017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"238571000006114"	"7887"	"79281"	"7928100"	"percutaneous transluminal balloon angioplasty of multiple coronary arteries"	"85053006"	"506356013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"238581000006112"	"51"	"79291-1"	"7929111"	"percutaneous transluminal coronary thrombolytic using streptokinase"	"175071008"	"271151013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"238641000006117"	"34060"	"79280"	"7928000"	"percutaneous transluminal balloon angioplasty of one coronary artery"	"68466008"	"1233048011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"238651000006115"	"890"	"79291"	"7929100"	"percutaneous transluminal coronary thrombolysis using streptokinase"	"175071008"	"271150014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"238821000006111"	"19490"	"7928-1"	"7928.11"	"percutaneous balloon coronary angioplasty"	"11101003"	"19234014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"250931000006117"	"193"	"7929z"	"7929z00"	"other therapeutic transluminal op on coronary artery nos"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"250941000006110"	"109"	"7929y"	"7929y00"	"other therapeutic transluminal op on coronary artery os"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"311461000000116"	"19657"	"79295"	"7929500"	"insertion of drug-eluting coronary artery stent"	"203741000000101"	"311461000000116"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"354901000000117"	"156"	"79296"	"7929600"	"percutaneous transluminal atherectomy of coronary artery"	"232726007"	"354901000000117"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"359451000000111"	"157"	"7A561"	"7A56100"	"percutaneous transluminal stent reconstruction of artery"	"709019007"	"3037829014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"377281000000114"	"169"	"7A6N2"	"7A6N200"	"endovascular placement of three or more drug-eluting stents"	"746050008"	"3564437018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"384521000000113"	"1170"	"7A6N4"	"7A6N400"	"endovascular insertion of drug eluting stent"	"746050008"	"3564437018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"589721000006114"	"13"	"7925y"	"7925y00"	"connection of mammary artery to coronary artery os"	"175045009"	"271114019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"619381000006119"	"39"	"792Ay"	"792Ay00"	"diagnostic transluminal operation on coronary artery os"	"175076003"	"271157012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"627951000006112"	"4"	"79260"	"7926000"	"double anastom thoracic arteries to coronary arteries nec"	"232720001"	"348649014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"628021000006118"	"32"	"79251"	"7925100"	"double implantation of mammary arteries into coronary arteries"	"175047001"	"271120018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"628031000006115"	"8"	"79261"	"7926100"	"double implant thoracic arteries into coronary arteries nec"	"232720001"	"348649014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865171000006113"	"744"	"792-99"	"792..99"	"coronary artery operation nos"	"31413008"	"865171000006113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865181000006111"	"5860"	"7920-99"	"7920.99"	"coronary artery venous graft"	"3546002"	"865181000006111"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865191000006114"	"1729"	"7923-99"	"7923.99"	"insertn coronary artery stent"	"175029007"	"865191000006114"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865201000006112"	"1404"	"7924-99"	"7924.99"	"coronary a revasc. by-pass"	"175036008"	"865201000006112"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865211000006110"	"1"	"7925-99"	"7925.99"	"heart: int. mammary a implant"	"175045009"	"865211000006110"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865221000006119"	"354"	"7925z-99"	"7925z99"	"int.mammary coronary a by-pass"	"588811000000108"	"865221000006119"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865231000006116"	"1"	"7926-99"	"7926.99"	"heart: arterial implant"	"581151000000108"	"865231000006116"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865251000006111"	"2"	"7926z-99"	"7926z99"	"heart: arterial implant nos"	"596331000000108"	"865251000006111"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865261000006113"	"2683"	"7927-99"	"7927.99"	"coronary a by-pass anastam nos"	"591161000000105"	"865261000006113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865281000006115"	"1369"	"79275-99"	"7927599"	"angioplasty of coronary artery"	"14201006"	"865281000006115"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865291000006117"	"6760"	"7928-99"	"7928.99"	"coronary angioplasty"	"11101003"	"865291000006117"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865301000006116"	"208"	"79280-99"	"7928099"	"percut angiopl coronary artery"	"68466008"	"865301000006116"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865311000006118"	"66"	"792B0-99"	"792B099"	"coronary endarterectomy"	"538891000000107"	"865311000006118"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"865321000006114"	"165"	"792Dz-99"	"792Dz99"	"aorto-coronary by-pass anastam"	"582901000000101"	"865321000006114"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"933021000006113"	"454"	"792y-99"	"792y.99"	"angioplasty of coronary artery"	"582911000000104"	"933021000006113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"987711000006115"	"3"	"7925-98"	"7925.98"	"int.mammary coronary a by-pass"	"175045009"	"987711000006115"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"987721000006111"	"1"	"792D-99"	"792D.99"	"aorto-coronary by-pass anastam"	"537001000000108"	"987721000006111"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547311000006116"	"366"	"79283"	"7928300"	"percutaneous transluminal cutting balloon angioplasty of coronary artery"	"707828002"	"3032475016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547631000006117"	"32910"	"793G"	"793G.00"	"percutaneous transluminal balloon angioplasty with insertion of stent into coronary artery"	"429639007"	"2694928017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547641000006110"	"13107"	"793G0"	"793G000"	"percutaneous transluminal balloon angioplasty and insertion of drug eluting stent into coronary artery"	"936451000000108"	"2398371000000113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547651000006112"	"1078"	"793G1"	"793G100"	"perc tran ball angio ins 3 or more drug elut stents cor art"	"936451000000108"	"2398371000000113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547661000006114"	"3125"	"793G2"	"793G200"	"perc translum balloon angioplasty insert 1-2 stents cor art"	"429639007"	"2694928017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547671000006119"	"375"	"793G3"	"793G300"	"percutaneous cor balloon angiop 3 more stents cor art nec"	"429639007"	"2694928017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547681000006116"	"498"	"793Gy"	"793Gy00"	"os perc translumina balloon angioplast stenting coronary art"	"429639007"	"2694928017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1547691000006118"	"2529"	"793Gz"	"793Gz00"	"perc translum balloon angioplasty stenting coronary art nos"	"429639007"	"2694928017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1548301000006115"	"208"	"7A28G"	"7A28G00"	"percutaneous transluminal insertion of stent into subclavian artery"	"426419000"	"2676340016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1548451000006111"	"235"	"7A566"	"7A56600"	"percutaneous transluminal placement of peripheral stent in artery"	"237451000000109"	"384541000000118"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"1716121000006117"	"287"	"7A35E"	"7A35E00"	"percutaneous transluminal insertion of stent into superior mesenteric artery"	"443463009"	"2839075018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2664231000006114"	"3"	"^ESCTCO266423"	NA	"coronary artery bypass with autogenous graft, three grafts"	"10326007"	"17985016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2676611000006115"	"6"	"^ESCTBA267661"	NA	"balloon angioplasty of coronary artery"	"11101003"	"357438017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2676621000006111"	"12"	"^ESCTPE267662"	NA	"percutaneous transluminal coronary balloon angioplasty"	"11101003"	"1219584012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2676631000006114"	"77"	"^ESCTPT267663"	NA	"ptca - percutaneous transluminal coronary angioplasty"	"11101003"	"1219585013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2676641000006116"	"18"	"^ESCTPE267664"	NA	"percutaneous angioplasty of coronary artery"	"11101003"	"1219586014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2724981000006116"	"331"	"^ESCTCO272498"	NA	"coronary angioplasty by open chest approach"	"14201006"	"24164010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2771011000006114"	"32"	"^ESCTAO277101"	NA	"aortocoronary artery bypass graft with vein graft"	"17073005"	"28888019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2825851000006119"	"1"	"^ESCTPE282585"	NA	"percutaneous transluminal iliac artery balloon angioplasty"	"20500004"	"34495017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2979921000006113"	"4"	"^ESCTAO297992"	NA	"aortocoronary bypass of one coronary artery"	"29819009"	"49894014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2980331000006110"	"38"	"^ESCTCO298033"	NA	"coronary atherectomy by laser"	"29843007"	"49944012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"2980341000006117"	"92"	"^ESCTLA298034"	NA	"laser coronary angioplasty"	"29843007"	"484400017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3006261000006110"	"1059"	"^ESCTOP300626"	NA	"operative procedure on coronary artery"	"31413008"	"2642691017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3006271000006115"	"3"	"^ESCTOP300627"	NA	"operative procedure on coronary arteries"	"31413008"	"52509013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3006281000006117"	"9"	"^ESCTCO300628"	NA	"coronary artery surgery"	"31413008"	"52512011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3095621000006113"	"3900"	"^ESCTPL309562"	NA	"placement of stent in coronary artery"	"36969009"	"2532566012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3130801000006113"	"2"	"^ESCTCO313080"	NA	"coronary artery bypass with autogenous graft, four grafts"	"39202005"	"65754018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3139031000006115"	"8"	"^ESCTDO313903"	NA	"double internal mammary-coronary artery bypass"	"39724006"	"66992015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3166201000006119"	"2081"	"^ESCTCO316620"	NA	"coronary angioplasty"	"41339005"	"68955014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3219961000006117"	"13"	"^ESCTPE321996"	NA	"persistent hyaloid artery"	"44647001"	"74476017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3283571000006115"	"2"	"^ESCTAN328357"	NA	"anastomosis of thoracic artery to coronary artery, single"	"48431000"	"80687018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3494951000006115"	"2"	"^ESCTAO349495"	NA	"aortocoronary artery bypass graft repeated"	"61236006"	"2871738010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3592031000006112"	"1"	"^ESCTAO359203"	NA	"aortocoronary bypass for heart revascularization"	"67166004"	"111565019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3613991000006113"	"194"	"^ESCTPE361399"	NA	"percutaneous transluminal balloon angioplasty"	"68457009"	"113703017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3614031000006112"	"11"	"^ESCTPE361403"	NA	"percutaneous balloon angioplasty"	"68457009"	"501020017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3614141000006115"	"378"	"^ESCTRE361414"	NA	"removal of coronary artery obstruction by percutaneous transluminal balloon, single vessel"	"68466008"	"113718016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"3883421000006114"	"83"	"^ESCTPE388342"	NA	"percutaneous transluminal coronary angioplasty, multiple vessels"	"85053006"	"141011017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"4166411000006118"	"1"	"^ESCTCA416641"	NA	"caliber persistent artery"	"109558001"	"2988804010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"4317901000006119"	"39"	"^ESCTIN431790"	NA	"internal mammary-coronary artery bypass graft"	"119564002"	"184013019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"4317911000006116"	"14"	"^ESCTCO431791"	NA	"coronary artery bypass graft, anastomosis of artery of thorax to coronary artery"	"119565001"	"184014013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040091000006112"	"209"	"^ESCTCA504009"	NA	"cabg - coronary artery bypass graft"	"232717009"	"348641012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040101000006118"	"4"	"^ESCTCB504010"	NA	"cbg - coronary bypass graft"	"232717009"	"348642017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040111000006115"	"199"	"^ESCTCO504011"	NA	"coronary artery bypass grafting"	"232717009"	"348643010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040141000006116"	"150"	"^ESCTCO504014"	NA	"coronary artery bypass graft x 1"	"232719007"	"348647011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040151000006119"	"21"	"^ESCTCA504015"	NA	"cabg x 1 - coronary artery bypass graft x 1"	"232719007"	"348648018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040161000006117"	"2679"	"^ESCTCO504016"	NA	"coronary artery bypass grafts x 2"	"232720001"	"348650014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040171000006112"	"60"	"^ESCTCA504017"	NA	"cabg x 2 - coronary artery bypass grafts x 2"	"232720001"	"348649014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040181000006110"	"5453"	"^ESCTCO504018"	NA	"coronary artery bypass grafts x 3"	"232721002"	"348651013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040191000006113"	"6"	"^ESCTTR504019"	NA	"triple coronary bypass"	"232721002"	"348652018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040201000006111"	"120"	"^ESCTCA504020"	NA	"cabg x 3 - coronary artery bypass grafts x 3"	"232721002"	"348653011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040211000006114"	"2117"	"^ESCTCO504021"	NA	"coronary artery bypass grafts x 4"	"232722009"	"348655016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040221000006118"	"68"	"^ESCTCA504022"	NA	"cabg x 4 - coronary artery bypass grafts x 4"	"232722009"	"348654017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040231000006115"	"64"	"^ESCTCO504023"	NA	"coronary artery bypass grafts x 5"	"232723004"	"348656015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040241000006113"	"15"	"^ESCTCA504024"	NA	"cabg x 5 - coronary artery bypass grafts x 5"	"232723004"	"348657012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040251000006110"	"7"	"^ESCTCO504025"	NA	"coronary artery bypass grafts greater than 5"	"232724005"	"348659010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040281000006119"	"45"	"^ESCTPE504028"	NA	"percutaneous endarterectomy of coronary artery"	"232726007"	"348663015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5040381000006112"	"1"	"^ESCTOP504038"	NA	"operation for coronary artery fistula"	"232735000"	"348676014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5047871000006117"	"19"	"^ESCTBA504787"	NA	"balloon angioplasty of artery"	"233258006"	"349469017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294451000006117"	"5"	"^ESCTCO529445"	NA	"coronary bypass graft finding"	"251019006"	"374153011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294501000006115"	"9"	"^ESCTCO529450"	NA	"coronary graft patent"	"251023003"	"374157012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294511000006117"	"69"	"^ESCTCO529451"	NA	"coronary graft stenosis"	"251024009"	"374158019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294521000006113"	"2"	"^ESCTCO529452"	NA	"coronary stent site"	"251026006"	"374160017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294531000006111"	"10"	"^ESCTCO529453"	NA	"coronary stent patency"	"251027002"	"374161018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294561000006119"	"62"	"^ESCTCO529456"	NA	"coronary stent patent"	"251029004"	"374164014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294571000006114"	"33"	"^ESCTCO529457"	NA	"coronary stent stenosis"	"251030009"	"374165010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5294581000006112"	"11"	"^ESCTCO529458"	NA	"coronary stent occluded"	"251031008"	"374166011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5315871000006115"	"4"	"^ESCTCO531587"	NA	"coronary bypass graft angiography"	"252427007"	"375986019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5474671000006119"	"8"	"^ESCTCO547467"	NA	"coronary artery graft"	"264293000"	"392700019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5595841000006110"	"1"	"^ESCTCO559584"	NA	"coronary artery graft placement"	"277192005"	"413637017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"5993071000006115"	"1"	"^ESCTAO599307"	NA	"aortocoronary bypass grafting"	"309814006"	"453308012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6013241000006110"	"15"	"^ESCTSA601324"	NA	"saphenous vein graft"	"312140007"	"455807014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6013251000006112"	"11"	"^ESCTLO601325"	NA	"long saphenous vein graft"	"312141006"	"455808016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6204121000006118"	"2"	"^ESCTCO620412"	NA	"coronary artery bypass with autogenous graft of internal mammary artery, single graft"	"359601003"	"473687010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6360371000006119"	"2"	"^ESCTSI636037"	NA	"significant coronary bypass graft disease"	"371805005"	"1210400010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6360401000006116"	"23"	"^ESCTRE636040"	NA	"recurrent angina after percutaneous transluminal coronary angioplasty"	"371808007"	"2470265017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6360421000006114"	"17"	"^ESCTRE636042"	NA	"recurrent angina after coronary stent placement"	"371809004"	"2470266016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6360441000006119"	"14"	"^ESCTRE636044"	NA	"recurrent angina after coronary artery bypass graft"	"371810009"	"2470267013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6360581000006112"	"1"	"^ESCTPA636058"	NA	"patient post percutaneous transluminal coronary angioplasty"	"371822007"	"1210417015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6376491000006116"	"1"	"^ESCTPO637649"	NA	"post percutaneous transluminal coronary angioplasty"	"373108000"	"1211624017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6427011000006114"	"1"	"^ESCTPA642701"	NA	"patch repair of coronary artery"	"384681005"	"1479005015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6450471000006112"	"18"	"^ESCTST645047"	NA	"stented coronary artery"	"386138005"	"1480321017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6583111000006116"	"1"	"^ESCTPE658311"	NA	"percutaneous transluminal coronary angioplasty by rotoablation"	"397193006"	"1776881019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6583131000006110"	"22"	"^ESCTPE658313"	NA	"percutaneous rotational coronary endarterectomy"	"397194000"	"1776882014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6718021000006116"	"18"	"^ESCTHI671802"	NA	"history of percutaneous coronary intervention"	"405741001"	"2986424012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6765901000006116"	"11"	"^ESCTST676590"	NA	"stented artery"	"408708000"	"2470569012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6807961000006113"	"89"	"^ESCTDR680796"	NA	"drug eluting stent"	"411191007"	"2472833017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6851841000006118"	"19"	"^ESCTEM685184"	NA	"emergency cabg"	"414088005"	"2535175013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6869441000006114"	"1500"	"^ESCTPC686944"	NA	"pci - percutaneous coronary intervention"	"415070008"	"3028800015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6923381000006110"	"1"	"^ESCTFL692338"	NA	"fluoroscopy and stent superior mesenteric artery"	"418573004"	"2580550018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6927491000006113"	"7"	"^ESCTOF692749"	NA	"off-pump coronary artery bypass"	"418824004"	"2576881018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6929971000006111"	"1"	"^ESCTFL692997"	NA	"fluoroscopic angiography of coronary artery and insertion of stent"	"418982001"	"2578289017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6932321000006116"	"7"	"^ESCTMI693232"	NA	"minimally invasive direct coronary artery bypass"	"419132001"	"2576880017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6932331000006118"	"4"	"^ESCTMI693233"	NA	"midcab - minimally invasive direct coronary artery bypass"	"419132001"	"2579798014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"6969941000006114"	"11"	"^ESCTCO696994"	NA	"coronary artery stent thrombosis"	"421327009"	"2618027011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7086511000006119"	"4"	"^ESCTHI708651"	NA	"history of percutaneous transluminal coronary angioplasty"	"428308007"	"2695664011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7089321000006111"	"9"	"^ESCTPL708932"	NA	"placement of stent in anterior descending branch of left coronary artery"	"428488008"	"2695107017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7095511000006111"	"1"	"^ESCTHI709551"	NA	"history of stent placement in anterior descending branch of left coronary artery"	"428912006"	"2691979012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7100421000006116"	"1"	"^ESCTRE710042"	NA	"recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty"	"429245005"	"2693393017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7104261000006116"	"1"	"^ESCTPL710426"	NA	"placement of stent in circumflex branch of left coronary artery"	"429499003"	"2694383016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7106981000006113"	"5"	"^ESCTAR710698"	NA	"arteriosclerosis of coronary artery bypass graft"	"429673002"	"2819587014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7106991000006111"	"4"	"^ESCTCO710699"	NA	"coronary arteriosclerosis of coronary artery bypass graft"	"429673002"	"2694939019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7109181000006117"	"1"	"^ESCTFL710918"	NA	"fluoroscopic percutaneous transluminal angioplasty of coronary artery"	"429809004"	"2765054011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7177921000006118"	"2"	"^ESCTFL717792"	NA	"fluoroscopic angioplasty of vein graft"	"433325002"	"2771128010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7181851000006118"	"1"	"^ESCTPE718185"	NA	"percutaneous transluminal cutting balloon angioplasty of dialysis fistula using fluoroscopic guidance"	"433631008"	"2769717019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7210461000006110"	"1"	"^ESCTMA721046"	NA	"magnetic resonance angiography of coronary artery bypass graft"	"438530000"	"2791546017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7261421000006113"	"1"	"^ESCTAR726142"	NA	"arteriosclerosis of autologous vein coronary artery bypass graft"	"442224005"	"2818746016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7264041000006114"	"4"	"^ESCTAR726404"	NA	"arteriosclerosis of arterial coronary artery bypass graft"	"442421004"	"2819331019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7278931000006116"	"2"	"^ESCTPE727893"	NA	"percutaneous insertion of stent into right ventricular outflow tract using fluoroscopic guidance"	"443532008"	"2840453019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7298951000006115"	"18"	"^ESCTAR729895"	NA	"arteriosclerosis of coronary artery bypass graft of transplanted heart"	"444855007"	"2872851014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7395971000006114"	"1"	"^ESCTAB739597"	NA	"abnormal origin of dual left anterior descending coronary arteries from right coronary artery and left coronary artery"	"460437005"	"2922771013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7396481000006113"	"1"	"^ESCTAB739648"	NA	"abnormal origin of right coronary artery from left coronary artery"	"460586009"	"2923483015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7399281000006115"	"1"	"^ESCTCO739928"	NA	"coronary artery fistula with dilation of entire coronary artery"	"461425003"	"2923386012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7430441000006118"	"2"	"^ESCTAT743044"	NA	"atherectomy coronary angioplasty system"	"465631000"	"2943268015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7493781000006117"	"3"	"^ESCTPE749378"	NA	"percutaneous insertion of drug eluting stent into coronary artery using fluoroscopic guidance"	"609153008"	"2959012016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7602891000006115"	"174"	"^ESCTDR760289"	NA	"drug-eluting coronary artery stent"	"705637003"	"3024514018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7602941000006119"	"88"	"^ESCTCO760294"	NA	"coronary artery stent"	"705643001"	"3024526011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7604961000006112"	"3"	"^ESCTCO760496"	NA	"coronary angioplasty balloon catheter"	"705926001"	"3025067018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7604981000006119"	"1"	"^ESCTCO760498"	NA	"coronary angioplasty catheter"	"705928000"	"3025071015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7700501000006119"	"7"	"^ESCTPE770050"	NA	"percutaneous transluminal balloon angioplasty with insertion of stent into iliac artery"	"713170001"	"3288300017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7707821000006114"	"1"	"^ESCTRE770782"	NA	"repair of coronary artery"	"713689002"	"3297371018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7802511000006115"	"24"	"^ESCTCO780251"	NA	"coronary angioplasty balloon catheter, drug-eluting"	"720351003"	"3320432011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"7855741000006112"	"2"	"^ESCTAT785574"	NA	"atherosclerosis of autologous coronary artery bypass graft"	"724431008"	"3498189014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8041051000006118"	"30"	"^ESCTHI804105"	NA	"history of placement of stent in coronary artery bypass graft"	"130541000119100"	"3447385012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8041061000006116"	"13"	"^ESCTST804106"	NA	"stent in branch of right coronary artery"	"130551000119103"	"2984969013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8041311000006117"	"3"	"^ESCTDR804131"	NA	"drug coated stent in circumflex branch of left coronary artery"	"131581000119102"	"2987655016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8041331000006111"	"7"	"^ESCTDR804133"	NA	"drug coated stent in anterior descending branch of left coronary artery"	"131601000119106"	"2987715010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8067801000006114"	"28"	"^ESCTST806780"	NA	"stent in anterior descending branch of left coronary artery"	"216621000119100"	"2987681017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8067811000006112"	"7"	"^ESCTST806781"	NA	"stent in circumflex branch of left coronary artery"	"216631000119102"	"3005439010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8270031000006111"	"1"	"^ESCTEN827003"	NA	"endoscopic robot assisted coronary artery bypass"	"822501000000101"	"2141371000000115"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8280081000006119"	"2"	"^ESCTFL828008"	NA	"fluoroscopy guided percutaneous transluminal drug eluting balloon angioplasty"	"838541000000104"	"2176371000000114"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8327951000006114"	"64"	"^ESCTFL832795"	NA	"fluoroscopy guided primary percutaneous coronary intervention"	"914231000000100"	"2349091000000114"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8440261000006112"	"1"	"^ESCTPE844026"	NA	"percutaneous coronary intervention record"	"1067211000000108"	"2680501000000118"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"8440271000006117"	"7"	"^ESCTPC844027"	NA	"pci (percutaneous coronary intervention) record"	"1067211000000108"	"2680521000000110"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"9353781000006114"	"27"	"^ESCTCO935378"	NA	"coronary arteriosclerosis after percutaneous coronary angioplasty"	"11018701000119108"	"3078321014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12009341000006119"	"13"	"^ESCT1200934"	NA	"percutaneous transluminal angioplasty of coronary artery using drug eluting balloon catheter"	"763725002"	"3643524015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12009351000006117"	"7"	"^ESCT1200935"	NA	"percutaneous transluminal coronary angioplasty using drug eluting balloon catheter"	"763725002"	"3643519018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12025931000006119"	"1"	"^ESCT1202593"	NA	"angiogram of right coronary artery bypass graft"	"765076009"	"3656324019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12025941000006112"	"1"	"^ESCT1202594"	NA	"angiography of left coronary artery bypass graft"	"765077000"	"3656329012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12025951000006114"	"2"	"^ESCT1202595"	NA	"angiogram of left coronary artery bypass graft"	"765077000"	"3656327014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12125951000006116"	"1"	"^ESCT1212595"	NA	"arteriosclerosis of autologous vein coronary artery bypass graft with angina"	"15960581000119102"	"3645095017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12125971000006114"	"19"	"^ESCT1212597"	NA	"unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft"	"15960661000119108"	"3645129018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"12127701000006111"	"20"	"^ESCT1212770"	NA	"percutaneous insertion of catheter into portal vein"	"16629601000119108"	"3646865018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13697771000006116"	"2"	"^ESCT1369777"	NA	"percutaneous transluminal flow diverting stent embolisation of aneurysm of artery"	"1239291000000107"	"2800111000000118"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13931051000006110"	"1"	"^ESCT1393105"	NA	"insertion of endovascular stent into artery of lower limb"	"830041003"	"3880375016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961451000006111"	"9"	"^ESCT1396145"	NA	"acute stemi (st elevation myocardial infarction) due to pda (posterior descending artery) branch of rca (right coronary artery) occlusion"	"868225002"	"3963985016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961481000006115"	"1"	"^ESCT1396148"	NA	"coronary artery bypass grafting using radial artery graft"	"868227005"	"3964004012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961541000006110"	"14"	"^ESCT1396154"	NA	"coronary artery bypass graft using free lima (left internal mammary artery) graft"	"868231004"	"3964017010"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961551000006112"	"7"	"^ESCT1396155"	NA	"coronary artery bypass graft using free left internal mammary artery graft"	"868231004"	"3964018017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961751000006115"	"110"	"^ESCT1396175"	NA	"percutaneous coronary intervention of left coronary artery"	"868245005"	"3964089016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961761000006118"	"36"	"^ESCT1396176"	NA	"pci (percutaneous coronary intervention) of lca (left coronary artery)"	"868245005"	"3964100018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961771000006113"	"34"	"^ESCT1396177"	NA	"percutaneous coronary intervention of anterior descending branch of left coronary artery"	"868246006"	"3964091012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961781000006111"	"149"	"^ESCT1396178"	NA	"pci (percutaneous coronary intervention) of left anterior descending branch of coronary artery"	"868246006"	"3964101019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961791000006114"	"11"	"^ESCT1396179"	NA	"percutaneous coronary intervention of circumflex branch of left coronary artery"	"868247002"	"3964094016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961801000006110"	"23"	"^ESCT1396180"	NA	"pci (percutaneous coronary intervention) of circumflex branch of left coronary artery"	"868247002"	"3964095015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961811000006113"	"149"	"^ESCT1396181"	NA	"percutaneous coronary intervention of right coronary artery"	"868248007"	"3964099014"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13961821000006117"	"242"	"^ESCT1396182"	NA	"pci (percutaneous coronary intervention) of rca (right coronary artery)"	"868248007"	"3964097011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"13969591000006117"	"1"	"^ESCT1396959"	NA	"sequential anastomosis of left internal thoracic artery to coronary artery"	"871496000"	"3972904011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14011951000006112"	"2"	"^ESCT1401195"	NA	"unstable angina due to arteriosclerosis of autologous vein coronary artery bypass graft"	"15960541000119108"	"3779541018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14055221000006116"	"6"	"^ESCT1405522"	NA	"coronary artery bypass graft with saphenous vein graft"	"3546002"	"3971183018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14056221000006114"	"1"	"^ESCT1405622"	NA	"cavg - coronary artery vein graft"	"17073005"	"3971185013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14056231000006112"	"4"	"^ESCT1405623"	NA	"cvg - coronary vein graft"	"17073005"	"3971186014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14160781000006119"	"3"	"^ESCT1416078"	NA	"anastomosis of lima (left internal mammary artery) to lad (left anterior descending) coronary artery"	"1010291002"	"4212396011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14164951000006116"	"1"	"^ESCT1416495"	NA	"sequential anastomosis of left internal thoracic artery from second diagonal branch of anterior descending branch of left coronary artery to left anterior descending artery"	"1017227007"	"4230228018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14178181000006110"	"1"	"^ESCT1417818"	NA	"acute deep vein thrombosis of left lower limb following coronary artery bypass graft"	"15708361000119108"	"3993369011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14179491000006111"	"7"	"^ESCT1417949"	NA	"unstable angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart"	"15960341000119104"	"3991458017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14210681000006112"	"1"	"^ESCT1421068"	NA	"percutaneous insertion of drug eluting stent into coronary artery using fluoroscopic guidance with contrast"	"609153008"	"4010344018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14453321000006115"	"5"	"^ESCT1445332"	NA	"coronary artery bypass grafting using free right internal thoracic artery graft from left internal thoracic artery to intermediate artery"	"1155686006"	"4569567017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14466301000006111"	"3"	"^ESCT1446630"	NA	"coronary artery bypass grafting using free right internal thoracic artery graft from left internal thoracic artery to diagonal branch of anterior descending branch of left coronary artery"	"1156983007"	"4576926016"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14466311000006114"	"1"	"^ESCT1446631"	NA	"anastomosis of free rima (right internal mammary artery) from lima (left internal mammary artery) to diagonal branch of lad (left anterior descending) coronary artery"	"1156983007"	"4576923012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14466331000006115"	"3"	"^ESCT1446633"	NA	"coronary artery bypass grafting using free right internal thoracic artery graft from left internal thoracic artery to anterior descending branch of left coronary artery"	"1156984001"	"4576928015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14518901000006116"	"3"	"^ESCT1451890"	NA	"assessment using pci (patient complexity instrument)"	"1198121000000103"	"1080721000000113"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14636541000006114"	"6"	"^ESCT1463654"	NA	"angiography of coronary artery bypass graft"	"252427007"	"4670295011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14753521000006119"	"1"	"^ESCT1475352"	NA	"sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to first diagonal branch of anterior descending branch of left coronary artery and first marginal circumflex coronary artery"	"1208943002"	"5013667018"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14756081000006115"	"1"	"^ESCT1475608"	NA	"sequential anastomosis of free right internal thoracic artery from left internal thoracic artery to second obtuse marginal branch of circumflex branch of left coronary artery and posterior descending coronary artery"	"1209205004"	"5025558011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14856811000006118"	"10"	"^ESCT1485681"	NA	"recurrent angina following placement of coronary artery stent"	"371809004"	"5013900016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"14865391000006117"	"1"	"^ESCT1486539"	NA	"endovascular insertion of stent into artery of lower limb"	"830041003"	"5069603011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"15032341000006117"	"1"	"^ESCT1503234"	NA	"percutaneous coronary intervention on mid-segment of left main coronary artery"	"1258930006"	"5154979012"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"16075121000006117"	"6"	"^ESCT1607512"	NA	"percutaneous transluminal angioplasty of coronary artery using imaging guidance with contrast"	"41339005"	"5393369017"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"16076601000006113"	"2"	"^ESCT1607660"	NA	"fluoroscopy guided percutaneous transluminal angioplasty of coronary artery, multiple vessels with contrast"	"85053006"	"5393655011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"16084651000006113"	"20"	"^ESCT1608465"	NA	"fluoroscopy guided percutaneous transluminal balloon angioplasty of artery with contrast"	"276861004"	"5393302011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"16094341000006117"	"8"	"^ESCT1609434"	NA	"fluoroscopy guided percutaneous transluminal balloon angioplasty with insertion of stent into coronary artery using fluoroscopic guidance with contrast"	"429639007"	"5385690016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_coronary_revascularisation"	"16107211000006110"	"1"	"^ESCT1610721"	NA	"primary pci (percutaneous coronary intervention) using fluoroscopic guidance"	"914231000000100"	"2048011000000113"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"4031011"	"77398"	"G32"	"G32..00"	"old myocardial infarction"	"1755008"	"4031011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"4032016"	"1059"	"G32-1"	"G32..11"	"healed myocardial infarction"	"1755008"	"4032016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"37443015"	"13390"	"G30-4"	"G30..14"	"heart attack"	"22298006"	"37443015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"94884017"	"2008762"	"G30"	"G30..00"	"acute myocardial infarction"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"109915012"	"426"	"G310"	"G310.00"	"post-myocardial infarction syndrome"	"66189004"	"500341014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"208365015"	"1018"	"G38"	"G38..00"	"postoperative myocardial infarction"	"129574000"	"208365015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"256452010"	"6842"	"323"	"323..00"	"ecg: myocardial infarction"	"164865005"	"256452010"	"3"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"256454011"	"6094"	"3232"	"3232.00"	"ecg: old myocardial infarction"	"164867002"	"256454011"	"3"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"256460011"	"1210"	"323Z"	"323Z.00"	"ecg: myocardial infarct nos"	"164865005"	"256452010"	"3"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299707016"	"9430"	"G301"	"G301.00"	"acute anterior myocardial infarction"	"54329005"	"1231324017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299709018"	"31380"	"G301z"	"G301z00"	"anterior myocardial infarction nos"	"54329005"	"1231324017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299710011"	"6135"	"G304"	"G304.00"	"acute posterior myocardial infarction"	"233838001"	"350371016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299711010"	"3586"	"G305"	"G305.00"	"acute lateral myocardial infarction"	"58612006"	"1231860015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299712015"	"589"	"G306"	"G306.00"	"true posterior myocardial infarction"	"194802003"	"299712015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299714019"	"122211"	"G308"	"G308.00"	"acute myocardial infarction of inferior wall"	"73795002"	"122557015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299718016"	"2315"	"G30y"	"G30y.00"	"other acute myocardial infarction"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299720018"	"692"	"G30yz"	"G30yz00"	"other acute myocardial infarction nos"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299721019"	"74221"	"G30z"	"G30z.00"	"acute myocardial infarction nos"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299808017"	"942"	"G35"	"G35..00"	"subsequent myocardial infarction"	"194856005"	"299808017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299811016"	"164"	"G350"	"G350.00"	"subsequent myocardial infarction of anterior wall"	"194857001"	"299811016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299812011"	"285"	"G351"	"G351.00"	"subsequent myocardial infarction of inferior wall"	"194858006"	"299812011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"299813018"	"26"	"G353"	"G353.00"	"subsequent myocardial infarction of other sites"	"194856005"	"299808017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"300881018"	"6"	"Gyu35"	"Gyu3500"	"[x]subsequent myocardial infarction of other sites"	"194856005"	"299808017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"300882013"	"19"	"Gyu36"	"Gyu3600"	"[x]subsequent myocardial infarction of unspecified site"	"194856005"	"299808017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"350376014"	"3806"	"G30-7"	"G30..17"	"silent myocardial infarction"	"233843008"	"350376014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"451369010"	"2526"	"14AH"	"14AH.00"	"h/o: myocardial infarction in last year"	"308065005"	"451369010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"455422014"	"282"	"G384"	"G384.00"	"postoperative subendocardial myocardial infarction"	"311796008"	"455422014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"455423016"	"104"	"G38z"	"G38z.00"	"postoperative myocardial infarction, unspecified"	"129574000"	"208365015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"461192018"	"880"	"ZV719"	"ZV71900"	"[v]observation for suspected myocardial infarction"	"171405001"	"265592018"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1780491019"	"297045"	"G30X0"	"G30X000"	"acute st segment elevation myocardial infarction"	"401303003"	"1780491019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1780501013"	"685257"	"G3071"	"G307100"	"acute non-st segment elevation myocardial infarction"	"401314000"	"1780501013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3526080018"	"14"	"^ESCT1167259"	NA	"mural thrombus of right ventricle following acute myocardial infarction"	"736978009"	"3526080018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3527838013"	"1"	"^ESCT1167751"	NA	"myocardial infarction clinical management plan"	"737438001"	"3527838013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3636255019"	"5"	"^ESCT1168902"	NA	"intracardiac thrombosis"	"762255004"	"3636255019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"67081000006119"	"79"	"G362"	"G362.00"	"ventricular septal defect as current complication following acute myocardial infarction"	"233846000"	"350381017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"100681000006116"	"240"	"G366"	"G366.00"	"thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction"	"194868001"	"299824016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"118831000006118"	"65"	"G35X"	"G35X.00"	"subsequent myocardial infarction of unspecified site"	"194856005"	"299808017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"158601000006116"	"15"	"G363"	"G363.00"	"rupture of cardiac wall without haemopericardium as current complication following acute myocardial infarction"	"194865003"	"299821012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"158611000006118"	"6"	"G364"	"G364.00"	"rupture of chordae tendinae as current complication following acute myocardial infarction"	"194866002"	"299822017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"159001000006119"	"9"	"G365"	"G365.00"	"rupture of papillary muscle as current complication following acute myocardial infarction"	"194867006"	"299823010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"212061000006119"	"24"	"G380"	"G380.00"	"postoperative transmural myocardial infarction of anterior wall"	"311792005"	"455418016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"212071000006114"	"31"	"G381"	"G381.00"	"postoperative transmural myocardial infarction of inferior wall"	"311793000"	"455419012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"212081000006112"	"6"	"G382"	"G382.00"	"postoperative transmural myocardial infarction other sites"	"129574000"	"208365015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"212091000006110"	"13"	"G383"	"G383.00"	"postoperative transmural myocardial infarction unspec site"	"129574000"	"208365015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"219531000000117"	"359080"	"G30-5"	"G30..15"	"mi - acute myocardial infarction"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"230021000006115"	"8064"	"G32-2"	"G32..12"	"personal history of myocardial infarction"	"399211009"	"2986492018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"362461000006119"	"138"	"Gyu34"	"Gyu3400"	"[x]acute transmural myocardial infarction of unspecif site"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"455641000006112"	"19526"	"G300"	"G300.00"	"acute anterolateral myocardial infarction"	"70211005"	"1233238016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"455651000006114"	"5879"	"G3011"	"G301100"	"acute anteroseptal myocardial infarction"	"62695002"	"104192010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"457531000006110"	"13392"	"G302"	"G302.00"	"acute inferolateral myocardial infarction"	"65547006"	"1232697013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"460681000006116"	"773"	"G30X"	"G30X.00"	"acute transmural myocardial infarction of unspecif site"	"57054005"	"94884017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"498031000006112"	"117"	"G361"	"G361.00"	"atrial septal defect as current complication following acute myocardial infarction"	"194863005"	"299818010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"537751000006115"	"264"	"G30-3"	"G30..13"	"cardiac rupture after acute myocardial infarction"	"233847009"	"350383019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"543291000006110"	"61"	"G36"	"G36..00"	"myocardial infarction with complication"	"371068009"	"1209776017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"616081000006113"	"32"	"889A"	"889A.00"	"diabetes mellitus insulin-glucose infusion in acute myocardial infarction"	"315287002"	"459791015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"810811000006116"	"18813"	"14A3"	"14A3.00"	"h/o: myocardial infarct at less than 60"	"161502000"	"251675010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"810821000006112"	"16945"	"14A4"	"14A4.00"	"h/o: myocardial infarct at greater than 60"	"161503005"	"251678012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"813961000006116"	"122"	"G360"	"G360.00"	"haemopericardium as current complication following acute myocardial infarction"	"194862000"	"299816014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"884151000006119"	"7809"	"G30-99"	"G30..99"	"myocardial infarction"	"57054005"	"884151000006119"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"905351000006113"	"4762"	"HNG0009"	NA	"[rfc] reason for care : myocardial infarction (mi)"	"905351000006109"	"905351000006113"	"12"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"967931000006114"	"432"	"G30B"	"G30B.00"	"acute myocardial infarction of posterolateral wall"	"15990001"	"27071012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1576271000006117"	"697"	"EGTON2EGTON433"	NA	"cause of death- myocardial infarction"	"1576271000006101"	"1576271000006117"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1576301000006115"	"467"	"EGTON2G41"	NA	"cause of death- acute myocardial infarction"	"1576301000006104"	"1576301000006115"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1738171000006114"	"3704"	"14AT"	"14AT.00"	"history of myocardial infarction"	"399211009"	"2986492018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1741571000006114"	"523"	"9hM"	"9hM..00"	"exception reporting - myocardial infarction quality indicators"	"717541000000106"	"1570081000000116"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1741581000006112"	"930"	"9hM0"	"9hM0.00"	"excepted from myocardial infarction quality indicators - informed dissent"	"715971000000103"	"1568531000000115"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"1741591000006110"	"1961"	"9hM1"	"9hM1.00"	"excepted from myocardial infarction quality indicators - patient unsuitable"	"715981000000101"	"1568541000000112"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2503001000006118"	"3"	"^ESCTAC250300"	NA	"acute myocardial infarction of basal-lateral wall"	"282006"	"1559015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2616611000006112"	"1"	"^ESCTIN261661"	NA	"inferior myocardial infarction on electrocardiogram"	"7326005"	"2693357019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2729611000000111"	"1"	"^ESCT1171765"	NA	"postoperative transmural myocardial infarction"	"1089441000000103"	"2729611000000111"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2729631000000115"	"3"	"^ESCT1171766"	NA	"acute nontransmural myocardial infarction"	"1089451000000100"	"2729631000000115"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2729671000000118"	"235"	"^ESCT1171768"	NA	"acute transmural myocardial infarction"	"1089471000000109"	"2729671000000118"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2855301000006112"	"10808"	"^ESCTMY285530"	NA	"myocardial infarction"	"22298006"	"37436014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2855341000006114"	"11"	"^ESCTMI285534"	NA	"mi - myocardial infarction"	"22298006"	"1784872019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2855351000006111"	"88"	"^ESCTMY285535"	NA	"myocardial infarct"	"22298006"	"1784873012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"2953391000006113"	"2"	"^ESCTLE295339"	NA	"left anterior descending coronary artery thrombosis"	"28248000"	"47279011"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3024781000006112"	"30"	"^ESCTPA302478"	NA	"past myocardial infarction diagnosed on ecg and/or other special investigation, but currently presenting no symptoms"	"32574007"	"54388015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3343471000006116"	"7"	"^ESCTAC334347"	NA	"acute anteroapical myocardial infarction"	"52035003"	"86618010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3381601000006117"	"958"	"^ESCTAC338160"	NA	"acute myocardial infarction of anterior wall"	"54329005"	"90302019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3427201000006111"	"3"	"^ESCTAM342720"	NA	"ami - acute myocardial infarction"	"57054005"	"1231678011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3452181000006112"	"132"	"^ESCTAC345218"	NA	"acute myocardial infarction of lateral wall"	"58612006"	"97399018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3459561000006119"	"36"	"^ESCTAC345956"	NA	"acute myocardial infarction of apical-lateral wall"	"59063002"	"98155017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3551171000006114"	"16"	"^ESCTAC355117"	NA	"acute myocardial infarction of high lateral wall"	"64627002"	"107408016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3565871000006113"	"193"	"^ESCTAC356587"	NA	"acute myocardial infarction of inferolateral wall"	"65547006"	"108912018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3576371000006117"	"29"	"^ESCTPO357637"	NA	"postmyocardial infarction syndrome"	"66189004"	"109915012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3641641000006116"	"285"	"^ESCTAC364164"	NA	"acute myocardial infarction of anterolateral wall"	"70211005"	"116613011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3655161000006110"	"9"	"^ESCTPE365516"	NA	"pericarditis secondary to acute myocardial infarction"	"71023004"	"117962016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3699921000006110"	"32"	"^ESCTAC369992"	NA	"acute inferior myocardial infarction"	"73795002"	"1233665015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3745741000006117"	"103"	"^ESCTAC374574"	NA	"acute myocardial infarction of inferoposterior wall"	"76593002"	"127193015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"3784911000006111"	"29"	"^ESCTAC378491"	NA	"acute myocardial infarction of septum"	"79009004"	"131106018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"4775891000006119"	"12"	"^ESCTAC477589"	NA	"acute myocardial infarction of atrium"	"194809007"	"2470032018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"4775931000006111"	"13"	"^ESCTAB477593"	NA	"aborted myocardial infarction"	"194821006"	"2619483012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5056411000006110"	"131"	"^ESCTOL505641"	NA	"old anterior myocardial infarction"	"233839009"	"350372011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5056421000006119"	"215"	"^ESCTOL505642"	NA	"old inferior myocardial infarction"	"233840006"	"350373018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5056431000006116"	"20"	"^ESCTOL505643"	NA	"old lateral myocardial infarction"	"233841005"	"350374012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5056441000006114"	"14"	"^ESCTOL505644"	NA	"old posterior myocardial infarction"	"233842003"	"350375013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5056461000006113"	"3"	"^ESCTMI505646"	NA	"mi - silent myocardial infarction"	"233843008"	"350377017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5056951000006117"	"3"	"^ESCTPE505695"	NA	"pericarditis following myocardial infarction"	"233885007"	"350432018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"5935321000006111"	"31"	"^ESCTAC593532"	NA	"acute q wave myocardial infarction"	"304914007"	"447323012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6043771000006118"	"42"	"^ESCTNO604377"	NA	"non-q wave myocardial infarction"	"314207007"	"458526013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6360601000006119"	"1"	"^ESCTMY636060"	NA	"myocardial ischaemia manifest on stress test status post myocardial infarction"	"371824008"	"1207334015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6546751000006118"	"76"	"^ESCTFI654675"	NA	"first myocardial infarction"	"394710008"	"1488431012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6601121000006118"	"323"	"^ESCTCO660112"	NA	"coronary artery thrombosis"	"398274000"	"1777817018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6619191000006115"	"2"	"^ESCTPA661919"	NA	"past history of myocardial infarction"	"399211009"	"1786753012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6651221000006117"	"1168"	"^ESCTST665122"	NA	"stemi - st elevation myocardial infarction"	"401303003"	"2840840013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"6914971000006118"	"11"	"^ESCTMY691497"	NA	"myocardial infarction in recovery phase"	"418044006"	"2576878011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7093091000006111"	"51"	"^ESCTRE709309"	NA	"recent myocardial infarction"	"428752002"	"2691951018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7102561000006110"	"1"	"^ESCTNE710256"	NA	"new myocardial infarction compared to prior study"	"429391004"	"2693848015"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7107851000006112"	"2"	"^ESCTAN710785"	NA	"anterior myocardial infarction on electrocardiogram"	"429731003"	"2695928013"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7510331000006117"	"107"	"^ESCTHI751033"	NA	"history of non-st segment elevation myocardial infarction"	"698593009"	"2974755014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7571581000006113"	"1973"	"^ESCTAC757158"	NA	"acute anterior st segment elevation myocardial infarction"	"703164000"	"3007817016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7571591000006111"	"3"	"^ESCTAC757159"	NA	"acute st segment elevation myocardial infarction of anterior wall"	"703164000"	"3007419012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7571601000006115"	"275"	"^ESCTAC757160"	NA	"acute stemi (st elevation myocardial infarction) of anterior wall"	"703164000"	"3007542019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7571611000006117"	"14"	"^ESCTAC757161"	NA	"acute st segment elevation myocardial infarction of anterior wall involving right ventricle"	"703165004"	"3007986019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7571621000006113"	"1"	"^ESCTAC757162"	NA	"acute anterior st segment elevation myocardial infarction with right ventricular involvement"	"703165004"	"3007620014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572221000006117"	"14"	"^ESCTSU757222"	NA	"subsequent st segment elevation myocardial infarction of inferior wall"	"703209002"	"3007816013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572251000006114"	"10"	"^ESCTSU757225"	NA	"subsequent st segment elevation myocardial infarction of anterior wall"	"703210007"	"3007438015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572261000006111"	"1"	"^ESCTSU757226"	NA	"subsequent stemi (st elevation myocardial infarction) of anterior wall"	"703210007"	"3007404011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572281000006118"	"11"	"^ESCTSU757228"	NA	"subsequent st segment elevation myocardial infarction"	"703211006"	"3007759014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572291000006115"	"3"	"^ESCTSU757229"	NA	"subsequent stemi (st elevation myocardial infarction)"	"703211006"	"3007794019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572301000006119"	"5"	"^ESCTAC757230"	NA	"acute myocardial infarction during procedure"	"703212004"	"3007658013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572321000006112"	"1231"	"^ESCTAC757232"	NA	"acute st segment elevation myocardial infarction of inferior wall"	"703213009"	"3007915011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572331000006110"	"283"	"^ESCTAC757233"	NA	"acute stemi (st elevation myocardial infarction) of inferior wall"	"703213009"	"3007397011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572341000006117"	"40"	"^ESCTAC757234"	NA	"acute inferior st segment elevation myocardial infarction"	"703213009"	"3007793013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572861000006110"	"5"	"^ESCTAC757286"	NA	"acute myocardial infarction of anterior wall involving right ventricle"	"703252002"	"3008134013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572881000006117"	"16"	"^ESCTAC757288"	NA	"acute st segment elevation myocardial infarction of inferior wall involving right ventricle"	"703253007"	"3008179012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7572901000006115"	"1"	"^ESCTAC757290"	NA	"acute stemi (st elevation myocardial infarction) of inferior wall with right ventricular involvement"	"703253007"	"3008213014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7574041000006111"	"9"	"^ESCTMI757404"	NA	"mitral valve regurgitation due to acute myocardial infarction"	"703326006"	"3008312019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7574081000006117"	"4"	"^ESCTMI757408"	NA	"mitral valve regurgitation due to acute myocardial infarction without papillary muscle and chordal rupture"	"703328007"	"3008299014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7574101000006113"	"3"	"^ESCTMI757410"	NA	"mitral valve regurgitation due to acute myocardial infarction with papillary muscle and chordal rupture"	"703330009"	"3008253012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7574481000006111"	"78"	"^ESCTSU757448"	NA	"subsequent non-st segment elevation myocardial infarction"	"703360004"	"3008465013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7574491000006114"	"33"	"^ESCTSU757449"	NA	"subsequent nstemi (non-st segment elevation myocardial infarction)"	"703360004"	"3008532019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7662871000006115"	"7"	"^ESCTIN766287"	NA	"inducible ischaemia manifest on stress test post myocardial infarction"	"710031008"	"3042814015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7848501000006110"	"7"	"^ESCTVE784850"	NA	"ventricular aneurysm as current complication following acute myocardial infarction"	"723858002"	"3427203013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7848521000006117"	"18"	"^ESCTPU784852"	NA	"pulmonary embolism as current complication following acute myocardial infarction"	"723859005"	"3427206017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7848541000006112"	"7"	"^ESCTAR784854"	NA	"arrhythmia as current complication following acute myocardial infarction"	"723860000"	"3427221011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"7965621000006110"	"2"	"^ESCTHI796562"	NA	"history of myocardial infarction in last eight weeks"	"461000119108"	"2967019015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"8004261000006118"	"9"	"^ESCTAC800426"	NA	"acute myocardial infarction due to left coronary artery occlusion"	"17531000119105"	"2968255018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"8011041000006111"	"40"	"^ESCTAC801104"	NA	"acute myocardial infarction due to right coronary artery occlusion"	"23311000119105"	"2968252015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"8032161000006112"	"12"	"^ESCTCO803216"	NA	"coronary arteriosclerosis in patient with history of previous myocardial infarction"	"103011000119106"	"3290272012"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"8087551000006113"	"17"	"^ESCTHI808755"	NA	"history of acute st segment elevation myocardial infarction"	"285721000119104"	"3307011019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"8087751000006116"	"106"	"^ESCTAC808775"	NA	"acute st segment elevation myocardial infarction involving left anterior descending coronary artery"	"285981000119103"	"2922211015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"8308931000006114"	"198"	"^ESCTTH830893"	NA	"thrombolysis in myocardial infarction risk score for unstable angina or non-st-segment-elevation myocardial infarction"	"883961000000109"	"2279011000000112"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9843951000006115"	"18"	"^ESCTAC984395"	NA	"acute st segment elevation myocardial infarction of posterolateral wall"	"15712841000119100"	"3041039014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9843961000006118"	"127"	"^ESCTAC984396"	NA	"acute st segment elevation myocardial infarction of anterolateral wall"	"15712881000119104"	"3041141013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9843981000006111"	"31"	"^ESCTAC984398"	NA	"acute st segment elevation myocardial infarction of lateral wall"	"15712921000119104"	"3041019010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9843991000006114"	"33"	"^ESCTAC984399"	NA	"acute st segment elevation myocardial infarction of anteroseptal wall"	"15712961000119108"	"3041144017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9844011000006119"	"74"	"^ESCTAC984401"	NA	"acute st segment elevation myocardial infarction of posterior wall"	"15713041000119104"	"3041268019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9844021000006110"	"3"	"^ESCTAC984402"	NA	"acute st segment elevation myocardial infarction due to left coronary artery occlusion"	"15713081000119108"	"3082859010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9844051000006118"	"29"	"^ESCTAC984405"	NA	"acute st segment elevation myocardial infarction due to right coronary artery occlusion"	"15713121000119104"	"3082407014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9844071000006111"	"4"	"^ESCTAC984407"	NA	"acute st segment elevation myocardial infarction of septum"	"15713161000119100"	"3082468018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"9868571000006116"	"251"	"^ESCTMU986857"	NA	"mural thrombus of left ventricle following acute myocardial infarction"	"15960981000119104"	"3322978018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"12122331000006116"	"151"	"^ESCT1212233"	NA	"acute st segment elevation myocardial infarction of inferolateral wall"	"12238111000119106"	"3646299014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"12122341000006114"	"171"	"^ESCT1212234"	NA	"acute st segment elevation myocardial infarction of inferoposterior wall"	"12238151000119108"	"3646297011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13930031000006112"	"209"	"^ESCT1393003"	NA	"delayed postmyocardial infarction pericarditis"	"827164008"	"3874232012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13935161000006114"	"8"	"^ESCT1393516"	NA	"acute myocardial infarction of right ventricle"	"836293000"	"3890822012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13935191000006118"	"3"	"^ESCT1393519"	NA	"acute myocardial infarction of apex of heart"	"836294006"	"3890982011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13935201000006115"	"4"	"^ESCT1393520"	NA	"acute apical myocardial infarction of heart"	"836294006"	"3890984012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13935211000006117"	"22"	"^ESCT1393521"	NA	"acute myocardial infarction of inferolateral wall with posterior extension"	"836295007"	"3890829015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13941091000006115"	"22"	"^ESCT1394109"	NA	"acute st segment elevation myocardial infarction due to proximal left anterior descending coronary artery occlusion"	"840309000"	"3901248018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13941111000006112"	"2"	"^ESCT1394111"	NA	"acute stemi (st elevation myocardial infarction) due to proximal lad (left anterior descending) coronary artery occlusion"	"840309000"	"3902914010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13941141000006111"	"68"	"^ESCT1394114"	NA	"acute st segment elevation myocardial infarction due to mid left anterior descending coronary artery occlusion"	"840312002"	"3901259010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13941161000006110"	"6"	"^ESCT1394116"	NA	"acute stemi (st elevation myocardial infarction) due to mid lad (left anterior descending) coronary artery occlusion"	"840312002"	"3902913016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13941211000006118"	"21"	"^ESCT1394121"	NA	"acute st segment elevation myocardial infarction due to distal left anterior descending coronary artery occlusion"	"840316004"	"3901277017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13941231000006112"	"1"	"^ESCT1394123"	NA	"acute stemi (st elevation myocardial infarction) due to distal lad (left anterior descending) coronary artery occlusion"	"840316004"	"3902912014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13945211000006116"	"12"	"^ESCT1394521"	NA	"acute st segment elevation myocardial infarction due to occlusion of anterior descending branch of left coronary artery"	"840609007"	"3902908015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13945231000006110"	"2"	"^ESCT1394523"	NA	"acute stemi (st segment elevation myocardial infarction) due to lad (left anterior descending) coronary artery occlusion"	"840609007"	"3902911019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13945981000006117"	"14"	"^ESCT1394598"	NA	"acute st segment elevation myocardial infarction due to occlusion of septal branch of anterior descending branch of left coronary artery"	"840680009"	"3914888011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13947591000006117"	"1"	"^ESCT1394759"	NA	"acute st segment elevation myocardial infarction due to occlusion of diagonal branch of anterior descending branch of left coronary artery"	"846668006"	"3914916018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13947721000006111"	"1"	"^ESCT1394772"	NA	"acute st segment elevation myocardial infarction due to occlusion of intermediate artery"	"846683001"	"3914972012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961301000006115"	"2"	"^ESCT1396130"	NA	"acute st segment elevation myocardial infarction due to occlusion of proximal portion of right coronary artery"	"868214006"	"3963958011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961311000006117"	"1"	"^ESCT1396131"	NA	"acute stemi (st elevation myocardial infarction) due to proximal rca (right coronary artery) occlusion"	"868214006"	"3963959015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961341000006118"	"7"	"^ESCT1396134"	NA	"acute st segment elevation myocardial infarction due to occlusion of distal portion of right coronary artery"	"868217004"	"3963965015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961351000006116"	"2"	"^ESCT1396135"	NA	"acute stemi (st elevation myocardial infarction) due to distal rca (right coronary artery) occlusion"	"868217004"	"3963966019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961371000006114"	"1"	"^ESCT1396137"	NA	"acute st segment elevation myocardial infarction due to occlusion of mid portion of right coronary artery"	"868220007"	"3963973012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961381000006112"	"4"	"^ESCT1396138"	NA	"acute stemi (st elevation myocardial infarction) due to mid rca (right coronary artery) occlusion"	"868220007"	"3963971014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961421000006119"	"2"	"^ESCT1396142"	NA	"acute st segment elevation myocardial infarction due to occlusion of marginal branch of right coronary artery"	"868224003"	"3963981013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961431000006116"	"8"	"^ESCT1396143"	NA	"acute stemi (st elevation myocardial infarction) due to am (acute marginal) branch of rca (right coronary artery) occlusion"	"868224003"	"3963980014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961441000006114"	"6"	"^ESCT1396144"	NA	"acute st segment elevation myocardial infarction due to occlusion of posterior descending branch of right coronary artery"	"868225002"	"3963983011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961451000006111"	"9"	"^ESCT1396145"	NA	"acute stemi (st elevation myocardial infarction) due to pda (posterior descending artery) branch of rca (right coronary artery) occlusion"	"868225002"	"3963985016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961461000006113"	"11"	"^ESCT1396146"	NA	"acute st segment elevation myocardial infarction due to occlusion of posterior lateral branch of right coronary artery"	"868226001"	"3963987012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"13961471000006118"	"1"	"^ESCT1396147"	NA	"acute stemi (st elevation myocardial infarction) due to pl (posterolateral) branch of rca (right coronary artery) occlusion"	"868226001"	"3963988019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14015031000006119"	"185"	"^ESCT1401503"	NA	"myocardial infarction due to demand ischaemia"	"16837681000119104"	"3779054018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14057221000006111"	"14"	"^ESCT1405722"	NA	"rupture of ventricle due to acute myocardial infarction"	"30277009"	"3902936013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14132941000006118"	"958"	"^ESCT1413294"	NA	"myocardial infarction with non-obstructive coronary artery"	"879955009"	"3994016011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14132951000006116"	"24"	"^ESCT1413295"	NA	"minoca - myocardial infarction with non-obstructive coronary artery"	"879955009"	"3994017019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14145371000006117"	"8"	"^ESCT1414537"	NA	"acute myocardial infarction due to occlusion of circumflex branch of left coronary artery"	"896689003"	"4028647019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14145391000006116"	"8"	"^ESCT1414539"	NA	"acute st segment elevation myocardial infarction due to occlusion of circumflex branch of left coronary artery"	"896691006"	"4028649016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14145431000006110"	"1"	"^ESCT1414543"	NA	"acute st segment elevation myocardial infarction of apex of heart"	"896696001"	"4028673012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14145451000006115"	"4"	"^ESCT1414545"	NA	"acute stemi (st segment elevation myocardial infarction) of apex of heart"	"896696001"	"4028675017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14145461000006118"	"4"	"^ESCT1414546"	NA	"acute st segment elevation myocardial infarction of right ventricle"	"896697005"	"4028677013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14194451000006112"	"1"	"^ESCT1419445"	NA	"history of myocardial infarction due to atherothrombotic coronary artery disease"	"387785661000119104"	"4032953018"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14194701000006115"	"7"	"^ESCT1419470"	NA	"myocardial infarction due to atherothrombotic coronary artery disease"	"726499301000119168"	"4030229011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14194711000006117"	"6"	"^ESCT1419471"	NA	"type 1 myocardial infarction"	"726499301000119168"	"4030227013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14194821000006118"	"6"	"^ESCT1419482"	NA	"history of myocardial infarction due to demand ischaemia"	"776219771000119168"	"4029334010"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14194831000006115"	"16"	"^ESCT1419483"	NA	"history of type 2 myocardial infarction"	"776219771000119168"	"4029332014"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14428131000006112"	"8"	"^ESCT1442813"	NA	"mitral valve regurgitation due to acute myocardial infarction"	"1142308000"	"4537390011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14488861000006119"	"3"	"^ESCT1448886"	NA	"supraventricular tachycardia following acute myocardial infarction"	"16415081000119104"	"4573825014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14546511000006116"	"8"	"^ESCT1454651"	NA	"postmyocardial infarction pericardial effusion"	"1163420005"	"4596779013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14546721000006115"	"5"	"^ESCT1454672"	NA	"postoperative acute myocardial infarction"	"1163440003"	"4596874013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14741971000006110"	"188"	"^ESCT1474197"	NA	"acute inferior non-st segment elevation myocardial infarction"	"1204152002"	"4952475012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14742011000006111"	"64"	"^ESCT1474201"	NA	"acute anterior non-st segment elevation myocardial infarction"	"1204155000"	"4952482011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14742991000006119"	"1"	"^ESCT1474299"	NA	"acute non-st segment elevation myocardial infarction of right ventricle"	"1204222000"	"4953526017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14752451000006117"	"47"	"^ESCT1475245"	NA	"ventricular thrombus following acute myocardial infarction"	"1208867006"	"5013229011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"14752511000006117"	"6"	"^ESCT1475251"	NA	"subsequent inferior non-st segment elevation myocardial infarction"	"1208873007"	"5013242011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15055731000006118"	"1"	"^ESCT1505573"	NA	"old apical mi (myocardial infarction)"	"35401000087106"	"5149195016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15055771000006115"	"14"	"^ESCT1505577"	NA	"old inferolateral myocardial infarction"	"35421000087100"	"5149180018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276121000006116"	"4"	"^ESCT1527612"	NA	"acute st segment elevation myocardial infarction due to distal left circumflex coronary artery occlusion"	"44811000087108"	"5233402011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276151000006113"	"21"	"^ESCT1527615"	NA	"acute st segment elevation myocardial infarction due to mid left circumflex coronary artery occlusion"	"44821000087100"	"5233398019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276161000006110"	"3"	"^ESCT1527616"	NA	"acute stemi (st elevation myocardial infarction) due to mid lcx (left circumflex coronary artery) occlusion"	"44821000087100"	"5233399010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276181000006117"	"2"	"^ESCT1527618"	NA	"acute st segment elevation myocardial infarction due to obtuse marginal branch of left circumflex coronary artery occlusion"	"44831000087103"	"5233370017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276201000006116"	"1"	"^ESCT1527620"	NA	"acute stemi (st elevation myocardial infarction) due to om (obtuse marginal) branch of lcx (left circumflex coronary artery) occlusion"	"44831000087103"	"5233372013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276211000006118"	"16"	"^ESCT1527621"	NA	"acute st segment elevation myocardial infarction due to posterolateral branch of left circumflex coronary artery occlusion"	"44841000087109"	"5233374014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276221000006114"	"1"	"^ESCT1527622"	NA	"acute stemi (st elevation myocardial infarction) due to pl (posterolateral) branch of lcx (left circumflex coronary artery) occlusion"	"44841000087109"	"5233375010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_MI"	"15276241000006119"	"6"	"^ESCT1527624"	NA	"acute st segment elevation myocardial infarction due to proximal left circumflex coronary artery occlusion"	"44851000087107"	"5233395016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"89332015"	"2036"	"G3-2"	"G3...12"	"atherosclerotic heart disease"	"443502000"	"2842265012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"256451015"	"1530"	"322Z"	"322Z.00"	"ecg: myocardial ischaemia nos"	"164861001"	"1205556017"	"3"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"264484015"	"3643"	"662E"	"662E.00"	"cardiac disease treatment stopped"	"170585007"	"2160743019"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299723016"	"495"	"G31y"	"G31y.00"	"other acute and subacute ischaemic heart disease"	"414545008"	"2534663012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299742017"	"298"	"G312"	"G312.00"	"coronary thrombosis not resulting in myocardial infarction"	"194821006"	"299742017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299776014"	"19392"	"G34"	"G34..00"	"chronic ischaemic heart disease"	"413838009"	"2534672016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299782012"	"35633"	"G3400"	"G340000"	"single coronary vessel disease"	"194842008"	"299782012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299783019"	"24137"	"G3401"	"G340100"	"double coronary vessel disease"	"194843003"	"299783019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299796018"	"21720"	"G343"	"G343.00"	"ischaemic cardiomyopathy"	"194849004"	"299796018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299800012"	"365"	"G34y"	"G34y.00"	"other specified chronic ischaemic heart disease"	"413838009"	"2534671011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"299834013"	"5053"	"G3y"	"G3y..00"	"other specified ischaemic heart disease"	"414545008"	"2534664018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"300876010"	"70"	"Gyu32"	"Gyu3200"	"[x]other forms of acute ischaemic heart disease"	"414545008"	"2534663012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"300879015"	"79"	"Gyu33"	"Gyu3300"	"[x]other forms of chronic ischaemic heart disease"	"413838009"	"2534671011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"300932016"	"558"	"Gyu5g"	"Gyu5g00"	"[x]cardiovascular disease, unspecified"	"49601007"	"2474885016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"350354017"	"2270"	"G344"	"G344.00"	"silent myocardial ischaemia"	"233823002"	"350354017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"397829016"	"39277"	"14A"	"14A..00"	"h/o: cardiovascular disease"	"266995000"	"397829016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"401517012"	"6055"	"662D"	"662D.00"	"cardiac disease treatment started"	"268510008"	"2156056014"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"411904010"	"168822"	"8B63-1"	"8B63.11"	"aspirin prophylaxis for ischaemic heart disease"	"275931000"	"2770029010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"451372015"	"6335"	"14AL"	"14AL.00"	"h/o: treatment for ischaemic heart disease"	"308068007"	"451372015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"459488019"	"1341"	"G31y3"	"G31y300"	"transient myocardial ischaemia"	"315026000"	"459488019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"459859010"	"7906"	"G34z0"	"G34z000"	"asymptomatic coronary heart disease"	"315348000"	"459859010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"460133017"	"3117313"	"6A2"	"6A2..00"	"coronary heart disease annual review"	"315614006"	"460133017"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"460687010"	"1686"	"ZV458"	"ZV45800"	"history of placement of stent for coronary artery disease"	"428375006"	"2692299011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"494438016"	"464"	"G31y2"	"G31y200"	"subendocardial ischaemia"	"46109009"	"494438016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1484833014"	"153546"	"6A4"	"6A4..00"	"coronary heart disease review"	"390799004"	"1484833014"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1488382011"	"252890"	"G3115"	"G311500"	"acute coronary syndrome"	"394659003"	"1488382011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1488440011"	"206869"	"8B3k"	"8B3k.00"	"coronary heart disease medication review"	"394724007"	"1488440011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1786197015"	"3612"	"G30-2"	"G30..12"	"coronary thrombosis"	"398274000"	"1786197015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1786198013"	"533"	"G30-6"	"G30..16"	"thrombosis - coronary"	"398274000"	"1786198013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2534664018"	"6638239"	"G3"	"G3...00"	"ischaemic heart disease"	"414545008"	"2534664018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2534674015"	"3837"	"G34y1"	"G34y100"	"chronic myocardial ischaemia"	"413844008"	"2534674015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2536393012"	"1030"	"G3-1"	"G3...11"	"arteriosclerotic heart disease"	"443502000"	"2842265012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2536395017"	"342053"	"G340-2"	"G340.12"	"coronary artery disease"	"53741008"	"2536395017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2537480011"	"1507450"	"G3-3"	"G3...13"	"ihd - ischaemic heart disease"	"414545008"	"2537480011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2548276015"	"409728"	"66f0"	"66f0.00"	"cardiovascular disease annual review"	"417322008"	"2548276015"	"1"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"39111000006114"	"3109"	"G31"	"G31..00"	"other acute and subacute ischaemic heart disease"	"414545008"	"2534663012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"394541000006112"	"2025"	"Gyu3"	"Gyu3.00"	"[x]ischaemic heart diseases"	"414545008"	"2534664018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"496991000006111"	"1839"	"G342"	"G342.00"	"atherosclerotic cardiovascular disease"	"72092001"	"119795011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"585631000000113"	"199"	"8H2V"	"8H2V.00"	"emergency hospital admission for ischaemic heart disease"	"699245006"	"3082941013"	"40"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"634751000006116"	"8877"	"322"	"322..00"	"ecg myocardial ischaemia"	"164861001"	"1205556017"	"3"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"635641000006111"	"8094"	"3222"	"3222.00"	"ecg:shows myocardial ischaemia"	"164861001"	"1205556017"	"3"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"884141000006116"	"938"	"G30-98"	"G30..98"	"coronary thrombosis"	"57054005"	"884141000006116"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"908791000006113"	"25921"	"HNG0601"	NA	"[rfc] reason for care : coronary heart disease"	"908791000006109"	"908791000006113"	"12"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"931961000006117"	"228"	"G31y0-99"	"G31y099"	"acute coronary syndrome"	"194823009"	"931961000006117"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1142521000000115"	"8805"	"8CEJ"	"8CEJ.00"	"coronary heart disease leaflet given"	"513841000000103"	"1142521000000115"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1539331000006118"	"5804"	"EMISNOQFH3"	NA	"h/o: coronary heart disease"	"1539331000006102"	"1539331000006118"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1774801000000114"	"16113"	"8CMP"	"8CMP.00"	"coronary heart disease care plan"	"736368003"	"3517259010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1823891000006113"	"534"	"EMISNQCO148"	NA	"coronary heart disease confirmed"	"1823891000006109"	"1823891000006113"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"1895641000006114"	"1149"	"EMISNQON8"	NA	"on coronary heart disease register"	"1895641000006105"	"1895641000006114"	"37"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2115181000000110"	"2773"	"G39"	"G39..00"	"coronary microvascular disease"	"810681000000101"	"2115181000000110"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"2173281000000112"	"1309"	"14AW"	"14AW.00"	"h/o acute coronary syndrome"	"837091000000100"	"2173281000000112"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"3302691000006119"	"35"	"^ESCTCA330269"	NA	"cardiovascular disease"	"49601007"	"82618012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"3302731000006110"	"51"	"^ESCTCV330273"	NA	"cvd - cardiovascular disease"	"49601007"	"2957091018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"3371381000006110"	"433"	"^ESCTCA337138"	NA	"cad - coronary artery disease"	"53741008"	"2536394018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"3371411000006113"	"4364"	"^ESCTCH337141"	NA	"chd - coronary heart disease"	"53741008"	"2536397013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"3371421000006117"	"9848"	"^ESCTCO337142"	NA	"coronary heart disease"	"53741008"	"2536398015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"4776021000006118"	"4"	"^ESCTIS477602"	NA	"ischemic heart disease - angina"	"194828000"	"299761018"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"4776031000006115"	"49"	"^ESCTIS477603"	NA	"ischaemic heart disease - angina"	"194828000"	"299762013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"4776051000006110"	"42"	"^ESCTSI477605"	NA	"single vessel coronary artery disease"	"194842008"	"2535853014"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"4776071000006117"	"185"	"^ESCTTW477607"	NA	"two coronary vessel disease"	"194843003"	"299784013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"4776081000006119"	"21"	"^ESCTDO477608"	NA	"double vessel coronary artery disease"	"194843003"	"2535854015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"5056201000006111"	"281"	"^ESCTTR505620"	NA	"triple vessel coronary artery disease"	"233817007"	"2535923015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"5056471000006118"	"15"	"^ESCTAC505647"	NA	"accelerated coronary artery disease in transplanted heart"	"233844002"	"350378010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"5496991000006110"	"2"	"^ESCTHI549699"	NA	"history of cardiovascular disease"	"266995000"	"2986568011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"5974561000006110"	"2"	"^ESCTHI597456"	NA	"history of treatment for ischaemic heart disease"	"308068007"	"2986970011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6360351000006112"	"1644"	"^ESCTMU636035"	NA	"multi vessel coronary artery disease"	"371803003"	"1210398011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6360361000006114"	"347"	"^ESCTLE636036"	NA	"left main coronary artery disease"	"371804009"	"1210399015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6360601000006119"	"1"	"^ESCTMY636060"	NA	"myocardial ischaemia manifest on stress test status post myocardial infarction"	"371824008"	"1207334015"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6546111000006118"	"347"	"^ESCTAC654611"	NA	"acs - acute coronary syndrome"	"394659003"	"2579561010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6601131000006115"	"2"	"^ESCTCT660113"	NA	"ct - coronary thrombosis"	"398274000"	"1786196012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6841231000006113"	"158"	"^ESCTAC684123"	NA	"acute ischaemic heart disease"	"413439005"	"2534668015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6841241000006115"	"1"	"^ESCTAC684124"	NA	"acute ischemic heart disease"	"413439005"	"2534667013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6841391000006118"	"100"	"^ESCTAC684139"	NA	"acute myocardial ischaemia"	"413444003"	"2534670012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6841401000006116"	"1"	"^ESCTAC684140"	NA	"acute myocardial ischemia"	"413444003"	"2534669011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6847761000006118"	"7"	"^ESCTCH684776"	NA	"chronic ischemic heart disease"	"413838009"	"2534671011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6860251000006115"	"382"	"^ESCTIS686025"	NA	"ischemic heart disease"	"414545008"	"2534663012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6860261000006118"	"160"	"^ESCTIH686026"	NA	"ihd - ischemic heart disease"	"414545008"	"2537479013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6864781000006110"	"939"	"^ESCTMY686478"	NA	"myocardial ischaemia"	"414795007"	"2534666016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6864791000006113"	"7"	"^ESCTMY686479"	NA	"myocardial ischemia"	"414795007"	"2534665017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"6946631000006113"	"23"	"^ESCTOB694663"	NA	"obliterative coronary artery disease"	"420006002"	"2578015012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7084801000006112"	"18"	"^ESCTMI708480"	NA	"mixed myocardial ischaemia and infarction"	"428196007"	"2694710011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7087601000006118"	"2"	"^ESCTHI708760"	NA	"history of coronary artery disease with stent placement"	"428375006"	"2695581010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7475751000006117"	"198"	"^ESCTIS747575"	NA	"ischaemic dilated cardiomyopathy due to coronary artery disease"	"472100003"	"2951007019"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7518321000006118"	"157"	"^ESCTCO751832"	NA	"coronary artery disease absent"	"699196002"	"2983022014"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7573181000006118"	"538"	"^ESCTHE757318"	NA	"heart failure with reduced ejection fraction due to coronary artery disease"	"703273002"	"3008136010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7696501000006114"	"8"	"^ESCTRE769650"	NA	"resting ischaemia"	"712866001"	"3286157013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"7703511000006110"	"11"	"^ESCTSU770351"	NA	"subacute ischaemic heart disease"	"713405002"	"3289285016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"8259701000006112"	"11"	"^ESCTRE825970"	NA	"referral to coronary heart disease clinic"	"809581000000109"	"2112861000000118"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"9833971000006112"	"1"	"^ESCTCO983397"	NA	"congestive heart failure stage c due to ischaemic cardiomyopathy"	"15629541000119106"	"3323391019"	"31"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"14015311000006110"	"6"	"^ESCT1401531"	NA	"coronary artery disease due to type 2 diabetes mellitus"	"16891151000119103"	"3778765010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"14194451000006112"	"1"	"^ESCT1419445"	NA	"history of myocardial infarction due to atherothrombotic coronary artery disease"	"387785661000119105"	"4032953018"	"27"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"14194701000006115"	"7"	"^ESCT1419470"	NA	"myocardial infarction due to atherothrombotic coronary artery disease"	"726499301000119105"	"4030229011"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"14639991000006115"	"1271"	"^ESCT1463999"	NA	"administration of prophylactic aspirin for ischaemic heart disease"	"275931000"	"4634330015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"14742711000006114"	"27"	"^ESCT1474271"	NA	"left ventricular failure with normal ejection fraction due to coronary artery disease"	"1204203009"	"4952600012"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15055891000006113"	"61"	"^ESCT1505589"	NA	"anterior myocardial ischaemia"	"35461000087105"	"5154814013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15055911000006110"	"1"	"^ESCT1505591"	NA	"anteroapical myocardial ischaemia"	"35471000087101"	"5154768013"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15055931000006116"	"8"	"^ESCT1505593"	NA	"myocardial ischaemia of ventricular septum"	"35481000087104"	"5154964017"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15055961000006113"	"17"	"^ESCT1505596"	NA	"lateral myocardial ischaemia"	"35491000087102"	"5154825016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15055981000006115"	"5"	"^ESCT1505598"	NA	"anterolateral myocardial ischaemia"	"35501000087105"	"5154841015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15056001000006116"	"9"	"^ESCT1505600"	NA	"anteroseptal myocardial ischaemia"	"35511000087107"	"5154758015"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15056021000006114"	"38"	"^ESCT1505602"	NA	"apical myocardial ischaemia"	"35521000087104"	"5154816010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15056041000006119"	"72"	"^ESCT1505604"	NA	"inferior myocardial ischaemia"	"35541000087108"	"5154853016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15056061000006115"	"20"	"^ESCT1505606"	NA	"inferolateral myocardial ischaemia"	"35551000087106"	"5155114016"	"32"	NA	NA	NA	NA	NA	NA	NA
+"aurum_ischaemic_heart_disease"	"15056121000006110"	"7"	"^ESCT1505612"	NA	"posterior myocardial ischaemia"	"35581000087103"	"5154835010"	"32"	NA	NA	NA	NA	NA	NA	NA
+"gold_angina"	NA	NA	NA	NA	"angina control - good"	NA	NA	NA	"19542"	"662K000"	"87653"	"0"	"30"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"referral to angina plan self-management programme"	NA	NA	NA	"107574"	"8T04.00"	"20"	"0"	"2"	"0"	"January 2014"
+"gold_angina"	NA	NA	NA	NA	"[x]other forms of angina pectoris"	NA	NA	NA	"39546"	"Gyu3000"	"56"	"0"	"0"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"stable angina"	NA	NA	NA	"12804"	"G33z700"	"13346"	"0"	"88"	"1"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina pectoris nos"	NA	NA	NA	"28554"	"G33zz00"	"25603"	"0"	"136"	"1"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina at rest"	NA	NA	NA	"19655"	"G311.14"	"885"	"0"	"70"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"unstable angina"	NA	NA	NA	"1431"	"G311.13"	"41092"	"0"	"6435"	"3"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"crescendo angina"	NA	NA	NA	"4656"	"G311.11"	"6567"	"0"	"1519"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina at rest"	NA	NA	NA	"17307"	"G311200"	"2681"	"0"	"209"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina control"	NA	NA	NA	"13185"	"662K.00"	"61567"	"0"	"1323"	"5"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina pectoris"	NA	NA	NA	"1430"	"G33..00"	"1007961"	"0"	"42184"	"224"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"unstable angina"	NA	NA	NA	"7347"	"G311100"	"37792"	"0"	"1732"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina control nos"	NA	NA	NA	"15349"	"662Kz00"	"1912"	"0"	"28"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"referral to angina plan self-management programme declined"	NA	NA	NA	"108056"	"8IEY.00"	"1"	"0"	"6"	"0"	"May 2014"
+"gold_angina"	NA	NA	NA	NA	"angina self-management plan review"	NA	NA	NA	"109391"	"661N000"	"20"	"0"	"0"	"0"	"March 2015"
+"gold_angina"	NA	NA	NA	NA	"refractory angina"	NA	NA	NA	"34328"	"G311300"	"198"	"0"	"20"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina control - worsening"	NA	NA	NA	"29300"	"662K300"	"5408"	"0"	"135"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"nocturnal angina"	NA	NA	NA	"18125"	"G330000"	"435"	"0"	"21"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina pectoris nos"	NA	NA	NA	"25842"	"G33z.00"	"15025"	"0"	"83"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"h/o: angina in last year"	NA	NA	NA	"57062"	"14AJ.00"	"310"	"0"	"13"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina on effort"	NA	NA	NA	"1414"	"G33z300"	"8724"	"0"	"671"	"2"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"h/o: angina pectoris"	NA	NA	NA	"6336"	"14A5.00"	"33829"	"0"	"930"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"worsening angina"	NA	NA	NA	"18118"	"G311400"	"4287"	"0"	"605"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina self management plan completed"	NA	NA	NA	"108506"	"662K500"	"26"	"0"	"0"	"0"	"August 2014"
+"gold_angina"	NA	NA	NA	NA	"antianginal therapy"	NA	NA	NA	"45960"	"8B27.00"	"155"	"0"	"0"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"prinzmetal's angina"	NA	NA	NA	"12986"	"G331.00"	"1214"	"0"	"23"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"post infarct angina"	NA	NA	NA	"9555"	"G33z500"	"320"	"0"	"2"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina decubitus"	NA	NA	NA	"20095"	"G330.00"	"2550"	"0"	"207"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina control - improving"	NA	NA	NA	"14782"	"662K200"	"3023"	"0"	"6"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"new onset angina"	NA	NA	NA	"26863"	"G33z600"	"969"	"0"	"8"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"variant angina pectoris"	NA	NA	NA	"11048"	"G331.11"	"177"	"0"	"22"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina decubitus nos"	NA	NA	NA	"29902"	"G330z00"	"65"	"0"	"1"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"frequency of angina"	NA	NA	NA	"103655"	"187..00"	"1102"	"0"	"44"	"0"	"January 2012"
+"gold_angina"	NA	NA	NA	NA	"angina control - poor"	NA	NA	NA	"15373"	"662K100"	"3573"	"0"	"70"	"0"	"February 2009"
+"gold_angina"	NA	NA	NA	NA	"angina self-management plan agreed"	NA	NA	NA	"107967"	"661M000"	"48"	"0"	"0"	"0"	"May 2014"
+"gold_angina"	NA	NA	NA	NA	"angina self management plan commenced"	NA	NA	NA	"108504"	"662K400"	"65"	"0"	"0"	"0"	"August 2014"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement of coronary artery os"	NA	NA	NA	"7137"	"7920y00"	"17557"	"0"	"90"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percut translum balloon angioplasty mult coronary arteries"	NA	NA	NA	"33735"	"7928100"	"554"	"0"	"5"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of bypass for four or more coronary arteries"	NA	NA	NA	"101569"	"7924300"	"7"	"0"	"0"	"0"	"January 2011"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"endovascular placement of two drug-eluting stents"	NA	NA	NA	"93538"	"7A6N000"	"45"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"replacement of coronary arteries using multiple methods"	NA	NA	NA	"55092"	"792C000"	"15"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft replacement of one coronary artery"	NA	NA	NA	"70111"	"7922000"	"6"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"diagnostic transluminal operation on coronary artery nos"	NA	NA	NA	"61248"	"792Az00"	"16"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"replacement of coronary artery nos"	NA	NA	NA	"70755"	"792Cz00"	"45"	"0"	"20"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous cor balloon angiop 3 more stents cor art nec"	NA	NA	NA	"92927"	"793G300"	"73"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal balloon angioplasty pulmonary art"	NA	NA	NA	"91624"	"7A0A400"	"10"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"creation of bypass from mammary artery to coronary artery"	NA	NA	NA	"28837"	"7925.11"	"38"	"0"	"2"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic replacement of two coronary arteries"	NA	NA	NA	"66664"	"7923100"	"13"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified operations on coronary artery"	NA	NA	NA	"31571"	"792y.00"	"315"	"0"	"10"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"coronary artery operations"	NA	NA	NA	"5904"	"792..00"	"26278"	"0"	"257"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"connection of mammary artery to coronary artery nos"	NA	NA	NA	"56990"	"7925z00"	"101"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other open operation on coronary artery nos"	NA	NA	NA	"41757"	"7927z00"	"23"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"autograft replacement of four of more coronary arteries nec"	NA	NA	NA	"42708"	"7921300"	"106"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other autograft replacement of coronary artery"	NA	NA	NA	"9414"	"7921.00"	"372"	"0"	"5"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"transluminal balloon angioplasty of coronary artery"	NA	NA	NA	"2901"	"7928.00"	"42305"	"0"	"159"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of bypass for coronary artery"	NA	NA	NA	"33461"	"7924.00"	"602"	"0"	"2"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal laser coronary angioplasty"	NA	NA	NA	"22828"	"7929000"	"1228"	"0"	"7"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other bypass of coronary artery"	NA	NA	NA	"34963"	"792D.00"	"1184"	"0"	"11"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"perc translum ball angio insert 1-2 drug elut stents cor art"	NA	NA	NA	"60067"	"793G000"	"1605"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft bypass of coronary artery"	NA	NA	NA	"8312"	"7920.11"	"1882"	"0"	"12"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"repair of coronary artery nec"	NA	NA	NA	"33620"	"792B.00"	"78"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified other open operation on coronary artery"	NA	NA	NA	"95382"	"7927y00"	"9"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"autograft replacement of three coronary arteries nec"	NA	NA	NA	"10209"	"7921200"	"215"	"0"	"3"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of bypass for one coronary artery"	NA	NA	NA	"52938"	"7924000"	"21"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of bypass for coronary artery nos"	NA	NA	NA	"57634"	"7924z00"	"10"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of bypass for three coronary arteries"	NA	NA	NA	"31540"	"7924200"	"39"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified replacement of coronary artery"	NA	NA	NA	"93828"	"792Cy00"	"14"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic graft patch angioplasty"	NA	NA	NA	"64923"	"7A6H300"	"31"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"primary open autograft replacement intra-articular ligament"	NA	NA	NA	"45368"	"7K6PD00"	"9"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"[v]presence of coronary artery bypass graft"	NA	NA	NA	"5030"	"ZV45K00"	"3843"	"0"	"30"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"double anastom thoracic arteries to coronary arteries nec"	NA	NA	NA	"62608"	"7926000"	"3"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other therapeutic transluminal op on coronary artery os"	NA	NA	NA	"6182"	"7929y00"	"54"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal atherectomy of coronary artery"	NA	NA	NA	"93618"	"7929600"	"36"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"rotary blade coronary angioplasty"	NA	NA	NA	"19046"	"7929300"	"2136"	"0"	"31"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other therapeutic transluminal operations on coronary artery"	NA	NA	NA	"24888"	"7929.00"	"424"	"0"	"3"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"perc tran ball angio ins 3 or more drug elut stents cor art"	NA	NA	NA	"87849"	"793G100"	"243"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"coronary artery operations nos"	NA	NA	NA	"10603"	"792z.00"	"2765"	"0"	"14"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"peroperative angioplasty"	NA	NA	NA	"20903"	"7A6G100"	"676"	"0"	"15"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft replacement of four or more coronary arteries"	NA	NA	NA	"45370"	"7922300"	"29"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified allograft replacement of coronary artery"	NA	NA	NA	"59423"	"7922y00"	"97"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"connection of other thoracic artery to coronary artery"	NA	NA	NA	"96804"	"7926.00"	"80"	"0"	"0"	"0"	"May 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other autograft bypass of coronary artery"	NA	NA	NA	"7134"	"7921.11"	"591"	"0"	"8"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of bypass for two coronary arteries"	NA	NA	NA	"67554"	"7924100"	"19"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percut translum balloon angioplasty bypass graft coronary a"	NA	NA	NA	"42462"	"7928200"	"107"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"transluminal balloon angioplasty of coronary artery nos"	NA	NA	NA	"732"	"7928z00"	"4277"	"0"	"207"	"2"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"endovascular placement of three or more drug-eluting stents"	NA	NA	NA	"96851"	"7A6N200"	"19"	"0"	"0"	"0"	"May 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other open operations on coronary artery"	NA	NA	NA	"47788"	"7927.00"	"421"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic replacement of one coronary artery"	NA	NA	NA	"92419"	"7923000"	"9"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"emergency percutaneous coronary intervention"	NA	NA	NA	"107406"	"792E000"	"143"	"0"	"0"	"0"	"December 2013"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic replacement of coronary artery"	NA	NA	NA	"19402"	"7923.00"	"65"	"0"	"3"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal balloon angioplasty of artery"	NA	NA	NA	"86773"	"7A56400"	"964"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"double implant of mammary arteries into coronary arteries"	NA	NA	NA	"31519"	"7925100"	"12"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"perc translum balloon angioplasty stenting coronary art nos"	NA	NA	NA	"61208"	"793Gz00"	"320"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft bypass of coronary artery"	NA	NA	NA	"32651"	"7922.11"	"220"	"0"	"4"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement of three coronary arteries"	NA	NA	NA	"7442"	"7920200"	"4675"	"0"	"10"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft replacement of three coronary arteries"	NA	NA	NA	"45886"	"7922200"	"45"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"rima single anastomosis"	NA	NA	NA	"68123"	"7925312"	"2"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"lima single anastomosis"	NA	NA	NA	"22647"	"7925311"	"60"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement of four+ coronary arteries"	NA	NA	NA	"11610"	"7920300"	"2329"	"0"	"4"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft replacement of coronary artery nos"	NA	NA	NA	"48767"	"7922z00"	"12"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other autograft replacement of coronary artery os"	NA	NA	NA	"61310"	"7921y00"	"11"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal placement peripheral stent artery"	NA	NA	NA	"96990"	"7A56600"	"52"	"0"	"0"	"0"	"June 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"lima sequential anastomosis"	NA	NA	NA	"48822"	"7925011"	"61"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified other bypass of coronary artery"	NA	NA	NA	"3159"	"792Dy00"	"285"	"0"	"5"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"connection of other thoracic artery to coronary artery os"	NA	NA	NA	"114069"	"7926y00"	"1"	"0"	"0"	"0"	"August 2019"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percut transluminal balloon angioplasty stenting pulmon art"	NA	NA	NA	"87503"	"7A0A500"	"182"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal stent reconstruction of artery"	NA	NA	NA	"73993"	"7A56100"	"38"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous balloon coronary angioplasty"	NA	NA	NA	"5703"	"7928.11"	"5457"	"0"	"21"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement of coronary artery"	NA	NA	NA	"18249"	"7920.00"	"3683"	"0"	"15"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic replacement of three coronary arteries"	NA	NA	NA	"66236"	"7923200"	"43"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"[v]presence of coronary angioplasty implant and graft"	NA	NA	NA	"18643"	"ZV45800"	"1255"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement of one coronary artery"	NA	NA	NA	"8679"	"7920000"	"764"	"0"	"2"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"connection of other thoracic artery to coronary artery nos"	NA	NA	NA	"72780"	"7926z00"	"2"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"single anastomosis of thoracic artery to coronary artery nec"	NA	NA	NA	"67591"	"7926200"	"3"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"double anastomosis of mammary arteries to coronary arteries"	NA	NA	NA	"33718"	"7925000"	"35"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic bypass of coronary artery"	NA	NA	NA	"36011"	"7923.11"	"155"	"0"	"3"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"coronary artery bypass graft occlusion"	NA	NA	NA	"12734"	"SP07600"	"4531"	"0"	"15"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"insertion of drug-eluting coronary artery stent"	NA	NA	NA	"42304"	"7929500"	"4634"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"diagnostic transluminal operation on coronary artery os"	NA	NA	NA	"56905"	"792Ay00"	"17"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutan transluminal balloon angioplasty stenting renal art"	NA	NA	NA	"68922"	"7A32400"	"21"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft replacement of coronary artery"	NA	NA	NA	"31556"	"7922.00"	"162"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other therapeutic transluminal op on coronary artery nos"	NA	NA	NA	"31679"	"7929z00"	"64"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"single anastomosis of mammary artery to coronary artery nec"	NA	NA	NA	"51507"	"7925300"	"58"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"endarterectomy of coronary artery nec"	NA	NA	NA	"22020"	"792B000"	"985"	"0"	"14"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"endovascular placement of one drug-eluting stent"	NA	NA	NA	"90705"	"7A6N400"	"58"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"perc translumin balloon angioplasty stenting coronary artery"	NA	NA	NA	"43939"	"793G.00"	"17501"	"0"	"15"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"perc transluminal insertion stent superior mesenteric artery"	NA	NA	NA	"98794"	"7A35E00"	"41"	"0"	"0"	"0"	"March 2010"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"repair of coronary artery nos"	NA	NA	NA	"44585"	"792Bz00"	"60"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"autograft replacement of two coronary arteries nec"	NA	NA	NA	"19413"	"7921100"	"117"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"[v]presence of coronary artery bypass graft - cabg"	NA	NA	NA	"5674"	"ZV45K11"	"8052"	"0"	"49"	"2"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement of two coronary arteries"	NA	NA	NA	"7634"	"7920100"	"2040"	"0"	"4"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percut translum cutting balloon angioplasty coronary artery"	NA	NA	NA	"86071"	"7928300"	"44"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"single implantation thoracic artery into coronary artery nec"	NA	NA	NA	"60753"	"7926300"	"3"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of connection of thoracic artery to coronary artery"	NA	NA	NA	"114714"	"7924400"	"0"	"0"	"0"	"0"	"March 2020"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"transluminal balloon angioplasty of coronary artery os"	NA	NA	NA	"41547"	"7928y00"	"331"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"insertion of coronary artery stent"	NA	NA	NA	"8942"	"7929400"	"39143"	"0"	"56"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"connection of mammary artery to coronary artery os"	NA	NA	NA	"37719"	"7925y00"	"15"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"rima sequential anastomosis"	NA	NA	NA	"92233"	"7925012"	"3"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic replacement of four or more coronary arteries"	NA	NA	NA	"67761"	"7923300"	"26"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified repair of coronary artery"	NA	NA	NA	"69247"	"792By00"	"13"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"coronary artery bypass graft operations"	NA	NA	NA	"737"	"792..11"	"71826"	"0"	"2350"	"26"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"saphenous vein graft replacement coronary artery nos"	NA	NA	NA	"51515"	"7920z00"	"353"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other specified revision of bypass for coronary artery"	NA	NA	NA	"97953"	"7924y00"	"2"	"0"	"0"	"0"	"November 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percut transluminal balloon angioplasty one coronary artery"	NA	NA	NA	"18670"	"7928000"	"1926"	"0"	"8"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision of implantation of thoracic artery into heart"	NA	NA	NA	"63153"	"7924500"	"1"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"connection of mammary artery to coronary artery"	NA	NA	NA	"37682"	"7925.00"	"187"	"0"	"2"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"os perc translumina balloon angioplast stenting coronary art"	NA	NA	NA	"96537"	"793Gy00"	"21"	"0"	"0"	"0"	"April 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"[v]status following coronary angioplasty nos"	NA	NA	NA	"6980"	"ZV45L00"	"1163"	"0"	"5"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"perc translum balloon angioplasty insert 1-2 stents cor art"	NA	NA	NA	"85947"	"793G200"	"362"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous coronary intervention"	NA	NA	NA	"105184"	"792E.00"	"28819"	"0"	"8"	"0"	"November 2012"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"revision open autograft replacement intra-articular ligament"	NA	NA	NA	"112857"	"7K6PH00"	"1"	"0"	"0"	"0"	"September 2018"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"percutaneous transluminal angioplasty of vascular graft"	NA	NA	NA	"66921"	"7A6H400"	"29"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other autograft replacement of coronary artery nos"	NA	NA	NA	"7609"	"7921z00"	"21"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"prosthetic replacement of coronary artery nos"	NA	NA	NA	"19193"	"7923z00"	"8"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"autograft replacement of one coronary artery nec"	NA	NA	NA	"44561"	"7921000"	"100"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"open angioplasty of coronary artery"	NA	NA	NA	"5744"	"7927500"	"6652"	"0"	"79"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"single implantation of mammary artery into coronary artery"	NA	NA	NA	"68139"	"7925400"	"27"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"[v]presence of aortocoronary bypass graft"	NA	NA	NA	"18913"	"ZV45700"	"75"	"0"	"1"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other bypass of coronary artery nos"	NA	NA	NA	"33471"	"792Dz00"	"1345"	"0"	"3"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"diagnostic transluminal operations on coronary artery"	NA	NA	NA	"34965"	"792A.00"	"174"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"other replacement of coronary artery"	NA	NA	NA	"55598"	"792C.00"	"132"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"mechanical complication of coronary bypass"	NA	NA	NA	"69776"	"SP00300"	"14"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"repair of coronary sinus abnormality"	NA	NA	NA	"101639"	"790F300"	"21"	"0"	"0"	"0"	"February 2011"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"allograft replacement of two coronary arteries"	NA	NA	NA	"57241"	"7922100"	"30"	"0"	"0"	"0"	"February 2009"
+"gold_coronary_revascularisation"	NA	NA	NA	NA	"referral to community parkinson disease clin nurse spcialist"	NA	NA	NA	"109107"	"8Hx0.00"	"116"	"0"	"345"	"0"	"January 2015"
+"gold_MI"	NA	NA	NA	NA	"acute transmural myocardial infarction of unspecif site"	NA	NA	NA	"29758"	"G30X.00"	"300"	"0"	"5"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"lateral myocardial infarction nos"	NA	NA	NA	"14898"	"G305.00"	"1140"	"0"	"9"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"postoperative transmural myocardial infarction anterior wall"	NA	NA	NA	"46112"	"G380.00"	"8"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"postoperative subendocardial myocardial infarction"	NA	NA	NA	"41835"	"G384.00"	"42"	"0"	"1"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"old myocardial infarction"	NA	NA	NA	"4017"	"G32..00"	"15026"	"0"	"278"	"13"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"h/o: myocardial infarct >60"	NA	NA	NA	"40399"	"14A4.00"	"3298"	"0"	"4"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"diab mellit insulin-glucose infus acute myocardial infarct"	NA	NA	NA	"61670"	"889A.00"	"11"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"postmyocardial infarction syndrome"	NA	NA	NA	"23579"	"G310.00"	"144"	"0"	"4"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"other acute myocardial infarction nos"	NA	NA	NA	"46017"	"G30yz00"	"1783"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"acute myocardial infarction nos"	NA	NA	NA	"14658"	"G30z.00"	"116487"	"0"	"6259"	"5"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"true posterior myocardial infarction"	NA	NA	NA	"63467"	"G306.00"	"83"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"h/o: myocardial infarct <60"	NA	NA	NA	"35674"	"14A3.00"	"4811"	"0"	"4"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"acute myocardial infarction"	NA	NA	NA	"241"	"G30..00"	"319740"	"0"	"10924"	"75"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"subsequent myocardial infarction of other sites"	NA	NA	NA	"72562"	"G353.00"	"12"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"postoperative transmural myocardial infarction inferior wall"	NA	NA	NA	"46276"	"G381.00"	"50"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"postoperative transmural myocardial infarction unspec site"	NA	NA	NA	"106812"	"G383.00"	"3"	"0"	"0"	"0"	"August 2013"
+"gold_MI"	NA	NA	NA	NA	"postoperative myocardial infarction"	NA	NA	NA	"32272"	"G38..00"	"317"	"0"	"7"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"[v]observation for suspected myocardial infarction"	NA	NA	NA	"12541"	"ZV71900"	"255"	"0"	"16"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"certain current complication follow acute myocardial infarct"	NA	NA	NA	"36423"	"G36..00"	"35"	"0"	"1"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"subsequent myocardial infarction"	NA	NA	NA	"18842"	"G35..00"	"505"	"0"	"9"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"other acute myocardial infarction"	NA	NA	NA	"34803"	"G30y.00"	"511"	"0"	"1"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"ecg: myocardial infarct nos"	NA	NA	NA	"59032"	"323Z.00"	"5"	"0"	"3"	"265"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"exception reporting: myocardial infarction quality indicator"	NA	NA	NA	"100437"	"9hM..00"	"103"	"0"	"0"	"0"	"August 2010"
+"gold_MI"	NA	NA	NA	NA	"[x]acute transmural myocardial infarction of unspecif site"	NA	NA	NA	"96838"	"Gyu3400"	"4"	"0"	"0"	"0"	"May 2009"
+"gold_MI"	NA	NA	NA	NA	"ecg: myocardial infarction"	NA	NA	NA	"7783"	"323..00"	"489"	"0"	"89"	"1473"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"inferior myocardial infarction nos"	NA	NA	NA	"1678"	"G308.00"	"21967"	"0"	"218"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"h/o: myocardial infarction in last year"	NA	NA	NA	"50372"	"14AH.00"	"191"	"0"	"1"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"acute posterolateral myocardial infarction"	NA	NA	NA	"32854"	"G30B.00"	"110"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"subsequent myocardial infarction of unspecified site"	NA	NA	NA	"46166"	"G35X.00"	"25"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"postoperative myocardial infarction, unspecified"	NA	NA	NA	"68748"	"G38z.00"	"24"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"ecg: old myocardial infarction"	NA	NA	NA	"39904"	"3232.00"	"81"	"0"	"10"	"816"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"acute st segment elevation myocardial infarction"	NA	NA	NA	"12229"	"G30X000"	"48800"	"0"	"74"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"healed myocardial infarction"	NA	NA	NA	"16408"	"G32..11"	"451"	"0"	"28"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"personal history of myocardial infarction"	NA	NA	NA	"17464"	"G32..12"	"1460"	"0"	"36"	"3"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"[x]subsequent myocardial infarction of unspecified site"	NA	NA	NA	"99991"	"Gyu3600"	"8"	"0"	"0"	"0"	"June 2010"
+"gold_MI"	NA	NA	NA	NA	"silent myocardial infarction"	NA	NA	NA	"17689"	"G30..17"	"711"	"0"	"12"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"heart attack"	NA	NA	NA	"1204"	"G30..14"	"6393"	"0"	"300"	"4"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"mi - acute myocardial infarction"	NA	NA	NA	"1677"	"G30..15"	"121094"	"0"	"1121"	"15"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"cardiac rupture following myocardial infarction (mi)"	NA	NA	NA	"30421"	"G30..13"	"268"	"0"	"5"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"subsequent myocardial infarction of inferior wall"	NA	NA	NA	"38609"	"G351.00"	"96"	"0"	"1"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"subsequent myocardial infarction of anterior wall"	NA	NA	NA	"45809"	"G350.00"	"83"	"0"	"0"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"[x]subsequent myocardial infarction of other sites"	NA	NA	NA	"109035"	"Gyu3500"	"2"	"0"	"0"	"0"	"January 2015"
+"gold_MI"	NA	NA	NA	NA	"posterior myocardial infarction nos"	NA	NA	NA	"23892"	"G304.00"	"1375"	"0"	"5"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"history of myocardial infarction"	NA	NA	NA	"100139"	"14AT.00"	"716"	"0"	"30"	"0"	"July 2010"
+"gold_MI"	NA	NA	NA	NA	"acute non-st segment elevation myocardial infarction"	NA	NA	NA	"10562"	"G307100"	"114793"	"0"	"193"	"1"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"anterior myocardial infarction nos"	NA	NA	NA	"14897"	"G301z00"	"7391"	"0"	"14"	"0"	"February 2009"
+"gold_MI"	NA	NA	NA	NA	"other specified anterior myocardial infarction"	NA	NA	NA	"5387"	"G301.00"	"3300"	"0"	"60"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary thrombosis not resulting in myocardial infarction"	NA	NA	NA	"39449"	"G312.00"	"139"	"0"	"0"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"subendocardial ischaemia"	NA	NA	NA	"39693"	"G31y200"	"161"	"0"	"3"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"other acute and subacute ischaemic heart disease"	NA	NA	NA	"27951"	"G31..00"	"327"	"0"	"5"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"h/o acute coronary syndrome"	NA	NA	NA	"105216"	"14AW.00"	"782"	"0"	"14"	"0"	"November 2012"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"h/o: treatment for ischaemic heart disease"	NA	NA	NA	"45476"	"14AL.00"	"143"	"0"	"1"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary microvascular disease"	NA	NA	NA	"105479"	"G39..00"	"356"	"0"	"2"	"0"	"December 2012"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"cardiovascular disease, unspecified"	NA	NA	NA	"22672"	"G5yX.00"	"2005"	"0"	"16"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary heart disease review"	NA	NA	NA	"10260"	"6A4..00"	"67558"	"0"	"238"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"transient myocardial ischaemia"	NA	NA	NA	"21844"	"G31y300"	"512"	"0"	"5"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary heart disease leaflet given"	NA	NA	NA	"100496"	"8CEJ.00"	"175"	"0"	"0"	"0"	"August 2010"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"admit ischaemic heart disease emergency"	NA	NA	NA	"95550"	"8H2V.00"	"50"	"0"	"7"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"cardiovascular disease annual review"	NA	NA	NA	"48980"	"66f0.00"	"81594"	"0"	"59"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"atherosclerotic heart disease"	NA	NA	NA	"20416"	"G3...12"	"2745"	"0"	"9"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"ihd - ischaemic heart disease"	NA	NA	NA	"1792"	"G3...13"	"188673"	"0"	"3301"	"10"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"single coronary vessel disease"	NA	NA	NA	"3999"	"G340000"	"8935"	"0"	"35"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"ecg: myocardial ischaemia nos"	NA	NA	NA	"35287"	"322Z.00"	"10"	"0"	"1"	"133"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary heart disease annual review"	NA	NA	NA	"18135"	"6A2..00"	"678580"	"0"	"748"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"[x]cardiovascular disease, unspecified"	NA	NA	NA	"99051"	"Gyu5g00"	"29"	"0"	"0"	"0"	"April 2010"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"arteriosclerotic heart disease"	NA	NA	NA	"24783"	"G3...11"	"1097"	"0"	"1"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"excepted cvd quality indicators: patient unsuitabl"	NA	NA	NA	"97270"	"9hJ0.00"	"7909"	"0"	"0"	"0"	"August 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"double coronary vessel disease"	NA	NA	NA	"5254"	"G340100"	"5543"	"0"	"21"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"cardiac diseases"	NA	NA	NA	"13250"	"G....12"	"875"	"0"	"57"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"h/o: cardiovascular disease"	NA	NA	NA	"10444"	"14A..00"	"13505"	"0"	"26"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"ischaemic heart disease"	NA	NA	NA	"240"	"G3...00"	"759312"	"0"	"11647"	"1653"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary heart disease care plan"	NA	NA	NA	"103932"	"8CMP.00"	"14078"	"0"	"1"	"0"	"March 2012"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"other specified chronic ischaemic heart disease"	NA	NA	NA	"34633"	"G34y.00"	"96"	"0"	"3"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"[x]other forms of acute ischaemic heart disease"	NA	NA	NA	"68401"	"Gyu3200"	"16"	"0"	"0"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"other specified ischaemic heart disease"	NA	NA	NA	"22383"	"G3y..00"	"1170"	"0"	"1"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"excepted cvd quality indicators: informed dissent"	NA	NA	NA	"97428"	"9hJ1.00"	"7967"	"0"	"0"	"0"	"August 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"chronic myocardial ischaemia"	NA	NA	NA	"23078"	"G34y100"	"2341"	"0"	"16"	"1"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"other acute and subacute ischaemic heart disease"	NA	NA	NA	"9413"	"G31y.00"	"142"	"0"	"4"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary heart disease medication review"	NA	NA	NA	"11648"	"8B3k.00"	"154322"	"0"	"60"	"4"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"[x]other forms of chronic ischaemic heart disease"	NA	NA	NA	"47637"	"Gyu3300"	"18"	"0"	"0"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"ecg: myocardial ischaemia"	NA	NA	NA	"8246"	"322..00"	"787"	"0"	"143"	"2382"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"asymptomatic coronary heart disease"	NA	NA	NA	"18889"	"G34z000"	"1446"	"0"	"8"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"other chronic ischaemic heart disease"	NA	NA	NA	"28138"	"G34..00"	"987"	"0"	"4"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"ischaemic cardiomyopathy"	NA	NA	NA	"7320"	"G343.00"	"3843"	"0"	"43"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"silent myocardial ischaemia"	NA	NA	NA	"29421"	"G344.00"	"821"	"0"	"27"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"ecg:shows myocardial ischaemia"	NA	NA	NA	"26973"	"3222.00"	"63"	"0"	"8"	"789"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary artery disease"	NA	NA	NA	"1344"	"G340.12"	"66551"	"0"	"699"	"11"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"thrombosis - coronary"	NA	NA	NA	"13571"	"G30..16"	"548"	"0"	"0"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"coronary thrombosis"	NA	NA	NA	"2491"	"G30..12"	"3767"	"0"	"162"	"1"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"[x]ischaemic heart diseases"	NA	NA	NA	"52517"	"Gyu3.00"	"2887"	"0"	"14"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"acute coronary syndrome"	NA	NA	NA	"11983"	"G311500"	"49600"	"0"	"265"	"0"	"February 2009"
+"gold_ischaemic_heart_disease"	NA	NA	NA	NA	"atherosclerotic cardiovascular disease"	NA	NA	NA	"36609"	"G342.00"	"490"	"0"	"1"	"0"	"February 2009"

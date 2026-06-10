@@ -2,7 +2,7 @@
 # Generate code lists for Hypertension
 # Authors: SM Wu & S Picton
 # Date Created: 2026/04/08
-# Date Updated: 2026/04/15
+# Date Updated: 2026/05/27
 # 
 # Details:
 # 1) Set up and load data
@@ -118,109 +118,95 @@ gold_hypertension_old <- read_delim(
 
 aurum_hypertension <- cprd_aurum_medical %>%
   
-  # Inclusion - Hypertension related terms,  
+  # Inclusion - Hypertension related terms, 
+  
   filter(grepl(paste0("(?i)hypertension|hypertensive|high blood pressure|high diastolic|high systolic"), 
                term)) %>%
 
-
-
-
-# Exclusion - Unrelated terms 
+  # Exclusion - Unrelated terms 
   
+   filter(!grepl(paste0("(?i)pulmonary|intracranial|intracranial|ocular|ocular",
+                        
+   # Relating to pregnancy
+   
+   "pregnancy|pregnant|obstetric|maternal|pre-eclampsia|gestational|preg.|preg/childb/puerp","maternal", 
+   
+   # Relating to family history 
+   
+   "family history|fh:|no fh:|no significant family history|	
+  no family history|	
+  no family history|no family history of|family history|family history of hypertension|family", 
+   
+   # Relating to children 
+   
+   "child|paediatric|infant|infancy|newborn|fetus|neonate|neonatal","neonatal effect",
+   
+   # Negation 
+   
+   "no history of|no h/o:|not to have|resolved|resolved|not required|not diagnosed|",
+   
+   # Process of care 
+   
+   "has-bled|abnormal renal|chads2|cha2ds2-vasc|screen|screening|prehypertension"),
+   
+   term, perl = TRUE)) %>% 
+   
+   # Filter out family history codes
+   
+   filter(!grepl("family history:[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE))  %>%
+  filter(!grepl("family history[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE)) %>%
+    
+    # Filter out neonatal codes 
+    
+  filter(!grepl("neonatal[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE)) %>% 
+  filter(!grepl("neonatal[-_ ]*hypertensive", term, ignore.case = TRUE, perl =  TRUE)) %>%
   
- filter(!grepl(paste0("(?i)pulmonary|intracranial|intracranial|ocular|ocular",
-                      
-                      
- # Relating to pregnancy 
- 
- "pregnancy|pregnant|obstetric|maternal|pre-eclampsia|gestational|preg.|preg/childb/puerp","maternal", 
- 
- 
- # Relating to family history 
- 
- "family history|fh:|no fh:|no significant family history|	
-no family history|	
-no family history|no family history of|family history|family history of hypertension|family", 
- 
- # Relating to children 
- 
- "child|paediatric|infant|infancy|newborn|fetus|neonate|neonatal","neonatal effect",
- 
- # Negation 
- 
- "no history of|no h/o:|not to have|resolved|resolved",
- 
- # Process of care 
- 
- 
- "has-bled|abnormal renal|chads2|cha2ds2-vasc|screening"),
- 
- term, perl = TRUE)) %>% 
- 
- # Filter out family history codes
- 
- filter(!grepl("family history:[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE))  %>%
-
-filter(!grepl("family history[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE)) %>%
+  # Filter out pulmonary hypertension codes
   
-  # Filter out neonatal codes 
+  filter(!grepl("pulmonary[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE))  
   
-filter(!grepl("neonatal[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE)) %>% 
-filter(!grepl("neonatal[-_ ]*hypertensive", term, ignore.case = TRUE, perl =  TRUE)) %>%
-
-# Filter out pulmonary hypertension codes
-
-filter(!grepl("pulmonary[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE))  
-
 
 
 # Gold
 
 gold_hypertension <- cprd_gold_medical %>%
   
-  # Inclusion - Hypertension related terms,  
+  # Inclusion - Hypertension related terms, 
+  
   filter(grepl(paste0("(?i)hypertension|hypertensive|high blood pressure|high diastolic|high systolic"), 
                term)) %>%
   
-  
-  
-  
   # Exclusion - Unrelated terms 
-  
   
   filter(!grepl(paste0("(?i)pulmonary|intracranial|intracranial|ocular|ocular",
                        
+                       # Relating to pregnancy
                        
- # Relating to pregnancy 
+                       "pregnancy|pregnant|obstetric|maternal|pre-eclampsia|gestational|preg.|preg/childb/puerp","maternal", 
                        
-"pregnancy|pregnant|obstetric|maternal|pre-eclampsia|gestational|preg.|preg/childb/puerp","maternal", 
+                       # Relating to family history 
                        
+                       "family history|fh:|no fh:|no significant family history|	
+  no family history|	
+  no family history|no family history of|family history|family history of hypertension|family", 
                        
- # Relating to family history 
+                       # Relating to children 
                        
- "family history|fh:|no fh:|no significant family history|	
-no family history|	
-no family history|no family history of|family history|family history of hypertension|family", 
+                       "child|paediatric|infant|infancy|newborn|fetus|neonate|neonatal","neonatal effect",
                        
-# Relating to children 
+                       # Negation 
                        
-"child|paediatric|infant|infancy|newborn|fetus|neonate|neonatal","neonatal effect",
+                       "no history of|no h/o:|not to have|resolved|resolved|not required|not diagnosed|",
                        
-# Negation 
+                       # Process of care 
                        
-"no history of|no h/o:|not to have|resolved|resolved",
-                       
-# Process of care 
-                       
-                       
- "has-bled|abnormal renal|chads2|cha2ds2-vasc|screening|screen"),
+                       "has-bled|abnormal renal|chads2|cha2ds2-vasc|screen|screening|prehypertension"),
                 
                 term, perl = TRUE)) %>% 
   
   # Filter out family history codes
   
   filter(!grepl("family history:[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE))  %>%
-  
   filter(!grepl("family history[-_ ]*hypertension", term, ignore.case = TRUE, perl =  TRUE)) %>%
   
   # Filter out neonatal codes 
@@ -246,8 +232,6 @@ new_gold <- gold_hypertension %>%
 # Old codes not in new old list
 miss_new_aurum <- aurum_hypertension_old %>%
   filter(!medcodeid %in% aurum_hypertension$medcodeid)
-
-
 
 miss_new_gold <- gold_hypertension_old %>%
   filter(!medcode %in% gold_hypertension$medcode)
